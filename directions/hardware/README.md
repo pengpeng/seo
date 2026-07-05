@@ -23,7 +23,7 @@
 - `05-workstation/` — 工作站：research 待做；reports 待做
 - `06-ai-nas/` — AI NAS（含高端发烧）：research `ai-nas`（合并高端机型）；reports 细类 `ai-nas/`(ugreen-nas/zspace/zimaos-zimacube；高端机型产品报告亦落此)
 - `07-enterprise-nas/` — 企业/机架/商用 NAS：research `enterprise-nas`；reports 待做（`.gitkeep`）
-- `08-nas-os/` — 个人云/NAS OS 竞品：reports `truenas`/`unraid`/`casaos`/`umbrel`（无 research，OS 层竞品）
+- `08-nas-os/` — 个人云/NAS OS 竞品：reports `truenas`/`unraid`/`casaos`/`umbrel`（飞牛 fnOS 待做；无 research，OS 层竞品）
 
 ## 命名约定
 

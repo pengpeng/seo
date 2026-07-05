@@ -195,6 +195,7 @@ ROG NUC 是把"5090/5080 Mobile + Core Ultra HX + 大内存"塞进 <3L 迷你盒
 | Unraid | NAS / 家庭服务器 OS | [unraid.net](https://unraid.net/) | ✅ [unraid](/Users/pengpeng/seo/directions/hardware/reports/08-nas-os/unraid.md) |
 | CasaOS | 轻量家庭云 OS（`zimaos vs casaos` KD7）| [casaos.io](https://casaos.io/) | ✅ [casaos](/Users/pengpeng/seo/directions/hardware/reports/08-nas-os/casaos.md) |
 | Umbrel | 家庭服务器 OS + umbrel-home 硬件 | [umbrel.com](https://umbrel.com/) | ✅ [umbrel](/Users/pengpeng/seo/directions/hardware/reports/08-nas-os/umbrel.md) |
+| 飞牛 fnOS | 国产个人云 NAS OS（Debian 系，闭源、个人免费/商用授权）；对标个人云 OS，Olares 开源全栈是差异点 | [fnnas.com](https://www.fnnas.com/) | ⬜ 待做 |
 
 ---
 
