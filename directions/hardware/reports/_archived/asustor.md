@@ -27,4 +27,4 @@ Rank 75,720 | 月流量 26,138 | 估值 $7,399
 |---|--------|----|----|---------|
 | 1 | asustor vs synology | 90 | **11** | 三方横评：Asustor vs Synology vs Olares One |
 
-> 同批 NAS 竞品：[terramaster](/Users/pengpeng/seo/directions/hardware/reports/terramaster.md)、[ugreen-nas](/Users/pengpeng/seo/directions/hardware/reports/ugreen-nas.md)、[wd-mycloud](/Users/pengpeng/seo/directions/hardware/reports/wd-mycloud.md)、[synology](/Users/pengpeng/seo/directions/hardware/reports/synology.md)。
+> 同批 NAS 竞品：[terramaster](/Users/pengpeng/seo/directions/hardware/reports/_archived/terramaster.md)、[ugreen-nas](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/ugreen-nas.md)、[wd-mycloud](/Users/pengpeng/seo/directions/hardware/reports/_archived/wd-mycloud.md)、[synology](/Users/pengpeng/seo/directions/hardware/reports/_archived/synology.md)。

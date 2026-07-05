@@ -66,7 +66,16 @@ Olares 上最大的用户价值是运行**私人 AI Agent**——一个代你行
 
 ## 基本事实（引用前以 olares.com / docs.olares.com / GitHub 核实）
 
-开源 **AGPL-3.0** ｜ 2022 年诞生 ｜ 系统要求 Ubuntu 24.04 LTS+ / Debian 11+ ｜ 版本语义化、月度稳定版，当前世代 **1.12.x**。
+开源 **AGPL-3.0** ｜ 2022 年诞生 ｜ 版本语义化、月度稳定版，当前世代 **1.12.x**。
+
+**安装平台矩阵（务必按此口径，别再误写"只支持 x86/不支持 ARM/Mac"，以 docs.olares.com 为准）**：Olares **跨平台**，几乎任何设备都能装——
+- **Linux**：script（`curl -fsSL https://olares.sh | bash -`，Ubuntu 22.04–25.04 / Debian 12–13）或**裸机 ISO**。**唯一的 x86-64 限制在 ISO 安装器**（"ARM is not currently supported"）；script 路径含 ARM。
+- **Raspberry Pi（ARM）**：4B/5、Raspbian 12、8GB，用同一 script → 证明 **ARM Linux 可装**。
+- **macOS（含 Apple Silicon）**：Monterey 12+，script/Docker 安装；**有限制**（无分布式存储、不能加本地节点）——是"在 macOS 上跑一层"，非替换系统。
+- **Windows 10/11**：script/WSL2。
+- **GPU 加速（口径已更新 2026-07，以 docs.olares.com / GitHub beclab/Olares 为准）**：**NVIDIA 最成熟**——自动检测 + 自动装驱动 + CUDA，Turing/Ampere/Ada/Blackwell（≥8GB），覆盖全部 AI 应用（Ollama/ComfyUI/SD）；**AMD 已支持**——含 Ryzen AI Max APU / Radeon，经 ROCm（系统级自动检测在 1.12.4 起逐步落地、1.12.6/1.12.7 加调度器 GPU 标签）；**Intel 核显已支持**（检测 + Windows VM iGPU passthrough，1.12.5/1.12.6）；**仅 Apple GPU(Metal) 不被 Olares AI 应用加速**（macOS 是 Docker 层）。跨 app 成熟度随版本推进（部分 CUDA-only 应用在非 NVIDIA 上覆盖较窄），引用前以官方/GitHub 复核具体版本。
+
+**Olares One 只是官方选了 x86-64 + NVIDIA 做最佳开箱体验**，不代表 Olares 只支持 x86。对硬件人群的两条信息因此是：**A 买 Olares One**（满血软硬一体机）；**B 在已购设备上装 Olares**（跨平台都能装，差异在体验层级：x86-64 Linux + NVIDIA = 满血裸机；AMD/Intel GPU 亦被加速；Mac/Windows = 现有系统上跑一层、有功能限制、Apple GPU 不被加速；ARM Linux = script 路径）。
 
 ---
 

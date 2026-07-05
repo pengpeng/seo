@@ -25,4 +25,4 @@
 - **qnap vs synology（KD=15）**：QNAP 和群晖的对比词，Olares 做一篇"Synology vs QNAP vs Olares"对比文覆盖两条词链路。
 - QNAP 产品页面（ts-264、tr-004等型号词）占主要流量——说明用户在搜具体型号，Olares One 的型号词是内容机会。
 
-> Synology 主品牌数据与 synology alternative 词见 [synology](/Users/pengpeng/seo/directions/hardware/reports/synology.md)。
+> Synology 主品牌数据与 synology alternative 词见 [synology](/Users/pengpeng/seo/directions/hardware/reports/_archived/synology.md)。

@@ -38,4 +38,4 @@ Rank N/A | 月流量 57,972 | 估值 $38,667
 | 1 | **ugreen nas vs synology** | 210 | **13** | AI NAS 对比，Olares One 差异化 |
 | 2 | **ugreen nas review** | 480 | **19** | 绿联 NAS 评测 + Olares One 对比 |
 
-> 同批 NAS 竞品：[asustor](/Users/pengpeng/seo/directions/hardware/reports/asustor.md)、[terramaster](/Users/pengpeng/seo/directions/hardware/reports/terramaster.md)、[wd-mycloud](/Users/pengpeng/seo/directions/hardware/reports/wd-mycloud.md)。新兴 AI NAS 品牌格局综述见 [ai-newbrands](/Users/pengpeng/seo/directions/hardware/reports/ai-newbrands.md)。
+> 同批 NAS 竞品（均已归档）：[asustor](/Users/pengpeng/seo/directions/hardware/reports/_archived/asustor.md)、[terramaster](/Users/pengpeng/seo/directions/hardware/reports/_archived/terramaster.md)、[wd-mycloud](/Users/pengpeng/seo/directions/hardware/reports/_archived/wd-mycloud.md)、[ai-newbrands](/Users/pengpeng/seo/directions/hardware/reports/_archived/ai-newbrands.md)。同组其它 AI NAS 报告见 [zspace](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/zspace.md)、[zimaos-zimacube](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/zimaos-zimacube.md)。

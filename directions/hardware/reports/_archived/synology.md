@@ -43,4 +43,4 @@
 - **heic to jpg（246,000月搜）靠工具页排名**——Synology 通过 KB 文章中的格式转换工具页排名高量词，这是 Olares 博客/工具页可以学习的策略。
 - **bee station（1,000月搜，KD=49）**：群晖推出了 BeeStation 家用云盘，和 Olares One 直接竞争。
 
-> QNAP 对比（qnap vs synology 等）见 [qnap](/Users/pengpeng/seo/directions/hardware/reports/qnap.md)。
+> QNAP 对比（qnap vs synology 等）见 [qnap](/Users/pengpeng/seo/directions/hardware/reports/_archived/qnap.md)。

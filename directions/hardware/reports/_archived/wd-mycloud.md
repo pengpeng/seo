@@ -35,4 +35,4 @@ Rank 4,850 | 月流量 487,392 | 估值 $259,571
 |---|--------|----|----|---------|
 | 1 | my cloud home | 1,900 | **37** | Olares One vs WD My Cloud Home 家用云盘对比 |
 
-> 同批 NAS 竞品：[asustor](/Users/pengpeng/seo/directions/hardware/reports/asustor.md)、[terramaster](/Users/pengpeng/seo/directions/hardware/reports/terramaster.md)、[ugreen-nas](/Users/pengpeng/seo/directions/hardware/reports/ugreen-nas.md)。
+> 同批 NAS 竞品：[asustor](/Users/pengpeng/seo/directions/hardware/reports/_archived/asustor.md)、[terramaster](/Users/pengpeng/seo/directions/hardware/reports/_archived/terramaster.md)、[ugreen-nas](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/ugreen-nas.md)。
