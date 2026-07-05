@@ -1,0 +1,129 @@
+# OpenAI SEO 竞品分析报告
+> SEMrush US | 2026-07-02 | 域名：openai.com | 场景：ChatGPT / GPT-5 / Sora / DALL-E / API
+
+---
+
+## 流量基线（Phase 1）
+
+### 概览
+
+| 指标 | 数据 |
+|------|------|
+| 域名 | openai.com |
+| SEMrush Rank | 208 |
+| 月自然流量（美国） | **11,854,342** |
+| 关键词数 | 468,536 |
+| 流量估值 | **$28,279,082/月**（本组最高） |
+| TOP 1-3 词数 | 40,463 |
+
+### 官网 TOP 关键词（全量，按流量排序）
+
+| 关键词 | 排名 | 月搜索量 | KD | 流量 | 意图 | URL |
+|--------|------|---------|-----|------|------|-----|
+| openai | 1 | 2,240,000 | 100 | 1,792,000 | 导航 | openai.com |
+| chatgpt | 2 | 68,000,000 | 100 | 1,768,000 | 导航 | openai.com |
+| chatgpt（位置 3） | 3 | 68,000,000 | 100 | 1,224,000 | 导航 | openai.com/index/chatgpt |
+| chat gpt | 2 | 37,200,000 | 100 | 967,200 | 导航 | openai.com/index/chatgpt |
+| chat gpt（位置 3） | 3 | 37,200,000 | 100 | 669,600 | 导航 | openai.com/index/gpt-4 |
+| openai news | 1 | 673,000 | 79 | 538,400 | 信息 | openai.com/news |
+| chatgpt（位置 6） | 6 | 68,000,000 | 100 | 408,000 | 导航 | openai.com/index/gpt-4 |
+| open ai | 1 | 368,000 | 98 | 294,400 | 导航 | openai.com |
+| gpt | 2 | 1,830,000 | 100 | 150,060 | 信息 | openai.com/index/gpt-4 |
+| gpt | 3 | 1,830,000 | 100 | 118,950 | 信息 | openai.com/gpt-5 |
+| sora 2 | 1 | 301,000 | 82 | 74,648 | 信息 | openai.com/index/sora-2 |
+| chat | 3 | 2,740,000 | 100 | 65,760 | 信息 | openai.com/index/chatgpt |
+| chat gbt（拼写错误） | 2 | 2,240,000 | 100 | 58,240 | 导航 | openai.com/index/chatgpt |
+| chatgbt（拼写错误） | 2 | 2,240,000 | 79 | 58,240 | 导航 | openai.com/index/chatgpt |
+| openai api | 1 | 40,500 | 70 | 32,400 | 商业 | openai.com/api |
+| open | 1 | 201,000 | 65 | 26,532 | 信息 | openai.com |
+| gpt 5 | 1 | 33,100 | 80 | 26,480 | 信息 | openai.com/gpt-5 |
+| chat gtp（拼写错误） | 2 | 1,000,000 | 100 | 26,000 | 导航 | openai.com/index/chatgpt |
+| chat got（拼写错误） | 2 | 823,000 | 100 | 21,398 | 导航 | openai.com/index/chatgpt |
+| sora ai | 3 | 246,000 | 72 | 20,172 | 信息 | help.openai.com（停用页！） |
+| is chatgpt down | 1 | 74,000 | 53 | 18,352 | 信息 | status.openai.com |
+| chatgpt api | 1 | 22,200 | 77 | 17,760 | 商业 | openai.com/api |
+| openai api key | 1 | 22,200 | 84 | 17,760 | 商业 | platform.openai.com |
+| openai careers | 1 | 22,200 | 52 | 17,760 | 信息 | openai.com/careers |
+| sora 2（位置 2） | 2 | 301,000 | 82 | 14,520 | 信息 | openai.com/index/sora-2 |
+| gpt5 | 1 | 18,100 | 83 | 14,480 | 信息 | openai.com/gpt-5 |
+| sora | 3 | 1,000,000 | 93 | 14,000 | 信息 | help.openai.com（停用）|
+| codex | 1 | 165,000 | 92 | 13,530 | 信息 | developers.openai.com/codex/app |
+| open ai api | 1 | 14,800 | 99 | 11,840 | 商业 | openai.com/api |
+| openai updates | 1 | 14,800 | 82 | 11,840 | 信息 | help.openai.com |
+| chatgpt status | 1 | 14,800 | 60 | 11,840 | 信息 | status.openai.com |
+| caht（拼写错误） | 3 | 246,000 | 31 | 10,824 | 信息 | chat.openai.com/chat |
+| chatgpt news | 1 | 40,500 | 85 | 10,044 | 信息 | openai.com/news |
+| openai news today | 1 | 550,000 | 74 | 9,900 | 信息 | openai.com/news |
+| open ai careers | 1 | 12,100 | 46 | 9,680 | 信息 | openai.com/careers |
+| dall e | 1 | 33,100 | 100 | 8,208 | 信息 | openai.com/index/dall-e-3 |
+| gpt4 | 1 | 33,100 | 84 | 8,208 | 信息 | openai.com/index/gpt-4-research |
+| chatgpt login | 2 | 673,000 | 100 | 17,498 | 导航 | openai.com/index/chatgpt |
+| gpt chat | 2 | 673,000 | 100 | 17,498 | 信息 | openai.com/index/chatgpt |
+| sora chatgpt | 1 | 33,100 | 71 | 8,208 | 信息 | help.openai.com（Sora 停用）|
+| chat gtp | 4 | 1,000,000 | 100 | 8,000 | 导航 | openai.com/index/gpt-4 |
+| openai news（位置 2）| 2 | 673,000 | 79 | 17,498 | 信息 | openai.com |
+| laptop and deals（借力词）| 1 | 49,500 | 74 | 6,534 | 商业 | openai.com（unexpected）|
+| dell support（借力词）| — | — | — | — | — | — |
+| openai news（位置 3）| 3 | 673,000 | 79 | 12,114 | 信息 | openai.com/news/product-releases |
+| openai vs anthropic | — | — | — | — | — | — |
+| gpt5 | 1 | 18,100 | 83 | 14,480 | 信息 | openai.com/gpt-5 |
+
+---
+
+## 关键词扩展（Phase 2，有搜索量词）
+
+| 关键词 | 月搜索量 | KD | CPC | 意图 |
+|--------|---------|-----|-----|------|
+| openai api | 40,500 | 100 | $7.31 | 商业 |
+| openai api key | 22,200 | 84 | $8.34 | 商业 |
+| chatgpt alternative | 18,100 | 47 | $1.31 | 信息 |
+| openai pricing | 4,400 | 64 | $8.42 | 商业 |
+| chatgpt alternative free | 2,400 | 57 | $1.25 | 信息 |
+| chatgpt privacy | 1,300 | 42 | $1.47 | 信息 |
+| openai enterprise | 590 | 80 | $5.78 | 商业 |
+| open source chatgpt | 210 | 58 | $1.76 | 信息 |
+| ollama openai | 140 | 35 | $0 | 信息 |
+| ⭐⭐⭐⭐ openai vs claude | 70 | **15** | $3.76 | 信息（KD=15！） |
+| ⭐⭐⭐ openai alternative | 110 | **30** | $2.71 | 信息 |
+
+---
+
+## Olares 关联词（Phase 3）
+
+**对应 Olares 方案：** Open WebUI + Ollama（本地 ChatGPT）、Olares Vault（API Key 管理）
+
+| 关键词 | 月搜索量 | KD | CPC | Olares 切入角度 |
+|--------|---------|-----|-----|----------------|
+| ⭐⭐⭐⭐⭐ chatgpt alternative | 18,100 | 47 | $1.31 | Open WebUI on Olares = 完整本地 ChatGPT，无订阅费、数据本地 |
+| ⭐⭐⭐⭐⭐ openai vs claude | 70 | **15** | $3.76 | KD=15！三方对比文：OpenAI vs Claude vs Ollama on Olares |
+| ⭐⭐⭐⭐ chatgpt alternative free | 2,400 | 57 | $1.25 | Open WebUI + Qwen3 on Olares = 真正免费的 ChatGPT 替代 |
+| ⭐⭐⭐ chatgpt privacy | 1,300 | 42 | $1.47 | Olares 本地 ChatGPT：对话永不离开本机，100% 私有 |
+| ⭐⭐⭐ openai alternative | 110 | **30** | $2.71 | 本地 OpenAI API 替代：Ollama on Olares，OpenAI 兼容格式 |
+| ⭐⭐ ollama openai | 140 | 35 | $0 | "Ollama 替代 OpenAI API"教程：Olares 一键搭建 |
+| openai api key | 22,200 | 84 | $8.34 | Olares Vault 统一管理 OpenAI Key，防泄露审计 |
+
+---
+
+## 优先行动清单
+
+| # | 关键词 | 量 | KD | 内容方向 |
+|---|--------|----|----|---------|
+| 1 | chatgpt alternative | 18,100 | **47** | 落地页：LibreChat/Open WebUI on Olares = 本地 ChatGPT 替代 |
+| 2 | chatgpt local | 260 | **35** | 教程：Ollama+Open WebUI on Olares，本地运行 ChatGPT |
+| 3 | sora 2 产品页策略 | 301,000 | 82 | 学 OpenAI：Wan 2.2/SkyReels 产品页排名热门发布词 |
+
+> 另一次调研补充洞见：
+> - **chatgpt local（260，KD=35）/ chatgpt offline（260，KD=41）**：本地/离线 ChatGPT 词低竞争，Ollama+Open WebUI on Olares 精准命中。
+> - **is chatgpt down（74,000月搜，KD=53）**：状态页词带来大量流量，"Olares 永远不会 down"是差异化内容角度。
+
+## 核心洞见
+
+1. **OpenAI 流量规模空前**：1,185 万月流量、流量估值 $2,828 万——ChatGPT 这一个词（6,800 万/月搜索量）在 openai.com 靠多个位置排名产生巨量流量，这是任何竞品都无法复制的品牌护城河。
+
+2. **Sora 停用是重大信号**：sora ai（246K/mo）和 sora（1M/mo）词都指向停用说明页——这批正在寻找视频生成工具的用户需要替代方案，Wan Video on Olares 是精准切入点。
+
+3. **openai vs claude（KD=15）是整个 AI 领域 KD 最低的高价值比较词之一**：两大 AI 巨头的对比词竞争极低，Olares 可以加入第三个选项"本地方案"，写一篇完整的三方比较文，几乎没有竞争。
+
+4. **"chatgpt alternative free"（2,400/mo）量大且 KD 可接受**：这批用户的明确需求是"免费"，Open WebUI + Qwen3 on Olares 是真正意义上的零成本替代——不是试用期免费，是永久免费。
+
+5. **OpenAI 完全不做本地部署内容**：chatgpt self hosted（0 量）、openai self hosted（20/mo）——所有本地大模型词都没有 OpenAI 竞争，Olares 在这个方向是无竞争的先行者。

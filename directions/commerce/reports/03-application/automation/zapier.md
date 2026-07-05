@@ -1,0 +1,119 @@
+# Zapier SEO 竞品分析报告
+> SEMrush US | 2026-07-02 | 域名：zapier.com | 场景：自动化工作流 / AI 自动化 / No-Code
+
+---
+
+## 流量基线（Phase 1）
+
+### 概览
+
+| 指标 | 数据 |
+|------|------|
+| 域名 | zapier.com |
+| SEMrush Rank | 2,187 |
+| 月自然流量（美国） | 1,162,824 |
+| 关键词数 | 401,314 |
+| 流量估值 | $6,172,669/月 |
+| TOP 1-3 词数 | 15,018 |
+
+### 官网 TOP 关键词（全量，按流量排序）
+
+| 关键词 | 排名 | 月搜索量 | KD | 流量 | 意图 | URL |
+|--------|------|---------|-----|------|------|-----|
+| zapier | 1 | 135,000 | 78 | 108,000 | 导航 | zapier.com |
+| screen recording software（借力词） | 4 | 1,830,000 | 91 | 54,900 | 信息 | zapier.com/blog/best-screen-recording-software |
+| email marketing software（借力词） | 5 | 673,000 | 73 | 16,152 | 信息 | zapier.com/blog/free-email-marketing-software |
+| online course platforms（借力词） | 7 | 1,500,000 | 70 | 13,500 | 信息 | zapier.com/blog/online-course-platforms |
+| chat gpt（借力词） | 20 | 37,200,000 | 100 | 11,160 | 信息 | zapier.com/blog/chatgpt-vs-gpt |
+| cloud storage alternatives（借力词） | 2 | 135,000 | 46 | 11,070 | 信息 | zapier.com/blog/best-cloud-storage-apps |
+| seo tools（借力词） | 3 | 550,000 | 94 | 10,450 | 信息 | zapier.com/blog/best-seo-tools |
+| chatgpt（借力词） | 29 | 68,000,000 | 100 | 9,520 | 信息 | zapier.com/blog/chatgpt-vs-gpt |
+| gpt（借力词） | 11 | 1,830,000 | 100 | 9,150 | 信息 | zapier.com/blog/what-is-gpt |
+| crm software（借力词） | 6 | 673,000 | 77 | 8,749 | 信息 | zapier.com/blog/best-free-crm |
+| keyword research（借力词） | 7 | 2,740,000 | 100 | 8,220 | 信息 | zapier.com/blog/best-keyword-research-tool |
+| zapier pricing | 1 | 9,900 | 40 | 7,920 | 商业 | zapier.com/pricing |
+| zappier（拼写错误） | 1 | 9,900 | 75 | 7,920 | 导航 | zapier.com |
+| ai powered chatbot platforms（借力词） | 2 | 74,000 | 68 | 6,068 | 信息 | zapier.com/blog/best-ai-chatbot |
+| wireframing tools（借力词） | 8 | 1,830,000 | 65 | 5,490 | 信息 | zapier.com/blog/best-wireframe-tools |
+| zapier login | 1 | 6,600 | 92 | 5,280 | 导航 | zapier.com/app/login |
+| ai transformation is a problem of governance | 3 | 74,000 | 9 | 4,810 | 信息 | zapier.com/blog/ai-transformation（KD=9！）|
+| ai image generator（借力词） | 12 | 823,000 | 76 | 4,115 | 信息 | zapier.com/blog/best-ai-image-generator |
+| web address shortening（借力词） | 2 | 49,500 | 96 | 4,059 | 信息 | zapier.com/blog/best-url-shorteners |
+| zapier careers | 1 | 4,400 | 35 | 3,520 | 信息 | zapier.com/jobs |
+| claude ai（借力词） | 7 | 1,830,000 | 100 | 3,294 | 信息 | zapier.com/blog/claude-ai |
+| url shortener（借力词） | 3 | 49,500 | 100 | 3,217 | 信息 | zapier.com/blog/best-url-shorteners |
+| workflow automation | 3 | 74,000 | 50 | 2,590 | 信息 | zapier.com/blog/workflow-automation |
+| zapier pricing（重复）| — | 9,900 | 40 | — | — | — |
+| best free note taking apps（借力词） | 2 | 40,500 | 52 | 2,632 | 信息 | zapier.com/blog/best-note-taking-apps |
+| productivity tools（借力词） | 23 | 1,830,000 | 55 | 2,745 | 信息 | zapier.com/blog/best-productivity-apps |
+| cloud storages（借力词） | 3 | 40,500 | 73 | 2,632 | 信息 | zapier.com/blog/best-cloud-storage-apps |
+| zapier integrations | 1 | 2,400 | 47 | 1,920 | 商业 | zapier.com/apps |
+| zapier mcp | 1 | 2,400 | 51 | 1,920 | 信息 | zapier.com/mcp（MCP 集成！） |
+| cost of zapier | 1 | 2,400 | 37 | 1,920 | 商业 | zapier.com/pricing |
+| what is cache（借力词） | 11 | 550,000 | 72 | 2,200 | 信息 | zapier.com/blog/what-is-a-cache |
+| password manager（借力词） | 20 | 1,830,000 | 100 | 2,745 | 信息 | zapier.com/blog/best-password-manager |
+| google sites（借力词） | 7-8 | 450,000 | 84 | 5,400 | 信息 | zapier.com/blog/google-sites-tutorial |
+| best productivity apps（借力词） | 5 | 60,500 | 51 | 2,117 | 信息 | zapier.com/blog/best-productivity-apps |
+| ai powered chatbot platform（借力词） | 3 | 60,500 | 70 | 2,117 | 信息 | zapier.com/blog/best-ai-chatbot |
+| video editing software（借力词） | 7 | 673,000 | 82 | 2,019 | 信息 | zapier.com/blog/best-free-video-editing-software |
+| what is an rss reader（借力词） | 4 | 60,500 | 65 | 1,815 | 信息 | zapier.com/blog/best-rss-feed-reader-apps |
+| google image search（借力词）| 12 | 1,500,000 | 100 | 2,100 | 信息 | zapier.com/blog/how-to-reverse-image-search |
+| how to create invoices（借力词） | 13 | 1,500,000 | 66 | 2,250 | 信息 | zapier.com/blog/invoice-template |
+
+---
+
+## 关键词扩展（Phase 2，有搜索量词）
+
+| 关键词 | 月搜索量 | KD | CPC | 意图 |
+|--------|---------|-----|-----|------|
+| zapier pricing | 9,900 | 47 | $6.31 | 商业 |
+| zapier ai | 2,400 | 77 | $5.27 | 信息 |
+| ⭐⭐⭐ n8n vs zapier | 1,900 | 38 | $5.41 | 信息（对比词！） |
+| ⭐⭐⭐ n8n self hosted | 1,600 | 62 | $2.55 | 信息 |
+| ⭐⭐⭐ make vs zapier | 590 | 33 | $10.45 | 信息 |
+| ⭐⭐ n8n local | 720 | 51 | $4.51 | 信息 |
+| ⭐⭐ zapier free | 390 | 50 | $6.11 | 信息 |
+| ⭐⭐⭐ zapier alternative | 390 | **24** | $10.40 | 信息（CPC=$10！） |
+| zapier enterprise | 70 | 70 | $9.67 | 商业 |
+| zapier open source | 30 | 22 | **$79.07**（全组最高！） | 信息 |
+
+---
+
+## Olares 关联词（Phase 3）
+
+**对应 Olares 方案：** n8n on Olares（本地 Zapier 替代）
+
+| 关键词 | 月搜索量 | KD | CPC | Olares 切入角度 |
+|--------|---------|-----|-----|----------------|
+| ⭐⭐⭐⭐⭐ zapier open source | 30 | 22 | **$79.07** | CPC=$79 是全报告集最高！n8n on Olares = 完全开源的 Zapier 替代 |
+| ⭐⭐⭐⭐ n8n vs zapier | 1,900 | 38 | $5.41 | 对比文：n8n on Olares vs Zapier——完全自托管、无限工作流、零费用 |
+| ⭐⭐⭐⭐ zapier alternative | 390 | **24** | $10.40 | "Zapier 最佳替代方案"：n8n on Olares，KD=24 低，CPC 高 |
+| ⭐⭐⭐ make vs zapier | 590 | 33 | $10.45 | 三方对比：Make vs Zapier vs n8n on Olares，本地方案零成本 |
+| ⭐⭐⭐ n8n self hosted | 1,600 | 62 | $2.55 | "n8n 自托管完整指南"：一键安装在 Olares，配置工作流 |
+| ⭐⭐ n8n local | 720 | 51 | $4.51 | "本地运行 n8n"：Olares One 上的 n8n 完整部署教程 |
+| zapier mcp | 2,400 | 51 | — | Zapier 已发布 MCP 集成，Olares 的 n8n + MCP 是更深度的本地替代 |
+
+---
+
+## 优先行动清单
+
+| # | 关键词 | 量 | KD | 内容方向 |
+|---|--------|----|----|---------|
+| 1 | zapier open source | 30 | **22** | n8n on Olares = CPC 最高（$79.07）的开源替代词 |
+| 2 | zapier alternative | 390 | **24** | 落地页：n8n/Dify on Olares 替代 Zapier（CPC=$10.40） |
+| 3 | 博客覆盖策略 | — | — | 学 Zapier：写所有 AI 工具的"在 Olares 上部署 TOP X"横评博客 |
+
+> 另一次调研补充洞见：
+> - **ai transformation is a problem of governance（74,000月搜，KD=9）靠一篇观点博客排名**：超低 KD 观点文可带来大量流量，Olares 可写"AI 主权""企业数据自主"等观点文章。
+
+## 核心洞见
+
+1. **zapier open source CPC=$79.07 是全部报告集里最高 CPC**：广告主愿意为"开源 Zapier"搜索付 $79，说明企业对开源自托管自动化的需求极强——n8n on Olares 是完美答案，只需 30/mo 搜索量却有极高转化价值。
+
+2. **Zapier 的 SEO 核心策略是"借力排名"**：Zapier 靠数百篇"最佳XXX工具"软件评测文章获取大量流量（screen recording software 183万/mo、email marketing software 67万/mo），这是内容营销的典型高杠杆策略——Olares 可以学习这个模式。
+
+3. **n8n vs zapier（1,900/mo，KD=38）是最大流量对比词**：这批用户已经在认真考虑从 Zapier 迁移，是 n8n on Olares 最精准的目标用户——发一篇"从 Zapier 迁移到 n8n on Olares"的迁移指南，可以直接截获这批用户。
+
+4. **zapier mcp（2,400/mo）是新信号**：Zapier 发布了 MCP 集成，说明 MCP 正在成为自动化领域的标准接口——Olares 的 n8n + MCP 是比 Zapier 更深度的本地 AI 自动化方案。
+
+5. **zapier pricing（9,900/mo，KD=47）显示 Zapier 的价格是最大痛点**：Zapier 最贵计划 $299/月，每月搜索量近万的用户在研究价格——n8n on Olares 的"零月费"是无可辩驳的对比优势。

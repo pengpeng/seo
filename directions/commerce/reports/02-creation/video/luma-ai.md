@@ -1,0 +1,114 @@
+# Luma AI SEO 竞品分析报告
+> SEMrush US | 2026-07-02 | 域名：lumalabs.ai | 场景：AI 视频生成 / Dream Machine / 3D
+
+---
+
+## 流量基线（Phase 1）
+
+### 概览
+
+| 指标 | 数据 |
+|------|------|
+| 域名 | lumalabs.ai |
+| SEMrush Rank | 19,059 |
+| 月自然流量（美国） | 114,928 |
+| 关键词数 | 10,612 |
+| 流量估值 | $190,209/月 |
+| TOP 1-3 词数 | 592 |
+
+### 官网 TOP 关键词（全量，按流量排序）
+
+| 关键词 | 排名 | 月搜索量 | KD | 流量 | 意图 | URL |
+|--------|------|---------|-----|------|------|-----|
+| luma ai | 1 | 27,100 | 71 | 21,680 | 导航 | lumalabs.ai |
+| luma artificial intelligence | 1 | 22,200 | **0** | 17,760 | 信息（**KD=0！**）| lumalabs.ai |
+| luma dream machine | 1 | 12,100 | 71 | 9,680 | 信息 | dream-machine.lumalabs.ai |
+| luma | 3 | 60,500 | 84 | 4,961 | 信息 | lumalabs.ai |
+| luma dream machine text to video | 1 | 4,400 | 66 | 3,520 | 信息 | lumalabs.ai/create/ai-video-generator-from-text |
+| dream machine | 1 | 12,100 | 61 | 3,000 | 信息 | dream-machine.lumalabs.ai |
+| lumalabs ai | 1 | 2,900 | 55 | 2,320 | 导航 | lumalabs.ai |
+| luma labs | 1 | 2,900 | 43 | 2,320 | 导航 | lumalabs.ai |
+| lumalabs | 1 | 2,400 | 55 | 1,920 | 导航 | lumalabs.ai |
+| lumalabs.ai | 1 | 1,900 | 62 | 1,520 | 导航 | lumalabs.ai |
+| lumaai | 1 | 1,900 | 71 | 1,520 | 导航 | lumalabs.ai |
+| lumalabs.ai/dream-machine | 1 | 1,900 | 69 | 1,520 | 导航 | dream-machine.lumalabs.ai |
+| luma ai dream machine image to video | 1 | 1,600 | 60 | 1,280 | 信息 | lumalabs.ai/app |
+| luma ai official website | 1 | 1,600 | 66 | 1,280 | 导航 | lumalabs.ai |
+| . luma dream machine | 1 | 1,600 | 72 | 1,280 | 信息 | dream-machine.lumalabs.ai |
+| luma ia（变体） | 1 | 1,300 | 69 | 1,040 | 导航 | lumalabs.ai |
+| luma labs ai | 1 | 1,300 | 52 | 1,040 | 导航 | lumalabs.ai |
+| .luma dream machine | 1 | 1,000 | 71 | 800 | 信息 | dream-machine.lumalabs.ai |
+| luna ai（拼写错误）| 1 | 2,900 | 53 | 719 | 信息 | lumalabs.ai |
+| luma dream machine ai | 1 | 880 | 65 | 704 | 信息 | dream-machine.lumalabs.ai |
+| luma dream machine official | 1 | 720 | 0 | 576 | 信息（KD=0！）| lumalabs.ai/app |
+| luma labs dream machine | 1 | 720 | 50 | 576 | 信息 | lumalabs.ai/app |
+| luma lab | 1 | 720 | 58 | 576 | 导航 | lumalabs.ai |
+| luma dream machine video generator | 1 | 590 | 67 | 472 | 信息 | dream-machine.lumalabs.ai |
+| luma ai video generation tool | 1 | 590 | 77 | 472 | 信息 | lumalabs.ai |
+| luma dream machine video generator | 1 | 590 | 67 | 472 | 信息 | dream-machine.lumalabs.ai |
+| app lumalabs ai | 1 | 590 | 72 | 472 | 导航 | app.lumalabs.ai |
+| luma ai video | 1 | 590 | 65 | 472 | 信息 | lumalabs.ai/create/ai-video-generator |
+| luma ai video generator | 1 | 590 | 61 | 472 | 信息 | lumalabs.ai/create/ai-video-generator |
+| luma dream machine pricing 2026 | 1 | 480 | 28 | 384 | 商业 | lumalabs.ai/pricing |
+| lumalab ai（拼写错误）| 1 | 480 | 31 | 384 | 导航 | lumalabs.ai |
+| luma.ai | 2 | 2,400 | 60 | 316 | 信息 | lumalabs.ai |
+| luma dream machine free trial | 1 | 390 | 76 | 312 | 信息 | lumalabs.ai/pricing |
+| lumna ai（拼写错误）| 1 | 390 | 67 | 312 | 导航 | lumalabs.ai |
+| video to video ai（借力词）| 1 | 1,600 | 61 | 211 | 信息 | lumalabs.ai/video-to-video |
+| luma ai genie（3D 功能）| 1 | 320 | 20 | 256 | 信息 | lumalabs.ai（3D 生成！）|
+| luma ao（拼写错误）| 1 | 260 | 68 | 208 | 导航 | lumalabs.ai |
+| luma ai image to video | 1 | 320 | 57 | 256 | 信息 | lumalabs.ai/create/ai-video-generator-from-image |
+| app.luma | 1 | 1,000 | 55 | 248 | 信息 | app.lumalabs.ai |
+| dream mashin（拼写错误）| 1 | 1,000 | 61 | 248 | 信息 | dream-machine.lumalabs.ai |
+| luma dream machine:（变体）| 1 | 880 | 54 | 218 | 信息 | dream-machine.lumalabs.ai |
+
+---
+
+## 关键词扩展（Phase 2，有搜索量词）
+
+| 关键词 | 月搜索量 | KD | CPC | 意图 |
+|--------|---------|-----|-----|------|
+| luma ai free | 260 | 63 | $0.59 | 信息 |
+| luma dream machine pricing | 90 | **35** | $1.65 | 商业（KD=35）|
+| luma ai api | 40 | 48 | $7.07 | 商业（CPC=$7！）|
+| ⭐⭐⭐⭐ luma ai alternative | 40 | **14** | $1.60 | 信息（KD=14！）|
+
+---
+
+## Olares 关联词（Phase 3）
+
+**对应 Olares 方案：** Wan Video、LTX-Video（本地视频生成）on Olares
+
+| 关键词 | 月搜索量 | KD | CPC | Olares 切入角度 |
+|--------|---------|-----|-----|----------------|
+| ⭐⭐⭐⭐⭐ luma artificial intelligence | 22,200 | **0** | $0 | **KD=0！月搜索 2.2 万**：Olares 发布"Luma AI 本地替代：Wan Video on Olares"，直接排名 |
+| ⭐⭐⭐⭐ luma ai alternative | 40 | **14** | $1.60 | KD=14：Wan Video on Olares = 本地视频生成，无限时长，零月费 |
+| luma dream machine pricing | 90 | **35** | $1.65 | 价格对比：Luma $29.99/月 vs Wan Video on Olares 零成本 |
+| luma dream machine official（KD=0）| 720 | **0** | $0 | 另一个 KD=0 词：借助这个词发布"Dream Machine 本地替代"教程 |
+| luma ai api | 40 | 48 | $7.07 | 本地视频 API：Wan Video API on Olares，CPC=$7 说明商业价值高 |
+
+---
+
+## 优先行动清单
+
+| # | 关键词 | 量 | KD | 内容方向 |
+|---|--------|----|----|---------|
+| 1 | luma ai alternative | 40 | **14** | Wan 2.2 on Olares 替代 Luma 视频生成 |
+| 2 | luma ai 3d | 70 | **17** | TRELLIS.2 on Olares 替代 Luma Genie 3D |
+| 3 | luma genie | 110 | **27** | Luma Genie vs 开源 3D on Olares |
+
+> 另一次调研补充洞见：
+> - **luma ai 3d（70月搜，KD=17）**：独立的 3D 生成词，TRELLIS.2-4B on Olares 是 Luma Genie 的开源替代。
+> - **video to video ai（1,600月搜，KD=61）**：视频到视频转换新兴场景，Wan 2.2 的 S2V/V2V 功能覆盖。
+
+## 核心洞见
+
+1. **luma artificial intelligence（22,200/mo，KD=0！）是最大的异常发现**：月搜索量 2.2 万但 KD 完全为零，说明这个词没有任何有质量的内容——Olares 发布一篇"Luma AI 完整介绍 + 本地替代"可以直接排进前 3 名，0 竞争拿下大流量词。
+
+2. **luma dream machine official（KD=0）也是 KD=0 词**：720/mo 搜索，这类"official"词通常应该由官方品牌占据，但 Luma 没有针对性内容——说明 Luma 的 SEO 极度依赖品牌词自然排名，内容布局缺失。
+
+3. **luma ai alternative（KD=14，CPC=$7.07）高 CPC 说明视频生成用户的商业价值高**：视频内容创作者愿意为工具付高价，Wan Video on Olares 的"无限生成"是对 Luma 按分钟收费模式的直接颠覆。
+
+4. **Luma AI Genie（3D 生成功能）**：luma ai genie（320/mo，KD=20）说明 Luma 在做 3D 场景生成——这与 Meshy、Tripo3D 在同一方向竞争，Olares 上的 Hunyuan3D 是本地 3D 生成替代方案。
+
+5. **Dream Machine 是 Luma 的最强 SEO 词**：dream machine（12.1K/mo）比 luma ai（27.1K/mo）小，但 dream machine 是通用词，说明 Luma 用这个产品名成功建立了品牌联想——这是 AI 视频生成产品命名策略的好例子。

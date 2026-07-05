@@ -1,0 +1,112 @@
+# Meshy SEO 竞品分析报告
+> SEMrush US | 2026-07-02 | 域名：meshy.ai | 场景：AI 3D 模型生成 / 图像转 3D
+
+---
+
+## 流量基线（Phase 1）
+
+### 概览
+
+| 指标 | 数据 |
+|------|------|
+| 域名 | meshy.ai |
+| SEMrush Rank | 21,352 |
+| 月自然流量（美国） | 102,108 |
+| 关键词数 | 25,344 |
+| 流量估值 | $162,067/月 |
+| TOP 1-3 词数 | 1,130 |
+
+### 官网 TOP 关键词（全量，按流量排序）
+
+| 关键词 | 排名 | 月搜索量 | KD | 流量 | 意图 | URL |
+|--------|------|---------|-----|------|------|-----|
+| meshy ai | 1 | 27,100 | 59 | 21,680 | 导航 | meshy.ai |
+| meshy | 1 | 18,100 | 53 | 14,480 | 导航 | meshy.ai |
+| meshyai | 1 | 6,600 | 62 | 5,280 | 导航 | meshy.ai |
+| meshy.ai | 1 | 3,600 | 65 | 2,880 | 导航 | meshy.ai |
+| ai 3d model generator | 1 | 6,600 | 60 | 1,636 | 信息 | meshy.ai |
+| meshy.ia（变体） | 1 | 1,600 | 60 | 1,280 | 导航 | meshy.ai |
+| meshy ia（变体） | 1 | 1,000 | 56 | 800 | 导航 | meshy.ai |
+| meshy 3d | 1 | 720 | 47 | 576 | 信息 | meshy.ai |
+| image to 3d model | 2 | 6,600 | 34 | 541 | 信息 | meshy.ai/features/image-to-3d（KD=34！）|
+| 3d modelář（捷克语）| 7 | 27,100 | 76 | 514 | 信息 | meshy.ai/cs（借力多语言）|
+| mesh ai | 2 | 3,600 | 48 | 475 | 信息 | meshy.ai |
+| batmobile free glb model（游戏词）| 1 | 1,900 | 12 | 471 | 信息 | meshy.ai/tags/batmobile |
+| ai model generator | 1 | 1,900 | 62 | 471 | 信息 | meshy.ai |
+| 3d model ai | 1 | 1,600 | 57 | 396 | 信息 | meshy.ai |
+| 3d model generator | 1 | 1,600 | 37 | 396 | 信息 | meshy.ai |
+| meshy ai:（变体） | 1 | 480 | 53 | 384 | 导航 | meshy.ai |
+| messy ai（拼写错误） | 1 | 480 | 46 | 384 | 导航 | meshy.ai |
+| cgi meaning（借力词） | 6 | 18,100 | 49 | 343 | 信息 | meshy.ai/blog/cgi-meaning |
+| 3d model ai generator | 1 | 1,300 | 71 | 322 | 信息 | meshy.ai |
+| 3d model from image | 1 | 1,300 | 60 | 322 | 信息 | meshy.ai |
+| 3d writing maker（借力词）| 2 | 2,400 | 41 | 316 | 信息 | meshy.ai/3d-tools/3d-text-generator |
+| meshy image to 3d | 1 | 390 | 43 | 312 | 信息 | meshy.ai |
+| 3mf to stl（转换工具词）| 3 | 4,400 | 13 | 286 | 信息 | meshy.ai/3d-tools/file-converter（KD=13！）|
+| mesy ai（拼写错误） | 1 | 320 | 54 | 256 | 导航 | meshy.ai |
+| mashy ai（拼写错误） | 1 | 320 | 55 | 256 | 导航 | meshy.ai |
+| meshy ai image to 3d | 1 | 320 | 44 | 256 | 信息 | meshy.ai |
+| meshy ai 3d | 1 | 320 | 55 | 256 | 信息 | meshy.ai |
+| 3d model roman gear roblox（游戏词）| 2 | 1,900 | 0 | 250 | 信息 | meshy.ai/tags/roman |
+| ai 3d models | 1 | 1,000 | 62 | 248 | 信息 | meshy.ai |
+| mesy（拼写错误）| 1 | 1,000 | 25 | 248 | 信息 | meshy.ai |
+| 2d to 3d | 1 | 1,000 | 50 | 248 | 信息 | meshy.ai/features/image-to-3d |
+| 3d model artificial intelligence | 1 | 1,000 | 71 | 248 | 信息 | meshy.ai |
+| image to 3d | 2 | 2,900 | 50 | 237 | 信息 | meshy.ai/features/image-to-3d |
+| .3mf to stl（变体）| 3 | 2,900 | 16 | 237 | 信息 | meshy.ai/3d-tools（KD=16！）|
+| 3d modeling ai | 1 | 880 | 67 | 218 | 信息 | meshy.ai |
+| ai 3d model generator free | 1 | 1,600 | 55 | 211 | 信息 | meshy.ai |
+| ai meshy | 1 | 260 | 52 | 208 | 导航 | meshy.ai |
+| mishy ai（拼写错误）| 1 | 260 | 46 | 208 | 导航 | meshy.ai |
+| https://www.meshy.ai/（变体）| 1 | 260 | 72 | 208 | 导航 | meshy.ai |
+| glb to stl（转换词，KD=8！）| 2 | 1,300 | 8 | 171 | 信息 | meshy.ai/3d-tools/file-converter（KD=8！）|
+| .obj viewer | 2 | 1,300 | 25 | 171 | 信息 | meshy.ai/3d-tools/online-viewer |
+| image to stl | 8 | 3,600 | 30 | 46 | 信息 | meshy.ai/3d-tools/convert/image-to-stl |
+| 图片转3d（中文）| 1 | 720 | 23 | 178 | 信息 | meshy.ai/zh（中文市场！）|
+
+---
+
+## 关键词扩展（Phase 2，有搜索量词）
+
+| 关键词 | 月搜索量 | KD | CPC | 意图 |
+|--------|---------|-----|-----|------|
+| ⭐⭐⭐⭐ ai 3d model generator | 6,600 | **60** | $1.20 | 信息（大量词）|
+| meshy api | 90 | **34** | $5.39 | 商业（KD 较低）|
+| meshy pricing | 30 | 0 | $3.81 | 商业（KD=0！）|
+
+---
+
+## Olares 关联词（Phase 3）
+
+**对应 Olares 方案：** Hunyuan3D、Trellis（本地 3D 生成）on Olares
+
+| 关键词 | 月搜索量 | KD | CPC | Olares 切入角度 |
+|--------|---------|-----|-----|----------------|
+| ⭐⭐⭐⭐ ai 3d model generator | 6,600 | 60 | $1.20 | Hunyuan3D on Olares = 本地 3D 模型生成，无限生成，无月费 |
+| ⭐⭐⭐⭐ image to 3d model | 6,600 | 34 | — | KD=34！"本地图像转 3D"：Trellis on Olares 完整教程 |
+| ⭐⭐⭐ meshy pricing | 30 | **0** | $3.81 | KD=0：价格对比 Meshy $16/月 vs Hunyuan3D on Olares 零成本 |
+| 3mf to stl | 4,400 | **13** | — | 意外工具词：KD=13，Meshy 靠文件转换工具获取大量流量——Olares 也可以提供 3D 文件转换功能 |
+| glb to stl | 1,300 | **8** | — | KD=8！3D 文件转换词，几乎零竞争，Olares 可以做类似工具页 |
+| 图片转3d（中文）| 720 | 23 | — | 中文 3D 生成需求，Hunyuan3D（腾讯开源）对中文用户有更好支持 |
+
+---
+
+## 优先行动清单
+
+| # | 关键词 | 量 | KD | 内容方向 |
+|---|--------|----|----|---------|
+| 1 | 3D 工具页面策略 | — | — | 学 Meshy：建 3D 文件转换工具页（3mf to stl、glb to gltf 等）排名低 KD 高量词 |
+| 2 | image to 3d model | 6,600 | **34** | TRELLIS.2/Hunyuan3D on Olares = 本地 image-to-3D |
+| 3 | UGC 策略 | — | — | 用户生成的 3D 模型页面带来大量意外长尾流量，平台应允许作品分享 |
+
+## 核心洞见
+
+1. **Meshy 靠"3D 文件转换工具"获取大量低竞争流量**：3mf to stl（KD=13，4,400/mo）、glb to stl（KD=8，1,300/mo）——这是工具页 SEO 的典型案例，不是核心产品但带来大量精准用户（3D 设计师）。Olares 如果提供 3D 文件管理功能，可以用类似策略。
+
+2. **image to 3d model（6,600/mo，KD=34）是最大机会词**：这是目前 3D AI 生成领域搜索量最大且 KD 不算太高的词——Trellis on Olares 做图像到 3D 转换，一篇深度教程可以排进前 5。
+
+3. **游戏资产词是 Meshy 的意外流量**：batmobile free glb model（1,900/mo，KD=12）、gorilla tag fan game forest map（2,900/mo）——游戏玩家在寻找免费 3D 模型，Meshy 靠用户上传的模型库获取这些长尾词。这提示 Olares 的 AI 生成平台也应该允许用户分享作品。
+
+4. **中文市场强烈信号**：图片转3d（720/mo，KD=23）和捷克语词（3d modelář 2.7万/mo）都出现在 Meshy 流量中，说明 3D AI 生成的非英语需求极大——Hunyuan3D（腾讯出品）对中文用户有更好的支持，是 Olares 在中文市场的差异化点。
+
+5. **meshy pricing（KD=0！）**：30/mo 搜索，但 KD 为零——这意味着没有任何人在写"Meshy 价格"相关的内容，Olares 用一篇"Meshy 价格对比：本地 3D 生成 vs 订阅制"可以直接排名。
