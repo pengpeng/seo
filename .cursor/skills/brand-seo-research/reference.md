@@ -115,14 +115,14 @@
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-1 簇 = 1 主词 + N 次级词 + M 问题词 = 1 篇规划文章。选词/角色/簇打分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | | | | | ⭐⭐⭐ | | |
-| … | | | | | | | |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| | | | | | 主词候选 | |
+| … | | | | | | |
 
 ---
 
