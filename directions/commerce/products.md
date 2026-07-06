@@ -16,7 +16,7 @@
 |------|------|------|---------|------------|------|
 | OpenAI (ChatGPT/GPT/API) | OpenAI | openai.com | ARR ~$25B；估值 $852B | Open WebUI + Ollama | ✅ |
 | Anthropic (Claude) | Anthropic | anthropic.com | run-rate ~$30B；估值 $380B | LibreChat + Ollama | ✅ |
-| Google Gemini | Alphabet | gemini.google.com | 大厂旗舰 | Qwen3-Omni + Open WebUI | ⬜ |
+| Google Gemini | Alphabet | gemini.google.com | 大厂旗舰 | Qwen3-Omni + Open WebUI | ✅ [报告](reports/01-model/frontier-labs/gemini.md) |
 | Meta Llama / Meta AI | Meta | meta.ai | 大厂旗舰 | Llama/Qwen via Ollama | ⬜ |
 | xAI Grok | xAI | x.ai | ARR ~$1.5B；估值 ~$200B+ | Open WebUI + Ollama | ⬜ |
 | Mistral | Mistral | mistral.ai | ARR ~$1B；估值 ~$15B | Ollama（Mistral 开源权重） | ⬜ |
@@ -79,7 +79,7 @@
 |------|------|------|---------|------------|------|
 | Midjourney | Midjourney | midjourney.com | ARR ~$500M；估值 ~$10B | ComfyUI + FLUX.2 | ✅ |
 | Leonardo AI | Canva | leonardo.ai | ARR ~$95M；融资 $31M | ComfyUI + FLUX.2 / HiDream | ✅ |
-| Adobe Firefly | Adobe | adobe.com | Firefly ARR ~$300M | ComfyUI + Qwen Image Edit | ⬜ |
+| Adobe Firefly | Adobe | adobe.com | Firefly ARR ~$300M | ComfyUI + Qwen Image Edit | ✅ [报告](reports/02-creation/image/adobe-firefly.md) |
 | GPT Image / DALL·E | OpenAI | openai.com | 大厂旗舰 | ComfyUI + FLUX.2 | ⬜ |
 | Ideogram | Ideogram | ideogram.ai | 融资 $75.8–96M | **开源权重直接跑（Ideogram 权重 + ComfyUI）+ 商业版对标** | ⬜ |
 | Krea | Krea AI | krea.ai | 估值 $500M；融资 $83M | **开源权重（Krea 2）+ ComfyUI + 商业版对标**（另见 #11 设计 Agent） | ⬜ |
@@ -94,7 +94,7 @@
 | Runway | Runway | runwayml.com | ARR ~$300M；估值 $5.3B | Wan / HunyuanVideo | ✅ |
 | Pika | Pika Labs | pika.art | 估值 $700M；融资 $135M | Wan | ✅ |
 | Luma AI | Luma AI | lumalabs.ai | 估值 $4B；融资 ~$1.07B | Wan + TRELLIS | ✅ |
-| Sora | OpenAI | openai.com/sora | 大厂旗舰 | Wan / HunyuanVideo | ⬜ |
+| Sora | OpenAI | sora.com（已关停 2026-04-26） | 大厂旗舰 | Wan / HunyuanVideo | ✅ [报告](reports/02-creation/video/sora.md) |
 | Kling | 快手 | klingai.com | ARR ~$500M；估值 ~$18B | Wan | ⬜ |
 | Vidu | 生数科技 | vidu.studio | 融资 ~$293M | Wan | ⬜ |
 | Higgsfield | Higgsfield | higgsfield.ai | ARR ~$200M；估值 $1.3B | Wan | ⬜ |
@@ -156,7 +156,7 @@
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
 | Otter.ai | Otter AI | otter.ai | ARR >$100M；融资 $70M | Whisper + Open Notebook | ✅ |
-| Fireflies.ai | Fireflies | fireflies.ai | 估值 >$1B | Whisper + Open Notebook | ⬜ |
+| Fireflies.ai | Fireflies | fireflies.ai | 估值 >$1B | Whisper + Open Notebook | ✅ [报告](reports/02-creation/voice-meeting/fireflies.md) |
 | Granola | Granola | granola.ai | 估值 $1.5B；融资 $192M | Open Notebook + Whisper | ⬜ |
 | Gong | Gong | gong.io | ARR >$500M；估值 ~$7.2B | 无直接平替 | ⬜ |
 | Read AI | Read AI | read.ai | 估值 $450M；融资 $81M | 无直接平替 | ⬜ |
@@ -215,7 +215,7 @@
 ### 21. AI 编码 Agent / 终端 CLI
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Claude Code | Anthropic | claude.com | ARR run-rate >$2.5B；大厂旗舰 | **Claude Code（Market，接本地模型）** / OpenCode | ⬜ |
+| Claude Code | Anthropic | claude.com | ARR run-rate >$2.5B；大厂旗舰 | **Claude Code（Market，接本地模型）** / OpenCode | ✅ [报告](reports/03-application/coding-agent/claude-code.md) |
 | OpenAI Codex / Codex CLI | OpenAI | openai.com | 大厂旗舰；CLI 开源 | OpenCode / Aider | ⬜ |
 | Cursor CLI | Anysphere | cursor.com | 母公司 ARR ~$4B | OpenCode + Ollama | ✅（合并 Cursor） |
 | GitHub Copilot CLI + Coding Agent | Microsoft | github.com | 大厂旗舰 | OpenCode / Aider | ⬜ |
@@ -236,7 +236,7 @@
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
 | Lovable | Lovable | lovable.dev | ARR $500M；估值 >$6B | bolt.diy / Appsmith | ✅ |
-| Bolt.new | StackBlitz | bolt.new | 估值 $700M；融资 $135M | bolt.diy | ⬜ |
+| Bolt.new | StackBlitz | bolt.new | 估值 $700M；融资 $135M | bolt.diy | ✅ [报告](reports/03-application/vibe-coding/bolt.md) |
 | v0 | Vercel | v0.dev | Vercel 估值 $9.3B | Appsmith / Jaaz | ⬜ |
 
 ### 23. 建站 / 无代码 App
@@ -262,7 +262,7 @@
 ### 25. BaaS / 后端即服务
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Supabase | Supabase | supabase.com | ARR ~$100M；估值 $5B；融资 $400M+ | **Supabase（开源自托管，双形态）** | ⬜ |
+| Supabase | Supabase | supabase.com | ARR ~$100M；估值 $5B；融资 $400M+ | **Supabase（开源自托管，双形态）** | ✅ [报告](reports/03-application/baas/supabase.md) |
 | Firebase | Google | firebase.google.com | 大厂旗舰 | Supabase / Appwrite | ⬜ |
 | Appwrite | Appwrite | appwrite.io | 融资 $37M | **Appwrite（开源自托管，双形态）** | ⬜ |
 
@@ -270,7 +270,7 @@
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
 | Zapier | Zapier | zapier.com | ARR $420M；估值 $5B | n8n | ✅ |
-| n8n（云版） | n8n | n8n.io | ARR >€100M；估值 $5.2B | **n8n（自托管，双形态）** | ⬜ |
+| n8n（云版） | n8n | n8n.io | ARR >€100M；估值 $5.2B | **n8n（自托管，双形态）** | ✅ [报告](reports/03-application/automation/n8n-cloud.md) |
 | Make | Make | make.com | ARR ~$52.6M | n8n | ⬜ |
 | Lindy | Lindy | lindy.ai | 融资 ~$50M | n8n | ⬜ |
 | Gumloop | Gumloop | gumloop.com | 估值 $333M；融资 $70M | n8n | ⬜ |
@@ -282,8 +282,8 @@
 ### 27. 通用 Agent / Deep Research Agent
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Manus | Butterfly Effect | manus.im | ARR $400–500M；收购价 ~$2B[u] | **DeerFlow 2.0** / Hermes Agent | ⬜ |
-| Genspark | Genspark | genspark.ai | ARR $250M+；估值 $2.6B | DeerFlow 2.0 | ⬜ |
+| Manus | Butterfly Effect | manus.im | ARR $400–500M；收购价 ~$2B[u] | **DeerFlow 2.0** / Hermes Agent | ✅ [报告](reports/03-application/general-agent/manus.md) |
+| Genspark | Genspark | genspark.ai | ARR $250M+；估值 $2.6B | DeerFlow 2.0 | ✅ [报告](reports/03-application/personal-ai/genspark.md) |
 | Perplexity Computer | Perplexity | perplexity.ai | ARR $450M+；估值 ~$22B | DeerFlow 2.0 + SearXNG | ⬜ |
 | Kimi Work / Researcher | Moonshot | kimi.com | ARR >$200M；估值 $20B | DeerFlow 2.0 | ⬜ |
 | ChatGPT Agent / OpenAI Deep Research | OpenAI | chatgpt.com | 大厂旗舰 | DeerFlow 2.0 | ⬜ |
