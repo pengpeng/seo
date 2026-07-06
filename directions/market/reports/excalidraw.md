@@ -70,14 +70,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | excalidraw alternative | 110 | **3** | 落地页：Olares上的白板工具方案（KD=3极低） |
-| 2 | miro alternative | 320 | **21** | 对比文：免费白板工具替代方案 |
-| 3 | excalidraw mcp | 210 | **24** | 教程：Excalidraw + MCP on Olares |
-| 4 | excalidraw ai | 140 | **27** | 教程：Excalidraw + 本地AI on Olares |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| excalidraw whiteboard | 720 | 31 | $3.89 | nav | 主词候选 | 自托管白板/Plus 功能，永久免费私有协作 |
+| miro alternative | 320 | 21 | $4.66 | info | 主词候选 | 付费白板免费替代，Olares 永久私有白板 |
+| lucidchart alternative | 320 | 28 | $5.63 | info | 次级 | 付费图表工具替代 |
+| excalidraw github | 320 | 71 | $0 | nav | 次级 | 品牌导航词 |
+| excalidraw app | 260 | 35 | $0 | nav | 次级 | 客户端词 |
+| excalidraw plus | 210 | 31 | $0 | nav | 次级 | 付费版功能词，自托管免费实现 |
+| excalidraw mcp | 210 | 24 | $0 | info | 主词候选 | Excalidraw + 本地 AI/MCP on Olares |
+| excalidraw free | 210 | 36 | $3.70 | nav | 次级 | 免费诉求，导向自托管 |
+| excalidraw ai | 140 | 27 | $3.89 | info | 次级 | AI 集成 |
+| excalidraw alternative | 110 | 3 | $2.83 | info | 主词候选 | 全场最低KD(3)，自托管 Excalidraw 作免费开源白板替代 |
+| excalidraw docker | 110 | 39 | $0 | info | 次级 | 部署词 |
+| excalidraw online | 40 | 30 | $0 | nav | 次级 | 在线版词 |
+| excalidraw vs miro | 30 | 23 | $4.57 | info | 次级 | 对比词 |
+| miro alternative free | 30 | 18 | $3.20 | info | 次级 | 免费替代词 |
+| draw.io alternative | 20 | 13 | $2.03 | info | 次级 | 低KD 替代词 |
+| excalidraw self-hosted | 10 | 36 | $0 | info | GEO | 自托管词近零量，进直答 |
 
 ## 核心洞见
 

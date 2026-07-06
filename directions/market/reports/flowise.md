@@ -56,13 +56,23 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | flowise vs langflow | 50 | **10** | 对比文，KD=10 |
-| 2 | flowise vs n8n | 140 | **17** | 对比文，Olares同时支持所有三者 |
-| 3 | flowise使用 | 210 | **13** | 🇨🇳 中文教程 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| flowise | 4,400 | 43 | $5.97 | nav | 次级 | 品牌词 |
+| flowise github | 320 | 52 | $5.94 | nav | 次级 | 品牌导航词 |
+| flowise使用 | 210 | 13 | $0 | info | 主词候选 | 🇨🇳 中文用法词，Flowise 本地部署 on Olares |
+| flowise vs n8n | 140 | 17 | $12.41 | info | 主词候选 | CPC$12.41，Olares 唯一同时上架 Flowise/n8n/Dify/Langflow |
+| flowise vs langflow | 50 | 10 | $0 | info | 次级 | 极低KD 对比词 |
+| flowise vs dify | 20 | 0 | $0 | info | GEO | 对比词近零量，进直答 |
+| flowise alternative | 20 | 0 | $0.68 | info | GEO | 替代词近零量，进直答 |
+| flowise docker | 20 | 0 | $0 | info | GEO | 部署词近零量，进 FAQ |
+| flowise ollama | 20 | 0 | $0 | info | GEO | 本地 LLM 词近零量，进直答 |
+| flowise free | 20 | 0 | $0 | info | GEO | 免费词近零量，进直答 |
+| flowise mcp | 20 | 0 | $0 | info | GEO | MCP 词近零量，进直答 |
 
 ## 核心洞见
 

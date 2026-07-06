@@ -112,15 +112,27 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | sglang install | 140 | **20** | 现在就占：Olares一键安装SGLang，零竞争 |
-| 2 | sglang python | 260 | **19** | 教程：SGLang Python API on Olares |
-| 3 | sglang vs vllm | 480 | **25** | 横评：SGLang vs vLLM vs Ollama on Olares |
-| 4 | sglang是什么 | 390 | **8** | 🇨🇳 中文介绍文，极低竞争 |
-| 5 | sglang hisparse | 720 | **11** | 技术词，量大KD低 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| sglang | 6,600 | 67 | $7.27 | 信息 | 次级 | 品牌大词（官网零流量、KD 高）|
+| sglang hisparse | 720 | 11 | $0 | 信息 | 主词候选 | 高性能技术特性系列（稀疏注意力，量大 KD 极低）|
+| sglang vs vllm | 480 | 25 | $7.35 | 信息 | 主词候选 | 横评：SGLang vs vLLM vs Ollama on Olares，全支持 |
+| sglang是什么 | 390 | 8 | $0 | 信息 | 主词候选 | 中文介绍/入门，极低竞争拿下核心用户（开源自托管）|
+| sglang python | 260 | 19 | $0 | 导航 | 次级 | 编程/入口词 |
+| sglang docker | 170 | 39 | $0 | 信息 | 次级 | 部署词 |
+| mini sglang | 170 | 16 | $0 | 导航 | 次级 | 变体词 |
+| sglang install | 140 | 20 | $0 | 信息 | 主词候选 | Olares 一键安装 SGLang，零竞争部署教程 |
+| sglang quantization | 140 | 26 | $0 | 信息 | 次级 | 量化技术特性 |
+| sglang docs | 140 | 26 | $0 | 信息 | 次级 | 文档词 |
+| sglang paper | 140 | 29 | $0 | 信息 | 次级 | 论文词 |
+| sglang deepseek | 90 | 32 | $0 | 信息 | 次级 | 跑模型词 |
+| sglang openai compatible api | 70 | 7 | $0 | 信息 | 主词候选 | Olares 上搭 OpenAI 兼容 API 推理服务（KD 极低）|
+| sglang qwen | 50 | 17 | $0 | 信息 | 主词候选 | 跑模型教程：Olares 上用 SGLang 部署 Qwen |
+| sglang tutorial | 30 | 0 | $0 | 信息 | GEO | 进直答/FAQ |
 
 ---
 

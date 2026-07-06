@@ -68,13 +68,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | mastodon vs bluesky | 480 | **13** | 对比文：去中心化社交对比，Olares同时支持两者PDS |
-| 2 | twitter alternative | 390 | **16** | 落地页：Olares上一键搭建Mastodon |
-| 3 | mastodon api | 320 | **34** | 技术文：Mastodon API on Olares |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| mastodon | 74,000 | 87 | $0.32 | 信息 | 次级 | 品牌词超高量但 KD=87 难打 |
+| mastodon social media | 1,600 | 78 | $0 | 信息 | 次级 | 泛社交词，KD 高 |
+| mastodon vs bluesky | 480 | 13 | $0 | 信息 | 主词候选 | 去中心化对比，Olares 同时支持 Mastodon + Bluesky PDS |
+| mastodon logo | 390 | 19 | — | 信息 | 次级 | 品牌形象引流词 |
+| twitter alternative | 390 | 16 | $0 | 信息 | 主词候选 | Olares 一键搭 Mastodon 作 Twitter/X 替代 |
+| mastodon api | 320 | 34 | $7.68 | 信息 | 主词候选 | 高 CPC，自托管实例/API 部署 on Olares |
+| 长毛象 | 320 | 33 | — | 信息 | 次级 | 🇨🇳 中文社区词 |
+| decentralized social media | 320 | 51 | — | 信息 | 次级 | 去中心化泛词 |
+| bluesky vs mastodon | 260 | 24 | $0 | 信息 | 次级 | 对比变体 |
+| mastodon instance | 170 | 68 | $0 | 信息 | 次级 | 实例词 |
+| mastodon github | 110 | 72 | $0 | 导航 | 次级 | GitHub 入口 |
+| mastodon docker | 50 | 46 | $0 | 信息 | 次级 | 部署词 |
+| mastodon install | 20 | 0 | $0 | 信息 | GEO | 安装词，进 FAQ |
+| mastodon self-hosted | 0 | 0 | $0 | 信息 | GEO | 自托管词，进直答 |
 
 ## 核心洞见
 

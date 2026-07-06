@@ -94,16 +94,28 @@ Claude Code 挂在 anthropic.com 和 claude.ai 下，无独立域名，借助母
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | claude code vs aider | 170 | **6** | $0 | 对比文，KD=6零竞争 |
-| 2 | claude code plan mode | 2,400 | **15** | $15.68 | 功能教程，量大KD低CPC高 |
-| 3 | claude code alternative | 480 | **18** | $6.42 | 落地页：OpenCode on Olares作为替代 |
-| 4 | claude code offline | 90 | **24** | $15.65 | 教程：Olares+Ollama实现Claude Code完全离线 |
-| 5 | claude code ollama | 90 | **29** | $0 | 教程：Claude Code + Ollama + Olares本地开发环境 |
-| 6 | claude code settings | 720 | **28** | $35.87 | 指南：Claude Code配置详解（CPC最高！） |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| claude code vs cursor | 6,600 | 38 | $10.60 | info | 主词候选 | 超高量对比词，从 Olares 自托管视角切入 |
+| claude code plan mode | 2,400 | 15 | $15.68 | info | 主词候选 | 量大KD低CPC高，功能配置教程 |
+| claude code hooks | 2,400 | 52 | $16.06 | info | 次级 | 高级功能，settings.json hook 差异化角度 |
+| claude code free | 1,600 | 34 | $9.79 | info | 次级 | 高量免费词，导向开源自托管替代 |
+| cursor alternative | 880 | 25 | $7.34 | info | 次级 | 泛替代词，Olares 上架多款编码 agent |
+| claude code memory | 880 | 26 | $26.28 | info | 次级 | CPC 极高配置词 |
+| claude code settings | 720 | 28 | $35.87 | info | 次级 | 全场 CPC 最高，配置教程 |
+| claude code vs copilot | 590 | 17 | $8.43 | info | 主词候选 | Olares 同时上架多款编码 agent |
+| claude code setup | 590 | 34 | $12.44 | info | 主词候选 | 安装配置词，Olares 环境一键就绪 |
+| claude code alternative | 480 | 18 | $6.42 | info | 主词候选 | 开源替代落地页，OpenCode on Olares |
+| github copilot alternative | 210 | 13 | $6.46 | info | 次级 | 泛替代词，低KD |
+| claude code vs aider | 170 | 6 | $0 | info | 主词候选 | 全场 KD 最低对比词，Olares Market 同时上架两者 |
+| claude code offline | 90 | 24 | $15.65 | info | 次级 | 离线诉求，Olares+Ollama 方案 |
+| claude code ollama | 90 | 29 | $0 | info | 主词候选 | Olares+Ollama 本地/私有开发核心场景 |
+| claude code vs opencode | 90 | 19 | $26.16 | info | 次级 | CPC 极高，Olares 同时上架两者 |
+| claude code self-hosted | 30 | 0 | $5.69 | info | GEO | 自托管词近零量，进直答 |
 
 ---
 

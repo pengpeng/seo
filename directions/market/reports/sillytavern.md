@@ -71,14 +71,27 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | sillytavern plugins / extensions | 1,900/390 | **9** | 教程：SillyTavern扩展管理 on Olares |
-| 2 | sillytavern image generation | 210 | **4** | 教程：SillyTavern接ComfyUI图像生成 on Olares |
-| 3 | sillytavern alternative | 50 | **11** | 落地页：Olares让SillyTavern部署更简单 |
-| 4 | sillytavern ollama | 70 | **29** | 教程：SillyTavern + Ollama on Olares本地LLM |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| sillytavern plugins | 1,900 | 9 | $0 | 信息 | 主词候选 | 扩展/插件管理教程 on Olares（高量极低 KD，最大机会）|
+| must have sillytavern extensions | 1,900 | 20 | — | 信息 | 次级 | 扩展清单词 |
+| silly tavern quick replies | 1,900 | 26 | — | 信息 | 次级 | 功能词 |
+| sillytavern streaming not working | 1,600 | 13 | — | 信息 | GEO | 痛点问题词，进直答（稳定部署差异化）|
+| sillytavern character cards | 1,300 | 31 | $0 | 信息 | 次级 | 角色卡词 |
+| sillytavern llm settings | 1,000 | 24 | — | 信息 | 主词候选 | 接本地/外部 LLM 后端与稳定部署（一键切换模型）|
+| sillytavern酒馆 | 720 | 16 | — | 信息 | 次级 | 中文入口词 |
+| sillytavern extensions | 390 | 9 | $0 | 信息 | 次级 | 扩展词 |
+| sillytavern android | 390 | 42 | $0 | 信息 | 次级 | 多端访问 |
+| deepseek api sillytavern | 390 | 22 | — | 信息 | 次级 | 外部 LLM 接入 |
+| sillytavern image generation | 210 | 4 | — | 信息 | 主词候选 | 接 ComfyUI/SD 图像生成，Olares 一站式同时支持 |
+| sillytavern summarizer | 210 | 23 | — | 信息 | 次级 | 功能词 |
+| sillytavern docker | 170 | 21 | $0 | 信息 | 主词候选 | 部署 + 多端访问：Olares 随时随地访问 SillyTavern |
+| sillytavern ios | 140 | 25 | $0 | 信息 | 次级 | 多端访问 |
+| sillytavern alternative | 50 | 11 | $0 | 信息 | 主词候选 | Olares 让 SillyTavern 部署更简单（开源自托管）|
 
 ## 核心洞见
 

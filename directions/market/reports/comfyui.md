@@ -164,17 +164,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | comfyui alternative | 170 | **7** | 落地页：Olares提供更易用的ComfyUI体验 |
-| 2 | comfyui vs stable diffusion | 140 | **8** | 对比文：ComfyUI vs SD关系梳理 |
-| 3 | comfyui workflow | 1,900 | **27** | Olares精选ComfyUI工作流库 |
-| 4 | comfyui portable | 1,300 | **24** | 教程：ComfyUI Portable on Olares One |
-| 5 | comfyui ollama | 170 | **20** | 教程：ComfyUI + Ollama on Olares |
-| 6 | wan 2.2（通过教程排名热门模型词） | 14,800 | 64 | 每次新模型发布出Olares部署教程 |
-| 7 | comfyui manager | 5,400 | 35 | Olares内置ComfyUI Manager |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| wan 2.2 | 14,800 | 64 | — | info | 主词候选 | 超高量热门模型词，每次新模型出 Olares 部署教程 |
+| comfyui manager | 5,400 | 35 | $0 | info | 次级 | Olares 内置 Manager，工作流生态 |
+| comfyui workflow | 1,900 | 27 | $4.26 | info | 主词候选 | Olares 精选工作流库，复制 registry 流量资产 |
+| comfyui portable | 1,300 | 24 | $0 | info | 主词候选 | Olares One 一键部署 = 便携版最佳实现 |
+| comfyui install | 880 | 38 | $0 | info | 次级 | 安装词，并入部署文 |
+| comfyui api | 720 | 26 | $0 | info | 次级 | 开发词 |
+| comfyui docker | 480 | 21 | $0 | info | 次级 | 部署词，Olares 免手动 Docker |
+| comfyui cloud | 320 | 60 | $6.82 | comm | 主词候选 | 自托管替代云服务，数据自留、无按次付费 |
+| run stable diffusion locally | 260 | 23 | $1.59 | info | 次级 | 本地图像生成需求 |
+| comfyui vs automatic1111 | 260 | 22 | $0 | info | 次级 | 对比词 |
+| comfyui alternative | 170 | 7 | $2.19 | info | 主词候选 | 全场最易排替代词（KD7），Olares 更易用体验 |
+| comfyui ollama | 170 | 20 | $0 | info | 主词候选 | 本地图像 + 本地 LLM 联动 |
+| comfyui vs stable diffusion | 140 | 8 | $0 | info | 次级 | 极低KD 对比词 |
+| comfyui cpu only | 110 | 26 | $0 | info | 主词候选 | 低门槛/无 GPU 部署 |
+| comfyui vs | 40 | 4 | $0 | info | 次级 | KD 最低对比词 |
+| comfyui open source | 20 | 0 | $0 | info | GEO | 开源诉求近零量，进直答 |
 
 ---
 

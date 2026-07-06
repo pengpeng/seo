@@ -66,13 +66,25 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | librechat vs open webui | 170 | **12** | 对比文：Olares同时支持两者 |
-| 2 | librechat mcp | 170 | **18** | 教程：LibreChat + Olares MCP |
-| 3 | librechat deepseek | 50 | **16** | 教程：LibreChat接DeepSeek on Olares |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| librechat | 5,400 | 41 | $0 | 导航 | 主词候选 | 品牌词高量但导航意图，Olares 一键部署 LibreChat 自托管 |
+| librechat github | 480 | 59 | $0 | 导航 | 次级 | GitHub 入口 |
+| librechat mcp | 170 | 18 | $0 | 信息 | 主词候选 | LibreChat 作 MCP 客户端 + Olares MCP |
+| librechat vs open webui | 170 | 12 | $0 | 信息 | 主词候选 | Olares 同时部署两者对比 |
+| librechat docker | 90 | 29 | $0 | 信息 | 次级 | 部署词 |
+| librechat ollama | 70 | 33 | $0 | 信息 | 次级 | 接本地模型 |
+| librechat deepseek | 50 | 16 | $0 | 信息 | 主词候选 | 接 DeepSeek/Ollama 本地模型 on Olares |
+| librechat agents | 30 | 15 | $8.34 | 信息 | 次级 | CPC 高，Agent/RAG |
+| open source chatgpt alternative | 30 | 19 | $2.34 | 信息 | 次级 | ChatGPT 替代词，数据归你 |
+| librechat openai | 30 | 0 | $0 | 信息 | GEO | 接 OpenAI，进 FAQ |
+| librechat rag | 20 | 0 | $0 | 信息 | GEO | RAG 词，进 FAQ |
+| librechat alternative | 20 | 0 | $6.04 | 信息 | GEO | 替代词 CPC 高，进 FAQ |
+| librechat vs chatgpt | 20 | 0 | $0 | 信息 | GEO | 对比词，进直答 |
 
 ## 核心洞见
 

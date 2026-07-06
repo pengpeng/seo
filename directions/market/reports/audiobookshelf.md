@@ -69,13 +69,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | how to install audiobookshelf on ubuntu | 1,300 | **8** | Olares一键部署 vs Ubuntu手动安装对比 |
-| 2 | audiobookshelf search multiple tags | 1,900 | **12** | 功能教程：Olares上的Audiobookshelf进阶使用 |
-| 3 | self hosted audiobook server | 70 | **25** | 落地页：Olares One = 最简单有声书服务器 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| audiobookshelf search multiple tags | 1,900 | 12 | — | info | 主词候选 | 高量极低KD 功能词，Olares 上开箱即用 |
+| how to install audiobookshelf on ubuntu | 1,300 | 8 | — | info | 主词候选 | KD8 几乎无竞争，Olares Market 一键部署替代手动安装 |
+| audiobookshelf ios | 390 | 56 | $3.30 | info | 次级 | 移动端词，Olares 远程访问更流畅 |
+| audiobookshelf docker | 170 | 43 | $0 | info | 次级 | 部署词，Olares 免手动 Docker |
+| audiobookshelf windows | 170 | 22 | $0 | info | 次级 | 平台安装词，并入安装文 |
+| audiobookshelf port | 140 | 25 | — | info | 次级 | 端口配置，Olares 免网络配置 |
+| audiobookshelf docker compose | 110 | 31 | $0 | info | 次级 | 部署词，并入安装文 |
+| audiobookshelf api | 90 | 16 | $0 | info | 次级 | 低KD 开发词 |
+| self hosted audiobook server | 70 | 25 | — | info | 主词候选 | 泛需求词，Olares One = 最简单有声书服务器 |
+| audiobookshelf android | 70 | 12 | $0 | info | 主词候选 | 低KD 移动端词，Olares 远程访问 |
+| audiobookshelf folder structure | 70 | 8 | — | info | 次级 | 媒体库整理，进教程 |
+| audiobook server | 40 | 9 | $0 | info | 次级 | 泛需求极低KD 词 |
+| audiobook metadata | 40 | 10 | — | info | 次级 | 元数据整理，进教程 |
+| audiobookshelf alternative | 20 | 0 | $0 | info | GEO | 替代词近零量，进直答 |
+| audiobookshelf synology | 20 | 0 | $0 | info | GEO | NAS 平台词，进 FAQ/直答 |
+| audiobookshelf self-hosted | 0 | 0 | $0 | info | GEO | 自托管词，强调数据归你 |
 
 ## 核心洞见
 

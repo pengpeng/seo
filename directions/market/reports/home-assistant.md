@@ -169,16 +169,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | home assistant cloud | 1,600 | **18** | $0 | 核心文：Olares替代Nabu Casa免费远程访问 |
-| 2 | home assistant raspberry pi | 8,100 | **21** | $0.44 | 对比文：RPi运行HA vs Olares One运行HA |
-| 3 | home assistant remote access | 390 | **27** | $11.73 | 教程：Olares内置Tailscale解决HA远程访问 |
-| 4 | home assistant vs openhab | 260 | **14** | $0 | 对比文（顺带提Olares支持HA） |
-| 5 | home assistant synology | 210 | **17** | $0 | 迁移指南：Synology→Olares One运行HA |
-| 6 | home assistant ollama | 170 | **27** | $0 | 教程：HA+Ollama+Olares，本地AI控制智能家居 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| home assistant raspberry pi | 8,100 | 21 | $0.44 | 信息 | 主词候选 | 全场最高量低 KD，RPi→Olares One 升级/迁移路径 |
+| http://homeassistant.local.8123 | 3,600 | 14 | $0 | 信息 | 主词候选 | 连接/登录问题排查，Olares 统一访问入口 |
+| home assistant cloud | 1,600 | 18 | $0 | 信息 | 主词候选 | Nabu Casa 免费替代，Olares 内置 Tailscale 远程访问 |
+| home assistant docker | 1,600 | 36 | $0 | 信息 | 主词候选 | Olares 一键部署 HA，免 Docker/OS 安装摩擦 |
+| home assistant os | 1,600 | 31 | $0 | 信息 | 次级 | 安装方式词 |
+| home assistant dashboard | 1,300 | 36 | $1.29 | 信息 | 次级 | 仪表盘教程 |
+| home assistant integrations | 880 | 25 | $2.34 | 信息 | 主词候选 | 集成/自动化教程 on Olares |
+| home assistant install | 880 | 27 | $4.01 | 信息 | 次级 | 安装词，CPC 高 |
+| home assistant remote access | 390 | 27 | $11.73 | 信息 | 次级 | CPC 极高，Nabu Casa 远程访问替代 |
+| home assistant ai | 260 | 41 | $1.74 | 信息 | 主词候选 | HA+Ollama/Claude+Olares 本地 AI 控制家居 |
+| home assistant vs openhab | 260 | 14 | $0 | 信息/导航 | 主词候选 | 对比文，Olares 支持 HA |
+| home assistant synology | 210 | 17 | $0 | 信息 | 次级 | NAS→Olares One 迁移 |
+| home assistant alternative | 210 | 13 | $0.80 | 信息 | 次级 | 替代词 |
+| home assistant ollama | 170 | 27 | $0 | 信息 | 次级 | 本地 LLM 集成 |
+| home assistant claude | 70 | 0 | $15.05 | 信息 | GEO | CPC 极高新兴词，进直答 |
+| home assistant self-hosted | 10 | 0 | $0 | 信息 | GEO | 自托管词，进 FAQ |
 
 ---
 

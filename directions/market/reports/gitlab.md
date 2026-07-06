@@ -74,14 +74,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | gitlab alternative | 110 | **17** | $9.88 | 落地页：Gitea on Olares作为GitLab替代 |
-| 2 | gitlab vs gitea | 110 | **16** | $0 | 对比文：Olares同时支持两者 |
-| 3 | gitlab mcp | 880 | **22** | $0 | 教程：GitLab作为MCP代码库工具 on Olares |
-| 4 | gitlab vs github | 4,400 | **26** | $1.53 | 高量对比文，Olares上的代码托管方案 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| gitlab vs github | 4,400 | 26 | $1.53 | info | 主词候选 | GitLab vs GitHub 选型 + Olares 自托管代码托管 |
+| gitlab api | 1,900 | 38 | $0 | info | 次级 | 开发词 |
+| gitlab ci | 1,900 | 53 | — | nav | 次级 | CI 词，并入 CI/CD 文 |
+| gitlab updates | 1,900 | 32 | — | info | 次级 | 更新词 |
+| gitlab runner | 1,600 | 51 | $6.68 | nav | 次级 | CI Runner 词 |
+| gitlab ci cd | 1,300 | 61 | $2.99 | nav | 主词候选 | CI/CD/Runner 自托管配置教程 on Olares |
+| gitlab mcp server | 1,300 | 31 | — | info | 次级 | MCP Server 词，并入 mcp 文 |
+| gitlab manual job | 1,300 | 27 | — | info | 次级 | CI 功能词 |
+| gitlab env variables | 1,000 | 22 | — | info | 次级 | CI 配置词 |
+| gitlab mcp | 880 | 22 | $0 | nav | 主词候选 | 量大，GitLab 作为 MCP 代码库工具 on Olares |
+| gitlab docker | 480 | 58 | $0 | info | 主词候选 | 自托管部署/上手 on Olares |
+| gitlab tutorial | 480 | 51 | $1.09 | info | 次级 | 上手词，并入部署文 |
+| gitlab community edition | 480 | 76 | $4.92 | info | 次级 | 社区版词，导向自托管 |
+| gitlab free | 260 | 86 | $4.38 | info | 次级 | 免费诉求，导向自托管 |
+| gitlab alternative | 110 | 17 | $9.88 | info | 主词候选 | CPC$9.88 企业替代，Gitea on Olares 作 GitLab 替代 |
+| gitlab vs gitea | 110 | 16 | $0 | info | 次级 | 对比词，Olares 同时支持两者 |
 
 ## 核心洞见
 

@@ -74,15 +74,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | home music server | 140 | **6** | 落地页：Olares One = 你的家庭音乐服务器 |
-| 2 | install navidrome on synology nas | 170 | **9** | 迁移教程：Synology NAS→Olares One运行Navidrome |
-| 3 | navidrome vs jellyfin | 90 | **12** | 对比文：音乐 vs 视频，Olares同时支持两者 |
-| 4 | navidrome last fm | 140 | **8** | 教程：Navidrome接Last.fm on Olares |
-| 5 | music server | 390 | **18** | 泛需求落地页 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| navidrome | 5,400 | 44 | $0 | 导航 | 主词候选 | 品牌词，Olares 一键部署 Navidrome 音乐服务器 |
+| music server | 390 | 18 | — | 信息 | 次级 | 泛需求词 |
+| self hosted music streaming | 260 | 22 | $0 | 信息 | 次级 | 自托管流媒体词 |
+| navidrome music server | 210 | 30 | — | 信息 | 次级 | 品牌+品类词 |
+| install navidrome on synology nas | 170 | 9 | — | 信息 | 主词候选 | KD=9，Synology NAS→Olares One 迁移/部署 |
+| navidrome客户端 | 170 | 26 | — | 信息 | 次级 | 🇨🇳 客户端词 |
+| navidrome docker | 140 | 46 | $0 | 信息 | 次级 | 部署词 |
+| home music server | 140 | 6 | — | 信息 | 主词候选 | KD=6，落地页：Olares One = 家庭音乐服务器 |
+| navidrome last fm | 140 | 8 | — | 信息 | 主词候选 | KD=8，Navidrome 接 Last.fm/插件集成教程 |
+| navidrome ios | 110 | 15 | $0 | 信息 | 主词候选 | iOS/Android 客户端选择 + Olares 远程访问 |
+| navidrome vs jellyfin | 90 | 12 | $0 | 信息 | 次级 | 对比词，Olares 同时支持 |
+| subsonic api | 90 | 16 | — | 信息 | 次级 | 协议 API 词 |
+| navidrome android | 70 | 17 | $0 | 信息 | 次级 | 客户端词 |
+| navidrome discord | 50 | 7 | — | 信息 | 次级 | KD=7 社区词 |
+| navidrome alternatives | 50 | 6 | — | 信息 | 主词候选 | KD=6，Navidrome 替代/vs Jellyfin，数据归你 |
+| navidrome synology | 30 | 0 | $0 | 信息 | GEO | NAS 部署词，进 FAQ |
 
 ## 核心洞见
 

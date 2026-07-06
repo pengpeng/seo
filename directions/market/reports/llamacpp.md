@@ -116,15 +116,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | llama cpp vs ollama | 260 | **14** | 对比文：两者定位差异，Olares同时支持 |
-| 2 | llama.cpp vs ollama | 1,000 | **22** | 同方向高量入口 |
-| 3 | llama.cpp vs vllm | 70 | **25** | 三框架横评 |
-| 4 | llama cpp python | 720 | **39** | 教程：llama.cpp Python绑定 on Olares |
-| 5 | 系统性llama.cpp部署文档 | 8,100+ | — | 占领内容真空 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| llama.cpp | 8,100 | 63 | $5.94 | 导航 | 主词候选 | 品牌词超高量但 KD 高，Olares 一键部署 llama.cpp |
+| llama cpp | 5,400 | 61 | $5.94 | 导航 | 次级 | 品牌变体 |
+| llamacpp | 1,900 | 49 | $5.94 | 导航 | 次级 | 品牌变体 |
+| llama.cpp vs ollama | 1,000 | 22 | $0 | 信息/导航 | 主词候选 | 三框架定位对比，Olares 同时支持一站对比 |
+| llama cpp python | 720 | 39 | $0 | 信息 | 主词候选 | Python 绑定/Agent/API 接入教程 on Olares |
+| llama.cpp windows | 590 | 37 | $0 | 信息 | 主词候选 | 各平台部署文档，DIY→Olares One |
+| llama cpp server | 260 | 50 | $0 | 信息 | 次级 | 搭 API 服务器 |
+| llama.cpp server | 260 | 55 | $9.75 | 导航 | 主词候选 | 高 CPC 商业需求，Olares 一键部署 API 服务器 |
+| llama cpp vs ollama | 260 | 14 | $0 | 信息/导航 | 次级 | 极低 KD 对比变体 |
+| gguf model | 210 | 44 | $4.52 | 信息 | 次级 | GGUF 模型词，CPC 高 |
+| llama.cpp python | 140 | 34 | $0 | 信息 | 次级 | Python 绑定变体 |
+| llama.cpp vs vllm | 70 | 25 | $0 | 信息 | 次级 | 对比词 |
+| llama cpp deepseek r1 | 50 | 9 | $0 | 信息 | 主词候选 | KD=9 极低，跑 DeepSeek GGUF on Olares |
+| llama cpp agent | 40 | 12 | $0 | 信息 | 次级 | Agent 接入，KD=12 |
+| llama.cpp mcp | 30 | 0 | $0 | 信息 | GEO | MCP 新兴词，进 FAQ |
+| llama.cpp raspberry pi | 10 | 0 | $0 | 信息 | GEO | DIY→Olares One，进 FAQ |
 
 ---
 

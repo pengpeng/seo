@@ -48,13 +48,23 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | notebooklm alternative | 320 | **7** | 核心落地页：Open Notebook on Olares = 私有NotebookLM |
-| 2 | notebooklm self-hosted | 70 | **30** | 教程：Open Notebook完整部署 on Olares |
-| 3 | podcast ai self-hosted | — | 低 | 教程：用Open Notebook on Olares生成AI播客 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| notebooklm alternative | 320 | 7 | $0 | 信息 | 主词候选 | KD=7 近零竞争：Open Notebook on Olares = 私有 NotebookLM（开源自托管、数据归你）|
+| notebooklm self-hosted | 70 | 30 | $0 | 信息 | 主词候选 | 精准自托管词，完整部署 + AI 播客教程 |
+| notebooklm open source | 50 | 48 | $0 | 信息 | 次级 | 开源替代表述 |
+| notebooklm local | 30 | 0 | $0 | 信息 | GEO | 进直答/FAQ |
+| open notebook docker | 20 | 0 | $0 | 信息 | 次级 | 部署词，Olares 免 compose |
+| google notebooklm alternative | 20 | 0 | $0 | 信息 | GEO | 进直答/FAQ |
+| notebooklm alternative free | 20 | 0 | $0 | 信息 | GEO | 进直答/FAQ |
+| notebooklm alternative open source | 20 | 0 | $0 | 信息 | GEO | 进直答/FAQ |
+| notebooklm free alternative | 20 | 0 | $0 | 信息 | GEO | 进直答/FAQ |
+| podcast ai self-hosted | — | — | — | 信息 | GEO | Open Notebook 核心功能场景，空白词抢占 |
+| open notebook ollama | — | — | — | 信息 | GEO | Olares + Open Notebook + Ollama 本地栈 |
 
 ## 核心洞见
 

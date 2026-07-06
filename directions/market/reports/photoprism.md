@@ -72,15 +72,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | immich vs photoprism | 390 | **14** | 对比文：Olares同时支持两者（已有Immich报告） |
-| 2 | photoprism vs immich | 320 | **13** | 同上，另一个入口词 |
-| 3 | self hosted photo gallery | 50 | **13** | 落地页：Olares上的自托管相册 |
-| 4 | photo management software | 1,900 | **26** | 高量泛词文章 |
-| 5 | photoprism docker compose | 50 | **17** | 部署教程 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| photo management software | 1,900 | 26 | — | 信息 | 主词候选 | 泛需求 listicle：自托管照片管理，Olares 作为 Google Photos 替代 |
+| image organizer | 1,000 | 51 | — | 信息 | 次级 | 泛需求词 |
+| immich vs photoprism | 390 | 14 | $0 | 信息 | 主词候选 | 唯一同时上架两者的平台：客观对比与一键切换（开源自托管）|
+| photoprism vs immich | 320 | 13 | $0 | 信息 | 次级 | 对比词反向 |
+| heic图片下载 | 320 | 21 | — | 信息 | 次级 | 中文 HEIC 需求 |
+| open source photo organizer | 90 | 33 | — | 信息 | 次级 | 开源表述 |
+| open source photo management | 70 | 34 | $3.04 | 信息 | 次级 | 开源表述 |
+| photoprism docker compose | 50 | 17 | $0 | 信息 | 主词候选 | Olares 一键装，免 docker-compose 手动配置 |
+| photoprism docker | 50 | 38 | $0 | 信息 | 次级 | 部署词 |
+| self hosted photo gallery | 50 | 13 | — | 信息 | 次级 | 泛需求词 |
+| photoprism heic support | 40 | 15 | — | 信息 | 主词候选 | HEIC 格式处理（含中文需求）|
+| photoprism synology | 20 | 0 | $0 | 信息 | GEO | NAS 迁移，进 FAQ |
+| photoprism truenas | 20 | 0 | $0 | 信息 | GEO | NAS 迁移，进 FAQ |
+| photoprism alternative | 10 | 0 | $0 | 信息 | GEO | 进直答/FAQ |
 
 ## 核心洞见
 

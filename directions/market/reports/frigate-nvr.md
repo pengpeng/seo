@@ -80,14 +80,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | frigate setup | 110 | **8** | 教程：Frigate NVR on Olares完整配置 |
-| 2 | setup remote access to frigate in nginx | 720 | **9** | 教程：Olares内置方案替代nginx反向代理 |
-| 3 | frigate face recognition | 140 | **10** | 教程：Frigate面部识别 on Olares One |
-| 4 | frigate home assistant | 720 | **28** | 教程：Frigate+HA+Olares完整智能家居安防 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| frigate nvr | 3,600 | 36 | $3.84 | info | 次级 | 品牌词 |
+| go2rtc | 2,900 | 17 | — | info | 次级 | Frigate 内置 RTSP 流服务器，低竞争技术词 |
+| coral tpu | 1,600 | 35 | — | info | 次级 | Coral TPU 硬件加速词 |
+| frigate screenshots | 1,000 | 24 | — | info | 次级 | 功能词 |
+| frigate home assistant | 720 | 28 | $0 | info | 主词候选 | Frigate + HA + Olares 本地安防×智能家居 |
+| open source nvr | 720 | 28 | $4.56 | info | 主词候选 | 开源自托管 NVR，Olares 免云订阅私有安防 |
+| setup remote access to frigate in nginx | 720 | 9 | — | info | 主词候选 | Olares 内置 Tailscale 替代 nginx 反代，零配置远程访问 |
+| frigate camera | 390 | 31 | $2.42 | info | 次级 | 摄像头词 |
+| frigate docker | 320 | 38 | $0 | info | 次级 | 部署词 |
+| frigate config | 320 | 14 | — | info | 次级 | 配置词，并入安装文 |
+| frigate nvr ai detection | 320 | 16 | — | info | 次级 | AI 检测词 |
+| frigate install | 210 | 16 | $0 | info | 次级 | 安装词，并入安装文 |
+| open source security camera | 140 | 28 | $3.40 | info | 次级 | 开源安防泛词 |
+| frigate face recognition | 140 | 10 | $0 | info | 主词候选 | 面部识别/AI 检测 + Coral TPU on Olares One |
+| frigate setup | 110 | 8 | $0 | info | 主词候选 | KD 全场最低，一键安装/完整配置 |
+| frigate api | 40 | 2 | $0 | info | 主词候选 | KD=2 几乎零竞争，API/技术集成教程 |
 
 ## 核心洞见
 

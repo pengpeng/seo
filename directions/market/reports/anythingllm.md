@@ -62,13 +62,23 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | anythingllm api | 70 | **10** | 教程：AnythingLLM API on Olares |
-| 2 | anythingllm ollama | 70 | **23** | 教程：AnythingLLM + Ollama on Olares |
-| 3 | anythingllm mcp | 110 | **30** | MCP集成教程 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| anythingllm ollama model not found | 1,600 | 17 | — | info | GEO | 高量错误词，Olares 一键部署消除 Ollama 配置摩擦，进排障/直答 |
+| anything ai | 1,000 | 17 | — | info | 主词候选 | 高量低KD泛词，Olares Market 承接泛 AI 流量 |
+| anythingllm docker | 110 | 33 | $0 | info | 次级 | 部署词，Olares 免手动 Docker |
+| anythingllm mcp | 110 | 30 | $0 | info | 主词候选 | MCP 集成，Olares 作为 MCP Server |
+| all llms in one place | 90 | 16 | — | info | 次级 | 泛聚合词，Olares 上架多款 RAG/知识库 |
+| anythingllm ollama | 70 | 23 | $0 | info | 主词候选 | 本地 LLM + AnythingLLM，Olares 核心场景 |
+| anythingllm api | 70 | 10 | $0 | info | 次级 | 极低KD 切入词 |
+| anythingllm rag | 30 | 23 | $3.35 | info | 次级 | 私有知识库，数据归你 |
+| anythingllm vs librechat | 30 | 0 | $0 | info | GEO | 对比词近零量，进直答 |
+| anythingllm alternative | 20 | 0 | $5.21 | info | GEO | 替代词近零量，Olares 同时上架多款 |
+| anythingllm vs dify | — | — | — | — | GEO | 近零/无量对比，GEO 抢占 |
 
 ## 核心洞见
 

@@ -103,16 +103,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | jellyfin vs emby | 480 | **12** | 对比文，Olares同时支持两者 |
-| 2 | jellyfin unraid | 140 | **10** | NAS迁移指南→Olares One |
-| 3 | jellyfin remote access | 590 | **17** | 教程：Olares内置Tailscale解决Jellyfin远程访问 |
-| 4 | jellyfin plugins | 1,900 | **18** | 教程：Jellyfin插件管理 on Olares |
-| 5 | jellyfin vs plex | 4,400 | 32 | 超高量对比文 |
-| 6 | jellyfin hardware acceleration | 210 | **21** | 教程：Olares One GPU硬件加速 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| jellyfin vs plex | 4,400 | 32 | $0 | 信息 | 主词候选 | 超高量对比，Plex 付费 vs Jellyfin 免费，Olares 一键部署 |
+| jellyfin plugins | 1,900 | 18 | $0 | 信息 | 主词候选 | 高量低 KD，插件管理教程 on Olares |
+| plex alternative | 1,600 | 33 | $0 | 信息 | 次级 | Plex 替代词 |
+| jellyfin docker | 1,300 | 45 | $0 | 信息 | 主词候选 | Olares 一键部署，跨平台省去手动安装 |
+| jellyfin remote access | 590 | 17 | $0 | 信息 | 主词候选 | Olares 内置 Tailscale 解决远程访问 |
+| jellyfin docker compose | 590 | 25 | $0 | 信息 | 次级 | 部署词 |
+| jellyfin vs emby | 480 | 12 | $0 | 信息 | 主词候选 | 极低 KD 对比，Olares 同时支持两者 |
+| jellyfin setup | 480 | 36 | $0 | 信息 | 次级 | 安装配置 |
+| jellyfin quick connect | 390 | 16 | $0 | 信息 | 次级 | 快速连接功能 |
+| jellyfin synology | 320 | 15 | $0 | 信息 | 主词候选 | NAS/RPi→Olares One 迁移 |
+| jellyfin transcoding | 320 | 30 | $0 | 信息 | 次级 | 转码，配 GPU 加速 |
+| jellyfin hardware acceleration | 210 | 21 | $0 | 信息 | 主词候选 | Olares One GPU 硬件加速 |
+| jellyfin vs kodi | 170 | 18 | $0 | 信息 | 次级 | 对比词 |
+| jellyfin unraid | 140 | 10 | $0 | 信息 | 次级 | NAS 迁移，KD=10 |
+| jellyfin nas | 110 | 23 | $0 | 信息 | 次级 | 泛 NAS 词 |
+| emby alternative | 40 | 7 | $0 | 信息 | GEO | 极低 KD 替代词，进 FAQ |
 
 ## 核心洞见
 

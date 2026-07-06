@@ -70,13 +70,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | gitea vs gitlab | 260 | **16** | 对比文：私有代码托管选型 |
-| 2 | gitea mcp | 170 | **16** | 教程：Gitea作为AI代码工具的MCP工具集 |
-| 3 | gitea vs forgejo | 170 | **25** | 对比文 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| gitea docker | 480 | 50 | $0 | info | 主词候选 | 部署/安装 on Olares，替代手工 Docker/NAS 配置 |
+| gitea actions | 260 | 32 | $0 | info | 主词候选 | 自托管 CI/CD on Olares |
+| gitea vs gitlab | 260 | 16 | $0 | info | 主词候选 | 私有 Git 选型，Olares 一键部署降迁移成本 |
+| gitea github | 260 | 58 | $0 | nav | 次级 | 品牌导航词 |
+| forgejo vs gitea | 260 | 35 | $0 | info | 次级 | 对比词，并入选型文 |
+| gitea vs forgejo | 170 | 25 | $0 | info | 次级 | 对比词，并入选型文 |
+| gitea mcp | 170 | 16 | $0 | info | 主词候选 | Gitea 作为 AI 代码库 MCP 工具 on Olares |
+| gitea docker compose | 170 | 27 | — | info | 次级 | 部署词，并入部署文 |
+| gitea runner | 140 | 33 | $0 | nav | 次级 | CI Runner 词 |
+| gitea api | 140 | 29 | $0 | info | 次级 | 开发词 |
+| gitlab vs gitea | 110 | 16 | $0 | info | 次级 | 对比词，并入选型文 |
+| gitea container registry | 110 | 19 | — | info | 次级 | 容器仓库功能词 |
+| gitea helm chart | 110 | 28 | — | info | 次级 | 部署词 |
+| gitea ci cd | 90 | 34 | $0 | info | 次级 | CI/CD 词 |
+| gitea install | 90 | 61 | $0 | nav | 次级 | 安装词，并入部署文 |
+| gitea alternative | 10 | 0 | $5.03 | info | GEO | 替代词近零量，进直答 |
 
 ## 核心洞见
 

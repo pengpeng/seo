@@ -54,12 +54,22 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | private livestream/live stream | 140-170 | **16-22** | 教程：Olares上搭建私有直播服务器 |
-| 2 | owncast hosting | 170 | **20** | Olares一键部署vs付费托管 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| owncast | 720 | 34 | $4.45 | 导航 | 次级 | 竞品品牌词 |
+| streaming server | 720 | 62 | — | 信息 | 次级 | 泛需求词 |
+| video streaming server | 390 | 39 | — | 信息 | 次级 | 泛需求词 |
+| private live stream | 170 | 22 | $2.64 | 信息 | 主词候选 | 在 Olares 上搭私有直播服务器（Owncast，开源自托管、数据归你）|
+| owncast hosting | 170 | 20 | $0 | 信息 | 主词候选 | Olares 一键部署 Owncast vs 付费托管 |
+| private livestream | 140 | 16 | — | 信息 | 次级 | 私有直播变体词 |
+| owncast alternative | 20 | 0 | $2.93 | 信息 | GEO | 进直答/FAQ |
+| owncast docker | 20 | 0 | $0 | 信息 | GEO | 部署词，进 FAQ |
+| self-hosted streaming | 20 | 0 | $0 | 信息 | GEO | 进 FAQ |
+| open source live streaming | 20 | 0 | $2.33 | 信息 | GEO | 进 FAQ |
 
 ## 核心洞见
 

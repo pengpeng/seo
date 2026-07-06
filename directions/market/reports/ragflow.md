@@ -60,13 +60,24 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | ragflow 部署 + tutorial | 90+50 | **8-9** | 教程：RAGFlow on Olares完整部署指南 |
-| 2 | ragflow ollama | 40 | **10** | 教程：RAGFlow + Ollama on Olares私有RAG |
-| 3 | ragflow knowledge graph | 50 | **18** | 技术文：RAGFlow知识图谱 on Olares |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| ragflow | 2,900 | 24 | $3.56 | 信息 | 次级 | 品牌词，官网承接效率低 |
+| ragflow github | 390 | 29 | $4.71 | 导航 | 次级 | 品牌导航词 |
+| ragflow实现手机端访问 | 170 | 15 | — | 信息 | 次级 | 中文移动端访问，对应 Olares 随时随地 |
+| ragflow api | 110 | 0 | $0 | 导航 | 次级 | API 词 |
+| ragflow tutorial | 90 | 9 | $0 | 信息 | 主词候选 | 完整部署教程：RAGFlow on Olares（KD 极低无竞争，开源自托管）|
+| ragflow knowledge graph | 50 | 18 | $2.35 | 信息 | 主词候选 | 图 RAG（GraphRAG）on Olares 计算资源 |
+| ragflow 部署 | 50 | 8 | $0 | 信息 | 次级 | 中文部署词，极低 KD |
+| ragflow 使用 | 50 | 18 | — | 信息 | 次级 | 中文使用词 |
+| ragflow ollama | 40 | 10 | $0 | 信息 | 主词候选 | 私有 RAG：RAGFlow + Ollama on Olares，移动端随时访问 |
+| ragflow python | 40 | 22 | $0 | 信息 | 次级 | SDK/编程词 |
+| ragflow alternative | 20 | 0 | $3.64 | 信息 | GEO | 进直答/FAQ |
+| ragflow enterprise | 20 | 0 | $0 | 信息 | GEO | 企业前哨，进 FAQ |
 
 ## 核心洞见
 

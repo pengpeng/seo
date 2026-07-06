@@ -181,20 +181,28 @@ Ollama 是把开源大模型"一条命令跑起来"的本地推理运行时：`c
 
 ---
 
-## 优先行动清单（Top 10）
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | private llm | 720 | 27 | ⭐⭐⭐ | 核心落地页：Olares = 你的私有 LLM 基础设施（Ollama + 远程 + 备份） |
-| 2 | ollama vs llama.cpp | 1,000 | 20 | ⭐⭐⭐ | 对比文（CPC $13.7），收尾"两者都能在 Olares 一键跑" |
-| 3 | ollama vs lm studio | 1,000 | 24 | ⭐⭐⭐ | 对比文：Ollama+Olares vs LM Studio |
-| 4 | does ollama cloud gather information | 720 | 25 | ⭐⭐⭐ | 隐私攻击面文：上云的代价 vs 本地拥有 |
-| 5 | local chatgpt | 390 | 17 | ⭐⭐⭐ | 落地页：Olares 一键搭本地 ChatGPT（Ollama + Open WebUI） |
-| 6 | private gpt | 480 | 18 | ⭐⭐⭐ | 落地页，与 #5 内链 |
-| 7 | ollama alternative / lm studio alternative | 210 / 260 | 16 / 15 | ⭐⭐⭐ | 平替清单页，导向 Olares Market 一键装 |
-| 8 | ollama vs chatgpt | 90 | 11 | ⭐⭐⭐ | 叙事文：本地拥有 vs 每月续费 |
-| 9 | ollama remote access / how to connect to local ollama | 20 / 320 | 0 / 31 | ⭐⭐ | 教程：用 Olares 随时随地访问本地 Ollama（差异化最强） |
-| 10 | open webui | 8,100 | 34 | ⭐⭐ | 借力大词：Open WebUI + Ollama on Olares 安装教程 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| open webui | 8,100 | 34 | $6.46 | 信息 | 主词候选 | 借力大词：Olares Market 一键装 Open WebUI + Ollama = 完整本地 ChatGPT 栈 |
+| ollama docker | 1,900 | 43 | $0 | 信息 | 次级 | 部署词，Olares 免手动配置 |
+| ollama cloud | 1,900 | 56 | $8.12 | 商业 | 次级 | 官方云＝隐私攻击面入口，反衬本地拥有 |
+| ollama vs llama.cpp | 1,000 | 20 | $13.70 | 信息 | 主词候选 | 后端引擎对比，收尾"两者都能在 Olares 一键跑"（CPC 最高）|
+| ollama vs lm studio | 1,000 | 24 | $7.05 | 信息 | 主词候选 | 桌面本地 LLM 工具对比，导向 Olares Market 一键装 |
+| private llm | 720 | 27 | $3.76 | 信息 | 主词候选 | 核心定位落地页：Olares = 你的私有 LLM 基础设施（开源自托管、数据归你）|
+| does ollama cloud gather information | 720 | 25 | $0 | 信息 | 主词候选 | 隐私攻击面：上云有风险，Olares 让你本地拥有 + 随时访问 |
+| private gpt | 480 | 18 | $4.28 | 信息 | 次级 | 低 KD 高意图，隐私叙事 |
+| local chatgpt | 390 | 17 | $0 | 信息 | 次级 | Olares 一键搭本地 ChatGPT 栈 |
+| how to connect to local ollama | 320 | 31 | $0 | 信息 | 主词候选 | 远程访问：Olares 自动域名 + VPN 直接解决 |
+| lm studio alternative | 260 | 15 | $3.65 | 信息 | 次级 | 极低 KD 平替词 |
+| ollama vs vllm | 260 | 30 | $6.16 | 信息 | 次级 | 后端引擎对比词 |
+| ollama alternative | 210 | 16 | $4.30 | 信息 | 次级 | 极低 KD 平替词 |
+| ollama vs chatgpt | 90 | 11 | $0 | 信息 | 次级 | KD 最低、叙事最强：本地 vs 订阅 |
+| ollama remote access | 20 | 0 | $0 | 信息 | GEO | 差异化最强点、零竞争，进直答/FAQ |
+| ollama synology | 20 | 0 | $0 | 信息 | GEO | NAS 迁移，进 FAQ |
 
 ---
 

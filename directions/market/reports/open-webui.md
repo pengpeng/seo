@@ -84,15 +84,27 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | open webui alternative | 140 | **4** | 落地页：Olares提供更好的Open WebUI部署 |
-| 2 | open webui gemini | 40 | **5** | 教程：Open WebUI接Gemini on Olares |
-| 3 | open webui vs librechat | 70 | **7** | 对比文：两者在Olares上的对比 |
-| 4 | open webui mcp | 210 | **20** | 教程：Olares作为Open WebUI MCP Server |
-| 5 | openclaw集成（借力） | 246,000 | 76 | Olares OpenClaw集成页 → Open WebUI流量 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| open webui | 8,100 | 34 | $6.46 | 信息 | 主词候选 | Olares Market 一键部署 Open WebUI（含 OpenClaw 集成页借力大词流量）|
+| how to run a model in openwebui | 1,600 | 32 | $0 | 信息 | GEO | 高量问题词，进直答/教程 |
+| openwebui prompts | 1,300 | 30 | $0 | 信息 | 主词候选 | 功能词量大：Olares 上的提示词管理教程 |
+| openwebui vs librechat | 880 | 13 | $0 | 信息 | 次级 | 对比词 |
+| openwebui mcp | 390 | 23 | $0 | 信息 | 主词候选 | Olares 作为 Open WebUI MCP Server + 工具扩展 |
+| open webui docker | 390 | 48 | $0 | 信息 | 次级 | 部署词，Olares 免手动配置 |
+| openwebui tools | 320 | 21 | $0 | 信息 | 次级 | 工具/函数扩展 |
+| open webui mcp | 210 | 20 | $0 | 信息 | 次级 | MCP Server 场景 |
+| open webui ollama | 210 | 28 | $3.31 | 信息 | 次级 | Olares + Ollama + Open WebUI 本地栈 |
+| open webui web search | 170 | 27 | $0 | 信息 | 次级 | Web 搜索接入 |
+| open webui alternative | 140 | 4 | $7.35 | 信息 | 主词候选 | KD=4 全场最低：Olares 提供更好的 Open WebUI 部署（开源自托管）|
+| open webui pipelines | 140 | 15 | $0 | 信息 | 次级 | 管道/RAG 扩展 |
+| open webui vs librechat | 70 | 7 | $0 | 信息 | 次级 | 极低 KD 对比词 |
+| open webui openai | 50 | 11 | $0 | 信息 | 次级 | 统一 API Key 接 OpenAI |
+| open webui gemini | 40 | 5 | $0 | 信息 | 主词候选 | 极低 KD：Olares 统一 API Key 接 Gemini |
 
 ## 核心洞见
 

@@ -166,16 +166,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | immich ssh login + root login + forgot ssh password | 880×3 | 6-19 | $0 | 教程：Olares内置Tailscale解决Immich远程访问痛点 |
-| 2 | immich vs google photos | 70 | **11** | $0 | 对比文+Olares迁移方案 |
-| 3 | immich hardware acceleration | 320 | **12** | $0 | 教程：Olares One一键开启GPU加速 |
-| 4 | immich truenas / unraid | 170 | **12/16** | $0 | NAS迁移指南：→Olares One |
-| 5 | immich backup | 260 | **18** | $14.24 | 教程：Immich+Olares统一备份 |
-| 6 | immich synology | 210 | **21** | $0 | Synology→Olares One迁移 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| immich docker compose | 1,000 | 34 | $0 | 信息 | 主词候选 | Olares 一键部署 Immich，免 env/compose 配置摩擦 |
+| immich ssh login | 880 | 19 | $0 | 导航/信息 | 主词候选 | 远程访问痛点，Olares 内置 Tailscale 一键解决 |
+| immich root login | 880 | 6 | $0 | 信息 | 次级 | KD=6 远程访问痛点 |
+| immich forgot ssh password | 880 | 8 | $0 | 信息 | 次级 | 远程访问痛点 |
+| immich docker | 880 | 44 | $0 | 信息 | 次级 | 部署词 |
+| immich env file | 590 | 5 | $0 | 信息 | 次级 | KD=5 配置痛点，一键消除 |
+| immich cli | 390 | 23 | $0 | 信息 | 次级 | 工具词 |
+| immich vs photoprism | 390 | 14 | $0 | 信息/导航 | 次级 | 对比词 |
+| immich hardware acceleration | 320 | 12 | $0 | 信息 | 主词候选 | Olares One 一键开启 GPU 加速 + 人脸识别 |
+| immich install | 320 | 24 | $0 | 信息 | 次级 | 安装词 |
+| immich backup | 260 | 18 | $14.24 | 信息 | 主词候选 | CPC 高，Immich+Olares 统一备份 |
+| immich synology | 210 | 21 | $0 | 信息 | 主词候选 | NAS→Olares One 迁移指南 |
+| immich truenas | 170 | 12 | $0 | 信息 | 次级 | NAS 迁移 |
+| immich alternative | 140 | 17 | $0 | 信息 | 次级 | 替代词 |
+| immich vs google photos | 70 | 11 | $0 | 信息/导航 | 主词候选 | 对比文 + Olares 迁移方案，数据归你 |
+| immich nas | 20 | 0 | $0 | 信息 | GEO | 泛 NAS 词，进 FAQ |
 
 ---
 

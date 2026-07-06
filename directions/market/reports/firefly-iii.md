@@ -68,14 +68,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | ynab alternative | 480 | **13** | 对比文：Firefly III on Olares = 免费YNAB替代 |
-| 2 | firefly iii vs actual | 40 | **11** | 对比文：Olares同时支持两者 |
-| 3 | simplefin | 1,900 | **20** | 教程：Firefly III接SimpleFIN on Olares自动导入银行数据 |
-| 4 | self hosted finance manager | 50 | **16** | 落地页：Olares = 家庭财务管理一站式平台 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| simplefin | 1,900 | 20 | $11.87 | nav | 主词候选 | 高量CPC$11.87，Firefly III 接 SimpleFIN/API 自动导入银行数据 |
+| ynab alternative | 480 | 13 | $2.99 | info | 主词候选 | 高量极低KD，Firefly III on Olares = 免费 YNAB 替代 |
+| firefly mapping | 260 | 21 | — | info | 次级 | 数据映射词，并入导入文 |
+| firefly api | 170 | 30 | — | info | 次级 | API 导入词 |
+| open source budgeting software | 140 | 46 | — | info | 次级 | 开源预算泛词 |
+| open source personal finance | 140 | 47 | — | info | 次级 | 开源理财泛词 |
+| open source personal finance software | 90 | 52 | $2.85 | info | 次级 | 开源理财泛词 |
+| open source budget app | 90 | 41 | $2.26 | info | 次级 | 开源预算泛词 |
+| firefly iii docker | 70 | 45 | $0 | info | 主词候选 | 从 Synology/TrueNAS 迁移到 Olares |
+| self hosted finance manager | 50 | 16 | $4.24 | info | 主词候选 | Olares = 开源自托管家庭财务/预算一站式 |
+| firefly iii vs actual | 40 | 11 | $0 | info | 次级 | 对比词，并入替代文 |
+| firefly iii webhooks | 40 | 18 | $0 | info | 次级 | 功能词 |
+| firefly api key | 40 | 18 | — | info | 次级 | API 导入词 |
+| firefly loan | 30 | 10 | $0 | info | 次级 | 极低KD 功能词 |
+| firefly iii alternative | 30 | 0 | $3.26 | info | GEO | 替代词近零量，进直答 |
+| actual budget alternative | 10 | 0 | $3.67 | info | GEO | 替代词近零量，进直答 |
 
 ## 核心洞见
 

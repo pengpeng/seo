@@ -61,14 +61,25 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | 模型合并 | 40 | **6** | 🇨🇳 中文教程：模型合并 on Olares（KD=6极低） |
-| 2 | 模型量化 | 480 | **20** | 🇨🇳 量化教程：Olares One GPU量化推理 |
-| 3 | llama factory | 2,900 | **35** | 教程：LLaMA Factory on Olares One GPU微调 |
-| 4 | llm fine tuning | 880 | 49 | 文章：Olares One作为本地LLM微调平台 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| llama factory | 2,900 | 35 | $0 | 信息 | 主词候选 | 核心品牌词，LLaMA Factory on Olares One GPU 微调部署 |
+| lora fine tuning | 1,000 | 58 | $2.45 | 信息 | 次级 | LoRA 微调词，CPC 高 |
+| llm fine tuning | 880 | 49 | $5.44 | 信息 | 主词候选 | Olares One 作本地 LLM 微调平台，承接高 CPC 需求 |
+| 模型量化 | 480 | 20 | $0 | 信息 | 主词候选 | 🇨🇳 KD=20 中文零竞争，量化 on Olares One GPU |
+| llama-factory教程 | 210 | 30 | $0 | 信息 | 次级 | 🇨🇳 中文教程词 |
+| fine tune llama | 90 | 34 | $3.64 | 信息 | 次级 | 微调词，CPC 高 |
+| llama fine tuning | 50 | 42 | $9.96 | 信息 | 次级 | 微调词，CPC 极高 |
+| 模型合并 | 40 | 6 | $0 | 信息 | 主词候选 | 🇨🇳 KD=6 LoRA 合并常见操作，Olares One GPU 方案 |
+| llama factory install | 20 | 0 | $0 | 信息 | GEO | 安装词，进 FAQ |
+| llama factory docker | 20 | 0 | $0 | 信息 | GEO | 部署词，进 FAQ |
+| llama factory vs axolotl | 20 | 0 | $0 | 信息 | GEO | 微调框架对比，GEO 抢占 |
+| llama factory alternative | 20 | 0 | $0 | 信息 | GEO | 替代词，进 FAQ |
+| fine tune local llm | 20 | 0 | $0 | 信息 | GEO | 本地微调词，进直答 |
 
 ## 核心洞见
 

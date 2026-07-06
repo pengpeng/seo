@@ -68,14 +68,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | komga vs kavita | 140 | **1** | 对比文：KD=1，Olares同时支持两款漫画服务器 |
-| 2 | komga tailscale | 1,900 | **4** | 教程：Komga + Tailscale/Headscale on Olares随时随地看漫画 |
-| 3 | http //localhost/25600 | 260 | **5** | 教程：Komga远程访问，Olares内置解决方案 |
-| 4 | mihon extensions | 1,600 | **15** | 教程：Mihon客户端连接Komga on Olares |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| kumanga | 9,900 | 21 | — | 信息 | 次级 | 高量漫画长尾词 |
+| komga tailscale | 1,900 | 4 | $0 | 信息 | 主词候选 | 高量极低 KD，Olares 内置 Tailscale/Headscale 随时随地看漫画 |
+| komf | 1,900 | 23 | — | 信息 | 次级 | 元数据工具词 |
+| komga how to change cover permanently | 1,600 | 0 | — | 信息 | 主词候选 | KD=0 功能问题词，Komga 使用教程 on Olares |
+| mihon extensions | 1,600 | 15 | — | 信息 | 主词候选 | 漫画客户端连接 Komga on Olares |
+| http //localhost/25600 | 260 | 5 | — | 信息 | 次级 | 本地端口词→Olares 远程访问 |
+| komic | 260 | 10 | — | 信息 | 次级 | 客户端词 |
+| komga vs kavita | 140 | 1 | $0 | 信息 | 主词候选 | KD=1 对比文，Olares 同时支持两款漫画服务器 |
+| komga comics | 110 | 24 | — | 信息 | 次级 | 使用词 |
+| kavita vs komga | 90 | 0 | $0 | 信息 | 次级 | 对比变体 |
+| komga manga | 50 | 33 | — | 信息 | 次级 | 使用词 |
+| komga docker | 20 | 0 | $0 | 信息 | GEO | 部署问题词，进 FAQ |
+| komga synology | 20 | 0 | $0 | 信息 | GEO | NAS 部署，进 FAQ |
+| komga alternative | 10 | 0 | $0 | 信息 | GEO | 替代词，进 FAQ |
 
 ## 核心洞见
 

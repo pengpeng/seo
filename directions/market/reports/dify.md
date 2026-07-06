@@ -152,15 +152,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | dify vs n8n | 140 | **13** | $7.04 | 对比文：Olares上同时运行两者 |
-| 2 | dify ollama | 210 | **20** | $0 | 教程：Olares一键部署Dify+Ollama本地LLM |
-| 3 | dify mcp | 720 | **27** | $0 | 教程：Olares作为Dify MCP Server |
-| 4 | firecrawl/tavily/siliconflow | 12K-18K | — | — | Market页面SEO：借力第三方工具品牌词 |
-| 5 | dify gemini | 40 | **12** | $0 | 教程：Dify接Gemini on Olares |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| firecrawl | 18,100 | 61 | — | nav | 主词候选 | 借力第三方品牌词，Olares Market 详情页复制 Dify Marketplace 策略 |
+| tavily | 12,100 | 42 | — | nav | 次级 | 第三方工具词，Market 详情页承接 |
+| dify github | 1,300 | 65 | $7.21 | nav | 次级 | 品牌导航词 |
+| dify mcp | 720 | 27 | $0 | comm | 主词候选 | Olares 作为 Dify MCP Server |
+| dify 源码部署 | 260 | 15 | — | info | 主词候选 | 中文自托管词，Olares 一键部署替代源码/Docker |
+| dify ollama | 210 | 20 | $0 | info | 主词候选 | Olares 一键部署 Dify + 本地 LLM |
+| dify api | 210 | 24 | $0 | info | 次级 | 开发词 |
+| dify docker | 170 | 33 | $0 | info | 次级 | 部署词，并入自托管文 |
+| dify 部署 | 140 | 23 | — | info | 次级 | 中文部署词 |
+| dify rag | 140 | 27 | $3.36 | info | 主词候选 | Olares 上的私有知识库/RAG |
+| dify vs n8n | 140 | 13 | $7.04 | info | 主词候选 | 最高价值对比词（KD13、CPC$7），Olares 同时支持两者 |
+| dify workflow | 110 | 28 | $4.87 | nav | 次级 | 工作流词 |
+| dify 知识库 | 90 | 12 | $0 | info | 次级 | 极低KD 知识库词 |
+| dify gemini | 40 | 12 | $0 | info | 次级 | 极低KD 模型接入词 |
+| dify n8n | 40 | 16 | $0 | info | 次级 | 集成词，并入 vs n8n |
+| dify alternative | 10 | 0 | $5.90 | info | GEO | 替代词近零量，进直答 |
 
 ---
 

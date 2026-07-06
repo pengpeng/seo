@@ -81,15 +81,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | ghost editor | 390 | **9** | $2.64 | 功能教程：Ghost编辑器使用指南 on Olares |
-| 2 | ghost alternative | 40 | **13** | $5.69 | 对比落地页：Ghost on Olares vs WordPress |
-| 3 | ghost pricing | 320 | **22** | $9.00 | 文章：Ghost Pro $9/月 vs 自托管 on Olares（省钱分析） |
-| 4 | ghost template | 1,300 | **26** | $18.70 | 教程：Ghost主题配置 on Olares（CPC=$18.70极高） |
-| 5 | 对比页策略 | 超高量 | 低 | — | 学Ghost：做 "Ghost vs [竞品]" 系列页面 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| ghost logo | 4,400 | 22 | $0 | info | 次级 | 高量低KD 品牌词 |
+| ghost blog | 1,900 | 50 | $3.17 | nav | 次级 | 品牌词 |
+| ghost cms | 1,300 | 65 | $5.48 | nav | 次级 | 品牌词 |
+| ghost themes | 1,300 | 47 | $2.48 | comm | 次级 | 主题词，并入模板文 |
+| ghost template | 1,300 | 26 | $18.70 | info | 主词候选 | CPC$18.70 强商业，主题/模板定制 on Olares |
+| ghost newsletter | 720 | 36 | $6.77 | nav | 主词候选 | newsletter/会员付费替代 Substack on Olares |
+| ghost hosting | 720 | 48 | $9.04 | comm | 次级 | 托管词，导向自托管省订阅 |
+| ghost pro | 480 | 23 | $7.70 | info | 次级 | 付费版词，导向自托管 |
+| ghost editor | 390 | 9 | $2.64 | info | 主词候选 | KD9 近零竞争，编辑器/上手教程 on Olares |
+| ghost membership | 390 | 23 | $0 | info | 次级 | 会员功能词 |
+| ghost pricing | 320 | 22 | $9.00 | comm | 次级 | 定价词，引导自托管 |
+| ghost vs substack | 320 | 29 | $2.92 | info | 次级 | 对比词，并入 newsletter |
+| ghost newsletter platform | 260 | 29 | $6.80 | nav | 次级 | newsletter 平台词 |
+| ghost vs wordpress | 170 | 20 | $3.50 | info | 主词候选 | Ghost on Olares vs WordPress 博客/CMS 选型 |
+| ghost api | 110 | 17 | $10.49 | info | 主词候选 | CPC$10.49，Ghost Headless CMS + API on Olares |
+| ghost alternative | 40 | 13 | $5.69 | info | 主词候选 | 自托管 Ghost 替代 Ghost Pro，主打省订阅费 |
 
 ## 核心洞见
 

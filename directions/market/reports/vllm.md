@@ -157,15 +157,27 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | vllm quantization | 260 | **13** | 教程：Olares One上vLLM量化推理配置 |
-| 2 | vllm vs sglang | 210 | **16** | 横评：vLLM vs SGLang vs Ollama on Olares |
-| 3 | vllm speculative decoding | 170 | **17** | 技术文：Olares One启用vLLM推测解码 |
-| 4 | vllm vs ollama | 880 | **27** | 对比文：Olares作为统一推理平台 |
-| 5 | deepseek ocr（通过教程排名） | 8,100 | 54 | 教程：在Olares上运行DeepSeek OCR |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| vllm windows docker install | 4,400 | 34 | $0 | 信息 | 主词候选 | 安装/部署合集：Olares 免手动配置一键跑 vLLM（含 Windows/Mac 痛点）|
+| vllm vs ollama | 880 | 27 | $5.64 | 信息 | 主词候选 | 横评：Olares 作为统一推理平台，vLLM/SGLang/Ollama 全支持 |
+| vllm-openai | 720 | 33 | $0 | 信息 | 次级 | OpenAI 兼容部署 |
+| vllm continuous batching documentation | 720 | 12 | $0 | 信息 | 主词候选 | 高级推理特性：连续批处理/推测解码/LoRA on Olares One |
+| vllm docker | 720 | 41 | $0 | 信息 | 次级 | 部署词 |
+| vllm serve | 590 | 32 | $9.47 | 信息 | 主词候选 | OpenAI 兼容 API：Olares 上搭本地推理服务（高 CPC）|
+| vllm ray | 590 | 23 | $0 | 信息 | 次级 | 分布式推理 |
+| vllm install | 480 | 39 | $0 | 信息 | 次级 | 安装词 |
+| vllm.entrypoints.openai.api_server | 390 | 6 | $0 | 信息 | 次级 | 极低 KD 技术词 |
+| vllm disable_mm_preprocessor_cache | 320 | 5 | $0 | 信息 | 次级 | 极低 KD 技术词 |
+| vllm quantization | 260 | 13 | $0 | 信息 | 主词候选 | 量化推理教程（GGUF/低精度）on Olares One |
+| vllm gguf | 260 | 20 | $0 | 信息 | 次级 | 量化格式 |
+| vllm vs sglang | 210 | 16 | $0 | 信息 | 次级 | 对比词 |
+| vllm production stack | 210 | 18 | $6.76 | 信息 | 次级 | CPC 高，生产部署 |
+| vllm 5090 | 90 | 19 | $0 | 信息 | 主词候选 | Olares One RTX 5090 上跑 vLLM，复制 recipes 模式出模型教程 |
 
 ---
 

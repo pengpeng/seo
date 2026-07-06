@@ -146,15 +146,27 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | opencode vs aider | 210 | **14** | $0 | 对比文，KD=14 |
-| 2 | opencode vs claude code | 1,600 | **23** | $8.28 | ⭐ 高量对比文，Olares同时跑两者 |
-| 3 | opencode mcp | 170 | **21** | $15.29 | 教程：OpenCode + Olares MCP Server |
-| 4 | opencode skills | 720 | 39 | $6.11 | 文章：OpenCode Skills vs Olares Skills |
-| 5 | opencode ollama | 90 | **33** | $4.91 | 教程：OpenCode + Ollama on Olares |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| opencode zen | 1,900 | 25 | $5.90 | 商业 | 主词候选 | 付费版 vs 在 Olares 免费自托管，数据归你 |
+| mcp服务器 | 1,900 | 44 | — | 信息 | 次级 | 中文 MCP 内容，Olares 直接竞争 |
+| ai free coding agent | 1,900 | 59 | — | 信息 | 次级 | 泛需求词 |
+| opencode vs claude code | 1,600 | 23 | $8.28 | 信息 | 主词候选 | 编码代理对比，Olares 同时跑两者 |
+| opencode skills | 720 | 39 | $6.11 | 信息 | 主词候选 | OpenCode Skills vs Olares Skills 联动 |
+| opencode black | 480 | 28 | $7.89 | 商业 | 次级 | 付费版词 |
+| opencode-skills | 480 | 23 | — | 信息 | 次级 | Skills 变体词 |
+| opencode sdk | 320 | 24 | $6.55 | 信息 | 次级 | SDK 扩展 |
+| opencode agents | 320 | 49 | $5.44 | 信息 | 次级 | Agents 扩展 |
+| open source coding agent | 210 | 20 | $5.51 | 信息 | 主词候选 | 开源自托管编码代理清单，OpenCode on Olares |
+| opencode vs aider | 210 | 14 | $0 | 信息 | 次级 | 极低 KD 对比词 |
+| opencode mcp | 170 | 21 | $15.29 | 信息 | 主词候选 | CPC 极高：OpenCode + Olares MCP Server |
+| opencode vs cursor | 110 | 0 | $10.74 | 信息 | 次级 | CPC 高对比词 |
+| opencode ollama | 90 | 33 | $4.91 | 信息 | 主词候选 | OpenCode + Ollama on Olares 本地/离线编码 |
+| opencode self-hosted | 10 | 0 | $0 | 信息 | GEO | 进直答/FAQ |
 
 ---
 

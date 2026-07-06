@@ -100,16 +100,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | nextcloud active directory | 480 | **8** | 教程：Nextcloud + AD/LDAP on Olares（Authelia内置） |
-| 2 | nextcloud aio | 720 | **13** | 教程：Nextcloud AIO最简部署 on Olares |
-| 3 | nextcloud backup | 110 | **14** | 教程：Olares统一备份Nextcloud |
-| 4 | nextcloud synology/truenas | 110/90 | **15** | NAS迁移指南 |
-| 5 | nextcloud vs owncloud | 1,000 | **26** | 高量对比文，顺带提Olares作为第三选择 |
-| 6 | nextcloud alternative | 480 | **24** | 落地页：Olares是Nextcloud的最佳替代 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| personal cloud storage | 2,900 | 42 | — | 信息 | 次级 | 个人云存储泛需求词 |
+| nextcloud vs owncloud | 1,000 | 26 | $1.63 | 信息 | 主词候选 | 高量对比，Olares 作最佳替代/第三选择 |
+| nextcloud docker | 1,000 | 65 | $11.62 | 信息 | 次级 | 部署词，CPC 极高 |
+| nextcloud aio | 720 | 13 | $7.53 | 信息 | 主词候选 | All-in-One 最简一键部署 on Olares |
+| nextcloud active directory | 480 | 8 | $0 | 信息 | 主词候选 | 高量极低 KD，Nextcloud+AD/LDAP/SSO on Olares（内置 Authelia）|
+| nextcloud alternative | 480 | 24 | $3.41 | 信息 | 次级 | 替代词 |
+| nextcloud pricing | 390 | 49 | $4.36 | 商业 | 主词候选 | 定价 vs 自托管 Olares 成本对比 |
+| nextcloud install | 390 | 48 | $5.46 | 信息 | 次级 | 安装词 |
+| nextcloud calendar | 210 | 24 | $2.76 | 信息 | 次级 | 功能词 |
+| nextcloud webdav | 170 | 22 | $0 | 信息 | 主词候选 | 文件/WebDAV/日历/相册功能 on Olares |
+| nextcloud samba share | 140 | 16 | — | 信息 | 次级 | 文件共享词 |
+| nextcloud backup | 110 | 14 | $0 | 信息 | 次级 | 统一备份 |
+| nextcloud synology | 110 | 15 | $0 | 信息 | 主词候选 | NAS(Synology/TrueNAS/unRAID)→Olares One 迁移 |
+| nextcloud ldap | 70 | 9 | $0 | 信息 | 次级 | KD=9，SSO/身份集成 |
+| nextcloud vs dropbox | 30 | 4 | $2.44 | 信息 | 次级 | KD=4 对比词 |
+| nextcloud vs google drive | 20 | 0 | $0 | 信息 | GEO | 对比词，进 FAQ |
 
 ## 核心洞见
 

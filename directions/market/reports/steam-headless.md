@@ -47,12 +47,19 @@ Steam Headless 的用户场景包括：
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | parsec alternative | 260 | **7** | 对比文：Steam Headless on Olares vs Parsec vs Moonlight |
-| 2 | steam headless | 320 | **19** | 教程：Olares上运行Steam Headless（通过浏览器玩游戏） |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| moonlight streaming | 6,600 | 82 | $0 | 信息 | 次级 | 高量但 KD 极高，长期目标 |
+| steam headless | 320 | 19 | $0 | 信息 | 主词候选 | Olares 一键部署 Steam Headless，浏览器里玩 Steam（开源自托管）|
+| parsec alternative | 260 | 7 | $2.52 | 信息 | 主词候选 | 极低 KD：Steam Headless on Olares 作为 Parsec 免费替代 |
+| steam home streaming | 50 | 45 | $0 | 信息 | 次级 | 串流词 |
+| steam headless docker | 20 | 0 | $0 | 信息 | GEO | 部署词，进 FAQ |
+| game streaming server | — | — | — | 信息 | GEO | 新兴词，抢直答 |
+| remote game streaming | — | — | — | 信息 | GEO | 新兴词，抢直答 |
 
 ## 核心洞见
 

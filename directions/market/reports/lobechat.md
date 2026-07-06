@@ -62,13 +62,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | lobechat | 1,900 | **15** | 教程：LobeChat on Olares，KD=15极低 |
-| 2 | AI Icon 库策略 | 大量低KD词 | 低 | Olares Market为所有应用提供标准化Logo/Icon页 |
-| 3 | MCP Server 目录 | — | 低 | Olares构建MCP Server应用目录，排名"jm官网"类中文MCP词 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| jm官网 | 6,600 | 12 | $0 | 信息 | 主词候选 | 🇨🇳 MCP 服务器聚合词，量大 KD 低，Olares Market 建 MCP 目录 |
+| openai icon | 6,600 | 37 | — | 信息 | 主词候选 | 复制 LobeHub 图标页策略，Olares Market 标准化 Icon 页 |
+| hermes agent ai icon | 1,900 | 27 | — | 信息 | 次级 | 图标页词，联动 Hermes Agent |
+| lobechat | 1,900 | 15 | $5.19 | 信息 | 主词候选 | 品牌词 KD 极低，Olares 一键部署 LobeChat |
+| deepseek图标 | 880 | 20 | — | 信息 | 次级 | 🇨🇳 图标页词 |
+| mcp logo | 880 | 26 | $0 | 信息 | 次级 | 图标页词 |
+| lovable logo | 720 | 11 | $0 | 信息 | 次级 | 图标页词 |
+| lobe chat | 590 | 36 | $3.30 | 信息 | 次级 | 品牌变体 |
+| mcp server icon | 260 | 10 | $0 | 信息 | 次级 | MCP 目录词 |
+| lobechat github | 210 | 35 | $0 | 导航 | 次级 | GitHub 入口 |
+| lobechat docker | 70 | 27 | $0 | 信息 | 次级 | 部署词 |
+| lobechat ollama | 20 | 0 | $0 | 信息 | GEO | 接本地模型，进 FAQ |
+| lobechat alternative | 20 | 0 | $0 | 信息 | GEO | 替代词，进 FAQ |
+| lobechat mcp | 0 | 0 | $0 | 信息 | GEO | 新兴 MCP 词，进直答 |
 
 ## 核心洞见
 

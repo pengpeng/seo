@@ -74,14 +74,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | firecrawl alternative | 50 | **10** | 落地页：自托管Firecrawl on Olares替代付费方案 |
-| 2 | firecrawl mcp | 1,300 | **22** | 教程：Firecrawl MCP Server on Olares |
-| 3 | firecrawl教程 | 480 | **9** | 🇨🇳 中文教程，极低KD |
-| 4 | n8n firecrawl | 320 | **28** | 教程：n8n+Firecrawl工作流 on Olares |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| firecrawl mcp | 1,300 | 22 | $4.33 | info | 主词候选 | 量大KD低，Firecrawl 作为 MCP/自动化爬取工具 on Olares |
+| firecrawl api | 880 | 34 | $5.85 | nav | 主词候选 | 自部署 Firecrawl API on Olares |
+| firecrawl教程 | 480 | 9 | — | info | 主词候选 | 🇨🇳 中文教程，KD9 极低 |
+| n8n firecrawl | 320 | 28 | $0.68 | info | 次级 | n8n + Firecrawl on Olares 工作流 |
+| firecrawl pricing | 320 | 30 | $4.94 | comm | 次级 | 定价词，导向自托管替代付费 API |
+| firecrawl github | 320 | 49 | $10.82 | nav | 次级 | 品牌导航词 |
+| firecrawl mcp server | 260 | 20 | $5.53 | info | 次级 | Olares 作为 Firecrawl MCP Server |
+| firecrawl open source | 110 | 34 | $3.39 | info | 次级 | 开源诉求，导向自托管 |
+| firecrawl alternative | 50 | 10 | $7.58 | info | 主词候选 | KD10/CPC$7.58 强商业，自托管替代付费 API |
+| firecrawl free | 30 | 0 | $5.21 | info | GEO | 免费诉求近零量，进直答 |
+| firecrawl tutorial | 30 | 0 | $0 | info | GEO | 教程词近零量，进直答 |
+| firecrawl docker | 20 | 0 | $4.68 | info | GEO | 部署词近零量，进 FAQ |
+| firecrawl vs scrapy | 20 | 0 | $0 | info | GEO | 对比词近零量，进直答 |
+| dify firecrawl | 20 | 0 | $0 | info | GEO | 集成词近零量，进直答 |
 
 ## 核心洞见
 

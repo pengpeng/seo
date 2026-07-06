@@ -74,14 +74,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | litellm alternative | 140 | **2** | $3.70 | 落地页：Olares上的LiteLLM自托管方案 |
-| 2 | litellm mcp | 140 | **16** | $18.00 | 教程：LiteLLM + MCP on Olares（CPC=$18！） |
-| 3 | claude code litellm | 210 | **18** | $0 | 教程：Claude Code通过LiteLLM接各种模型 |
-| 4 | litellm vs openrouter | 140 | **22** | $4.57 | 对比文 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| litellm | 14,800 | 56 | $5.42 | 信息 | 主词候选 | 品牌词高量但 KD 高，Olares 一键部署 LiteLLM 自托管 |
+| litellm github | 1,300 | 61 | $7.90 | 导航 | 次级 | GitHub 入口，CPC 高 |
+| litellm proxy | 480 | 53 | $6.67 | 商业 | 次级 | 代理/网关词 |
+| claude code litellm | 210 | 18 | $0 | 信息 | 主词候选 | Claude Code 经 LiteLLM 接各模型 on Olares |
+| litellm api | 210 | 51 | $5.90 | 信息 | 次级 | API 词，CPC 高 |
+| litellm bedrock | 170 | 24 | $0 | 信息 | 次级 | 接 Bedrock |
+| litellm mcp | 140 | 16 | $18.00 | 信息 | 主词候选 | CPC=$18 企业付费，LiteLLM+MCP on Olares |
+| litellm alternative | 140 | 2 | $3.70 | 信息 | 主词候选 | KD=2 极低，Olares 自托管替代付费方案 |
+| litellm vs openrouter | 140 | 22 | $4.57 | 信息 | 主词候选 | 网关选型对比文 |
+| litellm gemini | 140 | 26 | $0 | 信息 | 次级 | 接 Gemini |
+| litellm docker | 140 | 43 | $18.00 | 信息 | 次级 | 部署词，CPC 高 |
+| litellm open source | 70 | 0 | $5.79 | 信息 | GEO | 开源自托管词，进 FAQ |
+| litellm enterprise | 40 | 0 | $8.92 | 信息 | GEO | 企业词 CPC 高，进直答 |
+| litellm free | 20 | 0 | $0 | 信息 | GEO | 免费词，进 FAQ |
 
 ## 核心洞见
 

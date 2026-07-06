@@ -79,15 +79,27 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | wordpress synology | 50 | **14** | $6.38 | NAS迁移：Synology WordPress→Olares One |
-| 2 | ghost alternative | 40 | **13** | $5.69 | 对比文：Ghost on Olares作为WordPress轻量替代 |
-| 3 | wordpress vs squarespace | 1,300 | **23** | $2.87 | 高量对比文，顺带提自托管方案 |
-| 4 | wordpress headless | 480 | **29** | $11.46 | 教程：Headless WordPress on Olares（CPC极高） |
-| 5 | Market页面SEO | — | — | — | Olares Market中的WordPress应用页排名插件名称词 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| wordpress vs squarespace | 1,300 | 23 | $2.87 | 信息 | 主词候选 | 高量对比文，顺带提 Olares 自托管方案 |
+| wordpress vs wix | 1,300 | 30 | $3.41 | 信息 | 次级 | 高量对比词 |
+| ghost cms | 1,300 | 65 | $5.48 | 导航 | 次级 | 竞品品牌词 |
+| wordpress docker | 720 | 50 | $4.30 | 信息 | 次级 | 部署词 |
+| wordpress install | 590 | 64 | $6.40 | 信息 | 次级 | 安装词 |
+| wordpress vs webflow | 590 | 38 | $2.51 | 信息 | 次级 | 对比词 |
+| wordpress mcp | 590 | 43 | $5.93 | 信息 | 次级 | MCP 集成 |
+| wordpress headless | 480 | 29 | $11.46 | 信息 | 主词候选 | CPC 极高：Headless WordPress + MCP 集成 on Olares |
+| wordpress alternative | 390 | 23 | $3.87 | 信息 | 次级 | 替代词 |
+| wordpress vs ghost | 170 | 18 | $7.23 | 信息 | 主词候选 | Olares 同时支持二者：WordPress vs Ghost 轻量替代对比 |
+| ghost vs wordpress | 170 | 20 | $3.50 | 信息 | 次级 | 对比反向词 |
+| wordpress open source | 110 | 51 | $6.87 | 信息 | 次级 | 开源表述词 |
+| wordpress synology | 50 | 14 | $6.38 | 信息 | 主词候选 | NAS 迁移：Synology WordPress → Olares One 一键部署 |
+| ghost alternative | 40 | 13 | $5.69 | 信息 | 次级 | 极低 KD 替代词 |
+| wordpress nas | 10 | 0 | $0 | 信息 | GEO | NAS 迁移，进 FAQ |
 
 ## 核心洞见
 

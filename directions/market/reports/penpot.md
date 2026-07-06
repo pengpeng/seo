@@ -68,15 +68,27 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | adobe xd alternative | 260 | **11** | 对比文：Penpot on Olares作为Adobe XD替代 |
-| 2 | sketch alternative | 70 | **10** | 对比文 |
-| 3 | penpot mcp | 90 | **0** | 教程：Penpot MCP Server on Olares（零竞争） |
-| 4 | figma alternatives | 1,000 | **21** | 落地页：最佳Figma替代方案汇总（含Penpot on Olares） |
-| 5 | penpot vs figma | 210 | **13** | 对比文 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| figma alternatives | 1,000 | 21 | $2.51 | 信息 | 主词候选 | 最佳 Figma/Canva 开源替代清单（含 Penpot on Olares，开源自托管）|
+| canva alternative | 1,000 | 30 | $1.90 | 信息 | 次级 | 高量替代词 |
+| figma alternative | 480 | 29 | $2.77 | 信息 | 次级 | 替代词变体 |
+| adobe xd alternative | 260 | 11 | $3.10 | 信息 | 主词候选 | 极低 KD：Penpot on Olares 作为 Adobe XD 替代 |
+| figma alternatives free | 210 | 24 | — | 信息 | 次级 | 替代词变体 |
+| penpot vs figma | 210 | 13 | $2.59 | 信息 | 主词候选 | 对比文，落到 Olares 自托管 |
+| alternative to figma | 140 | 20 | — | 信息 | 次级 | 替代词变体 |
+| penpot design tool | 140 | 25 | — | 信息 | 次级 | 品牌功能词 |
+| penpot github | 110 | 59 | $3.31 | 导航 | 次级 | 品牌导航词 |
+| penpot mcp server | 110 | 0 | — | 信息 | 次级 | MCP Server 变体 |
+| penpot mcp | 90 | 0 | $0 | 信息 | 主词候选 | 零竞争：Penpot MCP Server on Olares + AI 集成 |
+| sketch alternative | 70 | 10 | $0 | 信息 | 次级 | 极低 KD 替代词 |
+| figma open source alternative | 70 | 21 | $1.91 | 信息 | 次级 | 开源替代表述 |
+| penpot ai | 50 | 43 | $2.41 | 导航 | 次级 | AI 集成词 |
+| penpot self-hosted | 20 | 0 | $0 | 信息 | GEO | 自托管前哨，进直答/FAQ |
 
 ## 核心洞见
 

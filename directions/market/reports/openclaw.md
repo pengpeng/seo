@@ -176,17 +176,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | openclaw alternative | 320 | **10** | $4.36 | 落地页：Olares作为OpenClaw最佳部署平台 |
-| 2 | openclaw skills | 3,600 | **35** | $2.48 | 系列文：在Olares上扩展OpenClaw Skills |
-| 3 | openclaw MCP | 390 | **21** | $3.42 | 教程：Olares作为OpenClaw MCP Server |
-| 4 | openclaw ollama | 880 | 0 | $1.72 | 教程：OpenClaw + Ollama on Olares本地LLM |
-| 5 | openclaw docker | 1,000 | 33 | $4.26 | 教程：Docker方式在Olares部署OpenClaw |
-| 6 | openclaw vs claude | 480 | **17** | $5.71 | 对比文：OpenClaw接Claude vs 接本地Ollama |
-| 7 | openclaw web search | 390 | **13** | $10.29 | 教程：OpenClaw接Web Search on Olares |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| openclaw skills | 3,600 | 35 | $2.48 | 信息 | 主词候选 | 量最大，与 Olares Skills 语义重叠，天然内容桥梁 |
+| 微信接入openclaw | 2,900 | 21 | — | 信息 | 次级 | 中文渠道词，Olares 中文内容优势 |
+| openclaw 接入微信 | 2,400 | 26 | — | 信息 | 主词候选 | 中文渠道部署合集（wechat CPC 极高，企业付费）|
+| openclaw install | 1,900 | 50 | $1.90 | 信息 | 次级 | 部署词 |
+| openclaw docker | 1,000 | 33 | $4.26 | 信息 | 主词候选 | Olares 一键/Docker 跨平台部署 OpenClaw |
+| openclaw ollama | 880 | 0 | $1.72 | 信息 | 主词候选 | KD=0 无竞争：OpenClaw + Ollama on Olares 本地 LLM |
+| openclaw setup | 720 | 50 | $1.94 | 信息 | 次级 | 配置词 |
+| openclaw discord | 590 | 18 | $2.90 | 信息 | 次级 | 渠道接入 |
+| openclaw vs claude | 480 | 17 | $5.71 | 信息 | 次级 | 对比词 |
+| openclaw telegram | 480 | 24 | $2.85 | 信息 | 次级 | 渠道接入 |
+| openclaw MCP | 390 | 21 | $3.42 | 商业 | 主词候选 | Olares 作为 OpenClaw MCP Server + Web/浏览器/记忆工具 |
+| openclaw web search | 390 | 13 | $10.29 | 信息 | 次级 | 极低 KD、CPC 高 |
+| openclaw alternative | 320 | 10 | $4.36 | 信息 | 主词候选 | 极低 KD：Olares 作为 OpenClaw 最佳部署平台（开源自托管）|
+| openclaw deepseek | 320 | 27 | $2.64 | 信息 | 次级 | 本地 LLM 接入 |
+| openclaw enterprise | 30 | 0 | $6.69 | 信息 | GEO | 企业前哨，进直答（CPC 高）|
+| openclaw synology | 30 | 0 | $0 | 信息 | GEO | NAS 迁移，进 FAQ |
 
 ---
 

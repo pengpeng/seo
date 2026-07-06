@@ -58,13 +58,25 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | nocodb self hosted | 110 | **4** | 落地页：Olares一键部署NocoDB自托管（KD=4极低） |
-| 2 | no code database | 170 | **21** | 泛需求词，NocoDB on Olares教程 |
-| 3 | open source airtable | 90 | **30** | 对比文：NocoDB on Olares作为Airtable替代 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| no code database | 170 | 21 | $0 | 信息 | 主词候选 | 无代码数据库泛需求词，NocoDB on Olares 教程 |
+| nocodb github | 110 | 44 | $0 | 导航 | 次级 | GitHub 入口 |
+| nocodb self hosted | 110 | 4 | $0 | 信息 | 主词候选 | KD=4 全场最低，Olares 一键部署 NocoDB 自托管 |
+| no code db | 110 | 22 | $0 | 信息 | 次级 | 泛需求变体 |
+| open source airtable | 90 | 30 | $5.54 | 信息 | 主词候选 | NocoDB on Olares 作 Airtable 开源自托管替代 |
+| nocodb templates | 50 | 13 | $0 | 信息 | 次级 | 模板词 |
+| nocodb pricing | 50 | 20 | — | 信息 | 次级 | 定价词 |
+| nocodb vs airtable | 20 | 0 | $8.79 | 信息 | GEO | CPC 极高对比词，进直答 |
+| nocodb docker | 20 | 0 | $0 | 信息 | GEO | 部署词，进 FAQ |
+| nocodb api | 20 | 0 | $0 | 信息 | GEO | API 词，进 FAQ |
+| nocodb mcp | 20 | 0 | $0 | 信息 | GEO | MCP 新兴词，进 FAQ |
+| nocodb alternative | 10 | 0 | $6.89 | 信息 | GEO | 替代词 CPC 高，进直答 |
+| nocodb self-hosted | 0 | 10 | $0 | 导航 | GEO | 近零量变体，进 FAQ |
 
 ## 核心洞见
 

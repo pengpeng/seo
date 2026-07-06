@@ -61,13 +61,26 @@ Codex CLI 挂在 openai.com 下，无独立域名。
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | codex cli vs claude code | 480 | **15** | $27.41 | 对比文，Olares同时支持两者 |
-| 2 | codex cli mcp | 880 | **34** | $11.55 | 教程：Codex CLI + Olares MCP Server |
-| 3 | codex cli pricing | 110 | **32** | $13.29 | 文章：Codex CLI定价 vs OpenCode自托管 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| codex cli mcp | 880 | 34 | $11.55 | info | 主词候选 | Olares 作为 MCP Server + 一键安装消除配置摩擦 |
+| codex cli vs claude code | 480 | 15 | $27.41 | info | 主词候选 | 综合最高（KD15、CPC$27），Olares 同时上架两者 |
+| codex cli install | 390 | 53 | $11.05 | info | 次级 | 安装词，并入配置文 |
+| codex cli pricing | 110 | 32 | $13.29 | comm | 主词候选 | 定价词，引导 OpenCode 自托管方案 |
+| codex cli windows | 70 | 46 | $11.54 | info | 次级 | 平台安装词 |
+| codex cli setup | 50 | 35 | $25.36 | info | 次级 | CPC 极高，安装摩擦点 |
+| codex cli vs cursor | 50 | 0 | $16.22 | info | 次级 | 对比词，并入 vs claude code |
+| codex cli docker | 40 | 0 | $16.56 | info | 次级 | 部署词 |
+| codex cli alternative | 30 | 0 | $13.42 | info | GEO | 替代词近零量，OpenCode on Olares，进直答 |
+| codex cli linux | 30 | 0 | $18.32 | info | GEO | 平台词近零量，进 FAQ |
+| codex cli open source | 20 | 0 | $67.22 | info | GEO | CPC 最高($67)近零量，导向 OpenCode 开源替代 |
+| codex cli vs aider | 20 | 0 | $0 | info | GEO | 对比词近零量，进直答 |
+| openai codex alternative | 20 | 0 | $13.34 | info | GEO | 替代词近零量，进直答 |
+| codex cli enterprise | 10 | 0 | $0 | info | GEO | 近零量，进 FAQ/直答 |
 
 ---
 

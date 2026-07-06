@@ -66,13 +66,23 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | adguard home vs pihole | 480 | **8** | 对比文：Olares同时支持两者，一键切换 |
-| 2 | pihole alternative | 170 | **19** | 落地页：Olares上的DNS广告屏蔽方案 |
-| 3 | adguard home raspberry pi | 110 | **17** | 迁移教程：RPi→Olares One |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| adguard home vs pihole | 480 | 8 | $0 | info | 主词候选 | 全场最高量+极低KD，Olares 同时支持 AdGuard Home 与 Pi-hole、一键切换/迁移 |
+| adguard home docker | 260 | 29 | $0 | info | 主词候选 | 安装词，Olares Market 一键部署替代手动 Docker/RPi/NAS |
+| pihole alternative | 170 | 19 | $0 | info | 主词候选 | Pi-hole 替代落地页，Olares 上的 DNS 广告屏蔽方案 |
+| adguard home raspberry pi | 110 | 17 | $0 | info | 次级 | DIY→Olares One，省去手动折腾 |
+| adguard home setup | 110 | 28 | $0 | info | 次级 | 配置教程，并入安装文 |
+| adguard home install | 90 | 36 | $0 | info | 次级 | 安装词，并入安装文 |
+| adguard home free | 20 | 0 | $0 | info | GEO | 强调开源自托管、数据归你，进直答 |
+| adguard home synology | 20 | 0 | $0 | info | GEO | NAS 平台词，进 FAQ/直答 |
+| adguard home truenas | 20 | 0 | $0 | info | GEO | NAS 平台词，进 FAQ/直答 |
+| adguard home unraid | 20 | 0 | $0 | info | GEO | NAS 平台词，进 FAQ/直答 |
+| adguard home alternative | 10 | 0 | $0 | info | GEO | 近零量替代词，进直答 |
 
 ## 核心洞见
 

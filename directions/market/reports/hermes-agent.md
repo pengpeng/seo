@@ -101,14 +101,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | hermes ai | 1,300 | **15** | $8.10 | 教程：Olares一键部署Hermes Agent |
-| 2 | hermes agent vs openclaw | 170 | **20** | $6.28 | 对比文：Olares同时运行两者 |
-| 3 | 爱马平台介绍 | 260 | **9** | $0 | 🇨🇳 中文教程，极低竞争 |
-| 4 | hermes agent | 1,900 | **30** | $8.58 | Market页面SEO |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| 爱马仕 ai | 3,600 | 26 | $0 | 信息 | 主词候选 | 🇨🇳 中文品牌词，中文教程 SEO 空白，Olares Market 一键部署 Hermes |
+| hermes agent | 1,900 | 30 | $8.58 | 信息 | 主词候选 | 核心品牌词，Olares Market 一键部署 + 部署指南 |
+| hermes 微信 | 1,600 | 18 | — | 信息 | 次级 | 🇨🇳 微信接入需求，中文精准切入点 |
+| hermes ai | 1,300 | 15 | $8.10 | 信息 | 主词候选 | 最大机会词，KD 低 CPC 高，开源自托管跑 Hermes |
+| 爱马平台介绍 | 260 | 9 | $0 | 信息 | 次级 | KD=9 中文长尾 |
+| hermes 4 | 260 | 45 | $0 | 信息 | 次级 | 版本词 |
+| hermes-agent | 210 | 25 | $8.58 | 信息 | 次级 | 品牌变体 |
+| hermes agent vs openclaw | 170 | 20 | $6.28 | 信息/导航 | 主词候选 | Olares 可同时运行两者，对比切入 |
+| hermes agent github | 110 | 51 | $12.21 | 导航 | 次级 | GitHub 入口，CPC 极高 |
+| nous hermes | 110 | 47 | $2.50 | 信息 | 次级 | 上游模型词 |
+| hermes ai sdr | 90 | 12 | $12.16 | 信息 | 主词候选 | 企业 SDR 用例，高 CPC 付费意图 |
+| hermes llm | 70 | 0 | $8.48 | 信息 | 次级 | 模型别称 |
+| hermes agent install | 20 | 0 | $0 | 信息 | GEO | 部署问题词，进 FAQ/直答 |
+| hermes agent ollama | 10 | 0 | $0 | 信息 | GEO | 本地 LLM 组合，进 FAQ |
 
 ---
 

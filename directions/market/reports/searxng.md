@@ -62,12 +62,24 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | searxng mcp | 210 | **16** | $0 | 教程：SearXNG作为AI Agent搜索工具 on Olares |
-| 2 | searxng api | 140 | **20** | $49.73 | 教程：SearXNG API接入（CPC=$49，商业价值极高） |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| private search engine | 6,600 | 69 | $1.11 | 信息 | 次级 | 隐私搜索大词（KD 高）|
+| open source search engine | 390 | 61 | $2.08 | 信息 | 次级 | 泛需求词 |
+| searxng instances | 260 | 36 | $0 | 信息 | 次级 | 实例词 |
+| searxng docker | 260 | 40 | $3.22 | 信息 | 主词候选 | Olares 免 docker-compose 一键运行 SearXNG |
+| searxng mcp | 210 | 16 | $0 | 信息 | 主词候选 | SearXNG 作为 AI Agent 搜索工具 on Olares（+ MCP）|
+| searxng docker compose | 170 | 39 | $0 | 信息 | 次级 | 部署词 |
+| searxng github | 170 | 54 | $0 | 导航 | 次级 | 品牌导航词 |
+| searxng instance | 170 | 33 | $0 | 信息 | 次级 | 实例词 |
+| searxng api | 140 | 20 | $49.73 | 商业 | 主词候选 | CPC 极高：Olares 上自建私有 SearXNG API 服务 |
+| self hosted search engine | 110 | 32 | — | 信息 | 主词候选 | 自托管/隐私搜索引擎替代，Olares 一键部署（开源自托管）|
+| searxng ai | 30 | 0 | $0 | 信息 | GEO | 进直答/FAQ |
+| self-hosted search engine | 10 | 32 | $0 | 信息 | 次级 | 精准词变体 |
 
 ## 核心洞见
 

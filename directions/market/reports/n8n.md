@@ -171,17 +171,28 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | activepieces vs n8n | 140 | **4** | $1.89 | 对比落地页，KD=4零竞争 |
-| 2 | n8n vs dify | 70 | **7** | $5.88 | Olares同时运行两者 |
-| 3 | n8n synology | 90 | **16** | $0 | NAS迁移指南→Olares One |
-| 4 | n8n alternative | 720 | **18** | $7.45 | 落地页：Olares生态中的n8n替代方案 |
-| 5 | n8n ollama | 210 | 33 | $4.65 | 教程：n8n + Ollama本地AI自动化 |
-| 6 | n8n pricing | 9,900 | 38 | $3.95 | 文章：n8n定价 vs 自托管Olares成本 |
-| 7 | n8n templates | 3,600 | 37 | $4.99 | Olares预置n8n模板库 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| n8n pricing | 9,900 | 38 | $3.95 | 导航 | 主词候选 | 定价词量极大，n8n 定价 vs 自托管 Olares 成本对比 |
+| n8n github | 4,400 | 64 | $4.40 | 导航 | 次级 | GitHub 入口 |
+| n8n templates | 3,600 | 37 | $4.99 | 信息 | 主词候选 | Olares 预置 n8n 模板/MCP 节点库 |
+| n8n mcp | 2,900 | 40 | $4.56 | 信息 | 次级 | MCP 节点词 |
+| n8n docker | 2,400 | 56 | $8.00 | 导航 | 次级 | 部署词，CPC 高 |
+| n8n vs zapier | 1,900 | 38 | $5.41 | 信息/导航 | 主词候选 | n8n vs Zapier/Make/Dify 多方对比，Olares 自托管同时运行 |
+| n8n free | 1,900 | 39 | $7.14 | 信息 | 次级 | 免费词，CPC 高 |
+| n8n mcp server | 1,300 | 44 | $10.71 | 信息 | 次级 | MCP 服务器词，CPC 极高 |
+| n8n vs make | 1,000 | 31 | $5.84 | 信息/导航 | 次级 | 对比词 |
+| n8n alternative | 720 | 18 | $7.45 | 信息 | 主词候选 | 落地页：Olares 生态开源 Zapier 替代方案 |
+| n8n enterprise | 260 | 34 | $5.39 | 信息/商业 | 主词候选 | 企业自托管/数据合规（GDPR/SSO），Olares 私有部署 |
+| n8n ollama integration | 210 | 28 | $0 | 信息 | 主词候选 | n8n+本地 LLM（Ollama/DeepSeek/Claude）AI 自动化 on Olares |
+| activepieces vs n8n | 140 | 4 | $1.89 | 信息/导航 | 次级 | KD=4 极易排名对比 |
+| n8n synology | 90 | 16 | $0 | 信息 | 主词候选 | NAS(Synology/TrueNAS)→Olares One 部署迁移 |
+| n8n vs dify | 70 | 7 | $5.88 | 信息/导航 | 次级 | KD=7 对比词 |
+| n8n local llm | 30 | 0 | $0 | 信息 | GEO | 本地 LLM 组合词，进 FAQ |
 
 ---
 

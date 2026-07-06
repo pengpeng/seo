@@ -98,13 +98,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | CPC | 内容方向 |
-|---|--------|----|----|-----|---------|
-| 1 | nemoclaw vs openclaw | 260 | **19** | $4.09 | 对比落地页：Olares Market同时支持两者 |
-| 2 | nemoclaw github | 590 | **0** | $1.20 | 率先占位：Olares上的NemoClaw部署指南 |
-| 3 | nemoclaw | 8,100 | 49 | $1.89 | 长期目标：Olares作为NemoClaw最佳部署平台 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| nemoclaw github | 590 | 0 | $1.20 | 导航 | 主词候选 | KD=0 率先占位，Olares 上的 NemoClaw 部署指南 |
+| what is nemoclaw | 390 | 37 | $1.70 | 信息 | 次级 | 科普问题词 |
+| newmoclaw | 260 | 0 | $14.64 | 信息 | 次级 | 拼写变体，CPC 极高 |
+| openclaw nvidia | 260 | 44 | $1.50 | 信息 | 次级 | OpenClaw+NVIDIA 关系词 |
+| nemoclaw vs openclaw | 260 | 19 | $4.09 | 信息/导航 | 主词候选 | Olares Market 极少数同时上架两者，独家对比 |
+| how to setup nemoclaw | 170 | 33 | — | 信息 | 次级 | 部署问题词 |
+| nemoclaw ai | 110 | 44 | $3.30 | 信息 | 次级 | 品牌变体 |
+| nemoclaw install | 110 | 41 | $0.81 | 信息 | 次级 | 安装词 |
+| nemoclaw openclaw | 90 | 0 | $1.28 | 信息 | 次级 | 关系组合词 |
+| openclaw enterprise | 30 | 0 | $6.69 | 信息 | GEO | 企业词 CPC 高，进直答 |
+| nemoclaw ollama | 30 | 0 | $1.09 | 信息 | GEO | 本地组合词，进 FAQ |
+| nemoclaw security | 20 | 0 | $8.93 | 信息 | GEO | CPC 极高安全方向，进直答 |
+| nemoclaw docker | 20 | 0 | $5.34 | 信息 | GEO | 部署词 CPC 高，进 FAQ |
+| nemoclaw enterprise | 0 | 0 | $4.24 | 信息 | GEO | 企业采购意图，进直答 |
 
 ---
 
