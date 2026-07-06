@@ -143,20 +143,18 @@ LincPlus（Lincplustech.com）是中国品牌（2024-2025 年通过 Kickstarter 
 
 ---
 
-## 优先行动清单（Top 10）
+## Top 关键词簇（文章单位）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | truenas vs unraid | 1,000 | 12 | ⭐⭐⭐ | OS 对比文：N2 作 Unraid 存储代表，要本地 AI 就上 Olares One（24GB 独显 + 全栈 OS） |
-| 2 | lincstation n2 | 390 | 12 | ⭐⭐⭐ | "N2 Review：N100 全 SSD NAS 无本地 AI vs Olares One AI 私有云（引实测）" |
-| 3 | synology alternative | 260 | 7 | ⭐⭐⭐ | 对比文：N2 作 homelab 存储入门，Olares One 作本地 AI 进阶（24GB CUDA） |
-| 4 | nas mobo | 260 | 4 | ⭐⭐⭐ | "Best NAS Motherboard 2025"：DIY NAS 硬件选型 + Olares 兼容性 |
-| 5 | best nas operating system | 260 | 13 | ⭐⭐ | "Best NAS OS 2025"：Unraid/TrueNAS/Olares 横评，Olares 主打 AI-Native |
-| 6 | linux nas os | 390 | 14 | ⭐⭐ | Linux NAS OS 选型文，Olares 作为 AI-Native 选项 |
-| 7 | best nas os | 320 | 14 | ⭐⭐ | 同上，不同长尾变体 |
-| 8 | nas os | 880 | 28 | ⭐⭐ | 高量词，KD28，竞争更大但 CPC $2.51 说明商业价值 |
-| 9 | lincplus n2 | 20 | 0 | ⭐⭐ | KD=0 精准词：LincStation N2 深度评测 + Olares 一键迁移指南 |
-| 10 | personal cloud server | 210 | 32 | ⭐ | "Personal Cloud Server Guide"：N2 入门 vs Olares One 旗舰 |
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | truenas vs unraid（1,000/KD12）| best nas 2025（590/33）、qnap alternative（20/0，CPC$4.76）| TrueNAS 和 Unraid 哪个好？哪个 NAS OS 能跑本地 AI？| ~1,610 | ⭐⭐⭐ | versus | 轴1：N2 作 Unraid 存储代表，要本地 AI 就上 Olares One（24GB 独显 + 全栈 OS）|
+| 2 | nas os（880/KD28）| nas operating system（590/29）、linux nas os（390/14）、best nas os（320/14）、best nas operating system（260/13）、lincos nas（110/4）| 2026 最好的 NAS 操作系统是哪个？有没有 AI-Native 的 NAS OS？| ~2,550 | ⭐⭐ | listicle | Unraid/TrueNAS/Olares 横评，Olares 主打 AI-Native + AI 应用一键装 |
+| 3 | nas motherboard（720/KD21）| nas mobo（260/4）| 2026 最好的 NAS 主板？DIY NAS 怎么配才能跑 AI？| ~980 | ⭐⭐⭐ | listicle | DIY NAS 硬件选型 + Olares 兼容性，落"要本地 AI 得有独显"，Olares One 一体机 |
+| 4 | lincstation n2（390/KD12）| lincstation（140/13）、lincstation n1（110/12）、lincstation s1（70/13）、lincplus n2（20/0）| LincStation N2 能跑本地 AI 吗？N100 跑得动大模型吗？| ~730 | ⭐⭐⭐ | alternative | 轴1：N2 Review——N100 全 SSD 无本地 AI vs Olares One AI 私有云（引实测）；已买 N2 者走信息 B |
+| 5 | synology alternative（260/KD7）| self hosted nas（20/0）、open hardware nas（10/0）| 2026 最好的群晖替代品？有没有开源自托管 NAS？| ~290 | ⭐⭐⭐ | alternative | 轴1：Synology/QNAP 闭源 → N2 Unraid 存储 → Olares One 开源 + 本地 AI 独显 |
+| 6 | personal cloud server（210/KD32）| home server nas（320/30）、nas for home server（170/39）| 怎么搭个人云服务器？家用服务器能跑本地 AI 吗？| ~700 | ⭐⭐ | alternative | 个人云/家庭服务器：Olares One 一体机（存储 + 24GB 独显 + 全栈 OS）叙事 |
 
 ---
 

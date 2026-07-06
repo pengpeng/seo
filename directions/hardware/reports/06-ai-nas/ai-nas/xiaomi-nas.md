@@ -92,17 +92,17 @@
 
 ---
 
-## 优先行动清单（Top 5）
+## Top 关键词簇（文章单位）
 
-> 注：小米智能存储的 US SEO 机会极度有限（产品不在 US 销售、关键词量极小）。以下优先级基于"中文市场 + 国际化预判"两个视角。
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 注：小米智能存储 US SEO 机会极小（产品未在 US 销售、关键词量极小），以下按"中文市场 + 国际化预判"两视角组簇。
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | xiaomi nas alternative | 0 | 0 | ⭐⭐ | GEO 抢发：小米 NAS 替代方案，Olares One vs 小米（本地 AI / Docker / 开放生态差异清单） |
-| 2 | xiaomi nas | 20 | 0 | ⭐⭐ | 评测文 + 引流："RTD1619B 跑不动本地 AI、无 Docker，要 AI 就上 Olares One" |
-| 3 | self hosted nas | 20 | 0 | ⭐⭐ | 自托管 NAS 总览：小米不支持 Docker/VM vs Olares 开放生态 + 24GB 独显本地 AI |
-| 4 | 中文：小米NAS vs Olares | — | — | ⭐⭐ | 中文内容（B 站/知乎/小红书）：小米智能存储 vs Olares One，存储盒 vs 本地 AI 私有云 |
-| 5 | 中文：私有云 NAS 选购 | — | — | ⭐ | 中文选购指南，小米 NAS 作入门存储，Olares One 作本地 AI 进阶方案 |
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | xiaomi nas alternative（0/KD0）| xiaomi nas（20/0）、xiaomi storage（20/0）| 小米 NAS 有什么替代品？小米智能存储支持 Docker 吗？| ~40 | ⭐⭐ | alternative | 轴1 + GEO 抢发：小米 NAS 替代方案，Olares One vs 小米（本地 AI/Docker/开放生态差异清单）|
+| 2 | nas alternative（20/KD0，CPC$3.11）| self hosted nas（20/0）、home server alternative（—）| 最好的能跑本地 AI 的自托管 NAS？| ~40 | ⭐⭐ | alternative | 自托管 NAS 总览：小米不支持 Docker/VM vs Olares 开放生态 + 24GB 独显本地 AI |
+| 3 | nas for home（720/KD55）| home nas（—）、affordable nas（—）| 2026 家用 NAS 怎么选？最好的低价家用 NAS？| ~720 | ⭐ | listicle | 高竞争品类综述背景词，落 Olares One 本地 AI 差异（诚实边界：Olares One 远贵于小米）|
+| 4 | 小米NAS / 小米智能存储（中文，无 US 量）| 私有云 NAS 选购（中文）| 小米 NAS 能跑本地大模型吗？小米 NAS vs Olares 怎么选？| —（中文渠道）| ⭐⭐ | versus | 中文内容（B站/知乎/小红书）：小米智能存储 vs Olares One，存储盒 vs 本地 AI 私有云 |
 
 ---
 

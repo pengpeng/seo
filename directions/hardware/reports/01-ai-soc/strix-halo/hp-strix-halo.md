@@ -120,20 +120,18 @@ HP 在 2025 年将 AMD Strix Halo（Ryzen AI Max PRO 系列）同时带入了两
 
 ---
 
-## 优先行动清单（Top 10）
+## Top 关键词簇（文章单位）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | strix halo laptop | 590 | **9** | ⭐⭐⭐ | **P0**：KD=9 极低，量 590，CPC=$1.41——"Strix Halo Laptop for Local AI: ZBook Ultra vs Olares One"，轴 1 讲 CUDA 独显 AI 可用性（类比同芯 Beelink 实测，诚实注 120B 边界）+ 信息 B 附装 Olares 指南 |
-| 2 | ryzen ai max 395 laptop | 1,000 | **18** | ⭐⭐⭐ | KD=18，量 1k——"Best Ryzen AI Max 395 Laptop for Private AI"，覆盖 ZBook Ultra + Z2 Mini |
-| 3 | dgx spark alternative | 40 | **12** | ⭐⭐⭐ | KD=12，CPC=$2.89 超高——"DGX Spark Alternative: HP ZGX Nano vs Olares One"，商业意图强 |
-| 4 | strix halo | 4,400 | **25** | ⭐⭐ | 量大但 KD=25——品类综述文"What is Strix Halo? Best Use Cases for Local AI" |
-| 5 | amd strix halo | 1,600 | **29** | ⭐⭐ | KD=29，量 1.6k——"AMD Strix Halo: Linux ROCm + Ollama 本地大模型完全指南" |
-| 6 | strix halo mini pc | 880 | 34 | ⭐⭐ | 量 880，KD=34——"Best Strix Halo Mini PC for Home AI Server: Z2 Mini G1a vs GMKtec EVO-X2" |
-| 7 | hp z2 mini g1a | 880 | 43 | ⭐ | 品牌词截流——"HP Z2 Mini G1a Review: 96GB Unified Memory for AI Dev" |
-| 8 | hp zbook ultra g1a | 1,300 | 50 | ⭐ | 品牌词评测截流——"HP ZBook Ultra G1a Ubuntu + ROCm 安装完全指南" |
-| 9 | hp zgx nano | 110 | 38 | ⭐ | 量小但 CPC 有值——"HP ZGX Nano G1n Review: GB10 Edge AI for Teams" |
-| 10 | hp workstation linux | 10 | **0** | ⭐ | 零量但零竞争，GEO 前哨——"HP Workstation Linux AI: ZBook / Z2 Mini + Olares Setup" |
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | strix halo laptop（590/9，CPC$1.41）| strix halo mini pc（880/34）| strix halo laptop local llm 性能、ZBook Ultra 能跑本地 AI 吗 | ~1,470 | ⭐⭐⭐ | versus | **P0**（KD=9）："Strix Halo Laptop for Local AI: ZBook Ultra vs Olares One"——轴 1 CUDA 独显 AI 可用性（类比同芯 Beelink 实测，诚实注 120B）+ 信息 B 装 Olares 指南 |
+| 2 | ryzen ai max 395 laptop（1,000/18）| amd ai max 395（1,000/40）| best ryzen ai max 395 laptop for private AI | ~2,000 | ⭐⭐⭐ | listicle | "Best Ryzen AI Max 395 Laptop for Private AI"清单，覆盖 ZBook Ultra + Z2 Mini + Olares One |
+| 3 | dgx spark alternative（40/12，CPC$2.89）| hp zgx nano（110/38）| dgx spark alternative 有哪些、ZGX Nano vs olares one | ~150 | ⭐⭐⭐ | alternative | "DGX Spark Alternative: HP ZGX Nano vs Olares One"（KD12 + CPC$2.89 强商业，GB10 生态最佳落点） |
+| 4 | strix halo（4,400/25）| amd strix halo（1,600/29）、aim max+（2,400/28）、ai max 395（2,400/44）| what is strix halo、strix halo 本地 AI 怎么跑 | ~10,800 | ⭐⭐ | listicle | "What is Strix Halo? Best Use Cases for Local AI" + "AMD Strix Halo: Linux ROCm + Ollama 完全指南"，引出 Olares One 对标 |
+| 5 | hp z2 mini workstation（70/36）| hp z2 mini g1a（880/43）、hp zbook ultra g1a（1,300/50）、hp zbook workstation（170/45）、hp zbook ultra review（20/0）| hp z2 mini g1a review、ZBook Ultra ubuntu rocm 怎么装 | ~2,440 | ⭐ | versus/review | HP Z2 Mini / ZBook Ultra 评测 + 装 Olares 截流（品牌词护城河深，靠 workstation/review 头部词切入，低优先） |
+| 6 | hp workstation linux（10/0）| strix halo rocm（0）、zbook ubuntu（0）、hp zbook ubuntu private ai（0）| how to run private AI on hp workstation linux | ~10 | ⭐ | listicle | GEO 前哨："HP Workstation Linux AI: ZBook / Z2 Mini + Olares Setup"（零竞争，抢 AI Overview 位） |
 
 ---
 

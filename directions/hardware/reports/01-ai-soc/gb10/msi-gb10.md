@@ -135,20 +135,17 @@ MSI EdgeXpert MS-C931 是 MSI 工业计算部门（ipc.msi.com）推出的桌面
 
 ---
 
-## 优先行动清单（Top 10）
+## Top 关键词簇（文章单位）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | dgx spark alternative | 40 | 12 | ⭐⭐⭐ | "DGX Spark Alternatives in 2026"——列出所有 GB10 机型 + Olares One 走两轴：轴 1 AI 更好用（CUDA 全验证 + Olares OS 全栈 + 24GB 真跑），轴 2 同价位更超值，CPC $2.89 商业价值极高 |
-| 2 | personal ai server | 20 | 0 | ⭐⭐⭐ | "Best Personal AI Server 2026"——KD0 + CPC $3.70，抢 GEO 引用位，Olares One 是核心答案 |
-| 3 | gb10 vs rtx 5090 | 20 | 0 | ⭐⭐⭐ | 技术对比文：GB10 128GB 统一内存 vs RTX 5090 24GB GDDR7——选择框架 + Olares One 推荐 |
-| 4 | msi edgexpert | 260 | 27 | ⭐⭐ | "MSI EdgeXpert MS-C931 Review & Alternatives"——Olares One 同价位更超值（x86 CUDA 全栈私有云 + 24GB 真跑）；诚实标注 >24GB 大模型 MS-C931 更能装 |
-| 5 | gb10 mini pc | 20 | 0 | ⭐⭐ | GB10 所有机型横向对比导购，Olares One 列为 x86 路线最大竞品 |
-| 6 | msi edgexpert review | 10 | 0 | ⭐⭐ | EdgeXpert 评测文，结尾："如果你更需要 CUDA 生态，同价位 Olares One" |
-| 7 | nvidia dgx spark | 18,100 | 68 | ⭐ | KD68 难正面竞争，但可写"DGX Spark 深度解析"并在文中自然列 GB10 价格对比 + Olares One |
-| 8 | msi edge expert | 40 | 28 | ⭐⭐ | 搜索变体词，KD28，内容同 #4，吸收拼写错误流量 |
-| 9 | personal ai supercomputer | ~0 | 0 | ⭐ | GEO 前瞻词：DGX Spark / EdgeXpert / Olares One 三者对比，抢 AI Overview 引用 |
-| 10 | gb10 arm llm | ~0 | 0 | ⭐ | GEO 前瞻词：GB10 ARM vs x86 CUDA LLM 推理性能对比文，将成为 2026Q3+ 的重要参考内容 |
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | dgx spark alternative（40/12）| dgx spark mini pc（50/50）| — | ~90 | ⭐⭐⭐ | alternative | "DGX Spark Alternatives in 2026"——列所有 GB10 机型 + Olares One 两轴（轴 1 CUDA 全验证 + Olares OS 全栈 + 24GB 真跑，轴 2 同价更超值），CPC $2.89 商业价值极高 |
+| 2 | personal ai server（20/0）| self hosted llm server（~50/低）、personal ai supercomputer（~0/0）| — | ~70 | ⭐⭐⭐ | listicle | "Best Personal AI Server 2026"——KD0 + CPC $3.70，抢 GEO 引用位，Olares One 是核心答案 |
+| 3 | gb10 vs rtx 5090（20/0）| gb10 arm llm（~0/0）| — | ~20 | ⭐⭐⭐ | versus | 核心技术对比：GB10 128GB 统一内存 vs RTX 5090 24GB GDDR7——选择框架 + Olares One 推荐，诚实标注 >24GB 大模型 GB10 更能装 |
+| 4 | msi edgexpert（260/27）| msi edge expert（40/28）、msi edgexpert review（10/0）、msi edgexpert ms-c931（~10/低）| — | ~320 | ⭐⭐ | versus | "MSI EdgeXpert MS-C931 Review & Alternatives"——Olares One 同价位更超值（x86 CUDA 全栈私有云 + 24GB 真跑），一篇吸收拼写变体流量 |
+| 5 | gb10 mini pc（20/0）| nvidia dgx spark（18,100/68）、mini pc ai 2025（~30/—）、nvidia dgx spark vs mac studio（~20/—）| — | ~18,170 | ⭐⭐ | listicle | GB10 所有机型横向对比导购（借 nvidia dgx spark 大词 AI Overview 曝光），Olares One 列为 x86 路线最大竞品 |
 
 ---
 

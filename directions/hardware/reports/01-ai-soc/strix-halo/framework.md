@@ -210,20 +210,18 @@ frame.work **完全不投放 Google Ads**（paid_keywords=0），依赖纯自然
 
 ---
 
-## 优先行动清单（Top 10）
+## Top 关键词簇（文章单位）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | strix halo laptop / laptops | 590×2 | 9 / 8 | ⭐⭐⭐ | "Strix Halo 整机完整对比：Framework Desktop vs ZBook Ultra vs Olares One"——轴 1 讲 24GB CUDA 独显的 AI 可用性（类比同芯 Beelink 实测），诚实注 120B 边界；全网几乎无评测，排 #1 可期 |
-| 2 | mini pc linux / linux mini pc | 320 + 590 | 8 / 14 | ⭐⭐⭐ | "Linux Mini PC 终极指南 2026"：Olares One 是开箱即用版，Framework Desktop 是 DIY 版 |
-| 3 | ms-s1 max | 1,900 | 21 | ⭐⭐⭐ | "Minisforum MS-S1 Max vs Framework Desktop vs Olares One：哪款 Strix Halo PC 最适合本地 AI？" |
-| 4 | ryzen ai max 395 laptop | 1,000 | 18 | ⭐⭐⭐ | "2026 最佳 Ryzen AI Max 395 整机清单"——带每款装 Olares 的难度对比 |
-| 5 | amd ryzen ai max 395 laptop list | 590 | 18 | ⭐⭐⭐ | 清单型落地页：所有 Strix Halo SKU + Olares 适配状态（可做程序化列表页）|
-| 6 | amd strix halo | 1,600 | 29 | ⭐⭐ | "AMD Strix Halo 科普：为什么 128GB 统一内存改变了本地 AI"——引出 Olares One / Framework Desktop |
-| 7 | framework desktop review | 390 | 32 | ⭐⭐ | "Framework Desktop 深度测评：Linux 用户视角 + 与 Olares One 的取舍"——CPC=$0.43 评测意图强 |
-| 8 | best linux distro for gaming | 5,400 | 28 | ⭐⭐ | 借 Framework 社区路径——"2026 最佳 AI + 游戏双用途 Linux 发行版"，Olares 作为私有 AI 侧补充 |
-| 9 | home server linux | 70 | 28 | ⭐ | 低量精准："在 Framework Desktop 上搭 Linux 家庭服务器——附 Olares 安装全流程" |
-| 10 | strix halo pc | 90 | 24 | ⭐ | GEO 前哨：AI Overview 最终会收录"Strix Halo PC 推荐"，Olares One 应进入答案 |
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | strix halo laptop（590/9，CPC$1.41）| strix halo laptops（590/8）、strix halo pc（90/24）、strix halo desktop（90/31）、ryzen ai max+ 395 laptop（720/26）| best strix halo machine for local AI、strix halo pc 推荐 | ~2,080 | ⭐⭐⭐ | versus/listicle | "Strix Halo 整机完整对比：Framework Desktop vs ZBook Ultra vs Olares One"——轴 1 讲 24GB CUDA 独显 AI 可用性（类比同芯 Beelink 实测），诚实注 120B；全网几乎无评测，排 #1 可期 |
+| 2 | ryzen ai max 395 laptop（1,000/18）| amd ryzen ai max 395 laptop list（590/18）、amd ryzen ai max+ 395 laptops（590/24）、ai max 395（2,400/44）、aim max plus（320/30）| 2026 最佳 Ryzen AI Max 395 整机有哪些 | ~4,900 | ⭐⭐⭐ | listicle | "2026 最佳 Ryzen AI Max 395 整机清单"（可做程序化列表页）——所有 Strix Halo SKU + Olares 适配状态 + Olares One 作软硬一体选项 |
+| 3 | ms-s1 max（1,900/21）| framework desktop review（390/32）、framework laptop alternative（10/0）| ms-s1 max vs framework desktop 哪个好 | ~2,300 | ⭐⭐⭐ | versus | "Minisforum MS-S1 Max vs Framework Desktop vs Olares One：哪款 Strix Halo PC 最适合本地 AI？"（含装 Olares 三路径） |
+| 4 | linux mini pc（590/14）| mini pc linux（320/8）、home server linux（70/28）| how to install olares on framework desktop、best linux mini pc 2026 | ~980 | ⭐⭐⭐ | listicle | "Linux Mini PC 终极指南 2026"：Olares One 开箱即用版 vs Framework DIY 版 + 装 Olares 教程 |
+| 5 | amd strix halo（1,600/29）| strix halo mini pc（880/34）、radeon 8060s（1,300/41）、ryzen ai max mini pc（90/25）| what is strix halo、为什么 128GB 统一内存改变本地 AI | ~3,870 | ⭐⭐ | listicle | "AMD Strix Halo 科普：128GB 统一内存为何改变本地 AI"——引出 Olares One / Framework Desktop 对标 |
+| 6 | best linux distro for gaming（5,400/28）| soldered ram desktop future（12,100/21）| 最适合本地 AI 的 Linux 平台是什么 | ~17,500 | ⭐⭐ | listicle | 借 Framework 社区 UGC 路径——写"最适合本地 AI（+ 游戏）的 Linux 平台"平行内容，Olares 作私有 AI 侧补充 |
 
 ---
 

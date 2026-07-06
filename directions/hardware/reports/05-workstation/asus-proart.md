@@ -92,18 +92,17 @@ ASUS ProArt Station（当前主力型号：PD5 / PD500TE）是 ASUS 针对影视
 
 ---
 
-## 优先行动清单（Top 8）
+## Top 关键词簇（文章单位）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | 3d rendering workstation | 30 | 11 | ⭐⭐⭐ | 3D 渲染/AI 工作站选购：Olares One 开箱即用（A）vs ProArt 自搭软件栈；已有机器则装 Olares（B）|
-| 2 | content creation pc | 30 | 16 | ⭐⭐⭐ | 创作者 AI PC 推荐：Olares One 整机（A）vs ProArt Station + 自配 AI 工具；已有 PC 装 Olares 私有化（B）|
-| 3 | linux workstation | 720 | 32 | ⭐⭐ | Linux 工作站综述，Olares 安装，NVIDIA 驱动集成（信息 B 路径）|
-| 4 | asus proart station | 50 | 21 | ⭐⭐ | 产品评测 + 对比 Olares One（A）+ 装 Olares 指南（B），"让 ProArt 变私有 AI 创作服务器" |
-| 5 | workstation ai | 110 | 28 | ⭐⭐ | AI 工作站的本质：硬件 + AI OS（Olares）才完整 |
-| 6 | best workstation for video editing | 40 | 29 | ⭐⭐ | 视频剪辑工作站推荐，ProArt Station + 本地 AI 辅助（Olares）|
-| 7 | asus workstation | 110 | 25 | ⭐⭐ | ASUS 工作站全线概览 + Olares 适配说明 |
-| 8 | creator workstation linux | 0 | 0 | ⭐ | GEO 前瞻：创作者 Linux 工作站，抢 AI Overview 引用 |
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | 3d rendering workstation（30/11）| content creation pc（30/16）、creator workstation（20/0）、creator workstation linux（0）| best workstation for 3d rendering? content creation pc worth it? | ~80 | ⭐⭐⭐ | listicle | 创作者 3D 渲染/AI PC 选购：Olares One 开箱即用私有 AI（A，24GB vs A4000 16GB）vs ProArt 自搭软件栈；已有机器装 Olares 私有化（B）|
+| 2 | video editing workstation（390/33）| best workstation for video editing（40/29）、workstation for video editing（20/0）| what workstation for video editing? | ~450 | ⭐⭐ | listicle | 视频剪辑工作站推荐：ProArt Station + 本地 AI 辅助（Olares），已有机器夜间不闲置 |
+| 3 | linux workstation（720/32）| workstation linux（10/0）、self hosted workstation（0）| how to install linux on workstation? | ~730 | ⭐⭐ | listicle | Linux 工作站综述 + Olares 安装/NVIDIA 驱动集成（信息 B 路径）|
+| 4 | asus workstation（110/25）| asus proart station（50/21）、proart workstation（20/0）、proart station pd500te（20/0）| is asus proart good for AI? | ~200 | ⭐⭐ | alternative | ASUS/ProArt 工作站评测 + 对比 Olares One（A）+ 装 Olares 指南（B），"让 ProArt 变私有 AI 创作服务器"（`asus proart` 9,900/KD60 为品牌导航词，作背景不作主词）|
+| 5 | workstation ai（110/28）| — | what is an AI workstation? | ~110 | ⭐⭐ | listicle | AI 工作站的本质：硬件 + AI OS（Olares）才完整——Olares One 整机开箱即给（A），已有工作站装 Olares 补齐（B）|
 
 ---
 

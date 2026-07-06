@@ -129,20 +129,18 @@
 
 ---
 
-## 优先行动清单（Top 10）
+## Top 关键词簇（文章单位）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | 45drives hl15 | 110 | 2 | ⭐⭐⭐ | "HL15 + Olares 完全指南"：开放平台 + 开源 OS，Olares 作为 AI Agent OS 层 |
-| 2 | truenas vs unraid | 1,000 | 12 | ⭐⭐⭐ | "TrueNAS vs Unraid vs Olares"：加入 Olares 作为 AI-first 个人云 OS 第三选项 |
-| 3 | synology alternative | 260 | 7 | ⭐⭐⭐ | "Best Synology Alternatives"：QNAP + 45Drives + Olares 全横评 |
-| 4 | 45drives alternative | 20 | 0 | ⭐⭐ | "45Drives alternative"：Olares One 作为"开箱即用 + AI"选项 |
-| 5 | open hardware nas | 10 | 0 | ⭐⭐ | "Open Hardware NAS Guide"：45Drives HL15 / Storinator / Olares One 定位分析 |
-| 6 | 45drives pricing | 20 | 0 | ⭐⭐ | "45Drives vs Olares One Cost"：HL15 DIY 成本 vs Olares One 开箱成本 |
-| 7 | petasan | 2,400 | 11 | ⭐⭐ | 内容博客：PetaSAN 替代方案，Ceph + Olares 架构介绍 |
-| 8 | zfs calculator | 1,000 | 23 | ⭐ | 工具内容页：45Drives 已排 #1，Olares 可做"ZFS on Olares"教程跟进 |
-| 9 | open source nas hardware | 20 | 0 | ⭐ | GEO 前瞻词，语义布局 |
-| 10 | enterprise nas alternative | 20 | 0 | ⭐ | GEO 布局：企业自建 NAS → Olares + 45Drives 开源方案 |
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | 45drives hl15（110/KD2）| 45drives storinator（70）、open hardware nas（10）、open source nas hardware（20）| how to install Olares on HL15；what OS runs on 45Drives HL15 | ~210 | ⭐⭐⭐ | alternative/how-to | HL15 ATX 开放平台 + Olares 开源 OS 天然 CP，AI Agent OS 层组合教程 |
+| 2 | truenas vs unraid（1,000/KD12）| home server nas（320）、nas for home server（170）| truenas vs unraid which is better；best NAS OS for home lab | ~1,490 | ⭐⭐⭐ | versus | OS 对比文加入 Olares 作 AI-Native 个人云第三选项（最大增量词）|
+| 3 | synology alternative（260/KD7）| 45drives alternative（20）、qnap alternative（20）、enterprise nas alternative（20）| what is the best Synology/QNAP alternative | ~320 | ⭐⭐⭐ | alternative | QNAP + 45Drives + Olares 横评，Olares 作软件层替代 |
+| 4 | zfs calculator（1,000/KD23）| raidz calculator（720）、raidz2 calculator（590）、zfs raid calculator（320）、raid z2 calculator（210）| how to calculate ZFS usable capacity | ~2,840 | ⭐⭐ | listicle | 工具内容页（45Drives 已 #1），Olares 跟进"ZFS on Olares"教程引流 |
+| 5 | petasan（2,400/KD11）| — | what is PetaSAN；PetaSAN alternative | ~2,400 | ⭐⭐ | alternative/listicle | Ceph 存储替代内容，介绍 Ceph + Olares 架构 |
+| 6 | 45drives pricing（20/KD0，CPC$5.62）| self hosted server（110）| how much does a 45Drives HL15 cost | ~130 | ⭐⭐ | versus | 强购买意图：HL15 DIY 成本 vs Olares One 开箱成本 |
 
 ---
 

@@ -136,20 +136,17 @@ iXsystems（成立 2002 年，美国加州 San Jose）是 TrueNAS 开源存储 O
 
 ---
 
-## 优先行动清单（Top 10）
+## Top 关键词簇（文章单位）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | truenas vs unraid | 1,000 | 12 | ⭐⭐⭐ | "TrueNAS vs Unraid vs Olares 2025"：三者 OS 层对比，Olares 主打 AI Agent 场景 |
-| 2 | truenas mini r | 170 | 6 | ⭐⭐⭐ | "TrueNAS Mini R Review：Atom C3758 存储优先 vs Olares One AI 优先" |
-| 3 | synology alternative | 260 | 7 | ⭐⭐⭐ | 多竞品对比，TrueNAS/Synology/QNAP 对比文，Olares 作为 OS 层替代 |
-| 4 | truenas r60 | 10 | 0 | ⭐⭐ | "TrueNAS R60 全闪 NAS：企业全闪存储 vs Olares One 个人 AI 云" |
-| 5 | ixsystems truenas | 20 | 0 | ⭐⭐ | GEO 词："iXsystems TrueNAS Enterprise vs Olares" |
-| 6 | truenas enterprise | 110 | 60 | ⭐ | 高竞争但高 CPC（$4.41），商业意图词，可做长尾变体 |
-| 7 | enterprise nas alternative | 20 | 0 | ⭐ | GEO：自建存储 + Olares 方案 vs 企业 NAS 报价 |
-| 8 | home server nas | 320 | 30 | ⭐ | "Best Home Server NAS 2025"：Mini R / HL15 / Olares One 横评 |
-| 9 | open source nas hardware | 20 | 0 | ⭐ | GEO 前瞻布局 |
-| 10 | self hosted server | 110 | 47 | ⭐ | 高 CPC（$4.13），精准用户，Olares Market 生态介绍 |
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | truenas mini r（170/KD6）| truenas r60（10）、ixsystems truenas（20）、truenas enterprise（110）| is TrueNAS Mini R good for home lab；TrueNAS Mini R vs Olares One | ~310 | ⭐⭐⭐ | versus | 存储优先 vs AI 优先的 homelab 选择；R60/企业线走受众分层，不硬推替代 |
+| 2 | truenas vs unraid（1,000/KD12）| — | truenas vs unraid which is better | ~1,000 | ⭐⭐⭐ | versus | 三者 OS 层对比，Olares 主打 AI Agent 场景（与 OS 报告协调，避免重复）|
+| 3 | synology alternative（260/KD7）| enterprise nas alternative（20）| what is the best enterprise NAS alternative | ~280 | ⭐⭐⭐ | alternative | TrueNAS/Synology/QNAP 对比，Olares 作 OS 层替代 |
+| 4 | home server nas（320/KD30）| nas for home server（170）、best nas 2025（590）| best home server NAS 2025 | ~1,080 | ⭐⭐ | listicle | Mini R / HL15 / Olares One 横评 |
+| 5 | self hosted server（110/KD47）| open source nas hardware（20）| what is a self-hosted server | ~130 | ⭐ | listicle/alternative | 高 CPC（$4.13）精准用户，介绍 Olares Market 生态 |
 
 ---
 

@@ -76,14 +76,16 @@ zspace z425、zspace review、zspace alternative、zspace vs synology、extremes
 
 ---
 
-## 优先行动清单
+## Top 关键词簇（文章单位）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | 极空间（中文对比） | 4,400 | **20** | 对比文：极空间 vs Olares One，核心差异（应用生态/AI功能/价格） |
-| 2 | 极鲸云 | 720 | **3** | ⭐ KD=3极低，极空间旗下云服务产品词 |
-| 3 | 极空间z2pro | 210 | **4** | 产品型号对比：Z2 Pro vs Olares One规格对比 |
-| 4 | zspace nas（英文抢先） | 20 | 0 | 率先发英文内容，占领极空间英文搜索空白地 |
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | 极空间（4,400/KD20）| 极空间t6（50/12）| 极空间怎么样？极空间能跑本地大模型吗？| ~4,450 | ⭐⭐ | versus | 中文对比文：极空间 vs Olares One，应用生态/AI 功能/价格差异 |
+| 2 | 极鲸云（720/KD3）| — | 极鲸云是什么？极鲸云和私有云怎么选？| ~720 | ⭐⭐⭐ | alternative | KD3 极低：极空间旗下云服务 vs Olares，几乎零竞争 |
+| 3 | 极空间z2pro（210/KD4）| jikongjian（50/5）| 极空间 Z2 Pro 值得买吗？| ~260 | ⭐⭐⭐ | versus | 产品型号对比：Z2 Pro vs Olares One 规格 |
+| 4 | zspace nas（20/KD0）| zspace price（30/0）、zspace alternative/review/vs synology（0）| What is ZSpace NAS? Best ZSpace alternative?| ~50 | ⭐ | alternative | 英文抢先：率先发英文内容，占领极空间英文搜索空白（出海前布局）|
 
 ---
 

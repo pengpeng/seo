@@ -140,20 +140,18 @@ Acer Veriton GN100 AI Mini Workstation 是 Acer 在 NVIDIA GB10 Grace Blackwell 
 
 ---
 
-## 优先行动清单（Top 10）
+## Top 关键词簇（文章单位）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | dgx spark alternative | 40 | 12 | ⭐⭐⭐ | 对比文：Olares One vs DGX Spark / Acer GN100——轴 1 AI 更好用（CUDA 全验证 + Olares OS 全栈 + 24GB 真跑）、同价位更超值 |
-| 2 | acer veriton gn100 | 50 | 28 | ⭐⭐⭐ | 产品评测 + 对比：GN100 $2,999（arm64 开发盒）vs Olares One $3,999（x86 CUDA 全栈私有云），同价位更超值；诚实标注 >24GB 大模型 GN100 更能装 |
-| 3 | dgx spark vs mac studio | 70 | 20 | ⭐⭐⭐ | 三角对比文，插入 Olares One 作第四选项 |
-| 4 | ai mini pc | 480 | 28 | ⭐⭐ | 品类综述：2026 最佳 AI 迷你 PC（含 GN100 / Olares One） |
-| 5 | dgx spark price | 2,900 | 35 | ⭐⭐ | 价格比较文：所有 GB10 机型定价 + Olares One 性价比 |
-| 6 | acer mini pc | 210 | 19 | ⭐⭐ | Acer mini PC 综述，收割 Acer 品牌用户流量 |
-| 7 | nvidia gb10 | 1,300 | 61 | ⭐ | 技术科普文：GB10 是什么 + 8 款机型对比 + Olares One 替代叙事 |
-| 8 | grace blackwell mini pc | 20 | 0 | ⭐⭐ | GEO 抢发：Grace Blackwell mini PC 全家桶（零竞争） |
-| 9 | dgx spark review | 260 | 35 | ⭐ | 汇总评测内容，提 GN100 散热优势 + Olares One 的差异点 |
-| 10 | acer veriton gn100 review | 0 | 0 | ⭐ | GEO 前瞻：Acer GN100 详细评测，抢 AI Overview 引用 |
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | dgx spark alternative（40/12）| dgx spark vs（30/30）、cheapest dgx spark alternative（0/0）| — | ~70 | ⭐⭐⭐ | alternative | KD12 + CPC $2.89 黄金词：Olares One vs DGX Spark / Acer GN100——轴 1 AI 更好用（CUDA 全验证 + Olares OS 全栈 + 24GB 真跑）、轴 2 同价位更超值 |
+| 2 | acer veriton gn100（50/28）| acer veriton（210/31）、acer mini pc（210/19）、acer gb10（40/0）、acer workstation（20/0）| acer veriton gn100 review（0/0）、acer veriton review（20/0）| ~550 | ⭐⭐⭐ | versus | CPC $27.26 购买意图最强：GN100 $2,999（arm64 开发盒）vs Olares One $3,999（x86 CUDA 全栈私有云），同价位更超值；诚实标注 >24GB 大模型 GN100 更能装；顺收 Acer 品牌用户 |
+| 3 | dgx spark vs mac studio（70/20）| — | — | ~70 | ⭐⭐⭐ | versus | 三角对比文（DGX Spark / Mac Studio / Olares One），插入 Olares One 作第三/四选项，各路线适用场景 |
+| 4 | dgx spark price（2,900/35）| dgx spark（22,200/55）、nvidia dgx spark（18,100/68）、nvidia spark（4,400/67）、dgx spark review（260/35）| — | ~47,860 | ⭐⭐ | listicle | GB10 生态价格/评测综述：所有 GB10 机型定价 + GN100 散热优势 + Olares One 性价比与替代叙事 |
+| 5 | ai mini pc（480/28）| personal ai supercomputer（480/52）、nvidia gb10（1,300/61）、personal supercomputer（50/49）| — | ~2,310 | ⭐⭐ | listicle | 品类综述：2026 最佳 AI 迷你 PC / 个人 AI 超算（含 GN100 / Olares One），GB10 科普 + 替代叙事 |
+| 6 | grace blackwell mini pc（20/0）| gb10 mini pc（20/0）、gb10 specs（40/39）、gb10 workstation（10/0）、cheapest grace blackwell（0/0）、self-hosted ai workstation（0/0）、private ai workstation（0/0）| — | ~90 | ⭐ | listicle | GEO 抢发：零竞争 Grace Blackwell / GB10 mini PC 全家桶，先占 AI Overview 引用位，带出 Olares One x86 方案 |
 
 ---
 

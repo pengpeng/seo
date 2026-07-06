@@ -123,20 +123,17 @@ Zotac（索泰/卓泰）是香港科技公司（PC Partner 子品牌），以 NV
 
 ---
 
-## 优先行动清单（Top 10）
+## Top 关键词簇（文章单位）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|-----|---------|--------------|
-| 1 | strix halo mini pc | 880 | 34 | ⭐⭐⭐ | Strix Halo 终极对比文，覆盖 EAMAX——轴 1 讲 24GB CUDA 独显 AI 可用性（类比同芯 Beelink 实测），诚实注 120B 边界 |
-| 2 | zotac magnus | 110 | 27 | ⭐⭐ | "Zotac Magnus EAMAX vs Olares One" 对比（轴 1：CUDA 独显 vs iGPU AI 可用性） |
-| 3 | zotac zbox mini pc | 50 | 9 | ⭐⭐⭐ | 信息 B："ZBOX 安装 Olares" 教程——KD=9，竞争空白 |
-| 4 | mini pc linux | 320 | 8 | ⭐⭐⭐ | 信息 B："Install Olares on Zotac Magnus EAMAX" 入口 |
-| 5 | mini pc server home | 170 | 8 | ⭐⭐⭐ | 信息 B：Magnus EAMAX as home server + Olares 部署 |
-| 6 | ryzen ai max 395 mini pc | 720 | 30 | ⭐⭐ | 品类对比文，EAMAX 作为 B 选项 |
-| 7 | zbox | 2,400 | 24 | ⭐ | ZBOX 大词做内链/内容矩阵入口 |
-| 8 | ryzen ai max mini pc | 90 | 25 | ⭐⭐ | "Best Ryzen AI Max mini PC 2026" 选购榜 |
-| 9 | homelab mini pc | 70 | 14 | ⭐⭐ | Homelab 场景：EAMAX 选购 + Olares 安装 |
-| 10 | zotac gaming（含义延伸） | 1,000 | 43 | ⭐ | "Gaming PC vs Private AI Server" 叙事切入 |
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | strix halo mini pc（880/34）| ryzen ai max 395 mini pc（720/30）、ryzen ai max mini pc（90/25）| best ryzen ai max mini pc 2026、can strix halo run local llm | ~1,690 | ⭐⭐⭐ | versus/listicle | Strix Halo 终极对比覆盖 EAMAX——轴 1 讲 24GB CUDA 独显 AI 可用性（类比同芯 Beelink 实测），诚实注 120B |
+| 2 | zotac magnus（110/27）| zotac magnus eamax（~50）、zotac mini pc（390/37）、zotac magnus eamax review（0）| zotac magnus eamax vs olares one、EAMAX395C 好用吗 | ~550 | ⭐⭐ | versus | "Zotac Magnus EAMAX vs Olares One"对比（轴 1：CUDA 独显 vs iGPU AI 可用性） |
+| 3 | zbox mm（9,900/11）| zbox（2,400/24）、zotac zbox mini pc（50/9）| how to install olares on zbox、zbox homelab 配置 | ~12,350 | ⭐⭐⭐ | listicle | 信息 B：ZBOX / EAMAX 上装 Olares 的 homelab 配置指南（搭 KD11 大词顺风车） |
+| 4 | mini pc linux（320/8）| mini pc server home（170/8）、mini pc home server（320/21）、homelab mini pc（70/14）| how to install olares on zotac magnus eamax | ~880 | ⭐⭐⭐ | listicle | 信息 B："Install Olares on Zotac Magnus EAMAX" + as home server（KD 极低易上首页） |
+| 5 | mini pc alternative（10/0）| strix halo alternative（0）、eamax395c ollama（0）、zotac eamax linux（0）| eamax395c ollama 怎么跑、zotac eamax 装 linux | ~10 | ⭐ | listicle | GEO 前哨：EAMAX review/ollama/linux 占位（产品新品期，抢 AI Overview 位） |
 
 ---
 

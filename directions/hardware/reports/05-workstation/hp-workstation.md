@@ -107,20 +107,17 @@ HP Z 系列 G5 工作站分三档：
 
 ---
 
-## 优先行动清单（Top 10）
+## Top 关键词簇（文章单位）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | hp workstation ai | 40 | **0** | ⭐⭐⭐ | KD=0，AI 意图：A——"想要 AI 工作站？开箱即用选 Olares One"；B——"已有 HP Z 装 Olares：Local LLM for Teams" |
-| 2 | hp z8 fury g5 | 210 | **26** | ⭐⭐⭐ | KD=26，CPC=$1.74，量 210——"HP Z8 Fury G5 Review + 装 Olares 变 4×GPU 私有 AI 服务器"（信息 B 场景，>24GB 大显存需求）|
-| 3 | hp workstation linux | 10 | **0** | ⭐⭐ | KD=0，技术用户——"HP Z Workstation Linux: 从 Windows 到 Ubuntu + Olares 迁移指南" |
-| 4 | hp z4 g5 | 260 | 42 | ⭐⭐ | CPC=$1.93 最高，量 260——"HP Z4 G5 Review: AI Workstation for Local ML Dev" |
-| 5 | hp z6 g5 | 140 | 38 | ⭐ | KD=38，量 140——"HP Z6 G5 vs Z8 Fury G5: Multi-GPU AI Workstation Comparison" |
-| 6 | hp z2 mini workstation | 70 | 36 | ⭐ | 跨组（Strix Halo Z2 Mini）——"Compact AI Workstation: HP Z2 Mini G1a vs Olares One" |
-| 7 | workstation build | 550,000 | 50 | ⭐ | 超大词，配置器内容辅助 |
-| 8 | hp workstation private cloud | 0 | 0 | ⭐ | GEO 前哨，精准叙事词 |
-| 9 | hp workstation ai server | 0 | 0 | ⭐ | GEO 前哨 |
-| 10 | hp z8 fury linux | 0 | 0 | ⭐ | GEO 前哨，技术指南 |
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | hp z8 fury g5（210/26）| hp z4 g5（260/42）、hp z6 g5（140/38）、hp zbook workstation（170/45）、hp z8 fury linux（0）| is hp z8 fury good for AI? z6 vs z8 fury? | ~780 | ⭐⭐⭐ | versus | Z 系型号评测（KD26 最弱防线）+ "HP Z8 Fury G5 装 Olares 变 4×RTX 6000 Ada 私有 AI 服务器"（信息 B，>24GB 大显存需求）|
+| 2 | hp workstation ai（40/0）| hp workstation ai server（0）、hp workstation private cloud（0）、hp workstation self hosted ai（0）| best hp workstation for AI? | ~40 | ⭐⭐⭐ | alternative | KD=0 先发抢位：A——想要 AI 工作站开箱即用选 Olares One；B——已有 HP Z 装 Olares，Local LLM for Teams |
+| 3 | hp workstation linux（10/0）| local llm workstation linux（0）| can you run linux on hp workstation? | ~10 | ⭐⭐ | listicle | KD=0 技术用户教程："HP Z Workstation Linux——从 Windows 到 Ubuntu + Olares 迁移指南"（B）|
+| 4 | hp z2 mini g1a（880/43）| hp z2 mini workstation（70/36）| hp z2 mini vs olares one? | ~950 | ⭐⭐ | versus | 跨组（Strix Halo Z2 Mini）"Compact AI Workstation: HP Z2 Mini G1a vs Olares One"（另见 hp-strix-halo.md）|
+| 5 | workstation build（550,000/50）| — | how to build a workstation? | ~550,000 | ⭐ | listicle | 超大通用词（KD50 排不动）：配置器内容辅助/长期占位 |
 
 ---
 

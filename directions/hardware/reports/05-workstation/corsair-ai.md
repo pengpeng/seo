@@ -145,20 +145,18 @@ Corsair 投放 348 个付费词，以外设（键盘/鼠标/存储）为主，AI
 
 ---
 
-## 优先行动清单（Top 10）
+## Top 关键词簇（文章单位）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | ai workstation build | 210 | 6 | ⭐⭐⭐ | **KD=6 最大机会**："2026 最佳 AI 工作站：不想攒机就买 Olares One（A）；已有 Strix Halo 装 Olares 自建（B）全程指南" |
-| 2 | ai workstations | 480 | 25 | ⭐⭐⭐ | "最佳 AI 工作站 2026：Olares One 开箱即用 vs Corsair AI 300（Windows-only）；已有机器加装 Olares" |
-| 3 | machine learning workstation | 210 | 16 | ⭐⭐⭐ | "机器学习工作站选购：Strix Halo 统一内存 vs NVIDIA 独显 + Olares 私有部署" |
-| 4 | private ai server | 30 | 0 | ⭐⭐⭐ | CPC=$4.53，KD=0：定义词，"Corsair AI 300 变私有 AI 服务器：Windows out, Olares in" |
-| 5 | corsair ai workstation 300 review | 90 | 23 | ⭐⭐⭐ | CPC=$5.23：独特视角评测——"Corsair AI 300 评测：Linux 用户视角 + Olares 安装" |
-| 6 | ai workstation | 1,000 | 38 | ⭐⭐ | 品类大词，配合 #2 内容形成品类覆盖 |
-| 7 | best ai workstation 2026 | 50 | 14 | ⭐⭐ | 选购指南词；KD=14，Olares 视角：开放 Linux AI OS 维度 |
-| 8 | data science workstation | 70 | 26 | ⭐⭐ | 精准数据科学用户；Olares 提供 Jupyter/MLflow 私有部署 |
-| 9 | strix halo linux | 0 | 0 | ⭐ | GEO 前哨：现在写等于 AI Overview 的首发占位 |
-| 10 | radeon 8050s | 170 | 23 | ⭐ | 硬件词，KD=23；配合 AMD ROCm + Olares 内容引流 |
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | ai workstation build（210/6）| ai workstation（1,000/38）、ai workstation pc（140/30）、workstation builder（140/32）、workstation ai（110/28）| how to build an ai workstation? | ~1,600 | ⭐⭐⭐ | listicle | **KD=6 最大金矿**：2026 AI 工作站自建/选购——不想攒机买 Olares One 开箱即用（A）；已有 Strix Halo 装 Olares 自建（B）|
+| 2 | ai workstations（480/25）| best ai workstation 2026（50/14）、best ai workstation for data scientists 2025（90/8）、best workstations for machine learning ai（90/12）、ai desktop（320/42）、ai desktops（90/27）、ai station（140/33）、ai pc（2,400/47）| what is the best ai workstation 2026? | ~1,260（不含 ai pc）| ⭐⭐⭐ | listicle | 最佳 AI 工作站 2026 榜单：Olares One 开箱即用 vs Corsair AI 300（Windows-only）；已有机器加装 Olares（CPC $4.26）|
+| 3 | machine learning workstation（210/16）| data science workstation（70/26）| best workstation for machine learning? | ~280 | ⭐⭐⭐ | listicle | 机器学习/数据科学工作站选购：Strix Halo 统一内存 vs NVIDIA 独显 + Olares 私有部署 |
+| 4 | private ai server（30/0）| self hosted ai server（20/0）、strix halo self hosted（0）、ai workstation linux（0）、strix halo linux（0）| how to self host ai? | ~50 | ⭐⭐⭐ | alternative | KD=0 + CPC $4.53：定义/教程词——Corsair AI 300 变私有 AI 服务器，Windows out, Olares in（B）|
+| 5 | corsair ai workstation 300 review（90/23）| corsair ai workstation 300（210/31）、corsair ai workstation（260/30）、corsair ai（260/30）、corsair ai workstation alternative（0）、corsair ai workstation olares（0）| is corsair ai workstation 300 worth it? | ~820 | ⭐⭐⭐ | versus | CPC $5.23 最高：独特视角评测——Corsair AI 300 评测（Linux 用户视角 + Olares 安装路径）|
+| 6 | radeon 8050s（170/23）| ryzen ai max 385（260/30）、ai max 385（140/16）、amd ryzen ai 300 series（1,000/47）| what gpu is in corsair ai workstation? | ~1,570 | ⭐⭐ | listicle | Strix Halo 芯片/GPU 说明 + AMD ROCm + Olares 内容引流 |
 
 ---
 

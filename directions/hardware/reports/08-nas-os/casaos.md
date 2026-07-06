@@ -23,6 +23,15 @@
 - casaos alternative（KD=16）：Olares 是功能最完整的 CasaOS 替代方案
 - casaos install（KD=21）：一键部署教程
 
+## Top 关键词簇（文章单位）
+
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | casaos alternative（140/KD16，CPC$6.08）| casaos apps（110）| what is the best CasaOS alternative | ~250 | ⭐⭐ | alternative | Olares 是功能最完整的 CasaOS 替代（含 ZimaOS 对比），商业意图强 |
+| 2 | casaos install（320/KD21）| casaos apps（110）| how to install CasaOS | ~430 | ⭐⭐ | listicle/how-to | 一键部署教程，对比 Olares 安装体验与应用生态 |
+
 ## 核心洞见
 
 - **CasaOS 和 ZimaOS 都是 IceWhaleTech（冰鲸科技）的产品**——CasaOS 定位轻量级家用 NAS OS，ZimaOS 定位更完整的个人云；这两者和 Olares 是最直接的 OS 层竞品。

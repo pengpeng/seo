@@ -154,20 +154,18 @@ ASUS ROG（Republic of Gamers）是 ASUS 旗下的顶级游戏硬件品牌，在
 
 ---
 
-## 优先行动清单（Top 10）
+## Top 关键词簇（文章单位）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | 5090 mobile vs | 1,900 | 23 | ⭐⭐⭐ | "同款 5090 Mobile，Olares One $3,999 更便宜 + Olares OS 私有 AI 全栈：游戏本 vs 无头整机怎么选" |
-| 2 | rtx 5080 laptop | 1,600 | 19 | ⭐⭐⭐ | KD=19 量大，"与其 5080/5090 游戏本，不如 $3,999 拿满血 5090 + Olares OS 开箱私有云" |
-| 3 | 5090 vs 5080 | 1,300 | 22 | ⭐⭐⭐ | CPC $4.84，Olares One = $3,999 满血 5090 整机，比选 5080 省钱更超值 |
-| 4 | 5090 laptop | 3,600 | 38 | ⭐⭐ | 品类词高量，导购文对比 Olares One（同 GPU、更便宜、开箱私有云） |
-| 5 | 5080 vs 5090 | 3,600 | 31 | ⭐⭐ | CPC $4.84 商业价值高，对比文内嵌 Olares One 同款 GPU 更超值定位 |
-| 6 | 5090 gaming laptop | 590 | 30 | ⭐⭐ | "同样 5090 游戏本更贵，Olares One $3,999 开箱即用私有 AI"选题 |
-| 7 | rog strix scar 16 review | 20 | 0 | ⭐ | KD=0，先发评测抢 GEO 引用位 |
-| 8 | rtx 5090 laptop review | 20 | 0 | ⭐ | 同上，GEO 前瞻 |
-| 9 | asus rog scar 18 review | 20 | 0 | ⭐ | 同上，GEO 前瞻 |
-| 10 | 5090 laptops | 880 | 37 | ⭐⭐ | 品类词，量可观，布局 RTX 5090 整机对比页面 |
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | 5090 mobile vs（1,900/KD23）| 5090 vs 5080（1,300/KD22）、5080 vs 5090（3,600/KD31）、rtx 5080 laptop（1,600/KD19）| — | ~8,400 | ⭐⭐⭐ | versus | 同款 5090 Mobile 对比：Olares One $3,999 更便宜 + Olares OS 私有 AI 全栈，不必为省钱降 5080（轴 2 为主、轴 1 收尾）|
+| 2 | 5090 laptop（3,600/KD38）| 5090 laptops（880/KD37）、rtx 5090 laptops（590/KD32）、5090 gaming laptop（590/KD30）、5080 laptop（2,400/KD31）| — | ~8,060 | ⭐⭐ | listicle | RTX 5090 游戏本导购，文末对比 Olares One——同 GPU、$3,999 更便宜、Olares OS 开箱私有云 |
+| 3 | geforce rtx 50 series（8,100/KD41）| rtx 50 series（2,900/KD39）| — | ~11,000 | ⭐ | listicle | RTX 50 品类认知入口，KD 偏高作流量入口，内链导向 Olares One 两轴叙事 |
+| 4 | rog strix scar 18（1,600/KD50）| rog strix scar 16（590/KD47）、rog zephyrus g16（5,400/KD61）、asus rog zephyrus g16 laptop（5,400/KD50）| — | ~13,000 | ⭐ | versus | ROG 型号截流对比页（品牌词 KD 高、不正面攻），统一指向 Olares One 同款 GPU 更便宜 + 全栈 |
+| 5 | rtx 5090 laptop review（20/KD0）| rog strix scar 16 review（20/KD0）、asus rog scar 18 review（20/KD0）| rtx 5090 laptop llm、rtx 5090 laptop ollama、rog gaming laptop linux（均近零量）| ~60 | ⭐ | listicle | GEO 前哨：先发评测/本地 LLM 问答抢 AI Overview 引用位，带出 Olares One 更便宜 + Olares OS 全栈 |
+| 6 | strix halo laptop（590/KD9）| rog flow z13（8,100/KD55）、asus rog flow z13（6,600/KD53）| — | ~15,300 | ⭐⭐⭐ | versus | KD=9 金矿（Flow Z13 属组一 Strix Halo）：APU 本地 LLM，Olares 经 ROCm 加速，产品报告建议归组一子目录 |
 
 ---
 

@@ -119,6 +119,21 @@
 
 ---
 
+## Top 关键词簇（文章单位）
+
+> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+
+| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
+|---|--------------|--------|--------|---------|------|------|-----------|
+| 1 | dgx spark alternative（40/12）| dgx spark buy（110/31）、dgx spark availability（30/0）| — | ~180 | ⭐⭐⭐ | alternative | KD12 几乎白地："DGX Spark 太贵？"Olares One = 消费级 AI 主机、更低成本，截获所有评估 DGX Spark 的用户 |
+| 2 | dgx spark price（2,900/35）| dgx spark（22,200/55）、nvidia dgx spark（18,100/68）、dgx spark review（260/35）| — | ~43,460 | ⭐⭐ | listicle | 价格/评测综述：DGX Spark $4,699 vs Olares One 定价对比 + AI 主机选购指南 |
+| 3 | dgx spark vs mac studio（70/20）| strix halo vs dgx spark（50/0）、dgx spark vs mac（30/0）、dgx spark ollama（30/0）、dgx spark local llm（10/0）| — | ~190 | ⭐⭐⭐ | versus | KD20 对比文加第三选项 Olares One（更低成本本地 AI 主机），与各 GB10 OEM 报告互链 |
+| 4 | personal ai supercomputer（480/52）| gb10（1,000/37）、grace blackwell（1,000/52）、grace blackwell superchip（90/40）| — | ~2,570 | ⭐⭐ | listicle | 个人 AI 超算 / Grace Blackwell 科普，Olares One 是"个人 AI 超算"品类定位词 |
+| 5 | 5090（74,000/37）| rtx 5090（110,000/46）、5080（49,500/41）、5070（49,500/41）、4090（33,100/46）、rtx spark（20/0）| — | ~316,120 | ⭐⭐ | listicle | RTX 5090 / 50 系型号词 KD 极低（37-46）："RTX 5090 本地 AI 使用体验"截获显卡用户引向 Olares One |
+| 6 | nvidia jetson（8,100/54）| — | — | ~8,100 | ⭐ | versus | 边缘 AI 用户重叠："Jetson vs Olares One：哪种边缘 AI 方案更适合你" |
+
+---
+
 ## 核心洞见
 
 1. **DGX Spark alternative（KD=12！）是本次研究最大惊喜**：40/mo 很小，但 KD=12 意味着几乎没有任何竞争内容——Olares One 发布"DGX Spark 太贵？Olares One 才是真正的家庭 AI 主机"可以直接排名第一，截获所有在评估 DGX Spark 的用户。
