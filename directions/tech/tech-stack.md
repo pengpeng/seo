@@ -457,7 +457,7 @@ flowchart TB
 
 | 项目 | 介绍 | 许可 | 其它值得介绍的 | 公有云 / 闭源对标 | Olares 状态 | SEO 报告 |
 |------|------|------|------|------|------|------|
-| Langfuse | LLM 可观测/评估默认 | MIT | 2026-01 被 ClickHouse 收购；基于 OpenTelemetry、可气隙 | LangSmith、Braintrust、Datadog LLM | 🟡 Market 可装 | [报告](../market/reports/langfuse.md) |
+| Langfuse | LLM 可观测/评估默认 | MIT | 2026-01 被 ClickHouse 收购；基于 OpenTelemetry、可气隙 | LangSmith、Braintrust、Datadog LLM | 🟡 Market 可装 | [langfuse](../market/reports/langfuse.md) |
 | Arize Phoenix | 开源 LLM tracing + 评估 | ELv2 | OpenTelemetry/OpenInference 原生，本地可跑 | Arize AX、LangSmith | ⬜ | ⬜ 待做 |
 
 ### 微调 / 训练

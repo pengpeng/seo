@@ -16,15 +16,15 @@
 
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
-| Gemma 4 | E2B / E4B · 12B / 26B-A4B / 31B | 📱→💻 | Apache 2.0 | Gemini Nano / Flash | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/gemma-4.md) |
-| Qwen 3.6 | 27B (dense) / 35B-A3B (MoE) | 💻 主力 | Apache 2.0 | GPT-5 级 / Claude Sonnet | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/qwen-3.md) |
-| Qwen3-Coder | 30B-A3B / 480B-A35B | 💻→🏢 | Apache 2.0 | Claude（编码/agent） | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/qwen3-coder.md) |
-| Ornith-1.0 | 9B-Dense / 31B-Dense / 35B-MoE / 397B-MoE | 📱→🏢 | MIT | Claude Opus 4.7（agentic 编码） | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/ornith-1.md) |
-| GLM-5.2 | 744B-A40B | 🏢 | MIT | GPT-5.5 / Claude Opus 4.8 | ✅ [报告](directions/model/reports/01-llm/glm-5.md) |
-| DeepSeek V4 | Flash (284B-A13B) / Pro (1.6T-A49B) | 🏢 | MIT | Claude / Gemini（长上下文 agent） | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/deepseek-v4.md) |
-| Kimi K2.7 Code | K2.7 Code (1T-A32B) | 🏢 | Modified MIT | GPT-5.5 / Claude Opus 4.8（agentic 编码） | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/kimi-k2-coder.md) |
-| MiniMax M3 | M3 (428B-A23B，1M 上下文，原生多模态) | 🏢 | MiniMax Community License | Claude Opus（多模态 agent/coding） | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/minimax-m3.md) |
-| Llama 4（渐旧） | Scout 109B-A17B / Maverick 400B-A17B | 🏢 | Llama 4 社区许可（非 OSI） | GPT-4.5 / Gemini | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/llama-4.md) |
+| Gemma 4 | E2B / E4B · 12B / 26B-A4B / 31B | 📱→💻 | Apache 2.0 | Gemini Nano / Flash | ✅ [gemma-4](/Users/pengpeng/seo/directions/model/reports/01-llm/gemma-4.md) |
+| Qwen 3.6 | 27B (dense) / 35B-A3B (MoE) | 💻 主力 | Apache 2.0 | GPT-5 级 / Claude Sonnet | ✅ [qwen-3](/Users/pengpeng/seo/directions/model/reports/01-llm/qwen-3.md) |
+| Qwen3-Coder | 30B-A3B / 480B-A35B | 💻→🏢 | Apache 2.0 | Claude（编码/agent） | ✅ [qwen3-coder](/Users/pengpeng/seo/directions/model/reports/01-llm/qwen3-coder.md) |
+| Ornith-1.0 | 9B-Dense / 31B-Dense / 35B-MoE / 397B-MoE | 📱→🏢 | MIT | Claude Opus 4.7（agentic 编码） | ✅ [ornith-1](/Users/pengpeng/seo/directions/model/reports/01-llm/ornith-1.md) |
+| GLM-5.2 | 744B-A40B | 🏢 | MIT | GPT-5.5 / Claude Opus 4.8 | ✅ [glm-5](directions/model/reports/01-llm/glm-5.md) |
+| DeepSeek V4 | Flash (284B-A13B) / Pro (1.6T-A49B) | 🏢 | MIT | Claude / Gemini（长上下文 agent） | ✅ [deepseek-v4](/Users/pengpeng/seo/directions/model/reports/01-llm/deepseek-v4.md) |
+| Kimi K2.7 Code | K2.7 Code (1T-A32B) | 🏢 | Modified MIT | GPT-5.5 / Claude Opus 4.8（agentic 编码） | ✅ [kimi-k2-coder](/Users/pengpeng/seo/directions/model/reports/01-llm/kimi-k2-coder.md) |
+| MiniMax M3 | M3 (428B-A23B，1M 上下文，原生多模态) | 🏢 | MiniMax Community License | Claude Opus（多模态 agent/coding） | ✅ [minimax-m3](/Users/pengpeng/seo/directions/model/reports/01-llm/minimax-m3.md) |
+| Llama 4（渐旧） | Scout 109B-A17B / Maverick 400B-A17B | 🏢 | Llama 4 社区许可（非 OSI） | GPT-4.5 / Gemini | ✅ [llama-4](/Users/pengpeng/seo/directions/model/reports/01-llm/llama-4.md) |
 
 ## 02 图像生成 / 编辑
 
@@ -32,12 +32,12 @@
 
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
-| FLUX.2 | klein 4B / 9B · dev 32B | 💻→🏢 | klein-4B Apache 2.0；dev/9B 非商用 | Midjourney / DALL·E | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/02-image/flux-2.md) |
-| Ideogram 4 | 9.3B（文字/版面最强开放权重，原生 2K） | 💻 | 开源 Non-Commercial + 商用另购（self-serve/enterprise） | GPT Image / Nano Banana / Midjourney | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/02-image/ideogram-4.md) |
-| Qwen-Image / Qwen-Image-Edit | 20B（Image 2.0 / Edit-2511） | 💻 | Apache 2.0 | Nano Banana / Photoshop / DALL·E | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/02-image/qwen-image.md) |
-| HiDream-O1-Image | 8B（生成+编辑） | 💻 | MIT | Midjourney / Nano Banana | ✅ [报告](directions/model/reports/02-image/hidream-o1.md) |
-| Z-Image | Turbo 6B | 📱→💻 | Apache 2.0 | Midjourney / Nano Banana（快图） | ✅ [报告](directions/model/reports/02-image/z-image.md) |
-| SD 3.5 / SDXL | SD3.5 Large 8B / Medium 2.5B · SDXL 3.5B | 📱→💻 | Stability Community / OpenRAIL | DALL·E / Firefly | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/02-image/sd35.md) |
+| FLUX.2 | klein 4B / 9B · dev 32B | 💻→🏢 | klein-4B Apache 2.0；dev/9B 非商用 | Midjourney / DALL·E | ✅ [flux-2](/Users/pengpeng/seo/directions/model/reports/02-image/flux-2.md) |
+| Ideogram 4 | 9.3B（文字/版面最强开放权重，原生 2K） | 💻 | 开源 Non-Commercial + 商用另购（self-serve/enterprise） | GPT Image / Nano Banana / Midjourney | ✅ [ideogram-4](/Users/pengpeng/seo/directions/model/reports/02-image/ideogram-4.md) |
+| Qwen-Image / Qwen-Image-Edit | 20B（Image 2.0 / Edit-2511） | 💻 | Apache 2.0 | Nano Banana / Photoshop / DALL·E | ✅ [qwen-image](/Users/pengpeng/seo/directions/model/reports/02-image/qwen-image.md) |
+| HiDream-O1-Image | 8B（生成+编辑） | 💻 | MIT | Midjourney / Nano Banana | ✅ [hidream-o1](directions/model/reports/02-image/hidream-o1.md) |
+| Z-Image | Turbo 6B | 📱→💻 | Apache 2.0 | Midjourney / Nano Banana（快图） | ✅ [z-image](directions/model/reports/02-image/z-image.md) |
+| SD 3.5 / SDXL | SD3.5 Large 8B / Medium 2.5B · SDXL 3.5B | 📱→💻 | Stability Community / OpenRAIL | DALL·E / Firefly | ✅ [sd35](/Users/pengpeng/seo/directions/model/reports/02-image/sd35.md) |
 
 ## 03 视频生成（t2v / i2v）
 
@@ -45,12 +45,12 @@
 
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
-| Wan 2.2 | TI2V-5B / T2V-A14B / I2V-A14B | 💻→🏢 | Apache 2.0 | Sora / Kling / Runway | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/03-video/wan-2.md) |
-| HunyuanVideo-1.5 | 8.3B（t2v+i2v，超分→1080p） | 💻 | Tencent Community（排除 EU/UK/KR） | Sora / Kling | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/03-video/hunyuanvideo.md) |
-| LTX-2 | 19B / 22B（原生音画同步，4K） | 💻→🏢 | LTX-2 Community（<$10M ARR） | Sora（音画一体） | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/03-video/ltx-2.md) |
-| Mochi 1 | 10B（纯 t2v） | 🏢→💻 | Apache 2.0 | Runway / Sora | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/03-video/mochi-1.md) |
-| CogVideoX | 1.5-5B（t2v+i2v） | 💻 | CogVideoX License（2B 版 Apache） | Pika / Runway | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/03-video/cogvideox.md) |
-| SkyReels-V2 | 1.3B / 14B（长视频/无限长） | 📱→🏢 | Wan 架构衍生（见 repo） | Kling / Runway | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/03-video/skyreels-v2.md) |
+| Wan 2.2 | TI2V-5B / T2V-A14B / I2V-A14B | 💻→🏢 | Apache 2.0 | Sora / Kling / Runway | ✅ [wan-2](/Users/pengpeng/seo/directions/model/reports/03-video/wan-2.md) |
+| HunyuanVideo-1.5 | 8.3B（t2v+i2v，超分→1080p） | 💻 | Tencent Community（排除 EU/UK/KR） | Sora / Kling | ✅ [hunyuanvideo](/Users/pengpeng/seo/directions/model/reports/03-video/hunyuanvideo.md) |
+| LTX-2 | 19B / 22B（原生音画同步，4K） | 💻→🏢 | LTX-2 Community（<$10M ARR） | Sora（音画一体） | ✅ [ltx-2](/Users/pengpeng/seo/directions/model/reports/03-video/ltx-2.md) |
+| Mochi 1 | 10B（纯 t2v） | 🏢→💻 | Apache 2.0 | Runway / Sora | ✅ [mochi-1](/Users/pengpeng/seo/directions/model/reports/03-video/mochi-1.md) |
+| CogVideoX | 1.5-5B（t2v+i2v） | 💻 | CogVideoX License（2B 版 Apache） | Pika / Runway | ✅ [cogvideox](/Users/pengpeng/seo/directions/model/reports/03-video/cogvideox.md) |
+| SkyReels-V2 | 1.3B / 14B（长视频/无限长） | 📱→🏢 | Wan 架构衍生（见 repo） | Kling / Runway | ✅ [skyreels-v2](/Users/pengpeng/seo/directions/model/reports/03-video/skyreels-v2.md) |
 
 ## 04 3D 生成（图生 3D / 文生 3D）
 
@@ -58,11 +58,11 @@
 
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
-| TRELLIS.2 | 4B（图生 3D 开源天花板，PBR） | 💻→🏢 | MIT | Meshy / Rodin / Tripo | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/04-3d/trellis-2.md) |
-| Hunyuan3D 2.1 | Shape 3.3B + Paint 2B（文+图+纹理） | 💻→🏢 | Tencent Community（排除 EU/UK/KR） | Meshy / Tripo / Rodin | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/04-3d/hunyuan3d.md) |
-| Stable Fast 3D | 1.01B（4–5GB，game-ready UV+PBR） | 📱 | Stability Community（营收<$1M） | Meshy（游戏资产） | ✅ [报告](directions/model/reports/04-3d/stable-fast-3d.md) |
-| Hi3DGen | ~1.2B（高保真几何，法线中间表示） | 💻 | MIT | Rodin（几何） | ✅ [报告](directions/model/reports/04-3d/hi3dgen.md) |
-| TripoSG | 1.5B（纯 MIT 形状 SOTA，8GB） | 📱 | MIT | Tripo 2.0（形状） | ✅ [报告](directions/model/reports/04-3d/triposg.md) |
+| TRELLIS.2 | 4B（图生 3D 开源天花板，PBR） | 💻→🏢 | MIT | Meshy / Rodin / Tripo | ✅ [trellis-2](/Users/pengpeng/seo/directions/model/reports/04-3d/trellis-2.md) |
+| Hunyuan3D 2.1 | Shape 3.3B + Paint 2B（文+图+纹理） | 💻→🏢 | Tencent Community（排除 EU/UK/KR） | Meshy / Tripo / Rodin | ✅ [hunyuan3d](/Users/pengpeng/seo/directions/model/reports/04-3d/hunyuan3d.md) |
+| Stable Fast 3D | 1.01B（4–5GB，game-ready UV+PBR） | 📱 | Stability Community（营收<$1M） | Meshy（游戏资产） | ✅ [stable-fast-3d](directions/model/reports/04-3d/stable-fast-3d.md) |
+| Hi3DGen | ~1.2B（高保真几何，法线中间表示） | 💻 | MIT | Rodin（几何） | ✅ [hi3dgen](directions/model/reports/04-3d/hi3dgen.md) |
+| TripoSG | 1.5B（纯 MIT 形状 SOTA，8GB） | 📱 | MIT | Tripo 2.0（形状） | ✅ [triposg](directions/model/reports/04-3d/triposg.md) |
 
 ## 05 语音合成 TTS / 声音克隆
 
@@ -70,17 +70,17 @@
 
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
-| Kokoro | 82M（英语朗读，浏览器可跑） | 📱 | Apache 2.0 | ElevenLabs / OpenAI TTS | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/05-tts/kokoro.md) |
-| Piper | 多 VITS 语音 ~5–30M | 📱 | MIT | Amazon Polly / Azure TTS | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/05-tts/piper.md) |
-| NeuTTS Air | Air ~0.5B / Nano ~120M（端侧克隆） | 📱 | Apache 2.0（Nano: NeuTTS OL） | ElevenLabs / Play.ht | ✅ [报告](directions/model/reports/05-tts/neutts.md) |
-| Chatterbox | 0.5B（情绪控制+克隆） | 💻 | MIT | ElevenLabs | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/05-tts/chatterbox.md) |
-| CosyVoice | 2.0 / 3.0 (0.5B) | 💻 | Apache 2.0 | ElevenLabs / MiniMax | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/05-tts/cosyvoice.md) |
-| Qwen3-TTS | 0.6B / 1.7B（3 秒克隆） | 💻 | Apache 2.0 | ElevenLabs / OpenAI TTS | ✅ [报告](directions/model/reports/05-tts/qwen3-tts.md) |
-| IndexTTS | 2 / 2.5（情绪/时长可控，配音） | 💻 | 自定义（Bilibili License） | ElevenLabs（配音） | ✅ [报告](directions/model/reports/05-tts/indextts.md) |
-| XTTS-v2 | 467M（17 语言） | 💻 | CPML（非商用） | ElevenLabs | ✅ [报告](directions/model/reports/05-tts/xtts-v2.md) |
-| Dia | 1.6B（多说话人对话） | 💻 | Apache 2.0 | ElevenLabs（对话） | ✅ [报告](directions/model/reports/05-tts/dia.md) |
-| Orpheus-TTS | 3B | 🏢 | Apache 2.0 | ElevenLabs | ✅ [报告](directions/model/reports/05-tts/orpheus-tts.md) |
-| Fish Audio S2 | S2 Pro 4B（80+ 语言） | 🏢 | Fish Research（商用付费） | ElevenLabs / MiniMax | ✅ [报告](directions/model/reports/05-tts/fish-audio.md) |
+| Kokoro | 82M（英语朗读，浏览器可跑） | 📱 | Apache 2.0 | ElevenLabs / OpenAI TTS | ✅ [kokoro](/Users/pengpeng/seo/directions/model/reports/05-tts/kokoro.md) |
+| Piper | 多 VITS 语音 ~5–30M | 📱 | MIT | Amazon Polly / Azure TTS | ✅ [piper](/Users/pengpeng/seo/directions/model/reports/05-tts/piper.md) |
+| NeuTTS Air | Air ~0.5B / Nano ~120M（端侧克隆） | 📱 | Apache 2.0（Nano: NeuTTS OL） | ElevenLabs / Play.ht | ✅ [neutts](directions/model/reports/05-tts/neutts.md) |
+| Chatterbox | 0.5B（情绪控制+克隆） | 💻 | MIT | ElevenLabs | ✅ [chatterbox](/Users/pengpeng/seo/directions/model/reports/05-tts/chatterbox.md) |
+| CosyVoice | 2.0 / 3.0 (0.5B) | 💻 | Apache 2.0 | ElevenLabs / MiniMax | ✅ [cosyvoice](/Users/pengpeng/seo/directions/model/reports/05-tts/cosyvoice.md) |
+| Qwen3-TTS | 0.6B / 1.7B（3 秒克隆） | 💻 | Apache 2.0 | ElevenLabs / OpenAI TTS | ✅ [qwen3-tts](directions/model/reports/05-tts/qwen3-tts.md) |
+| IndexTTS | 2 / 2.5（情绪/时长可控，配音） | 💻 | 自定义（Bilibili License） | ElevenLabs（配音） | ✅ [indextts](directions/model/reports/05-tts/indextts.md) |
+| XTTS-v2 | 467M（17 语言） | 💻 | CPML（非商用） | ElevenLabs | ✅ [xtts-v2](directions/model/reports/05-tts/xtts-v2.md) |
+| Dia | 1.6B（多说话人对话） | 💻 | Apache 2.0 | ElevenLabs（对话） | ✅ [dia](directions/model/reports/05-tts/dia.md) |
+| Orpheus-TTS | 3B | 🏢 | Apache 2.0 | ElevenLabs | ✅ [orpheus-tts](directions/model/reports/05-tts/orpheus-tts.md) |
+| Fish Audio S2 | S2 Pro 4B（80+ 语言） | 🏢 | Fish Research（商用付费） | ElevenLabs / MiniMax | ✅ [fish-audio](directions/model/reports/05-tts/fish-audio.md) |
 
 ## 06 语音识别 STT / ASR
 
@@ -88,14 +88,14 @@
 
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
-| Moonshine | Tiny 27M → Medium 245M（端侧） | 📱 | MIT | Deepgram Flux / 云实时 | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/06-stt/moonshine.md) |
-| Qwen3-ASR | 0.6B / 1.7B（52 语言，开源 SOTA） | 📱→💻 | Apache 2.0 | AssemblyAI Universal-3 Pro | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/06-stt/qwen3-asr.md) |
-| Whisper | Large v3 (1.55B) / v3 Turbo (809M) | 💻 主力 | MIT | OpenAI gpt-4o-transcribe / Deepgram | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/06-stt/whisper.md) |
-| Distil-Whisper | Large v3.5 (756M，英语快转) | 💻 | MIT | — | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/06-stt/distil-whisper.md) |
-| Parakeet TDT | 0.6B v3（吞吐王，25 语言） | 💻 | CC-BY-4.0 | Deepgram Nova-3 streaming | ✅ [报告](directions/model/reports/06-stt/parakeet-tdt.md) |
-| Canary-Qwen | 2.5B（英语短音频最准） | 💻 | CC-BY-4.0 | ElevenLabs Scribe v2 | ✅ [报告](directions/model/reports/06-stt/canary-qwen.md) |
-| Voxtral | Mini 4.7B / Small 24B（转写+理解） | 💻→🏢 | Apache 2.0 | Whisper API / ElevenLabs Scribe | ✅ [报告](directions/model/reports/06-stt/voxtral.md) |
-| Granite Speech 3.3 | 2B / 8B（ASR+翻译） | 💻→🏢 | Apache 2.0 | AssemblyAI / Deepgram | ✅ [报告](directions/model/reports/06-stt/granite-speech.md) |
+| Moonshine | Tiny 27M → Medium 245M（端侧） | 📱 | MIT | Deepgram Flux / 云实时 | ✅ [moonshine](/Users/pengpeng/seo/directions/model/reports/06-stt/moonshine.md) |
+| Qwen3-ASR | 0.6B / 1.7B（52 语言，开源 SOTA） | 📱→💻 | Apache 2.0 | AssemblyAI Universal-3 Pro | ✅ [qwen3-asr](/Users/pengpeng/seo/directions/model/reports/06-stt/qwen3-asr.md) |
+| Whisper | Large v3 (1.55B) / v3 Turbo (809M) | 💻 主力 | MIT | OpenAI gpt-4o-transcribe / Deepgram | ✅ [whisper](/Users/pengpeng/seo/directions/model/reports/06-stt/whisper.md) |
+| Distil-Whisper | Large v3.5 (756M，英语快转) | 💻 | MIT | — | ✅ [distil-whisper](/Users/pengpeng/seo/directions/model/reports/06-stt/distil-whisper.md) |
+| Parakeet TDT | 0.6B v3（吞吐王，25 语言） | 💻 | CC-BY-4.0 | Deepgram Nova-3 streaming | ✅ [parakeet-tdt](directions/model/reports/06-stt/parakeet-tdt.md) |
+| Canary-Qwen | 2.5B（英语短音频最准） | 💻 | CC-BY-4.0 | ElevenLabs Scribe v2 | ✅ [canary-qwen](directions/model/reports/06-stt/canary-qwen.md) |
+| Voxtral | Mini 4.7B / Small 24B（转写+理解） | 💻→🏢 | Apache 2.0 | Whisper API / ElevenLabs Scribe | ✅ [voxtral](directions/model/reports/06-stt/voxtral.md) |
+| Granite Speech 3.3 | 2B / 8B（ASR+翻译） | 💻→🏢 | Apache 2.0 | AssemblyAI / Deepgram | ✅ [granite-speech](directions/model/reports/06-stt/granite-speech.md) |
 
 ## 07 Embedding / Reranker（本地 RAG）
 
@@ -103,14 +103,14 @@
 
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
-| Qwen3-Embedding | 0.6B / 4B / 8B（MTEB 多语 No.1） | 📱→🏢 | Apache 2.0 | text-embedding-3-large / Gemini Embedding | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/07-embedding/qwen3-embedding.md) |
-| Qwen3-Reranker | 0.6B / 4B / 8B（cross-encoder） | 💻→🏢 | Apache 2.0 | Cohere Rerank | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/07-embedding/qwen3-reranker.md) |
-| EmbeddingGemma | 308M（<200MB RAM，端侧） | 📱 | Gemma 条款（可商用） | text-embedding-3-small | ✅ [报告](directions/model/reports/07-embedding/embedding-gemma.md) |
-| BGE-M3 | ~0.6B（dense+sparse+ColBERT） | 💻 主力 | MIT | text-embedding-3-large / Cohere Embed v3 | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/07-embedding/bge-m3.md) |
-| bge-reranker-v2-m3 | cross-encoder（多语言） | 💻 | MIT | Cohere Rerank | ✅ [报告](directions/model/reports/07-embedding/bge-reranker.md) |
-| Nomic Embed | v2 ~0.5B (MoE, ~100 语言) | 📱 | Apache 2.0 | text-embedding-3-small | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/07-embedding/nomic-embed.md) |
-| GTE-Qwen2 | 7B-instruct | 🏢 | Apache 2.0 | text-embedding-3-large | ✅ [报告](directions/model/reports/07-embedding/gte-qwen2.md) |
-| Stella | en-1.5B-v5（英文） | 💻 | MIT | text-embedding-3-large | ✅ [报告](directions/model/reports/07-embedding/stella.md) |
+| Qwen3-Embedding | 0.6B / 4B / 8B（MTEB 多语 No.1） | 📱→🏢 | Apache 2.0 | text-embedding-3-large / Gemini Embedding | ✅ [qwen3-embedding](/Users/pengpeng/seo/directions/model/reports/07-embedding/qwen3-embedding.md) |
+| Qwen3-Reranker | 0.6B / 4B / 8B（cross-encoder） | 💻→🏢 | Apache 2.0 | Cohere Rerank | ✅ [qwen3-reranker](/Users/pengpeng/seo/directions/model/reports/07-embedding/qwen3-reranker.md) |
+| EmbeddingGemma | 308M（<200MB RAM，端侧） | 📱 | Gemma 条款（可商用） | text-embedding-3-small | ✅ [embedding-gemma](directions/model/reports/07-embedding/embedding-gemma.md) |
+| BGE-M3 | ~0.6B（dense+sparse+ColBERT） | 💻 主力 | MIT | text-embedding-3-large / Cohere Embed v3 | ✅ [bge-m3](/Users/pengpeng/seo/directions/model/reports/07-embedding/bge-m3.md) |
+| bge-reranker-v2-m3 | cross-encoder（多语言） | 💻 | MIT | Cohere Rerank | ✅ [bge-reranker](directions/model/reports/07-embedding/bge-reranker.md) |
+| Nomic Embed | v2 ~0.5B (MoE, ~100 语言) | 📱 | Apache 2.0 | text-embedding-3-small | ✅ [nomic-embed](/Users/pengpeng/seo/directions/model/reports/07-embedding/nomic-embed.md) |
+| GTE-Qwen2 | 7B-instruct | 🏢 | Apache 2.0 | text-embedding-3-large | ✅ [gte-qwen2](directions/model/reports/07-embedding/gte-qwen2.md) |
+| Stella | en-1.5B-v5（英文） | 💻 | MIT | text-embedding-3-large | ✅ [stella](directions/model/reports/07-embedding/stella.md) |
 
 ## 08 OCR / 文档理解
 
@@ -118,15 +118,15 @@
 
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
-| PaddleOCR-VL | 0.9B（OmniDocBench 榜首，109 语言） | 💻 主力 | Apache 2.0 | Google Document AI / Mistral OCR | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/08-ocr/paddleocr-vl.md) |
-| DeepSeek-OCR | 3B MoE（~570M 激活，光学压缩） | 💻 | MIT | AWS Textract | ✅ [报告](directions/model/reports/08-ocr/deepseek-ocr.md) |
-| dots.ocr | 1.7B（100+ 语言，版面统一） | 💻 | MIT | Google Document AI | ✅ [报告](directions/model/reports/08-ocr/dots-ocr.md) |
-| olmOCR | 7B（大规模 PDF→语料） | 🏢 | Apache 2.0 | Mistral OCR / GPT-4o OCR | ✅ [报告](directions/model/reports/08-ocr/olmocr.md) |
-| GOT-OCR2.0 | ~580M（4GB 显存可跑） | 📱→💻 | Apache 2.0 | AWS Textract 基础层 | ✅ [报告](directions/model/reports/08-ocr/got-ocr.md) |
-| Granite-Docling | 258M（保结构 DocTags，CPU） | 📱 | Apache 2.0 | Azure Document Intelligence | ✅ [报告](directions/model/reports/08-ocr/granite-docling.md) |
-| MinerU | 2.5-Pro | 💻 | Apache 2.0 | Google Document AI | ✅ [报告](directions/model/reports/08-ocr/mineru.md) |
-| Baidu Unlimited OCR | 开放权重（一次 40+ 页） | 💻 | MIT | Mistral OCR | ✅ [报告](directions/model/reports/08-ocr/baidu-ocr.md) |
-| Surya OCR 2 | 650M | 📱→💻 | 开源（见模型卡） | AWS Textract 基础层 | ✅ [报告](directions/model/reports/08-ocr/surya-ocr.md) |
+| PaddleOCR-VL | 0.9B（OmniDocBench 榜首，109 语言） | 💻 主力 | Apache 2.0 | Google Document AI / Mistral OCR | ✅ [paddleocr-vl](/Users/pengpeng/seo/directions/model/reports/08-ocr/paddleocr-vl.md) |
+| DeepSeek-OCR | 3B MoE（~570M 激活，光学压缩） | 💻 | MIT | AWS Textract | ✅ [deepseek-ocr](directions/model/reports/08-ocr/deepseek-ocr.md) |
+| dots.ocr | 1.7B（100+ 语言，版面统一） | 💻 | MIT | Google Document AI | ✅ [dots-ocr](directions/model/reports/08-ocr/dots-ocr.md) |
+| olmOCR | 7B（大规模 PDF→语料） | 🏢 | Apache 2.0 | Mistral OCR / GPT-4o OCR | ✅ [olmocr](directions/model/reports/08-ocr/olmocr.md) |
+| GOT-OCR2.0 | ~580M（4GB 显存可跑） | 📱→💻 | Apache 2.0 | AWS Textract 基础层 | ✅ [got-ocr](directions/model/reports/08-ocr/got-ocr.md) |
+| Granite-Docling | 258M（保结构 DocTags，CPU） | 📱 | Apache 2.0 | Azure Document Intelligence | ✅ [granite-docling](directions/model/reports/08-ocr/granite-docling.md) |
+| MinerU | 2.5-Pro | 💻 | Apache 2.0 | Google Document AI | ✅ [mineru](directions/model/reports/08-ocr/mineru.md) |
+| Baidu Unlimited OCR | 开放权重（一次 40+ 页） | 💻 | MIT | Mistral OCR | ✅ [baidu-ocr](directions/model/reports/08-ocr/baidu-ocr.md) |
+| Surya OCR 2 | 650M | 📱→💻 | 开源（见模型卡） | AWS Textract 基础层 | ✅ [surya-ocr](directions/model/reports/08-ocr/surya-ocr.md) |
 
 ## 09 机器翻译
 
@@ -134,15 +134,15 @@
 
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
-| Tencent Hy-MT2 | 1.8B / 7B / 30B-A3B (MoE) | 📱→🏢 | Hunyuan 条款（需查官方） | DeepL / Microsoft / Doubao | ✅ [报告](directions/model/reports/09-translation/tencent-hy-mt2.md) |
-| Tencent HY-MT1.5 | 1.8B / 7B（33 语言） | 📱→💻 | 需查官方 | Gemini-3.0-Pro / Tower-Plus-72B | ✅ [报告](directions/model/reports/09-translation/tencent-hy-mt15.md) |
-| Tencent Hunyuan-MT | 7B + Chimera-7B（WMT25 冠军） | 💻 | 需查官方 | Google Translate / GPT-4.1 / Claude 4 | ✅ [报告](directions/model/reports/09-translation/hunyuan-mt.md) |
-| ByteDance Seed-X | 7B（28 语言） | 💻 | OpenMDW（较宽松） | Gemini-2.5 / GPT-4o | ✅ [报告](directions/model/reports/09-translation/bytedance-seed-x.md) |
-| Unbabel Tower+ | 2B / 9B / 72B | 💻→🏢 | 待核（多 CC-BY-NC） | GPT-4o / Llama-3.3-70B | ✅ [报告](directions/model/reports/09-translation/unbabel-tower.md) |
-| Meta NLLB-200 | 600M–54.5B（200+ 语言） | 📱→🏢 | CC-BY-NC 4.0（禁商用） | Google Translate（低资源语） | ✅ [报告](directions/model/reports/09-translation/nllb-200.md) |
-| Google MADLAD-400 | 3B / 7.2B / 10.7B（400+ 语言） | 📱→💻 | Apache 2.0 | DeepL / Google Translate | ✅ [报告](directions/model/reports/09-translation/madlad-400.md) |
-| Meta SeamlessM4T v2 | Large 2.3B（语音翻译） | 💻 | CC-BY-NC 4.0 | DeepL Voice / Google 实时翻译 | ✅ [报告](directions/model/reports/09-translation/seamlessm4t.md) |
-| Helsinki-NLP Opus-MT | 数百语对小模型（数十–百 M，CPU） | 📱 | CC-BY 4.0 | Google Translate（单语对） | ✅ [报告](directions/model/reports/09-translation/opus-mt.md) |
+| Tencent Hy-MT2 | 1.8B / 7B / 30B-A3B (MoE) | 📱→🏢 | Hunyuan 条款（需查官方） | DeepL / Microsoft / Doubao | ✅ [tencent-hy-mt2](directions/model/reports/09-translation/tencent-hy-mt2.md) |
+| Tencent HY-MT1.5 | 1.8B / 7B（33 语言） | 📱→💻 | 需查官方 | Gemini-3.0-Pro / Tower-Plus-72B | ✅ [tencent-hy-mt15](directions/model/reports/09-translation/tencent-hy-mt15.md) |
+| Tencent Hunyuan-MT | 7B + Chimera-7B（WMT25 冠军） | 💻 | 需查官方 | Google Translate / GPT-4.1 / Claude 4 | ✅ [hunyuan-mt](directions/model/reports/09-translation/hunyuan-mt.md) |
+| ByteDance Seed-X | 7B（28 语言） | 💻 | OpenMDW（较宽松） | Gemini-2.5 / GPT-4o | ✅ [bytedance-seed-x](directions/model/reports/09-translation/bytedance-seed-x.md) |
+| Unbabel Tower+ | 2B / 9B / 72B | 💻→🏢 | 待核（多 CC-BY-NC） | GPT-4o / Llama-3.3-70B | ✅ [unbabel-tower](directions/model/reports/09-translation/unbabel-tower.md) |
+| Meta NLLB-200 | 600M–54.5B（200+ 语言） | 📱→🏢 | CC-BY-NC 4.0（禁商用） | Google Translate（低资源语） | ✅ [nllb-200](directions/model/reports/09-translation/nllb-200.md) |
+| Google MADLAD-400 | 3B / 7.2B / 10.7B（400+ 语言） | 📱→💻 | Apache 2.0 | DeepL / Google Translate | ✅ [madlad-400](directions/model/reports/09-translation/madlad-400.md) |
+| Meta SeamlessM4T v2 | Large 2.3B（语音翻译） | 💻 | CC-BY-NC 4.0 | DeepL Voice / Google 实时翻译 | ✅ [seamlessm4t](directions/model/reports/09-translation/seamlessm4t.md) |
+| Helsinki-NLP Opus-MT | 数百语对小模型（数十–百 M，CPU） | 📱 | CC-BY 4.0 | Google Translate（单语对） | ✅ [opus-mt](directions/model/reports/09-translation/opus-mt.md) |
 
 ## 10 音乐 / 音频生成
 
@@ -152,7 +152,7 @@
 
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
-| ACE-Step 1.5 | 基础 2B DiT / XL 4B DiT + LM planner | 💻→🏢 | MIT | Suno v5 / Udio | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/10-music/ace-step.md) |
+| ACE-Step 1.5 | 基础 2B DiT / XL 4B DiT + LM planner | 💻→🏢 | MIT | Suno v5 / Udio | ✅ [ace-step](/Users/pengpeng/seo/directions/model/reports/10-music/ace-step.md) |
 
 ---
 
