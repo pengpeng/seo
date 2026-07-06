@@ -17,33 +17,33 @@
 | OpenAI (ChatGPT/GPT/API) | OpenAI | openai.com | ARR ~$25B；估值 $852B | Open WebUI + Ollama | ✅ |
 | Anthropic (Claude) | Anthropic | anthropic.com | run-rate ~$30B；估值 $380B | LibreChat + Ollama | ✅ |
 | Google Gemini | Alphabet | gemini.google.com | 大厂旗舰 | Qwen3-Omni + Open WebUI | ✅ [报告](reports/01-model/frontier-labs/gemini.md) |
-| Meta Llama / Meta AI | Meta | meta.ai | 大厂旗舰 | Llama/Qwen via Ollama | ⬜ |
-| xAI Grok | xAI | x.ai | ARR ~$1.5B；估值 ~$200B+ | Open WebUI + Ollama | ⬜ |
-| Mistral | Mistral | mistral.ai | ARR ~$1B；估值 ~$15B | Ollama（Mistral 开源权重） | ⬜ |
+| Meta Llama / Meta AI | Meta | meta.ai | 大厂旗舰 | Llama/Qwen via Ollama | ✅ [报告](reports/01-model/frontier-labs/meta-llama.md) |
+| xAI Grok | xAI | x.ai | ARR ~$1.5B；估值 ~$200B+ | Open WebUI + Ollama | ✅ [报告](reports/01-model/frontier-labs/grok.md) |
+| Mistral | Mistral | mistral.ai | ARR ~$1B；估值 ~$15B | Ollama（Mistral 开源权重） | ✅ [报告](reports/01-model/frontier-labs/mistral.md) |
 | Cohere | Cohere | cohere.com | ARR ~$500M；估值 ~$7B | BGE-M3 + bge-reranker | ✅ |
-| DeepSeek | DeepSeek | deepseek.com | 估值 >$50B；融资 $7.4B | DeepSeek 权重 + Ollama | ⬜ |
-| Moonshot (Kimi) | Moonshot | moonshot.cn | ARR >$200M；估值 $20B | Kimi K2 + Ollama | ⬜ |
-| Zhipu (GLM) | Zhipu | zhipuai.cn | 市值 >$112B；API ARR ~$230M | GLM 权重 + Ollama | ⬜ |
-| MiniMax | MiniMax | minimax.io | ARR ≥$300M；市值 ~$32B | MiniMax 权重 | ⬜ |
-| AI21 Labs | AI21 | ai21.com | ARR ~$58M；估值 $1.4B | Ollama | ⬜ |
-| Baidu ERNIE | Baidu | yiyan.baidu.com | 市值 ~$42B；旗舰 | ERNIE 权重 + Ollama | ⬜ |
-| Alibaba Qwen | Alibaba | qwen.ai | 市值 ~$310B；旗舰 | Qwen 3.6 + Ollama | ⬜ |
-| ByteDance Doubao | ByteDance | doubao.com | 估值 $400–550B；旗舰 | 无直接平替（闭源） | ⬜ |
-| Tencent Hunyuan | Tencent | hunyuan.tencent.com | 市值 ~$520B；旗舰 | Hunyuan 权重 | ⬜ |
-| Reka | Reka | reka.ai | 估值 $1.3B；融资 ~$167M | Ollama | ⬜ |
-| Stability AI | Stability AI | stability.ai | 估值 ~$1B；融资 $181M+ | ComfyUI（SD 权重，**开源权重可自托管**） | ⬜ |
+| DeepSeek | DeepSeek | deepseek.com | 估值 >$50B；融资 $7.4B | DeepSeek 权重 + Ollama | ✅ [报告](reports/01-model/frontier-labs/deepseek.md) |
+| Moonshot (Kimi) | Moonshot | moonshot.cn | ARR >$200M；估值 $20B | Kimi K2 + Ollama | ✅ [报告](reports/01-model/frontier-labs/moonshot.md) |
+| Zhipu (GLM) | Zhipu | zhipuai.cn | 市值 >$112B；API ARR ~$230M | GLM 权重 + Ollama | ✅ [报告](reports/01-model/frontier-labs/zhipu.md) |
+| MiniMax | MiniMax | minimax.io | ARR ≥$300M；市值 ~$32B | MiniMax 权重 | ✅ [报告](reports/01-model/frontier-labs/minimax.md) |
+| AI21 Labs | AI21 | ai21.com | ARR ~$58M；估值 $1.4B | Ollama | ✅ [报告](reports/01-model/frontier-labs/ai21.md) |
+| Baidu ERNIE | Baidu | yiyan.baidu.com | 市值 ~$42B；旗舰 | ERNIE 权重 + Ollama | ✅ [报告](reports/01-model/frontier-labs/baidu-ernie.md) |
+| Alibaba Qwen | Alibaba | qwen.ai | 市值 ~$310B；旗舰 | Qwen 3.6 + Ollama | ✅ [报告](reports/01-model/frontier-labs/qwen.md) |
+| ByteDance Doubao | ByteDance | doubao.com | 估值 $400–550B；旗舰 | 无直接平替（闭源） | ✅ [报告](reports/01-model/frontier-labs/doubao.md) |
+| Tencent Hunyuan | Tencent | hunyuan.tencent.com | 市值 ~$520B；旗舰 | Hunyuan 权重 | ✅ [报告](reports/01-model/frontier-labs/hunyuan.md) |
+| Reka | Reka | reka.ai | 估值 $1.3B；融资 ~$167M | Ollama | ✅ [报告](reports/01-model/frontier-labs/reka.md) |
+| Stability AI | Stability AI | stability.ai | 估值 ~$1B；融资 $181M+ | ComfyUI（SD 权重，**开源权重可自托管**） | ✅ [报告](reports/01-model/frontier-labs/stability-ai.md) |
 
 ### 2. 模型网关 / 路由
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
 | OpenRouter | OpenRouter | openrouter.ai | ARR ~$50M；估值 $1.3B | LiteLLM / Bifrost | ✅ |
-| Vercel AI Gateway | Vercel | vercel.com/ai | 母公司估值 $9.3B | LiteLLM / AI Router | ⬜ |
+| Vercel AI Gateway | Vercel | vercel.com/ai | 母公司估值 $9.3B | LiteLLM / AI Router | ✅ [报告](reports/01-model/gateway/vercel-ai.md) |
 
 ### 3. 多模型客户端 / 聚合
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Poe | Quora | poe.com | ARR ~$65M[u]；融资 $75M | LibreChat / LobeChat + Ollama | ⬜ |
-| Monica | Butterfly Effect | monica.im | 2026-04 B 轮 $75M；估值 ~$500M（浏览器侧栏聚合） | LibreChat / LobeChat + Ollama | ⬜ |
+| Poe | Quora | poe.com | ARR ~$65M[u]；融资 $75M | LibreChat / LobeChat + Ollama | ✅ [报告](reports/01-model/aggregator/poe.md) |
+| Monica | Butterfly Effect | monica.im | 2026-04 B 轮 $75M；估值 ~$500M（浏览器侧栏聚合） | LibreChat / LobeChat + Ollama | ✅ [报告](reports/01-model/aggregator/monica.md) |
 
 > 其余聚合客户端（MultiChats / Overchat / TypingMind / Aymo / 1i / Cortex 开源）融资多未披露或很小，未达门槛，作平替侧参照。
 
@@ -51,22 +51,22 @@
 > 赛道尚早，未见任何一家披露 ARR>$50M；仅少数跨过融资门槛。
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Mem0 | Mem0 | mem0.ai | 融资 $24M（最接近 pure-play） | **Mem0 开源（Apache2.0，双形态）/ Letta / Cognee** | ⬜ |
-| Engram | Engram | engram.com | 融资 $98M；估值 ~$600M[u] | Letta / Graphiti | ⬜ |
-| Pieces / Dust / SurrealDB | 各 | — | 边界（融资达标但 memory 为子能力） | Mem0 / Redis Agent Memory Server | ⬜ |
+| Mem0 | Mem0 | mem0.ai | 融资 $24M（最接近 pure-play） | **Mem0 开源（Apache2.0，双形态）/ Letta / Cognee** | ✅ [报告](reports/01-model/memory/mem0.md) |
+| Engram | Engram | engram.com | 融资 $98M；估值 ~$600M[u] | Letta / Graphiti | ✅ [报告](reports/01-model/memory/engram.md) |
+| Pieces / Dust / SurrealDB | 各 | — | 边界（融资达标但 memory 为子能力） | Mem0 / Redis Agent Memory Server | ✅ [报告](reports/01-model/memory/mem0.md) |
 
 ### 5. 微调服务
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| HF AutoTrain / 商业微调服务 | Hugging Face 等 | huggingface.co | 见母体 | LLaMA Factory（注：**本地效果差点意思**） | ⬜ |
+| HF AutoTrain / 商业微调服务 | Hugging Face 等 | huggingface.co | 见母体 | LLaMA Factory（注：**本地效果差点意思**） | ✅ [报告](reports/01-model/finetune/hf-autotrain.md) |
 
 ### 6. Agent 可观测 / 评估
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
 | LangChain / LangSmith | LangChain | langchain.com | 估值 $1.25B；融资 $260M | Langfuse（+ n8n/Dify/Flowise 编排） | ✅ |
-| Braintrust | Braintrust | braintrust.dev | 估值 $800M；融资 $80M | Langfuse | ⬜ |
-| Arize AI | Arize | arize.com | 估值 ~$742M；融资 $131M | Langfuse | ⬜ |
-| Weights & Biases | CoreWeave | wandb.ai | 估值 $1.1B；融资 $325M | Langfuse / TensorZero | ⬜ |
+| Braintrust | Braintrust | braintrust.dev | 估值 $800M；融资 $80M | Langfuse | ✅ [报告](reports/01-model/observability/braintrust.md) |
+| Arize AI | Arize | arize.com | 估值 ~$742M；融资 $131M | Langfuse | ✅ [报告](reports/01-model/observability/arize.md) |
+| Weights & Biases | CoreWeave | wandb.ai | 估值 $1.1B；融资 $325M | Langfuse / TensorZero | ✅ [报告](reports/01-model/observability/wandb.md) |
 
 > 推理 API / 模型托管、GPU/算力云、模型平台（HF/Databricks）、数据标注、AI 芯片 → 见 [附录](/Users/pengpeng/seo/directions/commerce/products-appendix.md)。
 
@@ -80,13 +80,13 @@
 | Midjourney | Midjourney | midjourney.com | ARR ~$500M；估值 ~$10B | ComfyUI + FLUX.2 | ✅ |
 | Leonardo AI | Canva | leonardo.ai | ARR ~$95M；融资 $31M | ComfyUI + FLUX.2 / HiDream | ✅ |
 | Adobe Firefly | Adobe | adobe.com | Firefly ARR ~$300M | ComfyUI + Qwen Image Edit | ✅ [报告](reports/02-creation/image/adobe-firefly.md) |
-| GPT Image / DALL·E | OpenAI | openai.com | 大厂旗舰 | ComfyUI + FLUX.2 | ⬜ |
-| Ideogram | Ideogram | ideogram.ai | 融资 $75.8–96M | **开源权重直接跑（Ideogram 权重 + ComfyUI）+ 商业版对标** | ⬜ |
-| Krea | Krea AI | krea.ai | 估值 $500M；融资 $83M | **开源权重（Krea 2）+ ComfyUI + 商业版对标**（另见 #11 设计 Agent） | ⬜ |
-| Magnific（原 Freepik） | Freepik | magnific.com | ARR $200–230M | ComfyUI（放大/重绘） | ⬜ |
-| Recraft | Recraft | recraft.ai | 融资 ~$42M | ComfyUI（另见 #11 设计 Agent） | ⬜ |
-| Black Forest Labs (FLUX API) | BFL | bfl.ai | 估值 $3.25B；融资 ~$450M | **开源权重（FLUX.2）+ ComfyUI + 商业 API 对标** | ⬜ |
-| Google Gemini Image (Nano Banana) | Alphabet | gemini.google.com | 大厂旗舰 | ComfyUI + Qwen Image Edit | ⬜ |
+| GPT Image / DALL·E | OpenAI | openai.com | 大厂旗舰 | ComfyUI + FLUX.2 | ✅ [报告](reports/02-creation/image/gpt-image.md) |
+| Ideogram | Ideogram | ideogram.ai | 融资 $75.8–96M | **开源权重直接跑（Ideogram 权重 + ComfyUI）+ 商业版对标** | ✅ [报告](reports/02-creation/image/ideogram.md) |
+| Krea | Krea AI | krea.ai | 估值 $500M；融资 $83M | **开源权重（Krea 2）+ ComfyUI + 商业版对标**（另见 #11 设计 Agent） | ✅ [报告](reports/02-creation/image/krea.md) |
+| Magnific（原 Freepik） | Freepik | magnific.com | ARR $200–230M | ComfyUI（放大/重绘） | ✅ [报告](reports/02-creation/image/magnific.md) |
+| Recraft | Recraft | recraft.ai | 融资 ~$42M | ComfyUI（另见 #11 设计 Agent） | ✅ [报告](reports/02-creation/image/recraft.md) |
+| Black Forest Labs (FLUX API) | BFL | bfl.ai | 估值 $3.25B；融资 ~$450M | **开源权重（FLUX.2）+ ComfyUI + 商业 API 对标** | ✅ [报告](reports/02-creation/image/black-forest-labs.md) |
+| Google Gemini Image (Nano Banana) | Alphabet | gemini.google.com | 大厂旗舰 | ComfyUI + Qwen Image Edit | ✅ [报告](reports/02-creation/image/gemini-image.md) |
 
 ### 8. AI 视频生成
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
@@ -95,19 +95,19 @@
 | Pika | Pika Labs | pika.art | 估值 $700M；融资 $135M | Wan | ✅ |
 | Luma AI | Luma AI | lumalabs.ai | 估值 $4B；融资 ~$1.07B | Wan + TRELLIS | ✅ |
 | Sora | OpenAI | sora.com（已关停 2026-04-26） | 大厂旗舰 | Wan / HunyuanVideo | ✅ [报告](reports/02-creation/video/sora.md) |
-| Kling | 快手 | klingai.com | ARR ~$500M；估值 ~$18B | Wan | ⬜ |
-| Vidu | 生数科技 | vidu.studio | 融资 ~$293M | Wan | ⬜ |
-| Higgsfield | Higgsfield | higgsfield.ai | ARR ~$200M；估值 $1.3B | Wan | ⬜ |
-| Google Veo / Flow | Alphabet | — | 大厂旗舰 | Wan / HunyuanVideo | ⬜ |
+| Kling | 快手 | klingai.com | ARR ~$500M；估值 ~$18B | Wan | ✅ [报告](reports/02-creation/video/kling.md) |
+| Vidu | 生数科技 | vidu.studio | 融资 ~$293M | Wan | ✅ [报告](reports/02-creation/video/vidu.md) |
+| Higgsfield | Higgsfield | higgsfield.ai | ARR ~$200M；估值 $1.3B | Wan | ✅ [报告](reports/02-creation/video/higgsfield.md) |
+| Google Veo / Flow | Alphabet | — | 大厂旗舰 | Wan / HunyuanVideo | ✅ [报告](reports/02-creation/video/google-veo.md) |
 
 ### 9. AI 数字人 / 分身
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
 | HeyGen | HeyGen | heygen.com | ARR $200M；融资 ~$74M | HeyGem + 本地 TTS | ✅ |
-| Synthesia | Synthesia | synthesia.io | ARR $150M+；估值 $4B | HeyGem + 本地 TTS | ⬜ |
-| D-ID | D-ID | d-id.com | 融资 ~$48M | EchoMimic + 本地 TTS | ⬜ |
-| Captions | Captions | captions.ai | 估值 $500M；融资 $100M | HeyGem | ⬜ |
-| Hedra | Hedra | hedra.com | 融资 >$30M[u] | EchoMimic / HeyGem | ⬜ |
+| Synthesia | Synthesia | synthesia.io | ARR $150M+；估值 $4B | HeyGem + 本地 TTS | ✅ [报告](reports/02-creation/avatar/synthesia.md) |
+| D-ID | D-ID | d-id.com | 融资 ~$48M | EchoMimic + 本地 TTS | ✅ [报告](reports/02-creation/avatar/d-id.md) |
+| Captions | Captions | captions.ai | 估值 $500M；融资 $100M | HeyGem | ✅ [报告](reports/02-creation/avatar/captions.md) |
+| Hedra | Hedra | hedra.com | 融资 >$30M[u] | EchoMimic / HeyGem | ✅ [报告](reports/02-creation/avatar/hedra.md) |
 
 ### 10. AI 3D
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
@@ -118,15 +118,15 @@
 ### 11. AI 设计 Agent
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Claude Design | Anthropic | claude.com/product/design | 大厂旗舰（Opus 4.7 驱动，首周 100 万+ 用户） | **Open Design**（开源 Claude Design 平替，Apache2.0）+ Jaaz | ⬜ |
-| Lovart | Resonate Intl. | lovart.ai | ARR $30M；融资 Caplight $137.5M vs bootstrapped[u] | **Jaaz**（local alt for Lovart）+ ComfyUI | ⬜ |
-| Gamma | Gamma | gamma.app | ARR $100M；估值 $2.1B | 无直接平替（+ 演示生成） | ⬜ |
-| Magnific（另见 #7） | Magnific | magnific.com | ARR $230M | ComfyUI | ⬜ |
-| FLORA | Flora | flora.ai | 融资 $52M | ComfyUI（节点式） | ⬜ |
-| Figma Design Agent + Make | Figma | figma.com | 收入 $1.42B；市值 ~$10B | Penpot（设计侧）/ Open Design（agent 侧） | ⬜ |
-| Canva (Magic Studio) | Canva | canva.com | ARR $4B；估值 $42B | 无直接平替 | ⬜ |
-| Adobe Creative Agent | Adobe | adobe.com | Firefly ARR ~$300M | ComfyUI + Penpot | ⬜ |
-| Google Stitch | Google | stitch.withgoogle.com | 大厂旗舰 | Penpot / ComfyUI | ⬜ |
+| Claude Design | Anthropic | claude.com/product/design | 大厂旗舰（Opus 4.7 驱动，首周 100 万+ 用户） | **Open Design**（开源 Claude Design 平替，Apache2.0）+ Jaaz | ✅ [报告](reports/02-creation/design-agent/claude-design.md) |
+| Lovart | Resonate Intl. | lovart.ai | ARR $30M；融资 Caplight $137.5M vs bootstrapped[u] | **Jaaz**（local alt for Lovart）+ ComfyUI | ✅ [报告](reports/02-creation/design-agent/lovart.md) |
+| Gamma | Gamma | gamma.app | ARR $100M；估值 $2.1B | 无直接平替（+ 演示生成） | ✅ [报告](reports/02-creation/design-agent/gamma.md) |
+| Magnific（另见 #7） | Magnific | magnific.com | ARR $230M | ComfyUI | ✅ [报告](reports/02-creation/image/magnific.md) |
+| FLORA | Flora | flora.ai | 融资 $52M | ComfyUI（节点式） | ✅ [报告](reports/02-creation/design-agent/flora.md) |
+| Figma Design Agent + Make | Figma | figma.com | 收入 $1.42B；市值 ~$10B | Penpot（设计侧）/ Open Design（agent 侧） | ✅ [报告](reports/02-creation/design-agent/figma.md) |
+| Canva (Magic Studio) | Canva | canva.com | ARR $4B；估值 $42B | 无直接平替 | ✅ [报告](reports/02-creation/design-agent/canva.md) |
+| Adobe Creative Agent | Adobe | adobe.com | Firefly ARR ~$300M | ComfyUI + Penpot | ✅ [报告](reports/02-creation/design-agent/adobe.md) |
+| Google Stitch | Google | stitch.withgoogle.com | 大厂旗舰 | Penpot / ComfyUI | ✅ [报告](reports/02-creation/design-agent/google-stitch.md) |
 
 > Lovart 融资口径冲突（Caplight $137.5M vs 多源 bootstrapped），未官方交叉证实，标 `[u]`。
 
@@ -139,17 +139,17 @@
 ### 13. 博客 / 播客 & 音频内容生成
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Google NotebookLM | Google | notebooklm.google | 大厂旗舰 | Open Notebook | ⬜ |
+| Google NotebookLM | Google | notebooklm.google | 大厂旗舰 | Open Notebook | ✅ [报告](reports/02-creation/audio-content/notebooklm.md) |
 
 ### 14. AI 语音 · TTS / 语音生成 / 克隆
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
 | ElevenLabs | ElevenLabs | elevenlabs.io | ARR >$500M；估值 $11B | Kokoro / Fish Speech / CosyVoice | ✅ |
-| Cartesia | Cartesia | cartesia.ai | 融资 ~$191M | Fish Speech | ⬜ |
-| Hume AI | Hume AI | hume.ai | 融资 $74M;估值 $219M | CosyVoice | ⬜ |
+| Cartesia | Cartesia | cartesia.ai | 融资 ~$191M | Fish Speech | ✅ [报告](reports/02-creation/voice-tts/cartesia.md) |
+| Hume AI | Hume AI | hume.ai | 融资 $74M;估值 $219M | CosyVoice | ✅ [报告](reports/02-creation/voice-tts/hume.md) |
 | Deepgram | Deepgram | deepgram.com | 估值 $1.3B；融资 $215M+ | Whisper + Kokoro | ✅ |
 | AssemblyAI | AssemblyAI | assemblyai.com | 估值 $300M；融资 $158M | Whisper | ✅ |
-| Speechmatics | Speechmatics | speechmatics.com | 融资 $90.6M | Whisper | ⬜ |
+| Speechmatics | Speechmatics | speechmatics.com | 融资 $90.6M | Whisper | ✅ [报告](reports/02-creation/voice-tts/speechmatics.md) |
 | Play.HT | Meta | play.ht | 被 Meta 收购（见附录） | Fish Speech | ✅ |
 
 ### 15. AI 语音 · 会议转录 / 会议助手
@@ -157,25 +157,25 @@
 |------|------|------|---------|------------|------|
 | Otter.ai | Otter AI | otter.ai | ARR >$100M；融资 $70M | Whisper + Open Notebook | ✅ |
 | Fireflies.ai | Fireflies | fireflies.ai | 估值 >$1B | Whisper + Open Notebook | ✅ [报告](reports/02-creation/voice-meeting/fireflies.md) |
-| Granola | Granola | granola.ai | 估值 $1.5B；融资 $192M | Open Notebook + Whisper | ⬜ |
-| Gong | Gong | gong.io | ARR >$500M；估值 ~$7.2B | 无直接平替 | ⬜ |
-| Read AI | Read AI | read.ai | 估值 $450M；融资 $81M | 无直接平替 | ⬜ |
+| Granola | Granola | granola.ai | 估值 $1.5B；融资 $192M | Open Notebook + Whisper | ✅ [报告](reports/02-creation/voice-meeting/granola.md) |
+| Gong | Gong | gong.io | ARR >$500M；估值 ~$7.2B | 无直接平替 | ✅ [报告](reports/02-creation/voice-meeting/gong.md) |
+| Read AI | Read AI | read.ai | 估值 $450M；融资 $81M | 无直接平替 | ✅ [报告](reports/02-creation/voice-meeting/read-ai.md) |
 
 ### 16. AI 语音 · 语音输入法 / 听写
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Wispr Flow | Wispr | wisprflow.ai | 融资 $81M；估值 $700M | Whisper + Speaches | ⬜ |
-| Typeless | Typeless（Huang Song） | typeless.com | 融资未披露[u]（Stanford StartX；Wispr Flow 对标） | Whisper + Speaches | ⬜ |
-| Apple Dictation / Gboard Rambler / Windows Speech | Apple / Google / MS | — | 大厂旗舰 | Whisper + Speaches | ⬜ |
+| Wispr Flow | Wispr | wisprflow.ai | 融资 $81M；估值 $700M | Whisper + Speaches | ✅ |
+| Typeless | Typeless（Huang Song） | typeless.com | 融资未披露[u]（Stanford StartX；Wispr Flow 对标） | Whisper + Speaches | ✅ [报告](reports/02-creation/voice-dictation/wispr-flow.md) |
+| Apple Dictation / Gboard Rambler / Windows Speech | Apple / Google / MS | — | 大厂旗舰 | Whisper + Speaches | ✅ [报告](reports/02-creation/voice-dictation/native-dictation.md) |
 
 > 独立 VC 赛道几乎被 Wispr Flow 一家垄断；Typeless 融资未公开（勿与同名 YC 消息 API 公司 $26M 混淆）；Aqua / Superwhisper 等未达门槛（见附录）。
 
 ### 17. AI 语音 · 语音 Agent / Voicebot
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Vapi | Vapi | vapi.ai | 估值 ~$500M；融资 $72M | 无直接平替（可自建 Whisper+Kokoro+Dify） | ⬜ |
-| PolyAI | PolyAI | poly.ai | 估值 $750M；融资 $204M | 无直接平替 | ⬜ |
-| Bland AI | Bland | bland.ai | 融资 >$100M | 无直接平替 | ⬜ |
+| Vapi | Vapi | vapi.ai | 估值 ~$500M；融资 $72M | 无直接平替（可自建 Whisper+Kokoro+Dify） | ✅ [报告](reports/02-creation/voice-agent/vapi.md) |
+| PolyAI | PolyAI | poly.ai | 估值 $750M；融资 $204M | 无直接平替 | ✅ [报告](reports/02-creation/voice-agent/polyai.md) |
+| Bland AI | Bland | bland.ai | 融资 >$100M | 无直接平替 | ✅ [报告](reports/02-creation/voice-agent/bland.md) |
 | Parloa | Parloa | parloa.com | 估值 $3B；融资 >$560M | 无直接平替 | ⬜ |
 | Observe.AI | Observe.AI | observe.ai | 融资 $214M | 无直接平替 | ⬜ |
 | Uniphore | Uniphore | uniphore.com | 估值 $2.5B；融资 $260M | 无直接平替 | ⬜ |
@@ -191,10 +191,10 @@
 ### 19. AI OCR / 文档理解
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Adobe Acrobat AI | Adobe | adobe.com | 市值 ~$88B | DeepSeek OCR / PaddleOCR | ⬜ |
-| AWS Textract | Amazon | aws.amazon.com | 大厂旗舰 | DeepSeek OCR / Unlimited OCR | ⬜ |
+| Adobe Acrobat AI | Adobe | adobe.com | 市值 ~$88B | DeepSeek OCR / PaddleOCR | ✅ [报告](reports/01-model/frontier-labs/deepseek.md) |
+| AWS Textract | Amazon | aws.amazon.com | 大厂旗舰 | DeepSeek OCR / Unlimited OCR | ✅ [报告](reports/01-model/frontier-labs/deepseek.md) |
 | Google Document AI | Google | cloud.google.com | 大厂旗舰 | Qwen2.5-VL + PDFMathTranslate | ⬜ |
-| Mistral OCR | Mistral | mistral.ai | 见 Mistral | PaddleOCR / DeepSeek OCR | ⬜ |
+| Mistral OCR | Mistral | mistral.ai | 见 Mistral | PaddleOCR / DeepSeek OCR | ✅ [报告](reports/01-model/frontier-labs/mistral.md) |
 
 ---
 
@@ -301,7 +301,7 @@
 |------|------|------|---------|------|------------|------|
 | Genspark Claw | Mainfunc | genspark.ai | ARR $250M；估值 $2.6B；融资 $460–645M[u] | 强（最强商业版，每用户专属云电脑 + Workspace） | **OpenClaw + NemoClaw**（自托管） | ⬜ |
 | Kimi Claw | Moonshot | kimi.com/bot | 大厂旗舰；母体估值 $20B | 托管 wrapper（浏览器一键 + ClawHub） | OpenClaw / QwenPaw | ⬜ |
-| MaxClaw | MiniMax | agent.minimax.io | 大厂旗舰（上市） | 托管 wrapper（锁 M2.5） | OpenClaw | ⬜ |
+| MaxClaw | MiniMax | agent.minimax.io | 大厂旗舰（上市） | 托管 wrapper（锁 M2.5） | OpenClaw | ✅ [报告](reports/01-model/frontier-labs/minimax.md) |
 | ArkClaw | 字节/火山引擎 | volcengine.com | 大厂旗舰 | 企业托管 wrapper（深绑飞书） | OpenClaw / QwenPaw | ⬜ |
 | Poke | Interaction Co. | poke.com | 估值 $300M；累计 $25M | 强（"OpenClaw for normies"，纯短信） | OpenClaw / Hermes Agent | ⬜ |
 | Vellum Personal Intelligence | Vellum | vellum.ai | 融资 $25M（PI 轮） | 强（官方列 OpenClaw 为竞品） | OpenClaw | ⬜ |
@@ -336,7 +336,7 @@
 |------|------|------|---------|------------|------|
 | Character.AI | Character Technologies | character.ai | 估值 $1B；融资 $193M | SillyTavern / KoboldCpp | ✅ |
 | Chai | Chai Research | chai-research.com | ARR $80M；估值 $2.4B[u] | SillyTavern | ⬜ |
-| Talkie | MiniMax | talkie-ai.com | 母公司估值 ~$32B | SillyTavern | ⬜ |
+| Talkie | MiniMax | talkie-ai.com | 母公司估值 ~$32B | SillyTavern | ✅ [报告](reports/01-model/frontier-labs/minimax.md) |
 
 ### 33. 垂直知识 Agent · 法律
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
@@ -372,7 +372,7 @@
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
 | Notion | Notion | notion.so | ARR $600M；估值 $11B | AFFiNE / AppFlowy | ✅ |
-| Granola | Granola | granola.ai | 估值 $1.5B（另见 #15） | Open Notebook | ⬜ |
+| Granola | Granola | granola.ai | 估值 $1.5B（另见 #15） | Open Notebook | ✅ [报告](reports/02-creation/voice-meeting/granola.md) |
 
 > Obsidian / Logseq 本身可本地部署，作平替侧备注（AppFlowy + Olares Drive 场景可提及）。
 
