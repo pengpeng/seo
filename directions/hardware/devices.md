@@ -22,17 +22,17 @@
 
 | 产品 | OEM | 形态 | 场景 | 产品报告 |
 |------|-----|------|------|----------|
-| EVO-X2 (AI) | GMKtec | mini PC | 旗舰 Strix Halo（`gmktec evo-x2` 4,400/mo）| ⬜ 待做 |
-| Framework Desktop | Framework | 4.5L 桌面 | 开放/Linux 一等公民，叙事最契合 | ⬜ 待做 |
-| GTR9 Pro | Beelink | mini PC | homelab / model-serving | ⬜ 待做 |
-| MS-S1 Max | Minisforum | SFF AI PC | 大内存 + 扩展 | ⬜ 待做 |
-| Z2 Mini G1a | HP | 迷你工作站 | 商用紧凑工作站 | ⬜ 待做 |
-| ZBook Ultra G1a | HP | 移动工作站（笔记本）| 官方列 Ubuntu 24.04，承接 `strix halo laptop` KD9 | ⬜ 待做 |
-| ROG Flow Z13 (2025) | ASUS | 二合一平板 | 唯一平板形态 | ⬜ 待做 |
-| AI Workstation 300 | Corsair | SFF | 桌面 AI 工作站 | ⬜ 待做 |
-| AI BOX-A395 | ASRock | mini PC | AI BOX 整机 | ⬜ 待做 |
-| Magnus EAMAX | Zotac | mini PC | 迷你整机 | ⬜ 待做 |
-| NEX395 | Aoostar | mini PC | 迷你整机 | ⬜ 待做 |
+| EVO-X2 (AI) | GMKtec | mini PC | 旗舰 Strix Halo（`gmktec evo-x2` 4,400/mo）| ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/strix-halo/gmktec.md) |
+| Framework Desktop | Framework | 4.5L 桌面 | 开放/Linux 一等公民，叙事最契合 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/strix-halo/framework.md) |
+| GTR9 Pro | Beelink | mini PC | homelab / model-serving | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/strix-halo/beelink.md) |
+| MS-S1 Max | Minisforum | SFF AI PC | 大内存 + 扩展 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/strix-halo/minisforum.md) |
+| Z2 Mini G1a | HP | 迷你工作站 | 商用紧凑工作站 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/strix-halo/hp-strix-halo.md) |
+| ZBook Ultra G1a | HP | 移动工作站（笔记本）| 官方列 Ubuntu 24.04，承接 `strix halo laptop` KD9 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/strix-halo/hp-strix-halo.md) |
+| ROG Flow Z13 (2025) | ASUS | 二合一平板 | 唯一平板形态 | ✅ [asus-rog-laptops](reports/02-5090-laptops/asus-rog-laptops.md)（简要）|
+| AI Workstation 300 | Corsair | SFF | 桌面 AI 工作站 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/05-workstation/corsair-ai.md) |
+| AI BOX-A395 | ASRock | mini PC | AI BOX 整机 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/strix-halo/asrock.md) |
+| Magnus EAMAX | Zotac | mini PC | 迷你整机 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/strix-halo/zotac.md) |
+| NEX395 | Aoostar | mini PC | 迷你整机 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/strix-halo/aoostar.md) |
 
 > 其余 SKU（Sapphire、NIMO、GEEKOM A9 Mega、PELADN YO1/BOSGAME M5、及中国厂商 LCFC/Linglong 等）见 research 第二节。最大 SEO 机会：`strix halo laptop`（590/mo，**KD9**）、`mini pc linux`（320/mo，**KD8**）。
 
@@ -43,13 +43,13 @@
 | 产品 | OEM | 价格带(US) | 场景 | 产品报告 |
 |------|-----|-----------|------|----------|
 | DGX Spark Founders Edition | NVIDIA | $4,699 | 品牌词最大（`dgx spark alternative` **KD12**）| ✅ [nvidia-dgx](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/gb10/nvidia-dgx.md) |
-| Ascent GX10 | ASUS | ~$3,088–4,150 | 唯一前置电源键/铝壳 | ⬜ 待做 |
-| Pro Max with GB10 | Dell | ~$3,699 | 企业保修线 | ⬜ 待做 |
-| EdgeXpert MS-C931 | MSI | ~$2,999–3,999 | 最便宜入门 | ⬜ 待做 |
-| Veriton GN100 | Acer | $2,999 | 散热最佳 | ⬜ 待做 |
-| AI TOP ATOM | Gigabyte | 随地区 | 固件更新较慢 | ⬜ 待做 |
-| ZGX Nano AI Station G1n | HP | ~$3,000–4,000 | 商用线 | ⬜ 待做 |
-| ThinkStation PGX | Lenovo | 随地区 | 商用线 | ⬜ 待做 |
+| Ascent GX10 | ASUS | ~$3,088–4,150 | 唯一前置电源键/铝壳 | ✅ [asus-gb10](reports/01-ai-soc/gb10/asus-gb10.md) |
+| Pro Max with GB10 | Dell | ~$3,699 | 企业保修线 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/dell-alienware.md) |
+| EdgeXpert MS-C931 | MSI | ~$2,999–3,999 | 最便宜入门 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/gb10/msi-gb10.md) |
+| Veriton GN100 | Acer | $2,999 | 散热最佳 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/gb10/acer-gb10.md) |
+| AI TOP ATOM | Gigabyte | 随地区 | 固件更新较慢 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/gigabyte.md) |
+| ZGX Nano AI Station G1n | HP | ~$3,000–4,000 | 商用线 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/strix-halo/hp-strix-halo.md)（ZGX Nano 收录于 Strix Halo 报告）|
+| ThinkStation PGX | Lenovo | 随地区 | 商用线 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/lenovo-legion.md) |
 
 ### 3. Apple Silicon M 系（Mac Studio / Mac mini）→ [research/apple-m-series.md](/Users/pengpeng/seo/directions/hardware/research/01-ai-soc/apple-m-series.md)
 
@@ -73,19 +73,19 @@
 
 | 产品 | OEM | CPU（常见）| 最高内存 | 价格带(US) | 产品报告 |
 |------|-----|-----------|----------|-----------|----------|
-| ROG Strix SCAR 16 | ASUS | Core Ultra 9 275HX | 64GB | ~$4,299–5,630 | ⬜ 待做 |
-| ROG Strix SCAR 18 | ASUS | Core Ultra 9 275HX | 64GB | ~$4,300+ | ⬜ 待做 |
-| ROG Zephyrus G16 | ASUS | Core Ultra 9 285H | 64GB | 较薄轻旗舰 | ⬜ 待做 |
-| Razer Blade 16 (2026) | Razer | Core Ultra 9 / Ryzen AI 9 | 64GB | ~$4,900 | ⬜ 待做 |
-| Razer Blade 18 (2026) | Razer | Core Ultra 9 290HX Plus | 128GB DDR5-6400 | 最高 ~$6,999 | ⬜ 待做 |
-| Legion Pro 7i Gen10 | Lenovo | Core Ultra 9 275HX | 64GB | ~$3,999 起 | ⬜ 待做 |
-| Legion 9i 18 (2026) | Lenovo | Core Ultra 9 290HX Plus | 最高 192GB | ~$4,000–5,200 | ⬜ 待做 |
-| Titan 18 HX AI | MSI | Core Ultra 9 275HX | 96–128GB | ~$5,000+（4TB 起）| ⬜ 待做 |
-| Raider 18 HX AI | MSI | Core Ultra 9 275HX | 64GB | 高端 | ⬜ 待做 |
-| Stealth 18 HX AI | MSI | Core Ultra 9 275HX | 64GB | ~$4,399 | ⬜ 待做 |
-| Omen Max 16 | HP | Core Ultra 9 275HX | 64GB | 相对亲民 | ⬜ 待做 |
-| Area-51 (18) | Alienware/Dell | Core Ultra 9 290HX Plus | 64GB | ~$3,600 起 | ⬜ 待做 |
-| Aorus Master 16/18 | Gigabyte | Core Ultra 9 275HX | 64GB | 高端 | ⬜ 待做 |
+| ROG Strix SCAR 16 | ASUS | Core Ultra 9 275HX | 64GB | ~$4,299–5,630 | ✅ [asus-rog-laptops](reports/02-5090-laptops/asus-rog-laptops.md) |
+| ROG Strix SCAR 18 | ASUS | Core Ultra 9 275HX | 64GB | ~$4,300+ | ✅ [asus-rog-laptops](reports/02-5090-laptops/asus-rog-laptops.md) |
+| ROG Zephyrus G16 | ASUS | Core Ultra 9 285H | 64GB | 较薄轻旗舰 | ✅ [asus-rog-laptops](reports/02-5090-laptops/asus-rog-laptops.md) |
+| Razer Blade 16 (2026) | Razer | Core Ultra 9 386H（Panther Lake） | 64GB LPDDR5X-9600（焊死） | $4,899（RTX 5090） | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/razer.md) |
+| Razer Blade 18 (2026) | Razer | Core Ultra 9 290HX Plus（Arrow Lake Refresh） | 32–128GB DDR5-6400 | $5,130–$6,999（RTX 5090） | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/razer.md) |
+| Legion Pro 7i Gen10 | Lenovo | Core Ultra 9 275HX | 64GB | ~$3,999 起 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/lenovo-legion.md) |
+| Legion 9i 18 (2026) | Lenovo | Core Ultra 9 290HX Plus | 最高 192GB | ~$4,000–5,200 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/lenovo-legion.md) |
+| Titan 18 HX AI | MSI | Core Ultra 9 275HX | 96–128GB | ~$5,000+（4TB 起）| ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/msi.md) |
+| Raider 18 HX AI | MSI | Core Ultra 9 275HX | 64GB | 高端 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/msi.md) |
+| Stealth 18 HX AI | MSI | Core Ultra 9 275HX | 64GB | ~$4,399 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/msi.md) |
+| Omen Max 16 | HP | Core Ultra 9 275HX | 64GB | 相对亲民 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/hp-omen.md) |
+| Area-51 (18) | Alienware/Dell | Core Ultra 9 290HX Plus | 64GB | ~$3,600 起 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/dell-alienware.md) |
+| Aorus Master 16/18 | Gigabyte | Core Ultra 9 275HX | 64GB | 高端 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/gigabyte.md) |
 
 > 全系 5090 Mobile = 24GB GDDR7、175W TGP 档。角度：`rtx 5090 laptop llm`、`<model> vs olares one`、"游戏本 vs 无头私有 AI 盒子"。
 
@@ -97,8 +97,8 @@ ROG NUC 是把"5090/5080 Mobile + Core Ultra HX + 大内存"塞进 <3L 迷你盒
 
 | 产品 | CPU | GPU | 最高内存 | 体积/价格 | 与 Olares One 对位 | 产品报告 |
 |------|-----|-----|----------|-----------|-------------------|----------|
-| ROG NUC (2025) NUC15JNK | Core Ultra 9 275HX | 最高 RTX 5080 Laptop | 96GB DDR5-6400 | <3L / ~$3,199 | **CPU、内存完全同款**（GPU 差一档）| ⬜ 待做 |
-| ROG NUC 16 (2026) | Core Ultra 9 290HX Plus | 最高 RTX 5090 Laptop 24GB | 待核 | >$4,000 | **GPU 完全同款**（CPU 更新一代）| ⬜ 待做 |
+| ROG NUC (2025) NUC15JNK | Core Ultra 9 275HX | 最高 RTX 5080 Laptop 16GB | 96GB DDR5-6400 | <3L / $2,799 起（5080 顶配 ~$4,399）| **CPU、内存完全同款**（GPU 差一档）| ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/03-rog-nuc/rog-nuc.md) |
+| ROG NUC 16 Edition 20 (2026) | Core Ultra 9 290HX Plus | RTX 5090 Laptop 24GB GDDR7 | 最高 128GB DDR5-6400 | <3L / $5,999（Edition 20）| **GPU 完全同款**（CPU 更新一代）| ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/03-rog-nuc/rog-nuc.md) |
 
 > 两代合起来正好从两个维度贴住 Olares One（2025 版对 CPU/内存，2026 版对 GPU）。核 ROG NUC 顶配 GPU/内存以官网为准 [unverified]。
 
@@ -127,13 +127,13 @@ ROG NUC 是把"5090/5080 Mobile + Core Ultra HX + 大内存"塞进 <3L 迷你盒
 
 | 型号 | OEM | 说明 | 产品报告 |
 |------|-----|------|----------|
-| Thelio Mira Premium / Elite | System76 | Linux 工作站（Ryzen 9 9950X + RTX 5070/5070 Ti），Pop!_OS 原生 | ⬜ 待做 |
-| Thelio Prime | System76 | SFF Linux 工作站（可选 RTX 50 系）| ⬜ 待做 |
-| Z2 Mini G1a | HP | Strix Halo 迷你工作站（亦见组一）| ⬜ 待做 |
-| Z4 / Z6 / Z8 Fury G5（塔式）| HP | 专业塔式工作站（大显存专业卡）| ⬜ 待做 |
-| ThinkStation P3 / P5 / P7 / PX | Lenovo | 专业塔式/机架工作站 | ⬜ 待做 |
-| Precision 3000 / 5000 / 7000（塔式/移动）| Dell | 专业工作站线 | ⬜ 待做 |
-| ProArt Station | ASUS | 创作者工作站 | ⬜ 待做 |
+| Thelio Mira Premium / Elite | System76 | Linux 工作站（Ryzen 9 9950X + RTX 5070/5070 Ti），Pop!_OS 原生 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/05-workstation/system76.md) |
+| Thelio Prime | System76 | SFF Linux 工作站（可选 RTX 50 系）| ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/05-workstation/system76.md) |
+| Z2 Mini G1a | HP | Strix Halo 迷你工作站（亦见组一）| ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/strix-halo/hp-strix-halo.md) |
+| Z4 / Z6 / Z8 Fury G5（塔式）| HP | 专业塔式工作站（大显存专业卡）| ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/05-workstation/hp-workstation.md) |
+| ThinkStation P3 / P5 / P7 / PX | Lenovo | 专业塔式/机架工作站 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/05-workstation/lenovo-thinkstation.md) |
+| Precision 3000 / 5000 / 7000（塔式/移动）| Dell | 专业工作站线 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/05-workstation/dell-precision.md) |
+| ProArt Station | ASUS | 创作者工作站 | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/05-workstation/asus-proart.md) |
 
 > 游戏本/掌机（Ally X / Legion Go / MSI Claw 等）不是目标场景，不列入。
 
@@ -149,17 +149,17 @@ ROG NUC 是把"5090/5080 Mobile + Core Ultra HX + 大内存"塞进 <3L 迷你盒
 | NASync DXP4800 Plus | UGREEN | Pentium Gold 8505（UHD）| 无 | 无 | ~$599–700 | [DXP4800 Plus](https://nas.ugreen.com/products/ugreen-nasync-dxp4800-plus-nas-storage) | ✅ [ugreen-nas](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/ugreen-nas.md) |
 | Z425 | 极空间 | Core Ultra 5 225H（Arc+NPU）| [unverified] | — | ¥7,999 | [m.zspace.cn/z425](https://m.zspace.cn/z425/) | ✅ [zspace](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/zspace.md) |
 | Z423 / Q2C | 极空间 | [unverified] iGPU | [unverified] | — | 中端 | [zspace.cn](https://www.zspace.cn/) | ✅ [zspace](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/zspace.md) |
-| N5 Pro | Minisforum | Ryzen AI 9 HX PRO 370（Radeon 890M+NPU）| 内 PCIe x16(电 x8) LP ≤75W | **OCuLink**（实测 4090）| $1,019 起 | [N5 Pro](https://store.minisforum.com/products/minisforum-n5-pro-ai-nas) | ⬜ 待做 |
-| N5 / N5 Air | Minisforum | Ryzen 7 255（Radeon）| 内 PCIe x16 | OCuLink | ~$519 起 | [store.minisforum.com](https://store.minisforum.com/) | ⬜ 待做 |
-| WTR Max | Aoostar | 8845HS（Radeon 780M）/ i5-1235U | 无内槽 | **OCuLink PCIe4 x4** | 裸机 $559/$659 | [WTR Max](https://aoostar.com/products/aoostar-wtr-max-amd-r7-pro-8845hs-11-bays-mini-pc) | ⬜ 待做 |
+| N5 Pro | Minisforum | Ryzen AI 9 HX PRO 370（Radeon 890M+NPU）| 内 PCIe x16(电 x8) LP ≤75W | **OCuLink**（实测 4090）| $1,019 起 | [N5 Pro](https://store.minisforum.com/products/minisforum-n5-pro-ai-nas) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/minisforum-nas.md) |
+| N5 / N5 Air | Minisforum | Ryzen 7 255（Radeon）| 内 PCIe x16 | OCuLink | ~$519 起 | [store.minisforum.com](https://store.minisforum.com/) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/minisforum-nas.md) |
+| WTR Max | Aoostar | 8845HS（Radeon 780M）/ i5-1235U | 无内槽 | **OCuLink PCIe4 x4** | 裸机 $559/$659 | [WTR Max](https://aoostar.com/products/aoostar-wtr-max-amd-r7-pro-8845hs-11-bays-mini-pc) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/aoostar-nas.md) |
 | ZimaCube 2 / 2 Pro | IceWhale | i3-1215U / i5-1235U | 内插 LP GPU ≤75W | TB4 eGPU | $799 / $1,299 | [shop.zimaspace.com](https://shop.zimaspace.com/products/zimacube-2-personal-cloud-nas) | ✅ [zimaos-zimacube](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/zimaos-zimacube.md) |
 | ZimaCube 2 Creator Pack | IceWhale | i5-1235U + **预装 RTX Pro 2000 16GB** | 已装 LP 独显 ≤75W | TB4 eGPU | $2,499 | [shop.zimaspace.com](https://shop.zimaspace.com/products/zimacube-2-personal-cloud-nas) | ✅ [zimaos-zimacube](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/zimaos-zimacube.md) |
-| MS-A2 | Minisforum | Ryzen 9 9955HX（Radeon）| 内 PCIe4 x16(电 x8) LP | — | $639–839 | [store.minisforum.com](https://store.minisforum.com/) | ⬜ 待做 |
-| MS-01 | Minisforum | i9-13900H（Iris Xe）| 内 PCIe x16(电 x8) 半高单槽 | — | ~$500–750 | [store.minisforum.com](https://store.minisforum.com/) | ⬜ 待做 |
-| LincStation N2 | LincPlus | Intel N100（UHD）| 无 | 无 | $409–449 | [LincStation N2](https://www.lincplustech.com/products/lincstation-n2-network-attached-storage.html) | ⬜ 待做 |
-| 小米智能存储 | 小米 | [unverified] | [unverified] | — | ¥2,299 起 | [mi.com](https://www.mi.com/) | ⬜ 待做 |
-| TS-AI642（对比，亦见组六）| QNAP | RK3588 ARM（Mali+NPU）| 无 | 无 | $749 | [qnap.com](https://www.qnap.com/en/product/ts-ai642) | ⬜ 待做 |
-| DS925+（对比）| Synology | AMD Ryzen（无 iGPU）| 无 | 无 | ~$640–1,029 | [synology.com](https://www.synology.com/en-global/products/DS925+) | ⬜ 待做 |
+| MS-A2 | Minisforum | Ryzen 9 9955HX（Radeon）| 内 PCIe4 x16(电 x8) LP | — | $639–839 | [store.minisforum.com](https://store.minisforum.com/) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/minisforum-nas.md) |
+| MS-01 | Minisforum | i9-13900H（Iris Xe）| 内 PCIe x16(电 x8) 半高单槽 | — | ~$500–750 | [store.minisforum.com](https://store.minisforum.com/) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/minisforum-nas.md) |
+| LincStation N2 | LincPlus | Intel N100（UHD）| 无 | 无 | $409–449 | [LincStation N2](https://www.lincplustech.com/products/lincstation-n2-network-attached-storage.html) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/lincstation.md) |
+| 小米智能存储 | 小米 | [unverified] | [unverified] | — | ¥2,299 起 | [mi.com](https://www.mi.com/) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/06-ai-nas/ai-nas/xiaomi-nas.md) |
+| TS-AI642（对比，亦见组六）| QNAP | RK3588 ARM（Mali+NPU）| 无 | 无 | $749 | [qnap.com](https://www.qnap.com/en/product/ts-ai642) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/07-enterprise-nas/qnap.md) |
+| DS925+（对比）| Synology | AMD Ryzen（无 iGPU）| 无 | 无 | ~$640–1,029 | [synology.com](https://www.synology.com/en-global/products/DS925+) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/07-enterprise-nas/synology-enterprise.md) |
 
 > **DIY 路线（非成品，自组）**：Jonsbo N6 一体（全长独显 RTX 3090/5060Ti，9×3.5"，机箱 [$150–200](https://www.jonsbo.com/en/products/N6Black.html)）、4U 机架多卡（4×RTX 4090 / RTX Pro 6000）——"自建 AI 服务器"选题用，非一键购买型号。物理提醒：NAS 内 PCIe 多 ≤75W 无辅助供电，重卡走 OCuLink/eGPU 或 DIY 机箱。
 
@@ -171,17 +171,17 @@ ROG NUC 是把"5090/5080 Mobile + Core Ultra HX + 大内存"塞进 <3L 迷你盒
 
 | 产品 | 厂商 | 形态 / 盘位 | GPU / 可插卡 | 价格 | 购买 | 报告 |
 |------|------|-------------|--------------|------|------|------|
-| SA6400 | Synology | 2U / 12（扩 108）| 无内置；PCIe 可扩 | 报价制 | [SA6400](https://www.synology.com/en-us/products/SA6400) | ⬜ 待做 |
-| HD6500 | Synology | 4U / 60（扩 300）| 无内置；PCIe 可扩 | 报价制 | [HD6500](https://www.synology.com/en-us/products/HD6500) | ⬜ 待做 |
-| RS6426xs+ | Synology | 3U / 16（扩 64）| **PCIe Gen4×2 可接 GPU** | 报价制 | [RS6426xs+](https://www.synology.com/en-us/products/RS6426xs+) | ⬜ 待做 |
-| DVA3221 | Synology | 4 盘 NVR | **内置 GTX 1650** | ~ | [DVA 系](https://www.synology.com/en-global/products/DVA) | ⬜ 待做 |
-| TDS-h2489FU R2 | QNAP | 2U / 24 U.2 全闪 | 无内置；PCIe 可扩 | $10,999–29,999 | [TDS-h2489FU R2](https://www.qnap.com/en/product/tds-h2489fu%20r2) | ⬜ 待做 |
-| TVS-AIh1688ATX | QNAP | 塔式 12+4，Core Ultra | iGPU+NPU；PCIe 可扩（TB5）| ~$5,199 | [发布稿](https://www.qnap.com/en/news/2025/qnap-launches-tvs-aih1688atx-ai-nas-with-36-tops-for-ai-and-virtualization) | ⬜ 待做 |
-| TS-AI642 | QNAP | 6 盘塔式，RK3588 ARM | SoC Mali+NPU；无 PCIe | $749 | [TS-AI642](https://www.qnap.com/en/product/ts-ai642) | ⬜ 待做 |
-| TrueNAS R60 | iXsystems | 1U 全闪 PCIe Gen5 | PCIe 可加 GPU | 报价制 | [R-Series](https://www.truenas.com/r-series/) | ⬜ 待做 |
-| TrueNAS Mini R | iXsystems | 2U / 12 入门机架 | PCIe 可扩 | 定价见官网 | [TrueNAS Mini](https://www.truenas.com/truenas-mini/) | ⬜ 待做 |
-| Storinator XL60 | 45Drives | 4U / 60 开放硬件（~1.92PB）| **全高 PCIe 可加多卡** | 报价制 | [Storinator XL60](https://www.45drives.com/products/storage-server-storinator-xl60/) | ⬜ 待做 |
-| HL15 | 45HomeLab | 15 盘 open-platform（ATX）| **可插全长独显** | 机箱 $799.99 起 | [45homelab.com](https://45homelab.com/) | ⬜ 待做 |
+| SA6400 | Synology | 2U / 12（扩 108）| 无内置；PCIe 可扩 | 报价制 | [SA6400](https://www.synology.com/en-us/products/SA6400) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/07-enterprise-nas/synology-enterprise.md) |
+| HD6500 | Synology | 4U / 60（扩 300）| 无内置；PCIe 可扩 | 报价制 | [HD6500](https://www.synology.com/en-us/products/HD6500) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/07-enterprise-nas/synology-enterprise.md) |
+| RS6426xs+ | Synology | 3U / 16（扩 64）| **PCIe Gen4×2 可接 GPU** | 报价制 | [RS6426xs+](https://www.synology.com/en-us/products/RS6426xs+) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/07-enterprise-nas/synology-enterprise.md) |
+| DVA3221 | Synology | 4 盘 NVR | **内置 GTX 1650** | ~ | [DVA 系](https://www.synology.com/en-global/products/DVA) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/07-enterprise-nas/synology-enterprise.md) |
+| TDS-h2489FU R2 | QNAP | 2U / 24 U.2 全闪 | 无内置；PCIe 可扩 | $10,999–29,999 | [TDS-h2489FU R2](https://www.qnap.com/en/product/tds-h2489fu%20r2) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/07-enterprise-nas/qnap.md) |
+| TVS-AIh1688ATX | QNAP | 塔式 12+4，Core Ultra | iGPU+NPU；PCIe 可扩（TB5）| ~$5,199 | [发布稿](https://www.qnap.com/en/news/2025/qnap-launches-tvs-aih1688atx-ai-nas-with-36-tops-for-ai-and-virtualization) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/07-enterprise-nas/qnap.md) |
+| TS-AI642 | QNAP | 6 盘塔式，RK3588 ARM | SoC Mali+NPU；无 PCIe | $749 | [TS-AI642](https://www.qnap.com/en/product/ts-ai642) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/07-enterprise-nas/qnap.md) |
+| TrueNAS R60 | iXsystems | 1U 全闪 PCIe Gen5 | PCIe 可加 GPU | 报价制 | [R-Series](https://www.truenas.com/r-series/) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/07-enterprise-nas/truenas-enterprise.md) |
+| TrueNAS Mini R | iXsystems | 2U / 12 入门机架 | PCIe 可扩 | 定价见官网 | [TrueNAS Mini](https://www.truenas.com/truenas-mini/) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/07-enterprise-nas/truenas-enterprise.md) |
+| Storinator XL60 | 45Drives | 4U / 60 开放硬件（~1.92PB）| **全高 PCIe 可加多卡** | 报价制 | [Storinator XL60](https://www.45drives.com/products/storage-server-storinator-xl60/) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/07-enterprise-nas/45drives.md) |
+| HL15 | 45HomeLab | 15 盘 open-platform（ATX）| **可插全长独显** | 机箱 $799.99 起 | [45homelab.com](https://45homelab.com/) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/07-enterprise-nas/45drives.md) |
 
 ---
 
@@ -195,7 +195,7 @@ ROG NUC 是把"5090/5080 Mobile + Core Ultra HX + 大内存"塞进 <3L 迷你盒
 | Unraid | NAS / 家庭服务器 OS | [unraid.net](https://unraid.net/) | ✅ [unraid](/Users/pengpeng/seo/directions/hardware/reports/08-nas-os/unraid.md) |
 | CasaOS | 轻量家庭云 OS（`zimaos vs casaos` KD7）| [casaos.io](https://casaos.io/) | ✅ [casaos](/Users/pengpeng/seo/directions/hardware/reports/08-nas-os/casaos.md) |
 | Umbrel | 家庭服务器 OS + umbrel-home 硬件 | [umbrel.com](https://umbrel.com/) | ✅ [umbrel](/Users/pengpeng/seo/directions/hardware/reports/08-nas-os/umbrel.md) |
-| 飞牛 fnOS | 国产个人云 NAS OS（Debian 系，闭源、个人免费/商用授权）；对标个人云 OS，Olares 开源全栈是差异点 | [fnnas.com](https://www.fnnas.com/) | ⬜ 待做 |
+| 飞牛 fnOS | 国产个人云 NAS OS（Debian 系，闭源、个人免费/商用授权）；对标个人云 OS，Olares 开源全栈是差异点 | [fnnas.com](https://www.fnnas.com/) | ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/08-nas-os/fnos.md) |
 
 ---
 

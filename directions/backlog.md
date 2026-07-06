@@ -74,9 +74,9 @@
 | GMKtec EVO-X2 | `gmktec evo-x2` 4,400/mo |
 | Framework Desktop | Linux/Strix Halo 叙事 |
 | ROG NUC 16 (2026) | `olares one vs rog nuc` |
-| Legion Pro 7i Gen10 | 同 GPU、$3,999 对标 Olares One |
+| ~~Legion Pro 7i Gen10~~ | ~~同 GPU、$3,999 对标 Olares One~~ ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/02-5090-laptops/lenovo-legion.md) |
 | HP ZBook Ultra G1a | `strix halo laptop` KD9 |
-| Minisforum N5 Pro | AI NAS + OCuLink + 4090 实测 |
+| ~~Minisforum N5 Pro~~ | ~~AI NAS + OCuLink + 4090 实测~~ ✅ [报告](/Users/pengpeng/seo/directions/hardware/reports/01-ai-soc/strix-halo/minisforum.md) |
 | 飞牛 fnOS | 组八唯一缺报告 NAS OS |
 | ASUS Ascent GX10 | `dgx spark alternative` 价位带 |
 
