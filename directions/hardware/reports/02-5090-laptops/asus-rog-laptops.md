@@ -1,7 +1,7 @@
 # ASUS ROG 游戏本系列 SEO 竞品分析报告
 
 > 域名：rog.asus.com | SEMrush US | 2026-07-06
-> ROG Strix SCAR 16/18 + Zephyrus G16 + Flow Z13：Olares One 同款 GPU（RTX 5090 Mobile）的游戏本形态，及 Strix Halo 二合一平板
+> ROG Strix SCAR 16/18 + Zephyrus G16：与 Olares One 同款 RTX 5090 Mobile 24GB（SCAR 系还常同款 Core Ultra 9 275HX），但明显更贵。**两轴齐打**——轴 2：Olares One $3,999 就是更便宜的同款 GPU 整机；轴 1：$3,999 出厂即 Olares OS 私有云全栈 + x86-64/NVIDIA CUDA 全验证、开箱即用私有 AI，游戏本是裸 Windows 需自己搭。另含 Strix Halo 二合一平板 Flow Z13（简要）
 
 ---
 
@@ -11,9 +11,9 @@ ASUS ROG（Republic of Gamers）是 ASUS 旗下的顶级游戏硬件品牌，在
 
 | 产品 | 关键规格 | 价格带 (US) | 与 Olares One 的关系 |
 |------|---------|-----------|---------------------|
-| **ROG Strix SCAR 16** (G635, 2025) | Core Ultra 9 275HX + **RTX 5090 Mobile 24GB** (175W) + 64GB DDR5 + 16" mini-LED 2.5K 240Hz | ~$4,299–5,630 | **同款 CPU + 同款 GPU**；游戏本有屏，Olares One 无头私有云 |
-| **ROG Strix SCAR 18** (G835, 2025) | Core Ultra 9 275HX + **RTX 5090 Mobile 24GB** (175W) + 64GB DDR5 + 18" mini-LED 2.5K 240Hz | ~$4,299–6,200 | **同款 CPU + 同款 GPU**；更大屏旗舰，重量 3.3kg |
-| **ROG Zephyrus G16** (GU605/GU606) | Core Ultra 9 285H (2025) / 386H (2026) + **RTX 5090 24GB** (120W/160W) + 64GB LPDDR5x + 16" OLED | ~$4,554–5,499 | 同款 GPU（TGP 更低）；轻薄取向，散热受限 |
+| **ROG Strix SCAR 16** (G635, 2025) | Core Ultra 9 275HX + **RTX 5090 Mobile 24GB** (175W) + 64GB DDR5 + 16" mini-LED 2.5K 240Hz | ~$4,299–5,630 | **同款 CPU + 同款 GPU 却更贵**：Olares One $3,999 更便宜 + Olares OS 全栈开箱，游戏本是裸 Windows |
+| **ROG Strix SCAR 18** (G835, 2025) | Core Ultra 9 275HX + **RTX 5090 Mobile 24GB** (175W) + 64GB DDR5 + 18" mini-LED 2.5K 240Hz | ~$4,299–6,200 | **同款 CPU + 同款 GPU 却更贵**：Olares One $3,999 更便宜；游戏本需自搭 AI 栈 |
+| **ROG Zephyrus G16** (GU605/GU606) | Core Ultra 9 285H (2025) / 386H (2026) + **RTX 5090 24GB** (120W/160W) + 64GB LPDDR5x + 16" OLED | ~$4,554–5,499 | 同款 GPU（TGP 更低）却更贵；Olares One $3,999 更便宜 + Olares OS 私有 AI 开箱 |
 | **ROG Flow Z13** (GZ302, 2025) | **AMD Ryzen AI Max+ 395**（Strix Halo APU）+ Radeon 8060S iGPU + 32-96GB + 13.4" 2.5K | $1,599–2,099 | **不同 GPU 路线**：arm64 APU，属 Strix Halo 组（参见 research/01-ai-soc/amd-ryzen-ai-max.md） |
 
 > **注意**：ROG Flow Z13 (2025) 搭载 AMD Strix Halo APU（**非 RTX 5090**），在 devices.md 归类为组一（AMD Ryzen AI Max），不属于"RTX 5090 Mobile 游戏本"组。其 Olares 安装路径为 x86-64（Strix Halo = x86），GPU 为 AMD Radeon 8060S，经 ROCm 可被 Olares 加速。本报告作简要覆盖并注明，详细研究见组一相关报告。
@@ -112,17 +112,17 @@ ASUS ROG（Republic of Gamers）是 ASUS 旗下的顶级游戏硬件品牌，在
 
 ## Olares 关联词（Phase 3）
 
-**核心叙事切入点：RTX 5090 Mobile = 同款 GPU，但游戏本不是"常驻 AI 服务器"——有屏幕、需合盖、无 7×24 无头运行设计、Olares OS 层缺失。Olares One 是"同 GPU、无屏幕、开箱即用私有云"的差异化答案。**
+**核心叙事切入点（两轴齐打）：这些游戏本与 Olares One 同款 RTX 5090 Mobile 24GB（SCAR 系还常同款 Core Ultra 9 275HX），却明显更贵。轴 2 直接成立——Olares One $3,999 就是更便宜的同款 GPU 整机；轴 1——$3,999 买到的是开箱即用的 Olares OS 私有云全栈（Olares Market 一键装 AI 应用、多用户、LarePass 安全远程、备份，x86-64 + NVIDIA CUDA 全验证），游戏本是裸 Windows 得自己搭。无头/散热/常驻只是轴 1 的支撑细节，不做主论点。**
 
 | 关键词 | 月量 | KD | CPC | Olares 角度 |
 |--------|------|----|----|-----------|
-| 5090 mobile vs | 1,900 | 23 | — | ⭐⭐⭐ "RTX 5090 Mobile 游戏本 vs Olares One：哪个更适合跑私有 AI？"——Olares One 更适合 7×24 无头服务器 |
-| 5090 vs 5080 | 1,300 | 22 | — | ⭐⭐⭐ 内容机会：Olares One = 5090 Mobile 整机，无需选 5080 省钱方案 |
-| rtx 5080 laptop | 1,600 | 19 | $0.83 | ⭐⭐⭐ KD=19，量大，可写"为什么 5080 游戏本用户也该考虑 Olares One" |
-| 5080 vs 5090 | 3,600 | 31 | $4.84 | ⭐⭐ CPC 极高，商业意图，可嵌入 Olares One 的定位 |
-| 5090 laptop | 3,600 | 38 | $0.87 | ⭐⭐ 品类词，文章末尾对比 Olares One |
-| 5090 gaming laptop | 590 | 30 | $1.23 | ⭐⭐ "你需要的不是游戏本，而是 Olares One"方向 |
-| rog strix scar 16 review | 20 | 0 | — | ⭐ GEO 前瞻词：发布对比评测，AI Overview 可引用 |
+| 5090 mobile vs | 1,900 | 23 | — | ⭐⭐⭐ "RTX 5090 Mobile 游戏本 vs Olares One"：同款 GPU，Olares One $3,999 更便宜 + Olares OS 开箱即用私有 AI 全栈 |
+| 5090 vs 5080 | 1,300 | 22 | — | ⭐⭐⭐ Olares One = $3,999 的满血 5090 Mobile 整机，同款 GPU 更便宜；不必为省钱降到 5080 |
+| rtx 5080 laptop | 1,600 | 19 | $0.83 | ⭐⭐⭐ KD=19 量大，"与其 5080 游戏本，不如 $3,999 拿满血 5090 + Olares OS 私有云" |
+| 5080 vs 5090 | 3,600 | 31 | $4.84 | ⭐⭐ CPC 极高，商业意图，对比文嵌入 Olares One $3,999 同款 GPU 更超值定位 |
+| 5090 laptop | 3,600 | 38 | $0.87 | ⭐⭐ 品类词，文末对比 Olares One——同 GPU、更便宜、Olares OS 全栈 |
+| 5090 gaming laptop | 590 | 30 | $1.23 | ⭐⭐ "同样 5090，$3,999 的 Olares One 更便宜还开箱即用私有 AI"方向 |
+| rog strix scar 16 review | 20 | 0 | — | ⭐ GEO 前瞻词：对比评测带出 Olares One 更便宜 + Olares OS 全栈，AI Overview 可引用 |
 | rtx 5090 laptop review | 20 | 0 | — | ⭐ 同上，GEO 引用机会 |
 
 ---
@@ -158,12 +158,12 @@ ASUS ROG（Republic of Gamers）是 ASUS 旗下的顶级游戏硬件品牌，在
 
 | # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
 |---|--------|------|----|---------|--------------|
-| 1 | 5090 mobile vs | 1,900 | 23 | ⭐⭐⭐ | "RTX 5090 Mobile 游戏本 vs Olares One：常驻 AI 服务器选哪个？" |
-| 2 | rtx 5080 laptop | 1,600 | 19 | ⭐⭐⭐ | KD=19 量大，"为什么 5080/5090 游戏本用户需要 Olares One" |
-| 3 | 5090 vs 5080 | 1,300 | 22 | ⭐⭐⭐ | CPC $4.84，对比词，Olares One 作为"两者都不如无头私有云"的结论 |
-| 4 | 5090 laptop | 3,600 | 38 | ⭐⭐ | 品类词，高量，内容末尾对比 Olares One |
-| 5 | 5080 vs 5090 | 3,600 | 31 | ⭐⭐ | CPC $4.84 商业价值高，对比文内嵌 Olares One 定位 |
-| 6 | 5090 gaming laptop | 590 | 30 | ⭐⭐ | "游戏本 vs 无头 AI 盒子"选题，Olares One 有明确差异化 |
+| 1 | 5090 mobile vs | 1,900 | 23 | ⭐⭐⭐ | "同款 5090 Mobile，Olares One $3,999 更便宜 + Olares OS 私有 AI 全栈：游戏本 vs 无头整机怎么选" |
+| 2 | rtx 5080 laptop | 1,600 | 19 | ⭐⭐⭐ | KD=19 量大，"与其 5080/5090 游戏本，不如 $3,999 拿满血 5090 + Olares OS 开箱私有云" |
+| 3 | 5090 vs 5080 | 1,300 | 22 | ⭐⭐⭐ | CPC $4.84，Olares One = $3,999 满血 5090 整机，比选 5080 省钱更超值 |
+| 4 | 5090 laptop | 3,600 | 38 | ⭐⭐ | 品类词高量，导购文对比 Olares One（同 GPU、更便宜、开箱私有云） |
+| 5 | 5080 vs 5090 | 3,600 | 31 | ⭐⭐ | CPC $4.84 商业价值高，对比文内嵌 Olares One 同款 GPU 更超值定位 |
+| 6 | 5090 gaming laptop | 590 | 30 | ⭐⭐ | "同样 5090 游戏本更贵，Olares One $3,999 开箱即用私有 AI"选题 |
 | 7 | rog strix scar 16 review | 20 | 0 | ⭐ | KD=0，先发评测抢 GEO 引用位 |
 | 8 | rtx 5090 laptop review | 20 | 0 | ⭐ | 同上，GEO 前瞻 |
 | 9 | asus rog scar 18 review | 20 | 0 | ⭐ | 同上，GEO 前瞻 |
@@ -175,14 +175,14 @@ ASUS ROG（Republic of Gamers）是 ASUS 旗下的顶级游戏硬件品牌，在
 
 1. **品牌护城河**：rog.asus.com 月流量 135 万，SCAR / Zephyrus / Flow Z13 品牌词 KD 44-61，ASUS 已建立强品牌护城河。**正面打品牌词性价比低**；但"5090 mobile vs"、"rtx 5080 laptop"等品类/对比词 KD 19-23，外部内容有可乘之机。
 
-2. **可复制的打法**：ROG 的打法是"产品评测页 + 论坛（rog-forum.asus.com）+ 品牌词积累"，无明显程序化落地页策略。Olares 可**复制"游戏本 vs 无头私有云盒子"的内容矩阵**：针对每款顶级 RTX 5090 游戏本写对比文，统一指向 Olares One 作为"7×24 AI 服务器"定位。
+2. **可复制的打法**：ROG 的打法是"产品评测页 + 论坛（rog-forum.asus.com）+ 品牌词积累"，无明显程序化落地页策略。Olares 可**复制"同款 GPU 两轴对比"的内容矩阵**：针对每款顶级 RTX 5090 游戏本写对比文，统一指向 Olares One 作为"同款 GPU 更便宜（$3,999）+ Olares OS 开箱即用私有 AI"的定位（无头/常驻优势作支撑）。
 
-3. **对 Olares 最关键的词**：
-   - `5090 mobile vs`（KD=23，月量 1,900）— 最高优先级
+3. **对 Olares 最关键的词**（均为对比/品类词，两轴都能打）：
+   - `5090 mobile vs`（KD=23，月量 1,900）— 最高优先级，同款 GPU 直接对比
    - `rtx 5080 laptop`（KD=19，月量 1,600）— KD 最低量最大
    - `5090 vs 5080`（KD=22，月量 1,300）— CPC $4.84 高商业价值
 
-4. **最大攻击面**：游戏本的固有弱点——不适合 7×24 无头服务器运行（有屏幕、需合盖、功耗 200W+、配套 380W 电源砖）。Olares One 的定位：**同款 RTX 5090 Mobile，但是专为无头私有 AI 设计的盒子**，这是 SCAR / Zephyrus 无法回应的对比点。
+4. **最大攻击面**（两轴）：① **价格**——SCAR/Zephyrus 同款 RTX 5090 Mobile 24GB（SCAR 系还常同款 275HX）却要 $4,299–6,200，Olares One $3,999 明显更便宜；② **开箱即用的 AI OS 层**——$3,999 出厂即 Olares OS 私有云全栈（一键装 AI 应用、多用户、LarePass 远程、备份，CUDA 全验证），游戏本只是裸 Windows 得自己搭。形态弱点（有屏、需合盖、200W+、配 380W 电源砖不适合 7×24 常驻）作为轴 1 的支撑细节，不做标题级主论点。
 
 5. **隐藏低 KD 金矿**：
    - `5090 mobile vs`（KD=23，量 1,900）

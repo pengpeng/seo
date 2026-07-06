@@ -9,6 +9,8 @@
 
 Minisforum（铭凡，深圳）是 2020 年前后快速崛起的迷你主机 OEM，以快速跟进新 AMD/Intel 平台、在中低价位提供超高扩展性著称。产品线分两大方向：**SFF AI 工作站**（MS-S1 Max、MS-A1/A2、MS-01 等）和 **AI NAS**（N5 系列，2025 年 IFA 首发 N5 Pro，2026 年 CES 补全 N5 Air / N5 Max）。N5 Pro 是市场上第一款带 OCuLink 的消费级 NAS，赋予用户"NAS + 外接 eGPU"路线，成本远低于购置一体式 GPU 服务器，是 AI 本地推理场景的高性价比解法。MS-S1 Max 则是旗下首款 Strix Halo SFF PC，128GB 统一内存定位本地 AI 推理工作站，与 Olares One 直接竞争或互补。
 
+**Olares 对标（主信息 A 优先，价格轴反转）**：MS-S1 Max ~$2,599–$2,919，比 Olares One（$3,999 零售）便宜——**别硬说 Olares One 更便宜，主打轴 1「AI 更好用」**：Olares One 真 24GB GDDR7 独显 + 成熟 CUDA（覆盖 ComfyUI/SD 等 AMD ROCm 覆盖窄的应用）+ Olares OS 开箱即用 + 第一方实测背书；MS-S1 Max 的 Radeon iGPU（经 ROCm、成熟度低）本地 AI 短板可**类比同芯 Beelink GTR9 Pro 实测**（AI Max+ 395：LLM 吞吐全场最低、无 CUDA 跑不了图像/视频；同芯其它整机因 OEM 调校单并发或高约 30%，不改架构结论）。**诚实边界**：MS-S1 Max 128GB 统一内存能装下 GPT-OSS-120B（Olares One 24GB 需 offload），超大 MoE/dense 上统一内存有其位置。轴 2 打"每美元可用 AI + 开箱即用"。此外 N5 Pro 走 AI NAS / OCuLink 路线，是信息 B（在其上装 Olares 补私有云 OS 层，AMD ROCm 加速）的强场景——只对已买 Minisforum 设备的人讲。
+
 | 项目 | 内容 |
 |------|------|
 | 一句话定位 | 深圳迷你主机 OEM；mini PC ＋ AI NAS 双赛道；以高扩展/高性价比取胜 |
@@ -185,7 +187,7 @@ Minisforum（铭凡，深圳）是 2020 年前后快速崛起的迷你主机 OEM
 
 ## Olares 关联词（Phase 3）
 
-**核心逻辑：以 N5 Pro OCuLink 的"$1k NAS + 外接 4090 = 廉价本地 AI 服务器"叙事为主攻，辅以 MS-S1 Max vs Olares One 对比，以及在 Minisforum 上跑 Olares（AMD ROCm 支持）的教程词。**
+**核心逻辑（主信息 A + 强信息 B 场景）：MS-S1 Max vs Olares One 走主信息 A 轴 1「AI 更好用」——24GB CUDA 独显（AI 应用全覆盖）+ Olares OS 开箱即用 + 第一方实测背书（MS-S1 Max 的 iGPU 短板可类比同芯 Beelink 实测），价格轴反转不硬打；N5 Pro OCuLink 的"$1k NAS + 外接 4090 = 廉价本地 AI 服务器"是信息 B 的高性价比强场景（在 Minisforum 设备上装 Olares、AMD ROCm 支持），对准已买 Minisforum 的人。诚实边界：120B 超大模型 24GB 装不下，MS-S1 Max 128GB 统一内存反而能装。**
 
 | 关键词 | 月量 | KD | CPC | Olares 角度 | 契合度 |
 |--------|------|----|----|-----------|--------|
@@ -200,7 +202,7 @@ Minisforum（铭凡，深圳）是 2020 年前后快速崛起的迷你主机 OEM
 | nas barebone | 30 | 16 | $1.61 | N5 Pro barebone + Olares 安装指南；帮助选配 | ⭐⭐ |
 | home server linux | 70 | 28 | $1.90 | Olares Linux 服务器方案；Minisforum 上的 Olares | ⭐⭐ |
 | self hosted ai server | 20 | — | $4.41 | N5 Pro + Olares 是迄今最便宜的可配 4090 的自托管 AI 服务器 | ⭐⭐⭐ |
-| minisforum ms-s1 max | 2,400 | 31 | $1.15 | Olares One vs MS-S1 Max 对比：iGPU vs RTX 5090 Mobile | ⭐⭐ |
+| minisforum ms-s1 max | 2,400 | 31 | $1.15 | 主信息 A 轴 1：Olares One vs MS-S1 Max——24GB CUDA 独显（AI 应用全覆盖）vs iGPU 的 AI 可用性差距（类比同芯 Beelink 实测，诚实注 120B 边界） | ⭐⭐ |
 | n5 pro nas | 210 | 23 | $0.71 | 非品牌版 N5 Pro 词；Olares NAS OS 替代 MinisCloud OS | ⭐⭐⭐ |
 | nas for ai | 20 | — | $6.29 | $6.29 CPC 极高；Olares + N5 Pro 即 "NAS for AI" 完整答案 | ⭐⭐⭐ |
 
@@ -219,7 +221,7 @@ Minisforum（铭凡，深圳）是 2020 年前后快速崛起的迷你主机 OEM
 | 7 | ocuLink egpu | 1,000 | 18 | ⭐⭐⭐ | OCuLink eGPU 实测（N5 Pro + RTX 4090）+ Olares AI 加速效果 |
 | 8 | self hosted ai server | 20 | — | ⭐⭐⭐ | "$1k 自托管 AI 服务器：N5 Pro + Olares"；CPC $4.41 极高商业价值 |
 | 9 | nas for ai | 20 | — | ⭐⭐⭐ | "Best NAS for AI inference"；CPC $6.29 最高；Olares + N5 Pro 完整答案 |
-| 10 | minisforum ms-s1 max | 2,400 | 31 | ⭐⭐ | "Olares One vs Minisforum MS-S1 Max"对比文；量大，Strix Halo 直接竞品 |
+| 10 | minisforum ms-s1 max | 2,400 | 31 | ⭐⭐ | "Olares One vs Minisforum MS-S1 Max"对比文（轴 1：24GB CUDA 独显 vs iGPU AI 可用性，类比同芯 Beelink 实测，诚实注 120B 边界）；量大，Strix Halo 直接竞品 |
 
 ---
 
@@ -230,11 +232,13 @@ Minisforum（铭凡，深圳）是 2020 年前后快速崛起的迷你主机 OEM
 2. **可复制的打法**：Minisforum 无非品牌内容投入——官网几乎只有产品页，无博客/教程。这是最大空白。竞品评测类内容（liliputing、servethehome、nascompares 都在竞争同一批词）才是流量入口。Olares 可以做 Minisforum 从未做过的"OS 层教程"。
 
 3. **对 Olares 最关键的词**：
-   - `mini pc oculink`（KD 6）——零竞争，且直接切 N5 Pro + Olares + OCuLink 核心叙事
-   - `ai nas`（KD 27，$2.69）——品类定义词，Olares 是这个赛道的 OS 层玩家
-   - `miniscloud os`（KD 16，$1.73）——直接替代叙事，Olares vs MinisCloud OS
+   - `minisforum ms-s1 max`（2,400/mo，KD 31）——主信息 A 品类对比主战场，轴 1 讲 24GB CUDA 独显 vs iGPU 的 AI 可用性
+   - `mini pc oculink`（KD 6）——信息 B：零竞争，直接切 N5 Pro + 装 Olares + OCuLink 场景
+   - `ai nas`（KD 27，$2.69）/ `miniscloud os`（KD 16，$1.73）——OS 层替代叙事，Olares vs MinisCloud OS（信息 B）
 
-4. **最大攻击面**：MinisCloud OS 是 Minisforum 的弱点——闭源、功能有限、社区支持差。搜 `miniscloud os` 的人要么在研究这个 OS，要么在找替代。Olares 用"完整 AI agent 操作系统"叙事，可以直接切这批用户。
+4. **最大攻击面**：
+   - **轴 1「AI 更好用」（MS-S1 Max）**：MS-S1 Max 是 Radeon iGPU（经 ROCm、成熟度低），本地 AI 可用性可类比同芯 Beelink GTR9 Pro 实测（LLM 吞吐全场最低、无 CUDA 跑不了图像/视频）；Olares One 靠 24GB GDDR7 + 成熟 CUDA 覆盖全部 AI 应用 + Olares OS 开箱即用 + 第一方实测背书。价格轴反转（MS-S1 Max 更便宜），故不打"更便宜"，轴 2 讲"每美元可用 AI + 开箱即用"。**诚实边界**：MS-S1 Max 128GB 统一内存能装下 GPT-OSS-120B（Olares One 24GB 需 offload）。
+   - **OS 层（信息 B，N5 Pro）**：MinisCloud OS 是 Minisforum 的弱点——闭源、功能有限、社区支持差。搜 `miniscloud os` 的人要么在研究这个 OS，要么在找替代。Olares 用"完整 AI agent 操作系统"叙事，可直接切这批用户（在 N5 Pro 上装 Olares）。
 
 5. **隐藏低 KD 金矿**：`mini pc oculink`（KD 6）、`proxmox mini pc`（KD 12）、`n5 nas`（KD 13）、`minisforum atomman g7 pt`（KD 11）——这几个词几乎无竞争，但覆盖高精准的 homelab / AI 开发者人群。
 

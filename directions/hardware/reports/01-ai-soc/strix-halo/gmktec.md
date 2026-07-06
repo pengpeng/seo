@@ -7,7 +7,9 @@
 
 ## 项目理解（前置）
 
-GMKtec 是深圳迈凯科技（Shenzhen GMKtec Technology）旗下品牌，专注 mini PC 整机，国内主要渠道为速卖通/亚马逊。EVO-X2 是其 Strix Halo 旗舰：搭载 AMD Ryzen AI Max+ 395（16C/32T Zen 5，4nm，126 TOPS），集成 Radeon 8060S（40 CU RDNA 3.5，媲美 RTX 4070 Mobile），最高 128GB LPDDR5X-8000 统一内存（可分配 96GB 给 GPU），定价区间 ~$1,499–$2,999（依内存/存储版本）。同系列另有 **EVO-X3**（2026 中发布，PS4 size，补 OCuLink 口，128GB/2TB 起 $3,600）和 **EVO-X1**（Ryzen AI 9 HX 370，低一档）。GMKtec 不做操作系统，裸机出厂预装 Windows 11 Pro；安装 Linux 需自行操作（Olares 机会所在）。
+GMKtec 是深圳迈凯科技（Shenzhen GMKtec Technology）旗下品牌，专注 mini PC 整机，国内主要渠道为速卖通/亚马逊。EVO-X2 是其 Strix Halo 旗舰：搭载 AMD Ryzen AI Max+ 395（16C/32T Zen 5，4nm，126 TOPS），集成 Radeon 8060S（40 CU RDNA 3.5，媲美 RTX 4070 Mobile），最高 128GB LPDDR5X-8000 统一内存（可分配 96GB 给 GPU），定价区间 ~$1,499–$2,999（依内存/存储版本）。同系列另有 **EVO-X3**（2026 中发布，PS4 size，补 OCuLink 口，128GB/2TB 起 $3,600）和 **EVO-X1**（Ryzen AI 9 HX 370，低一档）。GMKtec 不做操作系统，裸机出厂预装 Windows 11 Pro；安装 Linux 需自行操作。
+
+**Olares 对标（主信息 A 优先，价格轴反转）**：EVO-X2 ~$1,499–$2,999，比 Olares One（$3,999 零售）便宜——**别硬说 Olares One 更便宜，主打轴 1「AI 更好用」**：Olares One 是真 24GB GDDR7 独显 + 成熟 CUDA（覆盖 ComfyUI/SD 等 AMD ROCm 覆盖窄的应用）+ Olares OS 开箱即用（Olares Market 一键装 AI、多用户、LarePass 远程、备份）+ 第一方实测背书。EVO-X2 的 Radeon 8060S iGPU（经 ROCm、成熟度低）本地 AI 短板可**类比同芯 Beelink GTR9 Pro 实测**（AI Max+ 395：Qwen3-30B 并发 1→8 仅 61→12 tok/s、Gemma3-27B dense 近乎不可用、无 CUDA 跑不了图像/视频；同芯其它整机因 OEM 调校单并发或高约 30%，不改架构结论）。**诚实边界**：EVO-X2 128GB 统一内存能装下 GPT-OSS-120B（Olares One 24GB 需 offload），超大 MoE/dense 上统一内存有其位置。轴 2 打"每美元可用 AI + 开箱即用"。EVO-X2 是 x86-64，信息 B（装 Olares，AMD ROCm 加速）成立且顺，但仍是兜底。
 
 | 项目 | 内容 |
 |------|------|
@@ -167,22 +169,22 @@ GMKtec 在 Google Ads 上投放 53 个词，全部为品牌关键词（自有品
 
 ## Olares 关联词（Phase 3）
 
-**核心叙事切入点：GMKtec EVO-X2 是裸机（预装 Windows），而 Olares One 是 Strix Halo 级 NVIDIA 算力 + Olares OS 的软硬一体方案；同时 Olares 可安装在 GMKtec EVO-X2 上（AMD ROCm GPU 加速，Strix Halo 已支持）。**
+**核心叙事（主信息 A 优先）：Olares One 对比 EVO-X2 主打轴 1「AI 更好用」——真 24GB GDDR7 独显 + 成熟 CUDA（AI 应用全覆盖）+ Olares OS 开箱即用 + 第一方实测背书（EVO-X2 的 iGPU 短板可类比同芯 Beelink 实测：本地 LLM 全场最低、无 CUDA 跑不了图像/视频）；EVO-X2 更便宜，价格轴反转不硬打，轴 2 讲"每美元可用 AI + 开箱即用"。兜底信息 B：EVO-X2 是 x86-64，可装 Olares（AMD ROCm 加速）——只对已买 EVO-X2 的人讲。诚实边界：120B 超大模型 24GB 装不下，EVO-X2 128GB 统一内存反而能装。**
 
 | 关键词 | 月量 | KD | CPC | Olares 角度 |
 |--------|------|----|----|-----------|
-| strix halo mini pc ⭐ | 880 | 34 | $0.41 | ⭐⭐⭐ Olares One vs GMKtec EVO-X2 全对比页；或"在 Strix Halo 上装 Olares"教程 |
-| mini pc linux ⭐⭐⭐ | 320 | **8** | $0.37 | ⭐⭐⭐ "Install Olares on GMKtec EVO-X2"教程落地页，KD8 几乎零竞争 |
+| strix halo mini pc ⭐ | 880 | 34 | $0.41 | ⭐⭐⭐ Olares One vs GMKtec EVO-X2 全对比页：24GB CUDA 独显 vs iGPU 的 AI 可用性差距（轴 1，诚实注 120B 边界） |
+| self hosted llm ⭐ | 320 | 22 | $3.12 | ⭐⭐⭐ Olares + Ollama/LLM 自托管：CUDA 成熟 + 开箱即用 vs EVO-X2 裸机自建（轴 1） |
+| home ai server ⭐ | 140 | 14 | $1.78 | ⭐⭐⭐ "best home AI server 2026"榜单，Olares One vs EVO-X2（轴 1 AI 更好用） |
+| local ai server ⭐ | 90 | 26 | $4.26 | ⭐⭐⭐ 高 CPC 证明买家意图强；Olares One vs EVO-X2 主打轴 1 |
+| best mini pc for ai ⭐ | 110 | 24 | $0.67 | ⭐⭐ 榜单，突出 Olares One 轴 1（真独显 + CUDA + 开箱即用） |
 | dgx spark vs evo-x2 ⭐ | 320 | 16 | $0 | ⭐⭐ "Olares One vs GMKtec EVO-X2 vs DGX Spark"三路对比；KD16 好打 |
-| self hosted llm ⭐ | 320 | 22 | $3.12 | ⭐⭐⭐ Olares + Ollama/LLM 自托管方案，对比裸机 + 自建 |
-| home ai server ⭐ | 140 | 14 | $1.78 | ⭐⭐⭐ "best home AI server 2026"榜单，Olares One vs EVO-X2 |
-| best mini pc for ai ⭐ | 110 | 24 | $0.67 | ⭐⭐ 榜单，突出 Olares One 软硬一体优势 |
-| local ai server ⭐ | 90 | 26 | $4.26 | ⭐⭐⭐ 高 CPC 证明买家意图强；Olares One vs EVO-X2 |
+| gmktec alternative | 20 | 0 | $0 | ⭐⭐⭐ KD0 零竞争；"Best GMKtec EVO-X2 Alternative: Olares One（AI 更好用）" |
 | gmktec mini pc review ⭐ | 210 | 14 | $0.71 | ⭐⭐ 蹭 GMKtec 评测流量，写"GMKtec vs Olares One"对比 |
-| amd strix halo mini pc ⭐ | 170 | 20 | $0.44 | ⭐⭐ "AMD Strix Halo mini PC with Linux/Olares"教程 |
-| mini pc homelab ⭐ | 40 | 13 | $0.53 | ⭐⭐ homelab 受众与 Olares 高度重叠；写"mini pc homelab with Olares OS" |
-| local llm hardware ⭐ | 50 | 27 | $2.07 | ⭐⭐ 购硬件决策词；对比 DIY vs Olares One 软硬套装 |
-| gmktec alternative | 20 | 0 | $0 | ⭐⭐⭐ KD0 零竞争；"Best GMKtec EVO-X2 Alternative: Olares One" |
+| local llm hardware ⭐ | 50 | 27 | $2.07 | ⭐⭐ 购硬件决策词；对比 DIY 裸机 vs Olares One 软硬套装 |
+| mini pc linux ⭐⭐⭐ | 320 | **8** | $0.37 | ⭐⭐⭐ 信息 B："Install Olares on GMKtec EVO-X2"教程落地页，KD8 几乎零竞争 |
+| amd strix halo mini pc ⭐ | 170 | 20 | $0.44 | ⭐⭐ 信息 B："AMD Strix Halo mini PC with Linux/Olares"教程 |
+| mini pc homelab ⭐ | 40 | 13 | $0.53 | ⭐⭐ 信息 B：homelab 受众高度重叠；"mini pc homelab with Olares OS" |
 | ollama mini pc | 20 | 0 | $0 | ⭐ 精准词；Olares OS 内建 Ollama 支持 |
 
 ---
@@ -191,9 +193,9 @@ GMKtec 在 Google Ads 上投放 53 个词，全部为品牌关键词（自有品
 
 | # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
 |---|--------|------|----|---------|--------------|
-| 1 | mini pc linux | 320 | **8** | ⭐⭐⭐ | "Install Olares on GMKtec EVO-X2 (AMD ROCm)"：手把手教程，KD8 几乎无竞争，可快速排上首页 |
-| 2 | self hosted llm | 320 | 22 | ⭐⭐⭐ | "Self-Hosted LLM on Mini PC: GMKtec EVO-X2 vs Olares One"对比；CPC $3 证明商业价值 |
-| 3 | strix halo mini pc | 880 | 34 | ⭐⭐⭐ | "Best Strix Halo Mini PC 2026"品类榜单，对比 GMKtec/Minisforum/Beelink + Olares One |
+| 1 | strix halo mini pc | 880 | 34 | ⭐⭐⭐ | "Best Strix Halo Mini PC 2026"品类榜单，对比 GMKtec/Minisforum/Beelink + Olares One——轴 1 讲 24GB CUDA 独显 AI 可用性（类比同芯 Beelink 实测），诚实注 120B 边界 |
+| 2 | self hosted llm | 320 | 22 | ⭐⭐⭐ | "Self-Hosted LLM on Mini PC: GMKtec EVO-X2 vs Olares One"对比：CUDA 成熟 vs iGPU（轴 1）；CPC $3 证明商业价值 |
+| 3 | mini pc linux | 320 | **8** | ⭐⭐⭐ | 信息 B："Install Olares on GMKtec EVO-X2 (AMD ROCm)"：手把手教程，KD8 几乎无竞争，可快速排上首页 |
 | 4 | home ai server | 140 | **14** | ⭐⭐⭐ | "Best Home AI Server 2026"评测，Olares One vs EVO-X2；KD14 低、CPC $1.78 |
 | 5 | gmktec alternative | 20 | **0** | ⭐⭐⭐ | "GMKtec EVO-X2 Alternative: Why Choose Olares One"；KD0 零竞争，精准意图 |
 | 6 | dgx spark vs evo-x2 | 320 | 16 | ⭐⭐ | "DGX Spark vs GMKtec EVO-X2 vs Olares One"三路对比；KD16，已有 320 搜索量 |
@@ -210,9 +212,9 @@ GMKtec 在 Google Ads 上投放 53 个词，全部为品牌关键词（自有品
 
 2. **可复制的打法**：GMKtec 的 SEO 打法极其简单——靠品牌搜索量自然落坑，无内容矩阵、无博客、无教程。这让所有非品牌词都是开放机会：Lon.TV（10K 月流量）和 Liliputing（7.8K 月流量）靠评测内容获取了与 GMKtec 高度重叠的词，说明**评测/教程内容可有效拦截 GMKtec 目标用户**。
 
-3. **对 Olares 最关键的词**：① `mini pc linux`（KD8，月量 320）——Olares 在 GMKtec EVO-X2 上安装教程，几乎零竞争即可上首页；② `strix halo mini pc`（KD34，月量 880）——品类综述页，重点写软硬一体 vs 裸机的差异；③ `self hosted llm`（KD22，月量 320，CPC $3.12）——高商业价值词，Olares + Ollama 是天然落地页。
+3. **对 Olares 最关键的词**：① `strix halo mini pc`（KD34，月量 880）——主信息 A 品类对比主战场，重点写 24GB CUDA 独显 vs iGPU 的 AI 可用性；② `self hosted llm`（KD22，月量 320，CPC $3.12）——高商业价值词，Olares + Ollama 天然落地页（轴 1）；③ `mini pc linux`（KD8，月量 320）——信息 B：EVO-X2 安装教程，几乎零竞争即可上首页。
 
-4. **最大攻击面**：GMKtec EVO-X2 不含操作系统（预装 Windows），而 Linux/自托管场景需要用户自己折腾——这正是 Olares One 的差异化。"GMKtec EVO-X2 vs Olares One" 的核心论点：EVO-X2 是便宜但需要 DIY 的裸机；Olares One 是贵但开箱即用的 AI 个人云操作系统。另一攻击面：AMD ROCm on Strix Halo 已支持，Olares 可安装在 EVO-X2 上，这是"用更少钱得到 Olares 体验"的路线。
+4. **最大攻击面（轴 1「AI 更好用」为主）**：GMKtec EVO-X2 是 Radeon 8060S iGPU（经 ROCm、成熟度低），本地 AI 可用性可类比同芯 Beelink GTR9 Pro 实测（LLM 吞吐全场最低、无 CUDA 跑不了图像/视频，ComfyUI/SD 等应用覆盖窄）；Olares One 靠 24GB GDDR7 + 成熟 CUDA 覆盖全部 AI 应用 + Olares OS 开箱即用 + 第一方实测背书。价格轴反转（EVO-X2 更便宜），故不打"更便宜"，轴 2 讲"每美元可用 AI + 开箱即用"（EVO-X2 预装 Win11、自托管需自己折腾）。**诚实边界**：EVO-X2 128GB 统一内存能装下 GPT-OSS-120B（Olares One 24GB 需 offload），超大 MoE/dense 上统一内存有其位置。裸机（无私有云 OS）是信息 B（装 Olares）的切入点。
 
 5. **隐藏低 KD 金矿**：
    - `mini pc linux` KD=**8**：量 320，几乎没人争，立刻能上首页

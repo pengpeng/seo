@@ -1,7 +1,7 @@
 # Gigabyte Aorus Master & AI TOP ATOM SEO 竞品分析报告
 
 > 域名：gigabyte.com | SEMrush US | 2026-07-06
-> Gigabyte 是全球主要 PC 组件/整机品牌，Aorus Master 16/18 为其 RTX 5090 Mobile 游戏本旗舰，AI TOP ATOM 为基于 NVIDIA GB10 的桌面 AI 超算——两条产品线与 Olares One 形成直接价位对标。
+> Gigabyte 是全球主要 PC 组件/整机品牌，Aorus Master 16/18 为其 RTX 5090 Mobile 游戏本旗舰（同款 24GB GPU + 常同款 Core Ultra 9 275HX，却 ~$4,300–4,899 更贵），AI TOP ATOM 为基于 NVIDIA GB10 的桌面 AI 超算（~$7,158）。两条产品线均**明显贵于 Olares One $3,999**——**两轴齐打**：轴 2 更便宜直接成立，轴 1 讲 $3,999 出厂即 Olares OS 私有云全栈 + CUDA 全验证、开箱即用私有 AI。AI TOP ATOM 的 arm64 **已确认可装 Olares**（Olares 1.12.5 官方支持 DGX Spark，同芯走同路径）。
 
 ---
 
@@ -117,18 +117,18 @@ AI TOP ATOM 是 Gigabyte 于 2025 年 10 月 15 日全球发售的 GB10 桌面 A
 
 ## Olares 关联词（Phase 3）
 
-**核心逻辑：Aorus Master 16/18（RTX 5090 24GB）与 Olares One 完全同款 GPU，价格上 Aorus Master 16 约 $4,300（比 Olares One $3,999 贵 $300），但游戏本不适合 7×24 无头 AI 服务；AI TOP ATOM（GB10，$7,158）比 Olares One 贵近一倍，且为 ARM 架构。两条产品线都给 Olares One 创造了清晰的价值叙事空间。**
+**核心逻辑（两轴齐打）：Aorus Master 16/18（RTX 5090 24GB + 常同款 275HX）与 Olares One 同款 GPU，价格上 Aorus Master 16 约 $4,300、18 约 $4,899，均贵于 Olares One $3,999——轴 2（更便宜）成立；AI TOP ATOM（GB10，$7,158）比 Olares One 贵近一倍。轴 1：$3,999 出厂即 Olares OS 私有云全栈 + CUDA 全验证、开箱即用私有 AI，游戏本是裸 Windows、AI TOP 是 DGX OS 都要自己搭。无头/常驻优势作轴 1 支撑。**
 
 | 关键词 | 月量 | KD | CPC | Olares 角度 |
 |--------|------|----|----|-----------|
-| aorus master 18 | 210 | 19 | $0.75 | ⭐⭐⭐ "Aorus Master 18 vs Olares One"：同 GPU，KD=19 可攻；游戏本 4.3kg vs 无头盒子 |
-| gigabyte ai top | 210 | 18 | $0.76 | ⭐⭐⭐ "Gigabyte AI TOP vs Olares One"：GB10 $7,158 vs RTX 5090 $3,999；架构/价格双重对比 |
-| gigabyte ai top atom | 210 | 19 | $0.60 | ⭐⭐⭐ 同上，型号词 KD19；写评测文植入 Olares One 对比 |
-| aorus master 16 | 170 | 29 | $0.76 | ⭐⭐ KD29，较大屏型号对比；写"Aorus Master 16 for AI development"带 Olares One 对比 |
-| gigabyte aorus master laptop | 20 | 0 | $0.59 | ⭐⭐⭐ KD=0！明确笔记本意图（区分主板词），零竞争 |
-| aorus alternative | 0 | 0 | — | ⭐⭐⭐ GEO 前瞻；Olares One 作为"不同场景的替代选项" |
-| rtx 5090 laptop | 2,400 | 33 | $0.87 | ⭐⭐ 高量，Gigabyte/Alienware 同时覆盖 |
-| gigabyte ai top atom review | 20 | 0 | $0 | ⭐⭐ 评测词 KD=0；对比评测文章 |
+| aorus master 18 | 210 | 19 | $0.75 | ⭐⭐⭐ "Aorus Master 18 vs Olares One"：同 GPU，KD=19 可攻；$4,899 vs $3,999 更便宜 + Olares OS 全栈 |
+| gigabyte ai top | 210 | 18 | $0.76 | ⭐⭐⭐ "Gigabyte AI TOP vs Olares One"：GB10 $7,158 vs $3,999 更便宜近一倍 + Olares OS 开箱私有 AI |
+| gigabyte ai top atom | 210 | 19 | $0.60 | ⭐⭐⭐ 同上，型号词 KD19；写评测文植入 Olares One 价格/OS 双优 |
+| aorus master 16 | 170 | 29 | $0.76 | ⭐⭐ KD29；"Aorus Master 16 for AI development" 带 Olares One 更便宜 + 开箱私有 AI 对比 |
+| gigabyte aorus master laptop | 20 | 0 | $0.59 | ⭐⭐⭐ KD=0！明确笔记本意图（区分主板词），零竞争，突出 $3,999 更便宜 + Olares OS |
+| aorus alternative | 0 | 0 | — | ⭐⭐⭐ GEO 前瞻；Olares One = 同款 GPU 更便宜 + 开箱私有 AI 的替代 |
+| rtx 5090 laptop | 2,400 | 33 | $0.87 | ⭐⭐ 高量，Gigabyte/Alienware 同时覆盖，突出 Olares One 价格 + Olares OS 优势 |
+| gigabyte ai top atom review | 20 | 0 | $0 | ⭐⭐ 评测词 KD=0；对比评测带 Olares One 更便宜 + 开箱私有 AI |
 
 ---
 
@@ -136,12 +136,12 @@ AI TOP ATOM 是 Gigabyte 于 2025 年 10 月 15 日全球发售的 GB10 桌面 A
 
 | # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
 |---|--------|------|----|---------|--------------|
-| 1 | gigabyte ai top | 210 | 18 | ⭐⭐⭐ | KD=18，低竞争；写"Gigabyte AI TOP ATOM vs Olares One"：GB10 ARM $7,158 vs RTX 5090 x86 $3,999 |
-| 2 | aorus master 18 | 210 | 19 | ⭐⭐⭐ | KD=19，量可观；"Aorus Master 18 vs Olares One"：同款 GPU，游戏本 vs 私有云盒 |
-| 3 | gigabyte ai top atom | 210 | 19 | ⭐⭐⭐ | 同上，型号词变体；写详细规格对比 |
-| 4 | gigabyte aorus master laptop | 20 | 0 | ⭐⭐⭐ | KD=0！精准笔记本意图词，写评测对比 |
-| 5 | aorus alternative | 0 | 0 | ⭐⭐⭐ | 零竞争 GEO 前瞻；"Best Aorus Master alternatives for private AI 2026" |
-| 6 | aorus master 16 | 170 | 29 | ⭐⭐ | KD29，量可观；对比 Olares One 价格差（$300 差价却用途完全不同）|
+| 1 | gigabyte ai top | 210 | 18 | ⭐⭐⭐ | KD=18，低竞争；"Gigabyte AI TOP ATOM vs Olares One"：GB10 $7,158 vs $3,999 更便宜近一倍 + Olares OS 开箱 |
+| 2 | aorus master 18 | 210 | 19 | ⭐⭐⭐ | KD=19，量可观；"Aorus Master 18 vs Olares One"：同款 GPU，$4,899 vs $3,999 更便宜 + Olares OS 全栈 |
+| 3 | gigabyte ai top atom | 210 | 19 | ⭐⭐⭐ | 同上，型号词变体；详细规格 + 价格/OS 对比 |
+| 4 | gigabyte aorus master laptop | 20 | 0 | ⭐⭐⭐ | KD=0！精准笔记本意图词，评测对比突出 Olares One 更便宜 + 开箱私有 AI |
+| 5 | aorus alternative | 0 | 0 | ⭐⭐⭐ | 零竞争 GEO 前瞻；"Best Aorus Master alternatives for private AI 2026"，主推 Olares One |
+| 6 | aorus master 16 | 170 | 29 | ⭐⭐ | KD29，量可观；Olares One $3,999 更便宜 + Olares OS 全栈开箱（Aorus 仅裸 Windows）|
 | 7 | gigabyte ai top atom review | 20 | 0 | ⭐⭐ | KD=0，评测词；对比评测，带 Olares One 作为参照 |
 | 8 | rtx 5090 laptop | 2,400 | 33 | ⭐⭐ | 高量，品类词；导购文植入"游戏本 vs Olares One"对比 |
 | 9 | gigabyte aorus master | 390 | 27 | ⭐ | 注意意图多为主板！内容需明确标注笔记本；KD27 可操作 |
@@ -155,12 +155,12 @@ AI TOP ATOM 是 Gigabyte 于 2025 年 10 月 15 日全球发售的 GB10 桌面 A
 
 2. **可复制的打法**：gigabyte.com 几乎没有做付费投放（仅 1 个付费关键词）；自然流量以主板 BIOS/驱动等长尾词为主。Aorus Master 笔记本和 AI TOP ATOM 的评测/对比内容极度缺乏——有内容空隙可填。
 
-3. **对 Olares 最关键的词**：① `gigabyte ai top`（KD=18，GB10 品类价格对比）；② `aorus master 18`（KD=19，同款 GPU 直接对比）；③ `gigabyte aorus master laptop`（KD=0，笔记本意图精准词）。
+3. **对 Olares 最关键的词**：① `gigabyte ai top`（KD=18，GB10 价格差近一倍，两轴都能打）；② `aorus master 18`（KD=19，同款 GPU 但更贵）；③ `gigabyte aorus master laptop`（KD=0，笔记本意图精准词）。
 
-4. **最大攻击面**：
-   - AI TOP ATOM 定价 $7,158（Newegg），比 Olares One $3,999 贵 $3,159（约 79%），且为 ARM 架构（Olares 的 arm64 支持还在实测中）——这是最清晰的价格/定位对比叙事
-   - Aorus Master 16（约 $4,300）略贵于 Olares One，游戏本形态不适合 7×24 服务
-   - Gigabyte 游戏本在 SEO 层面被自家主板词严重稀释，内容竞争力弱
+4. **最大攻击面**（两轴）：
+   - **轴 2 · 价格**：AI TOP ATOM $7,158（Newegg）比 Olares One $3,999 贵约 79%；Aorus Master 16 约 $4,300、18 约 $4,899 也均贵于 $3,999
+   - **轴 1 · AI 更好用**：$3,999 出厂即 Olares OS 私有云全栈（Olares Market 一键装 AI 应用、多用户、LarePass 远程、备份，x86-64 + CUDA 全验证）；Aorus 游戏本是裸 Windows、AI TOP 是 DGX OS，都要自己搭。**AI TOP ATOM 的 arm64 已确认可装 Olares（1.12.5 官方支持 DGX Spark，同芯走同路径）**，故信息 B 也成立
+   - 支撑细节：游戏本形态不适合 7×24 常驻；Gigabyte 游戏本 SEO 被自家主板词严重稀释、内容竞争力弱
 
 5. **隐藏低 KD 金矿**：`gigabyte ai top atom`（KD=19）、`aorus master 18`（KD=19）、`gigabyte aorus master laptop`（KD=0）——三个词全在 KD<30，且意图精准，是最快起量的机会。
 

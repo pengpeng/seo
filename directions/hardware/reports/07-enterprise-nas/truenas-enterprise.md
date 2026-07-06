@@ -123,7 +123,7 @@ iXsystems（成立 2002 年，美国加州 San Jose）是 TrueNAS 开源存储 O
 
 ## Olares 关联词（Phase 3）
 
-**核心逻辑：TrueNAS 是"存储 + 开源 OS"，但缺乏 AI Agent 层——Olares 填补的正是"ZFS 存储之上的 AI-Native 个人云 OS"这一空白。TrueNAS Mini R（$2,560+，Atom C3758）算力弱，不适合本地 LLM；R60 是全闪高性能存储但定价企业级——两者都不是"AI 个人云整机"，Olares One 是唯一答案。**
+**核心逻辑：TrueNAS 是"存储 + 开源 OS"，但缺乏 AI Agent 层——Olares 填补的正是"ZFS 存储之上的 AI-Native 个人云 OS"这一空白。TrueNAS Mini R（$2,560+，Atom C3758）面向 homelab、算力弱不适合本地 LLM；R60 是全闪高性能存储但报价制、面向企业 IT 采购——与 Olares 不是同一买家段，走认知词 / 受众分层切入，不硬推"买 Olares One 替代企业机架"；只对想要"AI 个人云"的个人 / homelab 用户，Olares 才是补齐 AI-Native OS 层的路径。**
 
 | 关键词 | 月量 | KD | CPC | Olares 角度 |
 |--------|------|----|----|-----------|

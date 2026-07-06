@@ -9,7 +9,7 @@
 
 Zotac（索泰/卓泰）是香港科技公司（PC Partner 子品牌），以 NVIDIA GeForce 显卡（ZT 系列）和 ZBOX mini PC 知名。**Magnus EAMAX** 系列是 Zotac 进军 Strix Halo 市场的产品，提供三档 SKU：EAMAX395C（Ryzen AI Max+ 395，128GB，旗舰）、EAMAX390C（Ryzen AI Max 390，32GB）、EAMAX385C（Ryzen AI Max 385，32GB）。所有型号均为 2.65L 紧凑机箱，三个 M.2 PCIe4 插槽，双 2.5GbE，USB4，Wi-Fi 7。目前以 **裸机/Windows 两种 SKU** 出售，官网未公布零售价（三方渠道 EAMAX395C 约 $1,899–2,299）。
 
-与 Olares One 的关键差异：Zotac 主攻 GPU 显卡 + 兼做 mini PC（ZBOX 系列），mini PC 不是核心业务；EAMAX 仅双 2.5GbE（非 10GbE），服务器/homelab 诉求稍弱；Olares 信息 B：x86 裸机 ISO 路径，AMD ROCm 支持 APU，可安装 Olares。
+**Olares 对标（主信息 A 优先，价格轴反转）**：EAMAX395C 约 $1,899–2,299，比 Olares One（$3,999 零售）便宜——**别硬说 Olares One 更便宜，主打轴 1「AI 更好用」**：Olares One 真 24GB GDDR7 独显 + 成熟 CUDA（覆盖 ComfyUI/SD 等 AMD ROCm 覆盖窄的应用）+ Olares OS 开箱即用（Olares Market 一键装 AI、多用户、LarePass 远程、备份）+ 第一方实测背书。EAMAX395C 的 AI Max+ 395（Radeon iGPU 经 ROCm、成熟度低）本地 AI 短板可**类比同芯 Beelink GTR9 Pro 实测**（LLM 吞吐全场最低、无 CUDA 跑不了图像/视频；同芯其它整机因 OEM 调校单并发或高约 30%，不改架构结论）。**诚实边界**：EAMAX395C 128GB 统一内存能装下 GPT-OSS-120B（Olares One 24GB 需 offload），超大 MoE/dense 上统一内存有其位置。轴 2 打"每美元可用 AI + 开箱即用"（EAMAX 仅双 2.5GbE 非 10GbE、服务器/homelab 诉求稍弱是补充点）。EAMAX 是 x86-64，信息 B（装 Olares，AMD ROCm 加速）成立且顺，但仍是兜底。
 
 | 项目 | 内容 |
 |------|------|
@@ -109,16 +109,16 @@ Zotac（索泰/卓泰）是香港科技公司（PC Partner 子品牌），以 NV
 
 ## Olares 关联词（Phase 3）
 
-**核心叙事：Zotac Magnus EAMAX395C 是 GPU 老厂出的 Strix Halo 裸机，功能强大但无软件 OS 堆叠。Olares 信息 B（安装 Olares）补足"私有云 OS"缺口；信息 A（Olares One）以"独显 24GB + 软硬一体 + 开箱即用"对比 Zotac 纯硬件裸机。**
+**核心叙事（主信息 A 优先）：Olares One 对比 Zotac Magnus EAMAX 主打轴 1「AI 更好用」——真 24GB GDDR7 独显 + 成熟 CUDA（AI 应用全覆盖）+ Olares OS 开箱即用 + 第一方实测背书（EAMAX 的 iGPU 短板可类比同芯 Beelink 实测：本地 LLM 全场最低、无 CUDA 跑不了图像/视频）；EAMAX 更便宜，价格轴反转不硬打，轴 2 讲"每美元可用 AI + 开箱即用"。兜底信息 B：EAMAX 是 x86-64 裸机，可装 Olares（AMD ROCm 加速）补"私有云 OS"缺口——只对已买 Zotac 的人讲。诚实边界：120B 超大模型 24GB 装不下，EAMAX 128GB 统一内存反而能装。**
 
 | 关键词 | 月量 | KD | CPC | Olares 角度 |
 |--------|------|-----|-----|-------------|
-| zotac magnus | 110 | 27 | $0.55 | ⭐⭐⭐ "Zotac Magnus EAMAX vs Olares One" 对比文，KD 低 |
-| zotac zbox mini pc | 50 | 9 | $0 | ⭐⭐⭐ "ZBox 上安装 Olares"，KD 极低 |
-| mini pc linux | 320 | 8 | $0.37 | ⭐⭐⭐ EAMAX 安装 Olares 教程 |
-| strix halo mini pc | 880 | 34 | $0.41 | ⭐⭐ "Strix Halo mini PC 终极对比" 含 EAMAX |
-| mini pc server home | 170 | 8 | $0.47 | ⭐⭐⭐ EAMAX as home server + Olares |
-| ryzen ai max 395 mini pc | 720 | 30 | $0.47 | ⭐⭐ 所有 Strix Halo 买家决策词 |
+| zotac magnus | 110 | 27 | $0.55 | ⭐⭐⭐ "Zotac Magnus EAMAX vs Olares One" 对比文：24GB CUDA 独显 vs iGPU 的 AI 可用性（轴 1，诚实注 120B 边界），KD 低 |
+| strix halo mini pc | 880 | 34 | $0.41 | ⭐⭐ "Strix Halo mini PC 终极对比" 含 EAMAX——轴 1 AI 可用性差距 |
+| ryzen ai max 395 mini pc | 720 | 30 | $0.47 | ⭐⭐ 所有 Strix Halo 买家决策词，突出 Olares One 轴 1 |
+| zotac zbox mini pc | 50 | 9 | $0 | ⭐⭐⭐ 信息 B："ZBox 上安装 Olares"，KD 极低 |
+| mini pc linux | 320 | 8 | $0.37 | ⭐⭐⭐ 信息 B：EAMAX 安装 Olares 教程 |
+| mini pc server home | 170 | 8 | $0.47 | ⭐⭐⭐ 信息 B：EAMAX as home server + Olares |
 | zbox | 2,400 | 24 | $0 | ⭐ ZBOX 大词，侧边栏或内链入口 |
 
 ---
@@ -127,11 +127,11 @@ Zotac（索泰/卓泰）是香港科技公司（PC Partner 子品牌），以 NV
 
 | # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
 |---|--------|------|-----|---------|--------------|
-| 1 | zotac zbox mini pc | 50 | 9 | ⭐⭐⭐ | "ZBOX 安装 Olares" 教程——KD=9，竞争空白 |
-| 2 | mini pc linux | 320 | 8 | ⭐⭐⭐ | "Install Olares on Zotac Magnus EAMAX" 入口 |
-| 3 | mini pc server home | 170 | 8 | ⭐⭐⭐ | Magnus EAMAX as home server + Olares 部署 |
-| 4 | zotac magnus | 110 | 27 | ⭐⭐ | "Zotac Magnus EAMAX vs Olares One" 对比 |
-| 5 | strix halo mini pc | 880 | 34 | ⭐⭐ | Strix Halo 终极对比文，覆盖 EAMAX |
+| 1 | strix halo mini pc | 880 | 34 | ⭐⭐⭐ | Strix Halo 终极对比文，覆盖 EAMAX——轴 1 讲 24GB CUDA 独显 AI 可用性（类比同芯 Beelink 实测），诚实注 120B 边界 |
+| 2 | zotac magnus | 110 | 27 | ⭐⭐ | "Zotac Magnus EAMAX vs Olares One" 对比（轴 1：CUDA 独显 vs iGPU AI 可用性） |
+| 3 | zotac zbox mini pc | 50 | 9 | ⭐⭐⭐ | 信息 B："ZBOX 安装 Olares" 教程——KD=9，竞争空白 |
+| 4 | mini pc linux | 320 | 8 | ⭐⭐⭐ | 信息 B："Install Olares on Zotac Magnus EAMAX" 入口 |
+| 5 | mini pc server home | 170 | 8 | ⭐⭐⭐ | 信息 B：Magnus EAMAX as home server + Olares 部署 |
 | 6 | ryzen ai max 395 mini pc | 720 | 30 | ⭐⭐ | 品类对比文，EAMAX 作为 B 选项 |
 | 7 | zbox | 2,400 | 24 | ⭐ | ZBOX 大词做内链/内容矩阵入口 |
 | 8 | ryzen ai max mini pc | 90 | 25 | ⭐⭐ | "Best Ryzen AI Max mini PC 2026" 选购榜 |
@@ -144,8 +144,8 @@ Zotac（索泰/卓泰）是香港科技公司（PC Partner 子品牌），以 NV
 
 1. **品牌护城河**：Zotac 品牌词 5,400/mo（KD=62），GPU 产品线是真正的流量主体，mini PC 仅是附属业务。Magnus EAMAX 当前搜索量极低（刚上市），是**早期占位机会**。
 2. **可复制的打法**：Zotac 在 `zbox mm`（9,900/mo，KD=11）词上是自然获流的典范——Olares 可以做"ZBOX M 系列/EAMAX 上装 Olares 的 homelab 配置指南"，搭这个大词的低 KD 顺风车。
-3. **对 Olares 最关键的词**：`zotac zbox mini pc`（KD=9）、`mini pc linux`（KD=8）、`zotac magnus`（110/mo，KD=27）。
-4. **最大攻击面**：EAMAX 是裸机（只带 Win11，无 NAS OS/私有云 OS），且只有双 2.5GbE（非 10GbE），对比 Olares One 的双 10GbE + RTX 5090 Mobile + Olares OS 完整软件栈，有明显的 "裸机 vs 整机" 攻击点。
+3. **对 Olares 最关键的词**：`strix halo mini pc`（880/mo，主信息 A 品类对比主战场）、`zotac magnus`（110/mo，KD=27，产品级对比）、`zotac zbox mini pc`（KD=9）/`mini pc linux`（KD=8，信息 B 教程）。
+4. **最大攻击面（轴 1「AI 更好用」为主）**：EAMAX395C 是 Radeon iGPU（经 ROCm、成熟度低），本地 AI 可用性可类比同芯 Beelink GTR9 Pro 实测（LLM 吞吐全场最低、无 CUDA 跑不了图像/视频，ComfyUI/SD 等应用覆盖窄）；Olares One 靠 24GB GDDR7 + 成熟 CUDA 覆盖全部 AI 应用 + Olares OS 开箱即用 + 第一方实测背书。价格轴反转（EAMAX 更便宜），故不打"更便宜"，轴 2 讲"每美元可用 AI + 开箱即用"（EAMAX 只带 Win11、仅双 2.5GbE 非 10GbE 是补充点）。**诚实边界**：EAMAX 128GB 统一内存能装下 GPT-OSS-120B（Olares One 24GB 需 offload）。裸机（无私有云 OS）是信息 B（装 Olares）的切入点。
 5. **隐藏低 KD 金矿**：`zbox mm`（9,900/mo，KD=11）是 Zotac mini PC 方向量最大 KD 最低的词；`mini pc server home`（KD=8）、`mini pc linux`（KD=8）同理——这些词竞争几乎空白。
 6. **GEO 前瞻布局**：`zotac magnus eamax review`、`eamax395c ollama`、`zotac eamax linux` 当前量为 0，未来随产品普及必然出现，现在发布可先占 AI Overview 引用位。
 7. **与既有分析的关联**：Zotac 作为 GPU 品牌在 [olares-500-keywords-analysis](/Users/pengpeng/seo/reference/olares-500-keywords-analysis-2026-07-03.md) 中属于硬件词补充；`strix halo mini pc`（880/mo）是 Strix Halo 系列的最大公约词，覆盖所有 EAMAX 竞品。

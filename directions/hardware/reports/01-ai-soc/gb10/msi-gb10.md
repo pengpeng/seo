@@ -1,7 +1,7 @@
 # MSI EdgeXpert MS-C931 SEO 竞品分析报告（GB10 / DGX Spark 平台）
 
 > 域名：ipc.msi.com | SEMrush US | 2026-07-06
-> MSI EdgeXpert MS-C931 是最便宜的 GB10 机型（~$2,999–3,999），与 Olares One 同价位正面竞争，但底层硬件路线截然不同：ARM 128GB 统一内存 vs x86 RTX 5090 Mobile 24GB GDDR7。
+> MSI EdgeXpert MS-C931 是最便宜的 GB10 机型（~$2,999–3,999），与 Olares One 同价位——打"同价位更超值"（$3,999 Olares One 给 x86 + CUDA 全验证 + Olares OS 全栈 + 24GB 独显真跑），路线截然不同：arm64 128GB 统一内存 vs x86 RTX 5090 Mobile 24GB GDDR7。
 
 ---
 
@@ -15,7 +15,7 @@ MSI EdgeXpert MS-C931 是 MSI 工业计算部门（ipc.msi.com）推出的桌面
 - 工业级 ipc.msi.com 渠道，企业销售线
 - 3 年保修
 
-关键局限：ARM（DGX OS = Ubuntu 24.04 arm64），CUDA 生态相对 x86+NVIDIA 更完整，但应用支持（ComfyUI/SD/Ollama 以外的工具）需逐一验证。**Olares 信息 B 可行**：Olares ARM 路径（同树莓派 script）可在 DGX OS 上尝试，GPU 为 Blackwell（架构受支持），但实测验证状态为 [unverified]（见 [devices.md](/Users/pengpeng/seo/directions/hardware/devices.md) 注释）。
+关键局限：arm64（DGX OS = Ubuntu 24.04 arm64），Docker/app 兼容性不如 x86+NVIDIA，应用支持（ComfyUI/SD/Ollama 以外的工具）需逐一验证，是纯 AI 开发盒。**兜底信息 B · 已购 MS-C931 装 Olares：已确认支持**——Olares 1.12.5（2026-03-27）起官方支持在 NVIDIA DGX Spark 上安装 Olares，GB10 同芯机型走同路径（见[官方指南](https://www.olares.com/forum/t/olares-1-12-5-dgx-spark-support-and-gpu-management-improvements/50)，各 OEM 机型 GPU 识别可沿用、个别未逐台实测处仍注明）。
 
 | 项目 | 内容 |
 |------|------|
@@ -122,7 +122,7 @@ MSI EdgeXpert MS-C931 是 MSI 工业计算部门（ipc.msi.com）推出的桌面
 
 ## Olares 关联词（Phase 3）
 
-**核心叙事：同价位（~$3,999）、不同路线——GB10 ARM 128GB 统一内存（大模型参数容量优先）vs Olares One RTX 5090 Mobile 24GB GDDR7（CUDA 生态 + 全栈私有云 OS）。**
+**核心叙事（两轴导向）：主信息 A · 买 Olares One——轴 1 AI 更好用（出厂 Olares OS 私有云全栈 + x86-64 CUDA 全验证 + 24GB GDDR7 独显真跑本地大模型 / Personal Agent，第一方实测背书），轴 2 同价位更超值（MS-C931 $2,999–3,999、是 arm64 纯 AI 开发盒，Docker/app 兼容更窄；$3,999 Olares One 全栈更能打，不硬说更便宜）。诚实边界：MS-C931 128GB 统一内存能装 >24GB 超大模型（如 GPT-OSS-120B / 200B 量级），Olares One 24GB VRAM 装不下——涉及时如实写。兜底信息 B · 已购装 Olares：已确认支持（1.12.5 官方支持 DGX Spark，同芯机型走同路径）。**
 
 | 关键词 | 月量 | KD | CPC | Olares 角度 | 契合度 |
 |--------|------|----|-----|------------|--------|
@@ -139,10 +139,10 @@ MSI EdgeXpert MS-C931 是 MSI 工业计算部门（ipc.msi.com）推出的桌面
 
 | # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
 |---|--------|------|----|---------|--------------|
-| 1 | dgx spark alternative | 40 | 12 | ⭐⭐⭐ | "DGX Spark Alternatives in 2026"——列出所有 GB10 机型 + Olares One 作为 RTX 5090 CUDA 替代，CPC $2.89 说明商业价值极高 |
+| 1 | dgx spark alternative | 40 | 12 | ⭐⭐⭐ | "DGX Spark Alternatives in 2026"——列出所有 GB10 机型 + Olares One 走两轴：轴 1 AI 更好用（CUDA 全验证 + Olares OS 全栈 + 24GB 真跑），轴 2 同价位更超值，CPC $2.89 商业价值极高 |
 | 2 | personal ai server | 20 | 0 | ⭐⭐⭐ | "Best Personal AI Server 2026"——KD0 + CPC $3.70，抢 GEO 引用位，Olares One 是核心答案 |
 | 3 | gb10 vs rtx 5090 | 20 | 0 | ⭐⭐⭐ | 技术对比文：GB10 128GB 统一内存 vs RTX 5090 24GB GDDR7——选择框架 + Olares One 推荐 |
-| 4 | msi edgexpert | 260 | 27 | ⭐⭐ | "MSI EdgeXpert MS-C931 Review & Alternatives"——Olares One 作为同价位 CUDA 路线选项 |
+| 4 | msi edgexpert | 260 | 27 | ⭐⭐ | "MSI EdgeXpert MS-C931 Review & Alternatives"——Olares One 同价位更超值（x86 CUDA 全栈私有云 + 24GB 真跑）；诚实标注 >24GB 大模型 MS-C931 更能装 |
 | 5 | gb10 mini pc | 20 | 0 | ⭐⭐ | GB10 所有机型横向对比导购，Olares One 列为 x86 路线最大竞品 |
 | 6 | msi edgexpert review | 10 | 0 | ⭐⭐ | EdgeXpert 评测文，结尾："如果你更需要 CUDA 生态，同价位 Olares One" |
 | 7 | nvidia dgx spark | 18,100 | 68 | ⭐ | KD68 难正面竞争，但可写"DGX Spark 深度解析"并在文中自然列 GB10 价格对比 + Olares One |
@@ -162,13 +162,14 @@ MSI EdgeXpert MS-C931 是 MSI 工业计算部门（ipc.msi.com）推出的桌面
    - `dgx spark alternative`（40/mo，KD12，$2.89 CPC）——最高投资回报率词
    - `personal ai server`（20/mo，KD0，$3.70 CPC）——Olares One 的直接场景词
    - `gb10 vs rtx 5090`（20/mo，KD0）——核心技术对比，Olares One 叙事最清晰的切入
+   这些词的 Olares 落点统一走两轴：轴 1 AI 更好用（x86 CUDA 全验证 + Olares OS 全栈 + 24GB 独显真跑，第一方实测背书），轴 2 同价位更超值（MS-C931 是 arm64 开发盒，**不硬说 Olares One 更便宜**）。
 
 4. **最大攻击面**：EdgeXpert MS-C931（和所有 GB10 机型）的核心局限：
-   - **ARM 生态**：CUDA 应用（ComfyUI、Stable Diffusion 等）在 ARM DGX OS 上支持逐一验证中，非即插即用
-   - **无 CUDA 完整生态**：GB10 GPU 是 Blackwell，但 ARM + DGX OS ≠ x86 NVIDIA 的完整 CUDA 应用库
+   - **arm64 生态**：CUDA 应用（ComfyUI、Stable Diffusion 等）在 arm64 DGX OS 上支持逐一验证中，Docker/app 兼容更窄，非即插即用
+   - **无 CUDA 完整生态 + 无个人云 OS 层**：GB10 GPU 是 Blackwell，但 arm64 + DGX OS ≠ x86 NVIDIA 的完整 CUDA 应用库，且只是纯 AI 开发盒
    - **仅 1 个 HDMI + 4 个 DP-via-USB-C**：缺少 PCIe 扩展插槽
-   - **价格**：$2,999–3,999，与 Olares One（$3,999）直接重叠
-   Olares 叙事：**"同价位，Olares One = RTX 5090 24GB GDDR7 + 全栈 CUDA + 完整私有云 OS；EdgeXpert = 128GB 统一内存，适合超大 LLM 推理（200B+）"**——两者各有适用场景，Olares 的优势在 CUDA 应用生态完整性。
+   - **价格**：$2,999–3,999，与 Olares One（$3,999）同价位重叠
+   Olares 叙事（两轴）：**轴 1 AI 更好用——Olares One = RTX 5090 24GB GDDR7 + 全栈 CUDA 全验证 + 完整私有云 OS，真跑本地大模型有第一方实测背书；轴 2 同价位更超值——不硬说更便宜，$3,999 全栈更能打**。诚实边界：MS-C931 128GB 统一内存适合超大 LLM 推理（>24GB / 200B+），那类模型 Olares One 24GB 装不下——两者各有场景。注：已购 MS-C931 也可装 Olares（1.12.5 **已确认官方支持 DGX Spark**，同芯机型走同路径），信息 B 兜底。
 
 5. **隐藏低 KD 金矿**：`dgx spark alternative`（KD12）、`personal ai server`（KD0，$3.70 CPC）、`gb10 vs rtx 5090`（KD0）——三个词合计月量约 80，量小但意图极精准，且 AI Overview 曝光乘数可放大到 5-10 倍覆盖量。
 

@@ -1,7 +1,7 @@
 # Acer Veriton GN100 SEO 竞品分析报告
 
 > 域名：acer.com | SEMrush US | 2026-07-06
-> Acer 的 GB10 整机：全生态最低价（US $2,999）+ 最佳散热，arm64 个人 AI 超算，与 Olares One 同价位正面竞争
+> Acer 的 GB10 整机：全生态最低价（US $2,999）+ 最佳散热，arm64 个人 AI 超算，与 Olares One 同价位——打"同价位更超值"（$3,999 Olares One 给 x86 + CUDA 全验证 + Olares OS 全栈 + 24GB 独显真跑）
 
 ---
 
@@ -21,7 +21,7 @@ Acer Veriton GN100 AI Mini Workstation 是 Acer 在 NVIDIA GB10 Grace Blackwell 
 | Olares Market | 未上架（硬件产品） |
 | 来源 | [Acer 官方发布稿](https://news.acer.com/acer-unveils-the-veriton-gn100-ai-mini-workstation-built-on-the-nvidia-gb10-superchip)、[StorageReview 评测](https://www.storagereview.com/review/acer-veriton-gn100-review-a-standout-in-the-nvidia-spark-ecosystem)、[Inkl 报道（含 US/UK 价格分析）](https://www.inkl.com/news/acer-veriton-gn100-ai-mini-pc-workstation-another-ai-development-system-using-the-same-nvidia-grace-blackwell-foundations)、[nvidia-gb10.md 既有研究](/Users/pengpeng/seo/directions/hardware/research/01-ai-soc/nvidia-gb10.md) |
 
-> **Olares 对标说明**：Veriton GN100 = arm64 + DGX OS。Olares 通过 Linux script（`olares.sh`）支持 ARM Linux（树莓派路径），**有望适配**；GB10 Blackwell GPU 落在 Olares 支持架构表内（GB ✓）。但 arm64 script 在 DGX OS 实测 + 整合 Blackwell 识别均为 [unverified]，内容中用"有望/预计"表述，勿写死。**信息 A（为何买 Olares One）更强**：$3,999 Olares One 提供 x86-64 + CUDA 全验证 + 个人云 OS 层（多用户、远程访问、Olares Market 应用生态）——这是 Veriton GN100 纯 AI 开发环境不提供的。
+> **Olares 对标说明（两轴导向）**：Veriton GN100 = arm64 + DGX OS，US $2,999 与 Olares One **同价位**。**主信息 A · 买 Olares One**——**轴 1 AI 更好用**：出厂即 Olares OS 私有云全栈（Olares Market 一键装 AI 应用、多用户、LarePass 安全远程、备份）、x86-64 + NVIDIA CUDA 全验证 AI 应用全覆盖、24GB GDDR7 独显真能常驻跑本地大模型 / Personal Agent，且有第一方实测背书（[olares-one-benchmarks.md](/Users/pengpeng/seo/directions/hardware/research/olares-one-benchmarks.md)：LLM 吞吐全场最高、图像比 M3 Ultra 快 5.7–8.8x、唯一跑通全部图像+视频）；**轴 2 同价位更超值**：GN100 $2,999 更便宜、但只是 arm64 纯 AI 开发盒（Docker/app 兼容更窄），$3,999 的 Olares One 多给 x86 + CUDA 全验证 + Olares OS 全栈 + 24GB 独显真跑——**不硬说 Olares One 更便宜**。**诚实边界**：GN100 128GB 统一内存能装 GPT-OSS-120B 这类 >24GB 超大模型，Olares One 24GB VRAM 装不下需 offload、会输给统一内存机型——涉及时如实写。**兜底信息 B · 已购 GN100 装 Olares**：**已确认支持**（Olares 1.12.5 官方支持 NVIDIA DGX Spark，GB10 同芯机型走同路径，见[官方指南](https://www.olares.com/forum/t/olares-1-12-5-dgx-spark-support-and-gpu-management-improvements/50)；各 OEM 机型 GPU 识别可沿用，个别未逐台实测处仍注明），把 arm64 算力变成随处可用的私有 AI。
 
 ---
 
@@ -125,7 +125,7 @@ Acer Veriton GN100 AI Mini Workstation 是 Acer 在 NVIDIA GB10 Grace Blackwell 
 
 ## Olares 关联词（Phase 3）
 
-核心逻辑：**Olares One（$3,999）是 Veriton GN100（$2,999）的"OS 级升维"对比——同价位，但 Olares One 给你私有云 OS 全栈 + CUDA 完整验证 + Olares Market；而 Veriton GN100 的 arm64 + 128GB 统一内存路线有自己的用例（200B 量级模型装不进 24GB 显存）**。两条叙事：信息 A（买 Olares One 而非 GN100）+ 信息 B（GN100 用户装 Olares 私有云 OS，有望但 [unverified]）。
+核心逻辑（两轴导向）：**主信息 A · 买 Olares One**——轴 1 AI 更好用（出厂 Olares OS 私有云全栈 + x86-64 CUDA 全验证 + 24GB GDDR7 独显真跑本地大模型 / Personal Agent，第一方实测背书）；轴 2 同价位更超值（GN100 $2,999 更便宜、但只是 arm64 纯 AI 开发盒，Docker/app 兼容更窄；$3,999 Olares One 全栈更能打——**不硬说更便宜**）。诚实边界：GN100 128GB 统一内存能装 >24GB 超大模型（如 GPT-OSS-120B），Olares One 24GB VRAM 装不下——涉及时如实写。**兜底信息 B · 已购 GN100 装 Olares**：**已确认支持**（Olares 1.12.5 官方支持 DGX Spark，GB10 同芯机型走同路径）。
 
 | 关键词 | 月量 | KD | CPC | Olares 角度 | 契合度 |
 |--------|------|----|----|-----------|-------|
@@ -144,8 +144,8 @@ Acer Veriton GN100 AI Mini Workstation 是 Acer 在 NVIDIA GB10 Grace Blackwell 
 
 | # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
 |---|--------|------|----|---------|--------------|
-| 1 | dgx spark alternative | 40 | 12 | ⭐⭐⭐ | 对比文：Olares One vs DGX Spark / Acer GN100，同价位谁更值 |
-| 2 | acer veriton gn100 | 50 | 28 | ⭐⭐⭐ | 产品评测 + 对比：GN100 $2,999 vs Olares One $3,999，两种 AI 本地化路线 |
+| 1 | dgx spark alternative | 40 | 12 | ⭐⭐⭐ | 对比文：Olares One vs DGX Spark / Acer GN100——轴 1 AI 更好用（CUDA 全验证 + Olares OS 全栈 + 24GB 真跑）、同价位更超值 |
+| 2 | acer veriton gn100 | 50 | 28 | ⭐⭐⭐ | 产品评测 + 对比：GN100 $2,999（arm64 开发盒）vs Olares One $3,999（x86 CUDA 全栈私有云），同价位更超值；诚实标注 >24GB 大模型 GN100 更能装 |
 | 3 | dgx spark vs mac studio | 70 | 20 | ⭐⭐⭐ | 三角对比文，插入 Olares One 作第四选项 |
 | 4 | ai mini pc | 480 | 28 | ⭐⭐ | 品类综述：2026 最佳 AI 迷你 PC（含 GN100 / Olares One） |
 | 5 | dgx spark price | 2,900 | 35 | ⭐⭐ | 价格比较文：所有 GB10 机型定价 + Olares One 性价比 |
@@ -163,9 +163,9 @@ Acer Veriton GN100 AI Mini Workstation 是 Acer 在 NVIDIA GB10 Grace Blackwell 
 
 2. **可复制的打法**：生态总流量池在 `dgx spark`（22,200/mo）/ `nvidia dgx spark`（18,100/mo）——这些词 KD 高（55-68），但下游有一批 KD 极低的长尾词：`dgx spark alternative`（KD12）、`dgx spark vs mac studio`（KD20），可用对比文截流。`acer mini pc`（210/mo，KD19）是意外的低竞争品牌词。
 
-3. **对 Olares 最关键的词**：① `dgx spark alternative`（40/mo，**KD12**，$2.89 CPC）——已验证的最高价值切入词；② `acer veriton gn100`（50/mo，KD28，**$27.26 CPC**）——购买意图最强；③ `dgx spark vs mac studio`（70/mo，KD20）——三角对比文机会。
+3. **对 Olares 最关键的词**：① `dgx spark alternative`（40/mo，**KD12**，$2.89 CPC）——已验证的最高价值切入词；② `acer veriton gn100`（50/mo，KD28，**$27.26 CPC**）——购买意图最强；③ `dgx spark vs mac studio`（70/mo，KD20）——三角对比文机会。这些词的 Olares 落点统一走两轴：轴 1 AI 更好用（x86 CUDA 全验证 + Olares OS 全栈 + 24GB 独显真跑，第一方实测背书），轴 2 同价位更超值（GN100 $2,999 便宜但只是 arm64 开发盒，**不硬说 Olares One 更便宜**）。
 
-4. **最大攻击面**：UK 定价严重倒挂——UK £3,999 vs US $2,999，同配置贵 82%；另一个攻击面是 arm64 生态限制（Docker 应用兼容性不如 x86、Olares Market 应用未验证）——Olares One 的 x86 + CUDA 完整验证 是差异点。
+4. **最大攻击面**：UK 定价严重倒挂——UK £3,999 vs US $2,999，同配置贵 82%；另一个攻击面是 GN100 的 arm64 生态限制（Docker/app 兼容性不如 x86、纯 AI 开发盒无个人云 OS 层）——Olares One 的 x86 + CUDA 完整验证 + Olares OS 全栈是轴 1 差异点。注：已购 GN100 也可装 Olares（1.12.5 **已确认官方支持 DGX Spark**，同芯机型走同路径），信息 B 兜底。
 
 5. **隐藏低 KD 金矿**：`grace blackwell mini pc`（20/mo，KD 0）、`gb10 mini pc`（20/mo，KD 0）、`acer gb10`（40/mo，KD 0）——全部是新兴零竞争词，先占内容等搜索量爬升。
 

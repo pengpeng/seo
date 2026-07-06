@@ -9,6 +9,8 @@
 
 HP 在 2025 年将 AMD Strix Halo（Ryzen AI Max PRO 系列）同时带入了两种形态：**ZBook Ultra G1a**（14 英寸移动工作站，可选 Ubuntu 24.04 预装，Ubuntu 官方认证）与 **Z2 Mini G1a**（迷你桌面工作站，300W 内置电源，最高 120W TDP 解锁，企业 ISV 认证）。两款最高配置均为 Ryzen AI Max+ PRO 395 + 128GB LPDDR5X-8533 统一内存，GPU 最高可分配 96GB；这是 2025 年 14 英寸移动工作站中罕见的 96GB GPU 内存配置，对本地大模型而言是核心卖点。HP 还有第三款基于 NVIDIA GB10 的 **ZGX Nano G1n**（DGX OS / Ubuntu 24.04 arm64，1000 TOPS，$3,000–4,700），与 DGX Spark 同参考设计，是 Olares 信息 B（arm64 script 路径）的候选机型。
 
+**Olares 对标（主信息 A 优先）**：ZBook Ultra 起价 ~$2,499、Z2 Mini ~$1,529 起，多低于 Olares One（$3,999 零售）——**别硬说 Olares One 更便宜，主打轴 1「AI 更好用」**：Olares One 是真 24GB GDDR7 独显 + 成熟 CUDA（覆盖 ComfyUI/SD 等 AMD ROCm 覆盖窄的应用）+ Olares OS 开箱即用（Olares Market 一键装 AI、多用户、LarePass 远程、备份）+ 第一方实测背书。HP 两款的 Radeon iGPU（经 ROCm、成熟度低）本地 AI 短板可**类比同芯 Beelink GTR9 Pro 实测**（AI Max+ 395：LLM 吞吐全场最低、无 CUDA 跑不了图像/视频；同芯其它整机因 OEM 调校单并发或高约 30%，不改架构结论）。**诚实边界**：HP 的 128GB 统一内存能装下 GPT-OSS-120B（Olares One 24GB 需 offload），超大 MoE/dense 上统一内存有其位置。轴 2 打"每美元可用 AI + 开箱即用"。两款均 x86-64（ZBook 更是 Ubuntu 官方认证），信息 B（装 Olares，AMD ROCm 加速）成立且顺，但仍是兜底；ZGX Nano 走 GB10/arm64 script 路径，`dgx spark alternative` 是其最高价值落点。
+
 | 项目 | 内容 |
 |------|------|
 | 一句话定位 | HP 专业/工作站线的"Strix Halo 统一内存 AI 工作站"（移动 + 迷你桌面）|
@@ -103,15 +105,15 @@ HP 在 2025 年将 AMD Strix Halo（Ryzen AI Max PRO 系列）同时带入了两
 
 ## Olares 关联词（Phase 3）
 
-**核心叙事切入点：HP ZBook Ultra G1a 是 Ubuntu 24.04 官方认证的 Strix Halo 移动工作站——这是当前在售 Strix Halo 设备中与 Linux/开源私有 AI 最接近的机型；Z2 Mini G1a 是企业迷你工作站，装 Olares 后变"团队级随处可访问私有 AI 服务器"；ZGX Nano = GB10 DGX Spark 生态，`dgx spark alternative` KD=12 是最高价值词。**
+**核心叙事（主信息 A 优先）：Olares One 对比 HP Strix Halo 两款主打轴 1「AI 更好用」——真 24GB GDDR7 独显 + 成熟 CUDA（AI 应用全覆盖）+ Olares OS 开箱即用 + 第一方实测背书（HP 的 iGPU 短板可类比同芯 Beelink 实测：本地 LLM 全场最低、无 CUDA 跑不了图像/视频）；HP 两款多更便宜，价格轴反转不硬打，轴 2 讲"每美元可用 AI + 开箱即用"。兜底信息 B：ZBook Ultra 是 Ubuntu 24.04 官方认证 Strix Halo 本、Z2 Mini 是企业迷你工作站，均可装 Olares（AMD ROCm）——只对已买的人讲；ZGX Nano = GB10 DGX Spark 生态，`dgx spark alternative` KD=12 是最高价值词。诚实边界：120B 超大模型 24GB 装不下，HP 128GB 统一内存反而能装。**
 
 | 关键词 | 月量 | KD | CPC | Olares 角度 |
 |--------|------|----|----|-----------|
-| strix halo laptop | 590 | 9 | $1.47 | ⭐⭐⭐ HP ZBook Ultra G1a 是首发 Ubuntu 认证 Strix Halo 本——对比文"strix halo laptop + Olares 私有 AI" |
-| ryzen ai max 395 laptop | 1,000 | 18 | $1.35 | ⭐⭐⭐ Olares 在 Strix Halo/ZBook 上装机教程，截获选购词 |
-| strix halo | 4,400 | 25 | $1.02 | ⭐⭐ 品类通用词，"strix halo 本地 AI"教程 |
+| strix halo laptop | 590 | 9 | $1.47 | ⭐⭐⭐ 对比文：ZBook Ultra vs Olares One——24GB CUDA 独显 vs iGPU 的 AI 可用性（轴 1，类比同芯 Beelink 实测，诚实注 120B 边界） |
+| ryzen ai max 395 laptop | 1,000 | 18 | $1.35 | ⭐⭐⭐ 选购词：突出 Olares One 轴 1（真独显 + CUDA + 开箱即用）；信息 B 附 ZBook 装 Olares |
+| strix halo | 4,400 | 25 | $1.02 | ⭐⭐ 品类通用词，"strix halo 本地 AI"教程 + Olares One 轴 1 对标 |
 | amd strix halo | 1,600 | 29 | $0.83 | ⭐⭐ 同上 |
-| strix halo mini pc | 880 | 34 | $0.41 | ⭐⭐ Z2 Mini G1a 对比文，"strix halo mini pc + Olares" |
+| strix halo mini pc | 880 | 34 | $0.41 | ⭐⭐ Z2 Mini G1a vs Olares One 对比：CUDA 独显 vs iGPU AI 可用性（轴 1） |
 | dgx spark alternative | 40 | 12 | $2.89 | ⭐⭐⭐ ZGX Nano = GB10 DGX Spark 竞品，Olares One vs ZGX Nano 对比文，CPC=$2.89 商业意图极强 |
 | hp z2 mini g1a | 880 | 43 | $1.34 | ⭐ HP Z2 Mini + Olares 安装教程（商用转私有 AI 服务器）|
 | hp zbook ultra g1a | 1,300 | 50 | $1.47 | ⭐ 评测截流 |
@@ -122,7 +124,7 @@ HP 在 2025 年将 AMD Strix Halo（Ryzen AI Max PRO 系列）同时带入了两
 
 | # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
 |---|--------|------|----|---------|--------------|
-| 1 | strix halo laptop | 590 | **9** | ⭐⭐⭐ | **P0**：KD=9 极低，量 590，CPC=$1.41——"Strix Halo Laptop for Local AI: HP ZBook Ultra G1a + Olares 安装指南"，先行者机会 |
+| 1 | strix halo laptop | 590 | **9** | ⭐⭐⭐ | **P0**：KD=9 极低，量 590，CPC=$1.41——"Strix Halo Laptop for Local AI: ZBook Ultra vs Olares One"，轴 1 讲 CUDA 独显 AI 可用性（类比同芯 Beelink 实测，诚实注 120B 边界）+ 信息 B 附装 Olares 指南 |
 | 2 | ryzen ai max 395 laptop | 1,000 | **18** | ⭐⭐⭐ | KD=18，量 1k——"Best Ryzen AI Max 395 Laptop for Private AI"，覆盖 ZBook Ultra + Z2 Mini |
 | 3 | dgx spark alternative | 40 | **12** | ⭐⭐⭐ | KD=12，CPC=$2.89 超高——"DGX Spark Alternative: HP ZGX Nano vs Olares One"，商业意图强 |
 | 4 | strix halo | 4,400 | **25** | ⭐⭐ | 量大但 KD=25——品类综述文"What is Strix Halo? Best Use Cases for Local AI" |
@@ -143,7 +145,7 @@ HP 在 2025 年将 AMD Strix Halo（Ryzen AI Max PRO 系列）同时带入了两
 
 3. **对 Olares 最关键的词**：① `strix halo laptop`（KD=9，P0 先发）② `ryzen ai max 395 laptop`（KD=18，量 1k）③ `dgx spark alternative`（KD=12，CPC=$2.89，ZGX Nano/GB10 生态）
 
-4. **最大攻击面**：ZBook Ultra G1a 主打"移动工作站"——有屏、有电池、非 7×24 无头服务器、价格偏贵（$2,500+）。Olares One（$3,999 / 24GB GDDR7 RTX 5090 / 96GB DDR5）叙事：**同样 96GB 内存量级，但 Olares One 是 NVIDIA CUDA（成熟度远高于 ROCm）+ 无头常驻 AI 盒子**。Z2 Mini 是最接近 Olares One 定位的竞品，但无 dGPU 加速，ROCm 的 AI 应用覆盖度远不如 CUDA。
+4. **最大攻击面（轴 1「AI 更好用」为主）**：HP 两款均为 Radeon iGPU（经 ROCm、成熟度低），本地 AI 可用性可类比同芯 Beelink GTR9 Pro 实测（LLM 吞吐全场最低、无 CUDA 跑不了图像/视频，ComfyUI/SD 等应用覆盖窄）；Olares One 靠 24GB GDDR7 + 成熟 CUDA 覆盖全部 AI 应用 + Olares OS 开箱即用 + 第一方实测背书。价格轴反转（ZBook ~$2,499 起、Z2 Mini ~$1,529 起，多低于 Olares One），故不打"更便宜"，轴 2 讲"每美元可用 AI + 开箱即用"。**诚实边界**：HP 128GB 统一内存能装下 GPT-OSS-120B（Olares One 24GB 需 offload），超大 MoE/dense 上统一内存有其位置。支撑细节：ZBook 有屏/有电池、非 7×24 无头常驻，Z2 Mini 无 dGPU 加速——但这些是轴 1 的支撑，不作标题级论点。Z2 Mini 是最接近 Olares One 形态的竞品，也是信息 B（装 Olares 变团队级随处可访问私有 AI 服务器）的切入点。
 
 5. **隐藏低 KD 金矿**：`strix halo laptop` KD=9 在 strix halo 品类词群中最低，且 CPC=$1.41 说明有商业意图——目前主要是资讯类内容，Olares 可以写评测+安装教程占 P1。`ryzen ai max 395 laptop` KD=18 同理。
 

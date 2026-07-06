@@ -1,7 +1,7 @@
 # ASUS Ascent GX10 SEO 竞品分析报告
 
 > 域名：asus.com（聚焦 rog.asus.com 子域 + GB10 产品线）| SEMrush US | 2026-07-06
-> ASUS 的 GB10 整机入局："个人 AI 超算"市场的 ASUS 版本，arm64 + 128GB 统一内存，与 Olares One 同价位正面竞争
+> ASUS 的 GB10 整机入局："个人 AI 超算"市场的 ASUS 版本，arm64 + 128GB 统一内存，与 Olares One 同价位——打"同价位更超值"（$3,999 Olares One 给 x86 + CUDA 全验证 + Olares OS 全栈 + 24GB 独显真跑）
 
 ---
 
@@ -21,7 +21,7 @@ ASUS Ascent GX10 是 ASUS 在 NVIDIA GB10 Grace Blackwell SoC 上打造的紧凑
 | Olares Market | 未上架（硬件产品） |
 | 来源 | [asus.com 官方规格页](https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/techspec/)、[Newegg 在售页](https://www.newegg.com/asus-ascent-gx10-mini-pc/p/N82E16859110044)、[ASUS 数据手册 PDF](https://dlcdnwebimgs.asus.com/files/media/202506/5c0fb57c-4e48-4e96-8c97-04bf8df2677c/asus-ascent-gx10-datasheet.pdf) |
 
-> **Olares 对标说明**：Ascent GX10 = arm64 DGX OS；Olares 的 ARM 安装路径（同树莓派的 arm64 script）**有望适配**，但 GPU 加速需 Blackwell 在 DGX OS / arm64 下的 Olares 实测确认 [unverified]。信息 A 角度（为何买 Olares One 而非 Ascent GX10）更强：x86-64 兼容性、CUDA 生态已完整验证、Olares 个人云 OS 层（多用户 + 远程访问 + 应用市场）vs NVIDIA 纯 AI 开发环境。
+> **Olares 对标说明（两轴导向）**：Ascent GX10 = arm64 DGX OS，~$3,999–4,699 与 Olares One **同价位**。**主信息 A · 买 Olares One**——**轴 1 AI 更好用**：出厂即 Olares OS 私有云全栈（Olares Market 一键装 AI 应用、多用户、LarePass 安全远程、备份）、x86-64 + NVIDIA CUDA 全验证 AI 应用全覆盖、24GB GDDR7 独显真能常驻跑本地大模型 / Personal Agent，且有第一方实测背书（[olares-one-benchmarks.md](/Users/pengpeng/seo/directions/hardware/research/olares-one-benchmarks.md)：LLM 吞吐全场最高、图像比 M3 Ultra 快 5.7–8.8x、唯一跑通全部图像+视频）；**轴 2 同价位更超值**：GX10 是 arm64 纯 AI 开发盒（Docker/app 兼容更窄），$3,999 的 Olares One 多给 x86 + CUDA 全验证 + Olares OS 全栈 + 24GB 独显真跑——**不硬说 Olares One 更便宜**。**诚实边界**：GX10 128GB 统一内存能装 GPT-OSS-120B 这类 >24GB 超大模型，Olares One 24GB VRAM 装不下需 offload、会输给统一内存机型——涉及时如实写。**兜底信息 B · 已购 GX10 装 Olares**：**已确认支持**（Olares 1.12.5 官方支持 NVIDIA DGX Spark，GB10 同芯机型走同路径，见[官方指南](https://www.olares.com/forum/t/olares-1-12-5-dgx-spark-support-and-gpu-management-improvements/50)；各 OEM 机型 GPU 识别可沿用，个别未逐台实测处仍注明），把 arm64 算力变成随处可用的私有 AI。
 
 ---
 
@@ -129,7 +129,7 @@ ASUS Ascent GX10 是 ASUS 在 NVIDIA GB10 Grace Blackwell SoC 上打造的紧凑
 
 ## Olares 关联词（Phase 3）
 
-**核心叙事切入点：同价位两条路——arm64 统一内存（Ascent GX10 / 128GB）vs x86 + 24GB GDDR7 独显（Olares One）；Olares One 提供完整个人云 OS 层，GB10 机器只有 DGX AI 开发环境。**
+**核心叙事切入点（两轴导向）：主信息 A · 买 Olares One——轴 1 AI 更好用（出厂 Olares OS 私有云全栈 + x86-64 CUDA 全验证 + 24GB GDDR7 独显真跑本地大模型，第一方实测背书），轴 2 同价位更超值（GX10 是 arm64 纯 AI 开发盒、Docker/app 兼容更窄；$3,999 Olares One 全栈更能打，不硬说更便宜）。诚实边界：GX10 128GB 统一内存能装 >24GB 超大模型，Olares One 装不下——涉及时如实写。兜底信息 B · 已购 GX10 装 Olares：已确认支持（Olares 1.12.5 官方支持 DGX Spark，同芯机型走同路径）。**
 
 | 关键词 | 月量 | KD | CPC | Olares 角度 |
 |--------|------|----|----|-----------|
@@ -150,12 +150,12 @@ ASUS Ascent GX10 是 ASUS 在 NVIDIA GB10 Grace Blackwell SoC 上打造的紧凑
 
 | # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
 |---|--------|------|----|---------|--------------|
-| 1 | dgx spark alternative | 40 | 12 | ⭐⭐⭐ | "Best DGX Spark Alternatives in 2026"——Olares One 作为"个人云 OS + RTX 5090"的差异化定位 |
+| 1 | dgx spark alternative | 40 | 12 | ⭐⭐⭐ | "Best DGX Spark Alternatives in 2026"——Olares One 走两轴：轴 1 AI 更好用（Olares OS 全栈 + CUDA 全验证 + 24GB 真跑），轴 2 同价位更超值 |
 | 2 | spark alternatives | 50 | 19 | ⭐⭐⭐ | 同上，同一内容可双词覆盖；CPC $6.79 极高商业价值 |
 | 3 | dgx spark vs evo-x2 | 320 | 16 | ⭐⭐⭐ | 借势写"DGX Spark 家族对比"，拉入 Olares One 作为替代方案 |
 | 4 | asus ascent gx10 - 1tb | 1,600 | 27 | ⭐⭐ | 产品评测内容，末尾对比"同价 Olares One 的不同选择" |
 | 5 | ascent gx10 | 320 | 28 | ⭐⭐ | 简洁品牌词评测，适合 GEO 引用（AI Overview / Perplexity）|
-| 6 | asus gb10 | 170 | 23 | ⭐⭐ | 买家决策词，"Ascent GX10 vs Olares One：$4000 AI 整机如何选" |
+| 6 | asus gb10 | 170 | 23 | ⭐⭐ | 买家决策词，"Ascent GX10 vs Olares One：同价位 $4000 谁更值"——Olares One 轴 1 全栈 AI + 诚实标注 >24GB 大模型 GX10 更能装 |
 | 7 | nvidia grace blackwell asus gx10 desktop | 50 | 20 | ⭐⭐ | 长尾精准，KD=20，适合 GEO 埋词 |
 | 8 | dgx spark vs 5090 | 140 | 25 | ⭐⭐ | RTX 5090（Olares One）vs GB10（Ascent GX10）架构对比文 |
 | 9 | gb10 mini pc | 20 | 0 | ⭐ | KD=0 零竞争，抢先发 FAQ 文档 / GEO 内容 |
@@ -173,8 +173,9 @@ ASUS Ascent GX10 是 ASUS 在 NVIDIA GB10 Grace Blackwell SoC 上打造的紧凑
    - `dgx spark alternative`（KD=12，CPC=$2.89）— 最高攻击价值
    - `spark alternatives`（KD=19，CPC=$6.79）— 最高商业价值 CPC
    - `dgx spark vs evo-x2`（月量 320，KD=16）— 量最大、KD 最低的对比词
+   这些词的 Olares 落点统一走两轴：轴 1 AI 更好用（x86 CUDA 全验证 + Olares OS 全栈 + 24GB 独显真跑，第一方实测背书），轴 2 同价位更超值（GX10 是 arm64 开发盒，**不硬说 Olares One 更便宜**）。
 
-4. **最大攻击面**：Ascent GX10 运行 **DGX OS（NVIDIA 闭源软件栈）**，用户被绑定在 NVIDIA AI 生态内；Olares One 对标的是"开源 OS + 可自定义 AI 应用市场"，适合不想被 NVIDIA 软件栈锁定的开发者。可写"DGX OS vs Open Source Personal Cloud"方向内容。
+4. **最大攻击面**：Ascent GX10 运行 **DGX OS（NVIDIA 闭源软件栈）+ arm64（Docker/app 兼容更窄）**，是纯 AI 开发盒；Olares One 轴 1 差异点是"出厂即开箱 Olares OS 私有云全栈 + x86 CUDA 全验证 + Olares Market 应用生态 + 24GB 独显真跑"。可写"DGX OS vs Open Source Personal Cloud"方向内容。注：已购 GX10 也可装 Olares（1.12.5 **已确认官方支持 DGX Spark**，同芯机型走同路径），信息 B 兜底。
 
 5. **隐藏低 KD 金矿**：
    - `nvidia grace blackwell asus gx10 desktop`（KD=20）
