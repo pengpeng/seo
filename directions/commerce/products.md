@@ -36,7 +36,7 @@
 ### 2. 模型网关 / 路由
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| OpenRouter | OpenRouter | openrouter.ai | ARR ~$50M；估值 $1.3B | LiteLLM / Bifrost | ✅ |
+| OpenRouter | OpenRouter | openrouter.ai | ARR ~$50M；估值 $1.3B | LiteLLM / Bifrost | ✅ [openrouter](reports/01-model/gateway/openrouter.md) |
 | Vercel AI Gateway | Vercel | vercel.com/ai | 母公司估值 $9.3B | LiteLLM / AI Router | ✅ [vercel-ai](reports/01-model/gateway/vercel-ai.md) |
 
 ### 3. 多模型客户端 / 聚合
@@ -77,7 +77,7 @@
 ### 7. AI 图像
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Midjourney | Midjourney | midjourney.com | ARR ~$500M；估值 ~$10B | ComfyUI + FLUX.2 | ✅ |
+| Midjourney | Midjourney | midjourney.com | ARR ~$500M；估值 ~$10B | ComfyUI + FLUX.2 | ✅ [midjourney](reports/02-creation/image/midjourney.md) |
 | Leonardo AI | Canva | leonardo.ai | ARR ~$95M；融资 $31M | ComfyUI + FLUX.2 / HiDream | ✅ [leonardo-ai](reports/02-creation/image/leonardo-ai.md) |
 | Adobe Firefly | Adobe | adobe.com | Firefly ARR ~$300M | ComfyUI + Qwen Image Edit | ✅ [adobe-firefly](reports/02-creation/image/adobe-firefly.md) |
 | GPT Image / DALL·E | OpenAI | openai.com | 大厂旗舰 | ComfyUI + FLUX.2 | ✅ [gpt-image](reports/02-creation/image/gpt-image.md) |
@@ -91,8 +91,8 @@
 ### 8. AI 视频生成
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Runway | Runway | runwayml.com | ARR ~$300M；估值 $5.3B | Wan / HunyuanVideo | ✅ |
-| Pika | Pika Labs | pika.art | 估值 $700M；融资 $135M | Wan | ✅ |
+| Runway | Runway | runwayml.com | ARR ~$300M；估值 $5.3B | Wan / HunyuanVideo | ✅ [runway](reports/02-creation/video/runway.md) |
+| Pika | Pika Labs | pika.art | 估值 $700M；融资 $135M | Wan | ✅ [pika](reports/02-creation/video/pika.md) |
 | Luma AI | Luma AI | lumalabs.ai | 估值 $4B；融资 ~$1.07B | Wan + TRELLIS | ✅ [luma-ai](reports/02-creation/video/luma-ai.md) |
 | Sora | OpenAI | sora.com（已关停 2026-04-26） | 大厂旗舰 | Wan / HunyuanVideo | ✅ [sora](reports/02-creation/video/sora.md) |
 | Kling | 快手 | klingai.com | ARR ~$500M；估值 ~$18B | Wan | ✅ [kling](reports/02-creation/video/kling.md) |
@@ -103,7 +103,7 @@
 ### 9. AI 数字人 / 分身
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| HeyGen | HeyGen | heygen.com | ARR $200M；融资 ~$74M | HeyGem + 本地 TTS | ✅ |
+| HeyGen | HeyGen | heygen.com | ARR $200M；融资 ~$74M | HeyGem + 本地 TTS | ✅ [heygen](reports/02-creation/avatar/heygen.md) |
 | Synthesia | Synthesia | synthesia.io | ARR $150M+；估值 $4B | HeyGem + 本地 TTS | ✅ [synthesia](reports/02-creation/avatar/synthesia.md) |
 | D-ID | D-ID | d-id.com | 融资 ~$48M | EchoMimic + 本地 TTS | ✅ [d-id](reports/02-creation/avatar/d-id.md) |
 | Captions | Captions | captions.ai | 估值 $500M；融资 $100M | HeyGem | ✅ [captions](reports/02-creation/avatar/captions.md) |
@@ -133,8 +133,8 @@
 ### 12. AI 音乐
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Suno | Suno AI | suno.com | ARR $300M；估值 $5.4B | ACE-Step | ✅ |
-| Udio | Udio | udio.com | 融资 ~$10M（未达标，现有报告降级观察） | ACE-Step | ✅ |
+| Suno | Suno AI | suno.com | ARR $300M；估值 $5.4B | ACE-Step | ✅ [suno](reports/02-creation/music/suno.md) |
+| Udio | Udio | udio.com | 融资 ~$10M（未达标，现有报告降级观察） | ACE-Step | ✅ [udio](reports/02-creation/music/udio.md) |
 
 ### 13. 博客 / 播客 & 音频内容生成
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
@@ -144,7 +144,7 @@
 ### 14. AI 语音 · TTS / 语音生成 / 克隆
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| ElevenLabs | ElevenLabs | elevenlabs.io | ARR >$500M；估值 $11B | Kokoro / Fish Speech / CosyVoice | ✅ |
+| ElevenLabs | ElevenLabs | elevenlabs.io | ARR >$500M；估值 $11B | Kokoro / Fish Speech / CosyVoice | ✅ [elevenlabs](reports/02-creation/voice-tts/elevenlabs.md) |
 | Cartesia | Cartesia | cartesia.ai | 融资 ~$191M | Fish Speech | ✅ [cartesia](reports/02-creation/voice-tts/cartesia.md) |
 | Hume AI | Hume AI | hume.ai | 融资 $74M;估值 $219M | CosyVoice | ✅ [hume](reports/02-creation/voice-tts/hume.md) |
 | Deepgram | Deepgram | deepgram.com | 估值 $1.3B；融资 $215M+ | Whisper + Kokoro | ✅ [deepgram](reports/02-creation/voice-tts/deepgram.md) |
@@ -184,7 +184,7 @@
 ### 18. AI 翻译
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| DeepL | DeepL | deepl.com | ARR ~$285M；估值 $2B | Hy-MT2 / NLLB-200（MTranServer） | ✅ |
+| DeepL | DeepL | deepl.com | ARR ~$285M；估值 $2B | Hy-MT2 / NLLB-200（MTranServer） | ✅ [deepl](reports/02-creation/translation/deepl.md) |
 | Google Translate | Google | translate.google.com | 大厂旗舰 | NLLB-200 / Hy-MT2 | ✅ [google-translate](reports/02-creation/translation/google-translate.md) |
 | Microsoft Translator | Microsoft | microsoft.com | 大厂旗舰 | MTranServer / NLLB-200 | ✅ [microsoft-translator](reports/02-creation/translation/microsoft-translator.md) |
 
@@ -203,12 +203,12 @@
 ### 20. AI 代码编辑器 / IDE
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Cursor | Anysphere | cursor.com | ARR ~$4B；收购 $60B[u] | Continue.dev + Ollama | ✅ |
-| Windsurf | Cognition | windsurf.com | ARR $82M（并入 Cognition） | Continue.dev + Ollama | ✅ |
+| Cursor | Anysphere | cursor.com | ARR ~$4B；收购 $60B[u] | Continue.dev + Ollama | ✅ [cursor](reports/03-application/ide/cursor.md) |
+| Windsurf | Cognition | windsurf.com | ARR $82M（并入 Cognition） | Continue.dev + Ollama | ✅ [windsurf](reports/03-application/ide/windsurf.md) |
 | GitHub Copilot（IDE） | Microsoft | github.com/features/copilot | 大厂旗舰；470万付费订阅 | Continue.dev | ✅ |
 | Replit | Replit | replit.com | ARR ~$265M；估值 $9B | Coder + OpenCode | ✅ [replit](reports/03-application/ide/replit.md) |
 | Augment Code | Augment | augmentcode.com | 估值 $977M；融资 $252M | Continue.dev | ✅ [augment](reports/03-application/ide/augment.md) |
-| Tabnine | Tabnine | tabnine.com | 融资 ~$56M（**降级观察**） | Continue.dev + Ollama | ✅ |
+| Tabnine | Tabnine | tabnine.com | 融资 ~$56M（**降级观察**） | Continue.dev + Ollama | ✅ [tabnine](reports/03-application/ide/tabnine.md) |
 
 > 传统编辑器 Zed / JetBrains 非 AI-native，不列；Poolside / Magic（模型 infra 向）见附录。
 
@@ -221,7 +221,7 @@
 | GitHub Copilot CLI + Coding Agent | Microsoft | github.com | 大厂旗舰 | OpenCode / Aider | ✅ [github-copilot](reports/03-application/coding-agent/github-copilot.md) |
 | Gemini CLI → Antigravity CLI | Google | — | 大厂旗舰（开源） | Qwen Code / Gemini CLI（**开源，接 Ollama**） | ✅ [gemini-cli](reports/03-application/coding-agent/gemini-cli.md) |
 | Google Jules | Google | jules.google | 大厂旗舰 | OpenHands | ✅ [google-jules](reports/03-application/coding-agent/google-jules.md) |
-| Devin | Cognition | cognition.ai | ARR $492M；估值 $26B；融资 >$2.5B | OpenHands | ✅ |
+| Devin | Cognition | cognition.ai | ARR $492M；估值 $26B；融资 >$2.5B | OpenHands | ✅ [devin](reports/03-application/coding-agent/devin.md) |
 | Factory Droids | Factory.ai | factory.ai | 估值 $1.5B；融资 $150M+ | OpenHands | ✅ [factory](reports/03-application/coding-agent/factory.md) |
 | Amp | Amp（Sourcegraph 分拆） | ampcode.com | 母公司融资 $223M；估值 $2.6B | OpenCode / Aider | ✅ [amp](reports/03-application/coding-agent/amp.md) |
 | Warp | Warp | warp.dev | ARR $42M；融资 $73M | OpenCode | ✅ [warp](reports/03-application/ide/warp.md) |
@@ -319,7 +319,7 @@
 ### 30. AI 搜索 / 研究
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Perplexity | Perplexity AI | perplexity.ai | ARR $450–500M；估值 $22.6B | Perplexica(Vane) + SearXNG | ✅ |
+| Perplexity | Perplexity AI | perplexity.ai | ARR $450–500M；估值 $22.6B | Perplexica(Vane) + SearXNG | ✅ [perplexity](reports/03-application/search/perplexity.md) |
 | You.com | You.com | you.com | ARR $50M；估值 $1.5B | Perplexica + SearXNG | ✅ [you-com](reports/03-application/search/you-com.md) |
 | Exa | Exa | exa.ai | 估值 $700M；融资 $107M | SearXNG + Firecrawl | ✅ [exa](reports/03-application/search/exa.md) |
 | Consensus | Consensus | consensus.app | 融资 $45.75M | Open Notebook | ✅ [consensus](reports/03-application/search/consensus.md) |
@@ -334,7 +334,7 @@
 ### 32. AI 陪伴 / 角色
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Character.AI | Character Technologies | character.ai | 估值 $1B；融资 $193M | SillyTavern / KoboldCpp | ✅ |
+| Character.AI | Character Technologies | character.ai | 估值 $1B；融资 $193M | SillyTavern / KoboldCpp | ✅ [character-ai](reports/03-application/companion/character-ai.md) |
 | Chai | Chai Research | chai-research.com | ARR $80M；估值 $2.4B[u] | SillyTavern | ✅ [chai](reports/03-application/companion/chai.md) |
 | Talkie | MiniMax | talkie-ai.com | 母公司估值 ~$32B | SillyTavern | ✅ [minimax](reports/01-model/frontier-labs/minimax.md) |
 
@@ -385,16 +385,16 @@
 ### 39. 团队沟通 / IM
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Slack | Salesforce | slack.com | 收入 ~$3B | Mattermost / Rocket.Chat | ✅ |
-| Mattermost 企业版 | Mattermost | mattermost.com | 达标 | **Mattermost（开源自托管，双形态）** | ✅ |
-| Element / Matrix | Element | element.io | 达标（加密通信） | Element + Synapse | ✅ |
+| Slack | Salesforce | slack.com | 收入 ~$3B | Mattermost / Rocket.Chat | ✅ [slack](reports/04-productivity/im/slack.md) |
+| Mattermost 企业版 | Mattermost | mattermost.com | 达标 | **Mattermost（开源自托管，双形态）** | ✅ [mattermost](reports/04-productivity/im/mattermost.md) |
+| Element / Matrix | Element | element.io | 达标（加密通信） | Element + Synapse | ✅ [element](reports/04-productivity/im/element.md) |
 
 ### 40. 电子邮件 / Email
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
 | Gmail | Google | mail.google.com | 大厂旗舰 | **Olares Mail（内置）** / Stalwart / Mailcow（自托管投递率需配置 SMTP 中继） | ✅ [gmail](reports/04-productivity/email/gmail.md) |
 | Outlook | Microsoft | outlook.com | 大厂旗舰 | Olares Mail / Mailcow | ✅ [outlook](reports/04-productivity/email/outlook.md) |
-| Proton Mail | Proton AG | proton.me/mail | 估值 >$1B（隐私邮件，另见 #57） | Olares Mail / Stalwart（自托管加密邮件，投递率需中继） | ✅ |
+| Proton Mail | Proton AG | proton.me/mail | 估值 >$1B（隐私邮件，另见 #57） | Olares Mail / Stalwart（自托管加密邮件，投递率需中继） | ✅ [proton](reports/05-storage-privacy/privacy-vpn/proton.md) |
 | Front | Front | front.com | ARR $100M；估值 $1.7B；融资 $204M | 无直接平替（团队协作邮箱） | ✅ [front](reports/04-productivity/email/front.md) |
 | Superhuman | Grammarly（已收购） | superhuman.com | 收购前估值 $825M（见附录·已被收购） | Olares Mail + 本地 AI 校对 | ✅ [grammarly](reports/03-application/writing/grammarly.md) |
 | Zoho Mail | Zoho | zoho.com/mail | 母体收入 >$1.9B（成熟 SaaS） | Olares Mail / Mailcow | ✅ [zoho-mail](reports/04-productivity/email/zoho-mail.md) |
@@ -493,8 +493,8 @@
 
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| 1Password | AgileBits | 1password.com | ARR $400M+；估值 $6.8B | Vaultwarden / KeePassXC | ✅ |
-| Bitwarden | Bitwarden | bitwarden.com | 收入 ~$380M[u]；融资 $100M | **Vaultwarden（双形态）** | ✅ |
+| 1Password | AgileBits | 1password.com | ARR $400M+；估值 $6.8B | Vaultwarden / KeePassXC | ✅ [1password](reports/05-storage-privacy/password/1password.md) |
+| Bitwarden | Bitwarden | bitwarden.com | 收入 ~$380M[u]；融资 $100M | **Vaultwarden（双形态）** | ✅ [bitwarden](reports/05-storage-privacy/password/bitwarden.md) |
 | Dashlane | Dashlane | dashlane.com | ARR ~$113M；估值 ~$507M | Vaultwarden / KeePassXC | ✅ [dashlane](reports/05-storage-privacy/password/dashlane.md) |
 
 ### 57. 隐私 / VPN / 远程访问 / 加密存储
@@ -502,10 +502,10 @@
 
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
-| Proton | Proton AG | proton.me | 估值 >$1B（邮件另见 #40） | Olares（Drive/Mail 自托管） | ✅ |
-| Mega.nz | Mega | mega.nz | rev ~$63M[u] | Olares Drive（端到端加密） | ✅ |
-| Tailscale | Tailscale | tailscale.com | 估值 $1.5B；融资 $275M | Headscale / LarePass | ✅ |
-| Ngrok | ngrok | ngrok.com | 融资 $50M | frp / Olares 内置反代 | ✅ |
+| Proton | Proton AG | proton.me | 估值 >$1B（邮件另见 #40） | Olares（Drive/Mail 自托管） | ✅ [proton](reports/05-storage-privacy/privacy-vpn/proton.md) |
+| Mega.nz | Mega | mega.nz | rev ~$63M[u] | Olares Drive（端到端加密） | ✅ [mega](reports/05-storage-privacy/privacy-vpn/mega.md) |
+| Tailscale | Tailscale | tailscale.com | 估值 $1.5B；融资 $275M | Headscale / LarePass | ✅ [tailscale](reports/05-storage-privacy/privacy-vpn/tailscale.md) |
+| Ngrok | ngrok | ngrok.com | 融资 $50M | frp / Olares 内置反代 | ✅ [ngrok](reports/05-storage-privacy/privacy-vpn/ngrok.md) |
 | NordVPN | Nord Security | nordvpn.com | ARR $357M；估值 $3B | Headscale / WireGuard | ✅ [nordvpn](reports/05-storage-privacy/privacy-vpn/nordvpn.md) |
 | ExpressVPN | Kape | expressvpn.com | Kape 收入 ~$725–930M[u] | Headscale / WireGuard | ✅ [expressvpn](reports/05-storage-privacy/privacy-vpn/expressvpn.md) |
 | Cloudflare Zero Trust / Tunnel | Cloudflare | cloudflare.com | 市值 ~$87B | Headscale / frp / Olares 反代 | ✅ [cloudflare-zt](reports/05-storage-privacy/privacy-vpn/cloudflare-zt.md) |
