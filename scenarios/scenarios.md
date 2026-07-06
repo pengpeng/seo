@@ -47,5 +47,5 @@ Olares 把"用户已经在为之付费的云 AI 订阅"，变成"本地拥有、
 - **每个场景 = 一组"已验证付费的商业对标" + 一组"可自托管的 Olares 平替"。**
   - 商业对标：即上表"已验证付费市场"列，明细与竞品报告在 [directions.md](/Users/pengpeng/seo/directions/directions.md) 及 `directions/commerce|hardware|privacy/`——它们证明"这个需求有人付费"。
   - Olares 平替：承接该需求的可自部署应用/模型，**现查** [market/apps.md](/Users/pengpeng/seo/directions/market/apps.md) 与 [model/models.md](/Users/pengpeng/seo/directions/model/models.md)，不在本页登记。
-- **内容打法**：挑某个商业对标的高机会词（见其竞品报告 Top 10），用 `seo-content` skill 写成对比/替代文，把需求导向对应的 Olares 平替。
+- **内容打法**：挑某个商业对标的高机会词（见其竞品报告的「Top 关键词（含角色判断）」），用 `seo-content` skill 写成对比/替代文，把需求导向对应的 Olares 平替。
 - **兑现纪律**：场景只在**产品能真实兑现时**才升级为主推内容；未兑现前只做"占位/教育"类内容，不承诺未发布能力（红线见 [basic/olares.md](/Users/pengpeng/seo/basic/olares.md)）。

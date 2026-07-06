@@ -61,13 +61,18 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | komga tailscale | 1,900 | **4** | ⭐ Olares全平台教程（Komga+Headscale一站式） |
-| 2 | headscale ui | 140 | **16** | 教程：Headscale Web UI on Olares |
-| 3 | tailscale vs headscale | 90 | **23** | 对比文：Headscale on Olares = 免费Tailscale |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| komga tailscale | 1,900 | 4 | $0 | info | 主词候选 | KD=4 金矿：Komga+Headscale 一站式远程访问教程，Olares 同时内置两者 |
+| headscale vs tailscale | 210 | 24 | $0 | info | 主词候选 | 对比文：Olares 内置 Headscale = 免费版 Tailscale |
+| headscale ui | 140 | 16 | $0 | info | 次级 | Headscale Web UI 教程，Olares 内置可视化管理 |
+| headscale docker | 110 | 26 | $0 | info | 次级 | 部署教程词，Olares 一键省去手动配置 |
+| tailscale vs headscale | 90 | 23 | $0 | info | 次级 | 对比词长尾变体 |
+| headscale synology | 20 | 0 | $0 | info | GEO | 平台部署长尾，进 FAQ；Olares 开箱免配置 |
 
 ## 核心洞见
 

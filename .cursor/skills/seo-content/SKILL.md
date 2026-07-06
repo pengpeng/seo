@@ -1,6 +1,6 @@
 ---
 name: seo-content
-description: 把 SEO 研究报告里的高机会词写成可发布、可排名的文章——对比/替代文为主（X alternative、X vs Y、best open-source self-hosted X）。当用户要"写对比文/替代文/落地页、把某个关键词做成内容、把某份竞品报告的 Top 10 落地成文章"时使用。这是把研究变成内容的一步；找词仍用 brand-seo-research / model-seo-research，懂陌生主题用 deep-research。
+description: 把 SEO 研究报告里的高机会词写成可发布、可排名的文章——对比/替代文为主（X alternative、X vs Y、best open-source self-hosted X）。当用户要"写对比文/替代文/落地页、把某个关键词做成内容、把某份竞品报告的 Top 关键词落地成文章"时使用。这是把研究变成内容的一步；找词仍用 brand-seo-research / model-seo-research，懂陌生主题用 deep-research。
 ---
 
 # SEO 内容生产（对比/替代文）

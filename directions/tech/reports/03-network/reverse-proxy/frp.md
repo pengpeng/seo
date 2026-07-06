@@ -66,14 +66,20 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | frp install | 110 | **7** | 英文教程：FRP on Olares安装配置 |
-| 2 | cloudflare tunnel alternative | 50 | **13** | 对比文：FRP vs Tailscale vs CF Tunnel on Olares |
-| 3 | frp面板 | 260 | **4** | 🇨🇳 中文：FRP管理面板 on Olares（KD=4） |
-| 4 | frp教程 | 1,600 | **17** | 🇨🇳 高量中文FRP教程 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| frp教程 | 1,600 | 17 | $0 | info | 主词候选 | 🇨🇳 高量低 KD 中文教程；做"FRP on Olares"针对性教程切入 |
+| frp面板 | 260 | 4 | $0 | info | 主词候选 | 🇨🇳 KD=4 金矿；FRP 可视化管理面板，Olares 提供更好体验 |
+| frp install | 110 | 7 | $3.98 | info | 主词候选 | 英文安装教程词，KD=7 高 CPC；FRP on Olares 安装配置 |
+| ngrok alternative | 720 | 35 | $14.69 | comm | 次级 | 高 CPC 替代词，KD 偏高作次级覆盖 |
+| cloudflare tunnel alternative | 50 | 13 | $6.86 | comm | 次级 | 高 CPC 替代词；FRP 是 CF Tunnel 开源替代，Olares 内置方案 |
+| frp docker | 70 | 22 | $0 | info | 次级 | 部署教程词 |
+| frp linux | 50 | 20 | $0 | info | 次级 | 部署词 |
+| frp windows | 40 | 1 | $0 | info | GEO | KD=1；Olares 内置 Windows VM + FRP 穿透的独特角度 |
 
 ## 核心洞见
 

@@ -182,20 +182,22 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| 优先级 | 关键词 | 月量 | KD | CPC | 内容方向 |
-|--------|--------|------|----|-----|---------|
-| 🥇 1 | gdpr software | 590 | **22** | **$27** | 落地页："GDPR 合规软件平台——Olares One 完整方案" |
-| 🥇 2 | gdpr for small business | 110 | **18** | $12 | 博客："中小企业 GDPR 合规最经济方案：Olares One vs 订阅制工具" |
-| 🥇 3 | gdpr compliant ai | 50 | **0** | $11 | 抢占新兴词："GDPR 合规的 AI 解决方案：本地 LLM on Olares" |
-| 🥈 4 | gdpr checklist | 260 | **26** | $7 | 博客："GDPR 合规清单 2026：自托管如何一键满足合规要求" |
-| 🥈 5 | gdpr cloud storage | 90 | **27** | $0 | 博客："GDPR 合规云存储：Olares Drive vs Internxt vs Tresorit" |
-| 🥈 6 | what is a data retention policy | 18,100 | **25** | — | 借力词（KD=25！）：OneTrust 靠这个词月获 434 流量，Olares 也可以 |
-| 🥈 7 | data residency | 880 | **32** | $10 | 企业内容："数据驻留合规：为什么 Olares One 是最简单的方案" |
-| 🥉 8 | gdpr compliance guide | 33,100 | **43** | — | 长篇权威内容：gdpr.eu 靠此词月获 26K 流量，Olares 的版本聚焦自托管场景 |
-| 🥉 9 | gdpr compliant software | 110 | **22** | **$30** | 与 #1 合并，强调 CPC 极高 |
-| 🥉 10 | dpa meaning | 2,900 | **24** | — | 教育内容：自托管如何消除第三方 DPA 需求 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| what is a data retention policy | 18,100 | 25 | — | info | 主词候选 | 借力大词（KD=25）：OneTrust 靠它月获 434 流量，Olares 可复制自托管版 |
+| gdpr software | 590 | 22 | $27 | comm | 主词候选 | 高 CPC 商业词；落地页"GDPR 合规软件平台——Olares One 完整方案" |
+| gdpr checklist | 260 | 26 | $7 | info | 主词候选 | 合规清单 2026：自托管如何一键满足合规要求 |
+| gdpr for small business | 110 | 18 | $12 | comm | 主词候选 | 中小企业最经济合规方案：Olares One vs 订阅制工具 |
+| gdpr compliant ai | 50 | 0 | $11 | comm | 主词候选 | 战略新兴词（KD=0）：GDPR 合规的 AI——本地 LLM on Olares |
+| dpa meaning | 2,900 | 24 | — | info | 次级 | 教育词：自托管如何消除第三方 DPA 需求 |
+| data residency | 880 | 32 | $10 | comm | 次级 | 企业词：数据驻留合规，Olares One 最简方案 |
+| gdpr compliance guide | 33,100 | 43 | — | info | 次级 | KD43 偏高作长篇权威内容，聚焦自托管场景 |
+| gdpr compliant software | 110 | 22 | $30 | comm | 次级 | CPC 极高，与 gdpr software 合并覆盖 |
+| gdpr cloud storage | 90 | 27 | $0 | comm | 次级 | 合规云存储：Olares Drive vs Internxt vs Tresorit |
 
 ---
 
