@@ -14,7 +14,7 @@
 | vLLM | 高吞吐 LLM 推理引擎 | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/vllm.md) |
 | SGLang | 高性能 LLM 推理引擎 | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/sglang.md) |
 | llama.cpp | 轻量本地 LLM 推理 | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/llamacpp.md) |
-| Xinference | 一站式模型部署 / 推理框架 | ⬜ |
+| Xinference | 一站式模型部署 / 推理框架 | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/xinference.md) |
 
 ## AI（7）
 
@@ -32,7 +32,7 @@
 
 | 应用 | 说明 | 报告 |
 |------|------|------|
-| AFFiNE | Open-source alternative for Notion, Miro and Airtable. | ⬜ |
+| AFFiNE | Open-source alternative for Notion, Miro and Airtable. | ✅ [报告](reports/affine.md) |
 | Agent Zero | Agentic AI Framework | ⬜ |
 | AI Router | AI Router | ⬜ |
 | Answer | A Q&A platform software for teams at any scales. | ⬜ |
@@ -44,18 +44,18 @@
 | Docmost | Open-source collaborative wiki and documentation software. | ⬜ |
 | Documenso | The Open Source DocuSign Alternative. | ⬜ |
 | Excalidraw | Virtual whiteboard for sketching hand-drawn like diagrams | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/excalidraw.md) |
-| FastGPT | A knowledge-based platform built on the LLMs | ⬜ |
+| FastGPT | A knowledge-based platform built on the LLMs | ✅ [报告](reports/fastgpt.md) |
 | Flowise | Drag & drop UI to build your customized LLM flow | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/flowise.md) |
 | Formbricks | Open Source Qualtrics Alternative | ⬜ |
 | Freqtrade | Free, open source crypto trading bot | ⬜ |
-| FreshRSS | A free, self-hostable feed aggregator. | ⬜ |
+| FreshRSS | A free, self-hostable feed aggregator. | ✅ [报告](reports/freshrss.md) |
 | Grafana | Grafana is a multi-platform open source analytics and interactive visualization web application. | ⬜ |
 | Hermes Agent | The agent that grows with you | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/hermes-agent.md) |
 | IsaacLab | Unified framework for robot learning built on NVIDIA Isaac Sim | ⬜ |
-| Langfuse | Open source LLM engineering platform | ⬜ |
+| Langfuse | Open source LLM engineering platform | ✅ [报告](reports/langfuse.md) |
 | Leantime | Leantime is a goals focused project management system for non-project managers. | ⬜ |
 | Listmonk | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard | ⬜ |
-| Mattermost | An open source platform for secure collaboration across the entire software development lifecycle. | ⬜ |
+| Mattermost | An open source platform for secure collaboration across the entire software development lifecycle. | ✅ [报告](reports/mattermost.md) |
 | MaxKB | Ready-to-use, flexible RAG Chatbot | ⬜ |
 | Medusa | The world's most flexible commerce platform. | ⬜ |
 | Memos | Effortlessly craft your impactful content. | ⬜ |
@@ -66,14 +66,14 @@
 | NocoDB | Open Source Airtable Alternative. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/nocodb.md) |
 | NOFX | Your personal AI trading assistant. Any market. Any model. | ⬜ |
 | Novel | Notion-style WYSIWYG editor with AI-powered autocompletion | ⬜ |
-| Obsidian LiveSync | Obsidian sync server. | ⬜ |
+| Obsidian LiveSync | Obsidian sync server. | ✅ [报告](reports/obsidian-livesync.md) |
 | Odoo | All your business on one platform. | ⬜ |
-| OnlyOffice | Run your private office with the ONLYOFFICE | ⬜ |
+| OnlyOffice | Run your private office with the ONLYOFFICE | ✅ [报告](reports/onlyoffice.md) |
 | Open Notebook | A powerful open-source, AI-powered note-taking/research platform that respects your privacy | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/open-notebook.md) |
 | OpenClaw | Personal AI Assistant with Multi-channel Inbox Support | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/openclaw.md) |
 | Paperclip | Open-source orchestration platform for AI agent companies. | ⬜ |
 | PDFMathTranslate | PDF scientific paper translation with preserved formats. | ⬜ |
-| Plane | Open Source JIRA, Linear, Monday, and Asana Alternative | ⬜ |
+| Plane | Open Source JIRA, Linear, Monday, and Asana Alternative | ✅ [报告](reports/plane.md) |
 | Qinglong | Timed Task Management Platform | ⬜ |
 | Radicale | Free and Open-Source CalDAV and CardDAV Server | ⬜ |
 | RAGFlow | An open-source RAG engine based on deep document understanding. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/ragflow.md) |
@@ -85,10 +85,10 @@
 | SimpleMindMap | A simple and powerful mind mapping library for the Web. | ⬜ |
 | solidtime | Modern open-source time-tracking app | ⬜ |
 | Stirling-PDF | A locally hosted one-stop shop for all your PDF needs. | ⬜ |
-| Teable | The Next Gen Airtable Alternative: No-Code Postgres | ⬜ |
+| Teable | The Next Gen Airtable Alternative: No-Code Postgres | ✅ [报告](reports/teable.md) |
 | TradingAgents | Multi-Agents LLM Financial Trading Framework | ⬜ |
 | Twenty | The #1 Open-Source CRM - A modern alternative to Salesforce | ⬜ |
-| Vane | Vane (previously Perplexica) is an AI-powered answering engine. | ⬜ |
+| Vane | Vane (previously Perplexica) is an AI-powered answering engine. | ✅ [报告](reports/vane.md) |
 | Wise | Your Digital Secret Garden | ⬜ |
 
 ## 开发者工具（28）
@@ -121,7 +121,7 @@
 | redroid | Remote-Android, a multi-arch, GPU enabled, Android in Cloud solution. | ⬜ |
 | ShowDoc | A tool greatly applicable for an IT team to share documents online | ⬜ |
 | Studio | Olares 应用开发 / 部署工作台 | ⬜ |
-| Uptime Kuma | A fancy self-hosted monitoring tool | ⬜ |
+| Uptime Kuma | A fancy self-hosted monitoring tool | ✅ [报告](reports/uptime-kuma.md) |
 | XYBotV2 | Feature-rich WeChat Bot framework | ⬜ |
 
 ## 创意 / 设计 / 媒体生成（13）
@@ -202,7 +202,7 @@
 | LibreSpeed | Free and Open Source Speedtest. | ⬜ |
 | LiteLLM | Call 100+ LLMs in OpenAI format | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/litellm.md) |
 | LobeChat | An open-source, modern-design AI chat framework. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/lobechat.md) |
-| LocalAI | The free, Open Source alternative to OpenAI, Claude and others. | ⬜ |
+| LocalAI | The free, Open Source alternative to OpenAI, Claude and others. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/localai.md) |
 | MacOS | Run MacOS on Olares | ⬜ |
 | Magic Pig Demo | A cute digital pig that brings joy and fun to your daily interactions. Experience delightful animations, playful cursor-following behavior, and interactive fun that brightens up your day. | ⬜ |
 | MemPalace | Local-first AI memory with semantic search and an MCP server | ⬜ |
