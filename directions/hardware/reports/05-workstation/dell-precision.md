@@ -95,17 +95,24 @@ Dell Precision 系列自 2026 年 1 月起更名为 **Dell Pro Precision**（Del
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | dell precision 5690（4,400/31）| dell precision 7780（1,900/28）| is dell precision good for AI? | ~6,300 | ⭐⭐⭐ | versus | 热门型号评测 + 对比 Olares One（A，想开箱即用）；已有 Precision 装 Olares 信息 B 引导（含 Precision 7780 vs Olares One vs GB10 三方对比）|
-| 2 | dell precision linux（20/0）| dell workstation linux（0/0，CPC $3.92）、dell pro precision workstation（20/0）、workstation private ai（0）、install olares on workstation（0）| how to install linux on dell precision? | ~40 | ⭐⭐⭐ | alternative | KD=0、CPC $3.92（B2B 高价值）零竞争教程："如何在 Dell Pro Precision 上装 Olares 变团队级私有 AI 服务器"（B）|
-| 3 | dell precision alternative（0/0）| hp zbook vs dell precision（0）| what is a good dell precision alternative? | ~0 | ⭐⭐⭐ | alternative | 战略替代词零竞争，纯信息 A："Dell Precision alternatives for private AI"，推 Olares One（$3,999 开箱即用 vs Precision 贵 + 自搭软件栈）|
-| 4 | gaming laptop vs workstation（50/20）| — | gaming laptop or workstation for AI? | ~50 | ⭐⭐ | versus | KD20 对比文：游戏本 / 工作站 / 私有 AI 整机（Olares One 第三选项）|
-| 5 | dell precision workstation（1,300/40）| personal ai supercomputer（480/52）| what is a dell precision workstation? | ~1,780 | ⭐ | listicle | 主品类词难度中等，长期目标页/品类解读占位 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| dell precision 5690 | 4,400 | 31 | $2.31 | info | 主词候选 | 热门型号评测，带"想开箱即用私有 AI 选 Olares One"（A）+ 已有机装 Olares（B）|
+| dell precision 7780 | 1,900 | 28 | $1.72 | info | 次级 | 旗舰移动工作站，Precision 7780 vs Olares One vs GB10 三方对比 |
+| dell precision workstation | 1,300 | 40 | $2.33 | comm | 主词候选 | 主品类词 KD40，品类解读/长期占位页 |
+| personal ai supercomputer | 480 | 52 | $1.94 | info | 次级 | 新品类词，Olares One 桌面 AI 整机对位 |
+| gaming laptop vs workstation | 50 | 20 | $2.71 | info | 主词候选 | KD20 对比文，Olares One 作第三选项 |
+| dell precision linux | 20 | 0 | $0 | comm | 主词候选 | Olares 支持 Linux x86 裸机安装，"在 Precision 上装 Olares"教程（B）|
+| dell pro precision workstation | 20 | 0 | — | comm | 次级 | 品牌型号变体，教程可覆盖 |
+| dell precision alternative | 0 | 0 | $0 | — | 主词候选 | 纯信息 A：推 Olares One 作 Precision 替代 |
+| dell workstation linux | 0 | 0 | $3.92 | comm | GEO | CPC$3.92 高 B2B 价值零竞争，教程内容即排名机会 |
+| workstation private ai | 0 | 0 | — | 新兴 | GEO | 把 Precision 装 Olares 变团队私有 AI，抢 AI Overview |
+| install olares on workstation | 0 | 0 | — | — | GEO | 前瞻占位词 |
+| hp zbook vs dell precision | 0 | 0 | — | info | GEO | 对比前瞻词 |
 
 ---
 

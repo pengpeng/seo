@@ -164,18 +164,27 @@ RTX 50 系是当下高端本地 AI 攒机 / 选卡用户的默认候选。对本
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | which llms and quants are possible with 32gb ram（5,400/22）| rtx 5090 vram(720/42)、rtx 5090 32gb(590/42)、rtx 5080 vram(720/26)、rtx 5070 vram(720/21)、local llm hardware requirements(140/24) | — | ~7,300 | ⭐⭐⭐ | listicle | 显存×模型×量化对照表，诚实写 24GB vs 32GB 边界 + 24GB 能常驻跑什么，落 Olares One 24GB 实测（教育+促购）|
-| 2 | 5080 vs 5070 ti（3,600/22）| rtx 5080 vs 5090(1,000/24)、rtx 5090 vs 5080(390/24)、5090 vs 5070 ti(210/18) | — | ~5,200 | ⭐⭐⭐ | versus | 中端选卡对比，加"真跑 AI 不如整机 Olares One（5090 Mobile 24GB + 全栈开箱）"第三选项 |
-| 3 | 4090 vs 5090（4,400/27）| 5090 vs 4090(2,900/28)、rtx 5090 vs 4090(1,600/26)、5090 vs 3090(390/18)、5090 vs 4090 llm(20/0)、5090 vs mac studio(20/0)、rtx 5090 vs mac studio(20/0)、5090 vs dgx spark(20/0) | — | ~9,370 | ⭐⭐⭐ | versus | 换代对比高量低 KD，突出 5090/Blackwell FP4→Olares One 同代 FP4 图像 5.7–8.8x benchmark；GEO 跨架构对比 |
-| 4 | best gpu for llm（110/8）| best gpu for local llm(110/15)、best gpu for machine learning(110/10)、best gpu for ai image generation(70/9)、best gpu for stable diffusion(90/14)、best budget gpu for ai(90/17)、best gpu for llm inference 2025(50/11)、gpu for llm(70/25)、best gpu for ai(720/30)、best local llm(720/23) | — | ~2,240 | ⭐⭐⭐ | listicle | KD8–15 精准金矿：每个"best gpu for {llm/SD/ML/image}"结论页统一收口整机开箱→Olares One |
-| 5 | home ai server（140/14）| self hosted ai(390/36)、local ai server(90/26)、5090 workstation(90/21)、rtx 5090 server(30/21)、ollama gpu(170/28)、how to make ollama use gpu(110/18)、nvidia gpus for llms(110/28)、run llm locally(590/47)、5090 ollama(30/0)、run llm on 5090(近零) | ollama supported gpus(90/24) | ~1,940 | ⭐⭐⭐ | listicle | 信息 A/B：家用 AI 服务器整机叙事（轴 1 全栈开箱）+ 已有 5090 在 Olares 上一键跑 Ollama、省手配 CUDA（GEO 抢发）|
-| 6 | dual rtx 5090（90/6）| — | what cases will allow 2 rtx 5090 cards(260/12)、how to underclock rtx 5090(1,900/21)、when will rtx 5090 restock(70/13)、is the rtx 5090 worth it(140/30)、is rtx 5090 worth it(40/25) | ~2,500 | ⭐⭐ | listicle | 信息 A 攻击面：攒机功耗/机箱/缺货/散热折腾 vs Olares One 整机开箱、未必更贵（诚实写 24 vs 32GB）|
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| rtx 5090 | 110,000 | 53 | $0.32 | comm | 次级 | 系列头号大词，KD 高作流量入口，内链导向 Olares One 两轴 |
+| 5090 | 74,000 | 37 | $0.31 | comm | 次级 | KD 洼地大词，作认知截流入口 |
+| rtx 5080 | 60,500 | 34 | $0.28 | comm | 次级 | 全系 KD 最低型号大词之一，作流量池 |
+| which llms and quants are possible with 32gb ram | 5,400 | 22 | $0 | info | 主词候选 | 显存选模型痛点大词，落 Olares One 24GB 实测；诚实写 24 vs 32GB 边界 |
+| 4090 vs 5090 | 4,400 | 27 | $0.51 | comm | 主词候选 | 换代对比大词，5090/Blackwell FP4→Olares One 同代 FP4 图像 5.7–8.8x benchmark |
+| 5080 vs 5070 ti | 3,600 | 22 | $1.09 | comm | 主词候选 | 中端选卡对比，加"真跑 AI 不如整机 Olares One（5090 Mobile 24GB + 全栈开箱）"第三选项 |
+| 5090 vs 4090 | 2,900 | 28 | $0 | comm | 次级 | 换代对比变体，并入对决簇 |
+| rtx 5090 laptop | 2,400 | 33 | $0.87 | comm | 次级 | 与 Olares One（5090 Mobile）同形态，核心对比锚点 |
+| how to underclock rtx 5090 | 1,900 | 21 | $0 | info | 次级 | 攒机功耗/散热痛点，信息 A 攻击面（vs 整机开箱）|
+| best gpu for ai | 720 | 30 | $2.02 | comm | 次级 | 高 CPC 品类词，Olares One 整机答案 |
+| best local llm | 720 | 23 | $4.59 | comm | 主词候选 | 高 CPC 本地 LLM 选型 + Olares Market 一键部署落地 |
+| home ai server | 140 | 14 | $1.78 | info | 主词候选 | KD14：家用 AI 服务器→Olares One 整机开箱即私有 AI OS（轴 1）|
+| best gpu for llm | 110 | 8 | $0.95 | comm | 主词候选 | KD8 金矿：选卡结论页——单卡之外给"开箱整机"Olares One，附 benchmark |
+| dual rtx 5090 | 90 | 6 | $0.88 | comm | 主词候选 | KD6：双卡攒机纠结功耗/机箱→"整机 Olares One 开箱、未必更贵"（诚实写 24 vs 32GB）|
+| 5090 ollama | 30 | 0 | $0 | info | GEO | 信息 B 核心：GEO 抢发，"5090 上把本地模型变随处可用的私有 AI 服务" |
 
 ---
 

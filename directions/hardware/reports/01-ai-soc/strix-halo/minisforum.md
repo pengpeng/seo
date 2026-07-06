@@ -208,18 +208,28 @@ Minisforum（铭凡，深圳）是 2020 年前后快速崛起的迷你主机 OEM
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | minisforum ms-s1 max（2,400/31）| ms-s1 max（1,600/32）| ms-s1 max vs olares one 谁更适合本地 AI | ~4,000 | ⭐⭐⭐ | versus | "Olares One vs Minisforum MS-S1 Max"对比（轴 1：24GB CUDA 独显 vs iGPU AI 可用性，类比同芯 Beelink 实测，诚实注 120B）；量大直接竞品 |
-| 2 | oculink egpu（1,000/18）| mini pc oculink（90/6）、nas barebone（30/16）| does oculink egpu work、N5 Pro 接 4090 掉多少性能 | ~1,120 | ⭐⭐⭐ | listicle | 信息 B：N5 Pro + OCuLink 接 RTX 4090 + 装 Olares = 廉价本地 AI 服务器；OCuLink eGPU 实测 |
-| 3 | ai nas（260/27，CPC$2.69）| minisforum n5 pro nas（320/16）、minisforum n5 pro ai nas（260/18）、n5 pro nas（210/23）、minisforum n5（590/28）、minisforum nas（590/31）、minisforum nas n5 pro（90/15）、n5 nas（30/13）、mini nas（720/27）、nas home server（390/41）、nas for ai（20/-，CPC$6.29）| best AI NAS 2026、best nas for AI inference | ~3,500 | ⭐⭐⭐ | listicle/versus | Olares 定义"AI NAS"品类：N5 Pro 是最性价比 AI NAS + 装 Olares 完整配置指南（高转化 + 高 CPC 词群） |
-| 4 | miniscloud os（110/16，CPC$1.73）| proxmox mini pc（90/12）| miniscloud os alternative、Olares vs Proxmox on minisforum | ~200 | ⭐⭐⭐ | alternative/versus | "MinisCloud OS alternative / Olares vs Proxmox"——OS 层替代叙事，Olares 作 N5 Pro 默认 OS 替代 |
-| 5 | mini pc home server（320/21）| home server linux（70/28）、self hosted ai server（20/-，CPC$4.41）、home server mini pc（40/26）、mini pc linux server（20/-）| how to install olares on minisforum、最便宜的自托管 AI 服务器 | ~470 | ⭐⭐⭐ | listicle | 信息 B："$1k 自托管 AI 服务器：N5 Pro + Olares"，Olares on Minisforum mini PC 场景综述（高 CPC 商业意图） |
-| 6 | minisforum ms-a2（2,900/26）| minisforum ms-01（3,600/39）| ms-a2 vs ms-01 homelab 选哪个、能装 olares 吗 | ~6,500 | ⭐⭐ | listicle | 信息 B：MS-A2 / MS-01 双 10GbE SFP+ homelab 工作站 + 装 Olares（最便宜高速网络节点） |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| minisforum ms-01 | 3,600 | 39 | $0.65 | 导航/商业 | 次级 | 销量担当产品词，信息 B：MS-01 装 Olares |
+| minisforum ms-a2 | 2,900 | 26 | $0.57 | 导航/商业 | 主词候选 | 信息 B：MS-A2 双 10GbE SFP+ homelab 工作站 + 装 Olares |
+| minisforum ms-s1 max | 2,400 | 31 | $1.15 | 导航 | 主词候选 | 主信息 A：Olares One vs MS-S1 Max——24GB CUDA 独显 vs iGPU 可用性（类比同芯 Beelink 实测，诚实注 120B） |
+| ms-s1 max | 1,600 | 32 | $1.06 | 导航/商业 | 次级 | 非品牌前缀变体 |
+| oculink egpu | 1,000 | 18 | $0.30 | 信息 | 主词候选 | 信息 B：N5 Pro + OCuLink 接 4090 + 装 Olares = 廉价本地 AI 服务器 |
+| minisforum n5 pro | 880 | 36 | $0.56 | 导航/商业 | 次级 | N5 Pro 核心词 |
+| mini nas | 720 | 27 | $1.24 | 导航 | 次级 | N5 Air 品类词 |
+| minisforum nas | 590 | 31 | $0.59 | 导航/商业 | 次级 | NAS 产品线总词 |
+| nas home server | 390 | 41 | $1.11 | 导航 | 次级 | N5 系列场景词 |
+| minisforum n5 pro nas | 320 | 16 | $0.88 | 导航/商业 | 次级 | KD 低高转化，Olares 安装指南 |
+| mini pc home server | 320 | 21 | $0.47 | 导航 | 主词候选 | 信息 B："$1k 自托管 AI 服务器：N5 Pro + Olares" |
+| ai nas | 260 | 27 | $2.69 | 信息 | 主词候选 | Olares 定义"AI NAS"品类，N5 Pro 最性价比 AI NAS + 装 Olares |
+| miniscloud os | 110 | 16 | $1.73 | 信息 | 主词候选 | "MinisCloud OS alternative / Olares vs Proxmox"，OS 层替代叙事 |
+| mini pc oculink | 90 | 6 | $0.34 | 导航 | 次级 | KD6 零竞争，N5 Pro + Olares + OCuLink 场景 |
+| proxmox mini pc | 90 | 12 | $0.60 | 信息 | 次级 | Olares vs Proxmox on Minisforum 对比 |
+| self hosted ai server | 20 | — | $4.41 | 信息 | GEO | CPC $4.41，N5 Pro + Olares 最便宜可配 4090 自托管 AI 服务器 |
 
 ---
 

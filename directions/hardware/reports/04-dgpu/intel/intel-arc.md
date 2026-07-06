@@ -157,18 +157,27 @@
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | best gpu for llm（110/8）| best gpu for local llm(110/15)、best gpu for ai(720/30)、best gpu for ai video generation(110/14)、cheap gpu for ai(30/9)、a770 gpu(90/21)、local llm gpu(50/30)、gpu for running llm(40/24) | — | ~1,260 | ⭐⭐⭐ | listicle | 信息 A：KD8 金矿"2026 最省心的本地 LLM 主机"——Arc 便宜但折腾，把整机 Olares One 作省心答案 |
-| 2 | best local llm（720/23）| best local llm models(140/22)、local llm hardware requirements(140/24)、best value gpu for ai reasoning models 2025(320/22)、12gb gpu(390/20) | — | ~1,710 | ⭐⭐⭐ | listicle | 信息 A：量+CPC($4.59)双高，本地 LLM 选型 + Olares Market 一键部署落地 |
-| 3 | intel arc vs nvidia（480/23）| b580 vs 4060(390/15)、intel arc a770 vs rtx 3060(50/9)、a770 vs 4060(50/10)、arc b580 vs rtx 5060(70/0)、intel arc 24gb(70/28)、intel arc a770 equivalent(170/25) | — | ~1,280 | ⭐⭐⭐ | versus | 信息 A：生态对比核心词，诚实写 Arc vs CUDA/游戏帧数，加"跑 AI 看整机全栈"第三视角导向 Olares One |
-| 4 | ipex-llm（480/28）| intel arc comfyui(40/23)、arc a770 llm(20/0)、intel arc ollama(20/0)、intel gpu llm(20/0)、intel arc stable diffusion(20/0) | does intel arc support cuda(20/0) | ~620 | ⭐⭐ | listicle | 信息 B：已有 Arc→IPEX-LLM 可行性/边界科普 +"Intel Arc 跑本地 LLM 全指南"，导流省心方案、抢 AI Overview |
-| 5 | arc pro b60（1,000/26）| intel b770(1,300/25)、arc b770(1,000/24)、intel arc b580 price(590/26) | — | ~3,900 | ⭐⭐ | alternative | 信息 A：24GB 每 GB 显存最便宜大卡评测——显存党方案 vs 省心整机对比 |
-| 6 | is intel arc graphics good（170/19）| what is intel arc graphics(210/42)、when did intel arc a380 come out(320/28) | are intel arc gpus good(110/24)、is the intel arc b580 good(110/19)、is intel arc good for gaming(110/24) | ~1,030 | ⭐⭐ | listicle | Arc 值不值科普（CPC$6.96），覆盖"好不好用于 AI"，落省心整机出路 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| intel b770 | 1,300 | 25 | $1.85 | info | 次级 | 未发布占位型号词，作前瞻锚点 |
+| arc pro b60 | 1,000 | 26 | $1.82 | info | 主词候选 | 24GB 每 GB 显存最便宜大卡——显存党方案 vs 省心整机对比 |
+| best gpu for ai | 720 | 30 | $2.02 | comm | 次级 | 高 CPC 品类词，Olares One 作"整机即答案" |
+| best local llm | 720 | 23 | $4.59 | comm | 主词候选 | 信息 A：量+CPC 双高，本地 LLM 选型 + Olares Market 一键部署落地 |
+| intel arc b580 price | 590 | 26 | $0.21 | trans | 次级 | B580 价格词，作型号锚点 |
+| intel arc vs nvidia | 480 | 23 | — | comm | 主词候选 | 信息 A：诚实写 Arc 便宜/生态窄、NVIDIA 成熟；Olares One = NVIDIA 全栈开箱 |
+| ipex-llm | 480 | 28 | — | info | 主词候选 | 信息 B：已有 Arc→IPEX-LLM 可行性/边界科普，导流"想省心换 Olares One" |
+| b580 vs 4060 | 390 | 15 | — | comm | 次级 | KD15 热门对比，加"跑 AI 别只看游戏帧数"第三视角 |
+| 12gb gpu | 390 | 20 | $0.15 | comm | 次级 | 显存档位词，本地 LLM 选型 |
+| is intel arc graphics good | 170 | 19 | $6.96 | info | 主词候选 | CPC$6.96、KD19 问题词，覆盖"好不好用于 AI"，落省心整机出路 |
+| best local llm models | 140 | 22 | $3.09 | comm | 次级 | 选模型清单，并入本地 LLM 选型 |
+| best gpu for llm | 110 | 8 | $0.95 | comm | 主词候选 | KD8 金矿"最省心的本地 LLM 主机"——把整机 Olares One 作省心答案 |
+| best gpu for local llm | 110 | 15 | $1.86 | comm | 主词候选 | KD15 核心选卡词，Arc 入选但注明生态坑，Olares One 作省心方案 |
+| best gpu for ai video generation | 110 | 14 | $1.54 | comm | 次级 | 媒体生成选卡 Arc 吃力→Olares One（引 benchmark 图像/视频领先）|
+| intel arc ollama | 20 | 0 | — | info | GEO | 近零竞争"Intel Arc 能否跑 Ollama/本地 LLM"科普，抢 AI Overview 引用位 |
 
 ---
 

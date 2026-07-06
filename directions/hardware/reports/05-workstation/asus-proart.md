@@ -92,17 +92,26 @@ ASUS ProArt Station（当前主力型号：PD5 / PD500TE）是 ASUS 针对影视
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | 3d rendering workstation（30/11）| content creation pc（30/16）、creator workstation（20/0）、creator workstation linux（0）| best workstation for 3d rendering? content creation pc worth it? | ~80 | ⭐⭐⭐ | listicle | 创作者 3D 渲染/AI PC 选购：Olares One 开箱即用私有 AI（A，24GB vs A4000 16GB）vs ProArt 自搭软件栈；已有机器装 Olares 私有化（B）|
-| 2 | video editing workstation（390/33）| best workstation for video editing（40/29）、workstation for video editing（20/0）| what workstation for video editing? | ~450 | ⭐⭐ | listicle | 视频剪辑工作站推荐：ProArt Station + 本地 AI 辅助（Olares），已有机器夜间不闲置 |
-| 3 | linux workstation（720/32）| workstation linux（10/0）、self hosted workstation（0）| how to install linux on workstation? | ~730 | ⭐⭐ | listicle | Linux 工作站综述 + Olares 安装/NVIDIA 驱动集成（信息 B 路径）|
-| 4 | asus workstation（110/25）| asus proart station（50/21）、proart workstation（20/0）、proart station pd500te（20/0）| is asus proart good for AI? | ~200 | ⭐⭐ | alternative | ASUS/ProArt 工作站评测 + 对比 Olares One（A）+ 装 Olares 指南（B），"让 ProArt 变私有 AI 创作服务器"（`asus proart` 9,900/KD60 为品牌导航词，作背景不作主词）|
-| 5 | workstation ai（110/28）| — | what is an AI workstation? | ~110 | ⭐⭐ | listicle | AI 工作站的本质：硬件 + AI OS（Olares）才完整——Olares One 整机开箱即给（A），已有工作站装 Olares 补齐（B）|
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| linux workstation | 720 | 32 | $2.04 | info | 主词候选 | 工作站 Linux 化的天然入口，信息 B 安装路径（装 Olares 变私有 AI 服务器）|
+| video editing workstation | 390 | 33 | $2.05 | info | 主词候选 | 视频剪辑工作站选购词，ProArt + 本地 AI 辅助（Olares），已有机器夜间不闲置 |
+| asus workstation | 110 | 25 | $1.72 | comm | 主词候选 | ASUS 工作站综述，对比 Olares One（A）+ 装 Olares 指南（B）|
+| workstation ai | 110 | 28 | $1.97 | info | 主词候选 | AI 工作站本质＝硬件 + AI OS：Olares One 整机开箱即给（A），已有工作站装 Olares 补齐（B）|
+| asus proart station | 50 | 21 | $0.64 | comm | 次级 | 品牌型号评测词，文内插入"让 ProArt 跑私有 AI"|
+| best workstation for video editing | 40 | 29 | $3.77 | comm | 次级 | 剪辑工作站购买决策词，CPC 高，带 Olares 本地 AI 视角 |
+| 3d rendering workstation | 30 | 11 | $1.98 | info | 主词候选 | KD11 最低竞争创作者场景，Olares One 开箱即用私有 AI（24GB vs A4000 16GB）双打 |
+| content creation pc | 30 | 16 | $1.38 | comm | 次级 | 创作者购买决策词，主推 Olares One 作 AI 创作整机 |
+| creator workstation | 20 | 0 | $1.25 | comm | 次级 | 创作者工作站长尾，零竞争，可切 Olares 叙事 |
+| proart workstation | 20 | 0 | $0.81 | comm | 次级 | ProArt 型号系列词，评测/教程可覆盖 |
+| workstation for video editing | 20 | 0 | — | comm | 次级 | 零 KD 场景变体，与主词合并写 |
+| workstation linux | 10 | 0 | — | info | GEO | 近零量安装词，进 FAQ/直答 |
+| creator workstation linux | 0 | 0 | — | info | GEO | 语义契合创作者 Linux 工作站，抢 AI Overview |
+| self hosted workstation | 0 | 0 | — | — | GEO | 前瞻占位词，GEO 布局 |
 
 ---
 

@@ -107,17 +107,26 @@ HP Z 系列 G5 工作站分三档：
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | hp z8 fury g5（210/26）| hp z4 g5（260/42）、hp z6 g5（140/38）、hp zbook workstation（170/45）、hp z8 fury linux（0）| is hp z8 fury good for AI? z6 vs z8 fury? | ~780 | ⭐⭐⭐ | versus | Z 系型号评测（KD26 最弱防线）+ "HP Z8 Fury G5 装 Olares 变 4×RTX 6000 Ada 私有 AI 服务器"（信息 B，>24GB 大显存需求）|
-| 2 | hp workstation ai（40/0）| hp workstation ai server（0）、hp workstation private cloud（0）、hp workstation self hosted ai（0）| best hp workstation for AI? | ~40 | ⭐⭐⭐ | alternative | KD=0 先发抢位：A——想要 AI 工作站开箱即用选 Olares One；B——已有 HP Z 装 Olares，Local LLM for Teams |
-| 3 | hp workstation linux（10/0）| local llm workstation linux（0）| can you run linux on hp workstation? | ~10 | ⭐⭐ | listicle | KD=0 技术用户教程："HP Z Workstation Linux——从 Windows 到 Ubuntu + Olares 迁移指南"（B）|
-| 4 | hp z2 mini g1a（880/43）| hp z2 mini workstation（70/36）| hp z2 mini vs olares one? | ~950 | ⭐⭐ | versus | 跨组（Strix Halo Z2 Mini）"Compact AI Workstation: HP Z2 Mini G1a vs Olares One"（另见 hp-strix-halo.md）|
-| 5 | workstation build（550,000/50）| — | how to build a workstation? | ~550,000 | ⭐ | listicle | 超大通用词（KD50 排不动）：配置器内容辅助/长期占位 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| workstation build | 550,000 | 50 | $1.90 | comm | 主词候选 | 超大通用词 KD50 排不动，配置器内容/长期占位 |
+| hp z2 mini g1a | 880 | 43 | $1.34 | info | 主词候选 | 跨组 Strix Halo 迷你工作站，Olares One vs Z2 Mini（A）+ 装 Olares（B）|
+| hp z4 g5 | 260 | 42 | $1.93 | info | 次级 | 入门 Z 工作站型号词，评测截流 |
+| hp z8 fury g5 | 210 | 26 | $1.74 | info | 主词候选 | KD26 最弱防线，"Z8 Fury G5 装 Olares 变 4×RTX 6000 Ada 私有 AI 服务器"（B，大显存）|
+| hp zbook workstation | 170 | 45 | $1.67 | info | 次级 | ZBook 工作站泛词，评测覆盖 |
+| hp z6 g5 | 140 | 38 | $1.50 | info | 次级 | Z6 型号评测对比 |
+| hp z2 mini workstation | 70 | 36 | $1.32 | info | 次级 | Z2 Mini 跨组词 |
+| hp workstation ai | 40 | 0 | $0 | info | 主词候选 | KD0 先发抢位：想要 AI 工作站买 Olares One（A）+ 已有 HP 装 Olares（B）|
+| hp workstation linux | 10 | 0 | $0 | info | 主词候选 | KD0 技术用户教程：Windows→Ubuntu + Olares 迁移（B）|
+| hp z8 fury linux | 0 | 0 | $0 | — | GEO | 大显存机型 Linux 化前瞻词 |
+| hp workstation ai server | 0 | 0 | $0 | — | GEO | 企业 AI 服务器前瞻词 |
+| hp workstation private cloud | 0 | 0 | $0 | — | GEO | 工作站私有云前瞻词 |
+| hp workstation self hosted ai | 0 | 0 | $0 | — | GEO | 自托管 AI 前瞻词，抢 AI Overview |
+| local llm workstation linux | 0 | 0 | $0 | — | GEO | 本地 LLM 工作站前瞻词 |
 
 ---
 

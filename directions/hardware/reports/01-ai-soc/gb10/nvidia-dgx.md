@@ -119,18 +119,27 @@
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | dgx spark alternative（40/12）| dgx spark buy（110/31）、dgx spark availability（30/0）| — | ~180 | ⭐⭐⭐ | alternative | KD12 几乎白地："DGX Spark 太贵？"Olares One = 消费级 AI 主机、更低成本，截获所有评估 DGX Spark 的用户 |
-| 2 | dgx spark price（2,900/35）| dgx spark（22,200/55）、nvidia dgx spark（18,100/68）、dgx spark review（260/35）| — | ~43,460 | ⭐⭐ | listicle | 价格/评测综述：DGX Spark $4,699 vs Olares One 定价对比 + AI 主机选购指南 |
-| 3 | dgx spark vs mac studio（70/20）| strix halo vs dgx spark（50/0）、dgx spark vs mac（30/0）、dgx spark ollama（30/0）、dgx spark local llm（10/0）| — | ~190 | ⭐⭐⭐ | versus | KD20 对比文加第三选项 Olares One（更低成本本地 AI 主机），与各 GB10 OEM 报告互链 |
-| 4 | personal ai supercomputer（480/52）| gb10（1,000/37）、grace blackwell（1,000/52）、grace blackwell superchip（90/40）| — | ~2,570 | ⭐⭐ | listicle | 个人 AI 超算 / Grace Blackwell 科普，Olares One 是"个人 AI 超算"品类定位词 |
-| 5 | 5090（74,000/37）| rtx 5090（110,000/46）、5080（49,500/41）、5070（49,500/41）、4090（33,100/46）、rtx spark（20/0）| — | ~316,120 | ⭐⭐ | listicle | RTX 5090 / 50 系型号词 KD 极低（37-46）："RTX 5090 本地 AI 使用体验"截获显卡用户引向 Olares One |
-| 6 | nvidia jetson（8,100/54）| — | — | ~8,100 | ⭐ | versus | 边缘 AI 用户重叠："Jetson vs Olares One：哪种边缘 AI 方案更适合你" |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| rtx 5090 | 110,000 | 46 | — | 信息 | 次级 | 显卡大词 KD 中低，"RTX 5090 本地 AI 体验"引向 Olares One |
+| 5090 | 74,000 | 37 | — | 信息 | 主词候选 | RTX 5090 型号词 KD 极低，截获显卡用户引向 Olares One |
+| 5080 | 49,500 | 41 | — | 信息 | 次级 | 50 系型号词，顺带覆盖 |
+| 4090 | 33,100 | 46 | — | 信息 | 次级 | 上代显卡词 |
+| dgx spark | 22,200 | 55 | $0.90 | 信息 | 次级 | 平台大词，难正面刚 |
+| nvidia dgx spark | 18,100 | 68 | $0.99 | 信息 | 次级 | 强品牌大词 |
+| nvidia jetson | 8,100 | 54 | — | 信息 | 主词候选 | 边缘 AI 用户重叠，"Jetson vs Olares One"对比 |
+| dgx spark price | 2,900 | 35 | $0.59 | 商业 | 主词候选 | 价格综述主词，DGX Spark $4,699 vs Olares One 定价对比 |
+| gb10 | 1,000 | 37 | $2.43 | 信息 | 次级 | 芯片词 |
+| grace blackwell | 1,000 | 52 | $3.05 | 信息 | 次级 | 平台科普词 |
+| personal ai supercomputer | 480 | 52 | $1.94 | 信息 | 主词候选 | Olares One "个人 AI 超算"品类定位词 |
+| dgx spark review | 260 | 35 | $2.38 | 评测 | 次级 | 评测词，加 Olares One 对比 |
+| dgx spark vs mac studio | 70 | 20 | $0 | 信息 | 主词候选 | KD20 对比文加第三选项 Olares One，与各 GB10 OEM 报告互链 |
+| strix halo vs dgx spark | 50 | 0 | $0 | 新兴 | GEO | 跨报告对比 GEO 占位 |
+| dgx spark alternative | 40 | 12 | $2.89 | 信息 | 主词候选 | KD12 几乎白地，Olares One = 消费级 AI 主机截流评估 DGX Spark 的用户 |
 
 ---
 

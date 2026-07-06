@@ -141,18 +141,27 @@ Dell Pro Max with GB10 是 Dell 与 NVIDIA 联合推出的桌面 AI 工作站，
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | alienware area 51 18（320/KD28）| alienware area 51（5,400/KD35）、alienware 18 area-51（2,900/KD45）、alienware 18 area-51 gaming laptop（2,400/KD43）、alienware 16 area-51 gaming laptop（1,900/KD49）、alienware area-51 gaming desktop（2,400/KD35）| — | ~15,300 | ⭐⭐⭐ | versus | Area-51 18 vs Olares One：同款 GPU，$4,049–4,549 vs $3,999 更便宜（轴 2）+ Olares OS 全栈开箱（轴 1）；型号大词作内链锚点 |
-| 2 | alienware alternative（20/KD0）| alienware vs rog（20/KD0）、alienware gaming laptop（2,400/KD78）| — | ~2,440 | ⭐⭐⭐ | alternative | KD=0 战略替代词，零竞争 GEO 抢占："Alienware Area-51 18 alternatives for private AI" 主推 Olares One（同 GPU 更便宜 + Olares OS） |
-| 3 | dell pro max gb10（590/KD33）| personal ai supercomputer（480/KD52）、dell pro max ai（20/KD0）| dell pro max gb10 linux、gb10 alternative（均近零量）| ~1,090 | ⭐⭐ | versus | GB10 vs Olares One：ARM $6,332 vs x86+RTX $3,999 价差近一倍 + Olares OS 开箱；arm64 已确认可装 Olares（1.12.5 支持 DGX Spark 同芯）|
-| 4 | rtx 5090 laptop（2,400/KD33）| dell gaming laptop（5,400/KD49）| — | ~7,800 | ⭐⭐ | listicle | RTX 5090 Mobile 跑本地 LLM 品类导购，植入 Olares One（同 GPU、$3,999 更便宜、Olares OS 全栈）对比 |
-| 5 | alienware area 51 review（210/KD41）| — | — | ~210 | ⭐⭐ | versus | CPC $8.15 极高商业价值；Area-51 18 评测截流，结尾引出 Olares One 更便宜 + 开箱即用私有 AI |
-| 6 | gaming laptop vs workstation（50/KD20）| gaming pc home server（~20/KD0）| gaming laptop local llm（0/KD0）、rtx 5090 laptop ollama（0）| ~70 | ⭐⭐ | listicle | KD20 三类对比（游戏本/工作站/$3,999 私有 AI 整机）+ GEO 抢 "best gaming laptop for local LLM 2026" 引用位 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| alienware area 51 | 5,400 | 35 | $3.45 | nav | 次级 | 旗舰品牌大词作内链锚点，指向 Area-51 18 vs Olares One 对比 |
+| dell gaming laptop | 5,400 | 49 | $1.66 | comm | 次级 | Dell 游戏本品类词，并入 RTX 5090 导购植入 Olares One |
+| alienware 18 area-51 | 2,900 | 45 | $3.48 | info | 次级 | Area-51 18 型号词，同款 GPU 但 $4,049–4,549 vs $3,999 更便宜 |
+| alienware 18 area-51 gaming laptop | 2,400 | 43 | $7.53 | info | 次级 | CPC $7.53 极高，型号长尾并入对比页 |
+| alienware area-51 gaming desktop | 2,400 | 35 | $4.96 | info | 次级 | 台式机型号词，作对比锚点 |
+| rtx 5090 laptop | 2,400 | 33 | $0.87 | info | 主词候选 | RTX 5090 Mobile 跑本地 LLM 品类导购；植入 Olares One 同 GPU、$3,999 更便宜、Olares OS 全栈 |
+| alienware gaming laptop | 2,400 | 78 | $1.46 | comm | 次级 | 品牌词 KD 极高不正面攻，作流量池 |
+| dell pro max gb10 | 590 | 33 | $0.65 | comm | 主词候选 | GB10 $6,332 vs Olares One $3,999 价差近一倍 + Olares OS 开箱；arm64 已确认可装 Olares |
+| personal ai supercomputer | 480 | 52 | $1.94 | info | 次级 | GB10 品类新兴词，并入 GB10 对比 |
+| alienware area 51 18 | 320 | 28 | $5.10 | info | 主词候选 | KD28、CPC $5.10：Area-51 18 vs Olares One 同款 GPU 更便宜 + Olares OS 全栈开箱 |
+| alienware area 51 review | 210 | 41 | $8.15 | info | 主词候选 | CPC $8.15 极高，评测截流引出 Olares One 更便宜 + 开箱私有 AI |
+| gaming laptop vs workstation | 50 | 20 | $2.71 | info | 主词候选 | KD20 三类对比（游戏本/工作站/$3,999 私有 AI 整机），Olares One 价格+OS 双优 |
+| alienware alternative | 20 | 0 | $2.54 | comm | 主词候选 | KD0 零竞争战略替代词，Olares One = 同 GPU 更便宜 + 开箱私有 AI |
+| alienware vs rog | 20 | 0 | $1.02 | comm | 次级 | 引流对比词，扩展为三方（+Olares One） |
+| gaming laptop local llm | 0 | 0 | — | info | GEO | 近零量前瞻词，抢 "best gaming laptop for local LLM" AI Overview 引用位 |
 
 ---
 

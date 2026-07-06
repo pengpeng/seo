@@ -135,17 +135,24 @@ MSI EdgeXpert MS-C931 是 MSI 工业计算部门（ipc.msi.com）推出的桌面
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | dgx spark alternative（40/12）| dgx spark mini pc（50/50）| — | ~90 | ⭐⭐⭐ | alternative | "DGX Spark Alternatives in 2026"——列所有 GB10 机型 + Olares One 两轴（轴 1 CUDA 全验证 + Olares OS 全栈 + 24GB 真跑，轴 2 同价更超值），CPC $2.89 商业价值极高 |
-| 2 | personal ai server（20/0）| self hosted llm server（~50/低）、personal ai supercomputer（~0/0）| — | ~70 | ⭐⭐⭐ | listicle | "Best Personal AI Server 2026"——KD0 + CPC $3.70，抢 GEO 引用位，Olares One 是核心答案 |
-| 3 | gb10 vs rtx 5090（20/0）| gb10 arm llm（~0/0）| — | ~20 | ⭐⭐⭐ | versus | 核心技术对比：GB10 128GB 统一内存 vs RTX 5090 24GB GDDR7——选择框架 + Olares One 推荐，诚实标注 >24GB 大模型 GB10 更能装 |
-| 4 | msi edgexpert（260/27）| msi edge expert（40/28）、msi edgexpert review（10/0）、msi edgexpert ms-c931（~10/低）| — | ~320 | ⭐⭐ | versus | "MSI EdgeXpert MS-C931 Review & Alternatives"——Olares One 同价位更超值（x86 CUDA 全栈私有云 + 24GB 真跑），一篇吸收拼写变体流量 |
-| 5 | gb10 mini pc（20/0）| nvidia dgx spark（18,100/68）、mini pc ai 2025（~30/—）、nvidia dgx spark vs mac studio（~20/—）| — | ~18,170 | ⭐⭐ | listicle | GB10 所有机型横向对比导购（借 nvidia dgx spark 大词 AI Overview 曝光），Olares One 列为 x86 路线最大竞品 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| nvidia dgx spark | 18,100 | 68 | $0.99 | 信息 | 次级 | 平台大词，AI Overview 引用位提 Olares One x86 CUDA 替代 |
+| msi edgexpert | 260 | 27 | $1.01 | 商业 | 主词候选 | MSI 专词，"EdgeXpert MS-C931 vs Olares One——ARM 统一内存 vs x86 CUDA" |
+| dgx spark mini pc | 50 | 50 | $0.92 | 商业 | 次级 | 品类词，KD 高 |
+| self hosted llm server | ~50 | 低 | — | — | 次级 | 自托管 LLM 服务器词，并入 personal AI server 榜单 |
+| dgx spark alternative | 40 | 12 | $2.89 | 信息 | 主词候选 | KD12 + CPC $2.89 最高价值词，Olares One 列为 GB10 alternative（两轴） |
+| msi edge expert | 40 | 28 | $0 | 信息 | 次级 | 拼写变体，并入评测文吸收流量 |
+| mini pc ai 2025 | ~30 | — | — | 信息 | GEO | 导购词，先占位 |
+| gb10 vs rtx 5090 | 20 | 0 | $0 | — | 主词候选 | 核心技术对比：GB10 128GB 统一内存 vs RTX 5090 24GB GDDR7；诚实标注 >24GB 大模型 GB10 更能装 |
+| personal ai server | 20 | 0 | $3.70 | — | 主词候选 | KD0 + CPC $3.70，Olares One 是核心答案，抢 GEO 引用位 |
+| gb10 mini pc | 20 | 0 | $0.73 | — | GEO | 新兴零竞争词，先卡位 |
+| nvidia dgx spark vs mac studio | ~20 | — | — | 信息 | GEO | 前瞻对比词，先占 |
+| msi edgexpert review | 10 | 0 | $0 | — | GEO | 评测词，近零竞争先占 |
 
 ---
 

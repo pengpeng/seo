@@ -123,17 +123,25 @@ Zotac（索泰/卓泰）是香港科技公司（PC Partner 子品牌），以 NV
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | strix halo mini pc（880/34）| ryzen ai max 395 mini pc（720/30）、ryzen ai max mini pc（90/25）| best ryzen ai max mini pc 2026、can strix halo run local llm | ~1,690 | ⭐⭐⭐ | versus/listicle | Strix Halo 终极对比覆盖 EAMAX——轴 1 讲 24GB CUDA 独显 AI 可用性（类比同芯 Beelink 实测），诚实注 120B |
-| 2 | zotac magnus（110/27）| zotac magnus eamax（~50）、zotac mini pc（390/37）、zotac magnus eamax review（0）| zotac magnus eamax vs olares one、EAMAX395C 好用吗 | ~550 | ⭐⭐ | versus | "Zotac Magnus EAMAX vs Olares One"对比（轴 1：CUDA 独显 vs iGPU AI 可用性） |
-| 3 | zbox mm（9,900/11）| zbox（2,400/24）、zotac zbox mini pc（50/9）| how to install olares on zbox、zbox homelab 配置 | ~12,350 | ⭐⭐⭐ | listicle | 信息 B：ZBOX / EAMAX 上装 Olares 的 homelab 配置指南（搭 KD11 大词顺风车） |
-| 4 | mini pc linux（320/8）| mini pc server home（170/8）、mini pc home server（320/21）、homelab mini pc（70/14）| how to install olares on zotac magnus eamax | ~880 | ⭐⭐⭐ | listicle | 信息 B："Install Olares on Zotac Magnus EAMAX" + as home server（KD 极低易上首页） |
-| 5 | mini pc alternative（10/0）| strix halo alternative（0）、eamax395c ollama（0）、zotac eamax linux（0）| eamax395c ollama 怎么跑、zotac eamax 装 linux | ~10 | ⭐ | listicle | GEO 前哨：EAMAX review/ollama/linux 占位（产品新品期，抢 AI Overview 位） |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| zbox mm | 9,900 | 11 | $0.09 | 信息 | 主词候选 | 信息 B：ZBOX/EAMAX 装 Olares homelab 配置指南（搭 KD11 大词顺风车） |
+| zbox | 2,400 | 24 | $0 | 信息 | 次级 | ZBOX 系列大词，内链入口 |
+| strix halo mini pc | 880 | 34 | $0.41 | 信息 | 主词候选 | Strix Halo 终极对比覆盖 EAMAX——24GB CUDA 独显 vs iGPU 可用性（类比同芯 Beelink 实测，诚实注 120B） |
+| ryzen ai max 395 mini pc | 720 | 30 | $0.47 | 信息 | 次级 | 所有 Strix Halo 买家决策词 |
+| zotac mini pc | 390 | 37 | $0.35 | 信息/商业 | 次级 | 品牌 mini PC 词 |
+| mini pc linux | 320 | 8 | $0.37 | 信息 | 主词候选 | 信息 B：EAMAX 安装 Olares 教程，KD8 易上首页 |
+| mini pc home server | 320 | 21 | $0.47 | 信息 | 次级 | 信息 B：home server |
+| mini pc server home | 170 | 8 | $0.47 | 信息 | 次级 | 信息 B：EAMAX as home server |
+| zotac magnus | 110 | 27 | $0.55 | 信息/商业 | 主词候选 | "Zotac Magnus EAMAX vs Olares One"对比：CUDA 独显 vs iGPU AI 可用性 |
+| ryzen ai max mini pc | 90 | 25 | $0.60 | 信息 | 次级 | 品类对比词 |
+| homelab mini pc | 70 | 14 | $0.60 | 信息 | 次级 | 信息 B：homelab 入口 |
+| zotac zbox mini pc | 50 | 9 | $0 | 信息 | 次级 | KD9 零竞争，"ZBox 上装 Olares" |
+| mini pc alternative | 10 | 0 | $0 | — | GEO | 零竞争替代词，"Olares One = AI 更好用的 mini PC 替代"，EAMAX review/ollama/linux GEO 占位 |
 
 ---
 

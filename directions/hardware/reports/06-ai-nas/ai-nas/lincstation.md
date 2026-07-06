@@ -143,18 +143,28 @@ LincPlus（Lincplustech.com）是中国品牌（2024-2025 年通过 Kickstarter 
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | truenas vs unraid（1,000/KD12）| best nas 2025（590/33）、qnap alternative（20/0，CPC$4.76）| TrueNAS 和 Unraid 哪个好？哪个 NAS OS 能跑本地 AI？| ~1,610 | ⭐⭐⭐ | versus | 轴1：N2 作 Unraid 存储代表，要本地 AI 就上 Olares One（24GB 独显 + 全栈 OS）|
-| 2 | nas os（880/KD28）| nas operating system（590/29）、linux nas os（390/14）、best nas os（320/14）、best nas operating system（260/13）、lincos nas（110/4）| 2026 最好的 NAS 操作系统是哪个？有没有 AI-Native 的 NAS OS？| ~2,550 | ⭐⭐ | listicle | Unraid/TrueNAS/Olares 横评，Olares 主打 AI-Native + AI 应用一键装 |
-| 3 | nas motherboard（720/KD21）| nas mobo（260/4）| 2026 最好的 NAS 主板？DIY NAS 怎么配才能跑 AI？| ~980 | ⭐⭐⭐ | listicle | DIY NAS 硬件选型 + Olares 兼容性，落"要本地 AI 得有独显"，Olares One 一体机 |
-| 4 | lincstation n2（390/KD12）| lincstation（140/13）、lincstation n1（110/12）、lincstation s1（70/13）、lincplus n2（20/0）| LincStation N2 能跑本地 AI 吗？N100 跑得动大模型吗？| ~730 | ⭐⭐⭐ | alternative | 轴1：N2 Review——N100 全 SSD 无本地 AI vs Olares One AI 私有云（引实测）；已买 N2 者走信息 B |
-| 5 | synology alternative（260/KD7）| self hosted nas（20/0）、open hardware nas（10/0）| 2026 最好的群晖替代品？有没有开源自托管 NAS？| ~290 | ⭐⭐⭐ | alternative | 轴1：Synology/QNAP 闭源 → N2 Unraid 存储 → Olares One 开源 + 本地 AI 独显 |
-| 6 | personal cloud server（210/KD32）| home server nas（320/30）、nas for home server（170/39）| 怎么搭个人云服务器？家用服务器能跑本地 AI 吗？| ~700 | ⭐⭐ | alternative | 个人云/家庭服务器：Olares One 一体机（存储 + 24GB 独显 + 全栈 OS）叙事 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| truenas vs unraid | 1,000 | 12 | — | info | 主词候选 | OS 对比文加入 Olares：N2 跑 Unraid 做存储，要本地 AI 就上 Olares One（24GB 独显）|
+| nas os | 880 | 28 | $2.51 | info | 主词候选 | LincPlus 已 #2，Olares 做更深 NAS OS 对比，突出 AI-Native |
+| nas motherboard | 720 | 21 | $0.22 | info | 主词候选 | DIY NAS 硬件选型 + Olares 兼容，落"要本地 AI 得有独显"|
+| nas operating system | 590 | 29 | $2.51 | info | 次级 | NAS OS 同义词，横评覆盖 |
+| best nas 2025 | 590 | 33 | $0.88 | info | 次级 | roundup 机会，含 N2 与 Olares One |
+| lincstation n2 | 390 | 12 | $0.87 | info | 主词候选 | N100 无本地 AI vs Olares One 24GB 独显（引实测），存储 vs AI 分层 |
+| linux nas os | 390 | 14 | $0.77 | info | 次级 | Linux NAS OS 词，Olares 同类内容 |
+| best nas os | 320 | 14 | — | info | 次级 | 榜单词，Olares AI-Native 卖点 |
+| synology alternative | 260 | 7 | $1.26 | info | 主词候选 | Synology/QNAP 闭源 → N2 Unraid 存储 → Olares One 开源 + 本地 AI 独显 |
+| nas mobo | 260 | 4 | $0.22 | info | 次级 | KD4 极低，DIY NAS 用户精准 |
+| best nas operating system | 260 | 13 | — | info | 次级 | 榜单词 |
+| personal cloud server | 210 | 32 | $1.72 | info | 主词候选 | 个人云场景，Olares One 一体机（存储 + 24GB 独显 + 全栈 OS）|
+| lincstation | 140 | 13 | $0.25 | comm | 次级 | 品牌词，对比文覆盖 |
+| lincos nas | 110 | 4 | — | info | 次级 | KD4 LincOS 生态词 |
+| qnap alternative | 20 | 0 | $4.76 | — | GEO | KD0 + CPC$4.76 高价值替代词，占位 |
+| self hosted nas | 20 | 0 | — | info | GEO | 精准场景词，self-hosted NAS + 本地 AI 布局 |
 
 ---
 

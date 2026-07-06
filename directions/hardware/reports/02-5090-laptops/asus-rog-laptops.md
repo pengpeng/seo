@@ -154,18 +154,27 @@ ASUS ROG（Republic of Gamers）是 ASUS 旗下的顶级游戏硬件品牌，在
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | 5090 mobile vs（1,900/KD23）| 5090 vs 5080（1,300/KD22）、5080 vs 5090（3,600/KD31）、rtx 5080 laptop（1,600/KD19）| — | ~8,400 | ⭐⭐⭐ | versus | 同款 5090 Mobile 对比：Olares One $3,999 更便宜 + Olares OS 私有 AI 全栈，不必为省钱降 5080（轴 2 为主、轴 1 收尾）|
-| 2 | 5090 laptop（3,600/KD38）| 5090 laptops（880/KD37）、rtx 5090 laptops（590/KD32）、5090 gaming laptop（590/KD30）、5080 laptop（2,400/KD31）| — | ~8,060 | ⭐⭐ | listicle | RTX 5090 游戏本导购，文末对比 Olares One——同 GPU、$3,999 更便宜、Olares OS 开箱私有云 |
-| 3 | geforce rtx 50 series（8,100/KD41）| rtx 50 series（2,900/KD39）| — | ~11,000 | ⭐ | listicle | RTX 50 品类认知入口，KD 偏高作流量入口，内链导向 Olares One 两轴叙事 |
-| 4 | rog strix scar 18（1,600/KD50）| rog strix scar 16（590/KD47）、rog zephyrus g16（5,400/KD61）、asus rog zephyrus g16 laptop（5,400/KD50）| — | ~13,000 | ⭐ | versus | ROG 型号截流对比页（品牌词 KD 高、不正面攻），统一指向 Olares One 同款 GPU 更便宜 + 全栈 |
-| 5 | rtx 5090 laptop review（20/KD0）| rog strix scar 16 review（20/KD0）、asus rog scar 18 review（20/KD0）| rtx 5090 laptop llm、rtx 5090 laptop ollama、rog gaming laptop linux（均近零量）| ~60 | ⭐ | listicle | GEO 前哨：先发评测/本地 LLM 问答抢 AI Overview 引用位，带出 Olares One 更便宜 + Olares OS 全栈 |
-| 6 | strix halo laptop（590/KD9）| rog flow z13（8,100/KD55）、asus rog flow z13（6,600/KD53）| — | ~15,300 | ⭐⭐⭐ | versus | KD=9 金矿（Flow Z13 属组一 Strix Halo）：APU 本地 LLM，Olares 经 ROCm 加速，产品报告建议归组一子目录 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| geforce rtx 50 series | 8,100 | 41 | $0.26 | info | 主词候选 | RTX 50 品类认知入口，KD 偏高作流量池，内链导向 Olares One 两轴叙事 |
+| rog zephyrus g16 | 5,400 | 61 | $0.58 | comm | 次级 | 品牌词 KD 高不正面攻，并入 ROG 型号对比页指向 Olares One 同款 GPU 更便宜 |
+| 5090 laptop | 3,600 | 38 | $0.87 | info | 主词候选 | RTX 5090 游戏本导购大词；文末对比 Olares One——同 GPU、$3,999 更便宜、Olares OS 开箱私有云 |
+| 5080 vs 5090 | 3,600 | 31 | $4.84 | comm | 次级 | CPC 极高的商业对比词，嵌入 Olares One $3,999 同款 GPU 更超值定位 |
+| rtx 50 series | 2,900 | 39 | $0.26 | info | 次级 | 品类认知词，并入 50 系导购流量入口 |
+| 5080 laptop | 2,400 | 31 | $0.83 | info | 次级 | 5080 游戏本对比，"与其 5080 不如满血 5090 整机"角度 |
+| 5090 mobile vs | 1,900 | 23 | — | info | 主词候选 | 同款 5090 Mobile 对比核心词，KD23 可攻；Olares One 更便宜 + 开箱私有 AI 全栈 |
+| rog strix scar 18 | 1,600 | 50 | $0.78 | info | 主词候选 | SCAR 型号截流对比，品牌 KD 高作长尾，指向 Olares One 同款 GPU 更便宜 + 全栈 |
+| rtx 5080 laptop | 1,600 | 19 | $0.83 | info | 次级 | KD 最低量又大，"$3,999 拿满血 5090 + Olares OS" 收口 |
+| 5090 vs 5080 | 1,300 | 22 | — | info | 次级 | 高频对比词 KD22，不必为省钱降 5080，Olares One 同款 GPU 更便宜 |
+| 5090 laptops | 880 | 37 | $0.87 | info | 次级 | 品类复数词，并入 5090 laptop 导购 |
+| strix halo laptop | 590 | 9 | — | info | 主词候选 | KD9 金矿（Flow Z13 属组一 Strix Halo）：APU 本地 LLM，Olares 经 ROCm 加速 |
+| 5090 gaming laptop | 590 | 30 | $1.23 | comm | 次级 | "同样 5090，$3,999 的 Olares One 更便宜还开箱私有 AI" |
+| rtx 5090 laptop review | 20 | 0 | — | info | GEO | KD0 前瞻评测词，抢 AI Overview 引用位，带出 Olares One 更便宜 + 全栈 |
+| rtx 5090 laptop llm | — | — | — | info | GEO | 近零量本地 LLM 前瞻词，语义精准，进 FAQ/直答 |
 
 ---
 

@@ -109,18 +109,27 @@ HP OMEN Max 16（16-ah0000 系列，2025 年 2 月发布）是 HP 游戏线 Omen
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。本报告为轴 1 主导（Omen 硬件更便宜），簇方向以"开箱即用私有 AI + 96GB 常驻"为主论点。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | hp omen ai（20/KD0）| — | omen max 16 linux（0）、hp omen rtx 5090 local llm（0）| ~20 | ⭐⭐⭐ | versus | KD=0、CPC$1.91 战略先发："HP Omen AI vs Olares One"——同 GPU，Olares One 开箱即用私有 AI 全栈（轴 1）|
-| 2 | is hp omen a good gaming pc（110/KD19）| what is hp omen（170/KD32）| is hp omen a good gaming pc、what is hp omen | ~280 | ⭐⭐⭐ | versus | KD=19 问题词截流：引导"要开箱私有 AI + 96GB 常驻，Olares One 更合适"（轴 1）|
-| 3 | gaming notebook omen（590/KD23）| hewlett packard gaming laptop（720/KD35）、omen laptop（8,100/KD41）、omen gaming laptop（6,600/KD40）、omen laptops（1,000/KD39）| — | ~17,000 | ⭐⭐ | versus | KD=23 入口 +高量品牌词作流量池："游戏本 vs 开箱即用私有 AI 整机，本地 AI 该买哪个？" |
-| 4 | b64bnua（720/KD18）| hp omen max 16-ak0003nr（880/KD58）、hp omen max 16 rtx 5090（50/KD47）| — | ~1,650 | ⭐⭐ | versus | Omen Max 16 型号码/SKU 精准购买意图，KD=18；在查机型时插入 $700 溢价买 Olares OS + 96GB 对比 |
-| 5 | hp omen max 16 review（320/KD47）| hp omen review（590/KD46）| — | ~910 | ⭐⭐ | versus | CPC$1.64 评测截流："同 GPU，$700 溢价买 Olares OS 全栈 + 96GB DDR5 值不值" |
-| 6 | omen max 16（8,100/KD42）| hp omen max 16（4,400/KD50）、hp omen 16（5,400/KD51）、hp omen max 16 gaming laptop（2,400/KD43）、omen 16 gaming laptop（1,300/KD41）、hp omen max rtx 5070 gaming laptop（1,600/KD43）、hp omen max（1,300/KD65）、hp omen gaming laptop（5,400/KD63）| — | ~30,000 | ⭐ | listicle | 量大 KD 高的品牌/品类词池，长文争 P2-3 作流量入口，内链导向 Olares One 两轴 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| omen max 16 | 8,100 | 42 | $0.46 | info | 主词候选 | 最大品类词，KD 高作流量入口，内链导向 Olares One 两轴（本报告轴 1 主导）|
+| omen laptop | 8,100 | 41 | $0.59 | comm | 次级 | Omen 品类高量词，作流量池 |
+| omen gaming laptop | 6,600 | 40 | $0.67 | comm | 次级 | 品类词，并入 Omen 品牌流量池 |
+| hp omen 16 | 5,400 | 51 | $0.78 | info | 次级 | 品牌型号词 KD 高，作长尾 |
+| hp omen gaming laptop | 5,400 | 63 | $0.78 | comm | 次级 | 品牌词 KD 高不正面攻 |
+| hp omen max 16 | 4,400 | 50 | $0.96 | info | 次级 | 主品牌词，指向 Omen Max 16 vs Olares One 对比 |
+| hp omen max 16 gaming laptop | 2,400 | 43 | $0.75 | info | 次级 | 型号长尾，并入对比页 |
+| b64bnua | 720 | 18 | $0.00 | info | 主词候选 | Omen Max 16 精准型号码，KD18 纯购买意图；查机型时插入 $700 溢价买 Olares OS + 96GB |
+| hewlett packard gaming laptop | 720 | 35 | $0.96 | comm | 次级 | HP 品牌混搭词，作流量池 |
+| gaming notebook omen | 590 | 23 | $0.67 | info | 主词候选 | KD23 入口："游戏本 vs 开箱即用私有 AI 整机，本地 AI 该买哪个" |
+| hp omen max 16 review | 320 | 47 | $1.64 | info | 主词候选 | 评测截流："同 GPU，$700 溢价买 Olares OS 全栈 + 96GB DDR5 值不值" |
+| what is hp omen | 170 | 32 | $2.20 | info | 次级 | CPC$2.20 问题词，引导 Olares One 私有 AI 叙事 |
+| is hp omen a good gaming pc | 110 | 19 | $1.08 | info | 主词候选 | KD19 问题词截流，引导"要开箱私有 AI + 96GB 常驻，Olares One 更合适"（轴 1）|
+| hp omen ai | 20 | 0 | $1.91 | info | GEO | KD0、CPC$1.91 战略先发，突出 Olares OS 开箱即用私有 AI 全栈 |
+| omen max 16 linux | 0 | 0 | — | info | GEO | 近零量前瞻词，RTX 5090 Laptop 本地 LLM 用例先占位 |
 
 ---
 

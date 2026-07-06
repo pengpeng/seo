@@ -189,17 +189,28 @@ GMKtec 在 Google Ads 上投放 53 个词，全部为品牌关键词（自有品
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | strix halo mini pc（880/34）| ryzen ai max 395 mini pc（720/30）、amd ryzen ai max+ 395 mini pc（390/30）、amd ryzen ai max 395 mini pc（480/37）、amd strix halo mini pc（170/20）、ai max 395 mini pc（170/25）、mini pc ryzen ai max 395（210/41）| best strix halo mini pc 2026、can strix halo run local llm | ~3,020 | ⭐⭐⭐ | listicle/versus | "Best Strix Halo Mini PC 2026"品类榜单，对比 GMKtec/Minisforum/Beelink + Olares One——轴 1 讲 24GB CUDA 独显 AI 可用性（类比同芯 Beelink 实测），诚实注 120B |
-| 2 | gmktec mini pc review（210/14）| gmktec evo-x2（4,400/42）、gmktec evo x2（1,900/31）、evo-x2（2,400/43）、gmktec evo-x2 ai mini pc（880/28）、gmk evo-x2（390/31）、gmktec evo-x2 review（50/24）、gmktec 395（320/36）、gmktec evo-x1（720/31）、gmktec alternative（20/0）| gmktec evo-x2 vs olares one、best gmktec alternative | ~11,290 | ⭐⭐⭐ | versus/alternative | "GMKtec EVO-X2 vs Olares One"评测/替代文（品牌导航词量大排不动，靠 review/alternative 低 KD 头部词切入，拦截评测流量，轴 1） |
-| 3 | self hosted llm（320/22，CPC$3.12）| home ai server（140/14，CPC$1.78）、local ai server（90/26，CPC$4.26）、best mini pc for ai（110/24）、local llm hardware（50/27，CPC$2.07）、run llm locally（590/47）| best home AI server 2026、how to self-host llm | ~1,300 | ⭐⭐⭐ | listicle/versus | "Self-Hosted LLM / Home AI Server 2026"：EVO-X2 vs Olares One——CUDA 成熟 + 开箱即用 vs iGPU 裸机自建（轴 1，高 CPC 商业价值） |
-| 4 | dgx spark vs evo-x2（320/16）| — | dgx spark vs evo-x2 vs olares one 谁最适合本地 AI | ~320 | ⭐⭐ | versus | "Olares One vs GMKtec EVO-X2 vs DGX Spark"三路对比（KD16 好打，NVIDIA vs AMD） |
-| 5 | mini pc linux（320/8）| best mini pc linux（70/19）、mini pc homelab（40/13）、mini pc for home server（110/30）、ollama mini pc（20/0）| how to install olares on gmktec evo-x2 (amd rocm) | ~560 | ⭐⭐⭐ | listicle | 信息 B："Install Olares on GMKtec EVO-X2"教程 + homelab build（KD 极低易上首页） |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| gmktec evo-x2 | 4,400 | 42 | $0.61 | 商业/信息 | 次级 | 核心产品词，量大排不动，靠 review/alternative 切入 |
+| evo-x2 | 2,400 | 43 | $0.39 | 商业 | 次级 | 裸型号词 |
+| gmktec evo x2 | 1,900 | 31 | $0.61 | 商业/信息 | 次级 | 变体拼写 |
+| strix halo mini pc | 880 | 34 | $0.41 | 信息 | 主词候选 | "Best Strix Halo Mini PC 2026"品类榜单，24GB CUDA 独显 vs iGPU 可用性（类比同芯 Beelink 实测，诚实注 120B） |
+| gmktec evo-x2 ai mini pc | 880 | 28 | $0.63 | 商业 | 次级 | 产品全称 |
+| ryzen ai max 395 mini pc | 720 | 30 | $0.47 | 商业 | 次级 | 型号品类词 |
+| gmktec evo-x1 | 720 | 31 | $0.61 | 商业/信息 | 次级 | 低一档机型词 |
+| ai max+ 395 | 590 | 48 | $1.51 | 商业 | 次级 | SoC 词，高竞争 |
+| run llm locally | 590 | 47 | $3.50 | 商业 | 次级 | 高 CPC 品类核心词 |
+| amd ryzen ai max 395 mini pc | 480 | 37 | $0.71 | 商业 | 次级 | 变体词 |
+| dgx spark vs evo-x2 | 320 | 16 | $0 | 商业/信息 | 主词候选 | "Olares One vs EVO-X2 vs DGX Spark"三路对比，KD16 好打 |
+| mini pc linux | 320 | 8 | $0.37 | 信息 | 主词候选 | 信息 B："Install Olares on GMKtec EVO-X2"，KD8 易上首页 |
+| self hosted llm | 320 | 22 | $3.12 | 商业 | 主词候选 | Olares + Ollama 自托管：CUDA 成熟 + 开箱即用 vs 裸机自建（轴 1，高 CPC） |
+| gmktec mini pc review | 210 | 14 | $0.71 | 信息 | 主词候选 | 蹭 GMKtec 评测流量，写"GMKtec vs Olares One"对比 |
+| amd strix halo mini pc | 170 | 20 | $0.44 | 信息 | 次级 | 信息 B：Linux/Olares 教程 |
+| gmktec alternative | 20 | 0 | $0 | — | GEO | KD0 零竞争，"Best GMKtec EVO-X2 Alternative: Olares One" |
 
 ---
 

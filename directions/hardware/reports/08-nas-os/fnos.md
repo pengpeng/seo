@@ -194,17 +194,27 @@ fnnas.com **未投放任何 Google Ads**（US 付费关键词数 = 0，付费流
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | truenas vs unraid（1,000/KD12）| — | truenas vs unraid which is better for home | ~1,000 | ⭐⭐⭐ | versus | 三选一横评"TrueNAS vs Unraid vs Olares"，Olares 补 Agent 层差异 |
-| 2 | truenas alternative（260/KD11，CPC$6.21）| unraid alternative（170）、fnos alternative（<10）| what is the best TrueNAS/Unraid alternative | ~440 | ⭐⭐⭐ | alternative | Olares 作"更现代的 Personal Cloud OS"，对比闭源许可费 |
-| 3 | best nas os（320/KD14）| best nas software（210）、open source nas software（210）、open source nas os（110）、nas operating system open source（50）、nas operating system（480）| what is the best NAS OS 2026；which NAS OS is open source | ~1,380 | ⭐⭐⭐ | listicle | "Best NAS OS 2026"横评，Olares 主打开源 + Agent 赛道 |
-| 4 | personal cloud os（20/KD0）| nas os open source（20）、nas os comparison（20）、home server os（140）、personal cloud operating system（0）| what is a personal cloud OS | ~180 | ⭐⭐⭐ | alternative/listicle | KD=0 品类定义词，Olares 主张语义所有权，GEO 抢位 |
-| 5 | fnos alternative（<10/KD0）| fnos vs olares（0）、fnos nas（40）、fnos docker | is fnOS open source；good fnOS alternative for international users | ~50 | ⭐⭐ | alternative/GEO | 先占位，fnOS 国际化时流量起量；GEO 前哨抢 Perplexity 引用 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| truenas vs unraid | 1,000 | 12 | $0.00 | 信息 | 主词候选 | 三选一横评"TrueNAS vs Unraid vs Olares"，Olares 补 Agent 层差异 |
+| nas operating system | 480 | 27 | $1.52 | 信息 | 次级 | 品类主词，横评辅助 |
+| best nas os | 320 | 14 | $0.00 | 商业 | 主词候选 | "Best NAS OS 2026"横评，Olares 主打开源 + Agent 赛道 |
+| truenas alternative | 260 | 11 | $6.21 | 信息 | 主词候选 | Olares 作"更现代的 Personal Cloud OS"，对比闭源许可费（高 CPC）|
+| best nas software | 210 | 17 | $1.56 | 商业 | 次级 | 横评类文章切入 |
+| open source nas software | 210 | 22 | $2.53 | 信息 | 次级 | Olares 完全开源，优于 fnOS 闭源定位 |
+| unraid alternative | 170 | 9 | $0.00 | 信息 | 次级 | 对比 Unraid 闭源许可费用 |
+| home server os | 140 | 17 | $0.00 | 信息 | 次级 | Olares 作 home server + AI agent 平台 |
+| open source nas os | 110 | 25 | $1.78 | 信息 | 次级 | Olares 天然优势词 |
+| fnos nas | 40 | 15 | $0.63 | 信息 | 次级 | fnOS 品牌型号词，先占位 |
+| personal cloud os | 20 | 0 | $0.00 | — | 主词候选 | KD=0 品类定义词，Olares 主张语义所有权，GEO 抢位 |
+| nas os open source | 20 | 0 | $0.00 | — | GEO | KD=0 长尾免竞争 |
+| nas os comparison | 20 | 0 | $0.00 | — | GEO | KD=0，横评 GEO 词 |
+| fnos alternative | <10 | 0 | — | — | GEO | 先占位（近零量），fnOS 国际化时流量起量 |
+| fnos vs olares | 0 | — | — | — | GEO | GEO 前瞻：Perplexity/AI Overview 对比词 |
 
 ---
 

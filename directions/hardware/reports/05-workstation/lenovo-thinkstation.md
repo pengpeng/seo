@@ -136,17 +136,27 @@ Lenovo ThinkStation 是 Lenovo 面向专业市场的工作站产品线，2025–
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | thinkstation p3（260/24）| lenovo thinkstation p3（390/28）、lenovo p3（320/41）、lenovo thinkstation p5（90/34）| is thinkstation p3 good for AI? | ~1,060 | ⭐⭐⭐ | versus | 量最大的低 KD 产品词：P3 评测——想开箱即用选 Olares One（A）；已有 P3 装 Olares 变个人 AI 工作站（B，RTX PRO 6000 96GB）|
-| 2 | lenovo thinkstation p7（30/13）| lenovo thinkstation px（110/27）、thinkstation px（70/31）| best thinkstation for AI server? | ~210 | ⭐⭐⭐ | listicle | 全表最低 KD + 最高 CPC $4.70：P7/PX + Olares = 团队级私有 AI 服务器（B，288/384GB 大显存）|
-| 3 | lenovo thinkstation linux（20/0）| private ai workstation（0）、thinkstation ai server（0）、thinkstation for machine learning（0）、ai workstation lenovo（0）、lenovo workstation linux（0）| how to install olares on thinkstation? | ~20 | ⭐⭐⭐ | alternative | KD=0 教程 + GEO："ThinkStation 出厂 Ubuntu 上装 Olares 变私有 AI 服务器"（B）|
-| 4 | thinkstation（1,900/28）| lenovo thinkstation（1,900/50）、lenovo workstation（1,600/48）、lenovo workstations（720/51）、think station（480/30）、desktop workstation（720/43）、workstation desktop（590/48）| thinkstation vs workstation? | ~7,900 | ⭐⭐ | alternative | 宽泛品牌/品类词（thinkstation KD28 可截流）：ThinkStation vs 普通工作站在私有 AI 场景差异 + Olares 叙事 |
-| 5 | desktop ai supercomputer（1,000/43）| ai computer（2,400/54）、ai computers（1,300/58）、ai pc（2,400/47）| what is a desktop ai supercomputer? | ~7,100 | ⭐ | alternative | 桌面 AI 超算私有化对比：Olares One 开箱即用整机（A）vs DGX Spark vs ThinkStation PX + Olares（B）|
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| thinkstation | 1,900 | 28 | $1.97 | nav | 主词候选 | 无品牌前缀 KD28 可截流，ThinkStation vs 普通工作站私有 AI 差异 + Olares 叙事 |
+| lenovo thinkstation | 1,900 | 50 | $2.24 | info | 次级 | 品牌主词 KD50 难攻，作背景 |
+| lenovo workstation | 1,600 | 48 | $1.44 | info | 次级 | 品牌品类词，评测覆盖 |
+| desktop ai supercomputer | 1,000 | 43 | $2.02 | info | 主词候选 | 桌面 AI 超算私有化：Olares One 整机（A）vs DGX Spark vs PX + Olares（B）|
+| lenovo thinkstation p3 | 390 | 28 | $3.45 | comm | 次级 | 高 CPC$3.45 商业词，P3 买家对私有化方案感兴趣 |
+| lenovo p3 | 320 | 41 | $3.34 | comm | 次级 | 无 think 前缀变体 |
+| thinkstation p3 | 260 | 24 | $1.03 | info | 主词候选 | 量最大低 KD 产品词，Olares One（A）+ 已有 P3 装 Olares（B，96GB 跑 70B）|
+| lenovo thinkstation px | 110 | 27 | $0 | nav | 次级 | PX 旗舰 4 卡 384GB 团队服务器，Olares 多用户访问 |
+| lenovo thinkstation p5 | 90 | 34 | $1.19 | comm | 次级 | 中档型号词 |
+| thinkstation px | 70 | 31 | $1.19 | info | 次级 | 旗舰型号词 |
+| lenovo thinkstation p7 | 30 | 13 | $4.70 | comm | 主词候选 | 全表最低 KD + 最高 CPC$4.70，信息 B 大显存 ROI 最高（P7 装 Olares 变 AI 服务器）|
+| lenovo thinkstation linux | 20 | 0 | $0 | comm | 主词候选 | KD0 教程：出厂 Ubuntu + Olares 一行命令部署（B）|
+| private ai workstation | 0 | 0 | $0 | — | GEO | ThinkStation + Olares = 私有 AI 工作站，抢 Perplexity 引用 |
+| thinkstation ai server | 0 | 0 | $0 | — | GEO | "turn your ThinkStation into a private AI server with Olares"|
+| lenovo workstation linux | 0 | 0 | $0 | — | GEO | Lenovo 工作站 Linux + Olares 教程前瞻 |
 
 ---
 

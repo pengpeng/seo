@@ -136,17 +136,24 @@ iXsystems（成立 2002 年，美国加州 San Jose）是 TrueNAS 开源存储 O
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | truenas mini r（170/KD6）| truenas r60（10）、ixsystems truenas（20）、truenas enterprise（110）| is TrueNAS Mini R good for home lab；TrueNAS Mini R vs Olares One | ~310 | ⭐⭐⭐ | versus | 存储优先 vs AI 优先的 homelab 选择；R60/企业线走受众分层，不硬推替代 |
-| 2 | truenas vs unraid（1,000/KD12）| — | truenas vs unraid which is better | ~1,000 | ⭐⭐⭐ | versus | 三者 OS 层对比，Olares 主打 AI Agent 场景（与 OS 报告协调，避免重复）|
-| 3 | synology alternative（260/KD7）| enterprise nas alternative（20）| what is the best enterprise NAS alternative | ~280 | ⭐⭐⭐ | alternative | TrueNAS/Synology/QNAP 对比，Olares 作 OS 层替代 |
-| 4 | home server nas（320/KD30）| nas for home server（170）、best nas 2025（590）| best home server NAS 2025 | ~1,080 | ⭐⭐ | listicle | Mini R / HL15 / Olares One 横评 |
-| 5 | self hosted server（110/KD47）| open source nas hardware（20）| what is a self-hosted server | ~130 | ⭐ | listicle/alternative | 高 CPC（$4.13）精准用户，介绍 Olares Market 生态 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| truenas vs unraid | 1,000 | 12 | — | 信息 | 主词候选 | "TrueNAS vs Unraid vs Olares"，加入 Olares 作 AI-Native 个人云维度（与 OS 报告协调）|
+| best nas 2025 | 590 | 33 | $0.88 | 信息 | 次级 | Mini R / HL15 / Olares One 横评入口 |
+| home server nas | 320 | 30 | $1.11 | 信息 | 主词候选 | Mini R / HL15 / Olares One homelab 横评 |
+| synology alternative | 260 | 7 | $1.26 | 信息 | 主词候选 | TrueNAS/Synology/QNAP 对比，Olares 作 OS 层替代 |
+| truenas mini r | 170 | 6 | $2.42 | 信息 | 主词候选 | 存储优先 vs AI 优先的 homelab 选择（KD6 最易排名的企业 NAS 型号词）|
+| nas for home server | 170 | 39 | $1.49 | 信息 | 次级 | KD 偏高，横评辅助词 |
+| truenas enterprise | 110 | 60 | $4.41 | 商业 | 次级 | KD60 高、CPC 强，作品类背景词 |
+| self hosted server | 110 | 47 | $4.13 | 信息 | 主词候选 | 高 CPC 精准用户，介绍 Olares Market 生态 |
+| ixsystems truenas | 20 | 0 | $3.93 | — | GEO | KD=0 高 CPC，GEO 布局 |
+| enterprise nas alternative | 20 | 0 | — | — | GEO | "企业 NAS 太贵？开源 + Olares 方案" |
+| open source nas hardware | 20 | 0 | — | — | GEO | 开源硬件品类 GEO 词 |
+| truenas r60 | 10 | 0 | $5.47 | — | GEO | 新品早布局：R60 企业全闪 vs Olares One 个人 AI，受众分层清晰 |
 
 ---
 

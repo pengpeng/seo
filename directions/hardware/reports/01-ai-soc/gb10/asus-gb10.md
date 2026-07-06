@@ -146,18 +146,27 @@ ASUS Ascent GX10 是 ASUS 在 NVIDIA GB10 Grace Blackwell SoC 上打造的紧凑
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | dgx spark alternative（40/12）| spark alternatives（50/19）、dgx spark vs evo-x2（320/16）、asus dgx spark（210/26）、asus dgx（110/23）、asus ascent gx10 vs dgx spark（30/0）| — | ~760 | ⭐⭐⭐ | alternative | "Best DGX Spark Alternatives in 2026"——KD12/CPC 高的黄金词矩阵，Olares One 两轴：轴 1 AI 更好用（Olares OS 全栈 + CUDA 全验证 + 24GB 真跑），轴 2 同价位更超值 |
-| 2 | asus ascent gx10 - 1tb（1,600/27）| asus ascent gx10（1,900/44）、ascent gx10（320/28）、asus gx10（390/35）、mini computer asus（390/44）、asus gb10（170/23）、asus ascent gx10 1tb（140/28）、asus ascent gx10 price（140/36）、asus ascent gx10 mini pc（70/33）、asus ascent gx10 release date（70/29）、nvidia grace blackwell asus gx10 desktop（50/20）、asus ascent gx10 buy（40/34）| — | ~5,280 | ⭐⭐ | versus | 型号评测 + 买家决策："Ascent GX10 vs Olares One：同价位 $4000 谁更值"，轴 1 全栈 AI + 诚实标注 >24GB 大模型 GX10 更能装 |
-| 3 | dgx spark vs 5090（140/25）| gb10 nvidia（320/45）、nvidia llm computer（70/76）| — | ~530 | ⭐⭐ | versus | 架构对比："RTX 5090 Mobile 独显（Olares One）vs GB10 统一内存（Ascent GX10），哪个更适合本地 AI" |
-| 4 | nvidia mini pc（590/41）| nvidia desktop computer（590/42）、nvidia dgx spark news（590/53）、nvidia dgx spark mini pc（210/38）、supercomputer ai（90/66）| — | ~2,070 | ⭐⭐ | listicle | NVIDIA / GB10 AI mini PC 品类综述，含 GX10 / Olares One，Olares One 打全栈差异化 |
-| 5 | nvidia's dgx os（320/43）| dgx spark os（110/41）| — | ~430 | ⭐ | alternative | "DGX OS vs Open Source Personal Cloud"：GX10 锁定 NVIDIA 闭源软件栈，Olares 是开放替代 |
-| 6 | ms c931（140/24）| gb10 mini pc（20/0）| — | ~160 | ⭐ | versus | GB10 各 OEM 横向对比（MSI EdgeXpert / GX10 等）+ 零竞争 GEO 埋词，带出 Olares One |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| asus ascent gx10 | 1,900 | 44 | $1.12 | 商业 | 次级 | ASUS 主品牌词，自身占位 |
+| asus ascent gx10 - 1tb | 1,600 | 27 | $2.00 | 信息/商业 | 主词候选 | 量大 KD 低购买词，"GX10 vs Olares One 同价 $4000 谁更值"，诚实标注 >24GB 大模型 GX10 更能装 |
+| nvidia mini pc | 590 | 41 | $0.55 | 信息/商业 | 主词候选 | NVIDIA/GB10 AI mini PC 品类词，Olares One 全栈差异化 |
+| nvidia desktop computer | 590 | 42 | $1.03 | 商业 | 次级 | GB10 整机统称 |
+| asus gx10 | 390 | 35 | $0.98 | 商业/导航 | 次级 | 短品牌词 |
+| mini computer asus | 390 | 44 | $0.67 | 商业 | 次级 | ASUS 迷你电脑品类词 |
+| dgx spark vs evo-x2 | 320 | 16 | — | 信息/商业 | 次级 | 量大 KD 超低对比词，可写同款 dgx spark vs olares one |
+| nvidia's dgx os | 320 | 43 | $2.81 | 信息 | 主词候选 | DGX OS 锁定 NVIDIA 软件栈，Olares 是开放替代 |
+| asus dgx spark | 210 | 26 | $1.15 | 信息 | 次级 | 品牌混淆词，Olares One 可同时出现 |
+| asus gb10 | 170 | 23 | $1.08 | 商业 | 次级 | KD 低购买词，ASUS 两条 AI 路线对比 |
+| dgx spark vs 5090 | 140 | 25 | $1.90 | 信息/商业 | 主词候选 | 架构对比：RTX 5090 Mobile 独显 vs GB10 统一内存哪个更适合本地 AI |
+| ms c931 | 140 | 24 | — | 信息 | 主词候选 | GB10 各 OEM 横向对比，带出 Olares One |
+| spark alternatives | 50 | 19 | $6.79 | 信息 | 次级 | CPC $6.79 极高商业意图 |
+| dgx spark alternative | 40 | 12 | $2.89 | 信息 | 主词候选 | KD12 黄金攻击词，Olares One 两轴（AI 更好用 + 同价更超值） |
+| gb10 mini pc | 20 | 0 | $0.73 | — | GEO | 零竞争新兴词，先占位 |
 
 ---
 

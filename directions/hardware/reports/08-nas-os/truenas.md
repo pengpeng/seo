@@ -39,16 +39,18 @@
 | truenas vs unraid | 1,000 | **12** | $0 | ⭐⭐⭐ 三方对比文 |
 | truenas docker | 320 | **24** | $0 | ⭐⭐ Docker部署场景 |
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | truenas alternative（260/KD11，CPC$6.21）| — | what is the best TrueNAS alternative | ~260 | ⭐⭐⭐ | alternative | Olares One 更易用的 TrueNAS 替代，高商业价值 |
-| 2 | truenas vs unraid（1,000/KD12）| — | truenas vs unraid which is better | ~1,000 | ⭐⭐⭐ | versus | 三方对比文，Olares 主打 AI Agent 场景 |
-| 3 | truenas apps（480/KD29）| truenas docker（320）、truenas install（260）| how to install apps/Docker on TrueNAS | ~1,060 | ⭐⭐ | listicle | Olares Market 对比 TrueNAS Apps，部署体验切入 |
-| 4 | truenas mini（260/KD13）| — | is TrueNAS Mini worth it；TrueNAS Mini vs Olares One | ~260 | ⭐⭐ | versus | TrueNAS 自有硬件 vs Olares One 直接硬件对比 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| truenas vs unraid | 1,000 | 12 | $0.00 | 信息 | 主词候选 | 三方对比文，Olares 主打 AI Agent 场景 |
+| truenas apps | 480 | 29 | $0.00 | 信息 | 主词候选 | Olares Market 对比 TrueNAS Apps，部署体验切入 |
+| truenas docker | 320 | 24 | $0.00 | 信息 | 次级 | Docker 部署场景词 |
+| truenas alternative | 260 | 11 | $6.21 | 信息 | 主词候选 | Olares One 更易用的 TrueNAS 替代，高商业价值 |
+| truenas install | 260 | 31 | $0.00 | 信息 | 次级 | 安装教程词，横评辅助 |
+| truenas mini | 260 | 13 | — | 信息 | 主词候选 | TrueNAS 自有硬件 vs Olares One 直接硬件对比 |
 
 ## 核心洞见
 

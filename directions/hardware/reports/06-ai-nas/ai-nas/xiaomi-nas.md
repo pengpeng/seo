@@ -92,17 +92,21 @@
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
-> 注：小米智能存储 US SEO 机会极小（产品未在 US 销售、关键词量极小），以下按"中文市场 + 国际化预判"两视角组簇。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+> 注：小米智能存储 US SEO 机会极小（产品未在 US 销售、关键词量极小），词表以"中文市场 + 国际化预判"视角判断。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | xiaomi nas alternative（0/KD0）| xiaomi nas（20/0）、xiaomi storage（20/0）| 小米 NAS 有什么替代品？小米智能存储支持 Docker 吗？| ~40 | ⭐⭐ | alternative | 轴1 + GEO 抢发：小米 NAS 替代方案，Olares One vs 小米（本地 AI/Docker/开放生态差异清单）|
-| 2 | nas alternative（20/KD0，CPC$3.11）| self hosted nas（20/0）、home server alternative（—）| 最好的能跑本地 AI 的自托管 NAS？| ~40 | ⭐⭐ | alternative | 自托管 NAS 总览：小米不支持 Docker/VM vs Olares 开放生态 + 24GB 独显本地 AI |
-| 3 | nas for home（720/KD55）| home nas（—）、affordable nas（—）| 2026 家用 NAS 怎么选？最好的低价家用 NAS？| ~720 | ⭐ | listicle | 高竞争品类综述背景词，落 Olares One 本地 AI 差异（诚实边界：Olares One 远贵于小米）|
-| 4 | 小米NAS / 小米智能存储（中文，无 US 量）| 私有云 NAS 选购（中文）| 小米 NAS 能跑本地大模型吗？小米 NAS vs Olares 怎么选？| —（中文渠道）| ⭐⭐ | versus | 中文内容（B站/知乎/小红书）：小米智能存储 vs Olares One，存储盒 vs 本地 AI 私有云 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| nas for home | 720 | 55 | $0.64 | info | 主词候选 | 品类高竞争背景词，落 Olares One 本地 AI 差异（诚实边界：Olares One 远贵于小米）|
+| xiaomi nas | 20 | 0 | — | info | 次级 | 品牌词 + 评测文，插入"要 Docker/本地 AI 就上 Olares One"|
+| xiaomi storage | 20 | 0 | — | info | 次级 | 品牌变体词 |
+| nas alternative | 20 | 0 | $3.11 | info | 主词候选 | CPC$3.11：自托管 NAS 总览，小米不支持 Docker/VM vs Olares 开放生态 + 24GB 独显 |
+| self hosted nas | 20 | 0 | — | info | 次级 | 自托管用户，Olares 开放生态 + 本地 AI 更合适 |
+| xiaomi nas alternative | 0 | 0 | — | — | GEO | 搜的人想要更强 NAS，Olares One 给本地 AI + 开放私有云；等国际化抢发 |
+| home server alternative | 0 | 0 | — | — | GEO | 自建家庭服务器替代小米 NAS，Olares One 一体机 |
+| 小米NAS / 小米智能存储（中文）| — | — | — | — | GEO | 中文渠道（B站/知乎/小红书）对比：存储盒 vs 本地 AI 私有云；渠道价值 > SEO |
 
 ---
 

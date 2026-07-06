@@ -132,17 +132,25 @@ AI TOP ATOM 是 Gigabyte 于 2025 年 10 月 15 日全球发售的 GB10 桌面 A
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | aorus master 18（210/KD19）| aorus master 16（170/KD29）、gigabyte aorus master（390/KD27，意图多为主板须标注）、gigabyte aorus master laptop（20/KD0）、gigabyte laptop rtx 5090（0/KD0）| aorus master vs rog scar（0）| ~790 | ⭐⭐⭐ | versus | Aorus Master vs Olares One：同款 GPU，$4,899 vs $3,999 更便宜（轴 2）+ Olares OS 全栈（轴 1）；`laptop` 词区分主板意图 |
-| 2 | gigabyte ai top（210/KD18）| gigabyte ai top atom（210/KD19）、personal ai supercomputer（480/KD52）| — | ~900 | ⭐⭐⭐ | versus | Gigabyte AI TOP ATOM vs Olares One：GB10 $7,158 vs $3,999 便宜近一倍 + Olares OS 开箱；arm64 已确认可装 Olares |
-| 3 | rtx 5090 laptop（2,400/KD33）| gigabyte laptop（2,400/KD38，Gigabyte 已 #1）| — | ~4,800 | ⭐⭐ | listicle | RTX 5090 游戏本导购（Gigabyte/Alienware 同覆盖），植入"游戏本 vs Olares One"价格 + OS 对比 |
-| 4 | aorus alternative（0/KD0）| — | gigabyte laptop local llm（0）、aorus master ollama（0）| ~0 | ⭐ | alternative | 零竞争 GEO 前哨："Best Aorus Master alternatives for private AI 2026" 主推 Olares One（同 GPU 更便宜 + 开箱私有 AI）|
-| 5 | gigabyte ai top atom review（20/KD0）| — | gb10 vs rtx 5090（0）| ~20 | ⭐ | listicle | GEO 前瞻：评测词 + "GB10 vs RTX 5090 哪个更适合本地 AI" 抢 AI Overview 引用位（Olares One = RTX 5090 整机方案）|
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| rtx 5090 laptop | 2,400 | 33 | $0.87 | info | 主词候选 | RTX 5090 游戏本导购（Gigabyte/Alienware 同覆盖），植入"游戏本 vs Olares One"价格 + OS 对比 |
+| gigabyte laptop | 2,400 | 38 | $0.74 | comm | 次级 | Gigabyte 已排 #1 的品类词，作流量池 |
+| personal ai supercomputer | 480 | 52 | $1.94 | info | 次级 | GB10 品类新兴词，并入 AI TOP 对比 |
+| gigabyte aorus master | 390 | 27 | $0.49 | comm | 次级 | 意图多为主板须标注，靠 `laptop` 词区分笔记本意图 |
+| gigabyte ai top | 210 | 18 | $0.76 | comm | 主词候选 | KD18：AI TOP vs Olares One，GB10 $7,158 vs $3,999 便宜近一倍 + Olares OS 开箱；arm64 已确认可装 |
+| aorus master 18 | 210 | 19 | $0.75 | comm | 主词候选 | KD19：同款 GPU，$4,899 vs $3,999 更便宜 + Olares OS 全栈 |
+| gigabyte ai top atom | 210 | 19 | $0.60 | comm | 次级 | AI TOP 型号词 KD19，写评测植入 Olares One 价格/OS 双优 |
+| aorus master 16 | 170 | 29 | $0.76 | comm | 次级 | KD29；"Aorus Master 16 for AI development" 带 Olares One 对比 |
+| gigabyte aorus master laptop | 20 | 0 | $0.59 | comm | GEO | KD0 明确笔记本意图（区分主板词），零竞争，突出 $3,999 更便宜 + Olares OS |
+| gigabyte ai top atom review | 20 | 0 | $0 | info | GEO | KD0 评测词，对比评测带 Olares One 更便宜 + 开箱私有 AI |
+| aorus alternative | 0 | 0 | — | comm | GEO | 零竞争前哨，Olares One = 同款 GPU 更便宜 + 开箱私有 AI 的替代 |
+| gigabyte laptop rtx 5090 | 0 | 0 | — | comm | GEO | 新品类词量正在形成，先占位 |
+| gb10 vs rtx 5090 | 0 | 0 | — | info | GEO | "GB10 vs RTX 5090 哪个更适合本地 AI" 抢 AI Overview 引用位（Olares One = RTX 5090 整机方案）|
 
 ---
 

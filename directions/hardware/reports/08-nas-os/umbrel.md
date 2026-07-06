@@ -30,16 +30,18 @@
 | umbrel home | 260 | **30** | $0 | ⭐ 信息 |
 | umbrel alternative | 10 | 0 | $0 | 新兴 |
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | umbrel alternative（10/KD0）| umbrel os（320）| what is the best Umbrel alternative | ~330 | ⭐⭐ | alternative | Umbrel 偏比特币节点，Olares 作通用家庭服务器/个人云 OS 替代 |
-| 2 | umbrel home（260/KD30）| — | is Umbrel Home worth it；Umbrel Home vs Olares One | ~260 | ⭐⭐ | versus | Umbrel Home 硬件 vs Olares One / ZimaCube 直接对比 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| umbrel | 3,600 | 57 | $0.81 | 导航 | 次级 | 品牌大词 KD57 不可正面刚，作认知背景 |
+| umbrel os | 320 | 32 | $0.00 | 信息 | 次级 | Umbrel OS 认知词，横评辅助 |
+| umbrel home | 260 | 30 | $0.00 | 信息 | 主词候选 | Umbrel Home 硬件 vs Olares One / ZimaCube 直接对比 |
+| umbrel alternative | 10 | 0 | $0.00 | 信息 | 主词候选 | Umbrel 偏比特币节点，Olares 作通用家庭服务器/个人云 OS 替代 |
 
-> Umbrel 的高量词（invidious 27,100、robosats 3,600、bitcoin node 2,900、umbrel bch node 1,600）均为比特币/加密 App 页导航词，与 Olares 用户群差异大，不组簇。
+> Umbrel 的高量词（invidious 27,100、robosats 3,600、bitcoin node 2,900、umbrel bch node 1,600）均为比特币/加密 App 页导航词，与 Olares 用户群差异大，不入选。
 
 ## 核心洞见
 

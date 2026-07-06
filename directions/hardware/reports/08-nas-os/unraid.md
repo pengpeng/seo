@@ -42,15 +42,21 @@
 | unraid nas | 390 | **22** | ⭐⭐ |
 | unraid pricing | 390 | **29** | ⭐⭐ Unraid按License收费，Olares免费 |
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | unraid vs truenas（1,300/KD10）| unraid vs proxmox（320）| unraid vs truenas which is better | ~1,620 | ⭐⭐⭐ | versus | "Unraid vs TrueNAS vs Olares One"一文覆盖三竞品用户 |
-| 2 | unraid alternative（170/KD9）| unraid pricing（390）| what is the best Unraid alternative；is Unraid free | ~560 | ⭐⭐⭐ | alternative | Olares One 更简单 + 免费，对比 Unraid License 收费（$59–129）|
-| 3 | unraid nas（390/KD22）| unraid docker（170）、unraid setup（210）、unraid on raspberry pi 5（590）| how to set up an Unraid NAS；can Unraid run on Raspberry Pi | ~1,360 | ⭐⭐ | listicle/how-to | Unraid 使用/部署教程，Olares 作更简单的对比切入 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| unraid | 14,800 | 64 | $0.16 | 导航 | 次级 | 品牌大词 KD64 不可正面刚，作认知背景 |
+| unraid vs truenas | 1,300 | 10 | $0.00 | 信息 | 主词候选 | "Unraid vs TrueNAS vs Olares One"一文覆盖三竞品用户（高量低 KD）|
+| unraid on raspberry pi 5 | 590 | 22 | — | 信息 | 次级 | 部署教程词，Olares 作更简单对比切入 |
+| unraid pricing | 390 | 29 | $0.05 | 商业 | 次级 | Unraid 按 License 收费（$59–129），Olares 免费直接对比 |
+| unraid nas | 390 | 22 | $0.37 | 信息 | 主词候选 | Unraid 使用/部署教程，Olares 作更简单对比切入 |
+| unraid vs proxmox | 320 | 7 | $0.00 | 信息 | 次级 | 极低 KD 对比词，Olares One 最简单 Unraid 替代 |
+| unraid setup | 210 | 28 | — | 信息 | 次级 | 部署教程辅助词 |
+| unraid alternative | 170 | 9 | $0.00 | 信息 | 主词候选 | Olares One = 比 Unraid 更简单 + 免费，对比 License 收费 |
+| unraid docker | 170 | 20 | $0.00 | 信息 | 次级 | Docker 部署场景词 |
 
 ## 核心洞见
 

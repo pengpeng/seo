@@ -39,16 +39,21 @@
 | casaos（借力） | 5,400 | **31** | ⭐ ZimaSpace排名casaos词 |
 | zimaos proxmox | 210 | **12** | ⭐⭐⭐ 低KD技术词 |
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | zimaos vs casaos（170/KD7）| zimaos alternative（40/0）、casaos（5,400/31，品牌背景）| ZimaOS 和 CasaOS 哪个好？有没有能跑本地 AI 的 NAS OS？| ~210 | ⭐⭐⭐ | versus | "ZimaOS vs CasaOS vs Olares"三方对比，Olares 主打本地 AI 独显 + 全栈 OS |
-| 2 | zimaos proxmox（210/KD12）| install zimaos（590/21）| 怎么在 Proxmox 上装 ZimaOS？homelab NAS 怎么跑本地 AI？| ~800 | ⭐⭐⭐ | alternative | 低 KD 技术词，攻打 Homelab/Proxmox 用户群，Olares 同类内容 + 本地 AI |
-| 3 | zimacube（880/KD43）| zimaos（2,400/50，品牌背景）| ZimaCube 适合跑 AI 吗？ZimaCube vs Olares One？| ~880 | ⭐⭐ | versus | ZimaCube vs Olares One：个人云 NAS 硬件，弱算力 vs 24GB CUDA 独显本地 AI |
-| 4 | casaos（5,400/KD31）| zima board（1,600/20）、zimaboard（2,900/47）| CasaOS 是什么？最好的个人云 OS？| ~9,900 | ⭐⭐ | listicle | 借 CasaOS/ZimaBoard 品牌流量，落 Olares 作 AI-Native 个人云 OS |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| casaos | 5,400 | 31 | — | info | 主词候选 | 借 CasaOS 品牌流量，落 Olares 作 AI-Native 个人云 OS |
+| zimaboard | 2,900 | 47 | — | info | 次级 | 品牌硬件词，作背景引流 |
+| zimaos | 2,400 | 50 | $3.37 | info | 次级 | 品牌主词 KD50/CPC$3.37，作背景 |
+| zima board | 1,600 | 20 | — | info | 次级 | 品牌硬件变体词 |
+| zimacube | 880 | 43 | $0.58 | info | 主词候选 | ZimaCube vs Olares One：个人云 NAS 弱算力 vs 24GB CUDA 独显本地 AI |
+| install zimaos | 590 | 21 | — | info | 次级 | 安装词，Homelab 用户引流 |
+| zimaos proxmox | 210 | 12 | — | info | 主词候选 | 低 KD 技术词，攻 Homelab/Proxmox 用户，Olares 同类内容 + 本地 AI |
+| zimaos vs casaos | 170 | 7 | $0 | info | 主词候选 | KD7 极低，"ZimaOS vs CasaOS vs Olares"三方对比，Olares 主打本地 AI 独显 + 全栈 OS |
+| zimaos alternative | 40 | 0 | $0 | 新兴 | GEO | KD0 替代词占位 |
 
 ---
 

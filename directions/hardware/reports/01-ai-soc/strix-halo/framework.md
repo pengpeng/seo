@@ -210,18 +210,28 @@ frame.work **完全不投放 Google Ads**（paid_keywords=0），依赖纯自然
 
 ---
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | strix halo laptop（590/9，CPC$1.41）| strix halo laptops（590/8）、strix halo pc（90/24）、strix halo desktop（90/31）、ryzen ai max+ 395 laptop（720/26）| best strix halo machine for local AI、strix halo pc 推荐 | ~2,080 | ⭐⭐⭐ | versus/listicle | "Strix Halo 整机完整对比：Framework Desktop vs ZBook Ultra vs Olares One"——轴 1 讲 24GB CUDA 独显 AI 可用性（类比同芯 Beelink 实测），诚实注 120B；全网几乎无评测，排 #1 可期 |
-| 2 | ryzen ai max 395 laptop（1,000/18）| amd ryzen ai max 395 laptop list（590/18）、amd ryzen ai max+ 395 laptops（590/24）、ai max 395（2,400/44）、aim max plus（320/30）| 2026 最佳 Ryzen AI Max 395 整机有哪些 | ~4,900 | ⭐⭐⭐ | listicle | "2026 最佳 Ryzen AI Max 395 整机清单"（可做程序化列表页）——所有 Strix Halo SKU + Olares 适配状态 + Olares One 作软硬一体选项 |
-| 3 | ms-s1 max（1,900/21）| framework desktop review（390/32）、framework laptop alternative（10/0）| ms-s1 max vs framework desktop 哪个好 | ~2,300 | ⭐⭐⭐ | versus | "Minisforum MS-S1 Max vs Framework Desktop vs Olares One：哪款 Strix Halo PC 最适合本地 AI？"（含装 Olares 三路径） |
-| 4 | linux mini pc（590/14）| mini pc linux（320/8）、home server linux（70/28）| how to install olares on framework desktop、best linux mini pc 2026 | ~980 | ⭐⭐⭐ | listicle | "Linux Mini PC 终极指南 2026"：Olares One 开箱即用版 vs Framework DIY 版 + 装 Olares 教程 |
-| 5 | amd strix halo（1,600/29）| strix halo mini pc（880/34）、radeon 8060s（1,300/41）、ryzen ai max mini pc（90/25）| what is strix halo、为什么 128GB 统一内存改变本地 AI | ~3,870 | ⭐⭐ | listicle | "AMD Strix Halo 科普：128GB 统一内存为何改变本地 AI"——引出 Olares One / Framework Desktop 对标 |
-| 6 | best linux distro for gaming（5,400/28）| soldered ram desktop future（12,100/21）| 最适合本地 AI 的 Linux 平台是什么 | ~17,500 | ⭐⭐ | listicle | 借 Framework 社区 UGC 路径——写"最适合本地 AI（+ 游戏）的 Linux 平台"平行内容，Olares 作私有 AI 侧补充 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| soldered ram desktop future | 12,100 | 21 | $0 | 信息 | 次级 | Framework 社区 UGC 借力词 |
+| best linux distro for gaming | 5,400 | 28 | $0 | 信息 | 主词候选 | 借社区 UGC 路径，写"最适合本地 AI 的 Linux 平台"平行内容，Olares 作私有 AI 侧补充 |
+| ai max 395 | 2,400 | 44 | $0 | 信息 | 次级 | SoC 型号词 |
+| ms-s1 max | 1,900 | 21 | $0.74 | 信息 | 主词候选 | Minisforum 竞品词 KD 低，"MS-S1 Max vs Framework Desktop vs Olares One"三路径对比 |
+| amd strix halo | 1,600 | 29 | $0.83 | 信息 | 主词候选 | 科普文：Strix Halo 是什么 + Olares One 对标 |
+| ryzen ai max 395 laptop | 1,000 | 18 | $1.35 | 信息 | 主词候选 | "最佳 Ryzen AI Max 395 整机清单"，含 Olares One 软硬一体选项 |
+| strix halo mini pc | 880 | 34 | $0.41 | 信息 | 次级 | 具体品类词 |
+| ryzen ai max+ 395 laptop | 720 | 26 | $0.92 | 信息 | 次级 | 笔记本变体 |
+| strix halo laptop | 590 | 9 | $1.41 | 信息 | 主词候选 | KD9 最低竞争高价值词，Strix Halo 整机对比 + 装 Olares 教程，全网几乎无评测排 #1 可期 |
+| strix halo laptops | 590 | 8 | $1.36 | 信息 | 次级 | 复数变体，同内容目标 |
+| amd ryzen ai max 395 laptop list | 590 | 18 | $0 | 信息 | 次级 | 清单型内容词，程序化列表页 |
+| linux mini pc | 590 | 14 | $0.37 | 信息 | 主词候选 | "Linux Mini PC 完全指南"，Olares One 开箱即用 Linux 私有云 |
+| framework desktop review | 390 | 32 | $0.43 | 信息/评测 | 次级 | 评测词 + "买 Olares One 还是 Framework Desktop" |
+| mini pc linux | 320 | 8 | $0.37 | 信息 | 次级 | KD8 变体，canonical 版本 |
+| home server linux | 70 | 28 | $1.90 | 信息 | 次级 | "在 Framework Desktop 搭 Linux 家庭服务器 + 装 Olares" |
+| framework laptop alternative | 10 | 0 | $0 | — | GEO | 近零量前瞻词，GEO 占位 |
 
 ---
 

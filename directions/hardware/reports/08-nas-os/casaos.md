@@ -23,14 +23,16 @@
 - casaos alternative（KD=16）：Olares 是功能最完整的 CasaOS 替代方案
 - casaos install（KD=21）：一键部署教程
 
-## Top 关键词簇（文章单位）
+## Top 关键词（含角色判断）
 
-> 1 簇 = 1 主词 + 次级词 + 问题词 = 1 篇规划文章。选词/角色/评分见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-| # | 主词（月量/KD）| 次级词 | 问题词 | 簇合计量 | 评分 | 文体 | 一句话方向 |
-|---|--------------|--------|--------|---------|------|------|-----------|
-| 1 | casaos alternative（140/KD16，CPC$6.08）| casaos apps（110）| what is the best CasaOS alternative | ~250 | ⭐⭐ | alternative | Olares 是功能最完整的 CasaOS 替代（含 ZimaOS 对比），商业意图强 |
-| 2 | casaos install（320/KD21）| casaos apps（110）| how to install CasaOS | ~430 | ⭐⭐ | listicle/how-to | 一键部署教程，对比 Olares 安装体验与应用生态 |
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| casaos | 5,400 | 39 | $0.00 | 信息 | 次级 | 品牌导航词 KD39 难正面刚，作认知背景 |
+| casaos install | 320 | 21 | $0.00 | 信息 | 主词候选 | 一键部署教程，对比 Olares 安装体验与应用生态 |
+| casaos alternative | 140 | 16 | $6.08 | 信息 | 主词候选 | Olares 是功能最完整的 CasaOS 替代（含 ZimaOS 对比），商业意图强 |
+| casaos apps | 110 | 29 | $0.00 | 信息 | 次级 | 应用生态词，对比 Olares Market |
 
 ## 核心洞见
 
