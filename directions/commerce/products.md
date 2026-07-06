@@ -510,6 +510,6 @@
 
 ## 统计与下一步
 - **主清单**：57 个细类。
-- **附录**：推理 API/模型托管、向量库、Embedding、OpenClaw 开源生态、远场无平替大 SaaS、未达门槛、已被收购见 [products-appendix.md](/Users/pengpeng/seo/directions/commerce/products-appendix.md)；家居/可穿戴 IoT 已独立为方向 7 见 [iot/iot.md](/Users/pengpeng/seo/directions/iot/iot.md)。
+- **附录**：GPU/算力云、模型平台（HF/Databricks）、数据标注、AI 芯片、OpenClaw 开源生态、远场无平替大 SaaS、未达门槛、已被收购见 [products-appendix.md](/Users/pengpeng/seo/directions/commerce/products-appendix.md)；**推理 API/模型托管、向量库、Embedding、数据库中间件已迁至方向 6** 见 [tech/tech-stack.md](/Users/pengpeng/seo/directions/tech/tech-stack.md)；家居/可穿戴 IoT 已独立为方向 7 见 [iot/iot.md](/Users/pengpeng/seo/directions/iot/iot.md)。
 - **报告**：文件按大类/细类归入 [reports/](/Users/pengpeng/seo/directions/commerce/reports)，目录树与命名约定见 [README.md](/Users/pengpeng/seo/directions/commerce/README.md)。
 - **下一步**：对 `⬜` 达标产品逐个走 [brand-seo-research](/Users/pengpeng/seo/.cursor/skills/brand-seo-research/SKILL.md)，产出落到对应细类子目录，再更新本清单平替/状态。

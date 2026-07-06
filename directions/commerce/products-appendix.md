@@ -33,34 +33,11 @@
 ### A4. AI 芯片 / 硬件供应商（Olares One 上游，硬件侧见 hardware/）
 NVIDIA、AMD、Broadcom、Marvell、Cerebras、Etched、SambaNova、Groq(芯片)、Tenstorrent、d-Matrix、Positron、Upscale AI、Arista、Supermicro。
 
-### A5. 向量数据库 / 检索（纯开发者向 · 从主清单移入）
-| 商业产品 | 公司 | 达标依据 | Olares 平替（双形态） |
-|------|------|---------|------|
-| Pinecone | Pinecone | 估值 $750M；融资 $138M | Qdrant / Weaviate / Milvus |
-| Turbopuffer | Turbopuffer | ARR ~$100M | Qdrant / Milvus |
-| Weaviate / Qdrant / Zilliz(Milvus) | 各 | 融资均 >$20M | 同名开源自托管 |
+### A5–A7. 向量库 / Embedding·Rerank API / 推理 API·模型托管 → 已迁至 tech/（方向 6）
 
-### A6. Embedding / Rerank API（纯开发者向 · 从主清单移入）
-| 商业产品 | 公司 | 达标依据 | Olares 平替 |
-|------|------|---------|------|
-| Voyage AI | MongoDB（已收购 $161M） | 见母体 | BGE-M3 / Qwen3-Embedding |
-| OpenAI Embeddings / Cohere Embed | OpenAI / Cohere | 见各母体 | BGE-M3 / Nomic Embed |
-| Jina AI | Elastic（已收购） | 见母体 | BGE-M3 |
-
-### A7. 推理 API / 模型托管（纯开发者向）
-| 商业产品 | 公司 | 达标依据 | Olares 平替 |
-|------|------|---------|------|
-| Groq | Groq | 估值 $6–6.9B；融资 $2.4B+ | vLLM / SGLang |
-| Together AI | Together AI | 预订 >$1.15B；估值 $8.3B | vLLM / Ollama |
-| Fireworks AI | Fireworks AI | ARR ~$800M；估值 ~$15B[u] | vLLM / SGLang |
-| Baseten | Baseten | ARR ~$600M；估值 $11–13B | vLLM / SGLang |
-| Fal | Fal | 估值 $4.5B；ARR ~$400M[u] | ComfyUI + vLLM |
-| Modal | Modal | ARR ~$300M；估值 $4.65B | vLLM / SGLang + Olares One |
-| DeepInfra | DeepInfra | 融资 $133M | vLLM |
-| Anyscale (Ray) | Anyscale | 估值 $1B+；融资 $281M | vLLM / SGLang |
-| Amazon Bedrock | Amazon | 大厂旗舰 | LocalAI / vLLM |
-
-> Replicate（已并入 Cloudflare）见 D 已被收购。
+> 这三类纯开发者/基础设施向产品（Pinecone·Turbopuffer·Zilliz、Voyage·Cohere Embed·Jina、Together·Fireworks·Baseten·Modal·Bedrock 等）已并入 tech 方向的「AI 基础设施」分类，作为各子类的「公有云/闭源对标」列。清单与 Olares 平替见 [tech/tech-stack.md](/Users/pengpeng/seo/directions/tech/tech-stack.md) 第八节，底稿见 [tech/research/ai-infra.md](/Users/pengpeng/seo/directions/tech/research/ai-infra.md)。
+>
+> **GPU 算力云（原 A1，CoreWeave/Nebius/Lambda 等）不迁**，保留于本附录（"自有 vs 租算力"对位 Olares One 叙事）。
 
 ### A8. OpenClaw 开源生态 / *Claw 自托管栈
 > Olares 侧自托管参照，非商业可平替竞品（商业云托管 *Claw 见主清单 #28）。核心平替主张 = `OpenClaw / QwenPaw + NVIDIA NemoClaw 沙箱 + 本地模型`。
@@ -81,7 +58,9 @@ NanoClaw（NanoCo $12M seed，容器强隔离，安全叙事最强）、ZeroClaw
 KiloClaw（Kilo $8M，最强 wrapper）、ClawNest / ActivateClaw / SimpleClaw / RapidClaw / MyClaw.ai + 行业 35+ 托管商；腾讯 QClaw、智谱 AutoClaw（大厂本地包装，闭源）。
 
 ## B. 达标但与 Olares 无场景交集 / 无平替（远场大 SaaS，#6）
-Stripe(支付)、Twilio(CPaaS)、ServiceNow(ITSM)、Workday(HCM)、SAP / Oracle(ERP)、Palo Alto / Zscaler / CrowdStrike / Check Point(安全)、Snowflake(见 A2)、MongoDB、Confluent、Palantir、Autodesk、Veeva、Akamai、Toast、Dynatrace、JFrog。
+Stripe(支付)、Twilio(CPaaS)、ServiceNow(ITSM)、Workday(HCM)、SAP / Oracle(ERP)、Palo Alto / Zscaler / CrowdStrike / Check Point(安全)、Snowflake(见 A2)、Palantir、Autodesk、Veeva、Akamai、Toast、Dynatrace、JFrog。
+
+> 数据库 / 中间件类（MongoDB、Confluent/Kafka 等）已迁至 tech 方向「数据/中间件」分类，见 [tech/tech-stack.md](/Users/pengpeng/seo/directions/tech/tech-stack.md) 第四节。
 
 > 说明：Salesforce/HubSpot/Shopify/Zendesk/Okta/Datadog/QuickBooks/Vercel/Zoom 等**有开源平替**者已提升进主清单（#41–48、#17、#37 等），不在此列。ServiceNow/Twilio 因无强平替留此（GLPI/iTop、Fonoster/jambonz 仅覆盖子集）。
 
