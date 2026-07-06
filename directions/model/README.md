@@ -4,7 +4,7 @@
 
 ## 结构
 
-- [models.md](/Users/pengpeng/seo/directions/model/models.md)：模型清单，按模态章分组（当前 10 章，Omni/VLM 暂缺，待有可用型号再补；research/reports 仍保留 11 章结构）。每条标注代表型号 / 尺寸（**忽略量化版本**）、**部署层级**（📱 手机/边缘 · 💻 本地台式 · 🏢 企业级）、许可、闭源对标与报告状态（⏳ 待做）。只收开源、可本地运行、2026 年接近 SOTA 的型号；过期型号（如 DeepSeek R1）剔除。
+- [models.md](/Users/pengpeng/seo/directions/model/models.md)：模型清单，按模态章分组（当前 10 章，Omni/VLM 暂缺，待有可用型号再补；research/reports 仍保留 11 章结构）。每条标注代表型号 / 尺寸（**忽略量化版本**）、**部署层级**（📱 手机/边缘 · 💻 本地台式 · 🏢 企业级）、许可、闭源对标与报告状态（⬜ 待做）。只收开源、可本地运行、2026 年接近 SOTA 的型号；过期型号（如 DeepSeek R1）剔除。
 - [research/](/Users/pengpeng/seo/directions/model/research)：模态级 **deep-research 调研底稿**（每章一份，带同名 `.notes/` 发现笔记 + `registry.md` 引证登记）。这是筛型号、定选题的依据。
 - [reports/](/Users/pengpeng/seo/directions/model/reports)：**针对关键词的 model-seo-research 结果**（逐型号一份），按 `<章>/<model>.md` 归档。目录树已预建、`.gitkeep` 占位，写报告时直接落到对应章。
 

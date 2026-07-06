@@ -158,7 +158,7 @@ ROG NUC 是把"5090/5080 Mobile + Core Ultra HX + 大内存"塞进 <3L 迷你盒
 | MS-01 | Minisforum | i9-13900H（Iris Xe）| 内 PCIe x16(电 x8) 半高单槽 | — | ~$500–750 | [store.minisforum.com](https://store.minisforum.com/) | ⬜ 待做 |
 | LincStation N2 | LincPlus | Intel N100（UHD）| 无 | 无 | $409–449 | [LincStation N2](https://www.lincplustech.com/products/lincstation-n2-network-attached-storage.html) | ⬜ 待做 |
 | 小米智能存储 | 小米 | [unverified] | [unverified] | — | ¥2,299 起 | [mi.com](https://www.mi.com/) | ⬜ 待做 |
-| TS-AI642（对比）| QNAP | RK3588 ARM（Mali+NPU）| 无 | 无 | $749 | [qnap.com](https://www.qnap.com/en/product/ts-ai642) | ⬜ 待做 |
+| TS-AI642（对比，亦见组六）| QNAP | RK3588 ARM（Mali+NPU）| 无 | 无 | $749 | [qnap.com](https://www.qnap.com/en/product/ts-ai642) | ⬜ 待做 |
 | DS925+（对比）| Synology | AMD Ryzen（无 iGPU）| 无 | 无 | ~$640–1,029 | [synology.com](https://www.synology.com/en-global/products/DS925+) | ⬜ 待做 |
 
 > **DIY 路线（非成品，自组）**：Jonsbo N6 一体（全长独显 RTX 3090/5060Ti，9×3.5"，机箱 [$150–200](https://www.jonsbo.com/en/products/N6Black.html)）、4U 机架多卡（4×RTX 4090 / RTX Pro 6000）——"自建 AI 服务器"选题用，非一键购买型号。物理提醒：NAS 内 PCIe 多 ≤75W 无辅助供电，重卡走 OCuLink/eGPU 或 DIY 机箱。

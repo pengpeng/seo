@@ -23,13 +23,13 @@ Olares 把"用户已经在为之付费的云 AI 订阅"，变成"本地拥有、
 | 5 | **智能家居 / IoT / 健康** | 用私有家庭服务器替代云 Hub，Agent 自然语言控设备 | 智能家居 2026 约 $207B→2033 约 $887B；HomeKit/Google Home/Alexa/小米互不打通 | home assistant on olares、private smart home、self-hosted iot hub |
 | 6 | **Olares Workspace（团队协作）** | 自托管团队协作，Agent 作为有身份/授权的"团队成员" | Microsoft 365（约 3.45 亿席）、Google Workspace（900 万+ 组织） | self-hosted workspace、mattermost、private team collaboration |
 | 7 | **AI Companion（AI 伴侣）** | 本地渲染数字人（Unreal + 本地 GPU），隐私、无内容限制 | Character.AI（约 20M MAU）、Replika（30M+）、MiniMax Talkie、SillyTavern | ai companion、sillytavern alternative、local ai roleplay |
-| 8 | **企业场景（GTM）** | 数据安全合规为第一驱动，TCO 为第二 | 企业本地模型：GLM 5.2、MiniMax M3、Qwen 3.6 | on-prem ai、private llm for enterprise、data compliance ai |
+| 8 | **企业场景（GTM）** | 敏感数据/私有 AI 场景：安全合规/主权第一、成本可预测性第二（成本上升最快） | 企业本地模型：GLM 5.2、MiniMax M3、Qwen 3.6 | on-prem ai、private llm for enterprise、data compliance ai |
 
 ---
 
 ## 场景 8 详解：企业化需求（GTM）
 
-企业采购由**数据安全合规（第一驱动）+ TCO（第二驱动）**推动。私有云/合规/本地模型词 CPC 极高（$10-35），单个转化价值 $1K+。
+**在敏感数据 / 私有 AI 场景**下，企业采购由**安全合规 / 数据主权（第一驱动）+ 成本可预测性（第二驱动，逃 egress + 消费计费不可预测）**推动——2026 多份调研排序一致：Broadcom/VMware《Private Cloud Outlook 2026》单一最重要放置因素"安全与合规"32% 居首（repatriation 驱动 51% > 成本可预测性 39%）、Cloudian《Enterprise AI Infrastructure Survey 2026》本地部署意愿"数据隐私/主权"53% > TCO 40%、IDC 云迁回原因安全 33% + 数据隐私 28% 前两位（对 AI/GenAI 更关键）。**注意**：成本已成头号公有云*担忧*、上升最快（Broadcom 成本 31% 超安全 26%），但决定"放哪"时安全合规仍第一；且**通用**云迁回常以成本为首（Flexera 84% 把控云支出列头号挑战），本场景特指数据合规诉求。TCO 非"更便宜"而是可预测（1PB 出 S3 约 $90k–120k egress；steady-state on-prem TCO 可低 40–50%）。私有云/合规/本地模型词 CPC 极高（$10-35），单个转化价值 $1K+。
 
 - **已验证付费/对标**：私有云/托管云厂商、OneTrust（合规）、企业本地模型（GLM、MiniMax、Qwen 企业版）、on-prem AI 方案商。
 - **对应 Olares 资产**：私有部署 + 应用沙箱 + SSO/权限 + Olares One 集群 + 本地 LLM，满足"数据不出企业"的合规诉求。

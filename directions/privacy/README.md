@@ -1,11 +1,13 @@
-# privacy/ — 隐私 / 安全竞品与报告
+# privacy/ — 隐私 / 安全竞品与格局
 
-这里集中管理值得为 Olares 做内容的**隐私/安全类竞品**（隐私搜索、加密邮件、加密云存储、GDPR 合规等），以及每个产品的竞品报告。对应 [directions.md](/Users/pengpeng/seo/directions/directions.md) 方向 5，结构对齐 [model/](/Users/pengpeng/seo/directions/model)、[market/](/Users/pengpeng/seo/directions/market)。
+这里管理两条线：(1) 值得为 Olares 做内容的**隐私/安全类竞品**（隐私搜索、加密邮件、加密云存储、GDPR 合规等）及其竞品报告；(2) 隐私**格局**分类总图（合规立法、认证标准、重大事件、AI concern、巨头监控、用户诉求）及其 deep-research。对应 [directions.md](/Users/pengpeng/seo/directions/directions.md) 方向 5，结构对齐 [model/](/Users/pengpeng/seo/directions/model)、[market/](/Users/pengpeng/seo/directions/market)、[iot/](/Users/pengpeng/seo/directions/iot)。
 
 ## 结构
 
-- [services.md](/Users/pengpeng/seo/directions/privacy/services.md)：产品清单（按隐私搜索/浏览器、加密邮件与协作、加密云存储、合规、关键词总览分组），每条标注场景与 Olares 平替角度。
-- [reports/](/Users/pengpeng/seo/directions/privacy/reports)：每个产品一份报告，命名 `<name>.md`（无 `privacy-` 前缀、无日期，git 记录变更历史）；跨产品洞见就近归到最相关的单品报告。
+- [services.md](/Users/pengpeng/seo/directions/privacy/services.md)：**隐私产品竞品总索引**——两层：(1) 数据隐私核心品类（搜索浏览器/邮件/存储/合规）的**自有垂直报告** → 走 brand-seo；(2) 跨目录**指针引用**（闭源明星→commerce、开源→market/tech），不重复登记。相邻品类（密码、VPN/远程访问）只做指针、不当主体。**归类规则**：产品实体按 [AGENTS.md](/Users/pengpeng/seo/AGENTS.md) 可拥有性归位（闭源商业明星→commerce、开源→market/tech），privacy 只做隐私视角聚合与垂直报告。
+- [landscape.md](/Users/pengpeng/seo/directions/privacy/landscape.md)：**隐私格局分类总图**（7 大类/约 39 子方向 + 核心 SEO 词 + Olares 落点，覆盖**个人 + 企业**两侧需求）→ 借合规/事件/概念/企业自部署热度做内容。
+- [research/](/Users/pengpeng/seo/directions/privacy/research)：格局分类总图的 6 份 deep-research 底稿 + [registry.md](/Users/pengpeng/seo/directions/privacy/research/registry.md) 引证登记（见 [research/README.md](/Users/pengpeng/seo/directions/privacy/research/README.md)）。
+- [reports/](/Users/pengpeng/seo/directions/privacy/reports)：产品竞品报告在根目录，命名 `<name>.md`（无 `privacy-` 前缀、无日期，git 记录变更历史）；格局话题文按 `<分类>/<子方向>/<slug>.md` 落子目录（本轮占位）。跨产品洞见就近归到最相关的单品报告。
 
 ## 清单怎么来的
 

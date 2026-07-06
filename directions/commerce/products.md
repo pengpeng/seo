@@ -121,7 +121,7 @@
 | Claude Design | Anthropic | claude.com/product/design | 大厂旗舰（Opus 4.7 驱动，首周 100 万+ 用户） | **Open Design**（开源 Claude Design 平替，Apache2.0）+ Jaaz | ⬜ |
 | Lovart | Resonate Intl. | lovart.ai | ARR $30M；融资 Caplight $137.5M vs bootstrapped[u] | **Jaaz**（local alt for Lovart）+ ComfyUI | ⬜ |
 | Gamma | Gamma | gamma.app | ARR $100M；估值 $2.1B | 无直接平替（+ 演示生成） | ⬜ |
-| Magnific | Magnific | magnific.com | ARR $230M | ComfyUI | ⬜ |
+| Magnific（另见 #7） | Magnific | magnific.com | ARR $230M | ComfyUI | ⬜ |
 | FLORA | Flora | flora.ai | 融资 $52M | ComfyUI（节点式） | ⬜ |
 | Figma Design Agent + Make | Figma | figma.com | 收入 $1.42B；市值 ~$10B | Penpot（设计侧）/ Open Design（agent 侧） | ⬜ |
 | Canva (Magic Studio) | Canva | canva.com | ARR $4B；估值 $42B | 无直接平替 | ⬜ |
@@ -221,7 +221,7 @@
 | GitHub Copilot CLI + Coding Agent | Microsoft | github.com | 大厂旗舰 | OpenCode / Aider | ⬜ |
 | Gemini CLI → Antigravity CLI | Google | — | 大厂旗舰（开源） | Qwen Code / Gemini CLI（**开源，接 Ollama**） | ⬜ |
 | Google Jules | Google | jules.google | 大厂旗舰 | OpenHands | ⬜ |
-| Devin | Cognition | cognition.ai | ARR $492M；估值 $26B；融资 >$2.5B | OpenHands | ⬜ |
+| Devin | Cognition | cognition.ai | ARR $492M；估值 $26B；融资 >$2.5B | OpenHands | ✅ |
 | Factory Droids | Factory.ai | factory.ai | 估值 $1.5B；融资 $150M+ | OpenHands | ⬜ |
 | Amp | Amp（Sourcegraph 分拆） | ampcode.com | 母公司融资 $223M；估值 $2.6B | OpenCode / Aider | ⬜ |
 | Warp | Warp | warp.dev | ARR $42M；融资 $73M | OpenCode | ⬜ |
@@ -489,6 +489,8 @@
 | Figma | Figma | figma.com | 收入 $1.42B；市值 ~$10B | Penpot / Open Design | ⬜ |
 
 ### 56. 密码管理
+> 隐私视角总索引见 [privacy/services.md](/Users/pengpeng/seo/directions/privacy/services.md)。
+
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
 | 1Password | AgileBits | 1password.com | ARR $400M+；估值 $6.8B | Vaultwarden / KeePassXC | ✅ |
@@ -496,6 +498,8 @@
 | Dashlane | Dashlane | dashlane.com | ARR ~$113M；估值 ~$507M | Vaultwarden / KeePassXC | ⬜ |
 
 ### 57. 隐私 / VPN / 远程访问 / 加密存储
+> 隐私视角总索引见 [privacy/services.md](/Users/pengpeng/seo/directions/privacy/services.md)。
+
 | 商业产品 | 公司 | 域名 | 达标依据 | Olares 平替 | 报告 |
 |------|------|------|---------|------------|------|
 | Proton | Proton AG | proton.me | 估值 >$1B（邮件另见 #40） | Olares（Drive/Mail 自托管） | ✅ |

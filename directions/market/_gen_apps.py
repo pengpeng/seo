@@ -170,7 +170,7 @@ lines.append(f"> 从 [terminus-apps/](/Users/pengpeng/terminus-apps)（`beclab/a
 lines.append("")
 lines.append("**去重规则**：版本变体保留最新（v3>v2>无后缀）；模型服务变体（`ollama*`/`vllm*`/`sglang*`/`llamacpp*`/`xinference*` 共 68 个）折叠为 5 个引擎品牌，型号清单见 [model/keywords.md](/Users/pengpeng/seo/directions/model/keywords.md)；剔除 test*/`*client`/`*share`/`*fusion`/`*pure`/`*forcluster` 等伴生 chart 与纯中间件/数据库。")
 lines.append("")
-lines.append("状态：✅ 已有报告 ｜ ⏳ 待做")
+lines.append("状态：✅ 已有报告 ｜ ⬜ 待做")
 lines.append("")
 
 def emit_row(row):
@@ -180,7 +180,7 @@ def emit_row(row):
         have += 1
         st = f"✅ [报告](/Users/pengpeng/seo/directions/market/reports/{fn})"
     else:
-        st = "⏳"
+        st = "⬜"
     desc = row.get("desc","") or ""
     return f"| {row['title']} | {desc} | {st} |"
 
