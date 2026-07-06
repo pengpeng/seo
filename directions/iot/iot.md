@@ -18,11 +18,11 @@
 |------|------|---------|------------|------|
 | Alexa（Home 编排面） | Amazon | 6 亿+ 累计 Alexa 设备；控制平台使用率 40% 居首 | HA on Olares（唯一本地中枢） | ⬜ |
 | Google Home / Gemini for Home | Alphabet | 800M+ 连接设备；2025-10 全面 AI 化 | HA on Olares | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/01-systems/smart-home-systems/google-home.md) |
-| SmartThings | Samsung | 4.3 亿+ 注册用户（2025-12） | HA on Olares | ⬜ |
+| SmartThings | Samsung | 4.3 亿+ 注册用户（2025-12） | HA on Olares | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/01-systems/smart-home-systems/smartthings.md) |
 | Apple Home / HomeKit | Apple | 无官方装机；第三方估美 2026 ~23.5%[u] | HA on Olares | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/01-systems/smart-home-systems/apple-home.md) |
 | Home Assistant | Open Home Foundation | 200 万+ 活跃家庭（本身即开源冠军） | **HA on Olares（自托管，双形态）** | ⬜ |
-| Hubitat | Hubitat | $150 级本地规则引擎、无订阅（prosumer 冠军） | HA on Olares | ⬜ |
-| Homey Pro | Athom（LG 2024 收 80%，~$61M[u]） | $399、50,000+ 设备、多协议 | HA on Olares | ⬜ |
+| Hubitat | Hubitat | $150 级本地规则引擎、无订阅（prosumer 冠军） | HA on Olares | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/01-systems/smart-home-systems/hubitat.md) |
+| Homey Pro | Athom（LG 2024 收 80%，~$61M[u]） | $399、50,000+ 设备、多协议 | HA on Olares | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/01-systems/smart-home-systems/homey-pro.md) |
 | SwitchBot | OneRobotics | 2025-12 港交所 IPO $210.7M；向平台 / API 延伸 | HA on Olares | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/01-systems/smart-home-systems/switchbot.md) |
 | Aqara | 绿米联创 | 2026-03 递表港交所；海外占比 66.5%；估值推算 ~$526M | HA on Olares（Zigbee2MQTT） | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/01-systems/smart-home-systems/aqara.md) |
 
@@ -34,8 +34,8 @@
 | Apple Health / HealthKit | Apple | iOS 聚合层，longitudinal 锁定最强 | Fasten OnPrem（FHIR PHR） | ⬜ |
 | Google Health app + Health Connect | Alphabet | 原 Fitbit（2021 $2.1B 收购），~40M 活跃迁移 | Fasten OnPrem / Gadgetbridge | ⬜ |
 | Samsung Health | Samsung | Google Play 2.2B+ 安装；Galaxy 默认入口 | Fasten OnPrem | ⬜ |
-| Garmin Connect | Garmin | 活跃用户估 ~45M | OpenTracks / Traccar | ⬜ |
-| Strava | 独立 | 180M 注册、2025 收入 $415M、估值 $2.2B | OpenTracks / Endurain | ⬜ |
+| Garmin Connect | Garmin | 活跃用户估 ~45M | OpenTracks / Traccar | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/01-systems/health-platforms/garmin-connect.md) |
+| Strava | 独立 | 180M 注册、2025 收入 $415M、估值 $2.2B | OpenTracks / Endurain | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/01-systems/health-platforms/strava.md) |
 | Function Health | Function Health | 2025-11 Series B $298M @ **$2.5B**；device-agnostic | 聚合层跑在 Olares | ⬜ |
 
 > **细分冠军**：iOS 聚合=Apple HealthKit；Android=Google Health Connect；运动社交=Strava；耐力硬件=Garmin Connect；血检 / 长寿聚合新兴=Function Health；开源自托管 PHR=Fasten OnPrem + Nightscout（T1D CGM）。**去重**：Whoop / Ultrahuman 归第 9 类（硬件）。**争议 / 差距**：Apple/Samsung 无官方 MAU（多为第三方估）；无等价开源智能环 / CGM / 血压完全本地栈，Gadgetbridge 不支持 Apple Watch——诚实标注。数据导出词（`export apple health data`）买家意图强、竞争低。
@@ -80,17 +80,17 @@
 | Wyze | Wyze | $30–40，累计融资 $146M、估值 ~$582M[u] | Frigate | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/wyze.md) |
 | Eufy | Anker | HomeBase 本地 AI（隐私信誉受损） | Frigate | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/eufy.md) |
 | Reolink | Reolink | PoE/电池/ONVIF/RTSP（Frigate 最常用源） | **Reolink → Frigate（本地无订阅）** | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/reolink.md) |
-| UniFi Protect | Ubiquiti（NYSE:UI） | 本地 NVR、无订阅、prosumer 冠军 | UniFi 本地 / Frigate | ⬜ |
+| UniFi Protect | Ubiquiti（NYSE:UI） | 本地 NVR、无订阅、prosumer 冠军 | UniFi 本地 / Frigate | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/unifi-protect.md) |
 
 > **细分冠军**：云订阅生态=Ring / Nest；超值=Wyze / Tapo；本地 RTSP 无订阅=Reolink；prosumer 零订阅=UniFi Protect；**自托管 NVR 软件栈=Frigate**（~34k stars，内置 go2rtc，深度 HA 集成）。**VC 趋势**：不投新硬件摄像头，转投"摄像头之上的 AI 层"（B2B 软件如 Plumerai/Lumana/Coram，非本清单目标）。**风险**：执法级事件集中于此（Ring FTC $5.8M、Eufy 上传 AWS + NY AG $450K、Wyze 串号）。**Olares 落点极强**，Frigate 已有 [market 报告](/Users/pengpeng/seo/directions/market/reports)。核心机会词 `security camera without subscription`、`frigate nvr`、`ring alternative`。
 
 ### 6. 家庭安防系统 — 调研 ✅ [home-security](/Users/pengpeng/seo/directions/iot/research/02-hardware/home-security.md)
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
-| ADT | ADT（NYSE:ADT） | 610 万订户、FY2025 $51.29 亿（专业监控规模冠军） | HA + 传感器 + Frigate | ⬜ |
+| ADT | ADT（NYSE:ADT） | 610 万订户、FY2025 $51.29 亿（专业监控规模冠军） | HA + 传感器 + Frigate | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/home-security/adt.md) |
 | Vivint | NRG | ~190–200 万订户[u]，垂直整合 | HA + 传感器 | ⬜ |
 | SimpliSafe | SimpliSafe（GTCR） | 无合约标杆；2025-11 收购 EV >$25 亿 | HA + Z-Wave/Zigbee 传感器 | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/home-security/simplisafe.md) |
-| Ring Alarm | Amazon | 品牌认知 43%、DIY 新购 28% | HA + Frigate（自监控） | ⬜ |
+| Ring Alarm | Amazon | 品牌认知 43%、DIY 新购 28% | HA + Frigate（自监控） | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/home-security/ring-alarm.md) |
 | Wyze Home Monitoring | Wyze | ~$10/月超值 | HA + 传感器 | ⬜ |
 | Cove | Cove | ~$17.99/月，含 cellular；累计 $11.6M | HA + 传感器 | ⬜ |
 | Abode | Nice S.p.A. | HomeKit/Matter/Z-Wave 多协议 | HA（Alarmo） | ⬜ |
@@ -122,12 +122,12 @@
 ### 9. 健康手环 / 可穿戴 — 调研 ✅ [wearables](/Users/pengpeng/seo/directions/iot/research/02-hardware/wearables.md)
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
-| Apple Watch | Apple | 智能手表全球 #1（Q1 2026 出货 23%） | Gadgetbridge（不支持 Apple Watch） | ⬜ |
+| Apple Watch | Apple | 智能手表全球 #1（Q1 2026 出货 23%） | Gadgetbridge（不支持 Apple Watch） | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/wearables/apple-watch.md) |
 | 小米手环 | 小米 | wearable band 年度口径全球第一（18%），全球在售 | **Gadgetbridge（BLE→本地）** | ⬜ |
 | Garmin | Garmin（NASDAQ:GRMN） | 运动 GPS 冠军，FY2025 $7.25B | Gadgetbridge / OpenTracks | ⬜ |
 | Oura | Oura | 智能环出货 ~74%、估值 **$11B**、2026-05 机密 IPO | — | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/wearables/oura.md) |
-| Whoop | Whoop | 恢复订阅冠军、估值 **$10.1B** | — | ⬜ |
-| Ultrahuman | Ultrahuman | 智能环挑战者；Series C ~$48M[u]；Ring + CGM | Gadgetbridge / Nightscout | ⬜ |
+| Whoop | Whoop | 恢复订阅冠军、估值 **$10.1B** | — | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/wearables/whoop.md) |
+| Ultrahuman | Ultrahuman | 智能环挑战者；Series C ~$48M[u]；Ring + CGM | Gadgetbridge / Nightscout | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/wearables/ultrahuman.md) |
 | Fitbit（Air） | Alphabet | 并入 Google Health | Gadgetbridge | ⬜ |
 | Abbott Libre / Dexcom | Abbott / Dexcom | CGM 双寡头（美国 48.5% / 44.7%） | **Nightscout（自托管 CGM）** | ⬜ |
 | Omron / Withings | Omron / Withings | 血压 / 秤（Omron >4 亿累计；Withings 2025 盈利） | HA 集成 + 本地存储 | ⬜ |
@@ -150,7 +150,7 @@
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
 | TP-Link Kasa / Tapo | TP-Link | Wi-Fi 畅销/全能（KP125M ~$20、Matter + 计量） | HA（Matter 本地模式）/ Tasmota | ⬜ |
-| Shelly | Shelly Group SE（FRA:SLYG，原 Allterco） | 本地控制财务锚 FY2025 €1.497 亿 +40.3%、累计 23M+ 台、出厂可关云 | **Shelly 原生本地 MQTT/REST** | ⬜ |
+| Shelly | Shelly Group SE（FRA:SLYG，原 Allterco） | 本地控制财务锚 FY2025 €1.497 亿 +40.3%、累计 23M+ 台、出厂可关云 | **Shelly 原生本地 MQTT/REST** | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/smart-plugs/shelly.md) |
 | Lutron Caséta | Lutron（私营） | 墙面开关/调光可靠性冠军（Clear Connect 434MHz、无零线；至 2026 中无原生 Matter） | HA（Caséta 本地集成） | ⬜ |
 | Sonoff | ITEAD | DIY / 可刷机冠军 | SonoffLAN 免刷机 / Tasmota / ESPHome | ⬜ |
 | Amazon Smart Plug | Amazon | Alexa 生态入门 | HA + 本地插座替代 | ⬜ |
@@ -163,7 +163,7 @@
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
 | Google Nest | Alphabet | 北美份额 #1（~20–25%[u]）；Nest Learning 品类图腾 | HA + ESPHome OpenTherm / generic_thermostat | ⬜ |
-| ecobee | Generac（NYSE:GNRC） | 学习型 #2（~15–20%[u]）；2021 被 Generac 最高 $770M 收购 | HA + Zigbee TRV / Better Thermostat | ⬜ |
+| ecobee | Generac（NYSE:GNRC） | 学习型 #2（~15–20%[u]）；2021 被 Generac 最高 $770M 收购 | HA + Zigbee TRV / Better Thermostat | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/thermostats/ecobee.md) |
 | Honeywell Home | Resideo（NYSE:REZI） | 专业安装渠道（~12–17%[u]） | HA generic_thermostat | ⬜ |
 | Emerson Sensi | Emerson（NYSE:EMR） | 价值/上升（~8–12%[u]） | HA + ESPHome | ⬜ |
 | tado° | tado°（私营；松下战投） | 欧洲龙头 550 万台、2024 ~$80M[u]、2026 盈利 | HA + Zigbee TRV + Better Thermostat | ⬜ |
@@ -210,7 +210,7 @@
 ### 16. 智能电视 / 流媒体（ACR）— 调研 ✅ [smart-tv](/Users/pengpeng/seo/directions/iot/research/02-hardware/smart-tv.md)
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
-| Roku | Roku（NASDAQ:ROKU） | 北美 TV-OS ~34% #1；FY2025 $47.4 亿、100M 家庭；撞库 15,363 | **Jellyfin** + Apple TV | ⬜ |
+| Roku | Roku（NASDAQ:ROKU） | 北美 TV-OS ~34% #1；FY2025 $47.4 亿、100M 家庭；撞库 15,363 | **Jellyfin** + Apple TV | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/smart-tv/roku.md) |
 | Samsung Tizen | Samsung | 北美 TV-OS ~22%[u]；**德州 2026 ACR 和解须明示同意** | Jellyfin + TV 断网 / VLAN | ⬜ |
 | LG webOS | LG | ~10ms 截帧指纹 | Jellyfin + 关 Live Plus | ⬜ |
 | Amazon Fire TV | Amazon | 生态观看/广告 ID | Jellyfin + Apple TV | ⬜ |
@@ -223,8 +223,8 @@
 ### 17. 婴儿监视器 — 调研 ✅ [baby-monitors](/Users/pengpeng/seo/directions/iot/research/02-hardware/baby-monitors.md)
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
-| Owlet | Owlet（NYSE:OWLT） | FY2025 $105.7M +35.4%；Q4 Circana 41% 金额份额 | Frigate + 本地 IP cam（无生命体征） | ⬜ |
-| Nanit | Nanit | 云 AI 婴儿监控；$50M 成长轮 | Frigate + 本地 IP cam | ⬜ |
+| Owlet | Owlet（NYSE:OWLT） | FY2025 $105.7M +35.4%；Q4 Circana 41% 金额份额 | Frigate + 本地 IP cam（无生命体征） | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/baby-monitors/owlet.md) |
+| Nanit | Nanit | 云 AI 婴儿监控；$50M 成长轮 | Frigate + 本地 IP cam | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/baby-monitors/nanit.md) |
 | Cubo Ai | Cubo Ai | 云存储非 E2EE | Frigate + IP cam | ⬜ |
 | Miku | Miku | 无接触呼吸监测（状态存疑[u]） | 无生命体征开源平替 | ⬜ |
 | VTech / Infant Optics | VTech / Infant Optics | 非 Wi-Fi DECT 基线（隐私更优） | 非联网基线本身即隐私向 | ⬜ |
@@ -235,7 +235,7 @@
 ### 18. 宠物摄像头 / 喂食器 — 调研 ✅ [pet-cameras](/Users/pengpeng/seo/directions/iot/research/02-hardware/pet-cameras.md)
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
-| Furbo | Tomofun | 抛零食摄像头领先；**零点击账户接管 + 硬编码凭证 + 2025 SSRF CVE** | Frigate + 本地 IP cam + HA | ⬜ |
+| Furbo | Tomofun | 抛零食摄像头领先；**零点击账户接管 + 硬编码凭证 + 2025 SSRF CVE** | Frigate + 本地 IP cam + HA | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/pet-cameras/furbo.md) |
 | Petcube | Petcube | 云录像 + ML + 第三方 SDK | Frigate + IP cam | ⬜ |
 | Petkit | Petkit | 摄像头/喂食器（Agora/Alibaba Cloud SDK、Care+ 订阅） | Frigate + IP cam；喂食器 ESPHome DIY | ⬜ |
 | PetSafe / Wopet 等喂食器 | PetSafe 等 | 自动喂食器（多云依赖） | ESPHome DIY 喂食器 | ⬜ |
@@ -265,7 +265,7 @@
 ### 21. 能源 / 电表 / 太阳能 — 调研 ✅ [energy-monitors](/Users/pengpeng/seo/directions/iot/research/02-hardware/energy-monitors.md)
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
-| Sense | Sense（Sense Labs） | 家庭能源 AI；高分辨率用电指纹→云 ML 识别电器 | HA Energy + Emporia Vue（ESPHome 去云） | ⬜ |
+| Sense | Sense（Sense Labs） | 家庭能源 AI；高分辨率用电指纹→云 ML 识别电器 | HA Energy + Emporia Vue（ESPHome 去云） | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/energy-monitors/sense-energy.md) |
 | Emporia Vue | Emporia | 电路级监测、可刷 ESPHome | **Emporia Vue（ESPHome 本地）+ HA Energy** | ⬜ |
 | Shelly EM / Pro 3EM | Shelly Group SE | 原生本地计量 | **Shelly EM 本地 + HA Energy** | ⬜ |
 | Tesla Powerwall | Tesla | 储能安装口径 ~63%[u]；持续上报云 | HA 本地可读数据（厂商可限权） | ⬜ |

@@ -19,11 +19,11 @@
 | Gemma 4 | E2B / E4B · 12B / 26B-A4B / 31B | 📱→💻 | Apache 2.0 | Gemini Nano / Flash | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/gemma-4.md) |
 | Qwen 3.6 | 27B (dense) / 35B-A3B (MoE) | 💻 主力 | Apache 2.0 | GPT-5 级 / Claude Sonnet | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/qwen-3.md) |
 | Qwen3-Coder | 30B-A3B / 480B-A35B | 💻→🏢 | Apache 2.0 | Claude（编码/agent） | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/qwen3-coder.md) |
-| Ornith-1.0 | 9B-Dense / 31B-Dense / 35B-MoE / 397B-MoE | 📱→🏢 | MIT | Claude Opus 4.7（agentic 编码） | ⬜ |
+| Ornith-1.0 | 9B-Dense / 31B-Dense / 35B-MoE / 397B-MoE | 📱→🏢 | MIT | Claude Opus 4.7（agentic 编码） | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/ornith-1.md) |
 | GLM-5.2 | 744B-A40B | 🏢 | MIT | GPT-5.5 / Claude Opus 4.8 | ⬜ |
 | DeepSeek V4 | Flash (284B-A13B) / Pro (1.6T-A49B) | 🏢 | MIT | Claude / Gemini（长上下文 agent） | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/deepseek-v4.md) |
-| Kimi K2.7 Code | K2.7 Code (1T-A32B) | 🏢 | Modified MIT | GPT-5.5 / Claude Opus 4.8（agentic 编码） | ⬜ |
-| MiniMax M3 | M3 (428B-A23B，1M 上下文，原生多模态) | 🏢 | MiniMax Community License | Claude Opus（多模态 agent/coding） | ⬜ |
+| Kimi K2.7 Code | K2.7 Code (1T-A32B) | 🏢 | Modified MIT | GPT-5.5 / Claude Opus 4.8（agentic 编码） | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/kimi-k2-coder.md) |
+| MiniMax M3 | M3 (428B-A23B，1M 上下文，原生多模态) | 🏢 | MiniMax Community License | Claude Opus（多模态 agent/coding） | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/minimax-m3.md) |
 | Llama 4（渐旧） | Scout 109B-A17B / Maverick 400B-A17B | 🏢 | Llama 4 社区许可（非 OSI） | GPT-4.5 / Gemini | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/01-llm/llama-4.md) |
 
 ## 02 图像生成 / 编辑
@@ -33,7 +33,7 @@
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
 | FLUX.2 | klein 4B / 9B · dev 32B | 💻→🏢 | klein-4B Apache 2.0；dev/9B 非商用 | Midjourney / DALL·E | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/02-image/flux-2.md) |
-| Ideogram 4 | 9.3B（文字/版面最强开放权重，原生 2K） | 💻 | 开源 Non-Commercial + 商用另购（self-serve/enterprise） | GPT Image / Nano Banana / Midjourney | ⬜ |
+| Ideogram 4 | 9.3B（文字/版面最强开放权重，原生 2K） | 💻 | 开源 Non-Commercial + 商用另购（self-serve/enterprise） | GPT Image / Nano Banana / Midjourney | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/02-image/ideogram-4.md) |
 | Qwen-Image / Qwen-Image-Edit | 20B（Image 2.0 / Edit-2511） | 💻 | Apache 2.0 | Nano Banana / Photoshop / DALL·E | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/02-image/qwen-image.md) |
 | HiDream-O1-Image | 8B（生成+编辑） | 💻 | MIT | Midjourney / Nano Banana | ⬜ |
 | Z-Image | Turbo 6B | 📱→💻 | Apache 2.0 | Midjourney / Nano Banana（快图） | ⬜ |
@@ -47,10 +47,10 @@
 |------|-----------|------|------|---------|------|
 | Wan 2.2 | TI2V-5B / T2V-A14B / I2V-A14B | 💻→🏢 | Apache 2.0 | Sora / Kling / Runway | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/03-video/wan-2.md) |
 | HunyuanVideo-1.5 | 8.3B（t2v+i2v，超分→1080p） | 💻 | Tencent Community（排除 EU/UK/KR） | Sora / Kling | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/03-video/hunyuanvideo.md) |
-| LTX-2 | 19B / 22B（原生音画同步，4K） | 💻→🏢 | LTX-2 Community（<$10M ARR） | Sora（音画一体） | ⬜ |
-| Mochi 1 | 10B（纯 t2v） | 🏢→💻 | Apache 2.0 | Runway / Sora | ⬜ |
-| CogVideoX | 1.5-5B（t2v+i2v） | 💻 | CogVideoX License（2B 版 Apache） | Pika / Runway | ⬜ |
-| SkyReels-V2 | 1.3B / 14B（长视频/无限长） | 📱→🏢 | Wan 架构衍生（见 repo） | Kling / Runway | ⬜ |
+| LTX-2 | 19B / 22B（原生音画同步，4K） | 💻→🏢 | LTX-2 Community（<$10M ARR） | Sora（音画一体） | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/03-video/ltx-2.md) |
+| Mochi 1 | 10B（纯 t2v） | 🏢→💻 | Apache 2.0 | Runway / Sora | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/03-video/mochi-1.md) |
+| CogVideoX | 1.5-5B（t2v+i2v） | 💻 | CogVideoX License（2B 版 Apache） | Pika / Runway | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/03-video/cogvideox.md) |
+| SkyReels-V2 | 1.3B / 14B（长视频/无限长） | 📱→🏢 | Wan 架构衍生（见 repo） | Kling / Runway | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/03-video/skyreels-v2.md) |
 
 ## 04 3D 生成（图生 3D / 文生 3D）
 
@@ -59,7 +59,7 @@
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
 | TRELLIS.2 | 4B（图生 3D 开源天花板，PBR） | 💻→🏢 | MIT | Meshy / Rodin / Tripo | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/04-3d/trellis-2.md) |
-| Hunyuan3D 2.1 | Shape 3.3B + Paint 2B（文+图+纹理） | 💻→🏢 | Tencent Community（排除 EU/UK/KR） | Meshy / Tripo / Rodin | ⬜ |
+| Hunyuan3D 2.1 | Shape 3.3B + Paint 2B（文+图+纹理） | 💻→🏢 | Tencent Community（排除 EU/UK/KR） | Meshy / Tripo / Rodin | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/04-3d/hunyuan3d.md) |
 | Stable Fast 3D | 1.01B（4–5GB，game-ready UV+PBR） | 📱 | Stability Community（营收<$1M） | Meshy（游戏资产） | ⬜ |
 | Hi3DGen | ~1.2B（高保真几何，法线中间表示） | 💻 | MIT | Rodin（几何） | ⬜ |
 | TripoSG | 1.5B（纯 MIT 形状 SOTA，8GB） | 📱 | MIT | Tripo 2.0（形状） | ⬜ |
@@ -73,8 +73,8 @@
 | Kokoro | 82M（英语朗读，浏览器可跑） | 📱 | Apache 2.0 | ElevenLabs / OpenAI TTS | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/05-tts/kokoro.md) |
 | Piper | 多 VITS 语音 ~5–30M | 📱 | MIT | Amazon Polly / Azure TTS | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/05-tts/piper.md) |
 | NeuTTS Air | Air ~0.5B / Nano ~120M（端侧克隆） | 📱 | Apache 2.0（Nano: NeuTTS OL） | ElevenLabs / Play.ht | ⬜ |
-| Chatterbox | 0.5B（情绪控制+克隆） | 💻 | MIT | ElevenLabs | ⬜ |
-| CosyVoice | 2.0 / 3.0 (0.5B) | 💻 | Apache 2.0 | ElevenLabs / MiniMax | ⬜ |
+| Chatterbox | 0.5B（情绪控制+克隆） | 💻 | MIT | ElevenLabs | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/05-tts/chatterbox.md) |
+| CosyVoice | 2.0 / 3.0 (0.5B) | 💻 | Apache 2.0 | ElevenLabs / MiniMax | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/05-tts/cosyvoice.md) |
 | Qwen3-TTS | 0.6B / 1.7B（3 秒克隆） | 💻 | Apache 2.0 | ElevenLabs / OpenAI TTS | ⬜ |
 | IndexTTS | 2 / 2.5（情绪/时长可控，配音） | 💻 | 自定义（Bilibili License） | ElevenLabs（配音） | ⬜ |
 | XTTS-v2 | 467M（17 语言） | 💻 | CPML（非商用） | ElevenLabs | ⬜ |
@@ -88,8 +88,8 @@
 
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
-| Moonshine | Tiny 27M → Medium 245M（端侧） | 📱 | MIT | Deepgram Flux / 云实时 | ⬜ |
-| Qwen3-ASR | 0.6B / 1.7B（52 语言，开源 SOTA） | 📱→💻 | Apache 2.0 | AssemblyAI Universal-3 Pro | ⬜ |
+| Moonshine | Tiny 27M → Medium 245M（端侧） | 📱 | MIT | Deepgram Flux / 云实时 | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/06-stt/moonshine.md) |
+| Qwen3-ASR | 0.6B / 1.7B（52 语言，开源 SOTA） | 📱→💻 | Apache 2.0 | AssemblyAI Universal-3 Pro | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/06-stt/qwen3-asr.md) |
 | Whisper | Large v3 (1.55B) / v3 Turbo (809M) | 💻 主力 | MIT | OpenAI gpt-4o-transcribe / Deepgram | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/06-stt/whisper.md) |
 | Distil-Whisper | Large v3.5 (756M，英语快转) | 💻 | MIT | — | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/06-stt/distil-whisper.md) |
 | Parakeet TDT | 0.6B v3（吞吐王，25 语言） | 💻 | CC-BY-4.0 | Deepgram Nova-3 streaming | ⬜ |
@@ -104,7 +104,7 @@
 | 模型 family | 代表型号/尺寸（忽略量化） | 部署层级 | 许可 | 闭源对标 | 报告 |
 |------|-----------|------|------|---------|------|
 | Qwen3-Embedding | 0.6B / 4B / 8B（MTEB 多语 No.1） | 📱→🏢 | Apache 2.0 | text-embedding-3-large / Gemini Embedding | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/07-embedding/qwen3-embedding.md) |
-| Qwen3-Reranker | 0.6B / 4B / 8B（cross-encoder） | 💻→🏢 | Apache 2.0 | Cohere Rerank | ⬜ |
+| Qwen3-Reranker | 0.6B / 4B / 8B（cross-encoder） | 💻→🏢 | Apache 2.0 | Cohere Rerank | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/07-embedding/qwen3-reranker.md) |
 | EmbeddingGemma | 308M（<200MB RAM，端侧） | 📱 | Gemma 条款（可商用） | text-embedding-3-small | ⬜ |
 | BGE-M3 | ~0.6B（dense+sparse+ColBERT） | 💻 主力 | MIT | text-embedding-3-large / Cohere Embed v3 | ✅ [报告](/Users/pengpeng/seo/directions/model/reports/07-embedding/bge-m3.md) |
 | bge-reranker-v2-m3 | cross-encoder（多语言） | 💻 | MIT | Cohere Rerank | ⬜ |

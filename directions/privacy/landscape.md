@@ -70,12 +70,12 @@
 
 | 子方向 | 核心 SEO 词 | Olares 落点 | 报告 |
 |--------|-------------|-------------|------|
-| GDPR 罚单 | `biggest GDPR fines`、`Meta 1.2 billion fine`、`Google CNIL fine` | 数据主权 + 无跨境云 | ⬜ |
-| Google | `degoogle`、`Gmail alternative privacy`、`how to leave Google` | self-hosted 替代 | ⬜ |
-| Amazon | `is Alexa always listening`、`Ring alternative local storage`、`Alexa alternative` | HA + 本地 NVR（见 iot） | ⬜ |
-| Microsoft | `Windows Recall privacy`、`disable Windows Recall` | 本地不截屏 | ⬜ |
-| Apple | `Siri privacy`、`Apple privacy reality` | 数据真正归用户 | ⬜ |
-| 监控资本主义 | `surveillance capitalism`、`data broker`、`location data selling` | 不进广告/数据经纪链 | ⬜ |
+| GDPR 罚单 | `biggest GDPR fines`、`Meta 1.2 billion fine`、`Google CNIL fine` | 数据主权 + 无跨境云 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/07-enterprise/gdpr-fines-enforcement.md) |
+| Google | `degoogle`、`Gmail alternative privacy`、`how to leave Google` | self-hosted 替代 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/05-big-tech/google-surveillance.md) |
+| Amazon | `is Alexa always listening`、`Ring alternative local storage`、`Alexa alternative` | HA + 本地 NVR（见 iot） | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/05-big-tech/amazon-surveillance.md) |
+| Microsoft | `Windows Recall privacy`、`disable Windows Recall` | 本地不截屏 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/05-big-tech/microsoft-privacy.md) |
+| Apple | `Siri privacy`、`Apple privacy reality` | 数据真正归用户 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/05-big-tech/apple-privacy.md) |
+| 监控资本主义 | `surveillance capitalism`、`data broker`、`location data selling` | 不进广告/数据经纪链 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/05-big-tech/surveillance-capitalism.md) |
 
 > **争议**：Apple 营销 vs 实践；Google "放弃 cookie" vs 追踪；OpenAI 无罚单空档。**诚实**：面向已有隐私意识人群。
 
@@ -85,12 +85,12 @@
 
 | 子方向 | 核心 SEO 词 | Olares 落点 | 报告 |
 |--------|-------------|-------------|------|
-| 数据主权 | `data sovereignty vs digital sovereignty`、`data sovereignty at home`、`own your data` | 硬件+数据归用户 | ⬜ |
-| 自托管 | `self hosted personal cloud`、`personal cloud OS`、`self hosted AI agent` | Olares 本体 | ⬜ |
-| 去大厂/迁移 | `degoogle`、`Google Photos alternative self hosted`、`EU Data Act cloud switching` | 一键部署平替 | ⬜ |
-| 加密概念 | `what is zero knowledge encryption`、`end to end encrypted self hosted` | 数据在本地 | ⬜ |
-| 用户权利 | `right to be forgotten GDPR`、`data portability GDPR`、`privacy by design explained` | 本地部署天然满足 | ⬜ |
-| 主权云/地缘 | `EU sovereign cloud`、`CADA cloud sovereignty levels`、`Gaia-X data spaces` | 个人自托管 vs 买欧盟云 | ⬜ |
+| 数据主权 | `data sovereignty vs digital sovereignty`、`data sovereignty at home`、`own your data` | 硬件+数据归用户 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/06-user-concepts/data-sovereignty.md) |
+| 自托管 | `self hosted personal cloud`、`personal cloud OS`、`self hosted AI agent` | Olares 本体 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/06-user-concepts/self-hosted-privacy.md) |
+| 去大厂/迁移 | `degoogle`、`Google Photos alternative self hosted`、`EU Data Act cloud switching` | 一键部署平替 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/06-user-concepts/degoogle.md) |
+| 加密概念 | `what is zero knowledge encryption`、`end to end encrypted self hosted` | 数据在本地 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/06-user-concepts/encryption-concept.md) |
+| 用户权利 | `right to be forgotten GDPR`、`data portability GDPR`、`privacy by design explained` | 本地部署天然满足 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/06-user-concepts/user-rights-gdpr.md) |
+| 主权云/地缘 | `EU sovereign cloud`、`CADA cloud sovereignty levels`、`Gaia-X data spaces` | 个人自托管 vs 买欧盟云 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/06-user-concepts/sovereign-cloud.md) |
 
 > **争议**：便利仍胜主权；欧洲主权云"有规则无供给"；自托管安全悖论。**诚实**：面向愿意"拥有"的人群，Olares 降低门槛。
 
@@ -100,12 +100,12 @@
 
 | 子方向 | 核心 SEO 词 | Olares 落点 | 报告 |
 |--------|-------------|-------------|------|
-| 合规采购驱动 | `gdpr compliance tools`（CPC $34.62）、`gdpr software`（$27）、`data privacy compliance`（$15.61）、`gdpr solution`（$29） | 私有部署满足"数据不出企业" | ⬜ |
-| 数据主权 / data residency | `digital sovereignty`（$21.70）、`data sovereignty`（$17.68）、`on premise private cloud`（$16.04）、`sovereign cloud` | 数据在企业选定法域/自有硬件（CLOUD Act 暴露→自部署） | ⬜ |
-| vendor lock-in / TCO / egress | `cloud vendor lock in`、`cloud egress cost`、`private cloud TCO` | 拥有而非租用（Data Act 云切换、DORA 关键第三方风险） | ⬜ |
-| on-prem / private AI | `on prem ai`、`private llm for enterprise`、`private ai infrastructure`（$10.47）、`private ai for business`（$11.16）、`gdpr compliant ai`（KD=0） | 本地 LLM + 应用沙箱 + SSO/权限，训练数据/IP 不外流 | ⬜ |
-| 安全责任 / 认证 / 泄露责任 | `private cloud security`（KD=9）、`private cloud data security`（KD=8）、`soc 2 self hosted`、`hipaa compliant hosting` | 私有部署 + 责任模型澄清（缩小集中托管爆炸半径，见 02/03） | ⬜ |
-| 团队协作 / 身份授权 | `self hosted workspace`、`private team collaboration`、`self hosted sso` | Olares Workspace + Agent 作有身份/授权的团队成员（对齐场景 6） | ⬜ |
+| 合规采购驱动 | `gdpr compliance tools`（CPC $34.62）、`gdpr software`（$27）、`data privacy compliance`（$15.61）、`gdpr solution`（$29） | 私有部署满足"数据不出企业" | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/07-enterprise/compliance-procurement.md) |
+| 数据主权 / data residency | `digital sovereignty`（$21.70）、`data sovereignty`（$17.68）、`on premise private cloud`（$16.04）、`sovereign cloud` | 数据在企业选定法域/自有硬件（CLOUD Act 暴露→自部署） | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/07-enterprise/data-residency-enterprise.md) |
+| vendor lock-in / TCO / egress | `cloud vendor lock in`、`cloud egress cost`、`private cloud TCO` | 拥有而非租用（Data Act 云切换、DORA 关键第三方风险） | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/07-enterprise/vendor-lock-in-tco.md) |
+| on-prem / private AI | `on prem ai`、`private llm for enterprise`、`private ai infrastructure`（$10.47）、`private ai for business`（$11.16）、`gdpr compliant ai`（KD=0） | 本地 LLM + 应用沙箱 + SSO/权限，训练数据/IP 不外流 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/07-enterprise/on-prem-private-ai.md) |
+| 安全责任 / 认证 / 泄露责任 | `private cloud security`（KD=9）、`private cloud data security`（KD=8）、`soc 2 self hosted`、`hipaa compliant hosting` | 私有部署 + 责任模型澄清（缩小集中托管爆炸半径，见 02/03） | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/07-enterprise/security-responsibility.md) |
+| 团队协作 / 身份授权 | `self hosted workspace`、`private team collaboration`、`self hosted sso` | Olares Workspace + Agent 作有身份/授权的团队成员（对齐场景 6） | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/07-enterprise/team-collaboration-identity.md) |
 
 > **争议 / 诚实边界**：企业合规是**流程**、认证是**组织行为**，Olares 提供底座 ≠ 开箱即合规；企业级还需 SSO/审计日志/SLA/支持与合规证据链，须诚实标注 Olares 企业成熟度，不夸大"装上即过审"。行业垂直（医疗 HIPAA / 金融 DORA·PCI / 政府 FedRAMP·主权）本轮留待后续细分。
 
