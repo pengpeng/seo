@@ -104,17 +104,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | chatgpt alternative | 18,100 | **47** | 落地页：LibreChat/Open WebUI on Olares = 本地 ChatGPT 替代 |
-| 2 | chatgpt local | 260 | **35** | 教程：Ollama+Open WebUI on Olares，本地运行 ChatGPT |
-| 3 | sora 2 产品页策略 | 301,000 | 82 | 学 OpenAI：Wan 2.2/SkyReels 产品页排名热门发布词 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **chatgpt local（260，KD=35）/ chatgpt offline（260，KD=41）**：本地/离线 ChatGPT 词低竞争，Ollama+Open WebUI on Olares 精准命中。
-> - **is chatgpt down（74,000月搜，KD=53）**：状态页词带来大量流量，"Olares 永远不会 down"是差异化内容角度。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| openai api | 40,500 | 100 | $7.31 | comm | 次级 | API 词，导向 Olares Vault 管理 Key + 本地 Ollama 兼容格式 |
+| openai api key | 22,200 | 84 | $8.34 | comm | 主词候选 | Olares Vault 统一管理 OpenAI Key，防泄露审计 |
+| chatgpt api | 22,200 | 77 | — | comm | 次级 | API 集成词，Ollama on Olares 提供 OpenAI 兼容接口 |
+| chatgpt alternative | 18,100 | 47 | $1.31 | info | 主词候选 | Open WebUI on Olares=完整本地 ChatGPT，无订阅费、数据本地、永久免费 |
+| openai pricing | 4,400 | 64 | $8.42 | comm | 主词候选 | 价格对比：OpenAI API/ChatGPT 订阅 vs 本地 Ollama on Olares 零成本 |
+| chatgpt alternative free | 2,400 | 57 | $1.25 | info | 次级 | Open WebUI+Qwen3 on Olares=真正免费的 ChatGPT 替代 |
+| chatgpt privacy | 1,300 | 42 | $1.47 | info | 主词候选 | Olares 本地 ChatGPT：对话永不离开本机，100% 私有 |
+| openai enterprise | 590 | 80 | $5.78 | comm | 次级 | 企业词，团队共享配额 / 本地私有部署 |
+| chatgpt local | 260 | — | — | info | 次级 | 本地 ChatGPT 词，Open WebUI on Olares |
+| chatgpt offline | 260 | — | — | info | 次级 | 离线 ChatGPT 词，本地推理不联网 |
+| open source chatgpt | 210 | 58 | $1.76 | info | 次级 | 开源 ChatGPT 词，Open WebUI+Ollama on Olares |
+| ollama openai | 140 | 35 | $0 | info | 次级 | "Ollama 替代 OpenAI API"，Olares 一键搭建 |
+| openai alternative | 110 | 30 | $2.71 | info | 主词候选 | 本地 OpenAI API 替代：Ollama on Olares，OpenAI 兼容格式，一键搭建 |
+| openai vs claude | 70 | 15 | $3.76 | info | 主词候选 | KD=15！三方对比：OpenAI vs Claude vs Ollama on Olares |
 
 ## 核心洞见
 

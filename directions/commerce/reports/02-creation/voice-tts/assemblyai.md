@@ -84,16 +84,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | assemblyai pricing | 70 | **11** | 对比文：AssemblyAI 定价 vs Whisper on Olares 免费 |
-| 2 | make a python voice assistant | 1,900 | **23** | Olares 上 Whisper + Python 语音助手教程 |
-| 3 | 技术博客策略 | — | — | 学 AssemblyAI：写 diarization、speaker label 等技术博客排名低 KD 高量词 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **make a python voice assistant（1,900月搜，KD=23）**：编程教程词低 KD，Olares 的 Whisper + Python 教程是同类内容机会。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| automatic speech recognition | 5,400 | 63 | — | info | 主词候选 | 学 AssemblyAI 建术语页，Whisper on Olares 本地 ASR |
+| correct speaker label | 3,600 | 17 | — | info | 次级 | 说话人分离低 KD 词 |
+| speaker label in transcription | 3,600 | 15 | — | info | 次级 | diarization 低 KD 词 |
+| diarization | 2,400 | 34 | — | info | 次级 | 说话人分离术语词 |
+| make a python voice assistant | 1,900 | 23 | — | info | 主词候选 | Olares 上 Whisper+Python 语音助手完整教程 |
+| speech to text api | 720 | 58 | $126.55 | info | 主词候选 | CPC=$126 全组最高！Whisper API on Olares 本地 STT，无限调用零成本 |
+| deepgram pricing | 590 | 32 | $14.71 | comm | 次级 | 竞品价格对比词，导向本地零成本 |
+| automatic speech recognition system | 480 | 60 | — | info | 次级 | ASR 术语变体 |
+| assembly ai pricing | 110 | 25 | — | comm | 次级 | AssemblyAI 价格变体 |
+| assemblyai pricing | 70 | 11 | $6.12 | comm | 主词候选 | KD=11！AssemblyAI $0.37/小时 vs Whisper on Olares 零成本 |
+| assemblyai api | 30 | 40 | $7.08 | comm | 次级 | API 词，本地替代 |
+| whisper self hosted | 30 | 0 | $1.95 | info | 主词候选 | Olares 一键安装本地 Whisper，REST API 替代 AssemblyAI |
+| assemblyai vs deepgram | 20 | 0 | $6.44 | info | GEO | 近零量对比词，加第三选项 Whisper on Olares |
+| speech to text self hosted | 20 | 0 | — | info | GEO | 近零量抢占"自托管 STT"直答 |
 
 ## 核心洞见
 

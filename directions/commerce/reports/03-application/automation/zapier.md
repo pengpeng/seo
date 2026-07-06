@@ -95,16 +95,27 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | zapier open source | 30 | **22** | n8n on Olares = CPC 最高（$79.07）的开源替代词 |
-| 2 | zapier alternative | 390 | **24** | 落地页：n8n/Dify on Olares 替代 Zapier（CPC=$10.40） |
-| 3 | 博客覆盖策略 | — | — | 学 Zapier：写所有 AI 工具的"在 Olares 上部署 TOP X"横评博客 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **ai transformation is a problem of governance（74,000月搜，KD=9）靠一篇观点博客排名**：超低 KD 观点文可带来大量流量，Olares 可写"AI 主权""企业数据自主"等观点文章。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| workflow automation | 74,000 | 50 | — | 信息 | 次级 | 母词 KD 高需差异化：n8n on Olares 本地自动化 |
+| zapier pricing | 9,900 | 47 | $6.31 | 商业 | 主词候选 | Zapier 最贵 $299/月 vs n8n on Olares 零月费，引导自托管 |
+| cost of zapier | 2,400 | 37 | — | 商业 | 次级 | 价格痛点词，引导自托管零成本 |
+| zapier mcp | 2,400 | 51 | — | 信息 | 主词候选 | n8n + MCP on Olares 更深度本地 AI 自动化 |
+| zapier ai | 2,400 | 77 | $5.27 | 信息 | 次级 | 高 KD，差异化本地 AI 自动化 |
+| zapier integrations | 2,400 | 47 | — | 商业 | 次级 | n8n 开源集成生态替代 |
+| n8n vs zapier | 1,900 | 38 | $5.41 | 信息 | 主词候选 | n8n on Olares vs Zapier 对比 + 迁移指南，无限工作流零成本 |
+| n8n self hosted | 1,600 | 62 | $2.55 | 信息 | 主词候选 | n8n 一键安装在 Olares One 完整自托管教程 |
+| n8n local | 720 | 51 | $4.51 | 信息 | 次级 | 本地运行 n8n on Olares One 教程 |
+| make vs zapier | 590 | 33 | $10.45 | 信息 | 次级 | 三方对比加 n8n on Olares 零成本 |
+| zapier alternative | 390 | 24 | $10.40 | 信息 | 主词候选 | n8n on Olares 完全开源自托管 Zapier 替代（CPC 高、KD 低）|
+| zapier free | 390 | 50 | $6.11 | 信息 | 次级 | 主打零月费本地方案 |
+| zapier enterprise | 70 | 70 | $9.67 | 商业 | 次级 | 企业自托管替代 |
+| zapier open source | 30 | 22 | $79.07 | 信息 | GEO | CPC 全报告集最高，n8n on Olares 完全开源，占位/直答 |
+| best open source zapier alternative | — | — | — | 信息 | GEO | 进 FAQ/直答：n8n on Olares |
 
 ## 核心洞见
 

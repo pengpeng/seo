@@ -87,16 +87,27 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | 翻译语音页策略 | 9,900+ | **25** | 学 Murf/ElevenLabs：建语言对语音翻译工具页（Hy-MT2 + CosyVoice） |
-| 2 | murf ai pricing | 110 | **23** | Kokoro on Olares = 永久免费替代 Murf |
-| 3 | voice changer 借力 | 90,500 | 84 | 靠 voice changer 品类词带流量（Kokoro + RVC on Olares） |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **murf ai vs elevenlabs（KD=21）**：TTS 对比词低竞争，Olares 开源 TTS 方案的对比文是精准内容。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| english to hindi translate in voice audio | 60,500 | 37 | — | 信息 | 次级 | 学 Murf 建语音翻译工具页（Whisper + TTS on Olares）|
+| english to malayalam voice translation | 9,900 | 25 | — | 信息 | 主词候选 | 语音翻译工具页：Whisper + TTS on Olares 借力长尾大词 |
+| ai voice changer | 8,100 | 75 | — | 信息 | 主词候选 | Kokoro + RVC on Olares = 本地声音克隆/变声（借力大词）|
+| kokoro tts | 2,400 | 64 | $2.58 | 信息 | 主词候选 | Kokoro TTS on Olares 一键安装，音质接近 Murf/ElevenLabs |
+| murf ai text to speech | 880 | 35 | — | 信息 | 次级 | 本地 TTS 替代 Murf |
+| elevenlabs alternative | 480 | 9 | $6.16 | 信息 | 主词候选 | 开源自托管 TTS 一篇覆盖 ElevenLabs/Murf 替代（KD9）|
+| murf text to speech | 320 | 35 | — | 信息 | 次级 | 本地 TTS 替代借力 |
+| murf ai voice changer | 210 | 45 | — | 信息 | 次级 | 本地变声 on Olares |
+| murf ai free | 170 | 28 | — | 信息 | 次级 | 主打永久免费本地 TTS |
+| murf ai pricing | 110 | 23 | — | 商业 | 主词候选 | Murf $29/月 vs Kokoro on Olares 零成本（CPC $14.90 高价值）|
+| murf voice changer | 110 | 19 | — | 信息 | 次级 | 低 KD 变声词借力 |
+| murf ai price | 90 | 29 | — | 商业 | 次级 | 价格对比词 |
+| murf ai video translator | 70 | 24 | — | 信息 | 次级 | 视频本地化配音场景 |
+| murf pricing | 30 | 27 | $14.90 | 商业 | GEO | 近零量高 CPC，价格对比占位 |
+| murf api | 20 | 0 | $5.50 | 商业 | GEO | 近零量，本地 TTS API on Olares 占位 |
 
 ## 核心洞见
 

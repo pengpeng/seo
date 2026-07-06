@@ -91,13 +91,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | 3D 工具页面策略 | — | — | 学 Meshy：建 3D 文件转换工具页（3mf to stl、glb to gltf 等）排名低 KD 高量词 |
-| 2 | image to 3d model | 6,600 | **34** | TRELLIS.2/Hunyuan3D on Olares = 本地 image-to-3D |
-| 3 | UGC 策略 | — | — | 用户生成的 3D 模型页面带来大量意外长尾流量，平台应允许作品分享 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| image to 3d model | 6,600 | 34 | — | info | 主词候选 | Trellis/Hunyuan3D on Olares=本地图像转 3D，无限生成 |
+| ai 3d model generator | 6,600 | 60 | $1.20 | info | 主词候选 | Hunyuan3D on Olares=本地 3D 生成，无月费 |
+| 3mf to stl | 4,400 | 13 | — | info | 主词候选 | Olares 3D 文件转换工具页（Meshy 靠这类 KD<20 词获大量流量）|
+| image to stl | 3,600 | 30 | — | info | 次级 | 3D 文件转换词 |
+| image to 3d | 2,900 | 50 | — | info | 次级 | 图像转 3D 变体 |
+| .3mf to stl | 2,900 | 16 | — | info | 次级 | 3mf 转换变体 |
+| 3d model generator | 1,600 | 37 | — | info | 次级 | 生成器通用词 |
+| ai 3d model generator free | 1,600 | 55 | — | info | 次级 | "free"变体，本地部署真正永久免费 |
+| glb to stl | 1,300 | 8 | — | info | 次级 | KD=8 转换词，几乎零竞争 |
+| .obj viewer | 1,300 | 25 | — | info | 次级 | 3D 查看器工具词 |
+| 3d model from image | 1,300 | 60 | — | info | 次级 | 图像转 3D 变体 |
+| 图片转3d | 720 | 23 | — | info | 主词候选 | 中文市场：Hunyuan3D（腾讯开源）on Olares 对中文用户支持更好 |
+| meshy api | 90 | 34 | $5.39 | comm | 次级 | 本地 3D API：Hunyuan3D API on Olares 替代 |
+| meshy pricing | 30 | 0 | $3.81 | comm | 主词候选 | KD=0：价格对比 Meshy $16/月 vs Hunyuan3D on Olares 零成本 |
 
 ## 核心洞见
 

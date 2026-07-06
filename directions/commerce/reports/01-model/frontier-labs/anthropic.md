@@ -102,17 +102,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | claude alternative | 260 | **18** | OpenWebUI+Ollama on Olares = 本地 Claude 替代 |
-| 2 | claude offline | 140 | **35** | 教程：Olares+本地 LLM 实现 Claude 离线体验（CPC=$17.93） |
-| 3 | anthropic news 策略 | 450,000 | 70 | 学 Anthropic：AI 新闻/公告页带来 360,000 月流量 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **anthropic news（450,000月搜→360,000流量，KD=70）**：Anthropic 靠新闻/公告页排名新闻词，是品牌内容策略典范——Olares 产品更新页可学此策略积累新闻流量。
-> - **claude offline（CPC=$17.93）**：Claude 相关词中 CPC 最高之一，企业为"离线运行 Claude"付高价，Olares+本地 LLM 是最直接答案。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| mcp | 74,000 | 60 | — | info | 主词候选 | Olares 原生集成 MCP，发布"Olares MCP 完整指南"系列（anthropic.com 靠此词月获 2,220 流量）|
+| claude api | 27,100 | 51 | $5.66 | comm | 次级 | API 集成词，导向 Olares Vault 管理 Key 或本地 LLM 免调用费 |
+| claude pricing | 18,100 | 47 | $5.25 | comm | 主词候选 | 价格对比：Claude 订阅 vs 本地 Qwen3/Gemma on Olares 零成本 |
+| anthropic api | 14,800 | 67 | $8.57 | comm | 次级 | API 词，本地替代不烧额度、数据归你 |
+| claude api key | 9,900 | 50 | $5.88 | comm | 主词候选 | Olares Vault 统一安全管理 Claude API Key，防泄露审计 |
+| claude enterprise | 2,900 | 47 | $6.70 | comm | 次级 | 企业配额场景，团队共享 / 本地私有部署 |
+| anthropic claude api | 880 | 54 | $5.20 | comm | 次级 | API 集成变体，导向本地替代 |
+| claude for teams | 480 | 29 | $11.17 | comm | 主词候选 | Olares 企业版团队共享 API 配额（CPC=$11.17 强商业信号）|
+| claude alternative | 260 | 18 | $3.12 | info | 主词候选 | Open WebUI+Ollama on Olares=本地 Claude 替代，无内容限制/无订阅/数据本地 |
+| claude local | 210 | 44 | $10.16 | info | 次级 | Qwen3/Gemma on Olares，对话不出本机 |
+| claude privacy | 210 | 50 | $0 | info | 次级 | Olares 代理调用，内容不经第三方服务器 |
+| claude business | 110 | 41 | $7.17 | comm | 次级 | 商业订阅词，导向本地零成本 |
+| claude offline | 140 | — | — | info | GEO | "Claude 能否离线"进 FAQ/直答 |
+| claude self hosted | 0 | — | — | info | GEO | 近零量，抢占"自托管 Claude"直答 |
 
 ## 核心洞见
 

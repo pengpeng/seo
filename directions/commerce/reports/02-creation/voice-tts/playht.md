@@ -76,16 +76,24 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | playht free | 480 | **17** | Fish Speech on Olares = 免费 PlayHT 替代 |
-| 2 | playht pricing | 390 | **19** | TTS 定价对比，Olares 自托管零成本 |
-| 3 | playht clone voice | 90 | **11** | Fish Speech 声音克隆教程 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **playht free（480，KD=17）/ playht pricing（390，KD=19）**：两个最低 KD 词，用户对 PlayHT 定价有疑问，Fish Speech on Olares 是完全免费替代。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| playht | 9,900 | 27 | — | 信息 | 次级 | 品牌词，导向 Kokoro/Fish Speech on Olares 本地 TTS |
+| play.ht text to speech | 1,000 | 32 | — | 信息 | 主词候选 | 本地 TTS API on Olares，兼容 Play.HT 格式、无额度限制 |
+| play.ht sign up | 720 | 24 | — | 导航 | 次级 | 品牌导航词借力 |
+| playht ai | 590 | 23 | — | 信息 | 次级 | 品牌词借力，导向本地 TTS |
+| elevenlabs alternative | 480 | 9 | $6.16 | 信息 | 主词候选 | Kokoro/Fish Speech on Olares 一篇覆盖 ElevenLabs + Play.HT 两个替代（KD9）|
+| playht free | 480 | 17 | — | 信息 | 次级 | 主打永久免费本地 TTS（数字沿用簇表）|
+| playht pricing | 390 | 19 | — | 商业 | 主词候选 | Play.HT 定价 vs Kokoro on Olares 自托管零成本（数字沿用簇表）|
+| playht playground | 210 | 23 | — | 信息 | 次级 | 品牌功能词借力 |
+| playht studio | 140 | 25 | — | 信息 | 次级 | 品牌功能词借力 |
+| playht clone voice | 90 | 11 | — | 信息 | 主词候选 | Fish Speech on Olares 本地声音克隆教程，高价值低竞争（KD11）|
+| playht api | 40 | 16 | — | 信息 | 次级 | 兼容 Play.HT API 的本地 TTS on Olares 教程 |
+| how to clone a voice for free | — | — | — | 信息 | GEO | 进 FAQ/直答：Fish Speech on Olares 免费声音克隆 |
 
 ## 核心洞见
 

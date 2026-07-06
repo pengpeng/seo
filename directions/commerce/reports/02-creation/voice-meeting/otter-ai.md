@@ -91,17 +91,27 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | otter ai alternative | 110 | **23** | Whisper+n8n on Olares = 本地会议转录替代 Otter.ai |
-| 2 | otter ai pricing | 1,900 | **41** | 高量定价词，引导到自托管方案 |
-| 3 | otter ai podcast transcript | 590 | **0-37** | 播客本地转录场景教程（KD=0 入口） |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **otter（201,000月搜，KD=55）通用词借力**：Otter.ai 靠品牌名+水獭动物词带混合流量（类似 Midjourney 借 runway 词）。
-> - **otter ai api（CPC=$8.02）**：API 词 CPC 高，企业为会议转录 API 付费，本地 Whisper API 是替代内容。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| ai transcription | 5,400 | 65 | — | info | 次级 | 本地 ASR，Whisper on Olares 覆盖 |
+| otter ai video transcription | 2,400 | 68 | — | info | 次级 | 视频转录词，事后上传录音 |
+| otter ai pricing | 1,900 | 41 | $1.32 | comm | 主词候选 | Otter $16.99/月 vs 本地 Whisper on Olares 零月费 |
+| ai meeting notes | 1,600 | 73 | $4.74 | info | 主词候选 | Whisper+Ollama on Olares 本地会议笔记/摘要，隐私差异化不硬拼 |
+| otter ai audio to text | 1,000 | 69 | — | info | 主词候选 | Whisper on Olares 本地音频转文字，事后上传录音转录 |
+| otter ai podcast transcript | 1,000 | 0 | — | info | 主词候选 | KD=0！Whisper on Olares 播客本地转录教程 |
+| otter ai voice to text | 590 | 68 | — | info | 次级 | 语音转文字变体 |
+| otter ai meeting transcription | 590 | 81 | — | info | 次级 | 会议转录变体 |
+| otter ai podcast transcription | 590 | 37 | — | info | 次级 | 播客转录变体 |
+| otter pricing | 480 | 43 | — | comm | 次级 | 价格变体 |
+| otter ai meeting notes | 480 | 79 | — | info | 次级 | 会议笔记变体 |
+| otter ai free | 390 | 70 | $2.28 | info | 次级 | "免费"词，导向本地零订阅 |
+| otter ai vs fireflies | 140 | 19 | $4.49 | info | 主词候选 | 对比加第三选项：Otter vs Fireflies vs 本地 Whisper on Olares |
+| otter ai alternative | 110 | 23 | $3.71 | info | 主词候选 | Whisper+n8n on Olares 完全私有零订阅 |
+| fireflies alternative | 50 | 6 | $9.26 | info | 次级 | KD=6 CPC=$9.26 全报告最低 KD 之一，"Fireflies 自托管替代" |
 
 ## 核心洞见
 

@@ -79,15 +79,22 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | tripo vs meshy | 30 | **13** | 3D 生成工具横评（TripoSR vs Meshy vs TRELLIS.2 on Olares） |
-| 2 | tripo3d api | 90 | **17** | TripoSR/Hunyuan3D on Olares 本地 3D API |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **tengami 3d models（KD=7）等垂直游戏/动漫 3D 词**：靠博客/UGC 排名，垂直领域 3D 内容是低竞争高量词来源。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| image to 3d model | 6,600 | 34 | — | info | 主词候选 | Trellis on Olares=本地图像转 3D，KD=34 相对低 |
+| image to stl | 3,600 | 30 | — | info | 次级 | 图像转 STL 转换词 |
+| image to 3d | 2,900 | 50 | — | info | 次级 | 图像转 3D 变体 |
+| 2d image to 3d model | 1,000 | 40 | — | info | 次级 | 2D→3D 变体 |
+| text to 3d model | 720 | 60 | — | info | 次级 | 文本转 3D 变体 |
+| dcc bridge | 480 | 13 | — | info | 主词候选 | "3D 模型直接导入 Blender"：Hunyuan3D+Blender 工作流 on Olares |
+| text to 3d | 480 | 61 | $1.03 | info | 主词候选 | 文本转 3D：Olares 上 Trellis/Hunyuan3D（KD 高，聚焦图像入口更优）|
+| ai 3d generator | 170 | 66 | $1.05 | info | 次级 | 通用生成器词 |
+| tripo3d api | 90 | 17 | $1.36 | comm | 主词候选 | 本地 3D API：Hunyuan3D API on Olares，无额度限制 |
+| tripo vs meshy | 30 | 13 | $6.38 | info | 主词候选 | KD=13！对比文加第三选项：Hunyuan3D on Olares 本地部署无月费（CPC=$6.38）|
 
 ## 核心洞见
 

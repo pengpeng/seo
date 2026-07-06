@@ -91,17 +91,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | cohere pricing | 260 | **26** | BGE-M3 on Olares = 免费 Embedding 替代 Cohere |
-| 2 | cohere transcribe | 590 | **31** | Whisper on Olares 替代 Cohere Transcribe |
-| 3 | cohere rerank | 480 | **36** | 本地 Rerank 方案教程（bge-reranker on Olares） |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **cohère（法语发音变体，12,100月搜）是最大流量词**：不同语言的品牌词变体都是流量，内容应覆盖多语言写法。
-> - **cohere transcribe（590月搜，KD=31）**：Cohere 新推语音转录产品，Whisper on Olares 是最直接的开源替代，属新兴内容词。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| command-r | 2,400 | 51 | — | info | 主词候选 | 在 Olares 上本地运行 Command-R（Ollama 支持），用品牌词展示本地替代 |
+| cohere transcribe | 590 | 31 | — | info | 主词候选 | Whisper on Olares 替代 Cohere Transcribe（新兴内容词）|
+| cohere rerank | 480 | 36 | $8.47 | info | 主词候选 | 本地 Rerank：bge-reranker on Olares 替代 Cohere Rerank API（CPC=$8.47）|
+| command r+ | 390 | 39 | — | info | 次级 | Command 系列本地部署变体词 |
+| cohere api | 320 | 56 | $7.08 | comm | 次级 | API 集成词，导向 nomic-embed 本地替代 |
+| cohere api pricing | 320 | 30 | — | comm | 次级 | 价格词，Embed 成本对比 |
+| command a | 320 | 46 | — | info | 次级 | Command-A 本地运行 |
+| cohere pricing | 260 | 26 | $7.83 | comm | 主词候选 | 价格对比：Cohere Embed $0.1/1M tokens vs nomic-embed on Olares 零成本 |
+| cohere reranker | 210 | 32 | — | info | 次级 | rerank 变体词 |
+| cohere api key | 210 | 18 | $5.88 | comm | 主词候选 | Olares Vault 管理 Cohere Key，或 nomic-embed on Olares 本地替代 |
+| command-a | 210 | 45 | — | info | 次级 | Command-A 变体 |
+| cohere rerank documentation | 70 | 32 | — | info | 次级 | rerank 文档词 |
+| embedding api | 50 | 51 | $3.85 | info | 主词候选 | 本地 Embedding API：Olares+nomic-embed，OpenAI 兼容，无限调用 |
+| cohere alternative | 0 | 0 | — | info | GEO | 先发抢占"Cohere 本地替代"直答 |
 
 ## 核心洞见
 

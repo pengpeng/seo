@@ -95,17 +95,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | 模型页面策略 | — | — | 学 HuggingFace：Olares Market 每个 AI 应用页排名对应模型品牌词 |
-| 2 | huggingface pricing | 50 | **30** | Olares 本地运行 = HF API 零成本替代 |
-| 3 | huggingface inference api | 320 | **32** | 教程：Olares 本地推理 vs HF 托管推理 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **huggingface-cli（3,600月搜，KD=28）**：CLI 工具词低 KD，Olares 的本地模型下载教程可覆盖此词。
-> - **z-image turbo（5,400月搜，KD=60）靠 HF 模型页排名**：印证 Olares Market 应及时上架所有热门新模型抢流量。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| huggingface-cli | 3,600 | 28 | — | 信息 | 主词候选 | Olares 本地模型下载/运行教程，覆盖 CLI 低 KD 词族 |
+| hugging face spaces | 2,900 | 37 | — | 信息 | 次级 | Olares Market = 本地版 HF Spaces |
+| huggingface cli | 1,900 | 23 | — | 信息 | 次级 | CLI 变体低 KD，本地模型运行 |
+| hugging face inference api free tier | 1,900 | 32 | — | 信息 | 次级 | 本地推理 API 免费替代 on Olares |
+| huggingface spaces | 1,600 | 38 | $3.38 | 信息 | 主词候选 | Olares Market 本地 HF Spaces，一键安装 AI 应用 |
+| huggingface-cli login | 1,600 | 30 | — | 信息 | 次级 | CLI 词族借力 |
+| huggingface mcp server | 1,600 | 46 | — | 信息 | 主词候选 | Olares MCP + HF MCP 互补，一键部署 HF 模型 |
+| deepseek huggingface | 1,600 | 46 | — | 信息 | 次级 | 一键部署 HF 上 DeepSeek 系列 |
+| hugging face api | 1,300 | 50 | $4.83 | 商业 | 主词候选 | Ollama on Olares = 本地 HF Inference API，OpenAI 兼容、无限调用 |
+| huggingface token | 1,300 | 28 | — | 信息 | 次级 | CLI/鉴权词族借力 |
+| huggingface inference api | 320 | 32 | $4.96 | 信息 | 次级 | 本地推理 API 替代 HF Inference API |
+| ollama alternative | 210 | 16 | $4.30 | 信息 | 主词候选 | Olares = 完整本地 AI 系统，一键部署任意 HF 模型（KD16）|
+| huggingface pricing | 50 | 30 | $4.03 | 商业 | 次级 | HF Pro $9/月 vs Olares 一次性成本 |
+| what are huggingface spaces | — | — | — | 信息 | GEO | 进 FAQ/直答：Olares Market 本地 Spaces |
 
 ## 核心洞见
 

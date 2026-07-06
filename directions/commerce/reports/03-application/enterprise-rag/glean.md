@@ -94,17 +94,27 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | glean alternative | 70 | **10** | AnythingLLM/RAGFlow on Olares = 本地 Glean 替代（CPC=$15.04） |
-| 2 | glean pricing | 880 | **18** | 企业 AI 搜索定价对比（Glean 年费 vs Olares 自托管） |
-| 3 | knowledge remote | 1,900 | **9** | 学 Glean：写远程团队知识管理博客文章 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **knowledge remote（1,900月搜，KD=9）**：企业知识管理博客词极低竞争，可写"远程团队知识管理：Glean vs 本地 RAG"类文章。
-> - **glean connectors（KD=14）**：Glean 靠连接器（Slack/Google Drive/Notion）排名，Olares 的应用集成生态可做类似内容。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| ai powered collaboration platform | 5,400 | 32 | — | 信息 | 次级 | 借力词，导向本地 RAG on Olares 私有知识库 |
+| agentic rag | 3,600 | 47 | — | 信息 | 主词候选 | Olares 上 RAGFlow/AnythingLLM 搭建 agentic RAG，企业私有检索 |
+| ai assistant for productivity | 3,600 | 51 | — | 信息 | 次级 | 借力词，本地 AI 助手 on Olares |
+| knowledge remote | 1,900 | 9 | — | 信息 | 主词候选 | 学 Glean 写远程团队知识管理，本地 RAG on Olares 私有知识库 |
+| glean pricing | 880 | 18 | $9.20 | 商业 | 次级 | Glean $30-60/用户/月 vs Olares 一次性成本 |
+| ai enterprise search | 390 | 26 | $14.70 | 信息 | 主词候选 | Perplexica + SearXNG on Olares 企业私有 AI 搜索，数据不出内网（CPC 高）|
+| glean agents | 390 | 32 | — | 信息 | 次级 | 本地 Agent 生态替代 |
+| enterprise ai search | 320 | 30 | $16.41 | 信息 | 次级 | CPC 极高，私有 AI 搜索 on Olares |
+| glean mcp | 320 | 20 | — | 信息 | 主词候选 | Olares 原生 MCP 平台，本地 MCP + 连接器生态替代 |
+| knowledge management ai | 260 | 33 | $7.69 | 信息 | 次级 | 本地知识库，无第三方数据访问 |
+| glean api | 260 | 24 | $2.66 | 商业 | 次级 | 本地企业搜索 API on Olares |
+| glean connectors | 210 | 14 | — | 信息 | 次级 | 低 KD，本地连接器生态 |
+| enterprise search ai | 90 | 50 | $20.12 | 信息 | 次级 | CPC 全报告最高，企业私有搜索 |
+| glean alternative | 70 | 10 | $15.04 | 信息 | 主词候选 | Perplexica/AnythingLLM/RAGFlow on Olares 本地企业 AI 搜索替代（KD10 CPC15）|
+| best self-hosted glean alternative | — | — | — | 信息 | GEO | 进 FAQ/直答：自托管企业 AI 搜索 on Olares |
 
 ## 核心洞见
 

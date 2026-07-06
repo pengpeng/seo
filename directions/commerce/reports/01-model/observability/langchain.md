@@ -101,18 +101,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | langchain alternative | 140 | **29** | Dify/Flowise/n8n on Olares = 视觉化 LangChain 替代 |
-| 2 | 技术博客策略 | — | — | 学 LangChain：写 multi-agent、context engineering 等技术观点文章 |
-| 3 | langchain mcp | 880 | **46** | LangChain MCP 集成 vs Olares 原生 MCP |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **context of context（33,100月搜，KD=51）**：Context Engineering 是 LangChain 博客造的概念词并靠博客排名——最高级内容策略，Olares 可造"本地 AI 主权"等新概念词。
-> - **multi-agent（33,100月搜，KD=50）**：2026 最热 AI 技术词，Olares 的 OpenClaw/Hermes Agent/n8n 组合是多智能体的最完整本地方案。
-> - **guardrails（12,100月搜，KD=75）**：AI 安全护栏词热度上升，Olares 本地运行天然提供数据护栏，是差异化角度。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| from langchain_community.chat_models import chatollama | 1,900 | 21 | — | info | 次级 | LangChain+Ollama 代码词，导向本地推理教程 |
+| langgraph studio | 1,600 | 24 | — | info | 次级 | 在 Olares 上一键搭建 LangGraph 本地开发环境 |
+| langchain agents | 1,600 | 80 | $2.93 | info | 主词候选 | 多智能体本地方案：OpenClaw/Hermes Agent/n8n on Olares |
+| langgraph tutorial | 1,300 | 35 | — | info | 主词候选 | 在 Olares 上一键搭建 LangGraph 本地开发环境 |
+| langchain tools | 1,000 | 68 | — | info | 次级 | Agent 工具链词，导向本地编排 |
+| langchain mcp | 880 | 46 | $3.39 | info | 主词候选 | Olares 原生支持 MCP，是 LangGraph MCP 的本地托管环境 |
+| langgraph docs | 590 | 63 | — | info | 次级 | LangGraph 文档词 |
+| langgraph mcp | 590 | 40 | — | info | 次级 | LangGraph MCP 本地托管 |
+| langchain ollama | 480 | 46 | $3.94 | info | 主词候选 | 教程：LangChain 接入 Ollama on Olares，本地推理零成本 |
+| langchain vs llamaindex | 320 | 36 | $2.08 | info | 次级 | 框架对比词，可加本地部署方案视角 |
+| langchain alternative | 140 | 29 | $4.49 | info | 主词候选 | n8n on Olares=可视化 AI Agent 工作流，无需写 Python |
+| langchain pricing | 140 | 22 | $7.52 | comm | 主词候选 | LangSmith Pro $39/月 vs n8n/Langfuse on Olares 零成本 |
+| langgraph alternative | 40 | 13 | $4.65 | info | 次级 | KD=13 最大空白，n8n on Olares 可视化替代 |
+| langsmith alternative | 20 | 0 | $8.73 | info | GEO | CPC=$8.73，"LangSmith 本地替代"（Langfuse on Olares），近零量抢占 |
 
 ## 核心洞见
 

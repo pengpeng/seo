@@ -91,18 +91,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | deepgram api key free | 210 | **25** | Whisper on Olares = 本地 STT 免 API Key（CPC=$17.19） |
-| 2 | deepgram vs whisper | 50 | **21** | 对比文：Deepgram vs Whisper on Olares（CPC=$15.09） |
-| 3 | deepgram tts | 140 | **20** | Kokoro/Qwen3-TTS on Olares 教程 |
-| 4 | 技术词策略 | — | — | 学 Deepgram：建 AI 术语词典页排名 endpointing、diarization 等技术词 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **deepgram mcp（CPC=$15.57，无量）/ deepgram self-hosted（CPC=$9.55）**：MCP 与自托管词即使无量 CPC 极高，企业在为 STT+MCP/自托管付费，是 Olares 高价值内容方向。
-> - **AI 术语词典策略**：endpointing（390）、diarization（2,400）、ntts（5,400）靠术语页排名——Olares 可建"AI 术语库"页覆盖这类长尾技术词。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| ntts | 5,400 | 36 | — | 信息 | 次级 | 神经 TTS 借力词，导向 Kokoro/Qwen3-TTS on Olares 本地 TTS |
+| diarization | 2,400 | 34 | — | 信息 | 主词候选 | 学 Deepgram 建术语库页 + Whisper/Pipecat 本地语音 Agent，吃低 KD 技术词 |
+| free transcription | 2,400 | 50 | — | 信息 | 次级 | 免费转录页：Whisper on Olares 本地零成本转录 |
+| pipecat | 1,900 | 39 | — | 信息 | 次级 | Pipecat + Whisper + Kokoro 本地语音 Agent 完整栈 |
+| deepgram pricing | 590 | 32 | $14.71 | 商业 | 主词候选 | Deepgram $0.0043/分钟 vs Whisper on Olares 本地零成本、免 API Key |
+| deepgram api | 480 | 27 | $14.79 | 商业 | 次级 | 本地 STT API：Whisper on Olares，无额度限制 |
+| deepgram api key | 390 | 35 | $14.91 | 商业 | 次级 | 免 API Key 的 Whisper on Olares 本地 STT |
+| endpointing | 390 | 20 | — | 信息 | 次级 | 低 KD 技术词借力，导向本地语音 Agent |
+| deepgram tts | 140 | 20 | — | 信息 | 主词候选 | Kokoro/Qwen3-TTS on Olares 本地 TTS 替代 Deepgram TTS |
+| deepgram vs whisper | 50 | 21 | $15.09 | 信息 | 主词候选 | Deepgram vs Whisper on Olares 本地部署对比，零成本（CPC 高）|
+| stt api | 20 | 0 | $125.23 | 信息 | 主词候选 | 先占：Whisper API on Olares 本地 STT，CPC 全组最高 |
+| deepgram vs assemblyai | 20 | 0 | $18.56 | 信息 | GEO | 三方对比加 Whisper on Olares，进直答/FAQ |
+| deepgram self-hosted | — | — | $9.55 | 信息 | GEO | 近零量语义契合，自托管占位内容 |
+| is deepgram free | — | — | — | 信息 | GEO | 进 FAQ/直答：本地 Whisper 永久免费 |
 
 ## 核心洞见
 

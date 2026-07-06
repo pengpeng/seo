@@ -95,16 +95,25 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | notion ai alternative | 50 | **18** | AppFlowy/AFFiNE/Open Notebook on Olares 替代 Notion AI |
-| 2 | notion offline | 590 | **36** | Olares 本地笔记 = 完全离线，无订阅（CPC=$7.25） |
-| 3 | notion mcp | 2,900 | **52** | Notion MCP 集成 vs Olares 原生工具链 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **notion mcp（2,900月搜，KD=52）**：Notion 已支持 MCP，AI 工具链集成是重要方向，Olares 工具链内容可覆盖此词。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| notion pricing | 8,100 | 60 | $9.47 | 商业 | 次级 | 价格敏感，AppFlowy on Olares 零月费对比 |
+| notion api | 3,600 | 62 | $7.47 | 商业 | 次级 | 本地替代 API，导向 Olares 工具链 |
+| appflowy | 3,600 | 61 | $11.33 | 商业 | 主词候选 | AppFlowy on Olares 安装教程，直接截获既有品牌搜索 |
+| notion mcp | 2,900 | 52 | — | 信息 | 主词候选 | Notion MCP 集成 vs Olares 原生 AI 工具链 |
+| notion vs obsidian | 1,900 | 40 | $2.61 | 信息 | 主词候选 | 三方对比 + AppFlowy on Olares 本地私有方案 |
+| notion alternative | 880 | 33 | $3.10 | 信息 | 主词候选 | AppFlowy on Olares 一键部署本地替代，零月费、数据私有 |
+| notion offline | 590 | 36 | $7.25 | 信息 | 次级 | AppFlowy on Olares 完全离线可用 |
+| notion self hosted | 140 | 21 | $0 | 信息 | 主词候选 | 自托管私有 Notion：AppFlowy on Olares，数据不出本机（KD21）|
+| notion open source | 110 | 35 | $0 | 信息 | 次级 | 开源 Notion 替代，导向 AppFlowy |
+| notion privacy | 90 | 36 | $0 | 信息 | 次级 | 笔记与 AI 问答数据永不上传 |
+| notion ai alternative | 50 | 18 | $4.54 | 信息 | 次级 | KD 最低，本地 Notion AI on Olares |
+| is there a free notion alternative | — | — | — | 信息 | GEO | 进 FAQ/直答：AppFlowy on Olares 免费 |
+| is notion self hostable | — | — | — | 信息 | GEO | 进 FAQ/直答：AppFlowy 自托管 |
 
 ## 核心洞见
 

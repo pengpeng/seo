@@ -89,17 +89,27 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | luma ai alternative | 40 | **14** | Wan 2.2 on Olares 替代 Luma 视频生成 |
-| 2 | luma ai 3d | 70 | **17** | TRELLIS.2 on Olares 替代 Luma Genie 3D |
-| 3 | luma genie | 110 | **27** | Luma Genie vs 开源 3D on Olares |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **luma ai 3d（70月搜，KD=17）**：独立的 3D 生成词，TRELLIS.2-4B on Olares 是 Luma Genie 的开源替代。
-> - **video to video ai（1,600月搜，KD=61）**：视频到视频转换新兴场景，Wan 2.2 的 S2V/V2V 功能覆盖。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| luma artificial intelligence | 22,200 | 0 | $0 | info | 次级 | KD=0 月搜 2.2 万：发布"Luma AI 本地替代：Wan Video on Olares"直接排名 |
+| luma dream machine text to video | 4,400 | 66 | — | info | 次级 | Wan 2.2 on Olares 本地文生视频 |
+| video to video ai | 1,600 | 61 | — | info | 次级 | 本地 V2V，Wan on Olares |
+| luma dream machine official | 720 | 0 | — | info | GEO | KD=0，借词发"Dream Machine 本地替代"教程 |
+| luma ai video generator | 590 | 61 | — | info | 主词候选 | Wan 2.2 on Olares 本地文/图生视频，替代 Dream Machine |
+| luma dream machine pricing 2026 | 480 | 28 | — | comm | 次级 | 价格变体词 |
+| luma dream machine free trial | 390 | 76 | — | info | 次级 | 试用词，导向本地零成本 |
+| luma ai genie | 320 | 20 | — | info | 次级 | Luma 3D 功能，Hunyuan3D 替代 |
+| luma ai image to video | 320 | 57 | — | info | 次级 | 图生视频变体 |
+| luma ai free | 260 | 63 | $0.59 | info | 次级 | "免费"词，导向本地无限时长 |
+| luma genie | 110 | 27 | — | info | 主词候选 | TRELLIS.2/Hunyuan3D on Olares 替代 Luma Genie 本地 3D 生成 |
+| luma dream machine pricing | 90 | 35 | $1.65 | comm | 主词候选 | Luma $29.99/月 vs Wan Video on Olares 零成本 |
+| luma ai 3d | 70 | 17 | — | info | GEO | 近零量 3D 词，抢占本地 3D 直答 |
+| luma ai alternative | 40 | 14 | $1.60 | info | 主词候选 | KD=14：Wan Video on Olares=本地视频生成，无限时长零月费 |
+| luma ai api | 40 | 48 | $7.07 | comm | 主词候选 | Wan Video API on Olares 本地视频 API，无限调用（CPC=$7 高价值）|
 
 ## 核心洞见
 

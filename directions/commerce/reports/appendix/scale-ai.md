@@ -86,16 +86,25 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | scale ai alternative | 20 | 0 | 占坑：Label Studio/LLaMA Factory on Olares = 本地数据标注替代（CPC=$31.57） |
-| 2 | scale ai api | 110 | **20** | LLaMA Factory on Olares = 本地数据标注 + 微调 API 教程 |
-| 3 | ai 排行榜借力 | 1,900 | 58 | 学 Scale：建 AI 模型性能排行榜页面 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **scale ai api（110月搜，KD=20）**：LLaMA Factory on Olares 可做本地数据标注+微调，是这个低 KD 商业词的精准落点。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| llm leaderboard | 6,600 | 79 | — | 信息 | 主词候选 | 学 Scale 建「在 Olares 上本地评估 LLM 性能」排行榜内容（借力大词）|
+| label studio | 3,600 | 39 | $5.83 | 信息 | 主词候选 | Label Studio on Olares 一键安装，直接截获 3,600/mo 精准用户 |
+| ai leaderboard | 2,900 | 50 | — | 信息 | 次级 | 本地 LLM 评估借力词 |
+| data labeling | 2,900 | 66 | — | 信息 | 次级 | 借力大词，导向私有标注 on Olares |
+| ai排行榜 | 1,900 | 58 | — | 信息 | 次级 | 中文 LLM 评估榜单借力 |
+| cluster based data quality labeling annotation | 1,000 | 0 | — | 信息 | 次级 | KD0 长尾借力 |
+| data annotation platform | 590 | 54 | $6.34 | 信息 | 次级 | 私有数据标注 on Olares，训练数据不出本机 |
+| scale ai data annotation | 320 | 27 | — | 信息 | 次级 | 品牌 + 品类词借力 |
+| data labeling platform | 210 | 51 | $7.27 | 信息 | 次级 | 私有标注平台 on Olares |
+| scale ai pricing | 210 | 31 | $7.41 | 商业 | 主词候选 | Scale AI 企业定价（无公开价） vs Label Studio on Olares 完全免费 |
+| scale ai api | 110 | 20 | — | 商业 | 次级 | 本地标注 API 替代 |
+| scale ai alternative | 20 | 0 | $31.57 | 信息 | 主词候选 | Label Studio on Olares 私有数据标注替代，训练数据不上传（CPC $31.57 全组最高）|
+| what is the best scale ai alternative | — | — | — | 信息 | GEO | 进 FAQ/直答：Label Studio on Olares |
 
 ## 核心洞见
 

@@ -88,17 +88,22 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | leonardo ai alternative | 210 | **14** | FLUX.2/HiDream + ComfyUI on Olares 替代 |
-| 2 | leonardo ai vs midjourney | 140 | **26** | 图像 AI 横评，Olares 开源方案（CPC=$9.94） |
-| 3 | 用户图片页面策略 | — | — | 学 Leonardo：用户生成图片页面排名高量长尾词 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
 
-> 另一次调研补充洞见：
-> - **leonardo ai vs midjourney（CPC=$9.94）**：对比词商业价值高，"Leonardo vs Midjourney vs FLUX on Olares"是高 ROI 内容。
-> - **UGC 极致**：blessed upgrade scroll（33,100月搜，KD=11）、ceıvır（土耳其语 40,500月搜）靠用户生成图片页排名——平台内容越丰富意外流量越多。
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| ai image generator | 823,000 | 76 | — | info | 次级 | 超大词不硬拼，用本地"真正免费"差异化引流 |
+| free ai image generator | 110,000 | 92 | $0.98 | info | 主词候选 | KD=92 不正面竞争，用"真正永久免费"（本地部署）差异化切入 |
+| best ai image generator | 27,100 | 72 | — | info | 次级 | 榜单词，把 ComfyUI/FLUX on Olares 列入 |
+| best free ai image generator | 14,800 | 79 | — | info | 次级 | "免费"榜单变体，本地无限生成 |
+| leonardo ai pricing | 1,000 | 54 | $0.64 | comm | 次级 | Leonardo $12-48/月 vs ComfyUI on Olares 零月费 |
+| leonardo ai free | 720 | 52 | $0.57 | info | 次级 | "免费"词，导向本地无限生成 |
+| stable diffusion local | 590 | 32 | $1.17 | info | 主词候选 | "本地 Stable Diffusion"：Olares 一键安装 AUTOMATIC1111/ComfyUI |
+| leonardo ai alternative | 210 | 14 | $1.34 | info | 主词候选 | KD=14！ComfyUI+FLUX on Olares=Leonardo AI 本地替代，无限生成零月费 |
+| leonardo ai api | 140 | 31 | $2.39 | comm | 主词候选 | 本地图像 API：ComfyUI API on Olares，无额度限制 |
+| leonardo vs midjourney | 90 | 28 | $0 | info | 主词候选 | 三方对比：Leonardo vs Midjourney vs FLUX on Olares（永久免费）|
 
 ## 核心洞见
 

@@ -63,13 +63,26 @@
 
 ---
 
-## 优先行动清单
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 量 | KD | 内容方向 |
-|---|--------|----|----|---------|
-| 1 | self-hosted password manager | 70 | **10** | 落地页：Olares一键部署私有密码管理器 |
-| 2 | vaultwarden vs bitwarden | 320 | **14** | 对比文：差异在哪里，为何在Olares上部署 |
-| 3 | vaultwarden backup | 90 | **20** | 教程：Vaultwarden + Olares统一备份 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| vaultwarden docker | 320 | 32 | $0 | 信息 | 主词候选 | Olares vs Docker/群晖/NAS 部署 Vaultwarden，一键更简单 |
+| vaultwarden vs bitwarden | 320 | 14 | $0 | 信息 | 主词候选 | 差异对比 + 为何在 Olares 上部署 Vaultwarden 最省事 |
+| vaultwarden docker compose | 260 | 28 | $0 | 信息 | 次级 | compose 教程借力，导向 Olares 一键部署 |
+| vaultwarden/server | 210 | 36 | — | 信息 | 次级 | 部署词借力 |
+| vaultwarden password manager | 170 | 28 | — | 信息 | 次级 | 品牌 + 品类词 |
+| vaultwarden backup | 90 | 20 | $8.80 | 信息 | 主词候选 | Vaultwarden + Olares 统一备份（CPC 高）|
+| self-hosted password manager | 70 | 10 | $5.25 | 信息 | 主词候选 | Olares 一键部署私有密码管理器，数据自持（KD10 泛需求）|
+| vaultwarden chrome extension | 70 | 19 | — | 信息 | 次级 | 客户端接入借力 |
+| vaultwarden server | 50 | 31 | — | 信息 | 次级 | 部署词借力 |
+| vaultwarden alternative | 20 | 0 | $0 | 信息 | GEO | 近零量占位/直答 |
+| vaultwarden synology | 20 | 0 | $0 | 信息 | GEO | NAS 迁移占位，导向 Olares |
+| vaultwarden unraid | 20 | 0 | $0 | 信息 | GEO | NAS 迁移占位，导向 Olares |
+| vaultwarden install | 20 | 0 | $0 | 信息 | GEO | 进安装直答：Olares 一键部署 |
+| what is the best self-hosted password manager | — | — | — | 信息 | GEO | 进 FAQ/直答：Vaultwarden on Olares |
 
 ## 核心洞见
 

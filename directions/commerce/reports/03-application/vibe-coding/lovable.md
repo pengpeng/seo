@@ -283,20 +283,28 @@ Lovable 在**买超级大词**，导向程序化 `/guides/` 与 `/solutions/use-
 
 ---
 
-## 优先行动清单（Top 10）
+## Top 关键词（含角色判断）
 
-| # | 关键词 | 月量 | KD | 综合评分 | 一句话内容方向 |
-|---|--------|------|----|---------|--------------|
-| 1 | **bolt.diy** | 2,900 | 22 | ⭐⭐⭐ | 上架 bolt.diy 到 Olares Market + "在 Olares 上自托管 bolt.diy"教程 |
-| 2 | **opensource lovable** | 1,900 | 37 | ⭐⭐⭐ | "开源 Lovable 替代方案：在自己的服务器上 vibe coding" 落地页 |
-| 3 | **replit vs lovable** / lovable vs replit | 1,300+590 | 28-29 | ⭐⭐ | "Replit vs Lovable vs 开源自托管（Olares）"三方对比 |
-| 4 | **replit alternative** | 590 | 16 | ⭐⭐⭐ | 开源自托管 alternative 落地页 |
-| 5 | **lovable alternatives** / alternative | 480+170 | 17-18 | ⭐⭐⭐ | "5 个开源自托管 Lovable 替代品（可在 Olares 一键部署）" |
-| 6 | **cursor alternative** | 880 | 25 | ⭐⭐ | 本地 LLM + 自托管编码方案 |
-| 7 | **retool alternative / open source** | 50+70+30 | 2-14 | ⭐⭐ | KD 极低，开源内部工具（Appsmith/Budibase）对标页 |
-| 8 | **lovable vs bolt / vs cursor** | 480+480 | 17 | ⭐⭐ | 对比页矩阵，统一模板 |
-| 9 | **appsmith / budibase / tooljet** | 2,400+1,900+1,000 | 39-54 | ⭐⭐ | 每个开源工具一篇"在 Olares 上安装"教程 |
-| 10 | **ai saas builder** | 140 | 14 | ⭐ | KD=14 + CPC $12.77，商业意图强 |
+> 报告只对词下判断（角色）；聚成文章簇（可跨报告）在 seo-content 阶段做，见 [reference/keyword-selection-standard.md](/Users/pengpeng/seo/reference/keyword-selection-standard.md)。角色 = 主词候选 / 次级 / GEO。
+
+| 关键词 | 月量 | KD | CPC | 意图 | 角色 | 一句话判断（含 Olares 角度）|
+|--------|------|----|----|------|------|--------------------------|
+| ai app builder | 6,600 | 66 | $13.00 | 商业 | 次级 | 品类大词，导向开源自托管 AI app builder 清单 |
+| bolt new | 4,400 | 66 | $3.92 | 导航 | 次级 | 竞品 Bolt 品牌词，导向 bolt.diy on Olares |
+| vibe coding tools | 2,900 | 46 | $5.60 | 信息 | 主词候选 | 开源自托管 vibe coding 工具清单，本地私有 vibe coding |
+| bolt.diy | 2,900 | 22 | $3.67 | 信息 | 主词候选 | 上架 bolt.diy 到 Olares Market +「自托管 bolt.diy」教程，对标 Lovable（KD22）|
+| appsmith | 2,400 | 40 | $6.79 | 信息 | 主词候选 | 开源低代码/内部工具对标 Retool，每个应用一篇「在 Olares 上安装」|
+| v coding | 2,400 | 18 | $4.55 | 信息 | 次级 | 低 KD vibe coding 变体，借力 |
+| budibase | 1,900 | 39 | $8.17 | 信息 | 次级 | 开源低代码，Olares 应用 |
+| opensource lovable | 1,900 | 37 | $0.00 | 信息 | 主词候选 | 开源+自托管+拥有代码的 Lovable 替代，Olares 一键部署、本地 LLM 不烧 credits |
+| best vibe coding tools | 1,600 | 32 | $7.47 | 信息 | 次级 | 清单借力，开源自托管方向 |
+| replit vs lovable | 1,300 | 29 | $6.27 | 商业 | 主词候选 | Replit vs Lovable vs 开源自托管（Olares）三方对比 |
+| bolt diy | 1,000 | 25 | $3.53 | 信息 | 次级 | bolt.diy 变体，自托管教程 |
+| best ai app builder | 880 | 26 | $9.44 | 商业 | 主词候选 | best open-source self-hosted AI app builder 清单（Olares 部署）|
+| cursor alternative | 880 | 25 | $7.34 | 商业 | 主词候选 | 本地 LLM + 自托管编码方案对标 Cursor，统一 vs 对比矩阵 |
+| replit alternative | 590 | 16 | $5.83 | 导航 | 次级 | 低 KD 替代词，导向 Olares 自托管 |
+| lovable alternatives | 480 | 17 | $6.15 | 商业 | 次级 | 低 KD 替代词，开源自托管 Lovable |
+| self hosted app builder | 20 | 0 | $3.39 | 信息 | GEO | 近零量语义完美契合 Olares，GEO 占位 |
 
 ---
 
