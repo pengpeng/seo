@@ -54,40 +54,40 @@
 | IsaacLab | Unified framework for robot learning built on NVIDIA Isaac Sim | ✅ [报告](directions/market/reports/isaaclab.md) |
 | Langfuse | Open source LLM engineering platform | ✅ [报告](reports/langfuse.md) |
 | Leantime | Leantime is a goals focused project management system for non-project managers. | ✅ [报告](directions/market/reports/leantime.md) |
-| Listmonk | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard | ⬜ |
+| Listmonk | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard | ✅ [报告](directions/market/reports/listmonk.md) |
 | Mattermost | An open source platform for secure collaboration across the entire software development lifecycle. | ✅ [报告](reports/mattermost.md) |
-| MaxKB | Ready-to-use, flexible RAG Chatbot | ⬜ |
-| Medusa | The world's most flexible commerce platform. | ⬜ |
-| Memos | Effortlessly craft your impactful content. | ⬜ |
-| MTranServer | A high-performance offline translation server with minimal resource requirements | ⬜ |
+| MaxKB | Ready-to-use, flexible RAG Chatbot | ✅ [报告](directions/market/reports/maxkb.md) |
+| Medusa | The world's most flexible commerce platform. | ✅ [报告](directions/market/reports/medusa.md) |
+| Memos | Effortlessly craft your impactful content. | ✅ [报告](directions/market/reports/memos.md) |
+| MTranServer | A high-performance offline translation server with minimal resource requirements | ✅ [报告](directions/market/reports/mtranserver.md) |
 | n8n | n8n is an extendable workflow automation tool. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/n8n.md) |
 | Nextcloud | The productivity platform that keeps you in control | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/nextcloud.md) |
-| NocoBase | Extensibility-first, open-source, no-code platform | ⬜ |
+| NocoBase | Extensibility-first, open-source, no-code platform | ✅ [报告](directions/market/reports/nocobase.md) |
 | NocoDB | Open Source Airtable Alternative. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/nocodb.md) |
 | NOFX | Your personal AI trading assistant. Any market. Any model. | ⬜ |
-| Novel | Notion-style WYSIWYG editor with AI-powered autocompletion | ⬜ |
+| Novel | Notion-style WYSIWYG editor with AI-powered autocompletion | ✅ [报告](directions/market/reports/novel.md) |
 | Obsidian LiveSync | Obsidian sync server. | ✅ [报告](reports/obsidian-livesync.md) |
-| Odoo | All your business on one platform. | ⬜ |
+| Odoo | All your business on one platform. | ✅ [报告](directions/market/reports/odoo.md) |
 | OnlyOffice | Run your private office with the ONLYOFFICE | ✅ [报告](reports/onlyoffice.md) |
 | Open Notebook | A powerful open-source, AI-powered note-taking/research platform that respects your privacy | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/open-notebook.md) |
 | OpenClaw | Personal AI Assistant with Multi-channel Inbox Support | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/openclaw.md) |
 | Paperclip | Open-source orchestration platform for AI agent companies. | ⬜ |
-| PDFMathTranslate | PDF scientific paper translation with preserved formats. | ⬜ |
+| PDFMathTranslate | PDF scientific paper translation with preserved formats. | ✅ [报告](directions/market/reports/pdfmathtranslate.md) |
 | Plane | Open Source JIRA, Linear, Monday, and Asana Alternative | ✅ [报告](reports/plane.md) |
 | Qinglong | Timed Task Management Platform | ⬜ |
-| Radicale | Free and Open-Source CalDAV and CardDAV Server | ⬜ |
+| Radicale | Free and Open-Source CalDAV and CardDAV Server | ✅ [报告](directions/market/reports/radicale.md) |
 | RAGFlow | An open-source RAG engine based on deep document understanding. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/ragflow.md) |
-| Rallly | Open-source scheduling and collaboration tool designed to make organizing events and meetings easier | ⬜ |
-| Refly | The Open-Source Agentic Workspace for Human-AI Collaboration. | ⬜ |
+| Rallly | Open-source scheduling and collaboration tool designed to make organizing events and meetings easier | ✅ [报告](directions/market/reports/rallly.md) |
+| Refly | The Open-Source Agentic Workspace for Human-AI Collaboration. | ✅ [报告](directions/market/reports/refly.md) |
 | RNA Sequencing | An end-to-end GPU-powered workflow for scRNA-seq using RAPIDS | ⬜ |
 | SearXNG | Search without being tracked. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/searxng.md) |
-| SeaTable | SeaTable is a no-code database and app-building platform. | ⬜ |
+| SeaTable | SeaTable is a no-code database and app-building platform. | ✅ [报告](directions/market/reports/seatable.md) |
 | SimpleMindMap | A simple and powerful mind mapping library for the Web. | ⬜ |
 | solidtime | Modern open-source time-tracking app | ⬜ |
-| Stirling-PDF | A locally hosted one-stop shop for all your PDF needs. | ⬜ |
+| Stirling-PDF | A locally hosted one-stop shop for all your PDF needs. | ✅ [报告](directions/market/reports/stirling-pdf.md) |
 | Teable | The Next Gen Airtable Alternative: No-Code Postgres | ✅ [报告](reports/teable.md) |
 | TradingAgents | Multi-Agents LLM Financial Trading Framework | ⬜ |
-| Twenty | The #1 Open-Source CRM - A modern alternative to Salesforce | ⬜ |
+| Twenty | The #1 Open-Source CRM - A modern alternative to Salesforce | ✅ [报告](directions/market/reports/twenty.md) |
 | Vane | Vane (previously Perplexica) is an AI-powered answering engine. | ✅ [报告](reports/vane.md) |
 | Wise | Your Digital Secret Garden | ⬜ |
 
@@ -95,28 +95,28 @@
 
 | 应用 | 说明 | 报告 |
 |------|------|------|
-| Appsmith | Platform to build admin panels, internal tools, and dashboards | ⬜ |
+| Appsmith | Platform to build admin panels, internal tools, and dashboards | ✅ [报告](directions/market/reports/appsmith.md) |
 | AstrBot | Easy-to-use Multi-platform LLM Chatbot & Development Framework | ⬜ |
-| Bytebase | World's most advanced database DevOps and CI/CD for Developer, DBA and Platform Engineering teams. | ⬜ |
+| Bytebase | World's most advanced database DevOps and CI/CD for Developer, DBA and Platform Engineering teams. | ✅ [报告](directions/market/reports/bytebase.md) |
 | Claude Code | Anthropic's official agentic coding CLI that lives in your terminal | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/claude-code.md) |
-| Code Server | VS Code in the browser | ⬜ |
-| Coder | Self-Hosted Cloud Development Environments. | ⬜ |
+| Code Server | VS Code in the browser | ✅ [报告](directions/market/reports/code-server.md) |
+| Coder | Self-Hosted Cloud Development Environments. | ✅ [报告](directions/market/reports/coder.md) |
 | Codex CLI | OpenAI's lightweight coding agent that runs in your terminal | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/codex-cli.md) |
 | Context7 | Up-to-date code documentation for LLMs and AI code editors | ⬜ |
-| Crawl4AI | Open-source LLM Friendly Web Crawler & Scrape | ⬜ |
-| Directus | A composable data platform to build your Headless CMS, BaaS, and more. | ⬜ |
+| Crawl4AI | Open-source LLM Friendly Web Crawler & Scrape | ✅ [报告](directions/market/reports/crawl4ai.md) |
+| Directus | A composable data platform to build your Headless CMS, BaaS, and more. | ✅ [报告](directions/market/reports/directus.md) |
 | Falco | Cloud Native Runtime Security tool for detecting abnormal behavior. | ⬜ |
 | Gitea | Git with a cup of tea! | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/gitea.md) |
 | GitLab | A web-based Git repository management tool. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/gitlab.md) |
 | Hasura | Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events. | ⬜ |
-| Hoppscotch | Open source API development ecosystem. | ⬜ |
-| JupyterHub | Deploying JupyterHub on Olares | ⬜ |
+| Hoppscotch | Open source API development ecosystem. | ✅ [报告](directions/market/reports/hoppscotch.md) |
+| JupyterHub | Deploying JupyterHub on Olares | ✅ [报告](directions/market/reports/jupyterhub.md) |
 | LangBot | Production-grade platform for building agentic IM bots | ⬜ |
 | LLaMA Factory | Easily fine-tune 100+ large language models with zero-code CLI and Web UI | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/llama-factory.md) |
 | LLMFit | Web Dashboard for hardware-aware LLM recommendations | ⬜ |
-| Metabase | Business Intelligence and Embedded Analytics tool that lets everyone work with data | ⬜ |
+| Metabase | Business Intelligence and Embedded Analytics tool that lets everyone work with data | ✅ [报告](directions/market/reports/metabase.md) |
 | NemoClaw | NVIDIA NemoClaw - AI Coding Agent with Sandbox Isolation | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/nemoclaw.md) |
-| Netdata | High-performance, open-source observability platform | ⬜ |
+| Netdata | High-performance, open-source observability platform | ✅ [报告](directions/market/reports/netdata.md) |
 | OpenCode | The open source AI coding agent | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/opencode.md) |
 | redroid | Remote-Android, a multi-arch, GPU enabled, Android in Cloud solution. | ⬜ |
 | ShowDoc | A tool greatly applicable for an IT team to share documents online | ⬜ |
@@ -133,10 +133,10 @@
 | EchoMimic | 音频驱动的数字人 / 口型生成 | ⬜ |
 | FaceFusion | Industry leading face manipulation platform | ⬜ |
 | Ghost | Independent technology for modern publishing, memberships, subscriptions and newsletters. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/ghost.md) |
-| Halo | Powerful and easy-to-use open source website building tool | ⬜ |
+| Halo | Powerful and easy-to-use open source website building tool | ✅ [报告](directions/market/reports/halo.md) |
 | HeyGem | 本地数字人视频生成（HeyGen 平替） | ⬜ |
 | Hunyuan3D | 腾讯混元 3D 模型生成 | ⬜ |
-| Jaaz | AI design agent, local alternative for Lovart | ⬜ |
+| Jaaz | AI design agent, local alternative for Lovart | ✅ [报告](directions/market/reports/jaaz.md) |
 | Owncast | A free and open source live video and web chat server for use with existing popular broadcasting software. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/owncast.md) |
 | Penpot | Penpot is the web-based open-source design tool that bridges the gap between designers and developers. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/penpot.md) |
 | WeChat Markdown Editor | A minimalist Markdown editor for WeChat | ⬜ |
@@ -157,7 +157,7 @@
 | Komga | A media server for your comics, mangas, BDs, magazines and eBooks. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/komga.md) |
 | Lidarr | A music collection manager for Usenet and BitTorrent users | ⬜ |
 | Mastodon | Your self-hosted, globally interconnected microblogging community | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/mastodon.md) |
-| Miniflux | Miniflux is a minimalist and opinionated feed reader. | ⬜ |
+| Miniflux | Miniflux is a minimalist and opinionated feed reader. | ✅ [报告](directions/market/reports/miniflux.md) |
 | Navidrome | Your Personal Streaming Service | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/navidrome.md) |
 | Prowlarr | Integration of various PVR applications | ⬜ |
 | Radarr | A movie collection manager for Usenet and BitTorrent users. | ⬜ |
@@ -175,11 +175,11 @@
 | Home Assistant | Awaken your home | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/home-assistant.md) |
 | HomeBox | A continuation of HomeBox the inventory and organization system built for the Home User | ⬜ |
 | Immich | High performance self-hosted photo and video management solution. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/immich.md) |
-| Mealie | A Place For All Your Recipes | ⬜ |
+| Mealie | A Place For All Your Recipes | ✅ [报告](directions/market/reports/mealie.md) |
 | MiGPT | Connect your Xiaomi Smart Speaker to ChatGPT and Doubao, and turn it into your personal voice assistant. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/migpt.md) |
 | MiGPT-TTS | TTS module for MiGPT | ⬜ |
 | PhotoPrism | AI-Powered Photos App for the Decentralized Web | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/photoprism.md) |
-| Photoview | Photo gallery for self-hosted personal servers | ⬜ |
+| Photoview | Photo gallery for self-hosted personal servers | ✅ [报告](directions/market/reports/photoview.md) |
 | TREK | A self-hosted, real-time collaborative travel planner | ⬜ |
 
 ## 实用工具 / 网络 / 存储（34）
@@ -211,7 +211,7 @@
 | Nzbget | Efficient Usenet downloader. | ⬜ |
 | Open WebUI | User-friendly WebUI for LLMs | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/open-webui.md) |
 | PaddleOCR | Text Recognition & Doc Parsing Toolkit | ⬜ |
-| qBittorrent | Free BitTorrent downloader | ⬜ |
+| qBittorrent | Free BitTorrent downloader | ✅ [报告](directions/market/reports/qbittorrent.md) |
 | Rsshub | A extensible RSS feed generator | ⬜ |
 | Speaches | OpenAI-compatible TTS/STT server | ⬜ |
 | TensorZero | Open-source stack for industrial-grade LLM applications | ⬜ |
