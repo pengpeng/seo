@@ -17,14 +17,14 @@
 | 产品 / 平台 | 母公司 | 市场地位 / 事件 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
 | Alexa（Home 编排面） | Amazon | 6 亿+ 累计 Alexa 设备；控制平台使用率 40% 居首 | HA on Olares（唯一本地中枢） | ⬜ |
-| Google Home / Gemini for Home | Alphabet | 800M+ 连接设备；2025-10 全面 AI 化 | HA on Olares | ⬜ |
+| Google Home / Gemini for Home | Alphabet | 800M+ 连接设备；2025-10 全面 AI 化 | HA on Olares | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/01-systems/smart-home-systems/google-home.md) |
 | SmartThings | Samsung | 4.3 亿+ 注册用户（2025-12） | HA on Olares | ⬜ |
-| Apple Home / HomeKit | Apple | 无官方装机；第三方估美 2026 ~23.5%[u] | HA on Olares | ⬜ |
+| Apple Home / HomeKit | Apple | 无官方装机；第三方估美 2026 ~23.5%[u] | HA on Olares | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/01-systems/smart-home-systems/apple-home.md) |
 | Home Assistant | Open Home Foundation | 200 万+ 活跃家庭（本身即开源冠军） | **HA on Olares（自托管，双形态）** | ⬜ |
 | Hubitat | Hubitat | $150 级本地规则引擎、无订阅（prosumer 冠军） | HA on Olares | ⬜ |
 | Homey Pro | Athom（LG 2024 收 80%，~$61M[u]） | $399、50,000+ 设备、多协议 | HA on Olares | ⬜ |
-| SwitchBot | OneRobotics | 2025-12 港交所 IPO $210.7M；向平台 / API 延伸 | HA on Olares | ⬜ |
-| Aqara | 绿米联创 | 2026-03 递表港交所；海外占比 66.5%；估值推算 ~$526M | HA on Olares（Zigbee2MQTT） | ⬜ |
+| SwitchBot | OneRobotics | 2025-12 港交所 IPO $210.7M；向平台 / API 延伸 | HA on Olares | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/01-systems/smart-home-systems/switchbot.md) |
+| Aqara | 绿米联创 | 2026-03 递表港交所；海外占比 66.5%；估值推算 ~$526M | HA on Olares（Zigbee2MQTT） | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/01-systems/smart-home-systems/aqara.md) |
 
 > **细分冠军**：开源自托管=Home Assistant（+ 欧洲 KNX 备选 openHAB）；prosumer 本地中枢=Hubitat / Homey Pro；大厂云生态=Alexa（设备）/ Google Home（连接数）/ SmartThings（注册）/ Apple Home（隐私叙事）。**VC / 事件**：Homey→LG、SwitchBot IPO、Aqara IPO 递表。**争议**：谁"第一"取决于口径（设备出货 vs 连接设备 vs 注册用户），HA 是唯一可核实的"活跃自托管"冠军。HA 已有 [market 报告](/Users/pengpeng/seo/directions/market/reports)（302K 月流量基线）。
 
@@ -76,9 +76,9 @@
 | Ring | Amazon | 美国 / 全球口径连续 #1（门铃 halo + Alexa + 云订阅） | **Frigate + Reolink/ONVIF** | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/ring.md) |
 | Nest Cam | Alphabet | Google Home #2 | Frigate + PoE cam | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/google-nest-cam.md) |
 | EZVIZ | Hikvision | 全球含 APAC 2023 份额 > Ring 2 倍 | Frigate | ⬜ |
-| Arlo | Arlo（NYSE:ARLO） | FY2025 $529M、5.7M 付费账户、订阅毛利 ~84% | Frigate | ⬜ |
-| Wyze | Wyze | $30–40，累计融资 $146M、估值 ~$582M[u] | Frigate | ⬜ |
-| Eufy | Anker | HomeBase 本地 AI（隐私信誉受损） | Frigate | ⬜ |
+| Arlo | Arlo（NYSE:ARLO） | FY2025 $529M、5.7M 付费账户、订阅毛利 ~84% | Frigate | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/arlo.md) |
+| Wyze | Wyze | $30–40，累计融资 $146M、估值 ~$582M[u] | Frigate | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/wyze.md) |
+| Eufy | Anker | HomeBase 本地 AI（隐私信誉受损） | Frigate | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/eufy.md) |
 | Reolink | Reolink | PoE/电池/ONVIF/RTSP（Frigate 最常用源） | **Reolink → Frigate（本地无订阅）** | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/reolink.md) |
 | UniFi Protect | Ubiquiti（NYSE:UI） | 本地 NVR、无订阅、prosumer 冠军 | UniFi 本地 / Frigate | ⬜ |
 
@@ -89,7 +89,7 @@
 |------|------|---------|------------|------|
 | ADT | ADT（NYSE:ADT） | 610 万订户、FY2025 $51.29 亿（专业监控规模冠军） | HA + 传感器 + Frigate | ⬜ |
 | Vivint | NRG | ~190–200 万订户[u]，垂直整合 | HA + 传感器 | ⬜ |
-| SimpliSafe | SimpliSafe（GTCR） | 无合约标杆；2025-11 收购 EV >$25 亿 | HA + Z-Wave/Zigbee 传感器 | ⬜ |
+| SimpliSafe | SimpliSafe（GTCR） | 无合约标杆；2025-11 收购 EV >$25 亿 | HA + Z-Wave/Zigbee 传感器 | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/home-security/simplisafe.md) |
 | Ring Alarm | Amazon | 品牌认知 43%、DIY 新购 28% | HA + Frigate（自监控） | ⬜ |
 | Wyze Home Monitoring | Wyze | ~$10/月超值 | HA + 传感器 | ⬜ |
 | Cove | Cove | ~$17.99/月，含 cellular；累计 $11.6M | HA + 传感器 | ⬜ |
@@ -101,10 +101,10 @@
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
 | Schlage（Encode） | Allegion（NYSE:ALLE） | 北美零售领先 | HA + Z-Wave/Zigbee 本地控制 | ⬜ |
-| Yale / August | Fortune Brands（NYSE:FBIN） | 2023 从 ASSA ABLOY 购入（$800M） | HA + Matter | ⬜ |
+| Yale / August | Fortune Brands（NYSE:FBIN） | 2023 从 ASSA ABLOY 购入（$800M） | HA + Matter | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/locks-doorbells/yale-august.md) |
 | ASSA ABLOY / Level | ASSA ABLOY | 门锁全球收入 #1；2024 收 Level 补 Home Key | HA + Matter | ⬜ |
 | Aqara U100 / U200 | 绿米联创 | Matter/Apple Home Key 生态冠军 | HA + Matter | ⬜ |
-| Nuki | Nuki | 欧洲；Series B $23.5M（Allegion 战投） | HA + Matter | ⬜ |
+| Nuki | Nuki | 欧洲；Series B $23.5M（Allegion 战投） | HA + Matter | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/locks-doorbells/nuki.md) |
 | SwitchBot Lock / Ultraloq | OneRobotics / U-tec | retrofit 超值；SwitchBot 2025-12 IPO ~$206M | HA + 本地控制 | ⬜ |
 | Ring 门铃 | Amazon | 视频门铃全球 24–31%[u]、美国户内 ~40% | Aqara G410 → Frigate/HA | ⬜ |
 | Nest 门铃 | Alphabet | 视频门铃 #2 | Frigate + PoE 门铃 | ⬜ |

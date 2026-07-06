@@ -15,7 +15,7 @@
 |--------|-------------|-------------|------|
 | 综合法概览 | `what is GDPR`、`GDPR vs CCPA`、`PIPL explained`、`countries with data protection laws` | 数据主权叙事底图 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/01-regulation/gdpr-overview.md) |
 | 美国州法碎片化 | `US state privacy laws`、`CCPA/CPRA`、`22 state privacy laws` | 多法域合规复杂度 → 本地化简化 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/01-regulation/us-state-privacy-laws.md) |
-| 跨境传输 | `cross border data transfer GDPR`、`SCC alternative`、`EU US data transfer` | 本地部署不产生跨境传输 | ⬜ |
+| 跨境传输 | `cross border data transfer GDPR`、`SCC alternative`、`EU US data transfer` | 本地部署不产生跨境传输 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/01-regulation/cross-border-data-transfer.md) |
 | 数据本地化 | `data localization laws by country`、`data residency EU`、`keep data in your country` | 数据留在用户硬件/选定法域 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/01-regulation/data-localization.md) |
 | AI/Data Act 交叉 | `EU AI Act timeline`、`EU Data Act`、`AI Act compliance 2026` | 数据路径短、无第三方训练 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/01-regulation/eu-ai-act.md) |
 
@@ -30,8 +30,8 @@
 | SOC 2 / ISO 27001 | `SOC 2 vs ISO 27001`、`what is SOC 2`、`soc 2 self hosted` | 澄清责任模型（部署方自证） | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/02-certification/soc2-iso27001.md) |
 | HIPAA / PCI DSS | `hipaa compliant hosting`、`self hosted HIPAA`、`pci dss self hosted` | 自托管无 BAA 链、责任在用户 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/02-certification/hipaa-self-hosted.md) |
 | AI 治理认证 | `ISO 42001 certification`、`iso 42001 self hosted AI` | 本地 Agent + 可解释数据流 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/02-certification/iso-42001-ai.md) |
-| 政府/区域认证 | `FedRAMP vs IRAP`、`C5 cloud compliance Germany`、`Cyber Essentials` | 面向 CSP，个人云≠该路径 | ⬜ |
-| GDPR seal | `gdpr certification seal`、`europrise` | Art.42 自愿 seal | ⬜ |
+| 政府/区域认证 | `FedRAMP vs IRAP`、`C5 cloud compliance Germany`、`Cyber Essentials` | 面向 CSP，个人云≠该路径 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/02-certification/fedramp-irap.md) |
+| GDPR seal | `gdpr certification seal`、`europrise` | Art.42 自愿 seal | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/02-certification/gdpr-seal.md) |
 
 > **争议**：SaaS 营销 "SOC 2 = HIPAA compliant" 与官方"HIPAA 不可第三方认证"冲突。**诚实**：认证是组织/部署行为，非 OS 出厂属性。
 
@@ -42,11 +42,11 @@
 | 子方向 | 核心 SEO 词 | Olares 落点 | 报告 |
 |--------|-------------|-------------|------|
 | 超大规模泄露 | `biggest data breaches 2026`、`Change Healthcare breach` | 去集中化聚合 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/03-breaches/biggest-data-breaches.md) |
-| 数据经纪泄露 | `National Public Data breach`、`data broker opt out`、`freeze credit` | 拒绝 broker 式聚合 | ⬜ |
-| 勒索软件 | `ransomware statistics 2026`、`ransomware backup strategy` | 自托管离线备份 | ⬜ |
-| 供应链攻击 | `MOVEit breach`、`XZ Utils backdoor`、`supply chain attack` | 缩小第三方托管面（须诚实标残余风险） | ⬜ |
-| 云误配 | `S3 bucket data leak`、`cloud misconfiguration` | 默认不公开 + 本地存储 | ⬜ |
-| AI/IoT 事件 | `ChatGPT data leak`、`Ring hacked` | 本地推理 + 本地 NVR | ⬜ |
+| 数据经纪泄露 | `National Public Data breach`、`data broker opt out`、`freeze credit` | 拒绝 broker 式聚合 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/03-breaches/data-broker-breach.md) |
+| 勒索软件 | `ransomware statistics 2026`、`ransomware backup strategy` | 自托管离线备份 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/03-breaches/ransomware-backup.md) |
+| 供应链攻击 | `MOVEit breach`、`XZ Utils backdoor`、`supply chain attack` | 缩小第三方托管面（须诚实标残余风险） | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/03-breaches/supply-chain-attack.md) |
+| 云误配 | `S3 bucket data leak`、`cloud misconfiguration` | 默认不公开 + 本地存储 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/03-breaches/cloud-misconfiguration.md) |
+| AI/IoT 事件 | `ChatGPT data leak`、`Ring hacked` | 本地推理 + 本地 NVR | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/03-breaches/ai-iot-breach.md) |
 
 > **争议**：泄露规模口径混用；勒索"攻击↑支付↓"背离；IoT 被黑 vs 厂商否认。
 
@@ -57,8 +57,8 @@
 | 子方向 | 核心 SEO 词 | Olares 落点 | 报告 |
 |--------|-------------|-------------|------|
 | 训练合法性/执法 | `is ChatGPT GDPR compliant`、`OpenAI GDPR fine`、`AI training legal basis EU` | 无第三方训练管线 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/04-ai-privacy/chatgpt-gdpr-training.md) |
-| 记忆化/泄露 | `LLM memorization`、`training data extraction`、`AI training data privacy` | 自托管权重 + 仅 RAG 自有文档 | ⬜ |
-| 聊天机器人 opt-out | `ChatGPT training data opt out`、`Gemini privacy settings`、`Copilot opt out` | 本地 Agent 无对话上传训练 | ⬜ |
+| 记忆化/泄露 | `LLM memorization`、`training data extraction`、`AI training data privacy` | 自托管权重 + 仅 RAG 自有文档 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/04-ai-privacy/llm-memorization.md) |
+| 聊天机器人 opt-out | `ChatGPT training data opt out`、`Gemini privacy settings`、`Copilot opt out` | 本地 Agent 无对话上传训练 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/04-ai-privacy/chatbot-opt-out.md) |
 | 端侧 vs 云 | `local LLM vs cloud AI privacy`、`on device AI privacy`、`Ollama privacy` | Ollama/vLLM on Olares | ⬜ |
 | AI Act 透明度 | `EU AI Act chatbot disclosure`、`deepfake labeling` | 自部署 chatbot 数据路径更短 | ⬜ |
 
