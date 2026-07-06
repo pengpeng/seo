@@ -7,11 +7,11 @@
 ## 0. 内容 brief 模板（Step 2 产出）
 
 ```markdown
-# Brief: <目标词>
+# Brief: <簇主词>
 
 - 文体: alternative | versus | listicle
-- 主词: <target keyword>（月量 / KD / CPC，引自来源报告）
-- 次级词: <同族/相关词，逗号分隔>
+- 主词: <簇主词>（月量 / KD / CPC，引自来源报告的 Top 关键词簇）
+- 次级词: <该簇的次级词 + 问题词，逗号分隔>
 - 搜索意图: <信息 / 商业 · 一句话>
 - 来源报告: directions/<cat>/reports/<x>.md
 - 挂载场景: scenarios.md 场景 <n>
