@@ -49,7 +49,7 @@
 ### 3. 语音中枢 / 语音助手 — 调研 ✅ [voice-hub](/Users/pengpeng/seo/directions/iot/research/02-hardware/voice-hub.md)
 | 产品 / 平台 | 母公司 | 市场地位 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
-| Alexa / Alexa+（Echo） | Amazon | 6 亿+ Alexa 设备；Alexa+ $19.99/月、Prime 捆绑 | HA Voice PE + Assist | ⬜ |
+| Alexa / Alexa+（Echo） | Amazon | 6 亿+ Alexa 设备；Alexa+ $19.99/月、Prime 捆绑 | HA Voice PE + Assist | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/voice-hub/alexa-echo.md) |
 | Gemini for Home（Nest） | Alphabet | 2025-10 不可逆替换 Assistant；Premium $10/月 | HA Voice PE + Assist | ⬜ |
 | Siri（HomePod） | Apple | 主战场 iPhone/Watch；传与 Gemini 合作 | HA Voice PE + Ollama | ⬜ |
 | Bixby / SmartThings | Samsung | 随 Galaxy / 家电分发 | HA Voice PE | ⬜ |
@@ -63,7 +63,7 @@
 | Echo Dot（入门量王） | Amazon | Alexa 生态份额 36.12%（2025）；<$50 主力 | Music Assistant + Snapcast | ⬜ |
 | Nest Audio | Alphabet | $100 内音质向 | Music Assistant + Snapcast | ⬜ |
 | HomePod / mini | Apple | premium 单箱 + 多房间（Apple TV） | Music Assistant | ⬜ |
-| Sonos | Sonos | FY2025 $14.43 亿、1700 万+ 家庭（premium/多房间冠军） | **Music Assistant + Snapcast + Squeezelite** | ⬜ |
+| Sonos | Sonos | FY2025 $14.43 亿、1700 万+ 家庭（premium/多房间冠军） | **Music Assistant + Snapcast + Squeezelite** | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/smart-speakers/sonos.md) |
 | JBL / Bose / UE | Samsung(Harman) / Bose / Logitech | 便携蓝牙梯队（JBL ~17.8% 收入） | 普通音箱串流 | ⬜ |
 | Bluesound | Lenbrook | 发烧 hi-fi 无线流媒体（BluOS） | Music Assistant | ⬜ |
 | Nothing / CMF | Nothing | 2025-09 Series C $2 亿 @ $13 亿；设计向大众硬件 | — | ⬜ |
@@ -73,13 +73,13 @@
 ### 5. 家用摄像头 — 调研 ✅ [cameras](/Users/pengpeng/seo/directions/iot/research/02-hardware/cameras.md)
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
-| Ring | Amazon | 美国 / 全球口径连续 #1（门铃 halo + Alexa + 云订阅） | **Frigate + Reolink/ONVIF** | ⬜ |
-| Nest Cam | Alphabet | Google Home #2 | Frigate + PoE cam | ⬜ |
+| Ring | Amazon | 美国 / 全球口径连续 #1（门铃 halo + Alexa + 云订阅） | **Frigate + Reolink/ONVIF** | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/ring.md) |
+| Nest Cam | Alphabet | Google Home #2 | Frigate + PoE cam | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/google-nest-cam.md) |
 | EZVIZ | Hikvision | 全球含 APAC 2023 份额 > Ring 2 倍 | Frigate | ⬜ |
 | Arlo | Arlo（NYSE:ARLO） | FY2025 $529M、5.7M 付费账户、订阅毛利 ~84% | Frigate | ⬜ |
 | Wyze | Wyze | $30–40，累计融资 $146M、估值 ~$582M[u] | Frigate | ⬜ |
 | Eufy | Anker | HomeBase 本地 AI（隐私信誉受损） | Frigate | ⬜ |
-| Reolink | Reolink | PoE/电池/ONVIF/RTSP（Frigate 最常用源） | **Reolink → Frigate（本地无订阅）** | ⬜ |
+| Reolink | Reolink | PoE/电池/ONVIF/RTSP（Frigate 最常用源） | **Reolink → Frigate（本地无订阅）** | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/reolink.md) |
 | UniFi Protect | Ubiquiti（NYSE:UI） | 本地 NVR、无订阅、prosumer 冠军 | UniFi 本地 / Frigate | ⬜ |
 
 > **细分冠军**：云订阅生态=Ring / Nest；超值=Wyze / Tapo；本地 RTSP 无订阅=Reolink；prosumer 零订阅=UniFi Protect；**自托管 NVR 软件栈=Frigate**（~34k stars，内置 go2rtc，深度 HA 集成）。**VC 趋势**：不投新硬件摄像头，转投"摄像头之上的 AI 层"（B2B 软件如 Plumerai/Lumana/Coram，非本清单目标）。**风险**：执法级事件集中于此（Ring FTC $5.8M、Eufy 上传 AWS + NY AG $450K、Wyze 串号）。**Olares 落点极强**，Frigate 已有 [market 报告](/Users/pengpeng/seo/directions/market/reports)。核心机会词 `security camera without subscription`、`frigate nvr`、`ring alternative`。
@@ -115,7 +115,7 @@
 ### 8. AI 录音硬件 / ambient 记忆 — 调研 ✅ [ai-recorders](/Users/pengpeng/seo/directions/iot/research/02-hardware/ai-recorders.md)
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
-| Plaud（品类唯一独立冠军） | Plaud | 2M+ 出货、软件 ARR $100M+、整体年化 ~$250M[u]，融资仅 ~$5M | **OpenClaw + Whisper + Ollama** | ⬜ |
+| Plaud（品类唯一独立冠军） | Plaud | 2M+ 出货、软件 ARR $100M+、整体年化 ~$250M[u]，融资仅 ~$5M | **OpenClaw + Whisper + Ollama** | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/ai-recorders/plaud.md) |
 
 > **格局**：独立 AI 录音硬件创业窗口正在关闭——Limitless→Meta、Bee→Amazon、Humane 关停（设备 brick），唯 **Plaud** 以极端资本效率跑通规模化，成为品类唯一值得对标的独立硬件品牌。软件会议记录（Granola/Otter/Fireflies）属软件、归 [commerce](/Users/pengpeng/seo/directions/commerce/products.md)，不在此重复。**Olares 落点极强且差异化**：ambient 记忆 = Personal Agent 核心用例（OpenClaw + 本地 Whisper/Ollama，数据不出 Olares）。**风险**：全天录音 + 旁人未同意（one-party vs all-party 法冲突）。核心机会词 `plaud alternative`、`self hosted meeting transcription`、`meeting transcription without bot`。
 
@@ -125,7 +125,7 @@
 | Apple Watch | Apple | 智能手表全球 #1（Q1 2026 出货 23%） | Gadgetbridge（不支持 Apple Watch） | ⬜ |
 | 小米手环 | 小米 | wearable band 年度口径全球第一（18%），全球在售 | **Gadgetbridge（BLE→本地）** | ⬜ |
 | Garmin | Garmin（NASDAQ:GRMN） | 运动 GPS 冠军，FY2025 $7.25B | Gadgetbridge / OpenTracks | ⬜ |
-| Oura | Oura | 智能环出货 ~74%、估值 **$11B**、2026-05 机密 IPO | — | ⬜ |
+| Oura | Oura | 智能环出货 ~74%、估值 **$11B**、2026-05 机密 IPO | — | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/wearables/oura.md) |
 | Whoop | Whoop | 恢复订阅冠军、估值 **$10.1B** | — | ⬜ |
 | Ultrahuman | Ultrahuman | 智能环挑战者；Series C ~$48M[u]；Ring + CGM | Gadgetbridge / Nightscout | ⬜ |
 | Fitbit（Air） | Alphabet | 并入 Google Health | Gadgetbridge | ⬜ |
@@ -137,7 +137,7 @@
 ### 10. 智能照明 — 调研 ✅ [smart-lighting](/Users/pengpeng/seo/directions/iot/research/02-hardware/smart-lighting.md)
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
-| Philips Hue / WiZ | Signify（AMS:LIGHT） | 生态冠军；集团 FY2025 €57.65 亿、联网灯点 1.67 亿、控制口径 ~13.7%[u] | HA + Hue Bridge 本地 API v2 / ZHA / Zigbee2MQTT | ⬜ |
+| Philips Hue / WiZ | Signify（AMS:LIGHT） | 生态冠军；集团 FY2025 €57.65 亿、联网灯点 1.67 亿、控制口径 ~13.7%[u] | HA + Hue Bridge 本地 API v2 / ZHA / Zigbee2MQTT | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/smart-lighting/philips-hue.md) |
 | LIFX | Feit Electric | 无桥 Wi-Fi 高端、原生 LAN protocol（2022 被 Feit 收购） | HA 直连 LAN | ⬜ |
 | Nanoleaf | OneRobotics（SwitchBot 母公司） | 模块灯板；2026-05 ~$40.3M 被收购、FY2025 $30.9M | ESPHome / WLED（像素灯带） | ⬜ |
 | Govee | Govee（Shenzhen Intellirocks） | RGBIC/灯带 Amazon 走量；cloud-first，多型号仅云 | `govee_light_local`（基础）或换板刷 WLED | ⬜ |
@@ -186,7 +186,7 @@
 ### 14. 扫地机器人 — 调研 ✅ [robot-vacuums](/Users/pengpeng/seo/directions/iot/research/02-hardware/robot-vacuums.md)
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
-| Roborock | Roborock（688169.SH） | RVC 出货连续全球 #1；FY 营收 186.95 亿 +56.51% | **Valetudo（root 去云，地图留本地）** | ⬜ |
+| Roborock | Roborock（688169.SH） | RVC 出货连续全球 #1；FY 营收 186.95 亿 +56.51% | **Valetudo（root 去云，地图留本地）** | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/robot-vacuums/roborock.md) |
 | Dreame | Dreame | 收入口径领先；拟港股 IPO 估值 ~$9.6B[u] | Valetudo（部分型号）/ 选无摄像头型号 | ⬜ |
 | Ecovacs | Ecovacs（603486.SH） | 全球前五；**蓝牙劫持开摄像头/麦克风 + CVE-2024-52327** | 选无摄像头型号；HA MQTT + 防火墙断网 | ⬜ |
 | iRobot Roomba | iRobot（2026-01 Chapter 11 归 Picea） | 曾龙头、已跌出前五；2020 测试图经 Scale AI 泄露 | Valetudo（老型号） | ⬜ |
@@ -277,7 +277,7 @@
 ### 22. 智能眼镜 / 第一视角 — 调研 ✅ [smart-glasses](/Users/pengpeng/seo/directions/iot/research/02-hardware/smart-glasses.md)
 | 产品 / 平台 | 母公司 | 市场地位 / 融资 | Olares 平替（开源） | 报告 |
 |------|------|---------|------------|------|
-| Ray-Ban Meta | Meta（× EssilorLuxottica） | 2025 售 7M+、**IDC Q1 2026 份额 69.2%**；「Hey Meta」默认存云 1 年、2025-04 取消 opt-out | 无完整平替；记忆侧 OpenClaw + Whisper | ⬜ |
+| Ray-Ban Meta | Meta（× EssilorLuxottica） | 2025 售 7M+、**IDC Q1 2026 份额 69.2%**；「Hey Meta」默认存云 1 年、2025-04 取消 opt-out | 无完整平替；记忆侧 OpenClaw + Whisper | ✅ [报告](/Users/pengpeng/seo/directions/iot/reports/02-hardware/smart-glasses/ray-ban-meta.md) |
 | Amazon Echo Frames | Amazon | 音频眼镜 | 无完整平替 | ⬜ |
 | Snap Spectacles / SPECS | Snap | AR 第一视角 | 无完整平替 | ⬜ |
 | Xreal（Aura 等） | Xreal | AR 显示路线 | 无完整平替 | ⬜ |

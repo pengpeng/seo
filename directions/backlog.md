@@ -9,14 +9,14 @@
 
 | 方向 | 清单登记 | 已做 | 待做 | 类型 | 待做记号 |
 |------|---------|------|------|------|---------|
-| [market](/Users/pengpeng/seo/directions/market/apps.md) | 175 | 50 | **125** | brand-seo | ⬜ |
-| [commerce](/Users/pengpeng/seo/directions/commerce/products.md) | ~235 | 42 | **~193** | brand-seo | ⬜ |
+| [market](/Users/pengpeng/seo/directions/market/apps.md) | 175 | 64 | **111** | brand-seo | ⬜ |
+| [commerce](/Users/pengpeng/seo/directions/commerce/products.md) | ~235 | 52 | **~183** | brand-seo | ⬜ |
 | [hardware](/Users/pengpeng/seo/directions/hardware/devices.md) | 83 行（~57 唯一产品） | **48 唯一报告（82 行标 ✅，多 SKU 共享）** | **1 行（Mac mini M5，未发布）** | brand-seo | 🟢 基本完成 |
 | [tech](/Users/pengpeng/seo/directions/tech/tech-stack.md) | 136 | 2 | **134** | brand-seo | ⬜（报告列；Olares 状态列另计） |
 | [iot](/Users/pengpeng/seo/directions/iot/iot.md) | 134 | 0 | **134** | brand-seo | ⬜（22 品类 deep-research 已就位） |
 | [privacy/services](/Users/pengpeng/seo/directions/privacy/services.md) | 10 | 10 | **0** | brand-seo | — |
 | [privacy/landscape](/Users/pengpeng/seo/directions/privacy/landscape.md) | ~39 子方向 | 0 | **~39** | topic-seo | ⬜ |
-| **合计（brand/topic-seo）** | | **~152** | **~626** | | |
+| **合计（brand/topic-seo）** | | **~178** | **~596** | | |
 | [model](/Users/pengpeng/seo/directions/model/models.md) | 72 family | 0 | **72** | model-seo | ⬜ |
 
 **口径说明**：
@@ -42,13 +42,13 @@
 | Mattermost | 场景 6 Workspace；`mattermost alternative` KD≈10 | mattermost |
 | AFFiNE | `notion alternative` 880/mo；Notion/Miro 平替 | affine |
 | Plane | JIRA/Linear/Asana 替代入口 | plane |
-| LocalAI | OpenAI/Claude 本地替代叙事 | localai |
+| ~~LocalAI~~ | ~~OpenAI/Claude 本地替代叙事~~ | ~~localai~~ |
 | Obsidian LiveSync | `obsidian self hosted sync` 70/mo | obsidian-livesync |
 | OnlyOffice | 与已有 Nextcloud 报告联动 | onlyoffice |
-| Xinference | 引擎组唯一缺口（Ollama/vLLM/SGLang/llama.cpp 已完） | xinference |
+| ~~Xinference~~ | ~~引擎组唯一缺口（Ollama/vLLM/SGLang/llama.cpp 已完）~~ | ~~xinference~~ |
 | FastGPT | 补 RAG 平台矩阵（Dify/Flowise/RAGFlow 已完） | fastgpt |
-| Langfuse | LLM 工程/观测，补 Agent 栈 | langfuse |
-| Uptime Kuma | 经典 self-hosted 监控，易出 alternative 词 | uptime-kuma |
+| ~~Langfuse~~ | ~~LLM 工程/观测，补 Agent 栈~~ | ~~langfuse~~ |
+| ~~Uptime Kuma~~ | ~~经典 self-hosted 监控，易出 alternative 词~~ | ~~uptime-kuma~~ |
 | Teable | `airtable alternative self hosted`（NocoDB 已完） | teable |
 | FreshRSS | 轻量 self-hosted RSS，KD 友好 | freshrss |
 
@@ -57,13 +57,13 @@
 | 目标 | 机会信号 | 细类 |
 |------|---------|------|
 | Google Gemini | 对标 OpenAI/Anthropic 已 ✅，最大缺口 | #1 前沿实验室 |
-| Claude Code | 高热度编码 Agent（注意与 market/claude-code 去重） | #21 编码 Agent |
-| Manus | DeerFlow/OpenClaw 叙事核心 | #27 通用 Agent |
-| Genspark | OpenClaw 商业对标 | #28 Personal AI |
-| n8n（云版） | Zapier 已 ✅；自托管双形态 | #26 自动化 |
+| ~~Claude Code~~ | ~~高热度编码 Agent（注意与 market/claude-code 去重）~~ | ~~#21 编码 Agent~~ |
+| ~~Manus~~ | ~~DeerFlow/OpenClaw 叙事核心~~ | ~~#27 通用 Agent~~ |
+| ~~Genspark~~ | ~~OpenClaw 商业对标~~ ✅ → [genspark.md](/Users/pengpeng/seo/directions/commerce/reports/03-application/personal-ai/genspark.md) | ~~#28 Personal AI~~ |
+| ~~n8n（云版）~~ | ~~Zapier 已 ✅；自托管双形态~~ ✅ → [n8n-cloud.md](/Users/pengpeng/seo/directions/commerce/reports/03-application/automation/n8n-cloud.md) | #26 自动化 |
 | Supabase | 强自托管叙事 | #25 BaaS |
-| Fireflies.ai | Whisper 栈（Otter 已 ✅） | #15 会议转录 |
-| Sora | Wan 平替；Runway 等已 ✅ | #8 视频 |
+| ~~Fireflies.ai~~ | Whisper 栈（Otter 已 ✅） | #15 会议转录 |
+| ~~Sora~~ | ~~Wan 平替；Runway 等已 ✅~~ ✅ → [sora.md](/Users/pengpeng/seo/directions/commerce/reports/02-creation/video/sora.md) | ~~#8 视频~~ |
 | Bolt.new | Lovable 已 ✅，补对比词 | #22 vibe coding |
 | Adobe Firefly | ComfyUI 平替链 | #7 图像 |
 
@@ -84,10 +84,10 @@
 
 ### P1 — research 就绪（deep-research 已筛词，Semrush 成本低）
 
-**iot**（预期落 `iot/reports/<细类>/<slug>.md`）：Ring · Plaud · Sonos · Oura · Reolink · Alexa(Echo) · Philips Hue · Roborock · Google Nest Cam · Ray-Ban Meta
+**iot**（预期落 `iot/reports/<细类>/<slug>.md`）：Ring · ~~Plaud~~ ✅ → [plaud.md](/Users/pengpeng/seo/directions/iot/reports/02-hardware/ai-recorders/plaud.md) · ~~Sonos~~ · ~~Oura~~ · Reolink · ~~Alexa(Echo)~~ · Philips Hue · Roborock · ~~Google Nest Cam~~ ✅ → [google-nest-cam.md](/Users/pengpeng/seo/directions/iot/reports/02-hardware/cameras/google-nest-cam.md) · Ray-Ban Meta
 > 核心词方向：`ring alternative`（无订阅摄像头）、`plaud alternative`（Personal Agent）、`oura ring alternative`、`philips hue without account`、`valetudo`（去云）、`ray-ban meta alternative`（第一视角隐私）。iot 品牌报告与 market（Frigate/HA）已有报告去重。
 
-**privacy/landscape**（topic-seo，预期落 `privacy/reports/<分类>/<slug>.md`）：data sovereignty · own your data · data localization · ChatGPT training data opt out · degoogle · gdpr compliant ai
+**privacy/landscape**（topic-seo，预期落 `privacy/reports/<分类>/<slug>.md`）：data sovereignty · own your data · ~~data localization~~ · ChatGPT training data opt out · degoogle · gdpr compliant ai
 > 与 privacy/services.md 的品牌报告互补：services 走产品 brand-seo，landscape 借合规/事件/概念热度做话题内容。
 
 ### P2 — 明星大词（高量难词，权威内容，按方向池化）

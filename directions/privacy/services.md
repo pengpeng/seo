@@ -42,6 +42,13 @@
 | 产品 | 场景 | Olares 平替角度 | 报告 |
 |------|------|----------------|------|
 | gdpr.eu / OneTrust / Termly / Iubenda | GDPR 合规 / 数据隐私 | 数据主权/私有部署满足合规（企业向，见 [场景 8](/Users/pengpeng/seo/scenarios/scenarios.md)） | ✅ [gdpr](/Users/pengpeng/seo/directions/privacy/reports/gdpr.md) |
+| HIPAA 合规 + 自托管 / 医疗数据隐私 | 美国医疗 PHI 合规，AI Scribe / 本地 LLM 无 BAA 路径 | Olares + Ollama + Whisper = PHI 不出设备，消灭 BAA 链 | ✅ [hipaa-self-hosted](/Users/pengpeng/seo/directions/privacy/reports/02-certification/hipaa-self-hosted.md) |
+
+### AI 训练数据隐私 / Opt-Out
+
+| 话题 | 场景 | Olares 落点 | 报告 |
+|------|------|------------|------|
+| ChatGPT / AI 聊天机器人训练数据隐私 | ChatGPT 默认对话训练、GDPR 合规担忧、用户 opt-out 诉求 | 本地 Ollama + Open WebUI on Olares = 对话不进训练管线，零 opt-out 需求 | ✅ [chatgpt-gdpr-training](/Users/pengpeng/seo/directions/privacy/reports/04-ai-privacy/chatgpt-gdpr-training.md) |
 
 ### 需求 / 关键词总览
 
