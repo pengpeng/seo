@@ -59,8 +59,8 @@
 | 训练合法性/执法 | `is ChatGPT GDPR compliant`、`OpenAI GDPR fine`、`AI training legal basis EU` | 无第三方训练管线 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/04-ai-privacy/chatgpt-gdpr-training.md) |
 | 记忆化/泄露 | `LLM memorization`、`training data extraction`、`AI training data privacy` | 自托管权重 + 仅 RAG 自有文档 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/04-ai-privacy/llm-memorization.md) |
 | 聊天机器人 opt-out | `ChatGPT training data opt out`、`Gemini privacy settings`、`Copilot opt out` | 本地 Agent 无对话上传训练 | ✅ [报告](/Users/pengpeng/seo/directions/privacy/reports/04-ai-privacy/chatbot-opt-out.md) |
-| 端侧 vs 云 | `local LLM vs cloud AI privacy`、`on device AI privacy`、`Ollama privacy` | Ollama/vLLM on Olares | ⬜ |
-| AI Act 透明度 | `EU AI Act chatbot disclosure`、`deepfake labeling` | 自部署 chatbot 数据路径更短 | ⬜ |
+| 端侧 vs 云 | `local LLM vs cloud AI privacy`、`on device AI privacy`、`Ollama privacy` | Ollama/vLLM on Olares | ✅ [报告](directions/privacy/reports/local-vs-cloud.md) |
+| AI Act 透明度 | `EU AI Act chatbot disclosure`、`deepfake labeling` | 自部署 chatbot 数据路径更短 | ✅ [报告](directions/privacy/reports/ai-act-transparency.md) |
 
 > **争议**：本地更隐私 vs 本地非零风险；监管已允许训练 vs 执法真空。**诚实**：不宣称本地全面碾压云。
 

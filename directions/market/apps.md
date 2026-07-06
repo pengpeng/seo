@@ -20,40 +20,40 @@
 
 | 应用 | 说明 | 报告 |
 |------|------|------|
-| DeepSeek-OCR2 WebUI V3 | Ready-to-use DeepSeek-OCR-2 Web UI | ⬜ |
-| Fish Speech | SOTA Open Source TTS | ⬜ |
-| KoboldCpp | 本地 LLM 推理与角色扮演前端 | ⬜ |
-| OpenedAI Speech | An OpenAI API compatible text to speech server using Coqui AI and/or piper TTS as the backend. | ⬜ |
-| Rembg | Rembg is a tool to remove images background | ⬜ |
-| Whisper API | FastAPI service on top of WhisperX | ⬜ |
-| Whisper-WebUI | A Web UI for easy subtitle using whisper model. | ⬜ |
+| DeepSeek-OCR2 WebUI V3 | Ready-to-use DeepSeek-OCR-2 Web UI | ✅ [报告](directions/market/reports/deepseek-ocr2-webui.md) |
+| Fish Speech | SOTA Open Source TTS | ✅ [报告](directions/market/reports/fish-speech.md) |
+| KoboldCpp | 本地 LLM 推理与角色扮演前端 | ✅ [报告](directions/market/reports/koboldcpp.md) |
+| OpenedAI Speech | An OpenAI API compatible text to speech server using Coqui AI and/or piper TTS as the backend. | ✅ [报告](directions/market/reports/openedai-speech.md) |
+| Rembg | Rembg is a tool to remove images background | ✅ [报告](directions/market/reports/rembg.md) |
+| Whisper API | FastAPI service on top of WhisperX | ✅ [报告](directions/market/reports/whisper-api.md) |
+| Whisper-WebUI | A Web UI for easy subtitle using whisper model. | ✅ [报告](directions/market/reports/whisper-webui.md) |
 
 ## 生产力 / 协作（58）
 
 | 应用 | 说明 | 报告 |
 |------|------|------|
 | AFFiNE | Open-source alternative for Notion, Miro and Airtable. | ✅ [报告](reports/affine.md) |
-| Agent Zero | Agentic AI Framework | ⬜ |
-| AI Router | AI Router | ⬜ |
-| Answer | A Q&A platform software for teams at any scales. | ⬜ |
-| BISHENG | Open LLM devops platform for next generation Enterprise AI applications | ⬜ |
-| Blinko | An open-source, self-hosted personal AI note tool prioritizing privacy | ⬜ |
-| Cloudreve | Self-hosted file management system with muilt-cloud support. | ⬜ |
+| Agent Zero | Agentic AI Framework | ✅ [报告](directions/market/reports/agent-zero.md) |
+| AI Router | AI Router | ✅ [报告](directions/market/reports/ai-router.md) |
+| Answer | A Q&A platform software for teams at any scales. | ✅ [报告](directions/market/reports/answer.md) |
+| BISHENG | Open LLM devops platform for next generation Enterprise AI applications | ✅ [报告](directions/market/reports/bisheng.md) |
+| Blinko | An open-source, self-hosted personal AI note tool prioritizing privacy | ✅ [报告](directions/market/reports/blinko.md) |
+| Cloudreve | Self-hosted file management system with muilt-cloud support. | ✅ [报告](directions/market/reports/cloudreve.md) |
 | DeerFlow 2.0 | DeerFlow 2.0 is an open-source super agent harness for deep research. | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/deerflow.md) |
 | Dify | The Innovation Engine for GenAI Applications | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/dify.md) |
-| Docmost | Open-source collaborative wiki and documentation software. | ⬜ |
-| Documenso | The Open Source DocuSign Alternative. | ⬜ |
+| Docmost | Open-source collaborative wiki and documentation software. | ✅ [报告](directions/market/reports/docmost.md) |
+| Documenso | The Open Source DocuSign Alternative. | ✅ [报告](directions/market/reports/documenso.md) |
 | Excalidraw | Virtual whiteboard for sketching hand-drawn like diagrams | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/excalidraw.md) |
 | FastGPT | A knowledge-based platform built on the LLMs | ✅ [报告](reports/fastgpt.md) |
 | Flowise | Drag & drop UI to build your customized LLM flow | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/flowise.md) |
-| Formbricks | Open Source Qualtrics Alternative | ⬜ |
-| Freqtrade | Free, open source crypto trading bot | ⬜ |
+| Formbricks | Open Source Qualtrics Alternative | ✅ [报告](directions/market/reports/formbricks.md) |
+| Freqtrade | Free, open source crypto trading bot | ✅ [报告](directions/market/reports/freqtrade.md) |
 | FreshRSS | A free, self-hostable feed aggregator. | ✅ [报告](reports/freshrss.md) |
-| Grafana | Grafana is a multi-platform open source analytics and interactive visualization web application. | ⬜ |
+| Grafana | Grafana is a multi-platform open source analytics and interactive visualization web application. | ✅ [报告](directions/market/reports/grafana.md) |
 | Hermes Agent | The agent that grows with you | ✅ [报告](/Users/pengpeng/seo/directions/market/reports/hermes-agent.md) |
-| IsaacLab | Unified framework for robot learning built on NVIDIA Isaac Sim | ⬜ |
+| IsaacLab | Unified framework for robot learning built on NVIDIA Isaac Sim | ✅ [报告](directions/market/reports/isaaclab.md) |
 | Langfuse | Open source LLM engineering platform | ✅ [报告](reports/langfuse.md) |
-| Leantime | Leantime is a goals focused project management system for non-project managers. | ⬜ |
+| Leantime | Leantime is a goals focused project management system for non-project managers. | ✅ [报告](directions/market/reports/leantime.md) |
 | Listmonk | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard | ⬜ |
 | Mattermost | An open source platform for secure collaboration across the entire software development lifecycle. | ✅ [报告](reports/mattermost.md) |
 | MaxKB | Ready-to-use, flexible RAG Chatbot | ⬜ |
