@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Olares × Intel — Arc Pro B70 AI NAS</title>
+<style>
+  :root{
+    --ink:#141516;
+    --muted:#6b7076;
+    --line:#e7e6e1;
+    --paper:#faf9f6;
+    --green:#2f6f4f;
+    --green-deep:#1f5038;
+    --green-soft:#eaf3ee;
+    --amber:#b07d2b;
+    --amber-soft:#f6eee2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#343735}
+  .slide{
+    width:1280px;height:720px;overflow:hidden;position:relative;
+    padding:24px 44px 18px;background:var(--paper);color:var(--ink);
+    font-family:Inter,"Helvetica Neue",Arial,"PingFang SC",sans-serif;
+    display:grid;grid-template-rows:72px minmax(0,1fr);gap:8px;
+  }
+
+  header{display:flex;align-items:flex-start}
+  .headline{max-width:1160px}
+  h1{font-size:28px;line-height:1.12;letter-spacing:-.4px;font-weight:800}
+  h1 em{font-style:normal;color:var(--green)}
+  .sub{margin-top:6px;font-size:14px;line-height:1.4;color:var(--muted)}
+
+  .content{
+    min-height:0;display:grid;grid-template-columns:minmax(0,2.04fr) minmax(342px,1fr);
+    gap:24px
+  }
+
+  /* Left: one continuous comparison composition */
+  .comparison{
+    min-width:0;height:100%;display:grid;
+    grid-template-rows:minmax(0,1fr) 22px
+  }
+
+  table{width:100%;height:100%;border-collapse:collapse;table-layout:fixed}
+  col.setup{width:28%} col.mem{width:13%} col.price{width:20%}
+  col.prefill{width:22%} col.decode{width:17%}
+  thead{height:40px}
+  thead th{
+    padding:7px 7px 8px;text-align:left;vertical-align:bottom;
+    font-size:11.5px;line-height:1.15;text-transform:uppercase;letter-spacing:.6px;
+    color:var(--muted);font-weight:800;border-top:2px solid var(--green);
+    border-bottom:1px solid var(--line)
+  }
+  tbody tr{height:auto}
+  tbody td{
+    padding:7px 7px;vertical-align:middle;border-bottom:1px solid var(--line);
+    font-size:12.5px;line-height:1.3;color:#33373b
+  }
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr.hero{background:var(--green-soft)}
+  tbody tr.hero td:first-child{box-shadow:inset 4px 0 0 var(--green)}
+  tbody tr.optimized{background:#f1f2ef;color:#626864}
+  tbody tr.optimized td{border-top:1px dashed #aeb3af}
+  .setup-name{font-weight:800;color:var(--ink);font-size:13.5px}
+  .stack{display:block;margin-top:3px;font-size:10.5px;line-height:1.15;color:#7b817d;font-weight:600}
+  .setup-name .label{
+    display:inline-block;margin-top:3px;padding:2px 5px;border-radius:3px;
+    background:var(--green);color:white;font-size:9.5px;letter-spacing:.3px
+  }
+  .strong{font-weight:800;color:var(--green-deep)}
+  .secondary{display:block;margin-top:2px;font-size:10.5px;line-height:1.2;color:var(--muted)}
+  .warn{color:var(--amber);font-weight:700}
+  .caption{display:flex;align-items:flex-end;font-size:10.5px;color:var(--muted)}
+
+  /* Right: one field, two groups; no bullet cards */
+  aside{
+    min-height:0;background:var(--green-deep);color:white;
+    margin-right:-44px;padding:20px 44px 18px 24px;
+    display:grid;grid-template-rows:auto auto;align-content:start;gap:18px;
+    position:relative
+  }
+  aside:before{
+    content:"";position:absolute;left:-9px;top:38px;width:18px;height:92px;
+    background:var(--green);border-radius:2px
+  }
+  .group{min-height:0}
+  .group + .group{border-top:1px solid rgba(255,255,255,.28);padding-top:16px}
+  .group h2{
+    font-size:12px;line-height:1;text-transform:uppercase;letter-spacing:1.15px;
+    color:#9ed0b2;margin-bottom:11px
+  }
+  ol{list-style:none;counter-reset:item}
+  li{
+    counter-increment:item;position:relative;padding-left:31px;
+    margin-bottom:8px;font-size:11.5px;line-height:1.32;color:#eef4f0
+  }
+  li:last-child{margin-bottom:0}
+  li:before{
+    content:counter(item,decimal-leading-zero);position:absolute;left:0;top:0;
+    font-size:9.5px;line-height:1.45;font-weight:800;letter-spacing:.5px;
+    color:#79b493
+  }
+  li b{display:block;margin-bottom:2px;color:white;font-size:12.5px}
+  .risks h2{color:#efc995}
+  .risks li:before{color:#dcae70}
+
+  .corner{
+    position:absolute;right:-98px;bottom:-118px;width:300px;height:300px;
+    border:1px solid rgba(255,255,255,.09);transform:rotate(22deg);
+    border-radius:30px;pointer-events:none
+  }
+  .corner:after{
+    content:"";position:absolute;inset:50px;border:1px solid rgba(255,255,255,.08);
+    border-radius:20px
+  }
+</style>
+</head>
+<body>
+<main class="slide">
+  <header>
+    <div class="headline">
+      <h1><em>Arc Pro B70</em> External GPU for AI NAS</h1>
+      <div class="sub">One external Arc Pro B70 turns a traditional NAS into a multi-purpose AI NAS—for Personal Agent, Audio, Smart Home and Private Workspace.</div>
+    </div>
+  </header>
+
+  <section class="content">
+    <div class="comparison">
+      <table>
+        <colgroup>
+          <col class="setup"><col class="mem"><col class="price">
+          <col class="prefill"><col class="decode">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Setup</th>
+            <th>VRAM / memory</th>
+            <th>Price</th>
+            <th>Prefill pp t/s</th>
+            <th>Decode tg t/s</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="hero">
+            <td>
+              <div class="setup-name">NAS + external Arc Pro B70<span class="stack">Q4 · no MTP</span><span class="label">AI NAS</span></div>
+            </td>
+            <td><span class="strong">32GB</span><span class="secondary">discrete</span></td>
+            <td>
+              <span class="strong">+$1,100–1,300</span>
+              <span class="secondary">on a NAS you own</span>
+              <span class="secondary">$1,600–2,000 new</span>
+            </td>
+            <td><span class="strong">~615</span><span class="secondary">long-context stable</span></td>
+            <td><span class="strong">~55–82</span></td>
+          </tr>
+          <tr>
+            <td><div class="setup-name">AMD 395+ mini-PC<span class="stack">Q4 · no MTP</span></div></td>
+            <td>128GB<span class="secondary">unified</span></td>
+            <td><b>~$3,399</b></td>
+            <td>~900–1,270<span class="secondary warn">drops long-context</span></td>
+            <td>~62–81</td>
+          </tr>
+          <tr>
+            <td><div class="setup-name">Mac Studio M4 Max<span class="stack">4-bit · no MTP</span></div></td>
+            <td>64GB<span class="secondary">unified</span></td>
+            <td><b>from $3,499</b></td>
+            <td>~1,100–1,370</td>
+            <td>~42–70</td>
+          </tr>
+          <tr>
+            <td><div class="setup-name">DGX Spark<span class="stack">MXFP4 · llama.cpp · no MTP</span></div></td>
+            <td>128GB<span class="secondary">unified</span></td>
+            <td><b>$4,699</b></td>
+            <td>~2,289</td>
+            <td>~63</td>
+          </tr>
+          <tr>
+            <td><div class="setup-name">Mac Studio M3 Ultra<span class="stack">4-bit · no MTP</span></div></td>
+            <td>96GB<span class="secondary">unified</span></td>
+            <td><b>$5,299</b></td>
+            <td>~1,640–2,620</td>
+            <td>~70–98</td>
+          </tr>
+          <tr>
+            <td><div class="setup-name">Desktop RTX 5090<span class="stack">Q4_K_M · llama.cpp · no MTP</span></div></td>
+            <td>32GB<span class="secondary">discrete</span></td>
+            <td><b>~$4,329</b><span class="secondary">card only</span></td>
+            <td><b>~2,892</b></td>
+            <td><b>~183</b></td>
+          </tr>
+          <tr class="optimized">
+            <td><div class="setup-name">NVIDIA DGX Spark<span class="stack">NVFP4 · vLLM · MTP</span></div></td>
+            <td>128GB<span class="secondary">unified</span></td>
+            <td><b>$4,699</b></td>
+            <td>~4,850–6,255</td>
+            <td>~85–112</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="caption">Qwen3.6-35B-A3B · single-stream comparison</div>
+    </div>
+
+    <aside>
+      <section class="group advantages">
+        <h2>Advantages</h2>
+        <ol>
+          <li>
+            <b>Broad host coverage, near-native LLM speed</b>
+            OCuLink or Thunderbolt covers more NAS, mini-PC and CPU platforms; weights stay in VRAM, leaving steady-state only ~2–3% below internal x16 versus 25–40% loss in gaming.
+          </li>
+          <li>
+            <b>Flexible upgrades, longer hardware life</b>
+            Choose B60 / B70 by budget, move external compute across compatible hosts, then upgrade only the GPU module.
+          </li>
+          <li>
+            <b>A lighter product and supply chain</b>
+            Keep GPU power, cooling, BOM and inventory outside the base NAS — without compute-tier SKUs.
+          </li>
+          <li>
+            <b>Four high-value workloads, one module</b>
+            Personal Agent · Audio AI · Smart Home · Private Workspace.
+          </li>
+          <li>
+            <b>More Arc Pro sales, a larger software ecosystem</b>
+            Every AI NAS creates a B70 / B60 attach opportunity and expands Intel inference software and developer reach.
+          </li>
+          <li>
+            <b>A compelling price advantage</b>
+            ~$1,100–1,300 added to an existing NAS, or ~$1,600–2,000 new — well below complete-system alternatives.
+          </li>
+        </ol>
+      </section>
+
+      <section class="group risks">
+        <h2>What needs work</h2>
+        <ol>
+          <li>
+            <b>Prefill software upside remains untapped</b>
+            Personal Agents process long context every turn. B70 is still ~615 pp t/s, but the hardware ceiling has not been reached; XMX attention and the inference stack need further optimization.
+          </li>
+          <li>
+            <b>The price advantage is cyclical</b>
+            If unified-memory prices return to 2025 levels, the gap narrows; reuse, local data and modular upgrades must carry the long-term value.
+          </li>
+        </ol>
+      </section>
+      <div class="corner"></div>
+    </aside>
+  </section>
+</main>
+</body>
+</html>

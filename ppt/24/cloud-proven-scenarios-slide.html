@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Olares — Cloud-proven scenarios</title>
+<style>
+  :root{
+    --ink:#141516; --muted:#6b7076; --line:#e7e6e1; --paper:#faf9f6;
+    --accent:#2f6f4f;        /* olares green */
+    --accent-soft:#eaf3ee;
+    --chip:#f1efe9; --gold:#b07d2b;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:#3a3c40;}
+  .deck{
+    width:1280px; height:720px; background:var(--paper); color:var(--ink);
+    font-family:"Inter","Helvetica Neue",Arial,"PingFang SC",sans-serif;
+    padding:24px 44px 18px; position:relative; overflow:hidden;
+    display:flex; flex-direction:column;
+  }
+  /* faint GPU / device motif */
+  .motif{position:absolute; right:-60px; top:-60px; width:340px; height:340px;
+    border-radius:28px; border:2px solid var(--accent);
+    opacity:.05; transform:rotate(18deg);}
+  .motif:before{content:""; position:absolute; inset:34px; border-radius:16px;
+    border:2px solid var(--accent);}
+  .motif:after{content:""; position:absolute; left:50%; top:50%; width:120px; height:120px;
+    transform:translate(-50%,-50%); border:2px solid var(--accent); border-radius:8px;}
+
+  header{display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:8px;}
+  h1{font-size:28px; font-weight:800; letter-spacing:-.4px; line-height:1.12;}
+  h1 .g{color:var(--accent);}
+  .sub{font-size:14px; color:var(--muted); margin-top:6px; max-width:900px; line-height:1.4;}
+
+  table{width:100%; border-collapse:collapse; margin-top:4px; table-layout:fixed;}
+  col.c1{width:11%;} col.c2{width:15%;} col.c3{width:22%;} col.c4{width:20%;} col.c5{width:32%;}
+  thead th{font-size:11.5px; text-transform:uppercase; letter-spacing:.6px; color:var(--accent);
+    text-align:left; padding:0 10px 6px; border-bottom:1.5px solid var(--accent);}
+  tbody td{font-size:12.5px; line-height:1.36; color:#33373b; padding:6px 10px; vertical-align:top;
+    border-bottom:1px solid var(--line);}
+  tbody tr:nth-child(even){background:#f4f2ec;}
+  .scn{font-weight:800; font-size:13.5px; color:var(--ink);}
+  .scn svg{width:20px; height:20px; stroke:var(--accent); stroke-width:1.7;
+    fill:none; stroke-linecap:round; stroke-linejoin:round; display:block; margin-bottom:5px;}
+  .apps{color:#4a4f54;}
+  .chips{display:flex; flex-wrap:wrap; gap:4px;}
+  .chip{display:inline-block; background:#fff; border:1px solid #dcdad2; border-radius:999px;
+    padding:1.5px 8px; font-size:10.5px; color:#44494e; white-space:nowrap; line-height:1.5;}
+  .proof b{color:var(--accent); font-weight:700;}
+  .local{color:#4a4f54;}
+  .why{color:#2a2d30;}
+  code{background:#ecece4; padding:0 3px; border-radius:3px; font-size:10px;}
+
+  footer{margin-top:auto; display:flex; align-items:center; gap:14px; padding-top:10px;}
+  .whywrap{display:flex; gap:10px; flex:1;}
+  .wcard{flex:1; background:#fff; border:1px solid var(--line); border-radius:9px; padding:7px 11px;}
+  .wcard h4{font-size:10.5px; color:var(--accent); margin-bottom:2px; letter-spacing:.2px;}
+  .wcard p{font-size:9.5px; color:var(--muted); line-height:1.32;}
+  .slogan{white-space:nowrap; font-size:15px; font-weight:800; color:var(--ink);
+    padding-left:16px; border-left:2px solid var(--accent);}
+  .slogan span{color:var(--accent);}
+</style>
+</head>
+<body>
+<div class="deck">
+  <div class="motif"></div>
+
+  <header>
+    <div>
+      <h1>Where users already pay for the cloud — <span class="g">and Olares wins locally.</span></h1>
+      <div class="sub">Seven scenarios that pass both bars: <b>proven paid demand in the cloud</b> &times; <b>good-enough local models</b> on a 24GB personal cloud.</div>
+    </div>
+  </header>
+
+  <table>
+    <colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"></colgroup>
+    <thead>
+      <tr>
+        <th>Scenario</th>
+        <th>Leading paid apps</th>
+        <th>Proof of willingness-to-pay</th>
+        <th>Local on Olares</th>
+        <th>Why Olares</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="scn"><svg viewBox="0 0 24 24"><path d="M12 3l2.2 5.8L20 11l-5.8 2.2L12 19l-2.2-5.8L4 11l5.8-2.2z"/></svg>Personal Agent</td>
+        <td class="apps"><div class="chips"><span class="chip">OpenClaw</span><span class="chip">Hermes</span><span class="chip">Claude Code</span><span class="chip">Codex</span></div></td>
+        <td class="proof">Priced against the <b>white-collar wage bill (~$40–50T)</b>, not software budgets. <b>Claude Code &gt;$2.5B ARR</b>, Codex 5M+ weekly users.</td>
+        <td class="local">Local LLM (Qwen-27B class) + OpenClaw / Hermes, runs in 24GB, Olares CLI preinstalled.</td>
+        <td class="why">An agent that drives your whole system needs full context — and the more it knows you, the less that should leave your machine. Model and data stay local, so it acts with total access while nothing leaks to a vendor.</td>
+      </tr>
+      <tr>
+        <td class="scn"><svg viewBox="0 0 24 24"><polyline points="8 7 3 12 8 17"/><polyline points="16 7 21 12 16 17"/></svg>App development</td>
+        <td class="apps"><div class="chips"><span class="chip">Lovable</span><span class="chip">Cursor</span><span class="chip">Replit</span><span class="chip">Devin</span></div></td>
+        <td class="proof"><b>Cursor ~$4B ARR</b>, <b>Lovable ~$500M ARR</b> ($6.6B val), <b>Replit ~$265M</b>, <b>Devin ~$492M</b> run-rate.</td>
+        <td class="local">Local LLM + Agent Skills (e.g. <code>olares-chart</code>): one prompt packages the image and deploys to your own Olares — no Kubernetes.</td>
+        <td class="why">Cloud tools meter you by credit/token, so heavy iteration keeps getting pricier and middlemen add margin. Run and rewrite all you want at no extra cost, code never leaves the box, ship to your own domain.</td>
+      </tr>
+      <tr>
+        <td class="scn"><svg viewBox="0 0 24 24"><path d="M4 10v4M8 6v12M12 8v8M16 5v14M20 10v4"/></svg>Audio</td>
+        <td class="apps"><div class="chips"><span class="chip">Granola</span><span class="chip">Otter</span><span class="chip">Wispr Flow</span><span class="chip">ElevenLabs</span><span class="chip">Plaud</span></div></td>
+        <td class="proof"><b>ElevenLabs $500M ARR</b> ($11B val), <b>Otter $100M ARR</b>, <b>Plaud $100M</b> software ARR.</td>
+        <td class="local">Local transcription / translation / speech synthesis &amp; cloning (a full open speech stack), fits in 24GB.</td>
+        <td class="why">Meeting recordings and dictation are some of the most sensitive audio you own, yet they default to the cloud. Olares keeps the whole speech pipeline on-device — nothing reaches a third-party server.</td>
+      </tr>
+      <tr>
+        <td class="scn"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="15" rx="2"/><circle cx="8.5" cy="9.5" r="1.6"/><path d="M21 16l-5-5L4 19"/></svg>Image</td>
+        <td class="apps"><div class="chips"><span class="chip">Midjourney</span><span class="chip">Ideogram</span><span class="chip">GPT-Image</span></div></td>
+        <td class="proof"><b>Midjourney ~$500M revenue</b>, ~20M users (largely bootstrapped).</td>
+        <td class="local">Open image models + ComfyUI workflows; Olares One renders ~15–20s per image (video still weak locally).</td>
+        <td class="why">Cloud tools bill per image, so cost spirals with volume. Locally the marginal cost is ~zero and your assets, face models and brand material never leave — high-volume creators pay off the hardware in months.</td>
+      </tr>
+      <tr>
+        <td class="scn"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v9h14v-9"/><path d="M10 19v-5h4v5"/></svg>Smart home</td>
+        <td class="apps"><div class="chips"><span class="chip">Alexa+</span><span class="chip">Google Home</span><span class="chip">Ring</span><span class="chip">Nest</span></div></td>
+        <td class="proof"><b>Alexa 600M+ devices</b> installed; Ring / Nest / Google Home subscription base.</td>
+        <td class="local">Home Assistant hub + local camera AI / recording + local LLM for natural-language control.</td>
+        <td class="why">Cameras and locks are the most privacy-sensitive part of a home, yet they keep failing users (Ring's $5.8M FTC fine, Eufy uploading to AWS, Wemo bricked at shutdown). A local hub avoids it at the root — and won't brick when a vendor leaves.</td>
+      </tr>
+      <tr>
+        <td class="scn"><svg viewBox="0 0 24 24"><path d="M12 20s-6.5-4.2-6.5-9A3.7 3.7 0 0 1 12 8.2 3.7 3.7 0 0 1 18.5 11c0 4.8-6.5 9-6.5 9z"/></svg>AI companion</td>
+        <td class="apps"><div class="chips"><span class="chip">Character.AI</span><span class="chip">Chai</span><span class="chip">Replika</span><span class="chip">Talkie</span></div></td>
+        <td class="proof"><b>Character.AI ~$2.5B val</b> (Google's $2.7B tech license + acqui-hire, not an acquisition), <b>Chai $80M ARR</b> ($2.4B val).</td>
+        <td class="local">SillyTavern + local LLM, runs character chat in 24GB (real-time avatars are a direction, not a feature yet).</td>
+        <td class="why">Your most intimate conversations shouldn't face platform censorship or sit on someone else's servers. On Olares you set the model, persona and content boundaries yourself, and history never leaves home.</td>
+      </tr>
+      <tr>
+        <td class="scn"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M3 12h18"/></svg>Private workspace</td>
+        <td class="apps"><div class="chips"><span class="chip">Microsoft 365</span><span class="chip">Google Workspace</span><span class="chip">Slack</span><span class="chip">Notion</span></div></td>
+        <td class="proof"><b>Microsoft 365 450M+ paid seats</b>, <b>Notion $600M ARR</b> ($11B val), <b>Slack ~$3B revenue</b>.</td>
+        <td class="local">Local IM + document collaboration + local LLM for knowledge-base Q&amp;A / deep research.</td>
+        <td class="why">Email, docs and the knowledge base sit on a vendor's cloud — and bolting on AI ships that knowledge base to a cloud model too. Olares keeps data and agent inside your network: data sovereignty and compliance, with predictable cost when a team shares one box.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+</body>
+</html>

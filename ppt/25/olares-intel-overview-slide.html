@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Olares × Intel — Three Hardware Paths</title>
+<style>
+  :root{
+    --ink:#141516;
+    --muted:#6b7076;
+    --line:#e7e6e1;
+    --paper:#faf9f6;
+    --green:#2f6f4f;
+    --green-deep:#1f5038;
+    --green-soft:#eaf3ee;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#343735}
+  .slide{
+    width:1280px;height:720px;overflow:hidden;position:relative;
+    padding:24px 44px 18px;background:var(--paper);color:var(--ink);
+    font-family:Inter,"Helvetica Neue",Arial,"PingFang SC",sans-serif;
+    display:grid;grid-template-rows:72px minmax(0,1fr);gap:8px
+  }
+  header{display:flex;align-items:flex-start}
+  .headline{max-width:1180px}
+  h1{font-size:28px;line-height:1.12;letter-spacing:-.4px;font-weight:800}
+  h1 em{font-style:normal;color:var(--green)}
+  .subtitle{margin-top:6px;font-size:14px;line-height:1.4;color:var(--muted)}
+
+  .route-map{
+    min-height:0;border-top:2px solid var(--green);
+    display:grid;grid-template-rows:42px repeat(3,minmax(0,1fr))
+  }
+  .map-head,.route-row{
+    min-width:0;display:grid;
+    grid-template-columns:17% 26% 27% 30%
+  }
+  .map-head{
+    align-items:end;border-bottom:1px solid var(--line)
+  }
+  .map-head div{
+    padding:0 16px 9px;font-size:11.5px;line-height:1.1;
+    text-transform:uppercase;letter-spacing:.6px;color:var(--green);font-weight:800
+  }
+  .map-head div:first-child{padding-left:0}
+  .map-head div + div{border-left:1px solid var(--line)}
+  .route-row{
+    min-height:0;border-bottom:1px solid var(--line);position:relative
+  }
+  .route-row:last-child{border-bottom:0}
+  .cell{
+    min-width:0;padding:20px 16px;display:flex;flex-direction:column;
+    justify-content:center
+  }
+  .cell:first-child{padding-left:0}
+  .cell + .cell{border-left:1px solid var(--line)}
+  .picto{margin-bottom:12px}
+  .picto svg{
+    width:26px;height:26px;display:block;stroke:var(--green);stroke-width:1.7;
+    fill:none;stroke-linecap:round;stroke-linejoin:round
+  }
+  .route-name{
+    font-size:18px;line-height:1.16;letter-spacing:-.2px;font-weight:800;color:var(--ink)
+  }
+  .configuration{
+    font-size:13.5px;line-height:1.28;color:#33373b;font-weight:700;
+    display:flex;flex-direction:column;gap:3px
+  }
+  .configuration b{font-size:14px;color:var(--green-deep);font-weight:800}
+  .product{
+    font-size:13px;line-height:1.42;color:#383c3f
+  }
+  .product b{font-size:13.5px;color:var(--green-deep);font-weight:800}
+  .chips{display:flex;flex-wrap:wrap;gap:5px}
+  .chip{
+    display:inline-block;padding:2px 8px;border:1px solid #dcdad2;border-radius:999px;
+    background:#fff;font-size:10.5px;line-height:1.5;color:#44494e;white-space:nowrap
+  }
+  .chip.lead{
+    background:var(--green-soft);border-color:#bfd3c6;color:var(--green-deep);font-weight:700
+  }
+  .sequence{display:grid;gap:7px}
+  .sequence span{
+    display:flex;align-items:center;gap:10px
+  }
+  .sequence strong{
+    width:40px;flex:none;color:var(--green-deep);font-size:10.5px;text-transform:uppercase;
+    letter-spacing:.45px
+  }
+  .motif{
+    position:absolute;right:-90px;top:-95px;width:320px;height:320px;
+    border:2px solid var(--green);border-radius:28px;opacity:.035;transform:rotate(18deg);
+    pointer-events:none
+  }
+  .motif:after{
+    content:"";position:absolute;inset:44px;border:2px solid var(--green);
+    border-radius:18px
+  }
+</style>
+</head>
+<body>
+<main class="slide">
+  <div class="motif"></div>
+  <header>
+    <div class="headline">
+      <h1>Three <em>Intel Hardware Paths</em> for Local AI</h1>
+      <div class="subtitle">Seven cloud-proven paid scenarios map to three Intel-centered product architectures: external accelerator, standalone SoC, and on-board accelerator.</div>
+    </div>
+  </header>
+
+  <section class="route-map">
+    <div class="map-head">
+      <div>Hardware path</div>
+      <div>Current configuration</div>
+      <div>Product form</div>
+      <div>Best-fit AI scenarios</div>
+    </div>
+
+    <article class="route-row">
+      <div class="cell">
+        <div class="picto"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="10" height="14" rx="1.5"/><path d="M6.5 8.5v7"/><rect x="17" y="8" width="4" height="8" rx="1"/><path d="M13 12h4"/></svg></div>
+        <div class="route-name">External accelerator</div>
+      </div>
+      <div class="cell configuration">
+        <span>Intel NAS / box + external</span><b>Arc Pro B70 32GB</b>
+      </div>
+      <div class="cell product">
+        Turns a traditional NAS into a <b>multi-purpose AI NAS.</b>
+      </div>
+      <div class="cell scenarios">
+        <div class="chips">
+          <span class="chip lead">Personal Agent</span>
+          <span class="chip">Audio</span>
+          <span class="chip">Smart Home</span>
+          <span class="chip">Private Workspace</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="route-row">
+      <div class="cell">
+        <div class="picto"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="1.5"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/></svg></div>
+        <div class="route-name">Standalone SoC</div>
+      </div>
+      <div class="cell configuration">
+        <b>Panther Lake</b><span>CPU + NPU + iGPU</span>
+      </div>
+      <div class="cell product">
+        AI Box with <b>NAS and Windows VM</b> capabilities.
+      </div>
+      <div class="cell scenarios">
+        <div class="sequence">
+          <span><strong>Now</strong><span class="chip lead">Private Meeting AI</span></span>
+          <span><strong>Next</strong><span class="chip">Smart Home</span></span>
+          <span><strong>Later</strong><span class="chip">Personal Agent</span></span>
+        </div>
+      </div>
+    </article>
+
+    <article class="route-row">
+      <div class="cell">
+        <div class="picto"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><rect x="6" y="8" width="5" height="8" rx="1"/><rect x="13" y="8" width="5" height="8" rx="1"/></svg></div>
+        <div class="route-name">On-board accelerator</div>
+      </div>
+      <div class="cell configuration">
+        <b>Core Ultra 9 275HX</b><span>+ RTX 5090 Mobile 24GB</span>
+      </div>
+      <div class="cell product">
+        <b>Olares One</b>—the current flagship implementation.
+      </div>
+      <div class="cell scenarios">
+        <div class="chips">
+          <span class="chip lead">Personal Agent</span>
+          <span class="chip">App Development</span>
+          <span class="chip">Audio</span>
+          <span class="chip">Image</span>
+          <span class="chip">Smart Home</span>
+          <span class="chip">AI Companion</span>
+          <span class="chip">Private Workspace</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+</body>
+</html>
