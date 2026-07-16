@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Company &amp; Team — Olares × Intel</title>
+<style>
+  :root{--paper:#faf9f6;--ink:#141516;--muted:#6b7076;--accent:#2f6f4f;--line:#e7e6e1}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#343735}
+  .slide{
+    width:1280px;height:720px;overflow:hidden;position:relative;
+    background:var(--paper);color:var(--ink);
+    font-family:Inter,"Helvetica Neue",Arial,"PingFang SC",sans-serif;
+    padding:24px 44px 18px
+  }
+  h1{font-size:28px;font-weight:800;letter-spacing:-.4px;line-height:1.12;margin-bottom:18px}
+  .facts{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:22px;padding-top:16px;padding-bottom:22px;border-top:2px solid var(--accent);border-bottom:1px solid var(--line)}
+  .facts li{font-size:14px;line-height:1.42;position:relative;padding-left:22px}
+  .facts li::before{content:"";position:absolute;left:0;top:6px;width:8px;height:8px;border-radius:50%;background:var(--accent)}
+  .team{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+  .member .name{font-size:19px;font-weight:800;margin-bottom:4px}
+  .member .role{font-size:11.5px;font-weight:800;color:var(--accent);margin-bottom:14px;text-transform:uppercase;letter-spacing:.6px}
+  .member ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+  .member li{font-size:14px;line-height:1.4;color:#33373b;position:relative;padding-left:16px}
+  .member li::before{content:"";position:absolute;left:0;top:7px;width:6px;height:6px;border-radius:50%;background:#bcbcb6}
+</style>
+</head>
+<body>
+<main class="slide">
+  <h1>Company &amp; Team</h1>
+  <ul class="facts">
+    <li>Project initiated in April, 2022, ahead of the generative-AI wave.</li>
+    <li>Headquartered in Singapore, with offices in Beijing, Japan, and North America.</li>
+    <li>$100M+ raised to date, with a Series A round led by SIG (Susquehanna International Group), and a $50M round closed in April, 2026, backed by top-tier global investors and founders who shaped the consumer internet era.</li>
+  </ul>
+  <div class="team">
+    <div class="member">
+      <div class="name">Tim Gong</div>
+      <div class="role">Chairman of the Board</div>
+      <ul>
+        <li>Head of SIG Asia.</li>
+        <li>The sole investor in ByteDance for its first two rounds.</li>
+      </ul>
+    </div>
+    <div class="member">
+      <div class="name">Lucas Lu</div>
+      <div class="role">CEO</div>
+      <ul>
+        <li>Ph.D. in Particle Physics, SMU.</li>
+        <li>Former General Manager at Taobao Mobile, Alibaba.</li>
+        <li>Former CTO of LightInTheBox (NYSE-listed).</li>
+        <li>Founder of 5miles (O2O e-commerce).</li>
+      </ul>
+    </div>
+    <div class="member">
+      <div class="name">Peng Peng</div>
+      <div class="role">CTO</div>
+      <ul>
+        <li>B.S. Computer Science, ZJU.</li>
+        <li>Ex-Baidu, ex-Google.</li>
+        <li>Android ROM developer since 2009.</li>
+        <li>Former CTO of Doodle Mobile (500M+ downloads).</li>
+      </ul>
+    </div>
+  </div>
+</main>
+</body>
+</html>

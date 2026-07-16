@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>What is Olares? — Olares × Intel</title>
+<style>
+  :root{
+    --paper:#faf9f6;--ink:#141516;--muted:#6b7076;--accent:#2f6f4f;--line:#e7e6e1;
+    --card:#ffffff;--border:#e5e5e5;--shaded:#f0eeeb
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#343735}
+  .slide{
+    width:1280px;height:720px;overflow:hidden;position:relative;
+    background:var(--paper);color:var(--ink);
+    font-family:Inter,"Helvetica Neue",Arial,"PingFang SC",sans-serif;
+    padding:24px 44px 18px
+  }
+  h1{font-size:28px;font-weight:800;letter-spacing:-.4px;line-height:1.12;margin-bottom:6px}
+  .lead{font-size:14px;line-height:1.4;color:var(--muted);font-weight:400;margin-bottom:16px;max-width:1180px}
+  .kw{border-bottom:3px solid var(--accent);padding-bottom:1px}
+  .frame{
+    border:2px solid var(--accent);border-radius:12px;background:var(--card);
+    padding:22px 26px;display:grid;grid-template-columns:1fr 1fr;gap:20px 32px
+  }
+  .panel h2{font-size:18px;font-weight:800;margin-bottom:8px}
+  .panel p{font-size:14px;line-height:1.5;color:#33373b}
+  .platforms{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+  .platform{border:1.5px solid var(--border);border-radius:8px;padding:10px 6px;text-align:center;background:var(--shaded)}
+  .platform .os{font-size:15px;font-weight:800;margin-bottom:2px}
+  .platform .verb{font-size:11px;color:var(--muted);margin-bottom:2px}
+  .platform .cat{font-size:13px;font-weight:800;color:var(--accent);line-height:1.15}
+  .bottom{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:32px;padding-top:16px;border-top:1.5px solid var(--border)}
+  .bottom h3{font-size:16px;font-weight:800;color:var(--accent);margin-bottom:9px}
+  .bottom ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+  .bottom li{font-size:13.5px;line-height:1.42;position:relative;padding-left:16px}
+  .bottom li::before{content:"";position:absolute;left:0;top:7px;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+</style>
+</head>
+<body>
+<main class="slide">
+  <h1>What is Olares?</h1>
+  <p class="lead">An <span class="kw">open-source Personal Cloud OS</span> you <span class="kw">operate in plain language</span>, built to run <span class="kw">local AI agents and LLMs</span> on <span class="kw">hardware you own</span>.</p>
+  <div class="frame">
+    <div class="panel">
+      <h2>A Personal Agent for everyone</h2>
+      <p>AI is shifting from apps to agents. In the near future, everyone will have a Personal Agent: an always-available assistant that handles work and daily tasks, manages personal information, and runs their digital life, reachable from any device.</p>
+    </div>
+    <div class="panel">
+      <h2>A Personal Cloud to run it</h2>
+      <p>A single, always-on, always-accessible interface and a unified execution environment for a person and all of their AI devices.</p>
+      <div class="platforms">
+        <div class="platform"><div class="os">Windows</div><div class="verb">runs the</div><div class="cat">Personal Computer</div></div>
+        <div class="platform"><div class="os">Android</div><div class="verb">runs the</div><div class="cat">Smartphone</div></div>
+        <div class="platform"><div class="os">Olares</div><div class="verb">runs the</div><div class="cat">Personal Cloud</div></div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div>
+        <h3>Who is Olares for?</h3>
+        <ul>
+          <li>Prosumers, small businesses, and privacy-conscious users who want self-hosted AI agents.</li>
+          <li>Users motivated by privacy, data ownership, controllability, and long-term cost.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>What problem does Olares solve?</h3>
+        <ul>
+          <li>Public-cloud agents force you to surrender context, runtime, and actions to third parties.</li>
+          <li>Olares keeps agents and AI on your own hardware: NAS, box, PC, Raspberry Pi, or a cluster composed of multiple computing devices.</li>
+          <li>Operate in plain language without managing servers, containers, networks, storage, or AI infrastructure.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>

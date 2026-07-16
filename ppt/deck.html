@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Olares × Intel</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:100%;height:100%;overflow:hidden;background:#000}
+
+  /* Full-window deck viewport, letterboxed */
+  .deck-viewport{position:fixed;inset:0;overflow:hidden;background:#000}
+
+  /* Fixed 16:9 stage (slides authored at 1280×720); JS sets transform */
+  .deck-stage{
+    position:absolute;left:0;top:0;width:1280px;height:720px;
+    transform-origin:0 0;overflow:hidden;background:#faf9f6
+  }
+  .deck-stage iframe{
+    position:absolute;inset:0;width:1280px;height:720px;border:0;
+    opacity:0;pointer-events:none;transition:opacity .32s ease
+  }
+  /* Entrance: incoming slide fades + rises once; outgoing just fades out */
+  .deck-stage iframe.active{
+    opacity:1;pointer-events:auto;
+    animation:slideIn .55s cubic-bezier(.16,1,.3,1) both
+  }
+  @keyframes slideIn{from{transform:translateY(26px)}to{transform:translateY(0)}}
+  @media (prefers-reduced-motion: reduce){
+    .deck-stage iframe{transition:opacity .18s ease}
+    .deck-stage iframe.active{animation:none}
+  }
+
+  /* Invisible click zones: left = prev, right = next */
+  .nav-zone{position:absolute;top:0;bottom:0;width:35%;z-index:5;cursor:default}
+  .nav-zone.left{left:0}
+  .nav-zone.right{right:0}
+
+  /* Minimal auto-hiding page counter (chrome kept outside the stage) */
+  .counter{
+    position:fixed;right:18px;bottom:14px;z-index:50;
+    font:600 12px/1 Inter,"Helvetica Neue",Arial,sans-serif;
+    color:#fff;background:rgba(0,0,0,.42);border-radius:999px;
+    padding:6px 12px;letter-spacing:.4px;
+    opacity:0;transition:opacity .4s ease;pointer-events:none;
+    -webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)
+  }
+  .counter.show{opacity:1}
+  body.idle{cursor:none}
+</style>
+</head>
+<body>
+  <div class="deck-viewport">
+    <main class="deck-stage" id="stage">
+      <div class="nav-zone left" id="zleft"></div>
+      <div class="nav-zone right" id="zright"></div>
+    </main>
+  </div>
+  <div class="counter" id="counter"></div>
+
+<script>
+  const SLIDES = [
+    "1/personal-cloud-era-slide.html",
+    "2/agenda-slide.html",
+    "3/what-is-olares-slide.html",
+    "4/company-team-slide.html",
+    "5/olares-one-slide.html",
+    "6/olares-demo-slide.html",
+    "7/one-stop-solution-slide.html",
+    "8/olares-audiences-slide.html",
+    "9/defining-personal-cloud-slide.html",
+    "10/trillion-dollar-market-slide.html",
+    "17/olares-architecture-slide.html",
+    "18/application-sandbox-slide.html",
+    "21/accelerator-management-slide.html",
+    "22/olares-skills-slide.html",
+    "24/cloud-proven-scenarios-slide.html",
+    "25/olares-intel-overview-slide.html",
+    "26/external-egpu-slide.html",
+    "27/soc-meeting-box-slide.html",
+    "28/thank-you-slide.html"
+  ];
+
+  const stage = document.getElementById('stage');
+  const counter = document.getElementById('counter');
+  const frames = [];
+  let cur = 0;
+
+  SLIDES.forEach((src) => {
+    const f = document.createElement('iframe');
+    f.dataset.src = src;
+    f.setAttribute('scrolling', 'no');
+    stage.appendChild(f);
+    frames.push(f);
+  });
+
+  const STAGE_W = 1280, STAGE_H = 720;
+
+  function fit(){
+    const vw = window.innerWidth, vh = window.innerHeight;
+    const factor = Math.min(vw / STAGE_W, vh / STAGE_H);
+    const x = (vw - STAGE_W * factor) / 2;
+    const y = (vh - STAGE_H * factor) / 2;
+    stage.style.transform = `translate(${x}px, ${y}px) scale(${factor})`;
+  }
+
+  function loadNear(i){
+    [i-1, i, i+1].forEach(j => {
+      if (j >= 0 && j < frames.length && !frames[j].src) frames[j].src = frames[j].dataset.src;
+    });
+  }
+
+  function render(){
+    frames.forEach((f, i) => f.classList.toggle('active', i === cur));
+    counter.textContent = (cur + 1) + ' / ' + frames.length;
+    loadNear(cur);
+    flashCounter();
+  }
+
+  function go(i){
+    const n = Math.max(0, Math.min(frames.length - 1, i));
+    if (n === cur) return;
+    cur = n; render();
+  }
+  const next = () => go(cur + 1);
+  const prev = () => go(cur - 1);
+
+  // Counter + cursor auto-hide
+  let idleTimer = null;
+  function flashCounter(){
+    counter.classList.add('show');
+    document.body.classList.remove('idle');
+    clearTimeout(idleTimer);
+    idleTimer = setTimeout(() => {
+      counter.classList.remove('show');
+      document.body.classList.add('idle');
+    }, 2200);
+  }
+
+  // Keyboard
+  window.addEventListener('keydown', (e) => {
+    switch(e.key){
+      case 'ArrowRight': case 'PageDown': case ' ': next(); e.preventDefault(); break;
+      case 'ArrowLeft':  case 'PageUp': prev(); e.preventDefault(); break;
+      case 'Home': go(0); break;
+      case 'End': go(frames.length - 1); break;
+      case 'f': case 'F':
+        if (!document.fullscreenElement) document.documentElement.requestFullscreen?.();
+        else document.exitFullscreen?.();
+        break;
+    }
+  });
+
+  // Click zones
+  document.getElementById('zright').addEventListener('click', next);
+  document.getElementById('zleft').addEventListener('click', prev);
+
+  // Mouse wheel (throttled)
+  let wheelLock = false;
+  window.addEventListener('wheel', (e) => {
+    if (wheelLock) return;
+    if (Math.abs(e.deltaY) < 12 && Math.abs(e.deltaX) < 12) return;
+    wheelLock = true;
+    (e.deltaY > 0 || e.deltaX > 0) ? next() : prev();
+    setTimeout(() => wheelLock = false, 650);
+  }, { passive: true });
+
+  // Touch / swipe
+  let tx = 0, ty = 0;
+  window.addEventListener('touchstart', (e) => { tx = e.touches[0].clientX; ty = e.touches[0].clientY; }, { passive: true });
+  window.addEventListener('touchend', (e) => {
+    const dx = e.changedTouches[0].clientX - tx;
+    const dy = e.changedTouches[0].clientY - ty;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) (dx < 0 ? next() : prev());
+  }, { passive: true });
+
+  window.addEventListener('mousemove', flashCounter);
+  window.addEventListener('resize', fit);
+
+  fit();
+  render();
+</script>
+</body>
+</html>

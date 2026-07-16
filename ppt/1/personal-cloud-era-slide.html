@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Era of Personal Cloud — Olares × Intel</title>
+<style>
+  :root{
+    --paper:#faf9f6;
+    --ink:#141516;
+    --muted:#6b7076;
+    --accent:#2f6f4f;
+    --line:#e7e6e1;
+    --intel:#0068b5;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#343735}
+  .slide{
+    width:1280px;height:720px;overflow:hidden;position:relative;
+    background:var(--paper);color:var(--ink);
+    font-family:Inter,"Helvetica Neue",Arial,"PingFang SC",sans-serif;
+    padding:0 44px;display:flex;flex-direction:column;justify-content:center
+  }
+  h1{
+    font-size:80px;line-height:1.05;letter-spacing:-2px;font-weight:800;
+    margin-bottom:44px
+  }
+  .pills{display:flex;align-items:center;gap:20px}
+  .pill{
+    height:78px;padding:0 44px;border-radius:999px;background:#efefec;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 1px 0 #fff inset,0 2px 6px rgba(0,0,0,.05)
+  }
+  .pill.intel{font-size:34px;font-weight:800;color:var(--intel);letter-spacing:-1px}
+  .pill.intel sup{font-size:14px;font-weight:600;top:-14px;position:relative}
+  .pill.olares{font-size:34px;font-weight:800;color:var(--ink);letter-spacing:-1px}
+  .cross{
+    width:64px;height:64px;border-radius:50%;background:#efefec;flex:none;
+    display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--ink)
+  }
+  footer{
+    position:absolute;left:44px;right:44px;bottom:18px;
+    display:flex;justify-content:space-between;align-items:center;
+    padding-top:20px;border-top:1px solid var(--line);
+    font-size:15px;color:var(--muted)
+  }
+</style>
+</head>
+<body>
+<main class="slide">
+  <h1>The Era of<br>Personal Cloud</h1>
+  <div class="pills">
+    <div class="pill intel">intel<sup>&reg;</sup></div>
+    <div class="cross">&times;</div>
+    <div class="pill olares">Olares</div>
+  </div>
+  <footer>
+    <span>Peng Peng, CTO at Olares</span>
+    <span>July 2026</span>
+  </footer>
+</main>
+</body>
+</html>
