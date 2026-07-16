@@ -11,7 +11,7 @@ Reusable Olares and open-source project marks for presentation mockups.
 - `manifest.json` records the source path, raw URL, blob SHA, format and file size for every icon. Its `groups` section identifies built-in and other system apps without duplicating image files.
 - Built-in apps: Desktop and Studio use homepage assets; Files, Market (`appstore`), Settings, Dashboard, Control Hub, Vault and Wise use canonical Market icons.
 - Other system apps represented in Market include Accounts, Admin Console, Backup, Calendar, Notifications and Profile.
-- Slide 17 community examples include ComfyUI, Dify, Home Assistant, Immich, LobeChat, Mattermost, n8n, Nextcloud, NocoDB, Ollama, Open WebUI and WordPress.
+- Slide 6 community examples include ComfyUI, Dify, Home Assistant, Immich, LobeChat, Mattermost, n8n, Nextcloud, NocoDB, Ollama, Open WebUI and WordPress.
 
 Use this collection when a slide needs the current Market icon. Some apps have multiple upstream icon variants; this cache deliberately keeps only the repository's primary `icon.*` file.
 
@@ -42,7 +42,7 @@ The filenames are normalized for local use. Source URLs remain the assets curren
 
 ## `slide21-icons/`
 
-Curated icon set for the Slide 21 heterogeneous accelerator diagram:
+Curated icon set for the Slide 8 (formerly 21) heterogeneous accelerator diagram (asset folder name kept as `slide21-icons/`):
 
 - `models/`: Qwen, DeepSeek, MiniMax, FLUX, Wan, Hunyuan3D, Qwen3-ASR and ACE-Step
 - `software/`: llama.cpp, vLLM, SGLang, Ollama, OpenVINO and ComfyUI

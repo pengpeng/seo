@@ -1,6 +1,6 @@
 # Olares × Intel PPT 设计规范
 
-> Slide 24–28 的视觉单一事实源。设计新页或修改旧页前先读；内容事实与来源仍由各页 Markdown / references 管理。
+> Slide 10–14 的视觉单一事实源。设计新页或修改旧页前先读；内容事实与来源仍由各页 Markdown / references 管理。
 
 ## 1. 画布与安全区
 
@@ -36,9 +36,9 @@ font-family: Inter, "Helvetica Neue", Arial, "PingFang SC", sans-serif;
 
 参考：
 
-- Slide 24 主标题：`Where users already pay for the cloud — and Olares wins locally.`
-- Slide 26 主标题：`External GPU for AI NAS`
-- Slide 26 副标题：`One Arc Pro B70 turns the NAS you already own into a Personal Agent AI NAS.`
+- Slide 10 主标题：`Where users already pay for the cloud — and Olares wins locally.`
+- Slide 12 主标题：`External GPU for AI NAS`
+- Slide 12 副标题：`One Arc Pro B70 turns the NAS you already own into a Personal Agent AI NAS.`
 
 ## 4. 颜色
 
@@ -82,7 +82,7 @@ font-family: Inter, "Helvetica Neue", Arial, "PingFang SC", sans-serif;
 
 ### 全宽密集表格
 
-参考 [Slide 24](./24/cloud-proven-scenarios-slide.html)。
+参考 [Slide 10](./10/cloud-proven-scenarios-slide.html)。
 
 - 标题 + 副标题位于顶部。
 - 主体为全宽表格。
@@ -91,7 +91,7 @@ font-family: Inter, "Helvetica Neue", Arial, "PingFang SC", sans-serif;
 
 ### 主表 + 深色侧栏
 
-参考 [Slide 26](./26/external-egpu-slide.html)。
+参考 [Slide 12](./12/external-egpu-slide.html)。
 
 - 左侧为主证据表，右侧为 Advantages / What needs work。
 - 右栏各组使用内容自适应高度，紧邻排列。
