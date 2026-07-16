@@ -8,7 +8,7 @@
 
 ### Title
 
-**Olares OS Unifies Heterogeneous AI Compute**
+**Unifies Heterogeneous AI Compute** (`Unifies` highlighted in green)
 
 One stack discovers, integrates, schedules, shares and observes accelerators—while applications stay independent from hardware.
 

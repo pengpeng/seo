@@ -1,4 +1,4 @@
-# Olares：Agent-Native OS
+# From Human Intent to Governed Agent Action
 
 > Intel 合作 PPT 第 22 页。中文 Slide 文案与工作底稿；页面需要在无人讲解时独立完成叙事。
 
@@ -8,7 +8,7 @@
 
 ### Headline
 
-**Olares: A Natural-Language-Driven, Agent-Native OS**
+**From Human Intent to Governed Agent Action**
 
 Any compatible Agent can securely operate software, models and private context on infrastructure the user owns.
 

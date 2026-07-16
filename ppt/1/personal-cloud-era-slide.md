@@ -9,7 +9,7 @@
 
 ### 标题
 
-**个人云时代**（The Era of Personal Cloud）
+**个人云与 AI NAS 时代**（The Era of Personal Cloud & AI NAS）
 
 ### 品牌
 
@@ -17,7 +17,7 @@ intel® × Olares
 
 ### 页脚
 
-Peng Peng，Olares CTO · 2026 年 7 月
+Peng Peng，Olares 创始人兼 CTO · 2026 年 7 月
 
 ---
 

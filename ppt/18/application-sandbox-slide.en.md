@@ -8,7 +8,7 @@
 
 ### Title
 
-Main title: **Olares OS Sandboxes Every User, Application and Agent** (`Olares OS` highlighted in green; names the three isolated subjects)
+Main title: **Sandboxes Every User, Application and Agent** (`Sandboxes` highlighted in green)
 
 Subtitle: One multi-user device — users, applications and Agents run side by side, isolated by default and granted only what they declare.
 

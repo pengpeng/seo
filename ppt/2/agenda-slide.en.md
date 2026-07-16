@@ -13,14 +13,13 @@
 
 ### Contents
 
-1. What is Olares
-2. Personal Cloud / AI NAS Market
-3. Olares OS Deep-Dive
-4. Product View on AI NAS
+1. Project Overview and Demo Video
+2. Olares OS Deep-Dive
+3. Product View on AI NAS
 
 ---
 
 ## Working notes
 
-- Minimal table of contents: title + four orange-numbered items.
-- Numbers `01–04` in orange accent; item titles in ink.
+- Minimal table of contents: title + three green-numbered items.
+- Numbers `01–03` in green accent; item titles in ink.

@@ -1,6 +1,6 @@
 # Slide 17 参考资料
 
-> 用于核查“Olares 五层架构”主画面与逐字稿。Olares 代码仓库快照：2026-07。Android、SaaS / AI 产品和 AWS 仅用于架构参考或功能类比，不表示 Android 应用兼容、API 兼容或实现相同。
+> 用于核查“Olares 五层架构 + 交付产物”主画面与逐字稿。本页已并入原第 7 页（One-Stop Solution）。Olares 代码仓库快照：2026-07。Android、SaaS / AI 产品和 AWS 仅用于架构参考或功能类比，不表示 Android 应用兼容、API 兼容或实现相同。
 
 ## 总体定位
 
@@ -14,6 +14,18 @@
   - [Platform README](/Users/pengpeng/Olares/platform/README.md)
   - [Framework README](/Users/pengpeng/Olares/framework/README.md)
   - [Apps README](/Users/pengpeng/Olares/apps/README.md)
+
+## 交付产物（并入自原第 7 页）
+
+右栏"交付产物"列出 Olares 一站式方案的五个产品，与左侧五层架构平行呈现：
+
+- **Olares OS** — 开源的五层操作系统，即左侧整套架构。
+- **Clients** — 桌面、移动端与浏览器扩展。
+- **Olares Space** — 管理域名、网络、远程访问与备份。
+- **Olares Market** — 200+ 应用一键安装。
+- **Olares CLI & Skills** — 用自然语言配合 agent 管理 Olares 系统。
+
+截图取自 `assets/olares-one-stop-solution-assets/`（olares_os / clients / olares_space / olares_market / olares_cli）。
 
 ## 五层依据与能力类比
 

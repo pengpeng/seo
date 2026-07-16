@@ -25,7 +25,7 @@
 
 叙事顺序：先讲"为什么要沙盒（多用户）+ 隔离哪三个对象"（进主/副标题），再回答四个连续问题：**谁能行动 → 应用如何运行 → 应用如何连接 → 应用能看到什么数据**。页面按 01 Identity → 02 Runtime & resource → 03 Network → 04 Files 展开。
 
-- **主标题**：`Olares OS Sandboxes Every User, Application and Agent`。
+- **主标题**：`Sandboxes Every User, Application and Agent`，其中 `Sandboxes` 绿色高亮。
 - **副标题**：`One multi-user device — users, applications and Agents run side by side, isolated by default and granted only what they declare.`
 - 不再单设叙事带，避免与标题/副标题重复。
 

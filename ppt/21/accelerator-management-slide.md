@@ -8,7 +8,7 @@
 
 ### 标题
 
-**Olares OS 统一异构 AI 算力**
+**Unifies Heterogeneous AI Compute**（`Unifies` 绿色高亮）
 
 一套系统完成加速资源的发现、接入、调度、共享与可观测，同时让应用与底层硬件解耦。
 

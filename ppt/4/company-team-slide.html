@@ -2,67 +2,153 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Company &amp; Team — Olares × Intel</title>
+<title>Company &amp; Team · Milestones · Olares One — Olares × Intel</title>
 <style>
-  :root{--paper:#faf9f6;--ink:#141516;--muted:#6b7076;--accent:#2f6f4f;--line:#e7e6e1}
+  :root{--paper:#faf9f6;--ink:#141516;--muted:#6b7076;--accent:#2f6f4f;--line:#e7e6e1;--soft:#f1f5f2;--white:#fff}
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{background:#343735}
   .slide{
     width:1280px;height:720px;overflow:hidden;position:relative;
     background:var(--paper);color:var(--ink);
     font-family:Inter,"Helvetica Neue",Arial,"PingFang SC",sans-serif;
-    padding:24px 44px 18px
+    padding:20px 36px 16px;display:grid;grid-template-rows:38px 112px minmax(0,1fr);gap:10px
   }
-  h1{font-size:28px;font-weight:800;letter-spacing:-.4px;line-height:1.12;margin-bottom:18px}
-  .facts{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:22px;padding-top:16px;padding-bottom:22px;border-top:2px solid var(--accent);border-bottom:1px solid var(--line)}
-  .facts li{font-size:14px;line-height:1.42;position:relative;padding-left:22px}
-  .facts li::before{content:"";position:absolute;left:0;top:6px;width:8px;height:8px;border-radius:50%;background:var(--accent)}
-  .team{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
-  .member .name{font-size:19px;font-weight:800;margin-bottom:4px}
-  .member .role{font-size:11.5px;font-weight:800;color:var(--accent);margin-bottom:14px;text-transform:uppercase;letter-spacing:.6px}
-  .member ul{list-style:none;display:flex;flex-direction:column;gap:8px}
-  .member li{font-size:14px;line-height:1.4;color:#33373b;position:relative;padding-left:16px}
-  .member li::before{content:"";position:absolute;left:0;top:7px;width:6px;height:6px;border-radius:50%;background:#bcbcb6}
+  h1{font-size:27px;font-weight:800;letter-spacing:-.45px;line-height:1.1}
+  h1 em{font-style:normal;color:var(--accent)}
+  .timeline{border-top:2px solid var(--accent);display:grid;grid-template-columns:repeat(6,1fr);gap:8px;padding-top:8px;position:relative}
+  .timeline::after{content:"";position:absolute;left:0;right:0;bottom:0;height:5px;background:var(--accent);opacity:.68}
+  .event{border:1px solid var(--line);background:var(--white);padding:8px 8px 12px;text-align:center}
+  .event .date{font-size:14px;line-height:1.05;font-weight:800;margin-bottom:9px}
+  .event .label{font-size:11.5px;line-height:1.3;color:#3f4447}
+  .body{min-height:0;display:grid;grid-template-columns:47% 53%;border-top:1px solid var(--line)}
+  .company{min-width:0;padding:10px 22px 0 0;border-right:1px solid var(--line)}
+  .one{min-width:0;padding:10px 0 0 22px}
+  .section-title{font-size:18px;line-height:1.15;font-weight:800;margin-bottom:8px}
+  .section-title span{color:var(--accent)}
+  .facts{list-style:none;display:flex;flex-direction:column;gap:5px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+  .facts li{font-size:12px;line-height:1.34;position:relative;padding-left:13px;color:#303538}
+  .facts li::before{content:"";position:absolute;left:0;top:5px;width:5px;height:5px;border-radius:50%;background:var(--accent)}
+  .team-label{font-size:10.5px;line-height:1;text-transform:uppercase;letter-spacing:.65px;color:var(--accent);font-weight:800;margin:12px 0 8px}
+  .team{display:flex;flex-direction:column}
+  .member{display:grid;grid-template-columns:124px 1fr;grid-template-rows:auto auto;padding:13px 0;border-bottom:1px solid var(--line)}
+  .member .name{grid-column:1;grid-row:1;font-size:17px;font-weight:800;margin-bottom:2px}
+  .member .role{grid-column:1;grid-row:2;font-size:9.5px;font-weight:800;color:var(--accent);text-transform:uppercase;letter-spacing:.45px;line-height:1.2}
+  .member ul{grid-column:2;grid-row:1 / span 2;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px 12px}
+  .member li{font-size:11.5px;line-height:1.32;color:#33373b;position:relative;padding-left:10px}
+  .member li::before{content:"";position:absolute;left:0;top:4px;width:4px;height:4px;border-radius:50%;background:#bcbcb6}
+  .one-head{margin-bottom:7px}
+  .one-title{font-size:20px;line-height:1.15;font-weight:800}
+  .g-banner{height:68px;overflow:hidden;position:relative;margin-bottom:10px;border-radius:5px;background:#dfe6df}
+  .g-banner img{position:absolute;width:710px;height:auto;left:-30px;top:-73px}
+  .one-main{display:grid;grid-template-columns:57% 43%;gap:14px}
+  .narrative{padding-top:2px}
+  .narrative p{font-size:12px;line-height:1.38;margin-bottom:13px;color:#303538}
+  .narrative strong{color:var(--accent);font-weight:800}
+  .traction{border:1px solid var(--line);border-top:4px solid var(--accent);background:var(--white);padding:12px}
+  .ks{font-size:11px;line-height:1;color:var(--accent);font-weight:800;letter-spacing:.55px;margin-bottom:12px}
+  .raised{font-size:28px;line-height:1.05;font-weight:800;letter-spacing:-.7px}
+  .rank{font-size:12px;line-height:1.2;color:#4b5053;margin:9px 0 13px}
+  .campaign{font-size:10.5px;line-height:1.25;color:#4b5053}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:11px}
+  .stat{border-top:1px solid var(--line);padding-top:5px}
+  .stat .value{font-size:12.5px;line-height:1.05;font-weight:800}
+  .stat .label{font-size:7.8px;line-height:1.2;color:var(--muted);margin-top:2px}
+  .spec-title{font-size:12px;line-height:1.1;color:var(--accent);font-weight:800;margin:12px 0 6px}
+  table{width:100%;border-collapse:collapse}
+  td{font-size:11.5px;line-height:1.2;padding:7px 0;border-bottom:1px solid var(--line)}
+  tr:first-child td{border-top:1px solid var(--line)}
+  td:first-child{width:68px;color:var(--muted)}
+  td:last-child{text-align:right;font-weight:600}
 </style>
 </head>
 <body>
 <main class="slide">
-  <h1>Company &amp; Team</h1>
-  <ul class="facts">
-    <li>Project initiated in April, 2022, ahead of the generative-AI wave.</li>
-    <li>Headquartered in Singapore, with offices in Beijing, Japan, and North America.</li>
-    <li>$100M+ raised to date, with a Series A round led by SIG (Susquehanna International Group), and a $50M round closed in April, 2026, backed by top-tier global investors and founders who shaped the consumer internet era.</li>
-  </ul>
-  <div class="team">
-    <div class="member">
-      <div class="name">Tim Gong</div>
-      <div class="role">Chairman of the Board</div>
-      <ul>
-        <li>Head of SIG Asia.</li>
-        <li>The sole investor in ByteDance for its first two rounds.</li>
+  <h1>Company &amp; Team · Milestones · <em>Olares One</em></h1>
+  <section class="timeline">
+    <div class="event"><div class="date">Apr 2022</div><div class="label">Development Initiated</div></div>
+    <div class="event"><div class="date">Aug 2023</div><div class="label">System Prototype Validated</div></div>
+    <div class="event"><div class="date">Apr 2024</div><div class="label">Olares OS 1.0 Released</div></div>
+    <div class="event"><div class="date">Aug 2025</div><div class="label">Olares OS 1.12.0 Released</div></div>
+    <div class="event"><div class="date">Dec 2025</div><div class="label">Olares One Launched on Kickstarter</div></div>
+    <div class="event"><div class="date">Jul 2026</div><div class="label">Olares OS 1.12.6 Released</div></div>
+  </section>
+  <section class="body">
+    <div class="company">
+      <div class="section-title">Company &amp; Team</div>
+      <ul class="facts">
+        <li>Project initiated in April, 2022, ahead of the generative-AI wave.</li>
+        <li>Headquartered in Singapore, with offices in Beijing, Japan, and North America.</li>
+        <li>$100M+ raised to date, with a Series A round led by SIG (Susquehanna International Group), and a $50M round closed in April, 2026, backed by top-tier global investors and founders who shaped the consumer internet era.</li>
       </ul>
+      <div class="team-label">Team</div>
+      <div class="team">
+        <div class="member">
+          <div class="name">Tim Gong</div>
+          <div class="role">Chairman of the Board</div>
+          <ul>
+            <li>Head of SIG Asia.</li>
+            <li>The sole investor in ByteDance for its first two rounds.</li>
+          </ul>
+        </div>
+        <div class="member">
+          <div class="name">Lucas Lu</div>
+          <div class="role">CEO</div>
+          <ul>
+            <li>Ph.D. in Particle Physics, SMU.</li>
+            <li>Former General Manager at Taobao Mobile, Alibaba.</li>
+            <li>Former CTO of LightInTheBox (NYSE-listed).</li>
+            <li>Founder of 5miles (O2O e-commerce).</li>
+          </ul>
+        </div>
+        <div class="member">
+          <div class="name">Peng Peng</div>
+          <div class="role">CTO</div>
+          <ul>
+            <li>B.S. Computer Science, ZJU.</li>
+            <li>Ex-Baidu, ex-Google.</li>
+            <li>Android ROM developer since 2009.</li>
+            <li>Former CTO of Doodle Mobile (500M+ downloads).</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="member">
-      <div class="name">Lucas Lu</div>
-      <div class="role">CEO</div>
-      <ul>
-        <li>Ph.D. in Particle Physics, SMU.</li>
-        <li>Former General Manager at Taobao Mobile, Alibaba.</li>
-        <li>Former CTO of LightInTheBox (NYSE-listed).</li>
-        <li>Founder of 5miles (O2O e-commerce).</li>
-      </ul>
+    <div class="one">
+      <div class="one-head">
+        <div class="one-title">Olares One: the "G1" for personal cloud</div>
+      </div>
+      <div class="g-banner">
+        <img src="/Users/pengpeng/.cursor/projects/Users-pengpeng-seo/assets/image-2715fd69-d1e4-4b07-99ab-48e6b993dbe3.png" alt="Google G1, G2 and G3 prototypes">
+      </div>
+      <div class="one-main">
+        <div class="narrative">
+          <p>In 2008, Google launched the G1, G2, and G3 prototypes with HTC before other manufacturers began producing Android phones.</p>
+          <p>We believe Olares is currently in its <strong>"Android 1.0" stage.</strong></p>
+          <p>By launching Olares One, we aim to promote the Olares system, validate the personal cloud market, and attract more developers to the ecosystem.</p>
+        </div>
+        <div class="traction">
+          <div class="ks">KICKSTARTER</div>
+          <div class="raised">US$2,343,324</div>
+          <div class="rank">NO.1 in Personal Cloud</div>
+          <div class="campaign">Olares One: World's Fastest Desktop AI Powerhouse</div>
+          <div class="stats">
+            <div class="stat"><div class="value">$2,999</div><div class="label">Kickstarter price</div></div>
+            <div class="stat"><div class="value">$3,999</div><div class="label">Retail price</div></div>
+            <div class="stat"><div class="value">1,000+</div><div class="label">Units sold</div></div>
+            <div class="stat"><div class="value">0%</div><div class="label">Returns</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="spec-title">Hardware specifications</div>
+      <table>
+        <tr><td>CPU</td><td>Intel&reg; Ultra 9 275HX 24 Cores, 5.4GHz</td></tr>
+        <tr><td>GPU</td><td>NVIDIA GeForce RTX 5090 Mobile 24GB GDDR7</td></tr>
+        <tr><td>Memory</td><td>96GB RAM (2&times;48GB) DDR5 5600MHz</td></tr>
+        <tr><td>Storage</td><td>2TB NVMe SSD PCIe 4.0</td></tr>
+        <tr><td>Form factor</td><td>3.5L · 320&times;197&times;55mm · 2.15kg</td></tr>
+        <tr><td>Acoustics</td><td>19dB idle · 38.8dB at full load</td></tr>
+      </table>
     </div>
-    <div class="member">
-      <div class="name">Peng Peng</div>
-      <div class="role">CTO</div>
-      <ul>
-        <li>B.S. Computer Science, ZJU.</li>
-        <li>Ex-Baidu, ex-Google.</li>
-        <li>Android ROM developer since 2009.</li>
-        <li>Former CTO of Doodle Mobile (500M+ downloads).</li>
-      </ul>
-    </div>
-  </div>
+  </section>
 </main>
 </body>
 </html>

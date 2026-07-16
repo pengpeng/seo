@@ -1,4 +1,4 @@
-# The Era of Personal Cloud (Cover)
+# The Era of Personal Cloud & AI NAS (Cover)
 
 > Olares × Intel external collaboration PPT, slide 1 (cover / opening). English content source for HTML.
 > Source: `Olares x Intel.pptx`, slide 1. Snapshot 2026-07; re-verify before publishing.
@@ -9,7 +9,7 @@
 
 ### Title
 
-**The Era of Personal Cloud**
+**The Era of Personal Cloud & AI NAS**
 
 ### Brand
 
@@ -17,7 +17,7 @@ intel® × Olares
 
 ### Footer
 
-Peng Peng, CTO at Olares · July 2026
+Peng Peng, Founder & CTO at Olares · July 2026
 
 ---
 

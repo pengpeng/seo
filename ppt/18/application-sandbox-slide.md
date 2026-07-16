@@ -8,7 +8,7 @@
 
 ### 标题
 
-主标题：**Olares OS Sandboxes Every User, Application and Agent**（`Olares OS` 绿色高亮，点明被隔离的三个对象）
+主标题：**Sandboxes Every User, Application and Agent**（`Sandboxes` 绿色高亮）
 
 副标题：One multi-user device — users, applications and Agents run side by side, isolated by default and granted only what they declare.
 

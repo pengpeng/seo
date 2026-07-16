@@ -9,13 +9,15 @@
 
 ### Title
 
-**Olares Audiences: Prosumers, Small Businesses, and Smart Homes**
+**Who Olares Is For**
+
+**Subtitle:** Prosumers, small businesses, and smart homes share one need: powerful local AI without surrendering control.
 
 ### Three segments
 
-- **SMB**: People access one Olares device as a shared AI workstation, or scale compute horizontally across heterogeneous hardware with unified GPU scheduling.
-- **Prosumer**: Individual professionals and one-person companies running AI-powered workflows locally without cloud subscriptions.
-- **Home**: Individuals or families centralizing smart home, private media, and gaming into a single local device that keeps data on-premise.
+- **Small Business — Shared intelligence**: Use one Olares device as a shared AI workstation, or scale across heterogeneous hardware with unified GPU scheduling.
+- **Prosumer — Independent work**: Run AI-powered professional and one-person-company workflows locally, without cloud subscriptions.
+- **Smart Home — Private everyday life**: Bring smart home, private media, and gaming onto one local device that keeps household data on-premise.
 
 ### A Growing Ecosystem of Community Apps
 
@@ -30,5 +32,6 @@
 
 ## Working notes
 
-- Three audience cards on top (orange top border) + a 4×4 app-ecosystem table below.
-- App names in orange, categories in ink; the table is dense, with font size floored at readability.
+- Short title and 14px subtitle above one continuous three-column audience band.
+- Full-width 4×4 ecosystem table below; app names and structural rules use Olares green.
+- Visible text stays at or above the 10.5px design-system minimum.
