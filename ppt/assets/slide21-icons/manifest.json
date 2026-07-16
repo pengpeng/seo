@@ -1,0 +1,208 @@
+{
+  "slide": 21,
+  "generated_at": "2026-07-15",
+  "usage": "Presentation-only brand and project identification",
+  "notes": [
+    "Logos remain trademarks of their respective owners.",
+    "Hardware logos identify the vendor; model text identifies the specific product.",
+    "The hardware set expresses the target ecosystem and does not imply equal current Olares support maturity."
+  ],
+  "items": [
+    {
+      "display_name": "Qwen3 / Qwen3-TTS",
+      "group": "models",
+      "file": "models/qwen.png",
+      "source": "https://avatars.githubusercontent.com/u/141221163?v=4",
+      "source_owner": "QwenLM"
+    },
+    {
+      "display_name": "Gemma 4",
+      "group": "models",
+      "file": "models/gemma.png",
+      "source": "https://github.com/google-gemma.png",
+      "source_owner": "Google Gemma"
+    },
+    {
+      "display_name": "Ornith 1.0",
+      "group": "models",
+      "file": "models/ornith.png",
+      "source": "https://github.com/deepreinforce-ai.png",
+      "source_owner": "deepreinforce.ai"
+    },
+    {
+      "display_name": "FLUX.2",
+      "group": "models",
+      "file": "models/flux.png",
+      "source": "https://avatars.githubusercontent.com/u/164064024?v=4",
+      "source_owner": "black-forest-labs"
+    },
+    {
+      "display_name": "Wan 2.2",
+      "group": "models",
+      "file": "models/wan.png",
+      "source": "https://avatars.githubusercontent.com/u/200620180?v=4",
+      "source_owner": "Wan-Video"
+    },
+    {
+      "display_name": "Hunyuan3D 2.1",
+      "group": "models",
+      "file": "models/hunyuan3d.png",
+      "source": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/hunyuan3dv21/icon.png",
+      "source_owner": "Olares Market / Tencent Hunyuan"
+    },
+    {
+      "display_name": "Qwen3-ASR 1.7B",
+      "group": "models",
+      "file": "models/qwen3-asr.png",
+      "source": "https://avatars.githubusercontent.com/u/141221163?v=4",
+      "source_owner": "QwenLM"
+    },
+    {
+      "display_name": "ACE-Step 1.5",
+      "group": "models",
+      "file": "models/ace-step.png",
+      "source": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/acestep/icon.png",
+      "source_owner": "Olares Market / ACE-Step"
+    },
+    {
+      "display_name": "Baidu Unlimited-OCR",
+      "group": "models",
+      "file": "models/baidu-ocr.png",
+      "source": "https://github.com/baidu.png",
+      "source_owner": "Baidu"
+    },
+    {
+      "display_name": "BGE-M3",
+      "group": "models",
+      "file": "models/bge-m3.png",
+      "source": "https://github.com/FlagOpen.png",
+      "source_owner": "BAAI / FlagOpen"
+    },
+    {
+      "display_name": "Tencent Hy-MT2",
+      "group": "models",
+      "file": "models/hy-mt2.png",
+      "source": "https://github.com/Tencent.png",
+      "source_owner": "Tencent"
+    },
+    {
+      "display_name": "Z-Image",
+      "group": "models",
+      "file": "models/z-image.png",
+      "source": "https://github.com/Tongyi-MAI.png",
+      "source_owner": "Tongyi-MAI"
+    },
+    {
+      "display_name": "Ideogram 4",
+      "group": "models",
+      "file": "models/ideogram.png",
+      "source": "https://github.com/ideogram-oss.png",
+      "source_owner": "Ideogram"
+    },
+    {
+      "display_name": "MiniCPM-o 4.5",
+      "group": "models",
+      "file": "models/minicpm-o.png",
+      "source": "https://github.com/OpenBMB.png",
+      "source_owner": "OpenBMB"
+    },
+    {
+      "display_name": "llama.cpp",
+      "group": "software",
+      "file": "software/llama-cpp.png",
+      "source": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/llamacpp/icon.png",
+      "source_owner": "Olares Market / llama.cpp"
+    },
+    {
+      "display_name": "vLLM",
+      "group": "software",
+      "file": "software/vllm.png",
+      "source": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/vllm/icon.png",
+      "source_owner": "Olares Market / vLLM"
+    },
+    {
+      "display_name": "SGLang",
+      "group": "software",
+      "file": "software/sglang.png",
+      "source": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/sglang/icon.png",
+      "source_owner": "Olares Market / SGLang"
+    },
+    {
+      "display_name": "Ollama",
+      "group": "software",
+      "file": "software/ollama.png",
+      "source": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/ollama/icon.png",
+      "source_owner": "Olares Market / Ollama"
+    },
+    {
+      "display_name": "OpenVINO",
+      "group": "software",
+      "file": "software/openvino.png",
+      "source": "https://avatars.githubusercontent.com/u/55443902?v=4",
+      "source_owner": "openvinotoolkit"
+    },
+    {
+      "display_name": "ComfyUI",
+      "group": "software",
+      "file": "software/comfyui.png",
+      "source": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/comfyui/icon.png",
+      "source_owner": "Olares Market / ComfyUI"
+    },
+    {
+      "display_name": "Xinference",
+      "group": "software",
+      "file": "software/xinference.png",
+      "source": "ppt/assets/olares-market-icons/xinference.png",
+      "source_owner": "Olares Market / Xinference"
+    },
+    {
+      "display_name": "LocalAI",
+      "group": "software",
+      "file": "../olares-market-icons/localai.png",
+      "source": "ppt/assets/olares-market-icons/localai.png",
+      "source_owner": "Olares Market / LocalAI"
+    },
+    {
+      "display_name": "KoboldCpp",
+      "group": "software",
+      "file": "../olares-market-icons/koboldcpp.png",
+      "source": "ppt/assets/olares-market-icons/koboldcpp.png",
+      "source_owner": "Olares Market / KoboldCpp"
+    },
+    {
+      "display_name": "Speaches",
+      "group": "software",
+      "file": "../olares-market-icons/speaches.png",
+      "source": "ppt/assets/olares-market-icons/speaches.png",
+      "source_owner": "Olares Market / Speaches"
+    },
+    {
+      "display_name": "Intel",
+      "group": "hardware",
+      "file": "hardware/intel.svg",
+      "source": "https://cdn.simpleicons.org/intel",
+      "source_owner": "Simple Icons / Intel"
+    },
+    {
+      "display_name": "NVIDIA",
+      "group": "hardware",
+      "file": "hardware/nvidia.svg",
+      "source": "https://cdn.simpleicons.org/nvidia",
+      "source_owner": "Simple Icons / NVIDIA"
+    },
+    {
+      "display_name": "AMD",
+      "group": "hardware",
+      "file": "hardware/amd.svg",
+      "source": "https://cdn.simpleicons.org/amd",
+      "source_owner": "Simple Icons / AMD"
+    },
+    {
+      "display_name": "Apple",
+      "group": "hardware",
+      "file": "hardware/apple.svg",
+      "source": "https://cdn.simpleicons.org/apple",
+      "source_owner": "Simple Icons / Apple"
+    }
+  ]
+}

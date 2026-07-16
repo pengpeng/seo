@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1280, initial-scale=1">
+<title>Olares — Agent-Native OS</title>
+<style>
+  :root{
+    --ink:#171918;
+    --muted:#68706b;
+    --line:#d9ddd9;
+    --hair:#e7e6e1;
+    --line-strong:#a9c3b3;
+    --paper:#faf9f6;
+    --white:#ffffff;
+    --soft:#f1f3f0;
+    --green:#2f6f4f;
+    --green-dark:#214e38;
+    --green-soft:#e9f2ec;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:100%;height:100%;background:#353835}
+  .slide{
+    width:1280px;height:720px;overflow:hidden;background:var(--paper);color:var(--ink);
+    padding:24px 44px 18px;font-family:Inter,"Helvetica Neue",Arial,"PingFang SC",sans-serif;
+    display:grid;grid-template-rows:82px minmax(0,1fr);gap:8px
+  }
+  h1{
+    font-size:28px;line-height:1.08;letter-spacing:-.6px;font-weight:800;white-space:nowrap
+  }
+  h1 em{font-style:normal;color:var(--green)}
+  .subtitle{
+    margin-top:8px;font-size:13.5px;line-height:1.35;color:var(--muted);font-weight:500
+  }
+  .subtitle b{color:var(--green-dark);font-weight:800}
+  .main{
+    min-height:0;border-top:2px solid var(--green);padding-top:8px;
+    display:grid;grid-template-columns:7fr 3fr;gap:20px
+  }
+
+  .architecture{
+    min-width:0;min-height:0;display:grid;
+    grid-template-rows:68px 76px 124px 204px 74px;gap:8px
+  }
+  .layer{
+    min-width:0;position:relative;border:1px solid var(--line);border-radius:3px;
+    background:var(--white);display:grid;grid-template-columns:160px minmax(0,1fr)
+  }
+  .layer:not(:last-child)::after{
+    content:"";position:absolute;left:79px;bottom:-9px;width:1px;height:8px;background:var(--green)
+  }
+  .layer:not(:last-child)::before{
+    content:"";position:absolute;z-index:2;left:76px;bottom:-10px;
+    border-left:3px solid transparent;border-right:3px solid transparent;border-top:4px solid var(--green)
+  }
+  .layer-label{
+    min-width:0;border-right:1px solid var(--line);padding:10px 12px;
+    display:flex;flex-direction:column;justify-content:center
+  }
+  .kicker{
+    font-size:8px;line-height:1;color:var(--green);font-weight:800;
+    letter-spacing:.7px;text-transform:uppercase
+  }
+  .layer-label h2{margin-top:6px;font-size:13px;line-height:1.08;font-weight:800}
+  .layer-label p{margin-top:5px;font-size:9.5px;line-height:1.18;color:var(--muted)}
+  .layer-body{min-width:0;padding:9px 12px}
+
+  .devices{border-style:dashed;background:rgba(255,255,255,.62)}
+  .devices .layer-label{padding:8px 12px}
+  .devices .layer-label h2{margin-top:4px}
+  .devices .layer-label p{margin-top:3px;font-size:9px;line-height:1.1}
+  .devices .layer-body{padding:0 12px}
+  .device-row{height:100%;display:grid;grid-template-columns:repeat(6,1fr)}
+  .device{
+    border-left:1px solid var(--line);padding:0 9px;display:flex;align-items:center;
+    font-size:10px;line-height:1.1;font-weight:800
+  }
+  .device:first-child{border-left:0;padding-left:0}
+  .agent-access .layer-body{padding:8px 12px;display:grid;grid-template-rows:1fr 25px;gap:5px}
+  .agent-row{display:grid;grid-template-columns:repeat(5,1fr)}
+  .agent{
+    border-left:1px solid var(--line);padding:0 9px;display:flex;align-items:center;
+    font-size:10px;line-height:1.1;font-weight:800
+  }
+  .agent:first-child{border-left:0;padding-left:0}
+  .agent-contract{
+    border-top:1px solid var(--line-strong);padding-top:6px;
+    display:flex;align-items:center;justify-content:space-between;gap:15px
+  }
+  .agent-contract code{font-family:"SFMono-Regular",Consolas,monospace;font-size:9px}
+  .agent-contract b{font-size:9.5px;line-height:1.1;color:var(--green-dark)}
+  .agent-contract span{font-size:9px;line-height:1.1;color:#536159}
+  .agent-access{
+    border-color:var(--line-strong);background:var(--green-soft)
+  }
+  .agent-access .layer-label{border-color:var(--line-strong)}
+
+  .control .layer-label{justify-content:flex-start;padding-top:12px}
+  .control .layer-body{padding:0 12px;display:grid;grid-template-columns:1.03fr 1.02fr 1fr .95fr 1fr}
+  .control-item{
+    min-width:0;border-left:1px solid var(--line);padding:9px 7px 3px;
+    display:flex;flex-direction:column;justify-content:flex-start
+  }
+  .control-item:first-child{border-left:0;padding-left:0}
+  .control-item h3{font-size:11.5px;line-height:1.12;font-weight:800;color:var(--green-dark)}
+  .control-item p{margin-top:3px;font-size:10.5px;line-height:1.25;color:var(--muted)}
+  .control-item p strong{color:var(--green-dark);font-weight:800}
+
+  .runtime{
+    grid-template-columns:160px minmax(0,1fr);grid-template-rows:minmax(0,1fr)
+  }
+  .runtime .layer-label{
+    border-color:var(--line-strong);background:var(--green-soft);
+    justify-content:flex-start;padding-top:12px
+  }
+  .runtime .layer-label h2{font-size:14px;color:var(--green-dark)}
+  .runtime .layer-body{padding:0;display:grid;grid-template-columns:32fr 29fr 39fr}
+  .plane{min-width:0;padding:8px 12px}
+  .plane + .plane{border-left:1px solid var(--line)}
+  .plane-head{min-height:52px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+  .plane-head h3{font-size:16px;line-height:1.2;letter-spacing:-.15px;font-weight:800}
+  .plane-head p{margin-top:4px;font-size:10.5px;line-height:1.25;color:var(--muted)}
+
+  .tool-groups{margin-top:1px}
+  .tool-group{min-width:0;padding:5px 0}
+  .tool-group + .tool-group{border-top:1px solid var(--hair)}
+  .tool-group h4{font-size:10.5px;line-height:1.1;color:var(--green-dark);font-weight:800}
+  .tool-apps{margin-top:4px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 6px}
+  .tool-app{
+    min-width:0;display:grid;grid-template-columns:14px minmax(0,1fr);gap:4px;align-items:center;
+    font-size:9.5px;line-height:1.1;color:#414a44;font-weight:700
+  }
+  .tool-app img{width:14px;height:14px;object-fit:contain;border-radius:0;background:transparent}
+
+  .model-groups{margin-top:3px}
+  .model-group{min-width:0;padding:5px 0;display:grid;grid-template-columns:50px minmax(0,1fr);gap:5px}
+  .model-group + .model-group{border-top:1px solid var(--hair)}
+  .model-group h4{font-size:10.5px;line-height:1.15;color:var(--green-dark);font-weight:800}
+  .model-group p{font-size:10.5px;line-height:1.25;color:#484d51}
+
+  .context-row{margin-top:3px}
+  .context{padding:5px 0}
+  .context + .context{border-top:1px solid var(--hair)}
+  .context h4{font-size:10.5px;line-height:1.15;color:var(--green-dark);margin-bottom:4px}
+  .context-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px 0}
+  .context-item{min-width:0;padding:1px 5px 1px 0;font-size:10.5px;line-height:1.2;color:#484d51}
+  .context-item:nth-child(even){border-left:1px solid var(--hair);padding-left:7px;padding-right:0}
+
+  .foundation{background:var(--soft);border-color:#cdd2ce}
+  .foundation .layer-label{border-color:#cdd2ce}
+  .foundation .layer-body{
+    padding:0 12px;display:flex;align-items:center
+  }
+  .foundation-capabilities{
+    font-size:10px;line-height:1.2;font-weight:800;color:#38413b
+  }
+  /* ---- Right column: Agent-native capabilities ---- */
+  .highlights{
+    min-width:0;min-height:0;border-left:1px solid var(--hair);padding-left:20px;
+    display:grid;grid-template-rows:auto repeat(3,auto);align-content:space-between;gap:0
+  }
+  .highlights-lead{padding:2px 0 10px}
+  .highlights-lead h2{font-size:16px;line-height:1.2;letter-spacing:-.15px;font-weight:800}
+  .highlights-lead p{margin-top:6px;font-size:10.5px;line-height:1.4;color:#4e5d56}
+  .hl{
+    min-width:0;padding:10px 2px 8px 0;border-top:1px solid var(--hair)
+  }
+  .hl-num{margin-bottom:6px;font-size:10.5px;line-height:1;color:var(--green);font-weight:800;letter-spacing:.6px}
+  .hl h3{font-size:16px;line-height:1.2;letter-spacing:-.15px;font-weight:800;color:var(--green-dark)}
+  .hl p{margin-top:6px;font-size:10.5px;line-height:1.4;color:#484d51}
+  .hl strong{color:var(--green-dark);font-weight:800}
+  .hl code{font-family:"SFMono-Regular",Consolas,monospace;font-size:.92em;color:var(--green-dark)}
+</style>
+</head>
+<body>
+<main class="slide">
+  <header>
+    <h1>Olares: A <em>Natural-Language-Driven, Agent-Native OS</em></h1>
+    <div class="subtitle">Any compatible Agent can securely operate software, models and private context on infrastructure the user owns.</div>
+  </header>
+
+  <section class="main">
+    <section class="architecture" aria-label="Olares Agent architecture">
+      <section class="layer devices">
+        <div class="layer-label">
+          <span class="kicker">01</span>
+          <h2>Input Devices</h2>
+          <p>Always connected across devices.</p>
+        </div>
+        <div class="layer-body">
+          <div class="device-row">
+            <div class="device">Phone</div>
+            <div class="device">Computer</div>
+            <div class="device">Glasses</div>
+            <div class="device">Speaker</div>
+            <div class="device">Earbuds</div>
+            <div class="device">Watch</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="layer agent-access">
+        <div class="layer-label">
+          <span class="kicker">02</span>
+          <h2>Personal Agents</h2>
+          <p>Running on Olares or your own devices.</p>
+        </div>
+        <div class="layer-body">
+          <div class="agent-row">
+            <div class="agent">Claude Code</div>
+            <div class="agent">OpenClaw</div>
+            <div class="agent">Hermes Agent</div>
+            <div class="agent">Codex</div>
+            <div class="agent">Olares Ashia</div>
+          </div>
+          <div class="agent-contract">
+            <b>Any Agent + <code>olares-cli</code> / Skills → structured Olares operations</b>
+            <span>Within identity and permissions</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="layer control">
+        <div class="layer-label">
+          <span class="kicker">03</span>
+          <h2>Agent Orchestration</h2>
+          <p>Route, authorize and govern every request.</p>
+        </div>
+        <div class="layer-body">
+          <div class="control-item">
+            <h3>AI Router</h3>
+            <p>Give applications <strong>one interface</strong> to AI capabilities, routing requests across <strong>local and remote models</strong> while enforcing authorization and usage policies.</p>
+          </div>
+          <div class="control-item">
+            <h3>Agent Sandbox</h3>
+            <p>A <strong>VM-level sandbox</strong> lets each Agent use tools and models and manage user context in a <strong>controlled environment</strong> with explicit limits.</p>
+          </div>
+          <div class="control-item">
+            <h3>Agent Collaboration</h3>
+            <p>Use <strong>ACP</strong> to assign tasks, coordinate execution, collect results and monitor runtime state across multiple Agents as <strong>one workflow</strong>.</p>
+          </div>
+          <div class="control-item">
+            <h3>Observability</h3>
+            <p>Observe <strong>model and Agent usage</strong>, quotas, permissions, reliability, execution details and output quality over time for <strong>governance</strong>.</p>
+          </div>
+          <div class="control-item">
+            <h3>Learning loop</h3>
+            <p>Collect <strong>user feedback</strong> to <strong>refine context</strong>, improve local models and optimize Agent behavior through continued use without losing context.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="layer runtime">
+        <div class="layer-label">
+          <span class="kicker">04</span>
+          <h2>Agent Capability</h2>
+          <p>Three parallel capability planes complete the governed plan.</p>
+        </div>
+        <div class="layer-body">
+          <article class="plane">
+            <div class="plane-head">
+              <h3>Tools</h3>
+              <p>Applications give the Agent a digital and physical body.</p>
+            </div>
+            <div class="tool-groups">
+              <section class="tool-group">
+                <h4>Digital body</h4>
+                <div class="tool-apps">
+                  <span class="tool-app"><img src="../assets/slide22-icons/redroid.svg" alt="">redroid</span>
+                  <span class="tool-app"><img src="../assets/slide22-icons/chromium.svg" alt="">Chromium</span>
+                  <span class="tool-app"><img src="../assets/slide22-icons/windows-vm.svg" alt="">Windows VM</span>
+                  <span class="tool-app"><img src="../assets/slide22-icons/macos-vm.svg" alt="">macOS VM</span>
+                </div>
+              </section>
+              <section class="tool-group">
+                <h4>Physical world</h4>
+                <div class="tool-apps">
+                  <span class="tool-app"><img src="../assets/slide22-icons/home-assistant.svg" alt="">Home Assistant</span>
+                  <span class="tool-app"><img src="../assets/slide22-icons/reachy-mini.svg" alt="">Reachy Mini</span>
+                </div>
+              </section>
+              <section class="tool-group">
+                <h4>Tools</h4>
+                <div class="tool-apps">
+                  <span class="tool-app"><img src="../assets/slide22-icons/n8n.svg" alt="">n8n</span>
+                  <span class="tool-app"><img src="../assets/slide22-icons/nocodb.svg" alt="">NocoDB</span>
+                </div>
+              </section>
+            </div>
+          </article>
+
+          <article class="plane">
+            <div class="plane-head">
+              <h3>Models</h3>
+              <p>Multimodal intelligence lets the Agent reason across many media.</p>
+            </div>
+            <div class="model-groups">
+              <div class="model-group"><h4>Language</h4><p>LLM · Translation</p></div>
+              <div class="model-group"><h4>Vision</h4><p>Image · Video · OCR · 3D · World model</p></div>
+              <div class="model-group"><h4>Audio</h4><p>TTS · STT · Realtime voice · Music</p></div>
+              <div class="model-group"><h4>Retrieval</h4><p>Embedding</p></div>
+            </div>
+          </article>
+
+          <article class="plane">
+            <div class="plane-head">
+              <h3>Context System</h3>
+                      <p>User-owned data and organized knowledge ground every action.</p>
+            </div>
+            <div class="context-row">
+              <div class="context">
+                <h4>Knowledge Sources</h4>
+                <div class="context-list"><span class="context-item">Documents</span><span class="context-item">Notes &amp; wikis</span><span class="context-item">Saved content</span><span class="context-item">Connected SaaS</span></div>
+              </div>
+              <div class="context">
+                <h4>User Data</h4>
+                <div class="context-list"><span class="context-item">Email</span><span class="context-item">IM &amp; chat</span><span class="context-item">Contacts</span><span class="context-item">Calendar</span><span class="context-item">Photos &amp; video</span><span class="context-item">Health &amp; fitness</span></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="layer foundation">
+        <div class="layer-label">
+          <span class="kicker">05</span>
+          <h2>Olares Foundation</h2>
+          <p>Secure infrastructure for every Agent action.</p>
+        </div>
+        <div class="layer-body">
+          <div class="foundation-capabilities">Sandbox · App Lifecycle · Middleware · Accelerator · Network · Identity · Storage · Observability</div>
+        </div>
+      </section>
+    </section>
+
+    <aside class="highlights">
+      <div class="highlights-lead">
+        <h2>Olares Agent-Native Design Principles</h2>
+        <p>Agents need native system access, stable AI capabilities and durable user-owned context.</p>
+      </div>
+      <section class="hl">
+        <div class="hl-num">01</div>
+        <div>
+          <h3>Native system access, not GUI automation</h3>
+          <p>GUI Agents operate through pixels, the DOM or accessibility trees—interfaces designed for people and brittle for long, stateful work. <strong>Olares Skills expose intent-level workflows</strong>; <code>olares-cli</code> provides structured control of applications, files, settings and workloads, with JSON, logs, events and metrics closing the loop. This extends from daily operations to building, deploying and debugging Olares applications. <strong>Goal: harness engineering—Olares builds Olares.</strong></p>
+        </div>
+      </section>
+      <section class="hl">
+        <div class="hl-num">02</div>
+        <div>
+          <h3>One interface for each AI capability</h3>
+          <p>LLM access is converging on common APIs. Image, audio, translation, OCR and video models are not: each can require its own API, inference engine and runtime. For each AI domain, Olares <strong>standardizes the API, model download and inference-engine deployment</strong>, so an Agent can use one interface to call different models that provide the same capability.</p>
+        </div>
+      </section>
+      <section class="hl">
+        <div class="hl-num">03</div>
+        <div>
+          <h3>An always-on foundation for context</h3>
+          <p>There is no settled paradigm for a memory system that learns sustainably. Olares starts <strong>one layer below memory</strong>: collecting data scattered across devices, operating systems and services into a system that is always on and reachable from anywhere. With the <strong>underlying data preserved and kept private</strong>, users can try different memory systems without losing context or locking it into a single Agent.</p>
+        </div>
+      </section>
+    </aside>
+  </section>
+</main>
+</body>
+</html>

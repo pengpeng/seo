@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Olares — Five-Layer Personal Cloud OS</title>
+<style>
+  :root{
+    --ink:#141516;
+    --muted:#6b7076;
+    --line:#e7e6e1;
+    --line-strong:#b9cbbf;
+    --paper:#faf9f6;
+    --green:#2f6f4f;
+    --green-deep:#1f5038;
+    --green-soft:#eaf3ee;
+    --cloud:#f1f5f2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#343735}
+  .slide{
+    width:1280px;height:720px;overflow:hidden;position:relative;
+    padding:24px 44px 18px;background:var(--paper);color:var(--ink);
+    font-family:Inter,"Helvetica Neue",Arial,"PingFang SC",sans-serif;
+    display:grid;grid-template-rows:72px minmax(0,1fr);gap:8px
+  }
+  header{display:flex;align-items:flex-start}
+  .headline{max-width:1180px}
+  h1{font-size:28px;line-height:1.12;letter-spacing:-.4px;font-weight:800}
+  h1 em{font-style:normal;color:var(--green)}
+  .subtitle{margin-top:6px;font-size:14px;line-height:1.4;color:var(--muted)}
+
+  .architecture{
+    min-height:0;border-top:2px solid var(--green);
+    display:grid;grid-template-rows:40px repeat(5,minmax(0,1fr)) 36px
+  }
+  .table-head,.layer-row{
+    min-width:0;display:grid;grid-template-columns:17% 25% 36% 22%
+  }
+  .table-head{
+    align-items:end;border-bottom:1px solid var(--line)
+  }
+  .table-head div{
+    padding:0 12px 8px;font-size:11.5px;line-height:1.1;
+    text-transform:uppercase;letter-spacing:.6px;color:var(--green);font-weight:800
+  }
+  .table-head div:first-child{padding-left:0}
+  .table-head div + div{border-left:1px solid var(--line)}
+  .layer-row{
+    min-height:0;border-bottom:1px solid var(--line);position:relative
+  }
+  .layer-row:nth-of-type(odd){background:rgba(255,255,255,.45)}
+  .layer-row.platform,.layer-row.infrastructure{background:var(--cloud)}
+  .layer-row.platform{border-top:2px solid var(--line-strong)}
+  .cell{
+    min-width:0;padding:8px 12px;display:flex;flex-direction:column;
+    justify-content:center
+  }
+  .cell:first-child{padding-left:0}
+  .cell + .cell{border-left:1px solid var(--line)}
+  .group-label{
+    font-size:9.5px;line-height:1.1;text-transform:uppercase;letter-spacing:.7px;
+    color:var(--green);font-weight:800;margin-bottom:4px
+  }
+  .layer-name{
+    font-size:16px;line-height:1.14;letter-spacing:-.2px;font-weight:800;color:var(--ink)
+  }
+  .layer-tag{
+    display:inline-block;margin-top:4px;font-size:10px;line-height:1.2;
+    color:var(--green-deep);font-weight:800;letter-spacing:.45px;text-transform:uppercase
+  }
+  .cap-title{
+    font-size:12.5px;line-height:1.25;color:var(--ink);font-weight:800;margin-bottom:4px
+  }
+  .cap-list{font-size:11.5px;line-height:1.32;color:#4b5053}
+  .provides{font-size:12px;line-height:1.34;color:#34383a}
+  .provides b{color:var(--green-deep);font-weight:800}
+
+  .app-grid{display:flex;flex-wrap:wrap;gap:5px}
+  .app-chip{
+    height:25px;display:inline-flex;align-items:center;gap:5px;padding:2px 7px 2px 3px;
+    border:1px solid #deddd7;border-radius:7px;background:#fff;
+    font-size:10px;line-height:1;color:#414649;font-weight:700;white-space:nowrap
+  }
+  .app-chip img{
+    width:19px;height:19px;object-fit:cover;border-radius:5px;display:block
+  }
+  .stack-line{display:flex;align-items:center;flex-wrap:wrap;gap:5px}
+  .stack-logo{
+    height:25px;min-width:25px;display:inline-flex;align-items:center;justify-content:center
+  }
+  .stack-logo img{
+    display:block;height:25px;max-width:90px;object-fit:contain;border-radius:5px
+  }
+  .text-chip{
+    height:25px;display:inline-flex;align-items:center;padding:0 7px;
+    border:1px solid #d9ded9;border-radius:6px;background:#fff;
+    color:#3d4641;font-size:10px;line-height:1;font-weight:700;white-space:nowrap
+  }
+  .stack-more{
+    margin-top:5px;font-size:10.5px;line-height:1.25;color:#606568
+  }
+
+  .closing{
+    display:flex;align-items:center;justify-content:space-between;
+    border-top:1px solid var(--line);padding-top:7px
+  }
+  .license{
+    font-size:10.5px;line-height:1;text-transform:uppercase;letter-spacing:.65px;
+    color:var(--green);font-weight:800
+  }
+  .close-copy{
+    font-size:13px;line-height:1.2;color:#303436;font-weight:700
+  }
+  .close-copy b{color:var(--green-deep);font-weight:800}
+</style>
+</head>
+<body>
+<main class="slide">
+  <header>
+    <div class="headline">
+      <h1>Olares: An Open-Source, <em>Five-Layer Personal Cloud OS</em></h1>
+      <div class="subtitle">An Android-inspired application model on top of a cloud-native PaaS and IaaS—running on hardware the user owns.</div>
+    </div>
+  </header>
+
+  <section class="architecture">
+    <div class="table-head">
+      <div>Olares layer</div>
+      <div>Equivalent capabilities</div>
+      <div>Open-source + Olares-built stack</div>
+      <div>What this layer provides</div>
+    </div>
+
+    <article class="layer-row community">
+      <div class="cell">
+        <div class="group-label">Application OS</div>
+        <div class="layer-name">Community apps</div>
+      </div>
+      <div class="cell">
+        <div class="cap-title">Third-party apps + app marketplace</div>
+        <div class="cap-list">Android apps / Google Play · ChatGPT · Midjourney · Google Photos · Drive · Notion · Home Assistant Cloud</div>
+      </div>
+      <div class="cell">
+        <div class="app-grid">
+          <span class="app-chip"><img src="../assets/olares-market-icons/lobechat.png">LobeChat</span>
+          <span class="app-chip"><img src="../assets/olares-market-icons/dify.png">Dify</span>
+          <span class="app-chip"><img src="../assets/olares-market-icons/comfyui.png">ComfyUI</span>
+          <span class="app-chip"><img src="../assets/olares-market-icons/immich.png">Immich</span>
+          <span class="app-chip"><img src="../assets/olares-market-icons/nextcloud.png">Nextcloud</span>
+          <span class="app-chip"><img src="../assets/olares-market-icons/homeassistant.png">Home Assistant</span>
+        </div>
+        <div class="stack-more">LLM engine bases · Olares Market · Application Charts</div>
+      </div>
+      <div class="cell provides"><b>One format for a local SaaS and AI ecosystem.</b> Installable apps inherit the same identity, storage and resource model.</div>
+    </article>
+
+    <article class="layer-row built-in">
+      <div class="cell">
+        <div class="layer-name">Built-in apps</div>
+      </div>
+      <div class="cell">
+        <div class="cap-title">System applications</div>
+        <div class="cap-list">Android System Apps · Drive / Dropbox · 1Password · Pocket / Feedly · cloud consoles and app stores</div>
+      </div>
+      <div class="cell">
+        <div class="app-grid">
+          <span class="app-chip"><img src="../assets/olares-homepage-assets/desktop.png">Desktop</span>
+          <span class="app-chip"><img src="../assets/olares-market-icons/files.png">Files</span>
+          <span class="app-chip"><img src="../assets/olares-market-icons/appstore.png">Market</span>
+          <span class="app-chip"><img src="../assets/olares-market-icons/settings.png">Settings</span>
+          <span class="app-chip"><img src="../assets/olares-market-icons/dashboard.png">Dashboard</span>
+          <span class="app-chip"><img src="../assets/olares-market-icons/control-hub.png">Control Hub</span>
+          <span class="app-chip"><img src="../assets/olares-market-icons/vault.png">Vault</span>
+          <span class="app-chip"><img src="../assets/olares-market-icons/wise.png">Wise</span>
+          <span class="app-chip"><img src="../assets/olares-homepage-assets/studio.png">Studio</span>
+        </div>
+      </div>
+      <div class="cell provides"><b>Ready from first boot.</b> Files, identity, knowledge, monitoring, system control and app development share one experience.</div>
+    </article>
+
+    <article class="layer-row framework">
+      <div class="cell">
+        <div class="layer-name">Framework</div>
+      </div>
+      <div class="cell">
+        <div class="cap-title">Permissions, identity + app lifecycle</div>
+        <div class="cap-list">Android Application Framework · AWS IAM / Cognito · API Gateway · App Runner / Elastic Beanstalk</div>
+      </div>
+      <div class="cell">
+        <div class="stack-line">
+          <span class="text-chip">OlaresManifest</span>
+          <span class="text-chip">app-service</span>
+          <span class="text-chip">system-server</span>
+          <span class="text-chip">bfl</span>
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/authelia.png"></span>
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/lldap.png"></span>
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/open-policy-agent.png"></span>
+        </div>
+      </div>
+      <div class="cell provides"><b>Apps become governed system citizens.</b> Lifecycle, permissions, SSO, entrances and inter-app calls are managed centrally.</div>
+    </article>
+
+    <article class="layer-row platform">
+      <div class="cell">
+        <div class="group-label">Cloud-native foundation</div>
+        <div class="layer-name">Platform</div>
+        <span class="layer-tag">PaaS</span>
+      </div>
+      <div class="cell">
+        <div class="cap-title">Reusable managed services</div>
+        <div class="cap-list">AWS RDS · ElastiCache · SQS / SNS · S3 / EFS · CloudWatch · AWS Backup</div>
+      </div>
+      <div class="cell">
+        <div class="stack-line">
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/postgresql.png"></span>
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/kvrocks.png"></span>
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/nats.png"></span>
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/juicefs.png"></span>
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/prometheus.png"></span>
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/velero.png"></span>
+          <span class="text-chip">TAPR</span>
+        </div>
+      </div>
+      <div class="cell provides"><b>Shared services instead of repeated plumbing.</b> Every app can reuse data, middleware, files, backup and observability.</div>
+    </article>
+
+    <article class="layer-row infrastructure">
+      <div class="cell">
+        <div class="layer-name">Infrastructure</div>
+        <span class="layer-tag">IaaS</span>
+      </div>
+      <div class="cell">
+        <div class="cap-title">Compute, cluster, network + storage</div>
+        <div class="cap-list">AWS EC2 · EKS · VPC · EBS / EFS · GPU instances</div>
+      </div>
+      <div class="cell">
+        <div class="stack-line">
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/kubernetes.png"></span>
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/k3s.png"></span>
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/containerd.png"></span>
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/helm.png"></span>
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/minio.png"></span>
+          <span class="stack-logo"><img src="../assets/olares-stack-icons/hami.png"></span>
+          <span class="text-chip">olaresd</span>
+          <span class="text-chip">olares-cli</span>
+        </div>
+      </div>
+      <div class="cell provides"><b>Hardware becomes a schedulable resource plane.</b> Compute, storage, networking, nodes and accelerators are orchestrated together.</div>
+    </article>
+  </section>
+</main>
+</body>
+</html>

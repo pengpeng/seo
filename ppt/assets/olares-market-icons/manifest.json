@@ -1,0 +1,3452 @@
+{
+  "source_repository": "https://github.com/Above-Os/static",
+  "source_branch": "main",
+  "source_commit": "33bd3257547e349f4f67aea61dde677cdea0ed4d",
+  "generated_at": "2026-07-15T05:10:35.078925+00:00",
+  "selection_priority": [
+    "png",
+    "webp",
+    "jpg",
+    "svg"
+  ],
+  "app_count": 333,
+  "icons": [
+    {
+      "app_id": "accounts",
+      "file": "accounts.png",
+      "format": "png",
+      "source_path": "data/appstore/accounts/icon.png",
+      "source_size": 7018,
+      "source_blob_sha": "4db03aa3b4621ca3fa69f2368aeb73385a5713fe",
+      "local_size": 7018,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/accounts/icon.png",
+      "classification": "system_app"
+    },
+    {
+      "app_id": "acestep",
+      "file": "acestep.png",
+      "format": "png",
+      "source_path": "data/appstore/acestep/icon.png",
+      "source_size": 1550,
+      "source_blob_sha": "c11948f6083ebeaa8f344689ba056d54a8fd1631",
+      "local_size": 1550,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/acestep/icon.png"
+    },
+    {
+      "app_id": "activepieces",
+      "file": "activepieces.png",
+      "format": "png",
+      "source_path": "data/appstore/activepieces/icon.png",
+      "source_size": 6076,
+      "source_blob_sha": "c332ca9e72d029c8992922a9701f3fa6a7c64630",
+      "local_size": 6076,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/activepieces/icon.png"
+    },
+    {
+      "app_id": "actualbudget",
+      "file": "actualbudget.png",
+      "format": "png",
+      "source_path": "data/appstore/actualbudget/icon.png",
+      "source_size": 42513,
+      "source_blob_sha": "1691e366ef97976ff206f0124bb0006ad91c4783",
+      "local_size": 42513,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/actualbudget/icon.png"
+    },
+    {
+      "app_id": "adguard",
+      "file": "adguard.png",
+      "format": "png",
+      "source_path": "data/appstore/adguard/icon.png",
+      "source_size": 3054,
+      "source_blob_sha": "a5c16ed125586855a934a94dc1d032c600d2eae7",
+      "local_size": 3054,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/adguard/icon.png"
+    },
+    {
+      "app_id": "adminconsole",
+      "file": "adminconsole.png",
+      "format": "png",
+      "source_path": "data/appstore/adminconsole/icon.png",
+      "source_size": 11588,
+      "source_blob_sha": "5d49b898a3b0351e6dfc968b02a8b8c1b15fbb48",
+      "local_size": 11588,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/adminconsole/icon.png",
+      "classification": "system_app"
+    },
+    {
+      "app_id": "affine",
+      "file": "affine.png",
+      "format": "png",
+      "source_path": "data/appstore/affine/icon.png",
+      "source_size": 23412,
+      "source_blob_sha": "326b8c470f1b4b36ff45b26397a974b0416af8e4",
+      "local_size": 23412,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/affine/icon.png"
+    },
+    {
+      "app_id": "agent",
+      "file": "agent.png",
+      "format": "png",
+      "source_path": "data/appstore/agent/icon.png",
+      "source_size": 7018,
+      "source_blob_sha": "4db03aa3b4621ca3fa69f2368aeb73385a5713fe",
+      "local_size": 7018,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/agent/icon.png"
+    },
+    {
+      "app_id": "agenticseek",
+      "file": "agenticseek.png",
+      "format": "png",
+      "source_path": "data/appstore/agenticseek/icon.png",
+      "source_size": 62508,
+      "source_blob_sha": "ed05f648442f6a68a7e690b44e2332d294821ccc",
+      "local_size": 62508,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/agenticseek/icon.png"
+    },
+    {
+      "app_id": "agentzero",
+      "file": "agentzero.png",
+      "format": "png",
+      "source_path": "data/appstore/agentzero/icon.png",
+      "source_size": 3455,
+      "source_blob_sha": "3805997bd4424e43ca66af0a3e919ed5a72663ed",
+      "local_size": 3455,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/agentzero/icon.png"
+    },
+    {
+      "app_id": "alist",
+      "file": "alist.png",
+      "format": "png",
+      "source_path": "data/appstore/alist/icon.png",
+      "source_size": 38941,
+      "source_blob_sha": "8f7570d2e4b4de0e8d83fbff58de924b5c77d08b",
+      "local_size": 38941,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/alist/icon.png"
+    },
+    {
+      "app_id": "alphafold3",
+      "file": "alphafold3.png",
+      "format": "png",
+      "source_path": "data/appstore/alphafold3/icon.png",
+      "source_size": 70666,
+      "source_blob_sha": "c7363eb503b731719a152ce0990a2001fc71b57e",
+      "local_size": 70666,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/alphafold3/icon.png"
+    },
+    {
+      "app_id": "analytics",
+      "file": "analytics.png",
+      "format": "png",
+      "source_path": "data/appstore/analytics/icon.png",
+      "source_size": 17530,
+      "source_blob_sha": "271ffd6318f4ed42801d861d11d550dacb89ad22",
+      "local_size": 17530,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/analytics/icon.png"
+    },
+    {
+      "app_id": "answer",
+      "file": "answer.png",
+      "format": "png",
+      "source_path": "data/appstore/answer/icon.png",
+      "source_size": 27561,
+      "source_blob_sha": "de6f94505eac38b84548a4fb1886d6e00b2e1ee1",
+      "local_size": 27561,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/answer/icon.png"
+    },
+    {
+      "app_id": "anythingllm",
+      "file": "anythingllm.png",
+      "format": "png",
+      "source_path": "data/appstore/anythingllm/icon.png",
+      "source_size": 57980,
+      "source_blob_sha": "9dd34347d1afb8fbfc224e0a78de20752882ea1a",
+      "local_size": 57980,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/anythingllm/icon.png"
+    },
+    {
+      "app_id": "appflowy",
+      "file": "appflowy.webp",
+      "format": "webp",
+      "source_path": "data/appstore/appflowy/icon.webp",
+      "source_size": 7126,
+      "source_blob_sha": "926df207b26173198b54548643d2428a42e9fd36",
+      "local_size": 7126,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/appflowy/icon.webp"
+    },
+    {
+      "app_id": "appsmith",
+      "file": "appsmith.png",
+      "format": "png",
+      "source_path": "data/appstore/appsmith/icon.png",
+      "source_size": 26930,
+      "source_blob_sha": "b591b6e65e3582fc8acafdafbc47b1149217351a",
+      "local_size": 26930,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/appsmith/icon.png"
+    },
+    {
+      "app_id": "appstore",
+      "file": "appstore.png",
+      "format": "png",
+      "source_path": "data/appstore/appstore/icon.png",
+      "source_size": 15610,
+      "source_blob_sha": "d0b347d8f49a9a7ce6d8fab1ba029c7d2c4fcefc",
+      "local_size": 15610,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/appstore/icon.png",
+      "classification": "built_in_app"
+    },
+    {
+      "app_id": "appwrite",
+      "file": "appwrite.png",
+      "format": "png",
+      "source_path": "data/appstore/appwrite/icon.png",
+      "source_size": 48121,
+      "source_blob_sha": "22045b8cca9e78bcf44d22576c968dd344a09b26",
+      "local_size": 48121,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/appwrite/icon.png"
+    },
+    {
+      "app_id": "astral",
+      "file": "astral.png",
+      "format": "png",
+      "source_path": "data/appstore/astral/icon.png",
+      "source_size": 4847,
+      "source_blob_sha": "628d8f20b1976b037371f4ec90ba060a85d6d876",
+      "local_size": 4847,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/astral/icon.png"
+    },
+    {
+      "app_id": "astrbot",
+      "file": "astrbot.png",
+      "format": "png",
+      "source_path": "data/appstore/astrbot/icon.png",
+      "source_size": 3872,
+      "source_blob_sha": "878ed91a07ffdfbe87db07f8bc73f552c7a5ef4b",
+      "local_size": 3872,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/astrbot/icon.png"
+    },
+    {
+      "app_id": "audiobookshelf",
+      "file": "audiobookshelf.png",
+      "format": "png",
+      "source_path": "data/appstore/audiobookshelf/icon.png",
+      "source_size": 4148,
+      "source_blob_sha": "04665db4cbabd27db233789d20d4e6259c1d5a4b",
+      "local_size": 4148,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/audiobookshelf/icon.png"
+    },
+    {
+      "app_id": "audius",
+      "file": "audius.png",
+      "format": "png",
+      "source_path": "data/appstore/audius/icon.png",
+      "source_size": 150798,
+      "source_blob_sha": "c48fe69eeb3ba3d1c83c2b6d2a1ee7a1ab5348fe",
+      "local_size": 150798,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/audius/icon.png"
+    },
+    {
+      "app_id": "autogen",
+      "file": "autogen.png",
+      "format": "png",
+      "source_path": "data/appstore/autogen/icon.png",
+      "source_size": 3352,
+      "source_blob_sha": "d533b59f27b7cc7ff752bf2b9652e18534e80a83",
+      "local_size": 3352,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/autogen/icon.png"
+    },
+    {
+      "app_id": "awesomedigitalhuman",
+      "file": "awesomedigitalhuman.png",
+      "format": "png",
+      "source_path": "data/appstore/awesomedigitalhuman/icon.png",
+      "source_size": 40570,
+      "source_blob_sha": "a8a2016a1605cc8db18becdfb6f67b954e6b3ecc",
+      "local_size": 40570,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/awesomedigitalhuman/icon.png"
+    },
+    {
+      "app_id": "babybuddy",
+      "file": "babybuddy.png",
+      "format": "png",
+      "source_path": "data/appstore/babybuddy/icon.png",
+      "source_size": 6020,
+      "source_blob_sha": "614b00eec807cac70674374ed40c01882f2d7b0d",
+      "local_size": 6020,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/babybuddy/icon.png"
+    },
+    {
+      "app_id": "backup",
+      "file": "backup.png",
+      "format": "png",
+      "source_path": "data/appstore/backup/icon.png",
+      "source_size": 39515,
+      "source_blob_sha": "4aebc52071ba7d75c22721b79d615531678422bc",
+      "local_size": 39515,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/backup/icon.png",
+      "classification": "system_app"
+    },
+    {
+      "app_id": "bazarr",
+      "file": "bazarr.png",
+      "format": "png",
+      "source_path": "data/appstore/bazarr/icon.png",
+      "source_size": 29350,
+      "source_blob_sha": "8bfb65409e7e56e2041025deda3b04963a0aaba7",
+      "local_size": 29350,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/bazarr/icon.png"
+    },
+    {
+      "app_id": "bentoml",
+      "file": "bentoml.png",
+      "format": "png",
+      "source_path": "data/appstore/bentoml/icon.png",
+      "source_size": 34960,
+      "source_blob_sha": "ea245c84140020244c6edfc36b6e01e3a46e6498",
+      "local_size": 34960,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/bentoml/icon.png"
+    },
+    {
+      "app_id": "bifrost",
+      "file": "bifrost.png",
+      "format": "png",
+      "source_path": "data/appstore/bifrost/icon.png",
+      "source_size": 1153,
+      "source_blob_sha": "7b1cd3988dcb6632dfd2967ca84a42210b75aafc",
+      "local_size": 1153,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/bifrost/icon.png"
+    },
+    {
+      "app_id": "bisheng",
+      "file": "bisheng.png",
+      "format": "png",
+      "source_path": "data/appstore/bisheng/icon.png",
+      "source_size": 2988,
+      "source_blob_sha": "333fef91fcadc9f309026b730e4f73a989f881d6",
+      "local_size": 2988,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/bisheng/icon.png"
+    },
+    {
+      "app_id": "bitcoin",
+      "file": "bitcoin.png",
+      "format": "png",
+      "source_path": "data/appstore/bitcoin/icon.png",
+      "source_size": 6590,
+      "source_blob_sha": "09a1f0c3badd167a1e57fa1d4ecc21d7b8b6ff2f",
+      "local_size": 6590,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/bitcoin/icon.png"
+    },
+    {
+      "app_id": "bitmagnet",
+      "file": "bitmagnet.png",
+      "format": "png",
+      "source_path": "data/appstore/bitmagnet/icon.png",
+      "source_size": 34164,
+      "source_blob_sha": "a090a375b3e772c9e333351374d728747a84cc88",
+      "local_size": 34164,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/bitmagnet/icon.png"
+    },
+    {
+      "app_id": "blinko",
+      "file": "blinko.png",
+      "format": "png",
+      "source_path": "data/appstore/blinko/icon.png",
+      "source_size": 63751,
+      "source_blob_sha": "daedbe5c0b728283c0c17c6ec0e419c9ab6c0618",
+      "local_size": 63751,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/blinko/icon.png"
+    },
+    {
+      "app_id": "bluesky",
+      "file": "bluesky.png",
+      "format": "png",
+      "source_path": "data/appstore/bluesky/icon.png",
+      "source_size": 29858,
+      "source_blob_sha": "0aaf273e2d7fcfa960c8b4ca82e0b4848ef87e8e",
+      "local_size": 29858,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/bluesky/icon.png"
+    },
+    {
+      "app_id": "bytebase",
+      "file": "bytebase.png",
+      "format": "png",
+      "source_path": "data/appstore/bytebase/icon.png",
+      "source_size": 37866,
+      "source_blob_sha": "2892129d78d740fd0bd70e4c6ed28bf04d1e9e78",
+      "local_size": 37866,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/bytebase/icon.png"
+    },
+    {
+      "app_id": "calcom",
+      "file": "calcom.png",
+      "format": "png",
+      "source_path": "data/appstore/calcom/icon.png",
+      "source_size": 63813,
+      "source_blob_sha": "e01c2f94aa92f49b4e6a0479e77239c02e7c264d",
+      "local_size": 63813,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/calcom/icon.png"
+    },
+    {
+      "app_id": "calendar",
+      "file": "calendar.png",
+      "format": "png",
+      "source_path": "data/appstore/calendar/icon.png",
+      "source_size": 33904,
+      "source_blob_sha": "73f9a758ff23c45f8c7c349932bb84811573c393",
+      "local_size": 33904,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/calendar/icon.png",
+      "classification": "system_app"
+    },
+    {
+      "app_id": "calibre",
+      "file": "calibre.png",
+      "format": "png",
+      "source_path": "data/appstore/calibre/icon.png",
+      "source_size": 66840,
+      "source_blob_sha": "4e09041875a8da56ef853e97662576916e9936e1",
+      "local_size": 66840,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/calibre/icon.png"
+    },
+    {
+      "app_id": "calibreweb",
+      "file": "calibreweb.png",
+      "format": "png",
+      "source_path": "data/appstore/calibreweb/icon.png",
+      "source_size": 3518,
+      "source_blob_sha": "769a1655426a4ce1163388c9872c5f2a37d2f80d",
+      "local_size": 3518,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/calibreweb/icon.png"
+    },
+    {
+      "app_id": "chaosmesh",
+      "file": "chaosmesh.png",
+      "format": "png",
+      "source_path": "data/appstore/chaosmesh/icon.png",
+      "source_size": 42832,
+      "source_blob_sha": "0f12c6b43edfd4c2da2755d02af380a93ff61248",
+      "local_size": 42832,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/chaosmesh/icon.png"
+    },
+    {
+      "app_id": "chatterbox",
+      "file": "chatterbox.png",
+      "format": "png",
+      "source_path": "data/appstore/chatterbox/icon.png",
+      "source_size": 3434,
+      "source_blob_sha": "b77900b6c21a94ab97165c583fb5d3e131fb0d94",
+      "local_size": 3434,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/chatterbox/icon.png"
+    },
+    {
+      "app_id": "chinesesubfinder",
+      "file": "chinesesubfinder.png",
+      "format": "png",
+      "source_path": "data/appstore/chinesesubfinder/icon.png",
+      "source_size": 22312,
+      "source_blob_sha": "b6d977c399d01c3ad17cee41b8d4728d6e02e582",
+      "local_size": 22312,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/chinesesubfinder/icon.png"
+    },
+    {
+      "app_id": "chromium",
+      "file": "chromium.png",
+      "format": "png",
+      "source_path": "data/appstore/chromium/icon.png",
+      "source_size": 56991,
+      "source_blob_sha": "5b426a12fc112041f653e95a6cc923a7d244fcc9",
+      "local_size": 56991,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/chromium/icon.png"
+    },
+    {
+      "app_id": "claudecode",
+      "file": "claudecode.png",
+      "format": "png",
+      "source_path": "data/appstore/claudecode/icon.png",
+      "source_size": 6571,
+      "source_blob_sha": "9a351c30f605b3e95b6dabf10fcc5648f327b266",
+      "local_size": 6571,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/claudecode/icon.png"
+    },
+    {
+      "app_id": "clawdbot",
+      "file": "clawdbot.png",
+      "format": "png",
+      "source_path": "data/appstore/clawdbot/icon.png",
+      "source_size": 65993,
+      "source_blob_sha": "ec1b6428f32a9e92562ae494285e0e64accd9abe",
+      "local_size": 65993,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/clawdbot/icon.png"
+    },
+    {
+      "app_id": "clickhouse",
+      "file": "clickhouse.png",
+      "format": "png",
+      "source_path": "data/appstore/clickhouse/icon.png",
+      "source_size": 1127,
+      "source_blob_sha": "84888741958b88ff3db4040b97889c21dd12b50a",
+      "local_size": 1127,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/clickhouse/icon.png"
+    },
+    {
+      "app_id": "cloudreve",
+      "file": "cloudreve.png",
+      "format": "png",
+      "source_path": "data/appstore/cloudreve/icon.png",
+      "source_size": 10826,
+      "source_blob_sha": "b57f3ecbe5f9c5c1fc864a13adee92f706e221ec",
+      "local_size": 10826,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/cloudreve/icon.png"
+    },
+    {
+      "app_id": "cmproxy",
+      "file": "cmproxy.png",
+      "format": "png",
+      "source_path": "data/appstore/cmproxy/icon.png",
+      "source_size": 30931,
+      "source_blob_sha": "590b3aae446015ce3212fc7835c4dfb48809a202",
+      "local_size": 30931,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/cmproxy/icon.png"
+    },
+    {
+      "app_id": "coder",
+      "file": "coder.png",
+      "format": "png",
+      "source_path": "data/appstore/coder/icon.png",
+      "source_size": 7281,
+      "source_blob_sha": "f4bf63ac306d5f844f5cab5374f90e79fe53441c",
+      "local_size": 7281,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/coder/icon.png"
+    },
+    {
+      "app_id": "codeserver",
+      "file": "codeserver.png",
+      "format": "png",
+      "source_path": "data/appstore/codeserver/icon.png",
+      "source_size": 5479,
+      "source_blob_sha": "57573371b109459ceb5524430e68175f26e4e84d",
+      "local_size": 5479,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/codeserver/icon.png"
+    },
+    {
+      "app_id": "codex",
+      "file": "codex.png",
+      "format": "png",
+      "source_path": "data/appstore/codex/icon.png",
+      "source_size": 36971,
+      "source_blob_sha": "048e272f61236b487e6514095aca6aeb5b594d75",
+      "local_size": 36971,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/codex/icon.png"
+    },
+    {
+      "app_id": "comfyui",
+      "file": "comfyui.png",
+      "format": "png",
+      "source_path": "data/appstore/comfyui/icon.png",
+      "source_size": 93889,
+      "source_blob_sha": "081d7039d4fbd16165e373c7bab20e3156decc8f",
+      "local_size": 93889,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/comfyui/icon.png"
+    },
+    {
+      "app_id": "console",
+      "file": "console.png",
+      "format": "png",
+      "source_path": "data/appstore/console/icon.png",
+      "source_size": 7534,
+      "source_blob_sha": "bc6976ac239e702bc9257dc03e0a1f3f5e37f8b6",
+      "local_size": 7534,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/console/icon.png"
+    },
+    {
+      "app_id": "context7",
+      "file": "context7.png",
+      "format": "png",
+      "source_path": "data/appstore/context7/icon.png",
+      "source_size": 3382,
+      "source_blob_sha": "8f60d28b5c7c05e5f1d02b98f08f8f972cf52cad",
+      "local_size": 3382,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/context7/icon.png"
+    },
+    {
+      "app_id": "control-hub",
+      "file": "control-hub.png",
+      "format": "png",
+      "source_path": "data/appstore/control-hub/icon.png",
+      "source_size": 14653,
+      "source_blob_sha": "ca21ca5b2c797e70f5693f0ed4d5f105b5a6115b",
+      "local_size": 14653,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/control-hub/icon.png",
+      "classification": "built_in_app"
+    },
+    {
+      "app_id": "coolify",
+      "file": "coolify.png",
+      "format": "png",
+      "source_path": "data/appstore/coolify/icon.png",
+      "source_size": 8543,
+      "source_blob_sha": "c39b7685ae70a2615bd6496a76f75695c9747a3c",
+      "local_size": 8543,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/coolify/icon.png"
+    },
+    {
+      "app_id": "coracle",
+      "file": "coracle.webp",
+      "format": "webp",
+      "source_path": "data/appstore/coracle/icon.webp",
+      "source_size": 7986,
+      "source_blob_sha": "afd0ed1369bcbeea8cb94dddd4b47d23bce7da03",
+      "local_size": 7986,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/coracle/icon.webp"
+    },
+    {
+      "app_id": "cosyvoice",
+      "file": "cosyvoice.png",
+      "format": "png",
+      "source_path": "data/appstore/cosyvoice/icon.png",
+      "source_size": 37996,
+      "source_blob_sha": "251c5fd2d9b4f58199722476f7baa99192595c45",
+      "local_size": 37996,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/cosyvoice/icon.png"
+    },
+    {
+      "app_id": "crawl4ai",
+      "file": "crawl4ai.png",
+      "format": "png",
+      "source_path": "data/appstore/crawl4ai/icon.png",
+      "source_size": 25535,
+      "source_blob_sha": "fd9681b5a877b68c308c743b4eb1c429f0067abd",
+      "local_size": 25535,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/crawl4ai/icon.png"
+    },
+    {
+      "app_id": "crewai",
+      "file": "crewai.png",
+      "format": "png",
+      "source_path": "data/appstore/crewai/icon.png",
+      "source_size": 37125,
+      "source_blob_sha": "4f251cbd0509d43de59fcbbc15bb60bb600977a8",
+      "local_size": 37125,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/crewai/icon.png"
+    },
+    {
+      "app_id": "cups",
+      "file": "cups.png",
+      "format": "png",
+      "source_path": "data/appstore/cups/icon.png",
+      "source_size": 7572,
+      "source_blob_sha": "bb71687e50de53a94d569c9b5a4e05f13eea9a9c",
+      "local_size": 7572,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/cups/icon.png"
+    },
+    {
+      "app_id": "dashboard",
+      "file": "dashboard.png",
+      "format": "png",
+      "source_path": "data/appstore/dashboard/icon.png",
+      "source_size": 18636,
+      "source_blob_sha": "1bf3940ae215cb1b88533977e110ca76d88a8086",
+      "local_size": 18636,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/dashboard/icon.png",
+      "classification": "built_in_app"
+    },
+    {
+      "app_id": "deepseekocr",
+      "file": "deepseekocr.png",
+      "format": "png",
+      "source_path": "data/appstore/deepseekocr/icon.png",
+      "source_size": 21434,
+      "source_blob_sha": "d4f79d1821cd6a29b3f2e05254000d8cfbabcac1",
+      "local_size": 21434,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/deepseekocr/icon.png"
+    },
+    {
+      "app_id": "deerflow",
+      "file": "deerflow.png",
+      "format": "png",
+      "source_path": "data/appstore/deerflow/icon.png",
+      "source_size": 63895,
+      "source_blob_sha": "4c9a4e2a362dd61878d40cf2f62dfa0741fcf618",
+      "local_size": 63895,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/deerflow/icon.png"
+    },
+    {
+      "app_id": "deluge",
+      "file": "deluge.png",
+      "format": "png",
+      "source_path": "data/appstore/deluge/icon.png",
+      "source_size": 67416,
+      "source_blob_sha": "39a54398169f11258c53d2b6c903beb84cf0cb7f",
+      "local_size": 67416,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/deluge/icon.png"
+    },
+    {
+      "app_id": "denny",
+      "file": "denny.png",
+      "format": "png",
+      "source_path": "data/appstore/denny/icon.png",
+      "source_size": 27712,
+      "source_blob_sha": "cf3e2c5d2b215b8f90d522df9190900413234af8",
+      "local_size": 27712,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/denny/icon.png"
+    },
+    {
+      "app_id": "denostr",
+      "file": "denostr.png",
+      "format": "png",
+      "source_path": "data/appstore/denostr/icon.png",
+      "source_size": 24682,
+      "source_blob_sha": "51c558afadbc7f5450c24a4561c47ed5261a3063",
+      "local_size": 24682,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/denostr/icon.png"
+    },
+    {
+      "app_id": "devbox",
+      "file": "devbox.png",
+      "format": "png",
+      "source_path": "data/appstore/devbox/icon.png",
+      "source_size": 55753,
+      "source_blob_sha": "8fe8259d169bab1eeb9dca34f6e6d81221615983",
+      "local_size": 55753,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/devbox/icon.png"
+    },
+    {
+      "app_id": "dia",
+      "file": "dia.png",
+      "format": "png",
+      "source_path": "data/appstore/dia/icon.png",
+      "source_size": 30956,
+      "source_blob_sha": "a6455885d5bc553829d03e05c528aee90b507cb1",
+      "local_size": 30956,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/dia/icon.png"
+    },
+    {
+      "app_id": "dify",
+      "file": "dify.png",
+      "format": "png",
+      "source_path": "data/appstore/dify/icon.png",
+      "source_size": 37576,
+      "source_blob_sha": "745ecc7853141b2dc396d0c1b202a619987fb051",
+      "local_size": 37576,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/dify/icon.png"
+    },
+    {
+      "app_id": "directus",
+      "file": "directus.png",
+      "format": "png",
+      "source_path": "data/appstore/directus/icon.png",
+      "source_size": 3688,
+      "source_blob_sha": "d25f870924bfcd05d1fb853a86c475eeab1904b3",
+      "local_size": 3688,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/directus/icon.png"
+    },
+    {
+      "app_id": "dman",
+      "file": "dman.png",
+      "format": "png",
+      "source_path": "data/appstore/dman/icon.png",
+      "source_size": 6905,
+      "source_blob_sha": "366e08b1668be22490998f6c8cd50f2a5e577c19",
+      "local_size": 6905,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/dman/icon.png"
+    },
+    {
+      "app_id": "docling",
+      "file": "docling.png",
+      "format": "png",
+      "source_path": "data/appstore/docling/icon.png",
+      "source_size": 48696,
+      "source_blob_sha": "72780afae8b99961be7cb484455812d552895f79",
+      "local_size": 48696,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/docling/icon.png"
+    },
+    {
+      "app_id": "docmost",
+      "file": "docmost.png",
+      "format": "png",
+      "source_path": "data/appstore/docmost/icon.png",
+      "source_size": 4595,
+      "source_blob_sha": "5836a9b577d6fe62da6fc6b95c1acc638a13d101",
+      "local_size": 4595,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/docmost/icon.png"
+    },
+    {
+      "app_id": "docs",
+      "file": "docs.png",
+      "format": "png",
+      "source_path": "data/appstore/docs/icon.png",
+      "source_size": 20427,
+      "source_blob_sha": "471806c561e53d3d4529856e61c5f6a0be7f16c9",
+      "local_size": 20427,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/docs/icon.png"
+    },
+    {
+      "app_id": "docspell",
+      "file": "docspell.png",
+      "format": "png",
+      "source_path": "data/appstore/docspell/icon.png",
+      "source_size": 33656,
+      "source_blob_sha": "a970090bf8e58dad625bb868b4faa2be828e0966",
+      "local_size": 33656,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/docspell/icon.png"
+    },
+    {
+      "app_id": "documenso",
+      "file": "documenso.png",
+      "format": "png",
+      "source_path": "data/appstore/documenso/icon.png",
+      "source_size": 21741,
+      "source_blob_sha": "3f83ecaa42577417aee3a1adfad7b3a317b92b71",
+      "local_size": 21741,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/documenso/icon.png"
+    },
+    {
+      "app_id": "docuseal",
+      "file": "docuseal.png",
+      "format": "png",
+      "source_path": "data/appstore/docuseal/icon.png",
+      "source_size": 34731,
+      "source_blob_sha": "cde68134d81551a220bd835f2b727282d98bba36",
+      "local_size": 34731,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/docuseal/icon.png"
+    },
+    {
+      "app_id": "dokploy",
+      "file": "dokploy.png",
+      "format": "png",
+      "source_path": "data/appstore/dokploy/icon.png",
+      "source_size": 36168,
+      "source_blob_sha": "eaf08c5fc4b5cc8716f187263e42e2fe9698abbe",
+      "local_size": 36168,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/dokploy/icon.png"
+    },
+    {
+      "app_id": "duplicati",
+      "file": "duplicati.png",
+      "format": "png",
+      "source_path": "data/appstore/duplicati/icon.png",
+      "source_size": 19009,
+      "source_blob_sha": "c9f907bab7e3c5e8454e95be6df50a534fcfcfd9",
+      "local_size": 19009,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/duplicati/icon.png"
+    },
+    {
+      "app_id": "echomimicv2",
+      "file": "echomimicv2.png",
+      "format": "png",
+      "source_path": "data/appstore/echomimicv2/icon.png",
+      "source_size": 44828,
+      "source_blob_sha": "ad231097d70fd1e2e6e1c4be0db164f759a10d73",
+      "local_size": 44828,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/echomimicv2/icon.png"
+    },
+    {
+      "app_id": "eigent",
+      "file": "eigent.png",
+      "format": "png",
+      "source_path": "data/appstore/eigent/icon.png",
+      "source_size": 6619,
+      "source_blob_sha": "966ce6f770ee05314ee185669e8f8eaf3fc96c5e",
+      "local_size": 6619,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/eigent/icon.png"
+    },
+    {
+      "app_id": "elasticsearch",
+      "file": "elasticsearch.png",
+      "format": "png",
+      "source_path": "data/appstore/elasticsearch/icon.png",
+      "source_size": 38234,
+      "source_blob_sha": "8b0f6a562d1d4e1dc81d67e2376ea1331c98748b",
+      "local_size": 38234,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/elasticsearch/icon.png"
+    },
+    {
+      "app_id": "element",
+      "file": "element.png",
+      "format": "png",
+      "source_path": "data/appstore/element/icon.png",
+      "source_size": 6737,
+      "source_blob_sha": "3c77939626411fa283f980f2feaf504115aeb30f",
+      "local_size": 6737,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/element/icon.png"
+    },
+    {
+      "app_id": "embeddinggemmav3",
+      "file": "embeddinggemmav3.png",
+      "format": "png",
+      "source_path": "data/appstore/embeddinggemmav3/icon.png",
+      "source_size": 70739,
+      "source_blob_sha": "3d2e2390df9e47a4de36e0a68759d1add6cf9e6d",
+      "local_size": 70739,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/embeddinggemmav3/icon.png"
+    },
+    {
+      "app_id": "emulatorjs",
+      "file": "emulatorjs.png",
+      "format": "png",
+      "source_path": "data/appstore/emulatorjs/icon.png",
+      "source_size": 39967,
+      "source_blob_sha": "5137d57645426ce8a39f28f4232a727b831d9ac8",
+      "local_size": 39967,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/emulatorjs/icon.png"
+    },
+    {
+      "app_id": "excalidraw",
+      "file": "excalidraw.png",
+      "format": "png",
+      "source_path": "data/appstore/excalidraw/icon.png",
+      "source_size": 43416,
+      "source_blob_sha": "319148d144a12d559a545b4786fa6dd79dfb24ca",
+      "local_size": 43416,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/excalidraw/icon.png"
+    },
+    {
+      "app_id": "facefusion",
+      "file": "facefusion.png",
+      "format": "png",
+      "source_path": "data/appstore/facefusion/icon.png",
+      "source_size": 33541,
+      "source_blob_sha": "bcd466ed35bdfc0fbf9a7a376d39022578f302f9",
+      "local_size": 33541,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/facefusion/icon.png"
+    },
+    {
+      "app_id": "factorio",
+      "file": "factorio.png",
+      "format": "png",
+      "source_path": "data/appstore/factorio/icon.png",
+      "source_size": 55249,
+      "source_blob_sha": "83d7815575317369687235d8faa9539398625520",
+      "local_size": 55249,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/factorio/icon.png"
+    },
+    {
+      "app_id": "falco",
+      "file": "falco.png",
+      "format": "png",
+      "source_path": "data/appstore/falco/icon.png",
+      "source_size": 3583,
+      "source_blob_sha": "0203291310db8661d62c1ccc41434505f270f71f",
+      "local_size": 3583,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/falco/icon.png"
+    },
+    {
+      "app_id": "farcaster",
+      "file": "farcaster.png",
+      "format": "png",
+      "source_path": "data/appstore/farcaster/icon.png",
+      "source_size": 2050,
+      "source_blob_sha": "38d1e77cef20a64da2863fb9ffd0910de722b5ab",
+      "local_size": 2050,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/farcaster/icon.png"
+    },
+    {
+      "app_id": "fasterwhisper",
+      "file": "fasterwhisper.png",
+      "format": "png",
+      "source_path": "data/appstore/fasterwhisper/icon.png",
+      "source_size": 38409,
+      "source_blob_sha": "10777512de6ed7a69beda9032d5cb89e156b7d77",
+      "local_size": 38409,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/fasterwhisper/icon.png"
+    },
+    {
+      "app_id": "fastgpt",
+      "file": "fastgpt.png",
+      "format": "png",
+      "source_path": "data/appstore/fastgpt/icon.png",
+      "source_size": 38488,
+      "source_blob_sha": "f9272ce9402a319982f93ada1b196886ad64f524",
+      "local_size": 38488,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/fastgpt/icon.png"
+    },
+    {
+      "app_id": "filebrowser",
+      "file": "filebrowser.png",
+      "format": "png",
+      "source_path": "data/appstore/filebrowser/icon.png",
+      "source_size": 8277,
+      "source_blob_sha": "17864d6f1ea553ea823999e83d4cf197a2959f1c",
+      "local_size": 8277,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/filebrowser/icon.png"
+    },
+    {
+      "app_id": "files",
+      "file": "files.png",
+      "format": "png",
+      "source_path": "data/appstore/files/icon.png",
+      "source_size": 12852,
+      "source_blob_sha": "7c29bd1a9f73f2bf8d5306e0610d0beba2b454e4",
+      "local_size": 12852,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/files/icon.png",
+      "classification": "built_in_app"
+    },
+    {
+      "app_id": "firecrawl",
+      "file": "firecrawl.png",
+      "format": "png",
+      "source_path": "data/appstore/firecrawl/icon.png",
+      "source_size": 4161,
+      "source_blob_sha": "32e9339f45e32cc6ce2cc42258215fda3a02295e",
+      "local_size": 4161,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/firecrawl/icon.png"
+    },
+    {
+      "app_id": "firefly",
+      "file": "firefly.png",
+      "format": "png",
+      "source_path": "data/appstore/firefly/icon.png",
+      "source_size": 40088,
+      "source_blob_sha": "85e720c01358f2d04736522cdc81977833072fff",
+      "local_size": 40088,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/firefly/icon.png"
+    },
+    {
+      "app_id": "firefox",
+      "file": "firefox.png",
+      "format": "png",
+      "source_path": "data/appstore/firefox/icon.png",
+      "source_size": 48738,
+      "source_blob_sha": "cf9f6269958f799aab1ee437041f4317142af5f5",
+      "local_size": 48738,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/firefox/icon.png"
+    },
+    {
+      "app_id": "fishspeech",
+      "file": "fishspeech.png",
+      "format": "png",
+      "source_path": "data/appstore/fishspeech/icon.png",
+      "source_size": 9970,
+      "source_blob_sha": "ac3329246128a7763db58a976a4246a7e1e45f6d",
+      "local_size": 9970,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/fishspeech/icon.png"
+    },
+    {
+      "app_id": "flaresolverr",
+      "file": "flaresolverr.png",
+      "format": "png",
+      "source_path": "data/appstore/flaresolverr/icon.png",
+      "source_size": 40480,
+      "source_blob_sha": "912542c8844f065a3bcdb2231a196e49f7aca6e9",
+      "local_size": 40480,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/flaresolverr/icon.png"
+    },
+    {
+      "app_id": "flowise",
+      "file": "flowise.png",
+      "format": "png",
+      "source_path": "data/appstore/flowise/icon.png",
+      "source_size": 26316,
+      "source_blob_sha": "31aac8eb8a1d19f1fcec9fe3438a1abfb132e15e",
+      "local_size": 26316,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/flowise/icon.png"
+    },
+    {
+      "app_id": "focalboard",
+      "file": "focalboard.png",
+      "format": "png",
+      "source_path": "data/appstore/focalboard/icon.png",
+      "source_size": 15806,
+      "source_blob_sha": "35389bd0584d148451c64ae0c32f9040dc1057f1",
+      "local_size": 15806,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/focalboard/icon.png"
+    },
+    {
+      "app_id": "follow",
+      "file": "follow.png",
+      "format": "png",
+      "source_path": "data/appstore/follow/icon.png",
+      "source_size": 6601,
+      "source_blob_sha": "6f801150742a8909f91d2a74122f1d4284c5e1f6",
+      "local_size": 6601,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/follow/icon.png"
+    },
+    {
+      "app_id": "forgejo",
+      "file": "forgejo.png",
+      "format": "png",
+      "source_path": "data/appstore/forgejo/icon.png",
+      "source_size": 20517,
+      "source_blob_sha": "54e0ed9ca86c34da3cd65cca6dc1fc8955dbde54",
+      "local_size": 20517,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/forgejo/icon.png"
+    },
+    {
+      "app_id": "formbricks",
+      "file": "formbricks.png",
+      "format": "png",
+      "source_path": "data/appstore/formbricks/icon.png",
+      "source_size": 48062,
+      "source_blob_sha": "e5e0b535fb445e3754a3d9a97813725fe3077c39",
+      "local_size": 48062,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/formbricks/icon.png"
+    },
+    {
+      "app_id": "freqtrade",
+      "file": "freqtrade.png",
+      "format": "png",
+      "source_path": "data/appstore/freqtrade/icon.png",
+      "source_size": 40235,
+      "source_blob_sha": "74e0285020d7e30c74f76d23ff30facc7bd4ba53",
+      "local_size": 40235,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/freqtrade/icon.png"
+    },
+    {
+      "app_id": "freshrss",
+      "file": "freshrss.png",
+      "format": "png",
+      "source_path": "data/appstore/freshrss/icon.png",
+      "source_size": 45583,
+      "source_blob_sha": "3cfb452079629e7420baf266dc8cd4b7185f1d7d",
+      "local_size": 45583,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/freshrss/icon.png"
+    },
+    {
+      "app_id": "frigate",
+      "file": "frigate.png",
+      "format": "png",
+      "source_path": "data/appstore/frigate/icon.png",
+      "source_size": 6793,
+      "source_blob_sha": "a40cdf7be1c57b5816aa2c996199c05afe4ba31d",
+      "local_size": 6793,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/frigate/icon.png"
+    },
+    {
+      "app_id": "funclip",
+      "file": "funclip.png",
+      "format": "png",
+      "source_path": "data/appstore/funclip/icon.png",
+      "source_size": 21129,
+      "source_blob_sha": "f91d85594957b40ba624bac466228bf5919aa6d3",
+      "local_size": 21129,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/funclip/icon.png"
+    },
+    {
+      "app_id": "gaianetai",
+      "file": "gaianetai.png",
+      "format": "png",
+      "source_path": "data/appstore/gaianetai/icon.png",
+      "source_size": 28502,
+      "source_blob_sha": "1b76b855176183e11decfca208363228324f606b",
+      "local_size": 28502,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/gaianetai/icon.png"
+    },
+    {
+      "app_id": "geth",
+      "file": "geth.png",
+      "format": "png",
+      "source_path": "data/appstore/geth/icon.png",
+      "source_size": 18081,
+      "source_blob_sha": "d35b6e0584fe6f50d58cc40a54d1c98f45e11d26",
+      "local_size": 18081,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/geth/icon.png"
+    },
+    {
+      "app_id": "ghost",
+      "file": "ghost.png",
+      "format": "png",
+      "source_path": "data/appstore/ghost/icon.png",
+      "source_size": 47414,
+      "source_blob_sha": "855255edcbaa81ed037b4cfc7d6e5d387ef0a246",
+      "local_size": 47414,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/ghost/icon.png"
+    },
+    {
+      "app_id": "gitea",
+      "file": "gitea.png",
+      "format": "png",
+      "source_path": "data/appstore/gitea/icon.png",
+      "source_size": 33736,
+      "source_blob_sha": "fe4add2f723405c7b6fee8c936df61507c7ed721",
+      "local_size": 33736,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/gitea/icon.png"
+    },
+    {
+      "app_id": "gitlab",
+      "file": "gitlab.png",
+      "format": "png",
+      "source_path": "data/appstore/gitlab/icon.png",
+      "source_size": 42663,
+      "source_blob_sha": "cd0cf410517d5d4a5c6167f4fdb78b372a5ef063",
+      "local_size": 42663,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/gitlab/icon.png"
+    },
+    {
+      "app_id": "gpustack",
+      "file": "gpustack.png",
+      "format": "png",
+      "source_path": "data/appstore/gpustack/icon.png",
+      "source_size": 10138,
+      "source_blob_sha": "c658757accb83192023feb60ff3f1d8dad7c3c71",
+      "local_size": 10138,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/gpustack/icon.png"
+    },
+    {
+      "app_id": "grafana",
+      "file": "grafana.png",
+      "format": "png",
+      "source_path": "data/appstore/grafana/icon.png",
+      "source_size": 17669,
+      "source_blob_sha": "b2a9d292825175f3ddc164aeb05cd5aaabe464de",
+      "local_size": 17669,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/grafana/icon.png"
+    },
+    {
+      "app_id": "grocy",
+      "file": "grocy.png",
+      "format": "png",
+      "source_path": "data/appstore/grocy/icon.png",
+      "source_size": 32876,
+      "source_blob_sha": "89829ee542b031968f300e2272ff6c257489f2bf",
+      "local_size": 32876,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/grocy/icon.png"
+    },
+    {
+      "app_id": "gumroad",
+      "file": "gumroad.png",
+      "format": "png",
+      "source_path": "data/appstore/gumroad/icon.png",
+      "source_size": 31975,
+      "source_blob_sha": "b8297bb7816227d5ee116163b3da4e96592ce4e7",
+      "local_size": 31975,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/gumroad/icon.png"
+    },
+    {
+      "app_id": "halo",
+      "file": "halo.png",
+      "format": "png",
+      "source_path": "data/appstore/halo/icon.png",
+      "source_size": 10134,
+      "source_blob_sha": "2a5202fcfb6834566405a5d7c6199f07d1d6fe3c",
+      "local_size": 10134,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/halo/icon.png"
+    },
+    {
+      "app_id": "hasura",
+      "file": "hasura.png",
+      "format": "png",
+      "source_path": "data/appstore/hasura/icon.png",
+      "source_size": 37868,
+      "source_blob_sha": "8dfdd5d74ceb092b25bc3cbfe318e14e07e46dbe",
+      "local_size": 37868,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/hasura/icon.png"
+    },
+    {
+      "app_id": "headscale",
+      "file": "headscale.png",
+      "format": "png",
+      "source_path": "data/appstore/headscale/icon.png",
+      "source_size": 7242,
+      "source_blob_sha": "d2f9dba3a8ee2dc58b098ea8fe3a502136f88420",
+      "local_size": 7242,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/headscale/icon.png"
+    },
+    {
+      "app_id": "hermesagent",
+      "file": "hermesagent.png",
+      "format": "png",
+      "source_path": "data/appstore/hermesagent/icon.png",
+      "source_size": 17417,
+      "source_blob_sha": "1811c9c4f8b531971168e0848e0e288088dafa1d",
+      "local_size": 17417,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/hermesagent/icon.png"
+    },
+    {
+      "app_id": "heygemai",
+      "file": "heygemai.png",
+      "format": "png",
+      "source_path": "data/appstore/heygemai/icon.png",
+      "source_size": 44312,
+      "source_blob_sha": "3d5cb1e037b86cb8bb66937c6c71c7aceb59e27d",
+      "local_size": 44312,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/heygemai/icon.png"
+    },
+    {
+      "app_id": "homeassistant",
+      "file": "homeassistant.png",
+      "format": "png",
+      "source_path": "data/appstore/homeassistant/icon.png",
+      "source_size": 4695,
+      "source_blob_sha": "d31f0e3ca56b697f25b6227e139a38201e138f30",
+      "local_size": 4695,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/homeassistant/icon.png"
+    },
+    {
+      "app_id": "homebox",
+      "file": "homebox.png",
+      "format": "png",
+      "source_path": "data/appstore/homebox/icon.png",
+      "source_size": 15100,
+      "source_blob_sha": "6139f36e0be22f443309893bb8e893039a4f8c5b",
+      "local_size": 15100,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/homebox/icon.png"
+    },
+    {
+      "app_id": "hoppscotch",
+      "file": "hoppscotch.png",
+      "format": "png",
+      "source_path": "data/appstore/hoppscotch/icon.png",
+      "source_size": 8202,
+      "source_blob_sha": "cdd0a32b4bee2e172d8b1e6fa3c018b9d476747a",
+      "local_size": 8202,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/hoppscotch/icon.png"
+    },
+    {
+      "app_id": "hunyuan3dv21",
+      "file": "hunyuan3dv21.png",
+      "format": "png",
+      "source_path": "data/appstore/hunyuan3dv21/icon.png",
+      "source_size": 10658,
+      "source_blob_sha": "4456421b1df2dded21b0686200385aedb410f184",
+      "local_size": 10658,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/hunyuan3dv21/icon.png"
+    },
+    {
+      "app_id": "immich",
+      "file": "immich.png",
+      "format": "png",
+      "source_path": "data/appstore/immich/icon.png",
+      "source_size": 18077,
+      "source_blob_sha": "949624110a82b00840649155305e9fe020931e64",
+      "local_size": 18077,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/immich/icon.png"
+    },
+    {
+      "app_id": "indextts",
+      "file": "indextts.png",
+      "format": "png",
+      "source_path": "data/appstore/indextts/icon.png",
+      "source_size": 35914,
+      "source_blob_sha": "cf5a7c148fb2c51d1958aac1bd681d997b35174f",
+      "local_size": 35914,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/indextts/icon.png"
+    },
+    {
+      "app_id": "ipfs",
+      "file": "ipfs.png",
+      "format": "png",
+      "source_path": "data/appstore/ipfs/icon.png",
+      "source_size": 50836,
+      "source_blob_sha": "40a51271453731d7674d34444a0f2ebba129e970",
+      "local_size": 50836,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/ipfs/icon.png"
+    },
+    {
+      "app_id": "isaaclab",
+      "file": "isaaclab.png",
+      "format": "png",
+      "source_path": "data/appstore/isaaclab/icon.png",
+      "source_size": 61906,
+      "source_blob_sha": "15817be13d06c23ebb7e5b0e3fde3c87e9ee2078",
+      "local_size": 61906,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/isaaclab/icon.png"
+    },
+    {
+      "app_id": "jaaz",
+      "file": "jaaz.png",
+      "format": "png",
+      "source_path": "data/appstore/jaaz/icon.png",
+      "source_size": 9323,
+      "source_blob_sha": "8a8e5bd426cec88a22b81f790a069a831ce5ad9d",
+      "local_size": 9323,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/jaaz/icon.png"
+    },
+    {
+      "app_id": "jackett",
+      "file": "jackett.png",
+      "format": "png",
+      "source_path": "data/appstore/jackett/icon.png",
+      "source_size": 7107,
+      "source_blob_sha": "e38a85dddf394cecdbde443e9da55b94e61ede75",
+      "local_size": 7107,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/jackett/icon.png"
+    },
+    {
+      "app_id": "jaeger",
+      "file": "jaeger.png",
+      "format": "png",
+      "source_path": "data/appstore/jaeger/icon.png",
+      "source_size": 58854,
+      "source_blob_sha": "105544e946e4664514765e527b9d865f1bcf4d61",
+      "local_size": 58854,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/jaeger/icon.png"
+    },
+    {
+      "app_id": "jdownloader2",
+      "file": "jdownloader2.png",
+      "format": "png",
+      "source_path": "data/appstore/jdownloader2/icon.png",
+      "source_size": 72081,
+      "source_blob_sha": "a3c73618ac58122fe138c14d9b874985388da195",
+      "local_size": 72081,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/jdownloader2/icon.png"
+    },
+    {
+      "app_id": "jellyfin",
+      "file": "jellyfin.png",
+      "format": "png",
+      "source_path": "data/appstore/jellyfin/icon.png",
+      "source_size": 16126,
+      "source_blob_sha": "3225bd657b6168fe41fb4ecc05a7b67392eede0e",
+      "local_size": 16126,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/jellyfin/icon.png"
+    },
+    {
+      "app_id": "jinaclipv2",
+      "file": "jinaclipv2.png",
+      "format": "png",
+      "source_path": "data/appstore/jinaclipv2/icon.png",
+      "source_size": 38500,
+      "source_blob_sha": "0207d385900761447be581f985f5a658bef56ae8",
+      "local_size": 38500,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/jinaclipv2/icon.png"
+    },
+    {
+      "app_id": "joplin",
+      "file": "joplin.png",
+      "format": "png",
+      "source_path": "data/appstore/joplin/icon.png",
+      "source_size": 10906,
+      "source_blob_sha": "cbcc69ffd9603a0996223bc3aee7cff427bc0d10",
+      "local_size": 10906,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/joplin/icon.png"
+    },
+    {
+      "app_id": "jsonhero",
+      "file": "jsonhero.png",
+      "format": "png",
+      "source_path": "data/appstore/jsonhero/icon.png",
+      "source_size": 3999,
+      "source_blob_sha": "9e5ff54f81baf3d98a9dad04e12afe0f072088e9",
+      "local_size": 3999,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/jsonhero/icon.png"
+    },
+    {
+      "app_id": "jupyterhub",
+      "file": "jupyterhub.png",
+      "format": "png",
+      "source_path": "data/appstore/jupyterhub/icon.png",
+      "source_size": 37655,
+      "source_blob_sha": "d24112a01b31c6afefbcd61a81cf99036af30024",
+      "local_size": 37655,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/jupyterhub/icon.png"
+    },
+    {
+      "app_id": "karakeep",
+      "file": "karakeep.png",
+      "format": "png",
+      "source_path": "data/appstore/karakeep/icon.png",
+      "source_size": 1794,
+      "source_blob_sha": "42351b1f0768a8548ce59d8dff3fe999f99e272d",
+      "local_size": 1794,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/karakeep/icon.png"
+    },
+    {
+      "app_id": "kavita",
+      "file": "kavita.png",
+      "format": "png",
+      "source_path": "data/appstore/kavita/icon.png",
+      "source_size": 4542,
+      "source_blob_sha": "6041317d21afdb39d8ee6ac88505914cfa7f6970",
+      "local_size": 4542,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/kavita/icon.png"
+    },
+    {
+      "app_id": "koboldcpp",
+      "file": "koboldcpp.png",
+      "format": "png",
+      "source_path": "data/appstore/koboldcpp/icon.png",
+      "source_size": 81416,
+      "source_blob_sha": "604459eb685331600673c511282d0b4006c845fb",
+      "local_size": 81416,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/koboldcpp/icon.png"
+    },
+    {
+      "app_id": "kohyass",
+      "file": "kohyass.png",
+      "format": "png",
+      "source_path": "data/appstore/kohyass/icon.png",
+      "source_size": 31421,
+      "source_blob_sha": "8183e9d5185109a682ac3570d19e242e99d7c839",
+      "local_size": 31421,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/kohyass/icon.png"
+    },
+    {
+      "app_id": "komga",
+      "file": "komga.png",
+      "format": "png",
+      "source_path": "data/appstore/komga/icon.png",
+      "source_size": 54831,
+      "source_blob_sha": "7a0bc6aeb0de94d3c49e3c1e372d7f484e030426",
+      "local_size": 54831,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/komga/icon.png"
+    },
+    {
+      "app_id": "krillinai",
+      "file": "krillinai.png",
+      "format": "png",
+      "source_path": "data/appstore/krillinai/icon.png",
+      "source_size": 37289,
+      "source_blob_sha": "9de2f532c3782b07a5da5f58f205d83000a2bb1a",
+      "local_size": 37289,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/krillinai/icon.png"
+    },
+    {
+      "app_id": "kubeflow",
+      "file": "kubeflow.png",
+      "format": "png",
+      "source_path": "data/appstore/kubeflow/icon.png",
+      "source_size": 39443,
+      "source_blob_sha": "29d35b01690e2ebc300b6f8cf14e9b7f9d360b04",
+      "local_size": 39443,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/kubeflow/icon.png"
+    },
+    {
+      "app_id": "kuberay",
+      "file": "kuberay.png",
+      "format": "png",
+      "source_path": "data/appstore/kuberay/icon.png",
+      "source_size": 51141,
+      "source_blob_sha": "504199fbc0c19138f4d99cd63b623d0cad979ecd",
+      "local_size": 51141,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/kuberay/icon.png"
+    },
+    {
+      "app_id": "langbot",
+      "file": "langbot.png",
+      "format": "png",
+      "source_path": "data/appstore/langbot/icon.png",
+      "source_size": 8588,
+      "source_blob_sha": "013084fc3e591cc0985ef33921b22241e7ff40c5",
+      "local_size": 8588,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/langbot/icon.png"
+    },
+    {
+      "app_id": "langfuse",
+      "file": "langfuse.png",
+      "format": "png",
+      "source_path": "data/appstore/langfuse/icon.png",
+      "source_size": 10858,
+      "source_blob_sha": "c85482af38a349a5d728edd6261c4301c223822a",
+      "local_size": 10858,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/langfuse/icon.png"
+    },
+    {
+      "app_id": "larescompanion",
+      "file": "larescompanion.png",
+      "format": "png",
+      "source_path": "data/appstore/larescompanion/icon.png",
+      "source_size": 6815,
+      "source_blob_sha": "22458d4532f64e0b329b55c7a3033fec455599a6",
+      "local_size": 6815,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/larescompanion/icon.png"
+    },
+    {
+      "app_id": "launchpad",
+      "file": "launchpad.png",
+      "format": "png",
+      "source_path": "data/appstore/launchpad/icon.png",
+      "source_size": 5447,
+      "source_blob_sha": "c9bb91d3a16665f604fcc108f78eba9a4c42d3da",
+      "local_size": 5447,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/launchpad/icon.png"
+    },
+    {
+      "app_id": "lazylibrarian",
+      "file": "lazylibrarian.png",
+      "format": "png",
+      "source_path": "data/appstore/lazylibrarian/icon.png",
+      "source_size": 18928,
+      "source_blob_sha": "db7c5704967500650bcb62e57c4da74ce4cba59b",
+      "local_size": 18928,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/lazylibrarian/icon.png"
+    },
+    {
+      "app_id": "leantime",
+      "file": "leantime.png",
+      "format": "png",
+      "source_path": "data/appstore/leantime/icon.png",
+      "source_size": 27509,
+      "source_blob_sha": "1748e906c14bc363ac1e9ffde37903fdd77a3ff2",
+      "local_size": 27509,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/leantime/icon.png"
+    },
+    {
+      "app_id": "librechat",
+      "file": "librechat.png",
+      "format": "png",
+      "source_path": "data/appstore/librechat/icon.png",
+      "source_size": 53200,
+      "source_blob_sha": "7359e2e9fefe18944b1b62650c47827b6c0e7d7c",
+      "local_size": 53200,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/librechat/icon.png"
+    },
+    {
+      "app_id": "libreddit",
+      "file": "libreddit.webp",
+      "format": "webp",
+      "source_path": "data/appstore/libreddit/icon.webp",
+      "source_size": 4990,
+      "source_blob_sha": "ddabb4e308e6f247f10e1861ae0aa0780bc19876",
+      "local_size": 4990,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/libreddit/icon.webp"
+    },
+    {
+      "app_id": "libreoffice",
+      "file": "libreoffice.webp",
+      "format": "webp",
+      "source_path": "data/appstore/libreoffice/icon.webp",
+      "source_size": 3082,
+      "source_blob_sha": "9f8c0a6beaf0563b25ce8838a5e9cb6909795240",
+      "local_size": 3082,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/libreoffice/icon.webp"
+    },
+    {
+      "app_id": "librespeed",
+      "file": "librespeed.png",
+      "format": "png",
+      "source_path": "data/appstore/librespeed/icon.png",
+      "source_size": 41470,
+      "source_blob_sha": "c662dbf7738ea3ab41544ab6213925333df47e40",
+      "local_size": 41470,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/librespeed/icon.png"
+    },
+    {
+      "app_id": "libretranslate",
+      "file": "libretranslate.png",
+      "format": "png",
+      "source_path": "data/appstore/libretranslate/icon.png",
+      "source_size": 4944,
+      "source_blob_sha": "1650e1fa01bcf89aba8e0a59499a580b07e21854",
+      "local_size": 4944,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/libretranslate/icon.png"
+    },
+    {
+      "app_id": "lidarr",
+      "file": "lidarr.png",
+      "format": "png",
+      "source_path": "data/appstore/lidarr/icon.png",
+      "source_size": 15629,
+      "source_blob_sha": "303d902028121947b05d360238d87d77a855f4e4",
+      "local_size": 15629,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/lidarr/icon.png"
+    },
+    {
+      "app_id": "listmonk",
+      "file": "listmonk.png",
+      "format": "png",
+      "source_path": "data/appstore/listmonk/icon.png",
+      "source_size": 32419,
+      "source_blob_sha": "241b9e07e396c400aaedb237d222c391cd754447",
+      "local_size": 32419,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/listmonk/icon.png"
+    },
+    {
+      "app_id": "litellm",
+      "file": "litellm.png",
+      "format": "png",
+      "source_path": "data/appstore/litellm/icon.png",
+      "source_size": 22251,
+      "source_blob_sha": "019ab85d3b9c6c0a6724ad71264abab5e7584f96",
+      "local_size": 22251,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/litellm/icon.png"
+    },
+    {
+      "app_id": "llamaIndex",
+      "file": "llamaIndex.png",
+      "format": "png",
+      "source_path": "data/appstore/llamaIndex/icon.png",
+      "source_size": 16089,
+      "source_blob_sha": "611deff2e2e167d4cdd8daaeeee39f9f3d81745a",
+      "local_size": 16089,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/llamaIndex/icon.png"
+    },
+    {
+      "app_id": "llamacpp",
+      "file": "llamacpp.png",
+      "format": "png",
+      "source_path": "data/appstore/llamacpp/icon.png",
+      "source_size": 38236,
+      "source_blob_sha": "aaa03a5dc2fbb65f7f881ba578bafd33a1c02dc2",
+      "local_size": 38236,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/llamacpp/icon.png"
+    },
+    {
+      "app_id": "llamafactory",
+      "file": "llamafactory.png",
+      "format": "png",
+      "source_path": "data/appstore/llamafactory/icon.png",
+      "source_size": 79368,
+      "source_blob_sha": "ecd2d65df03422cd5679068742e90eb3b0191f6f",
+      "local_size": 79368,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/llamafactory/icon.png"
+    },
+    {
+      "app_id": "llmfit",
+      "file": "llmfit.png",
+      "format": "png",
+      "source_path": "data/appstore/llmfit/icon.png",
+      "source_size": 41358,
+      "source_blob_sha": "85f08220cf32001ec2c0e85ef177b7268759e063",
+      "local_size": 41358,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/llmfit/icon.png"
+    },
+    {
+      "app_id": "lmstudio",
+      "file": "lmstudio.png",
+      "format": "png",
+      "source_path": "data/appstore/lmstudio/icon.png",
+      "source_size": 53823,
+      "source_blob_sha": "6878f8f89b7cdb7a4b24e36b113b067bc99be473",
+      "local_size": 53823,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/lmstudio/icon.png"
+    },
+    {
+      "app_id": "lobechat",
+      "file": "lobechat.png",
+      "format": "png",
+      "source_path": "data/appstore/lobechat/icon.png",
+      "source_size": 33043,
+      "source_blob_sha": "2fc692d112cd460afc5815e113607cf4940df668",
+      "local_size": 33043,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/lobechat/icon.png"
+    },
+    {
+      "app_id": "localai",
+      "file": "localai.png",
+      "format": "png",
+      "source_path": "data/appstore/localai/icon.png",
+      "source_size": 84549,
+      "source_blob_sha": "41cb85a2a3dcb78ce3034ed6493a7aa469c07648",
+      "local_size": 84549,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/localai/icon.png"
+    },
+    {
+      "app_id": "macos",
+      "file": "macos.png",
+      "format": "png",
+      "source_path": "data/appstore/macos/icon.png",
+      "source_size": 30232,
+      "source_blob_sha": "fb21aa786d072326ca3951459508ac17bcd33946",
+      "local_size": 30232,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/macos/icon.png"
+    },
+    {
+      "app_id": "mariadb",
+      "file": "mariadb.png",
+      "format": "png",
+      "source_path": "data/appstore/mariadb/icon.png",
+      "source_size": 42101,
+      "source_blob_sha": "3535dc01b32e34995be00d92a0ec3577dd4b0f14",
+      "local_size": 42101,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mariadb/icon.png"
+    },
+    {
+      "app_id": "mastodon",
+      "file": "mastodon.png",
+      "format": "png",
+      "source_path": "data/appstore/mastodon/icon.png",
+      "source_size": 52513,
+      "source_blob_sha": "d1fd719c7284af70f845e5eea337c54ae6cb0e96",
+      "local_size": 52513,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mastodon/icon.png"
+    },
+    {
+      "app_id": "matrix",
+      "file": "matrix.webp",
+      "format": "webp",
+      "source_path": "data/appstore/matrix/icon.webp",
+      "source_size": 1788,
+      "source_blob_sha": "c531c07df0c694a440a27847d0acd0460397de4e",
+      "local_size": 1788,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/matrix/icon.webp"
+    },
+    {
+      "app_id": "mattermost",
+      "file": "mattermost.png",
+      "format": "png",
+      "source_path": "data/appstore/mattermost/icon.png",
+      "source_size": 9309,
+      "source_blob_sha": "6b275486f2ffcf2107cde7fec69c841cf9fb4cef",
+      "local_size": 9309,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mattermost/icon.png"
+    },
+    {
+      "app_id": "maxkb",
+      "file": "maxkb.webp",
+      "format": "webp",
+      "source_path": "data/appstore/maxkb/icon.webp",
+      "source_size": 7908,
+      "source_blob_sha": "a432aec311e14bf22ad46b358ea0c0edf75736a0",
+      "local_size": 7908,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/maxkb/icon.webp"
+    },
+    {
+      "app_id": "mcpo",
+      "file": "mcpo.png",
+      "format": "png",
+      "source_path": "data/appstore/mcpo/icon.png",
+      "source_size": 5577,
+      "source_blob_sha": "0b34d8bcdd2af20aef31ff60221009e1de01e2a7",
+      "local_size": 5577,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mcpo/icon.png"
+    },
+    {
+      "app_id": "mcserver",
+      "file": "mcserver.png",
+      "format": "png",
+      "source_path": "data/appstore/mcserver/icon.png",
+      "source_size": 41361,
+      "source_blob_sha": "d4f061a14cf59a6f9cf2b24b6143f7ba6455a875",
+      "local_size": 41361,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mcserver/icon.png"
+    },
+    {
+      "app_id": "md",
+      "file": "md.png",
+      "format": "png",
+      "source_path": "data/appstore/md/icon.png",
+      "source_size": 37406,
+      "source_blob_sha": "0b22b79d3446bcdcae01a71c2e09eca850a4637a",
+      "local_size": 37406,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/md/icon.png"
+    },
+    {
+      "app_id": "mealie",
+      "file": "mealie.png",
+      "format": "png",
+      "source_path": "data/appstore/mealie/icon.png",
+      "source_size": 10853,
+      "source_blob_sha": "3280133ff93b614900f2015ee3add4658484c0ff",
+      "local_size": 10853,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mealie/icon.png"
+    },
+    {
+      "app_id": "medusa",
+      "file": "medusa.png",
+      "format": "png",
+      "source_path": "data/appstore/medusa/icon.png",
+      "source_size": 31030,
+      "source_blob_sha": "e7854c2b12987ae75cc146bcf8b4ea74ecadb034",
+      "local_size": 31030,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/medusa/icon.png"
+    },
+    {
+      "app_id": "meetily",
+      "file": "meetily.png",
+      "format": "png",
+      "source_path": "data/appstore/meetily/icon.png",
+      "source_size": 37450,
+      "source_blob_sha": "b30afb717b8c25ce663786e57fb3f6e567619a42",
+      "local_size": 37450,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/meetily/icon.png"
+    },
+    {
+      "app_id": "memos",
+      "file": "memos.png",
+      "format": "png",
+      "source_path": "data/appstore/memos/icon.png",
+      "source_size": 77436,
+      "source_blob_sha": "c2151ada0a1818c3d0a2fd6a1401df7c31c898d5",
+      "local_size": 77436,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/memos/icon.png"
+    },
+    {
+      "app_id": "mempalace",
+      "file": "mempalace.png",
+      "format": "png",
+      "source_path": "data/appstore/mempalace/icon.png",
+      "source_size": 58885,
+      "source_blob_sha": "151805e2f63cbebe7f95d8dd464f0062f9ceba51",
+      "local_size": 58885,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mempalace/icon.png"
+    },
+    {
+      "app_id": "merchant",
+      "file": "merchant.png",
+      "format": "png",
+      "source_path": "data/appstore/merchant/icon.png",
+      "source_size": 92032,
+      "source_blob_sha": "8bb225cd00c66055e42f8e229b83487ec9822166",
+      "local_size": 92032,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/merchant/icon.png"
+    },
+    {
+      "app_id": "metabase",
+      "file": "metabase.png",
+      "format": "png",
+      "source_path": "data/appstore/metabase/icon.png",
+      "source_size": 38425,
+      "source_blob_sha": "a6773c1fee98ccef6d651d495c61ec720af54dd9",
+      "local_size": 38425,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/metabase/icon.png"
+    },
+    {
+      "app_id": "metube",
+      "file": "metube.png",
+      "format": "png",
+      "source_path": "data/appstore/metube/icon.png",
+      "source_size": 20113,
+      "source_blob_sha": "d8bb0c94a58b31d4cf0a67a4cd3836cb8e1e7323",
+      "local_size": 20113,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/metube/icon.png"
+    },
+    {
+      "app_id": "mind-map",
+      "file": "mind-map.png",
+      "format": "png",
+      "source_path": "data/appstore/mind-map/icon.png",
+      "source_size": 1760,
+      "source_blob_sha": "40472f13737649b8c975a19d5d1a48aef9da3eca",
+      "local_size": 1760,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mind-map/icon.png"
+    },
+    {
+      "app_id": "mindmap",
+      "file": "mindmap.png",
+      "format": "png",
+      "source_path": "data/appstore/mindmap/icon.png",
+      "source_size": 1760,
+      "source_blob_sha": "40472f13737649b8c975a19d5d1a48aef9da3eca",
+      "local_size": 1760,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mindmap/icon.png"
+    },
+    {
+      "app_id": "minecraft",
+      "file": "minecraft.png",
+      "format": "png",
+      "source_path": "data/appstore/minecraft/icon.png",
+      "source_size": 1210,
+      "source_blob_sha": "c2ca68a0da987c1e2ec5fca52bb850a5b5e551ca",
+      "local_size": 1210,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/minecraft/icon.png"
+    },
+    {
+      "app_id": "minerU",
+      "file": "minerU.png",
+      "format": "png",
+      "source_path": "data/appstore/minerU/icon.png",
+      "source_size": 35715,
+      "source_blob_sha": "14a9705ef192c6a0c42219dacd5114f0536045a1",
+      "local_size": 35715,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/minerU/icon.png"
+    },
+    {
+      "app_id": "miniflux",
+      "file": "miniflux.png",
+      "format": "png",
+      "source_path": "data/appstore/miniflux/icon.png",
+      "source_size": 27983,
+      "source_blob_sha": "c30467bf5e2a1805123ab73aad5494b21980087f",
+      "local_size": 27983,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/miniflux/icon.png"
+    },
+    {
+      "app_id": "minio",
+      "file": "minio.png",
+      "format": "png",
+      "source_path": "data/appstore/minio/icon.png",
+      "source_size": 36722,
+      "source_blob_sha": "ce12decf7f51037a4d4e939c32e53ea6d3d40fb8",
+      "local_size": 36722,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/minio/icon.png"
+    },
+    {
+      "app_id": "mobsf",
+      "file": "mobsf.png",
+      "format": "png",
+      "source_path": "data/appstore/mobsf/icon.png",
+      "source_size": 10479,
+      "source_blob_sha": "6b9fe253040cce493a0b63379230f335b8c64477",
+      "local_size": 10479,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mobsf/icon.png"
+    },
+    {
+      "app_id": "mongo",
+      "file": "mongo.png",
+      "format": "png",
+      "source_path": "data/appstore/mongo/icon.png",
+      "source_size": 30549,
+      "source_blob_sha": "bd6874f1ec0377de0434461d71ebfdbd7fc87e6e",
+      "local_size": 30549,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mongo/icon.png"
+    },
+    {
+      "app_id": "mongodb",
+      "file": "mongodb.png",
+      "format": "png",
+      "source_path": "data/appstore/mongodb/icon.png",
+      "source_size": 6178,
+      "source_blob_sha": "b08c218680fdc7d91794d074de6658ffd8f89b86",
+      "local_size": 6178,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mongodb/icon.png"
+    },
+    {
+      "app_id": "monitoring",
+      "file": "monitoring.png",
+      "format": "png",
+      "source_path": "data/appstore/monitoring/icon.png",
+      "source_size": 15630,
+      "source_blob_sha": "297f1d3a0cb5706edfa839e1b8409ae3cd3049ad",
+      "local_size": 15630,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/monitoring/icon.png"
+    },
+    {
+      "app_id": "mtranserver",
+      "file": "mtranserver.png",
+      "format": "png",
+      "source_path": "data/appstore/mtranserver/icon.png",
+      "source_size": 56034,
+      "source_blob_sha": "0b2afcb40ea9a6244cdee31bd88d08a882c8afba",
+      "local_size": 56034,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mtranserver/icon.png"
+    },
+    {
+      "app_id": "mylar3",
+      "file": "mylar3.png",
+      "format": "png",
+      "source_path": "data/appstore/mylar3/icon.png",
+      "source_size": 7416,
+      "source_blob_sha": "08881ecac56afc520e83d240d60dbc73322b1999",
+      "local_size": 7416,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mylar3/icon.png"
+    },
+    {
+      "app_id": "mysql",
+      "file": "mysql.png",
+      "format": "png",
+      "source_path": "data/appstore/mysql/icon.png",
+      "source_size": 40382,
+      "source_blob_sha": "cdec1a3fd9009aa1c16ff564d2756fbfedbc82f4",
+      "local_size": 40382,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/mysql/icon.png"
+    },
+    {
+      "app_id": "n8n",
+      "file": "n8n.png",
+      "format": "png",
+      "source_path": "data/appstore/n8n/icon.png",
+      "source_size": 7773,
+      "source_blob_sha": "8ca089f26a8fdd44d3808f92014c540ec6bfbae6",
+      "local_size": 7773,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/n8n/icon.png"
+    },
+    {
+      "app_id": "nastools",
+      "file": "nastools.png",
+      "format": "png",
+      "source_path": "data/appstore/nastools/icon.png",
+      "source_size": 4333,
+      "source_blob_sha": "b2e050a29af1f262fb5b71b13f46388c73c720aa",
+      "local_size": 4333,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/nastools/icon.png"
+    },
+    {
+      "app_id": "navidrome",
+      "file": "navidrome.png",
+      "format": "png",
+      "source_path": "data/appstore/navidrome/icon.png",
+      "source_size": 51601,
+      "source_blob_sha": "fc258047fcfc08d6653b0313af5a7b7732a76703",
+      "local_size": 51601,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/navidrome/icon.png"
+    },
+    {
+      "app_id": "neko",
+      "file": "neko.png",
+      "format": "png",
+      "source_path": "data/appstore/neko/icon.png",
+      "source_size": 40869,
+      "source_blob_sha": "32e1c60e68fc7fd2d3ac77a208d97c2013ccfd11",
+      "local_size": 40869,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/neko/icon.png"
+    },
+    {
+      "app_id": "nemoclaw",
+      "file": "nemoclaw.png",
+      "format": "png",
+      "source_path": "data/appstore/nemoclaw/icon.png",
+      "source_size": 37564,
+      "source_blob_sha": "c782a2b46c44a8696a8c265edd805bf1226f31f7",
+      "local_size": 37564,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/nemoclaw/icon.png"
+    },
+    {
+      "app_id": "netdata",
+      "file": "netdata.png",
+      "format": "png",
+      "source_path": "data/appstore/netdata/icon.png",
+      "source_size": 6394,
+      "source_blob_sha": "629d0d89ffb1b6fb7a4130be6103f4e25cea9cd6",
+      "local_size": 6394,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/netdata/icon.png"
+    },
+    {
+      "app_id": "nextcloud",
+      "file": "nextcloud.png",
+      "format": "png",
+      "source_path": "data/appstore/nextcloud/icon.png",
+      "source_size": 29020,
+      "source_blob_sha": "e20a2d75f290289372afb3be353d37c1f5572184",
+      "local_size": 29020,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/nextcloud/icon.png"
+    },
+    {
+      "app_id": "nocobase",
+      "file": "nocobase.png",
+      "format": "png",
+      "source_path": "data/appstore/nocobase/icon.png",
+      "source_size": 32619,
+      "source_blob_sha": "5bf27862db9c65dcb4d08a06b007e67a5b6c8d04",
+      "local_size": 32619,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/nocobase/icon.png"
+    },
+    {
+      "app_id": "nocodb",
+      "file": "nocodb.png",
+      "format": "png",
+      "source_path": "data/appstore/nocodb/icon.png",
+      "source_size": 46373,
+      "source_blob_sha": "953c3d5968b573816ae429c3fa6909436944648d",
+      "local_size": 46373,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/nocodb/icon.png"
+    },
+    {
+      "app_id": "nodered",
+      "file": "nodered.png",
+      "format": "png",
+      "source_path": "data/appstore/nodered/icon.png",
+      "source_size": 8675,
+      "source_blob_sha": "149fe316843437d095f9da12828ae6ef5c28781f",
+      "local_size": 8675,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/nodered/icon.png"
+    },
+    {
+      "app_id": "nodes",
+      "file": "nodes.png",
+      "format": "png",
+      "source_path": "data/appstore/nodes/icon.png",
+      "source_size": 7129,
+      "source_blob_sha": "7c70d180317dcbb72d34bab97936327cabace026",
+      "local_size": 7129,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/nodes/icon.png"
+    },
+    {
+      "app_id": "nofx",
+      "file": "nofx.png",
+      "format": "png",
+      "source_path": "data/appstore/nofx/icon.png",
+      "source_size": 33639,
+      "source_blob_sha": "3969adddd30f18cab3c91a22c67623d36af114b5",
+      "local_size": 33639,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/nofx/icon.png"
+    },
+    {
+      "app_id": "nostream",
+      "file": "nostream.png",
+      "format": "png",
+      "source_path": "data/appstore/nostream/icon.png",
+      "source_size": 6621,
+      "source_blob_sha": "4f9aa8304e5bb39e384e07db88351f49edf19ecc",
+      "local_size": 6621,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/nostream/icon.png"
+    },
+    {
+      "app_id": "notifications",
+      "file": "notifications.png",
+      "format": "png",
+      "source_path": "data/appstore/notifications/icon.png",
+      "source_size": 48120,
+      "source_blob_sha": "09d952f947e34b601f544a670c0cfc5424a6bf8d",
+      "local_size": 48120,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/notifications/icon.png",
+      "classification": "system_app"
+    },
+    {
+      "app_id": "novel",
+      "file": "novel.png",
+      "format": "png",
+      "source_path": "data/appstore/novel/icon.png",
+      "source_size": 7734,
+      "source_blob_sha": "154c52e47179d2fe124a7237bf8fec5a9e1c666b",
+      "local_size": 7734,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/novel/icon.png"
+    },
+    {
+      "app_id": "ntfy",
+      "file": "ntfy.png",
+      "format": "png",
+      "source_path": "data/appstore/ntfy/icon.png",
+      "source_size": 40802,
+      "source_blob_sha": "8383b66262563a7aee64455e87a561e88593a3a4",
+      "local_size": 40802,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/ntfy/icon.png"
+    },
+    {
+      "app_id": "nzbget",
+      "file": "nzbget.png",
+      "format": "png",
+      "source_path": "data/appstore/nzbget/icon.png",
+      "source_size": 46952,
+      "source_blob_sha": "d76dcd0b18706783bc5d9a0667ceb72672906330",
+      "local_size": 46952,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/nzbget/icon.png"
+    },
+    {
+      "app_id": "obridgelpnode",
+      "file": "obridgelpnode.png",
+      "format": "png",
+      "source_path": "data/appstore/obridgelpnode/icon.png",
+      "source_size": 34612,
+      "source_blob_sha": "269f350f29199f9b5812e8bd03ccf59c2adaac2e",
+      "local_size": 34612,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/obridgelpnode/icon.png"
+    },
+    {
+      "app_id": "obsidian",
+      "file": "obsidian.png",
+      "format": "png",
+      "source_path": "data/appstore/obsidian/icon.png",
+      "source_size": 27788,
+      "source_blob_sha": "a51b7286b2fc732a34e9dd1e19167914bff980ae",
+      "local_size": 27788,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/obsidian/icon.png"
+    },
+    {
+      "app_id": "odigos",
+      "file": "odigos.png",
+      "format": "png",
+      "source_path": "data/appstore/odigos/icon.png",
+      "source_size": 6864,
+      "source_blob_sha": "a133be3683b6c4611c56bdc903dbfa501d71a75c",
+      "local_size": 6864,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/odigos/icon.png"
+    },
+    {
+      "app_id": "odoo",
+      "file": "odoo.png",
+      "format": "png",
+      "source_path": "data/appstore/odoo/icon.png",
+      "source_size": 4076,
+      "source_blob_sha": "9b6b36711d3dc88ae67da1ea30536155d86c8d8c",
+      "local_size": 4076,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/odoo/icon.png"
+    },
+    {
+      "app_id": "ohif",
+      "file": "ohif.png",
+      "format": "png",
+      "source_path": "data/appstore/ohif/icon.png",
+      "source_size": 23116,
+      "source_blob_sha": "c8187e35d571dfb27a3ca0c9836528c5afc0485b",
+      "local_size": 23116,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/ohif/icon.png"
+    },
+    {
+      "app_id": "olaresapps",
+      "file": "olaresapps.png",
+      "format": "png",
+      "source_path": "data/appstore/olaresapps/icon.png",
+      "source_size": 33704,
+      "source_blob_sha": "ca4d82f7ffc435922642ab5b7300e36c56d1d484",
+      "local_size": 33704,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/olaresapps/icon.png"
+    },
+    {
+      "app_id": "ollama",
+      "file": "ollama.png",
+      "format": "png",
+      "source_path": "data/appstore/ollama/icon.png",
+      "source_size": 17350,
+      "source_blob_sha": "2cee4625f8924403a720226061e45a53f06d4956",
+      "local_size": 17350,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/ollama/icon.png"
+    },
+    {
+      "app_id": "ombi",
+      "file": "ombi.png",
+      "format": "png",
+      "source_path": "data/appstore/ombi/icon.png",
+      "source_size": 20075,
+      "source_blob_sha": "0023fd68ed8660dbe55fe1adfbbba522e51f076d",
+      "local_size": 20075,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/ombi/icon.png"
+    },
+    {
+      "app_id": "omnivore",
+      "file": "omnivore.webp",
+      "format": "webp",
+      "source_path": "data/appstore/omnivore/icon.webp",
+      "source_size": 10088,
+      "source_blob_sha": "190eddfe28b77d29fc72c8b8084ffb3571b1c887",
+      "local_size": 10088,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/omnivore/icon.webp"
+    },
+    {
+      "app_id": "onetrainer",
+      "file": "onetrainer.png",
+      "format": "png",
+      "source_path": "data/appstore/onetrainer/icon.png",
+      "source_size": 65168,
+      "source_blob_sha": "cd3ff9b227248cdd4356b3cebe905aa0cbe11112",
+      "local_size": 65168,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/onetrainer/icon.png"
+    },
+    {
+      "app_id": "onlyoffice",
+      "file": "onlyoffice.png",
+      "format": "png",
+      "source_path": "data/appstore/onlyoffice/icon.png",
+      "source_size": 41681,
+      "source_blob_sha": "25a7f5070c37947680d00d9f12dc1cff7d42b279",
+      "local_size": 41681,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/onlyoffice/icon.png"
+    },
+    {
+      "app_id": "opencode",
+      "file": "opencode.png",
+      "format": "png",
+      "source_path": "data/appstore/opencode/icon.png",
+      "source_size": 29702,
+      "source_blob_sha": "57bd6ccfcc991ba476c6b5451c630ace482a233d",
+      "local_size": 29702,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/opencode/icon.png"
+    },
+    {
+      "app_id": "opendesign",
+      "file": "opendesign.png",
+      "format": "png",
+      "source_path": "data/appstore/opendesign/icon.png",
+      "source_size": 50882,
+      "source_blob_sha": "28d06d47870b378caf01e3f49d83d8f1178d8a63",
+      "local_size": 50882,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/opendesign/icon.png"
+    },
+    {
+      "app_id": "openedai",
+      "file": "openedai.png",
+      "format": "png",
+      "source_path": "data/appstore/openedai/icon.png",
+      "source_size": 4013,
+      "source_blob_sha": "ff68e5c96d98e119affc6e8a5f9b61d151d94aee",
+      "local_size": 4013,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/openedai/icon.png"
+    },
+    {
+      "app_id": "openllm",
+      "file": "openllm.png",
+      "format": "png",
+      "source_path": "data/appstore/openllm/icon.png",
+      "source_size": 7483,
+      "source_blob_sha": "0306eb8c44be783168cdc790d1b60e5414ac73ef",
+      "local_size": 7483,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/openllm/icon.png"
+    },
+    {
+      "app_id": "opennotebook",
+      "file": "opennotebook.png",
+      "format": "png",
+      "source_path": "data/appstore/opennotebook/icon.png",
+      "source_size": 52710,
+      "source_blob_sha": "fdc1e63ddb95aa5a7ceed78eec167b8b843b486f",
+      "local_size": 52710,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/opennotebook/icon.png"
+    },
+    {
+      "app_id": "openproject",
+      "file": "openproject.png",
+      "format": "png",
+      "source_path": "data/appstore/openproject/icon.png",
+      "source_size": 8138,
+      "source_blob_sha": "bfd04622cc35dc7f7cadb8d7b3df88bc3b99af41",
+      "local_size": 8138,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/openproject/icon.png"
+    },
+    {
+      "app_id": "openwebui",
+      "file": "openwebui.png",
+      "format": "png",
+      "source_path": "data/appstore/openwebui/icon.png",
+      "source_size": 36797,
+      "source_blob_sha": "a4e93c7cbf61f14f5f62377117d7e6acac05cf5e",
+      "local_size": 36797,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/openwebui/icon.png"
+    },
+    {
+      "app_id": "owncast",
+      "file": "owncast.png",
+      "format": "png",
+      "source_path": "data/appstore/owncast/icon.png",
+      "source_size": 10417,
+      "source_blob_sha": "d800393c19ba820cee0400d9c2c6f0d9b2f1ae4a",
+      "local_size": 10417,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/owncast/icon.png"
+    },
+    {
+      "app_id": "owncloud",
+      "file": "owncloud.png",
+      "format": "png",
+      "source_path": "data/appstore/owncloud/icon.png",
+      "source_size": 19130,
+      "source_blob_sha": "62cf99988ba32b6e3e69ae759ee8f5c96ec21c77",
+      "local_size": 19130,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/owncloud/icon.png"
+    },
+    {
+      "app_id": "paddleocr",
+      "file": "paddleocr.png",
+      "format": "png",
+      "source_path": "data/appstore/paddleocr/icon.png",
+      "source_size": 6622,
+      "source_blob_sha": "3d148d9bd9f3692695cf092e68f08e8d169e5fa9",
+      "local_size": 6622,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/paddleocr/icon.png"
+    },
+    {
+      "app_id": "paperclip",
+      "file": "paperclip.png",
+      "format": "png",
+      "source_path": "data/appstore/paperclip/icon.png",
+      "source_size": 3669,
+      "source_blob_sha": "a2e7c27cafa438ce3d0a05632b0ca5249584aa2c",
+      "local_size": 3669,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/paperclip/icon.png"
+    },
+    {
+      "app_id": "paperless",
+      "file": "paperless.png",
+      "format": "png",
+      "source_path": "data/appstore/paperless/icon.png",
+      "source_size": 38269,
+      "source_blob_sha": "bc16047e54d187acc7ddbc4ddae02a927ae385a3",
+      "local_size": 38269,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/paperless/icon.png"
+    },
+    {
+      "app_id": "pdfextractkit",
+      "file": "pdfextractkit.png",
+      "format": "png",
+      "source_path": "data/appstore/pdfextractkit/icon.png",
+      "source_size": 47075,
+      "source_blob_sha": "358bf49172b05303601dbc6846c8c6d99f32770f",
+      "local_size": 47075,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/pdfextractkit/icon.png"
+    },
+    {
+      "app_id": "pdfmathtranslate",
+      "file": "pdfmathtranslate.png",
+      "format": "png",
+      "source_path": "data/appstore/pdfmathtranslate/icon.png",
+      "source_size": 34063,
+      "source_blob_sha": "c38fd8a14f3147b5a829fe70270988dc6a2e8231",
+      "local_size": 34063,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/pdfmathtranslate/icon.png"
+    },
+    {
+      "app_id": "penpot",
+      "file": "penpot.png",
+      "format": "png",
+      "source_path": "data/appstore/penpot/icon.png",
+      "source_size": 8739,
+      "source_blob_sha": "3b423c56b190e19395ccafff4d0b82ca2556aabf",
+      "local_size": 8739,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/penpot/icon.png"
+    },
+    {
+      "app_id": "perplexica",
+      "file": "perplexica.png",
+      "format": "png",
+      "source_path": "data/appstore/perplexica/icon.png",
+      "source_size": 38394,
+      "source_blob_sha": "ff91fe1abc2c07199344ef3db2ab9bb694e1c4a7",
+      "local_size": 38394,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/perplexica/icon.png"
+    },
+    {
+      "app_id": "photoprism",
+      "file": "photoprism.png",
+      "format": "png",
+      "source_path": "data/appstore/photoprism/icon.png",
+      "source_size": 51072,
+      "source_blob_sha": "d3eadf8a847bd6011b967877d5fecf3f218ba6ac",
+      "local_size": 51072,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/photoprism/icon.png"
+    },
+    {
+      "app_id": "photoview",
+      "file": "photoview.png",
+      "format": "png",
+      "source_path": "data/appstore/photoview/icon.png",
+      "source_size": 26649,
+      "source_blob_sha": "73710a68a00f48ddceed43fe70affaec68bf57c6",
+      "local_size": 26649,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/photoview/icon.png"
+    },
+    {
+      "app_id": "plane",
+      "file": "plane.png",
+      "format": "png",
+      "source_path": "data/appstore/plane/icon.png",
+      "source_size": 2751,
+      "source_blob_sha": "07be1f9b71aa220c8df5446d75c75b8795a48954",
+      "local_size": 2751,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/plane/icon.png"
+    },
+    {
+      "app_id": "plex",
+      "file": "plex.webp",
+      "format": "webp",
+      "source_path": "data/appstore/plex/icon.webp",
+      "source_size": 3158,
+      "source_blob_sha": "04750153609658a4d74f1631a0c1eaaae0392f7a",
+      "local_size": 3158,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/plex/icon.webp"
+    },
+    {
+      "app_id": "pocketbase",
+      "file": "pocketbase.png",
+      "format": "png",
+      "source_path": "data/appstore/pocketbase/icon.png",
+      "source_size": 31377,
+      "source_blob_sha": "3930c5648f1b1bcf9fe7a3485d35c94ba494cbd8",
+      "local_size": 31377,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/pocketbase/icon.png"
+    },
+    {
+      "app_id": "pool",
+      "file": "pool.png",
+      "format": "png",
+      "source_path": "data/appstore/pool/icon.png",
+      "source_size": 13513,
+      "source_blob_sha": "b58f80a4f815c4bfed93c7f8e7c42d83aeb6331a",
+      "local_size": 13513,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/pool/icon.png"
+    },
+    {
+      "app_id": "portfolio",
+      "file": "portfolio.png",
+      "format": "png",
+      "source_path": "data/appstore/portfolio/icon.png",
+      "source_size": 16139,
+      "source_blob_sha": "ed7f5dcb1661b0dc1cb86d25df293f82e3ef49bd",
+      "local_size": 16139,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/portfolio/icon.png"
+    },
+    {
+      "app_id": "primal",
+      "file": "primal.webp",
+      "format": "webp",
+      "source_path": "data/appstore/primal/icon.webp",
+      "source_size": 8400,
+      "source_blob_sha": "80c85029817011df3574428c0e5ff4255462c450",
+      "local_size": 8400,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/primal/icon.webp"
+    },
+    {
+      "app_id": "profile",
+      "file": "profile.png",
+      "format": "png",
+      "source_path": "data/appstore/profile/icon.png",
+      "source_size": 19779,
+      "source_blob_sha": "89fd5af22840ad5d60ac37e81de42d4a2be61177",
+      "local_size": 19779,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/profile/icon.png",
+      "classification": "system_app"
+    },
+    {
+      "app_id": "prometheus",
+      "file": "prometheus.png",
+      "format": "png",
+      "source_path": "data/appstore/prometheus/icon.png",
+      "source_size": 15693,
+      "source_blob_sha": "99c186d320f7232854a5de9065f7b31f57a05c83",
+      "local_size": 15693,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/prometheus/icon.png"
+    },
+    {
+      "app_id": "prowlarr",
+      "file": "prowlarr.png",
+      "format": "png",
+      "source_path": "data/appstore/prowlarr/icon.png",
+      "source_size": 31219,
+      "source_blob_sha": "a1803a0e86991252b550986cded7bbb697205f6f",
+      "local_size": 31219,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/prowlarr/icon.png"
+    },
+    {
+      "app_id": "qbittorrent",
+      "file": "qbittorrent.png",
+      "format": "png",
+      "source_path": "data/appstore/qbittorrent/icon.png",
+      "source_size": 69869,
+      "source_blob_sha": "8c1970cb5c1b71870320d6c933b1121dea6934f6",
+      "local_size": 69869,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/qbittorrent/icon.png"
+    },
+    {
+      "app_id": "qinglong",
+      "file": "qinglong.png",
+      "format": "png",
+      "source_path": "data/appstore/qinglong/icon.png",
+      "source_size": 91835,
+      "source_blob_sha": "de0ba885d1ecdfca931b880fff6d2f65496481c2",
+      "local_size": 91835,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/qinglong/icon.png"
+    },
+    {
+      "app_id": "rabbitmq",
+      "file": "rabbitmq.png",
+      "format": "png",
+      "source_path": "data/appstore/rabbitmq/icon.png",
+      "source_size": 32734,
+      "source_blob_sha": "07783490c05de5e3512dbbae05f6f6fb679378ba",
+      "local_size": 32734,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/rabbitmq/icon.png"
+    },
+    {
+      "app_id": "radarr",
+      "file": "radarr.png",
+      "format": "png",
+      "source_path": "data/appstore/radarr/icon.png",
+      "source_size": 48529,
+      "source_blob_sha": "fe9a2582a34c07816d8699e249008a4a7b3c9bf8",
+      "local_size": 48529,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/radarr/icon.png"
+    },
+    {
+      "app_id": "radicale",
+      "file": "radicale.png",
+      "format": "png",
+      "source_path": "data/appstore/radicale/icon.png",
+      "source_size": 5037,
+      "source_blob_sha": "f40f80a3326bff01b5c846438f62eea8320e984a",
+      "local_size": 5037,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/radicale/icon.png"
+    },
+    {
+      "app_id": "ragflow",
+      "file": "ragflow.png",
+      "format": "png",
+      "source_path": "data/appstore/ragflow/icon.png",
+      "source_size": 44806,
+      "source_blob_sha": "255c39cdc9d1d76264fcb79efadb72b8f2760098",
+      "local_size": 44806,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/ragflow/icon.png"
+    },
+    {
+      "app_id": "rallly",
+      "file": "rallly.png",
+      "format": "png",
+      "source_path": "data/appstore/rallly/icon.png",
+      "source_size": 22768,
+      "source_blob_sha": "c3e699f20dba36d1d7f6246f2ac61d3282eac860",
+      "local_size": 22768,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/rallly/icon.png"
+    },
+    {
+      "app_id": "ratssearch",
+      "file": "ratssearch.png",
+      "format": "png",
+      "source_path": "data/appstore/ratssearch/icon.png",
+      "source_size": 45515,
+      "source_blob_sha": "ed39e4e217e945a455cecf477c49dde2cf80dbf6",
+      "local_size": 45515,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/ratssearch/icon.png"
+    },
+    {
+      "app_id": "readarr",
+      "file": "readarr.png",
+      "format": "png",
+      "source_path": "data/appstore/readarr/icon.png",
+      "source_size": 43797,
+      "source_blob_sha": "59f236962b64712ea7cf7731112273da7548cf6c",
+      "local_size": 43797,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/readarr/icon.png"
+    },
+    {
+      "app_id": "readest",
+      "file": "readest.png",
+      "format": "png",
+      "source_path": "data/appstore/readest/icon.png",
+      "source_size": 68641,
+      "source_blob_sha": "a59f4630a63fb00eb94c05b01fbddd53757379f3",
+      "local_size": 68641,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/readest/icon.png"
+    },
+    {
+      "app_id": "recommend",
+      "file": "recommend.png",
+      "format": "png",
+      "source_path": "data/appstore/recommend/icon.png",
+      "source_size": 28981,
+      "source_blob_sha": "ec383c2f6b15f430349df0d37ae633dd71e966b0",
+      "local_size": 28981,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/recommend/icon.png"
+    },
+    {
+      "app_id": "redroid",
+      "file": "redroid.png",
+      "format": "png",
+      "source_path": "data/appstore/redroid/icon.png",
+      "source_size": 53337,
+      "source_blob_sha": "67a520f47b7effa482318f647b76cb19e4959f3f",
+      "local_size": 53337,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/redroid/icon.png"
+    },
+    {
+      "app_id": "refly",
+      "file": "refly.png",
+      "format": "png",
+      "source_path": "data/appstore/refly/icon.png",
+      "source_size": 5889,
+      "source_blob_sha": "b4a2a230bf0ae6d21aa681b72449d58f0085e187",
+      "local_size": 5889,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/refly/icon.png"
+    },
+    {
+      "app_id": "rembg",
+      "file": "rembg.png",
+      "format": "png",
+      "source_path": "data/appstore/rembg/icon.png",
+      "source_size": 38024,
+      "source_blob_sha": "b5c09cea6e2bbf2cccdc61119d1ed74ec90b028f",
+      "local_size": 38024,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/rembg/icon.png"
+    },
+    {
+      "app_id": "remotion",
+      "file": "remotion.png",
+      "format": "png",
+      "source_path": "data/appstore/remotion/icon.png",
+      "source_size": 31967,
+      "source_blob_sha": "a773bbbe1ba3b3ddaebe7a63dcb8c99703a54168",
+      "local_size": 31967,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/remotion/icon.png"
+    },
+    {
+      "app_id": "rnasequencing",
+      "file": "rnasequencing.png",
+      "format": "png",
+      "source_path": "data/appstore/rnasequencing/icon.png",
+      "source_size": 7849,
+      "source_blob_sha": "edb2bffa43a472e7a0f0cc6b5c73a43cedd52cab",
+      "local_size": 7849,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/rnasequencing/icon.png"
+    },
+    {
+      "app_id": "rocketchat",
+      "file": "rocketchat.png",
+      "format": "png",
+      "source_path": "data/appstore/rocketchat/icon.png",
+      "source_size": 6628,
+      "source_blob_sha": "50b80ad47317d7ac6dd88da797eb425e4ccfd700",
+      "local_size": 6628,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/rocketchat/icon.png"
+    },
+    {
+      "app_id": "rss",
+      "file": "rss.png",
+      "format": "png",
+      "source_path": "data/appstore/rss/icon.png",
+      "source_size": 14553,
+      "source_blob_sha": "e849edbf4f89677773eb3299be42832ddf7dee3f",
+      "local_size": 14553,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/rss/icon.png"
+    },
+    {
+      "app_id": "rsshub",
+      "file": "rsshub.png",
+      "format": "png",
+      "source_path": "data/appstore/rsshub/icon.png",
+      "source_size": 3656,
+      "source_blob_sha": "e9d5af4c8eec89266fa6790cbc4592a07c37769f",
+      "local_size": 3656,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/rsshub/icon.png"
+    },
+    {
+      "app_id": "rssubscribe",
+      "file": "rssubscribe.png",
+      "format": "png",
+      "source_path": "data/appstore/rssubscribe/icon.png",
+      "source_size": 7322,
+      "source_blob_sha": "83bf3d5bf24a890f73a98d4e5c0e11b81d06af14",
+      "local_size": 7322,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/rssubscribe/icon.png"
+    },
+    {
+      "app_id": "satisfactory",
+      "file": "satisfactory.png",
+      "format": "png",
+      "source_path": "data/appstore/satisfactory/icon.png",
+      "source_size": 61952,
+      "source_blob_sha": "64db71dbebe42b73a1db9df24c568ea2464de2a1",
+      "local_size": 61952,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/satisfactory/icon.png"
+    },
+    {
+      "app_id": "screenpipe",
+      "file": "screenpipe.png",
+      "format": "png",
+      "source_path": "data/appstore/screenpipe/icon.png",
+      "source_size": 20964,
+      "source_blob_sha": "85a627ed68bb8f1726b9dc5346acf287d0c35bdb",
+      "local_size": 20964,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/screenpipe/icon.png"
+    },
+    {
+      "app_id": "screenshot2code",
+      "file": "screenshot2code.png",
+      "format": "png",
+      "source_path": "data/appstore/screenshot2code/icon.png",
+      "source_size": 24625,
+      "source_blob_sha": "177cf0298f898d9c4fe523f36791d0a26fcf78a4",
+      "local_size": 24625,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/screenshot2code/icon.png"
+    },
+    {
+      "app_id": "sdwebui",
+      "file": "sdwebui.png",
+      "format": "png",
+      "source_path": "data/appstore/sdwebui/icon.png",
+      "source_size": 51464,
+      "source_blob_sha": "6e289effe219616489d0e731d4c0c63e1a06af0a",
+      "local_size": 51464,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/sdwebui/icon.png"
+    },
+    {
+      "app_id": "sdwebuiforege",
+      "file": "sdwebuiforege.png",
+      "format": "png",
+      "source_path": "data/appstore/sdwebuiforege/icon.png",
+      "source_size": 40453,
+      "source_blob_sha": "e3398f1731497b676017d5f0d1bef51e35530b5b",
+      "local_size": 40453,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/sdwebuiforege/icon.png"
+    },
+    {
+      "app_id": "sdwebuiforegeneo",
+      "file": "sdwebuiforegeneo.png",
+      "format": "png",
+      "source_path": "data/appstore/sdwebuiforegeneo/icon.png",
+      "source_size": 5029,
+      "source_blob_sha": "9f8738716e31cdffa8adecbb613190ec3f8d5252",
+      "local_size": 5029,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/sdwebuiforegeneo/icon.png"
+    },
+    {
+      "app_id": "seafiles",
+      "file": "seafiles.png",
+      "format": "png",
+      "source_path": "data/appstore/seafiles/icon.png",
+      "source_size": 8391,
+      "source_blob_sha": "038ea5184f3b74dd214c44ea7350da98f5481422",
+      "local_size": 8391,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/seafiles/icon.png"
+    },
+    {
+      "app_id": "sealcaster",
+      "file": "sealcaster.webp",
+      "format": "webp",
+      "source_path": "data/appstore/sealcaster/icon.webp",
+      "source_size": 16936,
+      "source_blob_sha": "183d8b83c3de2d8e4f10837df96dca3dfa7c691e",
+      "local_size": 16936,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/sealcaster/icon.webp"
+    },
+    {
+      "app_id": "searxng",
+      "file": "searxng.png",
+      "format": "png",
+      "source_path": "data/appstore/searxng/icon.png",
+      "source_size": 47199,
+      "source_blob_sha": "2b577eb0edb04f20a7509d6a7c1a456c74a6dbff",
+      "local_size": 47199,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/searxng/icon.png"
+    },
+    {
+      "app_id": "seatable",
+      "file": "seatable.png",
+      "format": "png",
+      "source_path": "data/appstore/seatable/icon.png",
+      "source_size": 9445,
+      "source_blob_sha": "8ada89d5361c629ab4f4af50354933a178edc92f",
+      "local_size": 9445,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/seatable/icon.png"
+    },
+    {
+      "app_id": "secondme",
+      "file": "secondme.png",
+      "format": "png",
+      "source_path": "data/appstore/secondme/icon.png",
+      "source_size": 32962,
+      "source_blob_sha": "fbcd4e97fa993a209e68d5e895e4191f776616f0",
+      "local_size": 32962,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/secondme/icon.png"
+    },
+    {
+      "app_id": "settings",
+      "file": "settings.png",
+      "format": "png",
+      "source_path": "data/appstore/settings/icon.png",
+      "source_size": 18229,
+      "source_blob_sha": "7c4f0cd552d1df6d3f5776bdeb6c36c98612192b",
+      "local_size": 18229,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/settings/icon.png",
+      "classification": "built_in_app"
+    },
+    {
+      "app_id": "sglang",
+      "file": "sglang.png",
+      "format": "png",
+      "source_path": "data/appstore/sglang/icon.png",
+      "source_size": 45658,
+      "source_blob_sha": "1399a16271f42d63e4109b7a3e5d65772206b91d",
+      "local_size": 45658,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/sglang/icon.png"
+    },
+    {
+      "app_id": "showdoc",
+      "file": "showdoc.png",
+      "format": "png",
+      "source_path": "data/appstore/showdoc/icon.png",
+      "source_size": 5327,
+      "source_blob_sha": "369580d0b3b78d00ff3df7d5dfaf8035e0320d77",
+      "local_size": 5327,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/showdoc/icon.png"
+    },
+    {
+      "app_id": "sickchill",
+      "file": "sickchill.png",
+      "format": "png",
+      "source_path": "data/appstore/sickchill/icon.png",
+      "source_size": 59240,
+      "source_blob_sha": "7bcb16a7fd4c1a1fbfcd2bfe4f688334fed453f8",
+      "local_size": 59240,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/sickchill/icon.png"
+    },
+    {
+      "app_id": "sillytavern",
+      "file": "sillytavern.png",
+      "format": "png",
+      "source_path": "data/appstore/sillytavern/icon.png",
+      "source_size": 59331,
+      "source_blob_sha": "d30d4ca6a5c43e28a8004fbb31fa9c8496e26707",
+      "local_size": 59331,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/sillytavern/icon.png"
+    },
+    {
+      "app_id": "sim",
+      "file": "sim.png",
+      "format": "png",
+      "source_path": "data/appstore/sim/icon.png",
+      "source_size": 38274,
+      "source_blob_sha": "6b9e9ea2924f2f289145c10a2e77bc4b6fd2ede9",
+      "local_size": 38274,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/sim/icon.png"
+    },
+    {
+      "app_id": "siyuan",
+      "file": "siyuan.png",
+      "format": "png",
+      "source_path": "data/appstore/siyuan/icon.png",
+      "source_size": 8477,
+      "source_blob_sha": "a7a2c0e46018068c332951e4a0282c06676223fe",
+      "local_size": 8477,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/siyuan/icon.png"
+    },
+    {
+      "app_id": "snort",
+      "file": "snort.webp",
+      "format": "webp",
+      "source_path": "data/appstore/snort/icon.webp",
+      "source_size": 24812,
+      "source_blob_sha": "197bcbcf3f3d52a2b653dbbcddb65a5868c9c671",
+      "local_size": 24812,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/snort/icon.webp"
+    },
+    {
+      "app_id": "solidtime",
+      "file": "solidtime.png",
+      "format": "png",
+      "source_path": "data/appstore/solidtime/icon.png",
+      "source_size": 5897,
+      "source_blob_sha": "47d8ce3867d33af5dbd74e9b972986e64c3cf49f",
+      "local_size": 5897,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/solidtime/icon.png"
+    },
+    {
+      "app_id": "sonarr",
+      "file": "sonarr.png",
+      "format": "png",
+      "source_path": "data/appstore/sonarr/icon.png",
+      "source_size": 13038,
+      "source_blob_sha": "e1c1db20d8d4e0938b5a5e41bb3125d4b795bb98",
+      "local_size": 13038,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/sonarr/icon.png"
+    },
+    {
+      "app_id": "speaches",
+      "file": "speaches.png",
+      "format": "png",
+      "source_path": "data/appstore/speaches/icon.png",
+      "source_size": 28533,
+      "source_blob_sha": "fb448622324b2596016c148b97fa5829ff0d8b8c",
+      "local_size": 28533,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/speaches/icon.png"
+    },
+    {
+      "app_id": "stablefast3d",
+      "file": "stablefast3d.png",
+      "format": "png",
+      "source_path": "data/appstore/stablefast3d/icon.png",
+      "source_size": 96770,
+      "source_blob_sha": "c6c0b8197881c94e01bffa25b216f251394669e2",
+      "local_size": 96770,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/stablefast3d/icon.png"
+    },
+    {
+      "app_id": "steamheadless",
+      "file": "steamheadless.png",
+      "format": "png",
+      "source_path": "data/appstore/steamheadless/icon.png",
+      "source_size": 51596,
+      "source_blob_sha": "98909265e9a61befa8708f2825a971bcf51ed882",
+      "local_size": 51596,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/steamheadless/icon.png"
+    },
+    {
+      "app_id": "stirlingpdf",
+      "file": "stirlingpdf.png",
+      "format": "png",
+      "source_path": "data/appstore/stirlingpdf/icon.png",
+      "source_size": 34902,
+      "source_blob_sha": "cf202fecde2cfb1acf56473e040bab059fe2970e",
+      "local_size": 34902,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/stirlingpdf/icon.png"
+    },
+    {
+      "app_id": "suna",
+      "file": "suna.png",
+      "format": "png",
+      "source_path": "data/appstore/suna/icon.png",
+      "source_size": 7041,
+      "source_blob_sha": "7436173b518c307907232f556215a3b682014d10",
+      "local_size": 7041,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/suna/icon.png"
+    },
+    {
+      "app_id": "supabase",
+      "file": "supabase.png",
+      "format": "png",
+      "source_path": "data/appstore/supabase/icon.png",
+      "source_size": 15912,
+      "source_blob_sha": "10cee2922d2e52ce270ce516010b237a760dba80",
+      "local_size": 15912,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/supabase/icon.png"
+    },
+    {
+      "app_id": "sync",
+      "file": "sync.png",
+      "format": "png",
+      "source_path": "data/appstore/sync/icon.png",
+      "source_size": 17264,
+      "source_blob_sha": "51eb264c5b734c18b0054057fdd59702879e72af",
+      "local_size": 17264,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/sync/icon.png"
+    },
+    {
+      "app_id": "system",
+      "file": "system.png",
+      "format": "png",
+      "source_path": "data/appstore/system/icon.png",
+      "source_size": 11588,
+      "source_blob_sha": "5d49b898a3b0351e6dfc968b02a8b8c1b15fbb48",
+      "local_size": 11588,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/system/icon.png"
+    },
+    {
+      "app_id": "teable",
+      "file": "teable.png",
+      "format": "png",
+      "source_path": "data/appstore/teable/icon.png",
+      "source_size": 35889,
+      "source_blob_sha": "2969dc37aae02b7fb8093609d96498964f7c6bef",
+      "local_size": 35889,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/teable/icon.png"
+    },
+    {
+      "app_id": "tenframework",
+      "file": "tenframework.png",
+      "format": "png",
+      "source_path": "data/appstore/tenframework/icon.png",
+      "source_size": 7781,
+      "source_blob_sha": "88b58ac87c3158909775bccb6bee452309e2fa1f",
+      "local_size": 7781,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/tenframework/icon.png"
+    },
+    {
+      "app_id": "tensorzero",
+      "file": "tensorzero.png",
+      "format": "png",
+      "source_path": "data/appstore/tensorzero/icon.png",
+      "source_size": 3252,
+      "source_blob_sha": "4e4bee0ca4bfaeb49aa52cee8aa456929859a749",
+      "local_size": 3252,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/tensorzero/icon.png"
+    },
+    {
+      "app_id": "tradingagents",
+      "file": "tradingagents.png",
+      "format": "png",
+      "source_path": "data/appstore/tradingagents/icon.png",
+      "source_size": 45257,
+      "source_blob_sha": "0269dad60f92159680b4367e54a572606888841f",
+      "local_size": 45257,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/tradingagents/icon.png"
+    },
+    {
+      "app_id": "transmission",
+      "file": "transmission.png",
+      "format": "png",
+      "source_path": "data/appstore/transmission/icon.png",
+      "source_size": 49153,
+      "source_blob_sha": "2dc2bdee506aa033e8074b4a34498dbd64f6becf",
+      "local_size": 49153,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/transmission/icon.png"
+    },
+    {
+      "app_id": "trek",
+      "file": "trek.png",
+      "format": "png",
+      "source_path": "data/appstore/trek/icon.png",
+      "source_size": 32102,
+      "source_blob_sha": "335fa331750a0908497e9b293fbd25c21f044e47",
+      "local_size": 32102,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/trek/icon.png"
+    },
+    {
+      "app_id": "twenty",
+      "file": "twenty.png",
+      "format": "png",
+      "source_path": "data/appstore/twenty/icon.png",
+      "source_size": 2697,
+      "source_blob_sha": "95cae9deb7012c4fb967f193ec8bb66192af311d",
+      "local_size": 2697,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/twenty/icon.png"
+    },
+    {
+      "app_id": "twitter",
+      "file": "twitter.png",
+      "format": "png",
+      "source_path": "data/appstore/twitter/icon.png",
+      "source_size": 14226,
+      "source_blob_sha": "c4d7c1a33e69e533703786601acb68fd2a0bad3f",
+      "local_size": 14226,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/twitter/icon.png"
+    },
+    {
+      "app_id": "unsloth",
+      "file": "unsloth.png",
+      "format": "png",
+      "source_path": "data/appstore/unsloth/icon.png",
+      "source_size": 47062,
+      "source_blob_sha": "1d44e606a4e763c26b64788fe33d3fab46563d1b",
+      "local_size": 47062,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/unsloth/icon.png"
+    },
+    {
+      "app_id": "uptimekuma",
+      "file": "uptimekuma.png",
+      "format": "png",
+      "source_path": "data/appstore/uptimekuma/icon.png",
+      "source_size": 39725,
+      "source_blob_sha": "fa465b0609935c8d94013d549957cbe946e28eee",
+      "local_size": 39725,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/uptimekuma/icon.png"
+    },
+    {
+      "app_id": "vane",
+      "file": "vane.png",
+      "format": "png",
+      "source_path": "data/appstore/vane/icon.png",
+      "source_size": 38394,
+      "source_blob_sha": "ff91fe1abc2c07199344ef3db2ab9bb694e1c4a7",
+      "local_size": 38394,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/vane/icon.png"
+    },
+    {
+      "app_id": "vanna",
+      "file": "vanna.png",
+      "format": "png",
+      "source_path": "data/appstore/vanna/icon.png",
+      "source_size": 11929,
+      "source_blob_sha": "86382c6d5d0097089b416828df86c876149dd052",
+      "local_size": 11929,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/vanna/icon.png"
+    },
+    {
+      "app_id": "vault",
+      "file": "vault.png",
+      "format": "png",
+      "source_path": "data/appstore/vault/icon.png",
+      "source_size": 16921,
+      "source_blob_sha": "a9f30a0b1dc8cf9d8eea6c8fc6a066630f269c33",
+      "local_size": 16921,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/vault/icon.png",
+      "classification": "built_in_app"
+    },
+    {
+      "app_id": "vaultwarden",
+      "file": "vaultwarden.png",
+      "format": "png",
+      "source_path": "data/appstore/vaultwarden/icon.png",
+      "source_size": 16850,
+      "source_blob_sha": "b95fab77e3459345a0a8c70b19cde3c040886162",
+      "local_size": 16850,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/vaultwarden/icon.png"
+    },
+    {
+      "app_id": "video",
+      "file": "video.png",
+      "format": "png",
+      "source_path": "data/appstore/video/icon.png",
+      "source_size": 13031,
+      "source_blob_sha": "dd4b6f0d4aa382c0299713b60a7e09b8013d3d11",
+      "local_size": 13031,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/video/icon.png"
+    },
+    {
+      "app_id": "vllm",
+      "file": "vllm.png",
+      "format": "png",
+      "source_path": "data/appstore/vllm/icon.png",
+      "source_size": 34633,
+      "source_blob_sha": "76a2e92c0760057b2383e3de79af8a66b6a912b1",
+      "local_size": 34633,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/vllm/icon.png"
+    },
+    {
+      "app_id": "weknora",
+      "file": "weknora.png",
+      "format": "png",
+      "source_path": "data/appstore/weknora/icon.png",
+      "source_size": 44189,
+      "source_blob_sha": "b4d50b996888568be7009b6446d03c358704b9d1",
+      "local_size": 44189,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/weknora/icon.png"
+    },
+    {
+      "app_id": "wewerss",
+      "file": "wewerss.png",
+      "format": "png",
+      "source_path": "data/appstore/wewerss/icon.png",
+      "source_size": 32821,
+      "source_blob_sha": "6051639be636f88209ce7dee60f1db9c2e66a3ec",
+      "local_size": 32821,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/wewerss/icon.png"
+    },
+    {
+      "app_id": "whisperwebui",
+      "file": "whisperwebui.png",
+      "format": "png",
+      "source_path": "data/appstore/whisperwebui/icon.png",
+      "source_size": 15343,
+      "source_blob_sha": "04421aa2a2bebd13e0aed21e5d8f54b6ee95fd5d",
+      "local_size": 15343,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/whisperwebui/icon.png"
+    },
+    {
+      "app_id": "windowsarm",
+      "file": "windowsarm.png",
+      "format": "png",
+      "source_path": "data/appstore/windowsarm/icon.png",
+      "source_size": 50752,
+      "source_blob_sha": "817127099614c323a6e9496ea175fc650cd1a571",
+      "local_size": 50752,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/windowsarm/icon.png"
+    },
+    {
+      "app_id": "wise",
+      "file": "wise.png",
+      "format": "png",
+      "source_path": "data/appstore/wise/icon.png",
+      "source_size": 36684,
+      "source_blob_sha": "b492c5c91e9025b421152a3083a393d2f7222d5d",
+      "local_size": 36684,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/wise/icon.png",
+      "classification": "built_in_app"
+    },
+    {
+      "app_id": "woocommerce",
+      "file": "woocommerce.png",
+      "format": "png",
+      "source_path": "data/appstore/woocommerce/icon.png",
+      "source_size": 6179,
+      "source_blob_sha": "386f6c264b3072919155c23492b43961e9d22c29",
+      "local_size": 6179,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/woocommerce/icon.png"
+    },
+    {
+      "app_id": "wordpress",
+      "file": "wordpress.png",
+      "format": "png",
+      "source_path": "data/appstore/wordpress/icon.png",
+      "source_size": 21938,
+      "source_blob_sha": "75fa8dc9a7bc8fdefc24a8bd041a3b6ee7ea4588",
+      "local_size": 21938,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/wordpress/icon.png"
+    },
+    {
+      "app_id": "xinference",
+      "file": "xinference.png",
+      "format": "png",
+      "source_path": "data/appstore/xinference/icon.png",
+      "source_size": 44200,
+      "source_blob_sha": "77e4b4fdd3d717eef1c136eaedcbaf4bb3ccb593",
+      "local_size": 44200,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/xinference/icon.png"
+    },
+    {
+      "app_id": "xybotv2",
+      "file": "xybotv2.png",
+      "format": "png",
+      "source_path": "data/appstore/xybotv2/icon.png",
+      "source_size": 40749,
+      "source_blob_sha": "ba4a0c770d020abbcac55382920113d1aef0f169",
+      "local_size": 40749,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/xybotv2/icon.png"
+    },
+    {
+      "app_id": "ytdlp",
+      "file": "ytdlp.png",
+      "format": "png",
+      "source_path": "data/appstore/ytdlp/icon.png",
+      "source_size": 7096,
+      "source_blob_sha": "dae2fc23bd5d59b33982bfeefc51c943599074e2",
+      "local_size": 7096,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/ytdlp/icon.png"
+    },
+    {
+      "app_id": "ytnavigator",
+      "file": "ytnavigator.png",
+      "format": "png",
+      "source_path": "data/appstore/ytnavigator/icon.png",
+      "source_size": 2504,
+      "source_blob_sha": "c983e7f7831a29d70b12450aea835e162843113b",
+      "local_size": 2504,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/ytnavigator/icon.png"
+    },
+    {
+      "app_id": "zen",
+      "file": "zen.png",
+      "format": "png",
+      "source_path": "data/appstore/zen/icon.png",
+      "source_size": 28160,
+      "source_blob_sha": "fdd2a7057d87b3d69814070bb52e2d3116587507",
+      "local_size": 28160,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/zen/icon.png"
+    },
+    {
+      "app_id": "zipline",
+      "file": "zipline.png",
+      "format": "png",
+      "source_path": "data/appstore/zipline/icon.png",
+      "source_size": 27644,
+      "source_blob_sha": "a7d085315b7895f23f67a0e369f4850d9baedbc4",
+      "local_size": 27644,
+      "source_url": "https://raw.githubusercontent.com/Above-Os/static/33bd3257547e349f4f67aea61dde677cdea0ed4d/data/appstore/zipline/icon.png"
+    }
+  ],
+  "groups": {
+    "built_in_apps": [
+      {
+        "name": "Desktop",
+        "collection": "olares-homepage-assets",
+        "file": "desktop.png"
+      },
+      {
+        "name": "Files",
+        "collection": "olares-market-icons",
+        "app_id": "files",
+        "file": "files.png"
+      },
+      {
+        "name": "Market",
+        "collection": "olares-market-icons",
+        "app_id": "appstore",
+        "file": "appstore.png"
+      },
+      {
+        "name": "Settings",
+        "collection": "olares-market-icons",
+        "app_id": "settings",
+        "file": "settings.png"
+      },
+      {
+        "name": "Dashboard",
+        "collection": "olares-market-icons",
+        "app_id": "dashboard",
+        "file": "dashboard.png"
+      },
+      {
+        "name": "Control Hub",
+        "collection": "olares-market-icons",
+        "app_id": "control-hub",
+        "file": "control-hub.png"
+      },
+      {
+        "name": "Vault",
+        "collection": "olares-market-icons",
+        "app_id": "vault",
+        "file": "vault.png"
+      },
+      {
+        "name": "Wise",
+        "collection": "olares-market-icons",
+        "app_id": "wise",
+        "file": "wise.png"
+      },
+      {
+        "name": "Studio",
+        "collection": "olares-homepage-assets",
+        "file": "studio.png"
+      }
+    ],
+    "other_system_apps": [
+      {
+        "name": "Accounts",
+        "collection": "olares-market-icons",
+        "app_id": "accounts",
+        "file": "accounts.png"
+      },
+      {
+        "name": "Admin Console",
+        "collection": "olares-market-icons",
+        "app_id": "adminconsole",
+        "file": "adminconsole.png"
+      },
+      {
+        "name": "Backup",
+        "collection": "olares-market-icons",
+        "app_id": "backup",
+        "file": "backup.png"
+      },
+      {
+        "name": "Calendar",
+        "collection": "olares-market-icons",
+        "app_id": "calendar",
+        "file": "calendar.png"
+      },
+      {
+        "name": "Notifications",
+        "collection": "olares-market-icons",
+        "app_id": "notifications",
+        "file": "notifications.png"
+      },
+      {
+        "name": "Profile",
+        "collection": "olares-market-icons",
+        "app_id": "profile",
+        "file": "profile.png"
+      }
+    ]
+  }
+}

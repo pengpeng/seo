@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1280, initial-scale=1">
+<title>Olares — Application Sandbox</title>
+<style>
+  :root{
+    --ink:#17231e;
+    --muted:#65726c;
+    --line:#d2d9d5;
+    --hair:#e2e6e3;
+    --paper:#fafaf7;
+    --green:#2f6f4f;
+    --green-deep:#1f5038;
+    --amber:#97671f;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:100%;height:100%;background:#343735}
+  body{font-family:Inter,"Helvetica Neue",Arial,"PingFang SC",sans-serif}
+  .slide{
+    width:1280px;height:720px;overflow:hidden;
+    padding:24px 44px 18px;background:var(--paper);color:var(--ink);
+    display:grid;grid-template-rows:76px minmax(0,1fr);gap:12px
+  }
+  header{border-bottom:2px solid var(--green);padding-bottom:10px}
+  h1{font-size:28px;line-height:1.12;letter-spacing:-.45px;font-weight:800;white-space:nowrap}
+  h1 em{font-style:normal;color:var(--green)}
+  .subtitle{margin-top:6px;font-size:14px;line-height:1.4;color:var(--muted);font-weight:500}
+
+  .main{min-height:0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto minmax(0,1fr)}
+  .panel{min-width:0;min-height:0;display:flex;flex-direction:column}
+  .p1{grid-column:1;grid-row:1;padding:2px 24px 6px 0}
+  .p2{grid-column:2;grid-row:1;padding:2px 0 6px 24px;border-left:1px solid #c4cec8}
+  .p3{grid-column:1;grid-row:2;padding:12px 24px 0 0;border-top:1px solid #c4cec8}
+  .p4{grid-column:2;grid-row:2;padding:12px 0 0 24px;border-left:1px solid #c4cec8;border-top:1px solid #c4cec8}
+
+  .col-num{font-size:10.5px;line-height:1;letter-spacing:.6px;text-transform:uppercase;color:var(--green);font-weight:800}
+  .col-title{margin-top:6px;font-size:16px;line-height:1.2;letter-spacing:-.15px}
+  .col-thesis{margin-top:6px;font-size:10.5px;line-height:1.4;color:#4e5d56}
+  .col-thesis strong{color:var(--green-deep)}
+
+  .feature-list{margin-top:12px;border-top:1px solid #aebcb4;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:auto}
+  .feature{min-width:0;padding:12px 16px 8px 0}
+  .feature:nth-child(even){border-left:1px solid var(--hair);padding-left:16px;padding-right:0}
+  .feature:not(:nth-last-child(-n+2)){border-bottom:1px solid var(--hair)}
+  .feature-name{font-size:13.5px;line-height:1.18;font-weight:800}
+  .feature-copy{margin-top:8px;font-size:10.5px;line-height:1.42;color:#484d51}
+  .feature-copy strong{color:#2f5141}
+  .feature-copy p + p{margin-top:8px}
+  .p1 .feature-list,.p2 .feature-list{grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:auto}
+  .p1 .feature,.p2 .feature{border-bottom:0;padding:12px 16px 8px 0}
+  .p1 .feature:nth-child(even),.p2 .feature:nth-child(even){border-left:0;padding-left:0}
+  .p1 .feature + .feature,.p2 .feature + .feature{border-left:1px solid var(--hair);padding-left:16px}
+
+  .net{margin-top:12px;border-top:1px solid #aebcb4;flex:1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:1fr}
+  .route{min-width:0;padding:12px 16px 10px 0}
+  .route:nth-child(even){border-left:1px solid var(--hair);padding-left:16px;padding-right:0}
+  .route:not(:nth-last-child(-n+2)){border-bottom:1px solid var(--hair)}
+  .route .rk{font-size:13.5px;line-height:1.18;font-weight:800}
+  .route .rk span{display:block;font-size:10.5px;line-height:1;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);font-weight:700;margin-bottom:4px}
+  .route p{margin-top:8px;font-size:10.5px;line-height:1.36;color:#484d51}
+  .route p strong{color:#324e41}
+  .files-list{margin-top:8px;border-top:1px solid #aebcb4;flex:1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,1fr)}
+  .cap{min-width:0;display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto 1fr;padding:8px 16px 6px 0}
+  .cap:nth-child(even){border-left:1px solid var(--hair);padding-left:16px;padding-right:0}
+  .cap:not(:nth-last-child(-n+2)){border-bottom:1px solid var(--hair)}
+  .cap-t{font-size:12.5px;line-height:1.18;font-weight:800}
+  .cap-d{margin-top:6px;font-size:10.5px;line-height:1.36;color:#484d51}
+  .cap-d strong{color:#2f5141}
+  .cap-d .next{color:var(--amber);font-weight:700}
+
+</style>
+</head>
+<body>
+<main class="slide">
+  <header>
+    <h1><em>Olares OS</em> Sandboxes Every User, Application and Agent</h1>
+    <div class="subtitle">One multi-user device — users, applications and Agents run side by side, isolated by default and granted only what they declare.</div>
+  </header>
+  <section class="main">
+    <article class="panel p1">
+      <div class="col-num">01 · Identity &amp; authorization</div>
+      <h2 class="col-title">Who can act—and on whose behalf</h2>
+      <p class="col-thesis">Unified authentication, workload authorization and secrets custody across users, applications and Agents.</p>
+      <div class="feature-list">
+        <section class="feature">
+          <div class="feature-name">Unified identity</div>
+          <div class="feature-copy">
+            <p><strong>One sign-in across the system.</strong> Authelia gives every user and application a consistent authentication entry.</p>
+            <p><strong>Roles stay consistent everywhere.</strong> LLDAP maintains users, groups and Admin / Member roles across applications.</p>
+          </div>
+        </section>
+        <section class="feature">
+          <div class="feature-name">ReBAC &amp; Agent delegation</div>
+          <div class="feature-copy">
+            <p><strong>Every workload receives only what it needs.</strong> Kubernetes Roles and ServiceAccounts bind permissions to each application.</p>
+            <p><strong>People and groups keep their own boundaries.</strong> ReBAC scopes Search, Files, IM and Agents by user, group and resource.</p>
+          </div>
+        </section>
+        <section class="feature">
+          <div class="feature-name">Secrets &amp; key custody</div>
+          <div class="feature-copy">
+            <p><strong>Sensitive credentials stay out of applications.</strong> Infisical manages LLM API keys and Agent cookies today; OpenBao comes next.</p>
+            <p><strong>Key custody can move into hardware.</strong> A low-level HSM interface supports third-party HSM integration.</p>
+          </div>
+        </section>
+      </div>
+    </article>
+
+    <article class="panel p3">
+      <div class="col-num">03 · Network boundary &amp; access</div>
+      <h2 class="col-title">How each application connects</h2>
+      <p class="col-thesis">Four access paths, protected by declared entrances and layered security.</p>
+      <div class="net">
+        <section class="route">
+          <div class="rk"><span>Public network</span>Internet · reverse proxy</div>
+          <p><strong>Domains and HTTPS come ready.</strong> Every Web entrance gets a free Olares domain and managed certificate, with custom domains and user-selected reverse proxies also supported.</p>
+        </section>
+        <section class="route">
+          <div class="rk"><span>Private network</span>VPN · LarePass</div>
+          <p><strong>Private access without a third-party control plane.</strong> Tailscale clients use Headscale hosted on Olares, preferring LAN or direct P2P and falling back to relay.</p>
+        </section>
+        <section class="route">
+          <div class="rk"><span>Local network</span>LAN · .local HTTP + Overlay</div>
+          <p><strong>Local compatibility stays intact.</strong> .local HTTP serves Web access; per-app Overlay carries discovery, casting and native LAN protocols.</p>
+        </section>
+        <section class="route">
+          <div class="rk"><span>Platform network</span>In-cluster · Linkerd</div>
+          <p><strong>Identity-aware service mesh.</strong> Automatic mTLS and ServiceAccount identity secure every workload; fine-grained policy, metrics and audit signals make east-west traffic observable and governable.</p>
+        </section>
+      </div>
+    </article>
+
+    <article class="panel p2">
+      <div class="col-num">02 · Runtime &amp; resource isolation</div>
+      <h2 class="col-title">How each application runs</h2>
+      <p class="col-thesis">Isolated runtimes, reduced privileges and explicit resource envelopes.</p>
+      <div class="feature-list">
+        <section class="feature">
+          <div class="feature-name">Runtime boundary</div>
+          <div class="feature-copy">
+            <p><strong>Each application gets its own runtime.</strong> Applications do not share an execution boundary with the host.</p>
+            <p><strong>Users remain separated.</strong> User-scoped namespaces keep workloads and service identities inside their owner's space.</p>
+          </div>
+        </section>
+        <section class="feature">
+          <div class="feature-name">Reduced privilege</div>
+          <div class="feature-copy">
+            <p><strong>Privilege starts low.</strong> Applications run in unprivileged containers instead of receiving host-level access.</p>
+            <p><strong>Policy is checked before execution.</strong> OPA admission validates declared permissions before installation or execution.</p>
+          </div>
+        </section>
+        <section class="feature">
+          <div class="feature-name">Resource envelope</div>
+          <div class="feature-copy">
+            <p><strong>Capacity is declared up front.</strong> CPU, memory and accelerator requests tell the scheduler what an application needs.</p>
+            <p><strong>The system protects itself under pressure.</strong> Olares intelligently evicts workloads to preserve stability and keep critical services running.</p>
+          </div>
+        </section>
+      </div>
+    </article>
+
+    <article class="panel p4">
+      <div class="col-num">04 · Data &amp; filesystem boundary</div>
+      <h2 class="col-title">What data each application can see</h2>
+      <p class="col-thesis"><strong>Olares Files</strong> applies declared scopes across persistent, connected and Agent-ready storage.</p>
+      <div class="files-list">
+        <section class="cap">
+          <div class="cap-t">Sandboxed spaces</div>
+          <div class="cap-d"><strong>Every path has an owner.</strong> Home, Data, Cache and Common define ownership, durability and sharing; applications mount only declared paths.</div>
+        </section>
+        <section class="cap">
+          <div class="cap-t">Cross-node data plane</div>
+          <div class="cap-d"><strong>Persistent data follows the cluster.</strong> Home, Data and Common remain available across nodes; Cache stays local and safely rebuildable.</div>
+        </section>
+        <section class="cap">
+          <div class="cap-t">Connected storage</div>
+          <div class="cap-d"><strong>Existing data stays where it is.</strong> Sync, cloud drives, USB, SMB, NFS and existing NAS join one file world. <span class="next">Managed RAID next.</span></div>
+        </section>
+        <section class="cap">
+          <div class="cap-t">PC-grade Files &amp; sharing</div>
+          <div class="cap-d"><strong>Users keep familiar file operations.</strong> Browse, preview, edit, move and archive, then share through users, public links or SMB.</div>
+        </section>
+        <section class="cap">
+          <div class="cap-t">Search</div>
+          <div class="cap-d"><strong>Discovery comes before action.</strong> Search finds candidates by name, full content or image; Files verifies permission and acts.</div>
+        </section>
+        <section class="cap">
+          <div class="cap-t">Unified access URLs</div>
+          <div class="cap-d"><strong>Agents use one address model.</strong> Files exposes data through consistent URLs across local, distributed, cloud and external storage.</div>
+        </section>
+      </div>
+    </article>
+  </section>
+</main>
+</body>
+</html>

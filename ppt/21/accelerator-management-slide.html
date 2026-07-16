@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1280, initial-scale=1">
+<title>Olares — Heterogeneous Accelerator Management</title>
+<style>
+  :root{
+    --ink:#141516;
+    --muted:#6b7076;
+    --line:#e7e6e1;
+    --paper:#faf9f6;
+    --green:#2f6f4f;
+    --green-deep:#1f5038;
+    --green-soft:#eaf3ee;
+    --warning:#b07d2b;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:100%;height:100%;background:#343735}
+  .slide{
+    width:1280px;height:720px;overflow:hidden;position:relative;
+    padding:24px 44px 18px;background:var(--paper);color:var(--ink);
+    font-family:Inter,"Helvetica Neue",Arial,"PingFang SC",sans-serif;
+    display:grid;grid-template-rows:76px minmax(0,1fr);gap:12px
+  }
+  h1{
+    font-size:28px;line-height:1.12;letter-spacing:-.45px;
+    font-weight:800;white-space:nowrap
+  }
+  h1 em{font-style:normal;color:var(--green)}
+  .subtitle{
+    margin-top:6px;max-width:1160px;font-size:14px;line-height:1.4;
+    color:var(--muted);font-weight:500
+  }
+  .content{
+    min-height:0;display:grid;grid-template-rows:324px minmax(0,1fr);gap:12px
+  }
+
+  .architecture{
+    min-height:0;border-top:2px solid var(--green);
+    display:grid;grid-template-columns:22% 51% 27%;
+    background:rgba(255,255,255,.34)
+  }
+  .stage{min-width:0;min-height:0;position:relative}
+  .stage + .stage{border-left:1px solid var(--line)}
+  .stage-title{
+    height:36px;padding:12px 12px 0;font-size:11.5px;line-height:1.15;
+    letter-spacing:.6px;text-transform:uppercase;color:var(--green);font-weight:800
+  }
+  .hardware-stack{
+    height:288px;display:flex;flex-direction:column;padding:8px 12px 0
+  }
+  .hardware-group{min-height:0}
+  .group-name{font-size:11.5px;line-height:1.16;font-weight:800}
+  .group-name span{
+    margin-left:4px;font-size:10.5px;line-height:1.15;
+    color:var(--muted);font-weight:500
+  }
+  .product-list{margin-top:8px;display:grid;align-content:start;gap:4px}
+  .product{min-width:0;display:grid;grid-template-columns:16px minmax(0,1fr);gap:4px;align-items:center}
+  .product img{width:14px;height:14px;object-fit:contain}
+  .product b{
+    display:block;font-size:10.5px;line-height:1.18;font-weight:800
+  }
+  .product .tier{color:var(--muted);font-weight:600}
+  .product.vendor-group{align-items:start}
+  .product.vendor-group img{margin-top:0}
+  .product-line{display:block}
+  .product-line + .product-line{margin-top:4px}
+  .vertical-divider{height:1px;margin:8px 0;background:var(--line);position:relative;flex:none}
+
+  .os-stage{background:var(--green-soft)}
+  .os-stage .stage-title{color:var(--green-deep)}
+  .os-contract{
+    position:absolute;right:12px;top:12px;font-size:10.5px;
+    line-height:1.15;color:var(--green-deep);font-weight:700
+  }
+  .os-grid{
+    height:288px;display:grid;grid-template-columns:6fr 7fr;
+    grid-template-rows:auto auto auto auto auto;
+    align-content:stretch;border-top:1px solid #cfddd4
+  }
+  .os-heading{min-width:0;padding:12px 16px 8px}
+  .os-heading.right,.os-cell.right{border-left:1px solid #c7d8cd}
+  .os-name{font-size:16px;line-height:1.18;letter-spacing:-.15px;color:var(--green-deep);font-weight:800}
+  .os-name small{
+    display:block;margin-top:4px;font-size:10.5px;line-height:1.15;
+    color:#61806f;text-transform:uppercase;letter-spacing:.5px
+  }
+  .os-heading .os-name{font-size:16px}
+  .os-heading .os-name small{margin-top:4px}
+  .os-cell{
+    min-width:0;display:grid;grid-template-columns:16px minmax(0,1fr);
+    gap:4px;padding:4px 16px;align-content:center;border-top:1px solid #d5e2da
+  }
+  .stack-index{font-size:10.5px;line-height:1.12;color:#739080;font-weight:800}
+  .stack-copy{font-size:11.5px;line-height:1.22;color:#496657}
+  .stack-copy strong{
+    display:block;margin-bottom:4px;color:var(--green-deep);
+    font-size:11.5px;line-height:1.08;font-weight:800
+  }
+  .stack-copy span{display:block}
+
+  .runtime-stack{
+    height:288px;display:flex;flex-direction:column;padding:8px 12px 0
+  }
+  .runtime-section{
+    position:relative;display:flex;flex-direction:column;gap:8px
+  }
+  .section-name{font-size:11.5px;line-height:1.16;font-weight:800}
+  .section-name span{color:var(--muted);font-weight:500}
+  .model-grid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(5,auto);
+    column-gap:8px;row-gap:8px
+  }
+  .model{min-width:0;display:grid;grid-template-columns:16px minmax(0,1fr);gap:4px;align-items:center}
+  .model img{width:15px;height:15px;object-fit:contain;border-radius:3px}
+  .model b{
+    display:block;font-size:10.5px;line-height:1.06;font-weight:800;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis
+  }
+  .model span{display:block;font-size:10.5px;line-height:1.1;color:var(--muted)}
+  .runtime-divider{height:1px;margin:12px 0;background:var(--line);position:relative;flex:none}
+  .runtime-list{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(3,auto);
+    column-gap:8px;row-gap:8px
+  }
+  .runtime{display:flex;align-items:center;gap:4px;font-size:10.5px;line-height:1;font-weight:700}
+  .runtime img{width:16px;height:16px;object-fit:contain;border-radius:3px}
+  .comments{
+    min-height:0;display:grid;grid-template-columns:45.54fr 54.46fr
+  }
+  .comment-box{
+    min-width:0;border-top:2px solid var(--green);padding:12px 16px 8px;
+    background:rgba(255,255,255,.48)
+  }
+  .comment-box:last-child{background:rgba(234,243,238,.52)}
+  .comment-box h2{
+    font-size:16px;line-height:1.2;letter-spacing:-.15px;font-weight:800
+  }
+  .developer-values{margin-top:12px;display:grid;grid-template-columns:52fr 48fr;gap:16px}
+  .developer-value + .developer-value{border-left:1px solid var(--line);padding-left:16px}
+  .developer-value h3{font-size:13.5px;line-height:1.18;color:var(--green-deep);font-weight:800}
+  .developer-value p{margin-top:8px;font-size:11.5px;line-height:1.46;color:#484d51}
+  .developer-value p strong{color:var(--green-deep)}
+  .mode-grid{
+    margin-top:8px;display:grid;grid-template-columns:1fr 1fr;
+    grid-template-rows:auto auto
+  }
+  .mode-card{min-width:0;display:flex;flex-direction:column}
+  .mode-card.time-card{grid-row:1 / span 2;padding-right:16px;border-right:1px solid #cfddd4}
+  .mode-card.memory-card{padding:0 0 8px 16px;border-bottom:1px solid #cfddd4}
+  .mode-card.exclusive-card{padding:8px 0 0 16px}
+  .mode-card h3{font-size:13.5px;line-height:1.18;color:var(--green-deep);font-weight:800}
+  .mode-card p{margin-top:8px;font-size:11.5px;line-height:1.42;color:#484d51}
+  .mode-card p strong{color:var(--green-deep)}
+  .support-chips{margin-top:8px;display:flex;flex-wrap:wrap;gap:4px}
+  .chip{padding:4px 8px;border:1px solid #b9d0c1;border-radius:999px;background:#fff;font-size:10.5px;line-height:1.05;color:#365642;font-weight:700}
+</style>
+</head>
+<body>
+<main class="slide">
+  <header>
+    <h1><em>Olares OS</em> Unifies Heterogeneous AI Compute</h1>
+    <div class="subtitle">One stack discovers, integrates, schedules, shares and observes accelerators—while applications stay independent from hardware.</div>
+  </header>
+
+  <section class="content">
+    <section class="architecture">
+      <div class="stage hardware-stage">
+        <div class="stage-title">Accelerated compute</div>
+        <div class="hardware-stack">
+          <div class="hardware-group">
+            <div class="group-name">Discrete GPU<span>Dedicated VRAM</span></div>
+            <div class="product-list">
+              <div class="product"><img src="../assets/slide21-icons/hardware/intel.svg" alt="Intel"><b>Arc Pro B70 · B65 · B60 · B50</b></div>
+              <div class="product vendor-group"><img src="../assets/slide21-icons/hardware/nvidia.svg" alt="NVIDIA"><b><span class="product-line"><span class="tier">Consumer</span> · RTX 5090 · RTX 5080</span><span class="product-line">RTX 4090 · RTX 3090</span><span class="product-line"><span class="tier">Workstation</span> · RTX PRO</span><span class="product-line">6000 · 5000 Blackwell</span><span class="product-line"><span class="tier">Data center</span> · B200 · H200</span></b></div>
+              <div class="product"><img src="../assets/slide21-icons/hardware/amd.svg" alt="AMD"><b>Radeon AI PRO R9700 · R9600</b></div>
+            </div>
+          </div>
+          <div class="vertical-divider"></div>
+          <div class="hardware-group">
+            <div class="group-name">SoC<span>Unified memory</span></div>
+            <div class="product-list">
+              <div class="product vendor-group"><img src="../assets/slide21-icons/hardware/intel.svg" alt="Intel"><b><span class="product-line">Core Ultra Series 1 · Meteor Lake</span><span class="product-line">Series 2 · Lunar Lake + Arrow Lake</span><span class="product-line">Series 3 · Panther Lake</span></b></div>
+              <div class="product"><img src="../assets/slide21-icons/hardware/nvidia.svg" alt="NVIDIA"><b>GB10 Grace Blackwell</b></div>
+              <div class="product"><img src="../assets/slide21-icons/hardware/amd.svg" alt="AMD"><b>Ryzen AI Max+ 395 · Max 390 · Max 385</b></div>
+              <div class="product"><img src="../assets/slide21-icons/hardware/apple.svg" alt="Apple"><b>M3 Ultra · M4 Pro · M4 Max · M5 Pro · M5 Max</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stage os-stage">
+        <div class="stage-title">Olares OS</div>
+        <div class="os-contract">Two abstractions bridge hardware and models</div>
+        <div class="os-grid">
+          <div class="os-heading"><div class="os-name">Accelerator resources<small>hardware-facing abstraction</small></div></div>
+          <div class="os-heading right"><div class="os-name">Application allocation<small>software-facing abstraction</small></div></div>
+
+          <div class="os-cell"><div class="stack-index">01</div><div class="stack-copy"><strong>Backend enablement</strong><span>Enable OpenVINO, CUDA or ROCm for each accelerator.</span></div></div>
+          <div class="os-cell right"><div class="stack-index">01</div><div class="stack-copy"><strong>Mode-aware packages</strong><span>Give each accelerator mode its own image and resource envelope.</span></div></div>
+
+          <div class="os-cell"><div class="stack-index">02</div><div class="stack-copy"><strong>Schedulable devices</strong><span>Expose devices through vendor plugins as Kubernetes resources.</span></div></div>
+          <div class="os-cell right"><div class="stack-index">02</div><div class="stack-copy"><strong>Install &amp; launch selection</strong><span>Choose single-card, multi-card or multi-node resources at install or launch.</span></div></div>
+
+          <div class="os-cell"><div class="stack-index">03</div><div class="stack-copy"><strong>Unified resource contract</strong><span>Normalize labels, scheduling and injection behind one app contract.</span></div></div>
+          <div class="os-cell right"><div class="stack-index">03</div><div class="stack-copy"><strong>Automatic resource management</strong><span>Keep apps running best-effort and scale resources when capacity runs short.</span></div></div>
+
+          <div class="os-cell"><div class="stack-index">04</div><div class="stack-copy"><strong>Continuous observability</strong><span>Observe utilization and device health through Prometheus.</span></div></div>
+          <div class="os-cell right"><div class="stack-index">04</div><div class="stack-copy"><strong>User-friendly control</strong><span>Complete every operation in the UI and receive timely feedback.</span></div></div>
+        </div>
+      </div>
+
+      <div class="stage runtime-stage">
+        <div class="stage-title">Models &amp; AI Runtimes</div>
+        <div class="runtime-stack">
+          <div class="runtime-section">
+            <div class="section-name">Models</div>
+            <div class="model-grid">
+              <div class="model"><img src="../assets/slide21-icons/models/gemma.png" alt=""><div><b>Gemma 4</b><span>Multimodal</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/qwen.png" alt=""><div><b>Qwen3</b><span>Reasoning</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/ornith.png" alt=""><div><b>Ornith 1.0</b><span>Agent</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/flux.png" alt=""><div><b>FLUX.2</b><span>Image</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/wan.png" alt=""><div><b>Wan 2.2</b><span>Video</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/hunyuan3d.png" alt=""><div><b>Hunyuan3D</b><span>3D</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/qwen3-asr.png" alt=""><div><b>Qwen3-ASR</b><span>Speech</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/ace-step.png" alt=""><div><b>ACE-Step</b><span>Music</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/bge-m3.png" alt=""><div><b>BGE-M3</b><span>RAG</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/qwen.png" alt=""><div><b>Qwen3-TTS</b><span>Voice</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/baidu-ocr.png" alt=""><div><b>Baidu OCR</b><span>Document</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/hy-mt2.png" alt=""><div><b>Hy-MT2</b><span>Translation</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/z-image.png" alt=""><div><b>Z-Image</b><span>Fast image</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/ideogram.png" alt=""><div><b>Ideogram 4</b><span>Design</span></div></div>
+              <div class="model"><img src="../assets/slide21-icons/models/minicpm-o.png" alt=""><div><b>MiniCPM-o</b><span>Omni</span></div></div>
+            </div>
+          </div>
+          <div class="runtime-divider"></div>
+          <div class="runtime-section">
+            <div class="section-name">AI runtimes</div>
+            <div class="runtime-list">
+              <div class="runtime"><img src="../assets/slide21-icons/software/llama-cpp.png" alt="">llama.cpp</div>
+              <div class="runtime"><img src="../assets/slide21-icons/software/vllm.png" alt="">vLLM</div>
+              <div class="runtime"><img src="../assets/slide21-icons/software/sglang.png" alt="">SGLang</div>
+              <div class="runtime"><img src="../assets/slide21-icons/software/ollama.png" alt="">Ollama</div>
+              <div class="runtime"><img src="../assets/olares-market-icons/localai.png" alt="">LocalAI</div>
+              <div class="runtime"><img src="../assets/slide21-icons/software/xinference.png" alt="">Xinference</div>
+              <div class="runtime"><img src="../assets/olares-market-icons/koboldcpp.png" alt="">KoboldCpp</div>
+              <div class="runtime"><img src="../assets/olares-market-icons/speaches.png" alt="">Speaches</div>
+              <div class="runtime"><img src="../assets/slide21-icons/software/comfyui.png" alt="">ComfyUI</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="comments">
+      <div class="comment-box">
+        <h2>One lifecycle, composable across every accelerator.</h2>
+        <div class="developer-values">
+          <div class="developer-value">
+            <h3>01 · Manage accelerator lifecycle</h3>
+            <p><strong>One interface.</strong> Olares abstracts the whole lifecycle—from host driver installation and device discovery to runtime setup, scheduling, binding, monitoring and fault eviction.</p>
+            <p><strong>Module-local integration.</strong> A new device implements the lifecycle interface inside its own module, instead of scattering device-specific changes across the system.</p>
+          </div>
+          <div class="developer-value">
+            <h3>02 · Compose resources</h3>
+            <p><strong>Any topology.</strong> Compose one resource, multiple instances, mixed resource types, cross-node capacity or an external eGPU.</p>
+            <p><strong>Two-layer binding.</strong> Developers declare resources in software; users choose and allocate them through the system.</p>
+            <p><strong>Placement-independent apps.</strong> The app contract stays stable from one device to multi-GPU or same-architecture pools.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="comment-box">
+        <h2>Three allocation modes—transparent to apps, with no code changes.</h2>
+        <div class="mode-grid">
+          <div class="mode-card time-card">
+            <h3>Time slicing</h3>
+            <p><strong>Why the name:</strong> Apps take turns using the full GPU. Best for sequential workflows where each model can consume most of its memory.</p>
+            <p><strong>Album example:</strong> LLM lyrics → ACE-Step 1.5 XL music → Z-Image cover. Without Olares, users stop, release and re-bind the GPU between stages—and repeat this for every track. Time slicing rotates the GPU automatically, so the album feels like one continuous workflow.</p>
+            <div class="support-chips"><span class="chip">NVIDIA dGPU only</span></div>
+          </div>
+          <div class="mode-card memory-card">
+            <h3>Memory slicing</h3>
+            <p><strong>Why the name:</strong> VRAM is split into fixed quotas, so apps run concurrently. <strong>Best for:</strong> controlled resident apps such as ComfyUI, Speaches or model servers.</p>
+            <div class="support-chips"><span class="chip">Intel CPU</span><span class="chip">Intel GPU</span><span class="chip">NVIDIA dGPU</span><span class="chip">GB10</span></div>
+          </div>
+          <div class="mode-card exclusive-card">
+            <h3>Exclusive</h3>
+            <p><strong>Why the name:</strong> one app gets the whole accelerator and no other app can bind. <strong>Best for:</strong> rendering and gaming.</p>
+            <div class="support-chips"><span class="chip">All modes</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+</main>
+</body>
+</html>
