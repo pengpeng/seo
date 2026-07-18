@@ -24,4 +24,4 @@ Peng Peng, Founder & CTO at Olares · olares.com
 ## Working notes
 
 - Closing slide; reuses the cover (slide 1) structure: oversized title + intel × Olares pills + footer.
-- Accent is Olares green `#2f6f4f`, consistent with the deck; "you" highlighted in green.
+- Accent is Intel blue `#0068b5`, consistent with the deck; "you" highlighted in blue.

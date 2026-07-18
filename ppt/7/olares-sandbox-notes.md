@@ -25,7 +25,7 @@
 
 叙事顺序：先讲"为什么要沙盒（多用户）+ 隔离哪三个对象"（进主/副标题），再回答四个连续问题：**谁能行动 → 应用如何运行 → 应用如何连接 → 应用能看到什么数据**。页面按 01 Identity → 02 Runtime & resource → 03 Network → 04 Files 展开。
 
-- **主标题**：`Sandboxes Every User, Application and Agent`，其中 `Sandboxes` 绿色高亮。
+- **主标题**：`Sandboxes Every User, Application and Agent`，其中 `Sandboxes` 蓝色高亮。
 - **副标题**：`One multi-user device — users, applications and Agents run side by side, isolated by default and granted only what they declare.`
 - 不再单设叙事带，避免与标题/副标题重复。
 
@@ -102,7 +102,7 @@
 - Manifest 与 OPA 是贯穿四块的 Declarative policy spine：Manifest declares → OPA validates → Platform enforces；保留在逐字稿和内部笔记中，主画面不设页脚或第五个容器。
 - 原网络页和存储页的产品细节进入逐字稿或本笔记，不再保留两个独立能力墙。
 - 左下保留四行网络结构；Internet 主画面只表达免费域名、托管证书、自定义域名和可选反向代理，L4 Gateway / WAF 链路下沉到逐字稿与内部笔记。
-- 全页只讲功能特点，统一中性配色，不使用深绿色块或任何独立配色容器；视觉靠编辑式列表、编号和细分隔线，删除多层卡片、圆角框与无效留白。
+- 全页只讲功能特点，统一中性配色，不使用深蓝色块或任何独立配色容器；视觉靠编辑式列表、编号和细分隔线，删除多层卡片、圆角框与无效留白。
 
 ### 沙盒维度与策略层
 

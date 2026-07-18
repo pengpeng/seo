@@ -8,7 +8,7 @@
 
 ### Title
 
-**Unifies Heterogeneous AI Compute** (`Unifies` highlighted in green)
+**Unifies Heterogeneous AI Compute** (`Unifies` highlighted in blue)
 
 One stack discovers, integrates, schedules, shares and observes accelerators—while applications stay independent from hardware.
 
@@ -42,7 +42,7 @@ One stack discovers, integrates, schedules, shares and observes accelerators—w
 - All nine AI runtime cards have Olares Market manifests, but they do not share one compatibility matrix; see references for KoboldCpp's chart version range.
 - Use one shared Grid for both columns; the four groups use natural-height `auto` rows, and each row follows a subheading-plus-one-sentence pattern on shared baselines.
 - The four Application allocation rows cover dedicated images and resource envelopes, single-card/multi-card/multi-node selection at install or launch, automatic resource management, and complete UI control with feedback.
-- Remove both green comment kickers; keep only the black headings.
+- Remove both blue comment kickers; keep only the black headings.
 - Split the lower-right box 50/50: Time slicing owns the left half and tells the album workflow; Memory slicing sits upper-right and Exclusive lower-right.
 - Do not show Agent & Software on this slide; defer that architecture to the next slide.
 - The left comment box spans Accelerated compute + Accelerator resources; the right box spans Application allocation + Models & AI Runtimes.

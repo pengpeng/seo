@@ -8,7 +8,7 @@
 
 ### Title
 
-Main title: **Sandboxes Every User, Application and Agent** (`Sandboxes` highlighted in green)
+Main title: **Sandboxes Every User, Application and Agent** (`Sandboxes` highlighted in blue)
 
 Subtitle: One multi-user device — users, applications and Agents run side by side, isolated by default and granted only what they declare.
 
@@ -95,7 +95,7 @@ One policy spine governs all four boundaries: Manifest declares → OPA validate
 - Group capabilities through whitespace, alignment and a few hairlines—no cards, colored backgrounds or full-width rule under every item.
 - Compress Files from nine rows to six: merge Sync / Cloud / External into Connected storage, and merge Sharing with PC-grade Files.
 - Do not use a footer; keep the cross-cutting Declarative policy in speaker notes and internal notes only.
-- Present features only, in one neutral palette; do not use a deep-green block or any separate colored container.
+- Present features only, in one neutral palette; do not use a deep-blue block or any separate colored container.
 - Establish hierarchy through type weight, numbering, thin rules and alignment rather than rounded cards.
 - Use English throughout the HTML and final export.
 

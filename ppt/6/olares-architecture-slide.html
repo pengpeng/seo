@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Olares: A Natural-Language-Driven, Agent-Native OS</title>
+<title>One Complete Personal Cloud Solution, Powered by a Five-Layer OS</title>
 <style>
   :root{
     --ink:#141516;
     --muted:#6b7076;
     --line:#e7e6e1;
-    --line-strong:#b9cbbf;
+    --line-strong:#b8c4cc;
     --paper:#faf9f6;
-    --green:#2f6f4f;
-    --green-deep:#1f5038;
-    --green-soft:#eaf3ee;
-    --cloud:#f1f5f2;
+    --green:#0068b5;
+    --green-deep:#0a4a80;
+    --green-soft:#e6f0fb;
+    --cloud:#f1f3f5;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{background:#343735}
@@ -30,13 +30,13 @@
   .subtitle{margin-top:6px;font-size:14px;line-height:1.4;color:var(--muted)}
 
   .body{
-    min-height:0;display:grid;grid-template-columns:62% 38%;gap:24px
+    min-height:0;display:grid;grid-template-columns:38% 62%;gap:24px
   }
 
-  /* ---------- Left: 5-layer architecture ---------- */
+  /* ---------- Right: 5-layer architecture ---------- */
   .architecture{
     min-width:0;min-height:0;border-top:2px solid var(--green);
-    display:grid;grid-template-rows:repeat(5,minmax(0,1fr))
+    display:grid;grid-template-rows:auto repeat(5,minmax(0,1fr))
   }
   .layer-row{
     min-width:0;min-height:0;border-bottom:1px solid var(--line);
@@ -72,6 +72,10 @@
     color:#33373b;font-size:10.5px;line-height:1;font-weight:700;white-space:nowrap
   }
   .stack-item img{display:block;width:20px;height:20px;object-fit:contain}
+  .capability-icon{
+    width:20px;height:20px;display:block;color:var(--green);
+    fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round
+  }
   .text-chip{
     height:22px;display:inline-flex;align-items:center;
     color:#33373b;font-size:10.5px;line-height:1;font-weight:700;white-space:nowrap
@@ -80,12 +84,12 @@
   .provides{font-size:12px;line-height:1.32;color:#34383a}
   .provides b{color:var(--green-deep);font-weight:800}
 
-  /* ---------- Right: delivered products ---------- */
+  /* ---------- Left: one-stop solution ---------- */
   .deliverables{
     min-width:0;min-height:0;border-top:2px solid var(--green);
     display:flex;flex-direction:column
   }
-  .deliverables .panel-head{
+  .deliverables .panel-head,.architecture .panel-head{
     padding:8px 0 8px 12px;border-left:3px solid var(--green-deep);
     background:var(--green-soft)
   }
@@ -116,20 +120,54 @@
 <main class="slide">
   <header>
     <div class="headline">
-      <h1>Olares: A <em>Natural-Language-Driven, Agent-Native OS</em></h1>
-      <div class="subtitle">An Android-inspired application model on a cloud-native PaaS and IaaS&mdash;delivered as one integrated product on hardware the user owns.</div>
+      <h1>One Complete Personal Cloud Solution, <em>Powered by a Five-Layer OS</em></h1>
+      <div class="subtitle">Olares combines everything users need with an open-source, cloud-native application OS&mdash;running on hardware they own.</div>
     </div>
   </header>
 
   <div class="body">
-    <!-- Left: 5-layer architecture -->
+    <!-- Left: one-stop solution -->
+    <aside class="deliverables">
+      <div class="panel-head">
+        <div class="kicker">One-stop solution</div>
+        <div class="panel-title">Everything users need, in one product</div>
+      </div>
+      <div class="product-list">
+        <div class="product">
+          <div class="shot"><img src="../assets/olares-one-stop-solution-assets/olares_os.png" alt="Olares OS desktop"></div>
+          <div class="meta"><h3>Olares OS</h3><p>The open-source, five-layer OS&mdash;the stack at right.</p></div>
+        </div>
+        <div class="product">
+          <div class="shot"><img src="../assets/olares-one-stop-solution-assets/clients.png" alt="Olares clients"></div>
+          <div class="meta"><h3>Clients</h3><p>Desktop, mobile, and browser extension.</p></div>
+        </div>
+        <div class="product">
+          <div class="shot"><img src="../assets/olares-one-stop-solution-assets/olares_space.png" alt="Olares Space console"></div>
+          <div class="meta"><h3>Olares Space</h3><p>Domain, networking, remote access, and backup.</p></div>
+        </div>
+        <div class="product">
+          <div class="shot"><img src="../assets/olares-one-stop-solution-assets/olares_market.png" alt="Olares Market"></div>
+          <div class="meta"><h3>Olares Market</h3><p>One-click install for 200+ apps.</p></div>
+        </div>
+        <div class="product">
+          <div class="shot"><img src="../assets/olares-one-stop-solution-assets/olares_cli.png" alt="Olares CLI in plain language"></div>
+          <div class="meta"><h3>Olares CLI &amp; Skills</h3><p>Manage Olares in plain language with agents.</p></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Right: 5-layer architecture -->
     <section class="architecture">
+      <div class="panel-head">
+        <div class="kicker">Olares OS architecture</div>
+        <div class="panel-title">Five layers, one integrated system</div>
+      </div>
       <article class="layer-row community">
         <div class="layer-head">
           <div class="group-label">Android-inspired application OS</div>
           <div class="layer-name">Community apps</div>
         </div>
-        <div class="provides"><b>One format for a local SaaS and AI ecosystem.</b> Installable apps inherit the same identity, storage and resource model.</div>
+        <div class="provides"><b>200+ apps, one consistent runtime.</b> Install AI, productivity, media and smart-home apps from Olares Market with one click.</div>
         <div class="app-grid">
           <span class="app-chip"><img src="../assets/olares-market-icons/lobechat.png">LobeChat</span>
           <span class="app-chip"><img src="../assets/olares-market-icons/dify.png">Dify</span>
@@ -154,7 +192,6 @@
           <span class="app-chip"><img src="../assets/olares-market-icons/control-hub.png">Control Hub</span>
           <span class="app-chip"><img src="../assets/olares-market-icons/vault.png">Vault</span>
           <span class="app-chip"><img src="../assets/olares-market-icons/wise.png">Wise</span>
-          <span class="app-chip"><img src="../assets/olares-homepage-assets/studio.png">Studio</span>
         </div>
       </article>
 
@@ -164,10 +201,11 @@
         </div>
         <div class="provides"><b>Apps become governed system citizens.</b> Lifecycle, permissions, SSO, entrances and inter-app calls are managed centrally.</div>
         <div class="stack-line">
-          <span class="stack-item"><img src="../assets/olares-stack-icons/authelia.png">Authelia</span>
-          <span class="stack-item"><img src="../assets/olares-stack-icons/lldap.png">LLDAP</span>
-          <span class="stack-item"><img src="../assets/olares-stack-icons/open-policy-agent.png">OPA</span>
-          <span class="stack-item"><img src="../assets/olares-stack-icons/envoy.png">Envoy</span>
+          <span class="stack-item"><svg class="capability-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 7v5h-5"/><path d="M4 17v-5h5"/><path d="M6.1 8a7 7 0 0 1 11.5-2.4L20 8"/><path d="M17.9 16a7 7 0 0 1-11.5 2.4L4 16"/></svg>Lifecycle</span>
+          <span class="stack-item"><svg class="capability-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3"/><path d="M6.5 19c.8-3.2 2.6-5 5.5-5s4.7 1.8 5.5 5"/><circle cx="12" cy="12" r="9"/></svg>Identity &amp; SSO</span>
+          <span class="stack-item"><svg class="capability-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.6 2.8 7.8 7 10 4.2-2.2 7-5.4 7-10V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg>Permissions</span>
+          <span class="stack-item"><svg class="capability-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="2.5"/><circle cx="19" cy="6" r="2.5"/><circle cx="19" cy="18" r="2.5"/><path d="m7.3 11 9.4-4M7.3 13l9.4 4"/></svg>Networking</span>
+          <span class="stack-item"><svg class="capability-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v5h5M10 12h5M10 16h5"/></svg>App Manifest</span>
         </div>
       </article>
 
@@ -179,12 +217,12 @@
         </div>
         <div class="provides"><b>Shared services instead of repeated plumbing.</b> Every app can reuse data, middleware, files, backup and observability.</div>
         <div class="stack-line">
-          <span class="stack-item"><img src="../assets/olares-stack-icons/postgresql.png">PostgreSQL</span>
-          <span class="stack-item"><img src="../assets/olares-stack-icons/kvrocks.png">KVRocks</span>
-          <span class="stack-item"><img src="../assets/olares-stack-icons/nats.png">NATS</span>
-          <span class="stack-item"><img src="../assets/olares-stack-icons/juicefs.png">JuiceFS</span>
-          <span class="stack-item"><img src="../assets/olares-stack-icons/prometheus.png">Prometheus</span>
-          <span class="stack-item"><img src="../assets/olares-stack-icons/velero.png">Velero</span>
+          <span class="stack-item"><img src="../assets/olares-stack-icons-transparent/postgresql.png">PostgreSQL</span>
+          <span class="stack-item"><img src="../assets/olares-stack-icons-transparent/kvrocks.png">KVRocks</span>
+          <span class="stack-item"><img src="../assets/olares-stack-icons-transparent/nats.png">NATS</span>
+          <span class="stack-item"><img src="../assets/olares-stack-icons-transparent/juicefs.png">JuiceFS</span>
+          <span class="stack-item"><img src="../assets/olares-stack-icons-transparent/prometheus.png">Prometheus</span>
+          <span class="stack-item"><img src="../assets/olares-stack-icons-transparent/velero.png">Velero</span>
         </div>
       </article>
 
@@ -195,45 +233,15 @@
         </div>
         <div class="provides"><b>Hardware becomes a schedulable resource plane.</b> Compute, storage, networking, nodes and accelerators are orchestrated together.</div>
         <div class="stack-line">
-          <span class="stack-item"><img src="../assets/olares-stack-icons/kubernetes.png">Kubernetes</span>
-          <span class="stack-item"><img src="../assets/olares-stack-icons/k3s.png">K3s</span>
-          <span class="stack-item"><img src="../assets/olares-stack-icons/containerd.png">containerd</span>
-          <span class="stack-item"><img src="../assets/olares-stack-icons/helm.png">Helm</span>
-          <span class="stack-item"><img src="../assets/olares-stack-icons/minio.png">MinIO</span>
-          <span class="stack-item"><img src="../assets/olares-stack-icons/hami.png">HAMi</span>
+          <span class="stack-item"><img src="../assets/olares-stack-icons-transparent/kubernetes.png">Kubernetes</span>
+          <span class="stack-item"><img src="../assets/olares-stack-icons-transparent/k3s.png">K3s</span>
+          <span class="stack-item"><img src="../assets/olares-stack-icons-transparent/containerd.png">containerd</span>
+          <span class="stack-item"><img src="../assets/olares-stack-icons-transparent/helm.png">Helm</span>
+          <span class="stack-item"><img src="../assets/olares-stack-icons-transparent/minio.png">MinIO</span>
+          <span class="stack-item"><img src="../assets/olares-stack-icons-transparent/hami.png">HAMi</span>
         </div>
       </article>
     </section>
-
-    <!-- Right: delivered products (merged from slide 7) -->
-    <aside class="deliverables">
-      <div class="panel-head">
-        <div class="kicker">One-stop solution</div>
-        <div class="panel-title">Delivered as one product</div>
-      </div>
-      <div class="product-list">
-        <div class="product">
-          <div class="shot"><img src="../assets/olares-one-stop-solution-assets/olares_os.png" alt="Olares OS desktop"></div>
-          <div class="meta"><h3>Olares OS</h3><p>The open-source, five-layer OS&mdash;the stack at left.</p></div>
-        </div>
-        <div class="product">
-          <div class="shot"><img src="../assets/olares-one-stop-solution-assets/clients.png" alt="Olares clients"></div>
-          <div class="meta"><h3>Clients</h3><p>Desktop, mobile, and browser extension.</p></div>
-        </div>
-        <div class="product">
-          <div class="shot"><img src="../assets/olares-one-stop-solution-assets/olares_space.png" alt="Olares Space console"></div>
-          <div class="meta"><h3>Olares Space</h3><p>Domain, networking, remote access, and backup.</p></div>
-        </div>
-        <div class="product">
-          <div class="shot"><img src="../assets/olares-one-stop-solution-assets/olares_market.png" alt="Olares Market"></div>
-          <div class="meta"><h3>Olares Market</h3><p>One-click install for 200+ apps.</p></div>
-        </div>
-        <div class="product">
-          <div class="shot"><img src="../assets/olares-one-stop-solution-assets/olares_cli.png" alt="Olares CLI in plain language"></div>
-          <div class="meta"><h3>Olares CLI &amp; Skills</h3><p>Manage Olares in plain language with agents.</p></div>
-        </div>
-      </div>
-    </aside>
   </div>
 </main>
 </body>

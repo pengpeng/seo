@@ -31,7 +31,7 @@ font-family: Inter, "Helvetica Neue", Arial, "PingFang SC", sans-serif;
 
 - 主标题短，副标题长；不要把一句完整结论硬塞成主标题。
 - 标题尽量单行；需要换行时按语义断行，禁止仅为填满空间换行。
-- 关键词可以使用 Olares green，其余保持墨黑。
+- 关键词可以使用 Intel blue，其余保持墨黑。
 - 不使用页码页签、文件名、章节编号来占据标题区。
 
 参考：
@@ -47,14 +47,14 @@ font-family: Inter, "Helvetica Neue", Arial, "PingFang SC", sans-serif;
 --muted: #6B7076;
 --line: #E7E6E1;
 --paper: #FAF9F6;
---accent: #2F6F4F;
---accent-deep: #1F5038;
---accent-soft: #EAF3EE;
+--accent: #0068b5;
+--accent-deep: #0a4a80;
+--accent-soft: #e6f0fb;
 --warning: #B07D2B;
 ```
 
-- 绿色只用于品牌关键词、重点数字、主方案和结构线。
-- 深绿用于连续侧栏，不拆成多张小卡。
+- 蓝色只用于品牌关键词、重点数字、主方案和结构线。
+- 深蓝用于连续侧栏，不拆成多张小卡。
 - 金色只用于风险、限制和需要改进，不用于普通强调。
 - 一页最多一个主强调色和一个风险色。
 
@@ -76,7 +76,7 @@ font-family: Inter, "Helvetica Neue", Arial, "PingFang SC", sans-serif;
 - 表头不做无意义换行；列宽不足时先删冗余说明，再调列宽。
 - 单元格只放决策需要的信息。完整价格口径、来源 URL 和测试边界进入 notes / references。
 - 数字范围统一使用 `~x–y`；价格统一使用 `$`，增量价格使用 `+$`。
-- 主方案可用浅绿整行强调；优化上限或非直接横比数据用浅灰弱化。
+- 主方案可用浅蓝整行强调；优化上限或非直接横比数据用浅灰弱化。
 
 ## 7. 两种标准布局
 
@@ -127,5 +127,5 @@ PPT 保留：
 - HTML 与 PNG 都按 `1280 × 720` 检查。
 - 主标题、副标题、表格和侧栏没有溢出。
 - 100% 缩放下能读清正文。
-- 同一组幻灯的标题基线、左右安全边距、绿色和字号一致。
+- 同一组幻灯的标题基线、左右安全边距、蓝色和字号一致。
 - 修改 PPT 文案后同步对应 Markdown；详细依据同步 references / script。

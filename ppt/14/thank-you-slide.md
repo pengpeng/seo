@@ -24,4 +24,4 @@ Peng Peng，Olares 创始人兼 CTO · olares.com
 ## 工作底稿（备查）
 
 - 封底页，沿用封面（第 1 页）的大标题 + intel × Olares 药丸 + 页脚结构。
-- accent 为 Olares 绿 `#2f6f4f`，与全套一致；"you" 用绿色强调。
+- accent 为 Intel 蓝 `#0068b5`，与全套一致；"you" 用蓝色强调。

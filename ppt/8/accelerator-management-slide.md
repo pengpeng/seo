@@ -8,7 +8,7 @@
 
 ### 标题
 
-**Unifies Heterogeneous AI Compute**（`Unifies` 绿色高亮）
+**Unifies Heterogeneous AI Compute**（`Unifies` 蓝色高亮）
 
 一套系统完成加速资源的发现、接入、调度、共享与可观测，同时让应用与底层硬件解耦。
 
@@ -42,7 +42,7 @@
 - 九个 AI runtimes 均有 Olares Market Manifest，但不共享同一兼容矩阵；KoboldCpp 的 chart 适用版本范围见 references。
 - Accelerator resources 与 Application allocation 使用一个共享 Grid；四组内容按自然高度使用 `auto` 行，每项统一为“小标题 + 一句话”，左右分隔线共用基线。
 - Application allocation 的四项为专属镜像与资源范围、安装或启动时选择单卡/多卡/多节点资源、自动资源管理，以及全 UI 操作与反馈。
-- 下方两个绿色 comment kicker 删除，只保留黑色主标题。
+- 下方两个蓝色 comment kicker 删除，只保留黑色主标题。
 - 下方右 comment box 采用 50/50：左半由时间分片独占并讲音乐专辑循环；右半上方为显存分片、下方为独占。
 - 本页不展示 Agent & Software；完整架构留到下一页。
 - 下方左 box 跨加速计算资源 + Accelerator resources，右 box 跨 Application allocation + Models & AI Runtimes。

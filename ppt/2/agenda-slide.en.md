@@ -21,5 +21,5 @@
 
 ## Working notes
 
-- Minimal table of contents: title + three green-numbered items.
-- Numbers `01–03` in green accent; item titles in ink.
+- Minimal table of contents: title + three blue-numbered items.
+- Numbers `01–03` in blue accent; item titles in ink.

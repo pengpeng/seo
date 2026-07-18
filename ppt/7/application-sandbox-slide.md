@@ -8,7 +8,7 @@
 
 ### 标题
 
-主标题：**Sandboxes Every User, Application and Agent**（`Sandboxes` 绿色高亮）
+主标题：**Sandboxes Every User, Application and Agent**（`Sandboxes` 蓝色高亮）
 
 副标题：One multi-user device — users, applications and Agents run side by side, isolated by default and granted only what they declare.
 
@@ -95,7 +95,7 @@
 - 能力块之间主要依靠留白、对齐与少量细线分组，不使用卡片、背景色或每行贯穿整栏的分隔线。
 - Files 从 9 点压缩成 6 点；Sync / Cloud / External 合并为 Connected storage，Sharing 与 PC-grade Files 合并。
 - 不设置页脚；Declarative policy 只保留在逐字稿与内部笔记中，不再占用主画面。
-- 全页只讲功能特点，统一中性配色，不使用深绿色块或任何独立配色容器。
+- 全页只讲功能特点，统一中性配色，不使用深蓝色块或任何独立配色容器。
 - 主要依赖字重、编号、细分隔线与对齐建立层级，不堆圆角卡片。
 - HTML 与最终导出全部使用英文，中文 MD 仅作为事实源。
 

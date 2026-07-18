@@ -33,5 +33,5 @@
 ## Working notes
 
 - Short title and 14px subtitle above one continuous three-column audience band.
-- Full-width 4×4 ecosystem table below; app names and structural rules use Olares green.
+- Full-width 4×4 ecosystem table below; app names and structural rules use Olares blue.
 - Visible text stays at or above the 10.5px design-system minimum.
